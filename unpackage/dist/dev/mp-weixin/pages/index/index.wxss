@@ -1,0 +1,39 @@
+.content.data-v-57280228 {
+  width: 750rpx;
+  height: 100%;
+}
+.content .text-area.data-v-57280228 {
+  display: flex;
+  justify-content: center;
+  margin: 20rpx 0 20rpx 0;
+  color: #8f8f94;
+  font-size: 20px;
+}
+.content .aiList_box.data-v-57280228 {
+  display: flex;
+  width: 100%;
+  margin-top: 40rpx;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.content .aiList_box .aiList_item.data-v-57280228 {
+  width: 43%;
+  border: #8f8f94 1px solid;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+.content .aiList_box .aiList_img.data-v-57280228 {
+  text-align: center;
+  width: 150rpx;
+  height: 150rpx;
+}
+.content .aiList_box .aiList_name.data-v-57280228 {
+  font-size: 24rpx;
+  text-align: center;
+  color: #1989fa;
+  padding: 20rpx;
+}
+

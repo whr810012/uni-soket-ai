@@ -3,7 +3,15 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "选择语言模型"
+			}
+		},
+		{
+			"path" : "pages/xunfei-ai/xunfei-ai",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
 			}
 		}
 	],
