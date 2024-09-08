@@ -75,7 +75,7 @@ export default {
 <style lang="less" scoped>
 .index {
     width: 750rpx;
-    height: 100%;
+    height: 100vh;
     background-color: #fff;
 
     .top {
@@ -83,7 +83,7 @@ export default {
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 70rpx;
+        height: 8vh;
         background-color: rgb(174, 174, 172);
         font-family: Arial, Helvetica, sans-serif;
         font-size: 30rpx;
@@ -93,12 +93,12 @@ export default {
     .content {
         height: 80vh;
         background-color: #fff;
-        padding-bottom: 20rpx;
+        // padding-bottom: 20rpx;
 
         .dialogue_item {
             width: 100%;
             padding-top: 20rpx;
-
+            padding-bottom: 20rpx;
             .user {
                 display: flex;
                 justify-content: flex-start;
@@ -144,7 +144,7 @@ export default {
     .send_box {
         border-top: 1px solid #a1a0a0;
         width: 750rpx;
-        height: 120rpx;
+        height: 12vh;
         // background-color: rgb(186, 186, 187);
         display: flex;
         align-items: center;
@@ -160,6 +160,7 @@ export default {
 
         button {
             margin: 0%;
+            max-height: 10vh;
         }
     }
 }

@@ -1,6 +1,6 @@
 .index.data-v-8e5cc878 {
   width: 750rpx;
-  height: 100%;
+  height: 100vh;
   background-color: #fff;
 }
 .index .top.data-v-8e5cc878 {
@@ -8,7 +8,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 70rpx;
+  height: 8vh;
   background-color: #aeaeac;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30rpx;
@@ -17,11 +17,11 @@
 .index .content.data-v-8e5cc878 {
   height: 80vh;
   background-color: #fff;
-  padding-bottom: 20rpx;
 }
 .index .content .dialogue_item.data-v-8e5cc878 {
   width: 100%;
   padding-top: 20rpx;
+  padding-bottom: 20rpx;
 }
 .index .content .dialogue_item .user.data-v-8e5cc878 {
   display: flex;
@@ -59,7 +59,7 @@
 .index .send_box.data-v-8e5cc878 {
   border-top: 1px solid #a1a0a0;
   width: 750rpx;
-  height: 120rpx;
+  height: 12vh;
   display: flex;
   align-items: center;
 }
@@ -73,5 +73,6 @@
 }
 .index .send_box button.data-v-8e5cc878 {
   margin: 0%;
+  max-height: 10vh;
 }
 
