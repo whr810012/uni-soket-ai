@@ -1,7 +1,7 @@
 <template>
     <view class="index">
         <view class="top">{{ data.name || 'AI助手~' }}</view>
-        <scroll-view scroll-y class="content" scroll-into-view="{{scrollIntoView}}">
+        <scroll-view scroll-y class="content" :scroll-into-view="scrollIntoView">
             <view class="dialogue_item" :id="'dialogue_item-'+index" v-for="(item, index) in dialogueList" :key="index">
                 <view class="user" v-if="item.role === 'assistant'">
                     <image src="https://so1.360tres.com/t018f408d11d2b5d951.jpg">
