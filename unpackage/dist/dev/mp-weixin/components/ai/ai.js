@@ -76,15 +76,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "recyclableRender", function() { return recyclableRender; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "components", function() { return components; });
-var components
-var render = function () {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-}
-var recyclableRender = false
+var render = function () {}
 var staticRenderFns = []
-render._withStripped = true
+var recyclableRender
+var components
 
 
 
@@ -114,7 +109,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {
+
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -153,27 +148,19 @@ var _default = {
   data: function data() {
     return {
       dialogueList: [],
-      usercontent: ''
+      usercontent: '',
+      scrollIntoView: '',
+      disabled: false
     };
   },
   methods: {
     scrollToBottom: function scrollToBottom() {
-      var _this = this;
-      this.$nextTick(function () {
-        var query = uni.createSelectorQuery().in(_this);
-        query.select('.content').boundingClientRect(function (data) {
-          console.log(data, 'data');
-          var pageScrollTop = Math.round(data.height);
-          uni.pageScrollTo({
-            scrollTop: pageScrollTop,
-            //滚动的距离
-            duration: 0 //过渡时间
-          });
-        }).exec();
-      });
+      console.log("dialogue_item-".concat(this.dialogueList.length - 1));
+      this.scrollIntoView = "dialogue_item-".concat(this.dialogueList.length - 1);
     },
     send: function send() {
-      var _this2 = this;
+      var _this = this;
+      this.disabled = true;
       this.dialogueList.push({
         role: 'user',
         content: this.usercontent
@@ -187,8 +174,9 @@ var _default = {
       if (this.data.class === 'xunfei') {
         (0, _ai.xunfeisendai)(data, password).then(function (res) {
           res.choices.map(function (item) {
-            _this2.dialogueList.push(item.message);
+            _this.dialogueList.push(item.message);
           });
+          _this.disabled = false;
         });
       }
     }
@@ -200,7 +188,6 @@ var _default = {
   }
 };
 exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
 

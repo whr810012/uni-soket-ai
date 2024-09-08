@@ -17,7 +17,6 @@
 .index .content.data-v-8e5cc878 {
   height: 80vh;
   background-color: #fff;
-  overflow-y: auto;
   padding-bottom: 20rpx;
 }
 .index .content .dialogue_item.data-v-8e5cc878 {

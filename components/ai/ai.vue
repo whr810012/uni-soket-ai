@@ -1,8 +1,8 @@
 <template>
     <view class="index">
         <view class="top">{{ data.name || 'AI助手~' }}</view>
-        <view class="content" ref="content">
-            <view class="dialogue_item" v-for="(item, index) in dialogueList" :key="index">
+        <scroll-view scroll-y class="content" scroll-into-view="{{scrollIntoView}}">
+            <view class="dialogue_item" :id="'dialogue_item-'+index" v-for="(item, index) in dialogueList" :key="index">
                 <view class="user" v-if="item.role === 'assistant'">
                     <image src="https://so1.360tres.com/t018f408d11d2b5d951.jpg">
                     </image>
@@ -16,10 +16,10 @@
                     </image>
                 </view>
             </view>
-        </view>
+        </scroll-view>
         <view class="send_box">
             <input type="text" v-model="usercontent" placeholder="请输入内容">
-            <button @click="send">发送</button>
+            <button @click="send" :disabled="disabled">发送</button>
         </view>
     </view>
 </template>
@@ -32,27 +32,18 @@ export default {
     data() {
         return {
             dialogueList: [],
-            usercontent: ''
+            usercontent: '',
+            scrollIntoView:'',
+            disabled:false
         }
     },
     methods: {
         scrollToBottom() {
-            this.$nextTick(() => {
-                const query = uni.createSelectorQuery().in(this)
-                query
-                    .select('.content')
-                    .boundingClientRect((data) => {
-                        console.log(data, 'data')
-                        let pageScrollTop = Math.round(data.height)
-                        uni.pageScrollTo({
-                            scrollTop: pageScrollTop, //滚动的距离
-                            duration: 0, //过渡时间
-                        })
-                    })
-                    .exec()
-            });
+            console.log(`dialogue_item-${this.dialogueList.length - 1}`);
+            this.scrollIntoView = `dialogue_item-${this.dialogueList.length - 1}`
         },
         send() {
+            this.disabled = true
             this.dialogueList.push({
                 role: 'user',
                 content: this.usercontent
@@ -68,6 +59,7 @@ export default {
                     res.choices.map(item => {
                         this.dialogueList.push(item.message)
                     })
+                    this.disabled = false
                 })
             }
         }
@@ -101,7 +93,6 @@ export default {
     .content {
         height: 80vh;
         background-color: #fff;
-        overflow-y: auto;
         padding-bottom: 20rpx;
 
         .dialogue_item {
