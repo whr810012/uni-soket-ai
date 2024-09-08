@@ -1,6 +1,6 @@
 <template>
 	<view class="index">
-		<aiIndex :title="title" :sence="sence" />
+		<aiIndex v-if="data" :data="data" />
 	</view>
 </template>
 
@@ -10,15 +10,12 @@ export default {
 	components:{aiIndex},
 	data() {
 		return {
-			sence: null,
-			title:''
+			data:null
 		};
 	},
 	onLoad(option) {
-		const data = JSON.parse(decodeURIComponent(option.data))
-		console.log(data);
-		this.sence = data.sence
-		this.title = data.name
+		 this.data = JSON.parse(decodeURIComponent(option.data))
+		 console.log(this.data);
 	}
 }
 </script>

@@ -9651,11 +9651,7 @@ uni.addInterceptor({
 /* 37 */,
 /* 38 */,
 /* 39 */,
-/* 40 */,
-/* 41 */,
-/* 42 */,
-/* 43 */,
-/* 44 */
+/* 40 */
 /*!*******************************************!*\
   !*** D:/CODE/uni-soket-ai/util/aiList.js ***!
   \*******************************************/
@@ -9671,16 +9667,95 @@ Object.defineProperty(exports, "__esModule", {
 exports.aiList = void 0;
 var aiList = [{
   url: "https://so1.360tres.com/t018f408d11d2b5d951.jpg",
-  name: '讯飞星火（Spark Pro）',
-  class: 'xunfei',
-  model: 'Spark Pro'
+  name: "讯飞星火（Spark Lite）",
+  class: "xunfei",
+  model: "general",
+  password: 'nYxBEOjRaJxYagihmRdf:jKkYqXLnfFiuHEQjBUky'
 }, {
-  url: 'https://so1.360tres.com/t018f408d11d2b5d951.jpg',
-  name: '讯飞星火（Spark Max）',
-  class: 'xunfei',
-  model: 'Spark Max'
+  url: "https://so1.360tres.com/t018f408d11d2b5d951.jpg",
+  name: "讯飞星火（Spark Pro）",
+  class: "xunfei",
+  model: "generalv3",
+  password: 'LVXwPZWHqVlcrmxuUwMv:jdukpwNfvZxkDINMVJpr'
+}, {
+  url: "https://so1.360tres.com/t018f408d11d2b5d951.jpg",
+  name: "讯飞星火（Spark Pro-128K）",
+  class: "xunfei",
+  model: "pro-128k",
+  password: 'hLDIpAjevbTlcNApYzZV:xetxKqTJOnsZDYwYHGcr'
+}, {
+  url: "https://so1.360tres.com/t018f408d11d2b5d951.jpg",
+  name: "讯飞星火（Spark Max）",
+  class: "xunfei",
+  model: "generalv3.5",
+  password: 'VjryANzhIJhBkKMtSfar:RtudQoWRiDSZmfncfDcw'
+}, {
+  url: "https://so1.360tres.com/t018f408d11d2b5d951.jpg",
+  name: "讯飞星火（Spark 4.0 Uitra）",
+  class: "xunfei",
+  model: "4.0Ultra",
+  password: 'ygeZveEAgsJNMpuONGxs:MSHuBcWaCEjLIdAdGhkZ'
 }];
 exports.aiList = aiList;
+
+/***/ }),
+/* 41 */,
+/* 42 */,
+/* 43 */,
+/* 44 */,
+/* 45 */,
+/* 46 */,
+/* 47 */,
+/* 48 */,
+/* 49 */,
+/* 50 */,
+/* 51 */,
+/* 52 */,
+/* 53 */,
+/* 54 */,
+/* 55 */,
+/* 56 */,
+/* 57 */,
+/* 58 */,
+/* 59 */,
+/* 60 */,
+/* 61 */,
+/* 62 */
+/*!**************************************!*\
+  !*** D:/CODE/uni-soket-ai/api/ai.js ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.xunfeisendai = void 0;
+var xunfeisendai = function xunfeisendai(data, password) {
+  return new Promise(function (resolve, reject) {
+    uni.request({
+      url: 'https://spark-api-open.xf-yun.com/v1/chat/completions',
+      data: data,
+      header: {
+        "Authorization": "Bearer " + password
+      },
+      timeout: 100000,
+      method: 'post',
+      success: function success(res) {
+        resolve(res.data);
+      },
+      fail: function fail(err) {
+        reject(err);
+      },
+      complete: function complete() {}
+    });
+  });
+};
+exports.xunfeisendai = xunfeisendai;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ })
 ]]);

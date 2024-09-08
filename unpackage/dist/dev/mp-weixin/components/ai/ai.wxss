@@ -15,9 +15,9 @@
   color: #fff;
 }
 .index .content.data-v-8e5cc878 {
-  height: calc(100% - 210rpx);
+  height: 80vh;
   background-color: #fff;
-  overflow: auto;
+  overflow-y: auto;
   padding-bottom: 20rpx;
 }
 .index .content .dialogue_item.data-v-8e5cc878 {
@@ -32,7 +32,7 @@
 .index .content .dialogue_item .user .user_content.data-v-8e5cc878 {
   padding: 10rpx 20rpx 10rpx 20rpx;
   margin-left: 20rpx;
-  background-color: #f3f3f3;
+  background: linear-gradient(to right, #f0caca, #f6b0b0);
   padding: 10rpx;
   border-radius: 10rpx;
   max-width: 550rpx;
@@ -45,7 +45,7 @@
 .index .content .dialogue_item .ai .ai_content.data-v-8e5cc878 {
   padding: 10rpx 20rpx 10rpx 20rpx;
   margin-right: 20rpx;
-  background-color: #f3f3f3;
+  background-color: #d4d0d0;
   padding: 10rpx;
   border-radius: 10rpx;
   max-width: 550rpx;
@@ -58,7 +58,21 @@
   border-radius: 50%;
 }
 .index .send_box.data-v-8e5cc878 {
-  height: 140rpx;
-  background-color: blue;
+  border-top: 1px solid #a1a0a0;
+  width: 750rpx;
+  height: 120rpx;
+  display: flex;
+  align-items: center;
+}
+.index .send_box input.data-v-8e5cc878 {
+  height: 80rpx;
+  border: 1px solid #6e6e6e;
+  border-radius: 60rpx;
+  width: 500rpx;
+  margin: 0 40rpx;
+  padding-left: 20rpx;
+}
+.index .send_box button.data-v-8e5cc878 {
+  margin: 0%;
 }
 
