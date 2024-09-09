@@ -2,7 +2,7 @@
 export const xunfeisendai = ( data, password) => {
   return new Promise((resolve, reject) => {
     uni.request({
-      url: 'https://spark-api-open.xf-yun.com/v1/chat/completions',
+      url: '/api/v1/chat/completions',
       data,
       header:{
         "Authorization": "Bearer " + password
