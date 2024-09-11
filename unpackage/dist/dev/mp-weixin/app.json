@@ -1,7 +1,8 @@
 {
   "pages": [
+    "pages/map/map",
     "pages/index/index",
-    "pages/xunfei-ai/xunfei-ai"
+    "pages/ai/ai"
   ],
   "subPackages": [],
   "window": {

@@ -1,0 +1,1 @@
+<view class="index data-v-f5844974"><block wx:if="{{data}}"><ai-index vue-id="227e0e80-1" data="{{data}}" class="data-v-f5844974" bind:__l="__l"></ai-index></block></view>

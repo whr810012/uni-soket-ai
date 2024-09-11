@@ -1,0 +1,1 @@
+<view class="map data-v-0b31f540"><map class="map data-v-0b31f540 vue-ref" id="mapId" show-location="{{true}}" min-scale="{{15}}" data-ref="mapRef"></map></view>
