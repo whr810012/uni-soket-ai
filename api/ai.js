@@ -10,12 +10,12 @@ export const xunfeisendai = ( data, password) => {
       timeout: 100000,
       method: 'post',
       success: (res) => {
-          resolve(res.data);
+          resolve(res.data)
       },
       fail: (err) => {
-        reject(err);
+        reject(err)
       },
       complete: () => {},
-    });
-  });
-};
+    })
+  })
+}
