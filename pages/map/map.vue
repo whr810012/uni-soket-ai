@@ -7,11 +7,11 @@
       :show-location="true"
       :min-scale="15"
     ></map>
-<!--    <u-popup :show="popupShow" :round="10" mode="top" @close="close" @open="open">
+   <u-popup :show="popupShow" :round="10" mode="top" @close="close" @open="open">
       <view>
         <text>人生若只如初见，何事秋风悲画扇</text>
       </view>
-    </u-popup> -->
+    </u-popup>
   </view>
 </template>
 <script>
