@@ -1,6 +1,6 @@
 // 计算两点间距离
 export const space = (lat1, lng1, lat2, lng2) => {
-	console.log(lat1, lng1, lat2, lng2)
+	// console.log(lat1, lng1, lat2, lng2)
 	var radLat1 = lat1 * Math.PI / 180.0;
 	var radLat2 = lat2 * Math.PI / 180.0;
 	var a = radLat1 - radLat2;

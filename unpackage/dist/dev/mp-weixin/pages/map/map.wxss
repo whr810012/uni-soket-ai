@@ -4,4 +4,18 @@
   position: relative;
   background-color: #b4b4b4;
 }
+.map .scroll_sh.data-v-0b31f540 {
+  width: 90%;
+  margin-left: 5%;
+  border: 1px solid #b4b4b4;
+}
+.map .scroll_sh .scroll_item.data-v-0b31f540 {
+  max-width: 100%;
+  padding: 10rpx;
+  border-bottom: 1px solid #b4b4b4;
+}
+.map .scroll_sh .scroll_item .text.data-v-0b31f540 {
+  max-width: 400rpx;
+  min-width: 400rpx;
+}
 
