@@ -7,18 +7,21 @@
       :show-location="true"
       :min-scale="15"
     ></map>
-   <u-popup :show="popupShow" :round="10" mode="top" @close="close" @open="open">
-      <view>
-        <text>人生若只如初见，何事秋风悲画扇</text>
-      </view>
+   <u-popup height="300" :show="popupShow" :round="10" mode="center" @close="close" @open="open">
+      <scroll-view scroll-y style="height:500rpx">
+        <view v-for="item in universityList" :key="item.name">{{ item.name }}</view>
+      </scroll-view>
     </u-popup>
   </view>
 </template>
 <script>
+import {universityList} from '../../util/universityList'
+import {space} from '../../util/utils'
 export default {
   data() {
     return {
       popupShow: true,
+      universityList
     };
   },
   methods: {
@@ -29,6 +32,20 @@ export default {
       this.popupShow = false;
     },
   },
+  onLoad(){
+    console.log('onload',this.universityList);
+    uni.getLocation({
+      type: 'wgs84',
+      success: function (res) {
+        console.log('当前位置的经度：' + res.longitude);
+        console.log('当前位置的纬度：' + res.latitude);
+      }
+    });
+    this.universityList.map(item => {
+		// console.log(item);
+    
+	})
+  }
 };
 </script>
 <style lang="less" scoped>
