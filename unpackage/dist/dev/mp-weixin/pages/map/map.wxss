@@ -4,6 +4,20 @@
   position: relative;
   background-color: #b4b4b4;
 }
+.map .icon_shcool.data-v-0b31f540 {
+  width: 80rpx;
+  height: 80rpx;
+  padding: 20rpx;
+  position: absolute;
+  top: 100rpx;
+  right: 0px;
+  background-color: aliceblue;
+  border-radius: 40rpx 0 0 40rpx;
+  border: 1px solid #b4b4b4;
+}
+.map .icon_shcool_active.data-v-0b31f540 {
+  padding-right: 50rpx;
+}
 .map .scroll_sh.data-v-0b31f540 {
   width: 90%;
   margin-left: 5%;

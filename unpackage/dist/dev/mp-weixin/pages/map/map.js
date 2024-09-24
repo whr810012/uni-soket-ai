@@ -137,6 +137,11 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
+  if (!_vm._isMounted) {
+    _vm.e0 = function ($event) {
+      _vm.popupShow = true
+    }
+  }
 }
 var recyclableRender = false
 var staticRenderFns = []
@@ -181,6 +186,7 @@ var _regenerator = _interopRequireDefault(__webpack_require__(/*! @babel/runtime
 var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ 57));
 var _universityList = __webpack_require__(/*! ../../util/universityList */ 174);
 var _utils = __webpack_require__(/*! ../../util/utils */ 175);
+//
 //
 //
 //
@@ -280,6 +286,7 @@ var _default = {
               return uni.getLocation({
                 type: 'wgs84',
                 success: function success(res) {
+                  var _this3 = this;
                   console.log('当前位置的经度：' + res.longitude);
                   console.log('当前位置的纬度：' + res.latitude);
                   var minLength = 100000000000000000000;
@@ -287,10 +294,12 @@ var _default = {
                     // console.log(item);
                     if (item.location) {
                       var length = (0, _utils.space)(res.latitude, res.longitude, item.location.lat, item.location.lng);
-                      // console.log(length);
                       if (length < minLength) {
                         minLength = length;
                         that.chooseShooleInfo = item;
+                        _this3.checkSchoolLng = item.location.lng;
+                        _this3.checkSchoolLat = item.location.lat;
+                        console.log('最终的位置', _this3.checkSchoolLat, _this3.checkSchoolLng);
                         that.chooseShoole = item.name + '(ai智能推断)';
                       }
                     }

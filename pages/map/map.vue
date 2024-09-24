@@ -1,6 +1,7 @@
 <template>
 	<view class="map">
-		<map id="mapId" ref="mapRef" class="map" :show-location="true" :min-scale="15"></map>
+		<map :longitude="checkSchoolLng" :latitude="checkSchoolLat" id="mapId" ref="mapRef" class="map" :show-location="true" :min-scale="15"></map>
+		<image @click="popupShow = true" class="icon_shcool" :class="popupShow ? 'icon_shcool icon_shcool_active' : 'icon_shcool'" src="../../static/icons/icon_school.svg" mode=""></image>
 		<u-popup height="300" width="300" style="max-width: 500rpx; min-width:500rpx ;" :show="popupShow" :round="10"
 			mode="center" @close="close" @open="open">
 			<view style="display: flex;align-items: center; margin: 20rpx 10rpx;">
@@ -105,10 +106,12 @@
 						if (item.location) {
 							const length = space(res.latitude, res.longitude, item.location.lat,
 								item.location.lng)
-							// console.log(length);
 							if (length < minLength) {
 								minLength = length
 								that.chooseShooleInfo = item
+								this.checkSchoolLng = item.location.lng
+								this.checkSchoolLat = item.location.lat
+								console.log('最终的位置', this.checkSchoolLat, this.checkSchoolLng);
 								that.chooseShoole = item.name + '(ai智能推断)'
 							}
 						}
@@ -130,6 +133,20 @@
 		height: calc(100vh - 52px);
 		position: relative;
 		background-color: #b4b4b4;
+		.icon_shcool{
+			width: 80rpx;
+			height: 80rpx;
+			padding: 20rpx;
+			position: absolute;
+			top: 100rpx;
+			right:0px;
+			background-color: aliceblue;
+			border-radius: 40rpx 0 0 40rpx;
+			border: 1px solid #b4b4b4;
+		}
+		.icon_shcool_active{
+			padding-right: 50rpx;
+		}
 
 		.scroll_sh {
 			width: 90%;
