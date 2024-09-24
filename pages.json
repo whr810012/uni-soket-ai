@@ -5,7 +5,7 @@
 	"pages": [{
 			"path": "pages/map/map",
 			"style": {
-				"navigationBarTitleText": "",
+				"navigationBarTitleText": "校园地图",
 				"enablePullDownRefresh": false
 			}
 		},
@@ -29,5 +29,17 @@
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
 	},
-	"uniIdRouter": {}
+	"uniIdRouter": {},
+
+	"tabBar": {
+		"selectedColor": "#292C35",
+		"backgroundColor": "rgba(255, 255, 255, 0.92)",
+		"borderStyle": "white",
+		"list": [{
+			"pagePath": "pages/map/map"
+		}, {
+			"pagePath": "pages/index/index"
+		}]
+	}
+
 }

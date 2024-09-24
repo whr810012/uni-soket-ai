@@ -1,9 +1,11 @@
 {
-  "navigationBarTitleText": "",
+  "navigationBarTitleText": "校园地图",
   "enablePullDownRefresh": false,
   "usingComponents": {
     "u-popup": "/uni_modules/uview-ui/components/u-popup/u-popup",
     "u-input": "/uni_modules/uview-ui/components/u-input/u-input",
-    "u-loading-page": "/uni_modules/uview-ui/components/u-loading-page/u-loading-page"
+    "u-loading-page": "/uni_modules/uview-ui/components/u-loading-page/u-loading-page",
+    "u-tabbar": "/uni_modules/uview-ui/components/u-tabbar/u-tabbar",
+    "u-tabbar-item": "/uni_modules/uview-ui/components/u-tabbar-item/u-tabbar-item"
   }
 }

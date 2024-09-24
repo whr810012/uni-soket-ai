@@ -20,6 +20,11 @@
 			</view>
 		</u-popup>
 		<u-loading-page loading-text="正在定位您的学校,请稍等..." :loading="loadingshow"></u-loading-page>
+		<u-tabbar style="position: absolute;bottom: 0;width: 750rpx;z-index: 100000;" :value="tabbar" :fixed="true"
+			@change="changeTabbar" :safeAreaInsetBottom="false" :placeholder="false">
+			<u-tabbar-item :text="item.text" :icon="item.icon" v-for="item in tabbarList"
+				:key="item.index"></u-tabbar-item>
+		</u-tabbar>
 	</view>
 </template>
 <script>
@@ -37,7 +42,21 @@
 				searchSchool: '',
 				chooseShoole: '',
 				chooseShooleInfo: null,
-				loadingshow: false
+				loadingshow: false,
+				tabbarList: [{
+						text: '地图',
+						icon: 'home',
+						index: 0,
+						url: '/pages/map/map'
+					},
+					{
+						text: 'Ai',
+						icon: 'ai',
+						index: 1,
+						url: '/pages/index/index'
+					}
+				],
+				tabbar: 0
 			};
 		},
 		methods: {
@@ -50,6 +69,17 @@
 			clickSchool(row) {
 				this.chooseShoole = row.name
 				this.chooseShooleInfo = row
+			},
+			changeTabbar(row) {
+				if (row === 0) {
+					uni.switchTab({
+						url: `/pages/map/map`,
+					})
+				} else if (row === 1){
+					uni.switchTab({
+						url: `/pages/index/index`,
+					})
+				}
 			}
 		},
 		computed: {
@@ -97,7 +127,7 @@
 <style lang="less" scoped>
 	.map {
 		width: 100%;
-		height: 100vh;
+		height: calc(100vh - 52px);
 		position: relative;
 		background-color: #b4b4b4;
 

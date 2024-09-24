@@ -143,7 +143,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var aiIndex = function aiIndex() {
   Promise.all(/*! require.ensure | components/ai/ai */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/ai/ai")]).then((function () {
-    return resolve(__webpack_require__(/*! ../../components/ai/ai */ 210));
+    return resolve(__webpack_require__(/*! ../../components/ai/ai */ 226));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var _default = {

@@ -10,6 +10,9 @@
   font-size: 20px;
 }
 .content .aiList_box.data-v-57280228 {
+  height: calc(100vh - 52px);
+}
+.content .aiList_box .aiList_box_items.data-v-57280228 {
   display: flex;
   width: 100%;
   margin-top: 40rpx;
