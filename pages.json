@@ -5,8 +5,7 @@
 	"pages": [{
 			"path": "pages/map/map",
 			"style": {
-				"navigationBarTitleText": "校园地图",
-				"enablePullDownRefresh": false
+				"navigationBarTitleText": "校园地图"
 			}
 		},
 		{
