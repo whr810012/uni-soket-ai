@@ -1,6 +1,6 @@
 <template>
 	<view class="map">
-		<map :longitude="checkSchoolLng" :latitude="checkSchoolLat" id="mapId" ref="mapRef" class="map" :show-location="true" :min-scale="15"></map>
+		<map v-if="forceRefresh" key="MPDBZ-HC2KL-J5ZPP-MZIQD-5C22S-MBFB5" :longitude="longitude" :latitude="latitude" id="mapId" ref="mapRef" class="map" :show-location="true" :min-scale="15" :scale="myScale"></map>
 		<image @click="popupShow = true" class="icon_shcool" :class="popupShow ? 'icon_shcool icon_shcool_active' : 'icon_shcool'" src="../../static/icons/icon_school.svg" mode=""></image>
 		<u-popup height="300" width="300" style="max-width: 500rpx; min-width:500rpx ;" :show="popupShow" :round="10"
 			mode="center" @close="close" @open="open">
@@ -38,6 +38,8 @@
 	export default {
 		data() {
 			return {
+				latitude: 36.66490086882746,
+				longitude: 117.08660055611418,
 				popupShow: false,
 				universityList,
 				searchSchool: '',
@@ -57,7 +59,9 @@
 						url: '/pages/index/index'
 					}
 				],
-				tabbar: 0
+				tabbar: 0,
+				forceRefresh: false,
+				myScale:18
 			};
 		},
 		methods: {
@@ -70,6 +74,12 @@
 			clickSchool(row) {
 				this.chooseShoole = row.name
 				this.chooseShooleInfo = row
+				this.latitude = row.location.lat
+				this.longitude = row.location.lng
+				this.forceRefresh = false;
+				this.$nextTick(() => {
+					this.forceRefresh = true;
+				})
 			},
 			changeTabbar(row) {
 				if (row === 0) {
@@ -109,16 +119,22 @@
 							if (length < minLength) {
 								minLength = length
 								that.chooseShooleInfo = item
-								this.checkSchoolLng = item.location.lng
-								this.checkSchoolLat = item.location.lat
-								console.log('最终的位置', this.checkSchoolLat, this.checkSchoolLng);
-								that.chooseShoole = item.name + '(ai智能推断)'
 							}
 						}
 						if (index === that.filterSchoolList.length - 1) {
 							that.loadingshow = false
 							that.popupShow = true
 							console.log('res', that.chooseShooleInfo);
+							that.longitude = that.chooseShooleInfo.location.lng
+							that.latitude = that.chooseShooleInfo.location.lat
+							console.log('最终的位置', that.latitude, that.longitude);
+							that.chooseShoole = that.chooseShooleInfo.name + '(ai智能推断)'
+							// 刷新组件
+							// this.$refs.mapRef.refresh()
+							that.forceRefresh = false;
+							that.$nextTick(() => {
+								that.forceRefresh = true;
+							})
 						}
 					})
 				}
