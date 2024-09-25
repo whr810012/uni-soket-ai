@@ -34,5 +34,14 @@ export const aiList = [
     class: "xunfei",
     model: "4.0Ultra",
 	password:'ygeZveEAgsJNMpuONGxs:MSHuBcWaCEjLIdAdGhkZ'
+  },
+  {
+	  url:"https://www.aitool6.com/wp-content/uploads/2023/06/9557d1-13.png",
+	  name:"文心一言",
+	  class:"wenxin",
+	  model:"ERNIE",
+	  client_id:"NOmMXwgcqRGLGy6UuqBSvbd8",
+	  client_secret:"ALKWzzz2HTGpEn4mOTxqwPQd5WakeCkf"
   }
 ];
+

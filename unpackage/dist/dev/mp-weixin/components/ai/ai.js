@@ -114,7 +114,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
+/* WEBPACK VAR INJECTION */(function(uni) {
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -170,6 +170,7 @@ var _default = {
         role: 'user',
         content: this.usercontent
       });
+      uni.setStorageSync(this.data.model, this.dialogueList);
       this.usercontent = '';
       var data = {
         model: this.data.model,
@@ -181,7 +182,19 @@ var _default = {
           res.choices.map(function (item) {
             _this.dialogueList.push(item.message);
           });
+          uni.setStorageSync(_this.data.model, _this.dialogueList);
           _this.disabled = false;
+        });
+      } else if (this.data.class === 'wenxin') {
+        (0, _ai.getass_token)(this.data.client_id, this.data.client_secret).then(function (res) {
+          (0, _ai.wenxinsendai)(data, res).then(function (r) {
+            _this.dialogueList.push({
+              role: 'assistant',
+              content: r
+            });
+            uni.setStorageSync(_this.data.model, _this.dialogueList);
+            _this.disabled = false;
+          });
         });
       }
     }
@@ -190,9 +203,13 @@ var _default = {
     dialogueList: function dialogueList() {
       this.scrollToBottom();
     }
+  },
+  created: function created() {
+    this.dialogueList = uni.getStorageSync(this.data.model) || [];
   }
 };
 exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
 

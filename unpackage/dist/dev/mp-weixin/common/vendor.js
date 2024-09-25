@@ -19324,6 +19324,13 @@ var aiList = [{
   class: "xunfei",
   model: "4.0Ultra",
   password: 'ygeZveEAgsJNMpuONGxs:MSHuBcWaCEjLIdAdGhkZ'
+}, {
+  url: "https://www.aitool6.com/wp-content/uploads/2023/06/9557d1-13.png",
+  name: "文心一言",
+  class: "wenxin",
+  model: "ERNIE",
+  client_id: "NOmMXwgcqRGLGy6UuqBSvbd8",
+  client_secret: "ALKWzzz2HTGpEn4mOTxqwPQd5WakeCkf"
 }];
 exports.aiList = aiList;
 
@@ -19874,7 +19881,7 @@ exports.default = _default;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.xunfeisendai = void 0;
+exports.xunfeisendai = exports.wenxinsendai = exports.getass_token = void 0;
 var xunfeisendai = function xunfeisendai(data, password) {
   return new Promise(function (resolve, reject) {
     uni.request({
@@ -19896,6 +19903,41 @@ var xunfeisendai = function xunfeisendai(data, password) {
   });
 };
 exports.xunfeisendai = xunfeisendai;
+var wenxinsendai = function wenxinsendai(data, res) {
+  return new Promise(function (resolve, reject) {
+    uni.request({
+      url: "https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat/ai_apaas?access_token=".concat(res),
+      data: data,
+      timeout: 100000,
+      method: 'post',
+      success: function success(res) {
+        resolve(res.data.result);
+      },
+      fail: function fail(err) {
+        reject(err);
+      },
+      complete: function complete() {}
+    });
+  });
+};
+exports.wenxinsendai = wenxinsendai;
+var getass_token = function getass_token(client_id, client_secret) {
+  return new Promise(function (resolve, reject) {
+    uni.request({
+      url: "https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id=".concat(client_id, "&client_secret=").concat(client_secret),
+      timeout: 100000,
+      method: 'post',
+      success: function success(res) {
+        resolve(res.data.access_token);
+      },
+      fail: function fail(err) {
+        reject(err);
+      },
+      complete: function complete() {}
+    });
+  });
+};
+exports.getass_token = getass_token;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),

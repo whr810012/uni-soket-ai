@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import { xunfeisendai } from '../../api/ai'
+import { wenxinsendai, xunfeisendai, getass_token } from '../../api/ai'
 export default {
     name: 'ai',
     props: ['data'],
@@ -48,6 +48,7 @@ export default {
                 role: 'user',
                 content: this.usercontent
             })
+			uni.setStorageSync(this.data.model, this.dialogueList);
             this.usercontent = ''
             const data = {
                 model: this.data.model,
@@ -59,15 +60,32 @@ export default {
                     res.choices.map(item => {
                         this.dialogueList.push(item.message)
                     })
+                    uni.setStorageSync(this.data.model, this.dialogueList);
                     this.disabled = false
                 })
-            }
+            } else if (this.data.class === 'wenxin') {
+				getass_token(this.data.client_id, this.data.client_secret)
+				.then(res => {
+					wenxinsendai(data, res)
+					.then(r => {
+					    this.dialogueList.push({
+                            role: 'assistant',
+                            content: r
+                        })
+                        uni.setStorageSync(this.data.model, this.dialogueList);
+						this.disabled = false
+					})
+				})
+			}
         }
     },
     watch: {
         dialogueList() {
             this.scrollToBottom()
         }
+    },
+    created() {
+        this.dialogueList = uni.getStorageSync(this.data.model) || []
     }
 }
 </script>

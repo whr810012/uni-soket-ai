@@ -18,4 +18,37 @@ export const xunfeisendai = ( data, password) => {
       complete: () => {},
     })
   })
+};
+export const wenxinsendai = ( data, res ) => {
+  return new Promise((resolve, reject) => {
+    uni.request({
+      url: `https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat/ai_apaas?access_token=${res}`,
+      data,
+      timeout: 100000,
+      method: 'post',
+      success: (res) => {
+          resolve(res.data.result)
+      },
+      fail: (err) => {
+        reject(err)
+      },
+      complete: () => {},
+    })
+  })
+};
+export const getass_token = ( client_id, client_secret) => {
+  return new Promise((resolve, reject) => {
+    uni.request({
+      url: `https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id=${client_id}&client_secret=${client_secret}`,
+      timeout: 100000,
+      method: 'post',
+      success: (res) => {
+          resolve(res.data.access_token)
+      },
+      fail: (err) => {
+        reject(err)
+      },
+      complete: () => {},
+    })
+  })
 }

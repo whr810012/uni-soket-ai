@@ -216,6 +216,49 @@ var _utils = __webpack_require__(/*! ../../util/utils */ 166);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 var _default = {
   data: function data() {
     return {
@@ -223,20 +266,20 @@ var _default = {
       longitude: 117.08660055611418,
       popupShow: false,
       universityList: _universityList.universityList,
-      searchSchool: '',
-      chooseShoole: '',
+      searchSchool: "",
+      chooseShoole: "",
       chooseShooleInfo: null,
       loadingshow: false,
       tabbarList: [{
-        text: '地图',
-        icon: 'home',
+        text: "地图",
+        icon: "home",
         index: 0,
-        url: '/pages/map/map'
+        url: "/pages/map/map"
       }, {
-        text: 'Ai',
-        icon: 'ai',
+        text: "Ai",
+        icon: "ai",
         index: 1,
-        url: '/pages/index/index'
+        url: "/pages/index/index"
       }],
       tabbar: 0,
       forceRefresh: false,
@@ -260,6 +303,7 @@ var _default = {
       this.$nextTick(function () {
         _this.forceRefresh = true;
       });
+      uni.setStorageSync("chooseShooleInfo", this.chooseShooleInfo);
     },
     changeTabbar: function changeTabbar(row) {
       if (row === 0) {
@@ -293,12 +337,28 @@ var _default = {
               _this3.loadingshow = true;
               // console.log('onload',this.universityList);
               that = _this3;
-              _context.next = 4;
+              _this3.chooseShooleInfo = uni.getStorageSync("chooseShooleInfo");
+              if (!_this3.chooseShooleInfo) {
+                _context.next = 12;
+                break;
+              }
+              _this3.chooseShoole = _this3.chooseShooleInfo.name;
+              _this3.longitude = _this3.chooseShooleInfo.location.lng;
+              _this3.latitude = _this3.chooseShooleInfo.location.lat;
+              _this3.loadingshow = false;
+              _this3.forceRefresh = false;
+              _this3.$nextTick(function () {
+                _this3.forceRefresh = true;
+              });
+              _context.next = 14;
+              break;
+            case 12:
+              _context.next = 14;
               return uni.getLocation({
-                type: 'wgs84',
+                type: "wgs84",
                 success: function success(res) {
-                  console.log('当前位置的经度：' + res.longitude);
-                  console.log('当前位置的纬度：' + res.latitude);
+                  console.log("当前位置的经度：" + res.longitude);
+                  console.log("当前位置的纬度：" + res.latitude);
                   var minLength = 100000000000000000000;
                   that.filterSchoolList.map(function (item, index) {
                     // console.log(item);
@@ -312,22 +372,23 @@ var _default = {
                     if (index === that.filterSchoolList.length - 1) {
                       that.loadingshow = false;
                       that.popupShow = true;
-                      console.log('res', that.chooseShooleInfo);
+                      console.log("res", that.chooseShooleInfo);
                       that.longitude = that.chooseShooleInfo.location.lng;
                       that.latitude = that.chooseShooleInfo.location.lat;
-                      console.log('最终的位置', that.latitude, that.longitude);
-                      that.chooseShoole = that.chooseShooleInfo.name + '(ai智能推断)';
+                      console.log("最终的位置", that.latitude, that.longitude);
+                      that.chooseShoole = that.chooseShooleInfo.name + "(ai智能推断)";
                       // 刷新组件
                       // this.$refs.mapRef.refresh()
                       that.forceRefresh = false;
                       that.$nextTick(function () {
                         that.forceRefresh = true;
                       });
+                      uni.setStorageSync("chooseShooleInfo", that.chooseShooleInfo);
                     }
                   });
                 }
               });
-            case 4:
+            case 14:
             case "end":
               return _context.stop();
           }
