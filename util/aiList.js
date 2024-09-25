@@ -42,6 +42,30 @@ export const aiList = [
 	  model:"ERNIE",
 	  client_id:"NOmMXwgcqRGLGy6UuqBSvbd8",
 	  client_secret:"ALKWzzz2HTGpEn4mOTxqwPQd5WakeCkf"
+  },
+  {
+    url:'https://www.cnschat.com/wp-content/uploads/2023/06/1686582383-nav-ai-tongyi.png',
+    name:'通义千问（Qwen-2.0）',
+    class:'qwen',
+    // https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation
+    model:'qwen2-1.5b-instruct',
+    key:'sk-785b859091d445c08ecd485942bb403c',
+  },
+  {
+    url:'https://www.cnschat.com/wp-content/uploads/2023/06/1686582383-nav-ai-tongyi.png',
+    name:'通义千问（Qwen-2.5）',
+    class:'qwen',
+    // https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation
+    model:'qwen2.5-0.5b-instruct',
+    key:'sk-785b859091d445c08ecd485942bb403c',
+  },
+  {
+    url:'https://www.cnschat.com/wp-content/uploads/2023/06/1686582383-nav-ai-tongyi.png',
+    name:'通义千问（Qwen-Math）',
+    class:'qwen',
+    // https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation
+    model:'qwen2.5-math-1.5b-instruct',
+    key:'sk-785b859091d445c08ecd485942bb403c',
   }
 ];
 

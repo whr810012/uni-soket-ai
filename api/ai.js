@@ -36,6 +36,27 @@ export const wenxinsendai = ( data, res ) => {
     })
   })
 };
+export const qwensendai = (data, key) => {
+  return new Promise((resolve, reject) => {
+    uni.request({
+      // https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions
+      url: `https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions`,
+      data,
+      header:{
+        "Authorization": "Bearer " + key
+      },
+      timeout: 100000,
+      method: 'post',
+      success: (res) => {
+          resolve(res.data.choices)
+      },
+      fail: (err) => {
+        reject(err)
+      },
+      complete: () => {},
+    })
+  })
+}
 export const getass_token = ( client_id, client_secret) => {
   return new Promise((resolve, reject) => {
     uni.request({
