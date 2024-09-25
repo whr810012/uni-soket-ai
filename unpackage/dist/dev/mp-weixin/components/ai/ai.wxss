@@ -50,6 +50,12 @@
   max-width: 550rpx;
   text-align: right;
 }
+.index .content .dialogue_item .ai image.data-v-8e5cc878 {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #6e6e6e;
+  border-radius: 50%;
+}
 .index .content .dialogue_item image.data-v-8e5cc878 {
   width: 20px;
   height: 20px;

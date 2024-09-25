@@ -147,18 +147,34 @@ var _ai = __webpack_require__(/*! ../../api/ai */ 231);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 var _default = {
-  name: 'ai',
-  props: ['data'],
+  name: "ai",
+  props: ["data"],
   data: function data() {
     return {
       dialogueList: [],
-      usercontent: '',
-      scrollIntoView: '',
-      disabled: false
+      usercontent: "",
+      scrollIntoView: "",
+      disabled: false,
+      imageSrc: "",
+      userimg: "https://tse2-mm.cn.bing.net/th/id/OIP-C.yqoO2L-6goRjRhrnCNNQRwHaHa?rs=1&pid=ImgDetMain"
     };
   },
   methods: {
+    onChooseAvatar: function onChooseAvatar(e) {
+      uni.setStorageSync("userimg", e.detail.avatarUrl);
+      this.userimg = e.detail.avatarUrl;
+    },
     scrollToBottom: function scrollToBottom() {
       console.log("dialogue_item-".concat(this.dialogueList.length - 1));
       this.scrollIntoView = "dialogue_item-".concat(this.dialogueList.length - 1);
@@ -167,17 +183,17 @@ var _default = {
       var _this = this;
       this.disabled = true;
       this.dialogueList.push({
-        role: 'user',
+        role: "user",
         content: this.usercontent
       });
       uni.setStorageSync(this.data.model, this.dialogueList);
-      this.usercontent = '';
+      this.usercontent = "";
       var data = {
         model: this.data.model,
         messages: this.dialogueList
       };
       var password = this.data.password;
-      if (this.data.class === 'xunfei') {
+      if (this.data.class === "xunfei") {
         (0, _ai.xunfeisendai)(data, password).then(function (res) {
           res.choices.map(function (item) {
             _this.dialogueList.push(item.message);
@@ -185,11 +201,11 @@ var _default = {
           uni.setStorageSync(_this.data.model, _this.dialogueList);
           _this.disabled = false;
         });
-      } else if (this.data.class === 'wenxin') {
+      } else if (this.data.class === "wenxin") {
         (0, _ai.getass_token)(this.data.client_id, this.data.client_secret).then(function (res) {
           (0, _ai.wenxinsendai)(data, res).then(function (r) {
             _this.dialogueList.push({
-              role: 'assistant',
+              role: "assistant",
               content: r
             });
             uni.setStorageSync(_this.data.model, _this.dialogueList);
@@ -205,6 +221,12 @@ var _default = {
     }
   },
   created: function created() {
+    if (this.data.class === "xunfei") {
+      this.imageSrc = "https://so1.360tres.com/t018f408d11d2b5d951.jpg";
+    } else if (this.data.class === "wenxin") {
+      this.imageSrc = "https://www.aitool6.com/wp-content/uploads/2023/06/9557d1-13.png";
+    }
+    this.userimg = uni.getStorageSync("userimg") || "https://tse2-mm.cn.bing.net/th/id/OIP-C.yqoO2L-6goRjRhrnCNNQRwHaHa?rs=1&pid=ImgDetMain";
     this.dialogueList = uni.getStorageSync(this.data.model) || [];
   }
 };
