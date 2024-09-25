@@ -1,6 +1,5 @@
 {
   "navigationBarTitleText": "校园地图",
-  "enablePullDownRefresh": false,
   "usingComponents": {
     "u-popup": "/uni_modules/uview-ui/components/u-popup/u-popup",
     "u-input": "/uni_modules/uview-ui/components/u-input/u-input",

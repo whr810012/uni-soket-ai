@@ -272,7 +272,7 @@ var _default = {
       loadingshow: false,
       tabbarList: [{
         text: "地图",
-        icon: "home",
+        icon: "map-fill",
         index: 0,
         url: "/pages/map/map"
       }, {
