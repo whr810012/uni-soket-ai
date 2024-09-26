@@ -66,6 +66,13 @@ export const aiList = [
     // https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation
     model:'qwen2.5-math-1.5b-instruct',
     key:'sk-785b859091d445c08ecd485942bb403c',
+  },
+  {
+    url:'https://api.iowen.cn/favicon/chatglm.cn.png',
+    name:'智谱清言（GLM-4）',
+    class:'glm',
+    model:'glm-4-flash',
+    key:'10821878d3a33673b715beaa27bc6eaa.ngVT3Emqye7j24Q2'
   }
 ];
 

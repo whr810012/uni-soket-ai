@@ -19352,6 +19352,12 @@ var aiList = [{
   // https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation
   model: 'qwen2.5-math-1.5b-instruct',
   key: 'sk-785b859091d445c08ecd485942bb403c'
+}, {
+  url: 'https://api.iowen.cn/favicon/chatglm.cn.png',
+  name: '智谱清言（GLM-4）',
+  class: 'glm',
+  model: 'glm-4-flash',
+  key: '10821878d3a33673b715beaa27bc6eaa.ngVT3Emqye7j24Q2'
 }];
 exports.aiList = aiList;
 
@@ -19902,7 +19908,7 @@ exports.default = _default;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.xunfeisendai = exports.wenxinsendai = exports.qwensendai = exports.getass_token = void 0;
+exports.xunfeisendai = exports.wenxinsendai = exports.qwensendai = exports.glmsendai = exports.getass_token = void 0;
 var xunfeisendai = function xunfeisendai(data, password) {
   return new Promise(function (resolve, reject) {
     uni.request({
@@ -19964,6 +19970,27 @@ var qwensendai = function qwensendai(data, key) {
   });
 };
 exports.qwensendai = qwensendai;
+var glmsendai = function glmsendai(data, key) {
+  return new Promise(function (resolve, reject) {
+    uni.request({
+      url: "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+      data: data,
+      header: {
+        "Authorization": "Bearer " + key
+      },
+      timeout: 100000,
+      method: 'post',
+      success: function success(res) {
+        resolve(res.data.choices);
+      },
+      fail: function fail(err) {
+        reject(err);
+      },
+      complete: function complete() {}
+    });
+  });
+};
+exports.glmsendai = glmsendai;
 var getass_token = function getass_token(client_id, client_secret) {
   return new Promise(function (resolve, reject) {
     uni.request({

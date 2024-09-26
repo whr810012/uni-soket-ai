@@ -221,6 +221,14 @@ var _default = {
           uni.setStorageSync(_this.data.model, _this.dialogueList);
           _this.disabled = false;
         });
+      } else if (this.data.class === 'glm') {
+        (0, _ai.glmsendai)(data, this.data.key).then(function (res) {
+          res.map(function (item) {
+            _this.dialogueList.push(item.message);
+          });
+          uni.setStorageSync(_this.data.model, _this.dialogueList);
+          _this.disabled = false;
+        });
       }
     }
   },
@@ -236,6 +244,8 @@ var _default = {
       this.imageSrc = "https://www.aitool6.com/wp-content/uploads/2023/06/9557d1-13.png";
     } else if (this.data.class === 'qwen') {
       this.imageSrc = "https://ts1.cn.mm.bing.net/th/id/R-C.7d60b0cc97ad68c2f0366e7198231748?rik=NqTw7%2f%2fCCDDJFg&riu=http%3a%2f%2fpic.danji100.com%2fupload%2f2023-4%2f20230412144409455103.png&ehk=vfGWk5cEyY%2fq5%2fVJlWcKCsEpOfA3t5bkZ7rpN2uZZe8%3d&risl=&pid=ImgRaw&r=0";
+    } else if (this.data.class === 'glm') {
+      this.imageSrc = 'https://api.iowen.cn/favicon/chatglm.cn.png';
     }
     this.userimg = uni.getStorageSync("userimg") || "https://tse2-mm.cn.bing.net/th/id/OIP-C.yqoO2L-6goRjRhrnCNNQRwHaHa?rs=1&pid=ImgDetMain";
     this.dialogueList = uni.getStorageSync(this.data.model) || [];

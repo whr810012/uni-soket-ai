@@ -57,6 +57,26 @@ export const qwensendai = (data, key) => {
     })
   })
 }
+export const glmsendai = (data, key) => {
+  return new Promise((resolve, reject) => {
+    uni.request({
+      url: `https://open.bigmodel.cn/api/paas/v4/chat/completions`,
+      data,
+      header:{
+        "Authorization": "Bearer " + key
+      },
+      timeout: 100000,
+      method: 'post',
+      success: (res) => {
+          resolve(res.data.choices)
+      },
+      fail: (err) => {
+        reject(err)
+      },
+      complete: () => {},
+    })
+  })
+}
 export const getass_token = ( client_id, client_secret) => {
   return new Promise((resolve, reject) => {
     uni.request({
