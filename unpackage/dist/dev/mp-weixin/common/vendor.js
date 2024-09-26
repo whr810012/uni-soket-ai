@@ -19299,31 +19299,31 @@ var aiList = [{
   name: "讯飞星火（Spark Lite）",
   class: "xunfei",
   model: "general",
-  password: 'nYxBEOjRaJxYagihmRdf:jKkYqXLnfFiuHEQjBUky'
+  password: "nYxBEOjRaJxYagihmRdf:jKkYqXLnfFiuHEQjBUky"
 }, {
   url: "https://so1.360tres.com/t018f408d11d2b5d951.jpg",
   name: "讯飞星火（Spark Pro）",
   class: "xunfei",
   model: "generalv3",
-  password: 'LVXwPZWHqVlcrmxuUwMv:jdukpwNfvZxkDINMVJpr'
+  password: "LVXwPZWHqVlcrmxuUwMv:jdukpwNfvZxkDINMVJpr"
 }, {
   url: "https://so1.360tres.com/t018f408d11d2b5d951.jpg",
   name: "讯飞星火（Spark Pro-128K）",
   class: "xunfei",
   model: "pro-128k",
-  password: 'hLDIpAjevbTlcNApYzZV:xetxKqTJOnsZDYwYHGcr'
+  password: "hLDIpAjevbTlcNApYzZV:xetxKqTJOnsZDYwYHGcr"
 }, {
   url: "https://so1.360tres.com/t018f408d11d2b5d951.jpg",
   name: "讯飞星火（Spark Max）",
   class: "xunfei",
   model: "generalv3.5",
-  password: 'VjryANzhIJhBkKMtSfar:RtudQoWRiDSZmfncfDcw'
+  password: "VjryANzhIJhBkKMtSfar:RtudQoWRiDSZmfncfDcw"
 }, {
   url: "https://so1.360tres.com/t018f408d11d2b5d951.jpg",
   name: "讯飞星火（Spark 4.0 Uitra）",
   class: "xunfei",
   model: "4.0Ultra",
-  password: 'ygeZveEAgsJNMpuONGxs:MSHuBcWaCEjLIdAdGhkZ'
+  password: "ygeZveEAgsJNMpuONGxs:MSHuBcWaCEjLIdAdGhkZ"
 }, {
   url: "https://www.aitool6.com/wp-content/uploads/2023/06/9557d1-13.png",
   name: "文心一言",
@@ -19332,32 +19332,35 @@ var aiList = [{
   client_id: "NOmMXwgcqRGLGy6UuqBSvbd8",
   client_secret: "ALKWzzz2HTGpEn4mOTxqwPQd5WakeCkf"
 }, {
-  url: 'https://www.cnschat.com/wp-content/uploads/2023/06/1686582383-nav-ai-tongyi.png',
-  name: '通义千问（Qwen-2.0）',
-  class: 'qwen',
-  // https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation
-  model: 'qwen2-1.5b-instruct',
-  key: 'sk-785b859091d445c08ecd485942bb403c'
+  url: "https://www.cnschat.com/wp-content/uploads/2023/06/1686582383-nav-ai-tongyi.png",
+  name: "通义千问（Qwen-2.0）",
+  class: "qwen",
+  model: "qwen2-1.5b-instruct",
+  key: "sk-785b859091d445c08ecd485942bb403c"
 }, {
-  url: 'https://www.cnschat.com/wp-content/uploads/2023/06/1686582383-nav-ai-tongyi.png',
-  name: '通义千问（Qwen-2.5）',
-  class: 'qwen',
-  // https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation
-  model: 'qwen2.5-0.5b-instruct',
-  key: 'sk-785b859091d445c08ecd485942bb403c'
+  url: "https://www.cnschat.com/wp-content/uploads/2023/06/1686582383-nav-ai-tongyi.png",
+  name: "通义千问（Qwen-2.5）",
+  class: "qwen",
+  model: "qwen2.5-0.5b-instruct",
+  key: "sk-785b859091d445c08ecd485942bb403c"
 }, {
-  url: 'https://www.cnschat.com/wp-content/uploads/2023/06/1686582383-nav-ai-tongyi.png',
-  name: '通义千问（Qwen-Math）',
-  class: 'qwen',
-  // https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation
-  model: 'qwen2.5-math-1.5b-instruct',
-  key: 'sk-785b859091d445c08ecd485942bb403c'
+  url: "https://www.cnschat.com/wp-content/uploads/2023/06/1686582383-nav-ai-tongyi.png",
+  name: "通义千问（Qwen-Math）",
+  class: "qwen",
+  model: "qwen2.5-math-1.5b-instruct",
+  key: "sk-785b859091d445c08ecd485942bb403c"
 }, {
-  url: 'https://api.iowen.cn/favicon/chatglm.cn.png',
-  name: '智谱清言（GLM-4）',
-  class: 'glm',
-  model: 'glm-4-flash',
-  key: '10821878d3a33673b715beaa27bc6eaa.ngVT3Emqye7j24Q2'
+  url: "https://api.iowen.cn/favicon/chatglm.cn.png",
+  name: "智谱清言（GLM-4）",
+  class: "glm",
+  model: "glm-4-flash",
+  key: "10821878d3a33673b715beaa27bc6eaa.ngVT3Emqye7j24Q2"
+}, {
+  url: 'https://ark-auto-2100207538-cn-beijing-default.tos-cn-beijing.volces.com/model_cardLTPtdLeE5K.png',
+  name: '豆包',
+  class: 'Doubao',
+  model: 'ep-20240926132036-gt5zx',
+  key: '2b0e0b7e-6fd9-47aa-9c97-3307c469a3ed'
 }];
 exports.aiList = aiList;
 
@@ -19908,7 +19911,7 @@ exports.default = _default;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.xunfeisendai = exports.wenxinsendai = exports.qwensendai = exports.glmsendai = exports.getass_token = void 0;
+exports.xunfeisendai = exports.wenxinsendai = exports.qwensendai = exports.glmsendai = exports.getass_token = exports.doubaosendai = void 0;
 var xunfeisendai = function xunfeisendai(data, password) {
   return new Promise(function (resolve, reject) {
     uni.request({
@@ -19991,6 +19994,27 @@ var glmsendai = function glmsendai(data, key) {
   });
 };
 exports.glmsendai = glmsendai;
+var doubaosendai = function doubaosendai(data, key) {
+  return new Promise(function (resolve, reject) {
+    uni.request({
+      url: " https://ark.cn-beijing.volces.com/api/v3/chat/completions",
+      data: data,
+      header: {
+        "Authorization": "Bearer " + key
+      },
+      timeout: 100000,
+      method: 'post',
+      success: function success(res) {
+        resolve(res.data.choices);
+      },
+      fail: function fail(err) {
+        reject(err);
+      },
+      complete: function complete() {}
+    });
+  });
+};
+exports.doubaosendai = doubaosendai;
 var getass_token = function getass_token(client_id, client_secret) {
   return new Promise(function (resolve, reject) {
     uni.request({

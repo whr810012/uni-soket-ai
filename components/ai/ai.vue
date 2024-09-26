@@ -35,7 +35,7 @@
 </template>
 
 <script>
-import { wenxinsendai, xunfeisendai, getass_token, qwensendai, glmsendai } from "../../api/ai";
+import { wenxinsendai, xunfeisendai, getass_token, qwensendai, glmsendai, doubaosendai } from "../../api/ai";
 export default {
   name: "ai",
   props: ["data"],
@@ -111,6 +111,14 @@ export default {
           uni.setStorageSync(this.data.model, this.dialogueList);
           this.disabled = false;
         })
+      } else if (this.data.class === 'Doubao') {
+        doubaosendai(data, this.data.key).then((res) => {
+          res.map((item) => {
+            this.dialogueList.push(item.message);
+          });
+          uni.setStorageSync(this.data.model, this.dialogueList);
+          this.disabled = false;
+        })
       }
     },
   },
@@ -129,6 +137,8 @@ export default {
       this.imageSrc = "https://ts1.cn.mm.bing.net/th/id/R-C.7d60b0cc97ad68c2f0366e7198231748?rik=NqTw7%2f%2fCCDDJFg&riu=http%3a%2f%2fpic.danji100.com%2fupload%2f2023-4%2f20230412144409455103.png&ehk=vfGWk5cEyY%2fq5%2fVJlWcKCsEpOfA3t5bkZ7rpN2uZZe8%3d&risl=&pid=ImgRaw&r=0"
     } else if (this.data.class === 'glm') {
       this.imageSrc = 'https://api.iowen.cn/favicon/chatglm.cn.png'
+    } else if (this.data.class === 'Doubao') {
+      this.imageSrc = 'https://ark-auto-2100207538-cn-beijing-default.tos-cn-beijing.volces.com/model_cardLTPtdLeE5K.png'
     }
     this.userimg =
       uni.getStorageSync("userimg") ||
