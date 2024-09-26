@@ -80,7 +80,7 @@ export const glmsendai = (data, key) => {
 export const doubaosendai = (data, key) => {
   return new Promise((resolve, reject) => {
     uni.request({
-      url: ` https://ark.cn-beijing.volces.com/api/v3/chat/completions`,
+      url: `https://ark.cn-beijing.volces.com/api/v3/chat/completions`,
       data,
       header:{
         "Authorization": "Bearer " + key

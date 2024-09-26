@@ -19997,7 +19997,7 @@ exports.glmsendai = glmsendai;
 var doubaosendai = function doubaosendai(data, key) {
   return new Promise(function (resolve, reject) {
     uni.request({
-      url: " https://ark.cn-beijing.volces.com/api/v3/chat/completions",
+      url: "https://ark.cn-beijing.volces.com/api/v3/chat/completions",
       data: data,
       header: {
         "Authorization": "Bearer " + key
