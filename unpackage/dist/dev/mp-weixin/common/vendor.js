@@ -19356,7 +19356,7 @@ var aiList = [{
   model: "glm-4-flash",
   key: "10821878d3a33673b715beaa27bc6eaa.ngVT3Emqye7j24Q2"
 }, {
-  url: 'https://ark-auto-2100207538-cn-beijing-default.tos-cn-beijing.volces.com/model_cardLTPtdLeE5K.png',
+  url: 'https://ark-auto-2100466578-cn-beijing-default.tos-cn-beijing.volces.com/model_cardAgLUOSwptd.png',
   name: '豆包',
   class: 'Doubao',
   model: 'ep-20240926132036-gt5zx',
