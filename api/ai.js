@@ -78,6 +78,9 @@ export const glmsendai = (data, key) => {
   })
 }
 export const doubaosendai = (data, key) => {
+  if(data.messages.length > 1 && data.messages[data.messages.length-1].role === data.messages[data.messages.length-2].role ) {
+	  data.messages = [data.messages[data.messages.length-1]]
+  }
   return new Promise((resolve, reject) => {
     uni.request({
       url: `https://ark.cn-beijing.volces.com/api/v3/chat/completions`,

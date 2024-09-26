@@ -19995,6 +19995,9 @@ var glmsendai = function glmsendai(data, key) {
 };
 exports.glmsendai = glmsendai;
 var doubaosendai = function doubaosendai(data, key) {
+  if (data.messages.length > 1 && data.messages[data.messages.length - 1].role === data.messages[data.messages.length - 2].role) {
+    data.messages = [data.messages[data.messages.length - 1]];
+  }
   return new Promise(function (resolve, reject) {
     uni.request({
       url: "https://ark.cn-beijing.volces.com/api/v3/chat/completions",
