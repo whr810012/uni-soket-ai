@@ -150,13 +150,6 @@ var _ai = __webpack_require__(/*! ../../api/ai */ 231);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
 var _default = {
   name: "ai",
   props: ["data"],
@@ -195,47 +188,56 @@ var _default = {
       var password = this.data.password;
       if (this.data.class === "xunfei") {
         (0, _ai.xunfeisendai)(data, password).then(function (res) {
-          res.choices.map(function (item) {
-            _this.dialogueList.push(item.message);
-          });
-          uni.setStorageSync(_this.data.model, _this.dialogueList);
-          _this.disabled = false;
+          if (res.choices.length > 0) {
+            res.choices.map(function (item) {
+              _this.dialogueList.push(item.message);
+            });
+            uni.setStorageSync(_this.data.model, _this.dialogueList);
+            _this.disabled = false;
+          }
         });
       } else if (this.data.class === "wenxin") {
         (0, _ai.getass_token)(this.data.client_id, this.data.client_secret).then(function (res) {
           (0, _ai.wenxinsendai)(data, res).then(function (r) {
-            _this.dialogueList.push({
-              role: "assistant",
-              content: r
-            });
-            uni.setStorageSync(_this.data.model, _this.dialogueList);
-            _this.disabled = false;
+            if (!!r) {
+              _this.dialogueList.push({
+                role: "assistant",
+                content: r
+              });
+              uni.setStorageSync(_this.data.model, _this.dialogueList);
+              _this.disabled = false;
+            }
           });
         });
       } else if (this.data.class === 'qwen') {
         (0, _ai.qwensendai)(data, this.data.key).then(function (res) {
-          console.log(res);
-          res.map(function (item) {
-            _this.dialogueList.push(item.message);
-          });
-          uni.setStorageSync(_this.data.model, _this.dialogueList);
-          _this.disabled = false;
+          if (res.length > 0) {
+            res.map(function (item) {
+              _this.dialogueList.push(item.message);
+            });
+            uni.setStorageSync(_this.data.model, _this.dialogueList);
+            _this.disabled = false;
+          }
         });
       } else if (this.data.class === 'glm') {
         (0, _ai.glmsendai)(data, this.data.key).then(function (res) {
-          res.map(function (item) {
-            _this.dialogueList.push(item.message);
-          });
-          uni.setStorageSync(_this.data.model, _this.dialogueList);
-          _this.disabled = false;
+          if (res.length > 0) {
+            res.map(function (item) {
+              _this.dialogueList.push(item.message);
+            });
+            uni.setStorageSync(_this.data.model, _this.dialogueList);
+            _this.disabled = false;
+          }
         });
       } else if (this.data.class === 'Doubao') {
         (0, _ai.doubaosendai)(data, this.data.key).then(function (res) {
-          res.map(function (item) {
-            _this.dialogueList.push(item.message);
-          });
-          uni.setStorageSync(_this.data.model, _this.dialogueList);
-          _this.disabled = false;
+          if (res.length > 0) {
+            res.map(function (item) {
+              _this.dialogueList.push(item.message);
+            });
+            uni.setStorageSync(_this.data.model, _this.dialogueList);
+            _this.disabled = false;
+          }
         });
       }
     }
