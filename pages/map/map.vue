@@ -11,7 +11,6 @@
       :show-location="true"
       :min-scale="15"
       :scale="myScale"
-	  :polyline="polyline"
     ></map>
     <image
       @click="popupShow = true"
@@ -103,22 +102,6 @@ export default {
       tabbar: 0,
       forceRefresh: false,
       myScale: 18,
-	  polyline: [{
-	            points: [
-					{
-						latitude:31.227446064644003,
-						longitude:121.47616547887128
-					},
-					{
-					latitude:31.234270035332838,
-					longitude:121.47582345893113	
-					}
-				],
-	            color: "#31c27c",
-	            width: 10,
-	            arrowLine: true,
-	            borderWidth: 2 //线的边框宽度，还有很多参数，请看文档 
-	          }]
     };
   },
   methods: {
@@ -179,13 +162,6 @@ export default {
         success: function (res) {
           console.log("当前位置的经度：" + res.longitude);
           console.log("当前位置的纬度：" + res.latitude);
-		  that.polyline[0].points.push({
-			  latitude:res.latitude,
-			   longitude:res.longitude
-		  })
-		  that.latitude = res.latitude;
-		  that.longitude = res.longitude;
-		  console.log(that.polyline);
           let minLength = 100000000000000000000;
           that.filterSchoolList.map((item, index) => {
             // console.log(item);
