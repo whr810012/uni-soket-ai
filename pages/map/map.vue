@@ -22,32 +22,45 @@
     <u-popup
       height="300"
       width="300"
-      style="max-width: 500rpx; min-width: 500rpx"
+      style="max-width: 600rpx; min-width: 600rpx"
       :show="popupShow"
       :round="10"
       mode="center"
       @close="close"
       @open="open"
     >
-      <view style="display: flex; align-items: center; margin: 20rpx 10rpx">
-        搜索您的学校：
-        <u-input v-model="searchSchool" class="search_inp"></u-input>
+      <view class="search-container">
+        <view class="search-title">搜索您的学校</view>
+        <view class="search-box">
+          <u-input 
+            v-model="searchSchool" 
+            @input="handleSearch"
+            class="search_inp"
+            placeholder="请输入学校名称"
+            clearable
+          ></u-input>
+        </view>
       </view>
+
       <scroll-view scroll-y class="scroll_sh" style="height: 500rpx">
-        <view
-          class="scroll_item"
-          @click="clickSchool(item)"
-          v-for="item in filterSchoolList"
-          :key="item.name"
-        >
-          <view class="text">
-            {{ item.name }}
+        <template v-if="filterSchoolList.length">
+          <view
+            class="scroll_item"
+            @click="clickSchool(item)"
+            v-for="item in filterSchoolList"
+            :key="item.name"
+          >
+            <view class="text">{{ item.name }}</view>
           </view>
+        </template>
+        <view v-else class="no-result">
+          未找到相关学校
         </view>
       </scroll-view>
-      <view style="margin: 20rpx; max-width: 500rpx">
-        您最终选择的学校是：<br />
-        {{ chooseShoole }}
+
+      <view v-if="chooseShoole" class="selected-school">
+        <view class="label">已选择的学校</view>
+        <view class="value">{{ chooseShoole }}</view>
       </view>
     </u-popup>
     <u-loading-page
@@ -102,6 +115,8 @@ export default {
       tabbar: 0,
       forceRefresh: false,
       myScale: 18,
+      searchTimeout: null,
+      maxResults: 20, // 限制最大显示结果数
     };
   },
   methods: {
@@ -133,13 +148,32 @@ export default {
         });
       }
     },
+    handleSearch(value) {
+      if (this.searchTimeout) {
+        clearTimeout(this.searchTimeout);
+      }
+      
+      this.searchTimeout = setTimeout(() => {
+        this.searchSchool = value;
+      }, 300);
+    },
   },
   computed: {
     filterSchoolList() {
-      const list = this.universityList.filter((item) => {
-        return item.name.indexOf(this.searchSchool) !== -1;
+      if (!this.searchSchool) {
+        return this.universityList.slice(0, this.maxResults);
+      }
+      
+      const searchValue = this.searchSchool.toLowerCase();
+      const list = this.universityList.filter((item, index) => {
+        // 当搜索结果达到最大限制时停止筛选
+        if (index >= this.maxResults) return false;
+        
+        const schoolName = item.name.toLowerCase();
+        return schoolName.indexOf(searchValue) !== -1;
       });
-      return list;
+      
+      return list.slice(0, this.maxResults);
     },
   },
   async onLoad() {
@@ -221,21 +255,76 @@ export default {
     padding-right: 50rpx;
   }
 
-  .scroll_sh {
-    width: 90%;
-    margin-left: 5%;
-    border: 1px solid #b4b4b4;
+  .search-container {
+    padding: 20rpx;
+    background: #f5f5f5;
+    border-radius: 16rpx 16rpx 0 0;
 
-    // padding: 20rpx;
+    .search-title {
+      font-size: 28rpx;
+      color: #333;
+      margin-bottom: 16rpx;
+    }
+
+    .search-box {
+      display: flex;
+      align-items: center;
+      background: #fff;
+      padding: 12rpx 24rpx;
+      border-radius: 8rpx;
+      border: 1px solid #eee;
+
+      .search_inp {
+        flex: 1;
+        font-size: 28rpx;
+      }
+    }
+  }
+
+  .scroll_sh {
+    width: 100%;
+    border-top: 1px solid #eee;
+    background: #fff;
+
     .scroll_item {
-      max-width: 100%;
-      padding: 10rpx;
-      border-bottom: 1px solid #b4b4b4;
+      padding: 24rpx;
+      border-bottom: 1px solid #eee;
+      transition: all 0.3s;
+
+      &:active {
+        background: #f5f5f5;
+      }
 
       .text {
-        max-width: 400rpx;
-        min-width: 400rpx;
+        font-size: 28rpx;
+        color: #333;
+        line-height: 1.5;
       }
+    }
+
+    .no-result {
+      padding: 40rpx;
+      text-align: center;
+      color: #999;
+      font-size: 28rpx;
+    }
+  }
+
+  .selected-school {
+    padding: 24rpx;
+    background: #f5f7fa;
+    border-radius: 0 0 16rpx 16rpx;
+    
+    .label {
+      font-size: 26rpx;
+      color: #666;
+      margin-bottom: 8rpx;
+    }
+    
+    .value {
+      font-size: 30rpx;
+      color: #333;
+      font-weight: 500;
     }
   }
 }

@@ -18,18 +18,65 @@
 .map .icon_shcool_active.data-v-0b31f540 {
   padding-right: 50rpx;
 }
+.map .search-container.data-v-0b31f540 {
+  padding: 20rpx;
+  background: #f5f5f5;
+  border-radius: 16rpx 16rpx 0 0;
+}
+.map .search-container .search-title.data-v-0b31f540 {
+  font-size: 28rpx;
+  color: #333;
+  margin-bottom: 16rpx;
+}
+.map .search-container .search-box.data-v-0b31f540 {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 12rpx 24rpx;
+  border-radius: 8rpx;
+  border: 1px solid #eee;
+}
+.map .search-container .search-box .search_inp.data-v-0b31f540 {
+  flex: 1;
+  font-size: 28rpx;
+}
 .map .scroll_sh.data-v-0b31f540 {
-  width: 90%;
-  margin-left: 5%;
-  border: 1px solid #b4b4b4;
+  width: 100%;
+  border-top: 1px solid #eee;
+  background: #fff;
 }
 .map .scroll_sh .scroll_item.data-v-0b31f540 {
-  max-width: 100%;
-  padding: 10rpx;
-  border-bottom: 1px solid #b4b4b4;
+  padding: 24rpx;
+  border-bottom: 1px solid #eee;
+  transition: all 0.3s;
+}
+.map .scroll_sh .scroll_item.data-v-0b31f540:active {
+  background: #f5f5f5;
 }
 .map .scroll_sh .scroll_item .text.data-v-0b31f540 {
-  max-width: 400rpx;
-  min-width: 400rpx;
+  font-size: 28rpx;
+  color: #333;
+  line-height: 1.5;
+}
+.map .scroll_sh .no-result.data-v-0b31f540 {
+  padding: 40rpx;
+  text-align: center;
+  color: #999;
+  font-size: 28rpx;
+}
+.map .selected-school.data-v-0b31f540 {
+  padding: 24rpx;
+  background: #f5f7fa;
+  border-radius: 0 0 16rpx 16rpx;
+}
+.map .selected-school .label.data-v-0b31f540 {
+  font-size: 26rpx;
+  color: #666;
+  margin-bottom: 8rpx;
+}
+.map .selected-school .value.data-v-0b31f540 {
+  font-size: 30rpx;
+  color: #333;
+  font-weight: 500;
 }
 

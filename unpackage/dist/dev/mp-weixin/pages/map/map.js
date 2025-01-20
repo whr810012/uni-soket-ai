@@ -137,11 +137,20 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
+  var g0 = _vm.filterSchoolList.length
   if (!_vm._isMounted) {
     _vm.e0 = function ($event) {
       _vm.popupShow = true
     }
   }
+  _vm.$mp.data = Object.assign(
+    {},
+    {
+      $root: {
+        g0: g0,
+      },
+    }
+  )
 }
 var recyclableRender = false
 var staticRenderFns = []
@@ -259,6 +268,19 @@ var _utils = __webpack_require__(/*! ../../util/utils */ 166);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 var _default = {
   data: function data() {
     return {
@@ -283,9 +305,12 @@ var _default = {
       }],
       tabbar: 0,
       forceRefresh: false,
-      myScale: 18
+      myScale: 18,
+      searchTimeout: null,
+      maxResults: 20 // 限制最大显示结果数
     };
   },
+
   methods: {
     open: function open() {
       this.popupShow = true;
@@ -315,40 +340,56 @@ var _default = {
           url: "/pages/index/index"
         });
       }
+    },
+    handleSearch: function handleSearch(value) {
+      var _this2 = this;
+      if (this.searchTimeout) {
+        clearTimeout(this.searchTimeout);
+      }
+      this.searchTimeout = setTimeout(function () {
+        _this2.searchSchool = value;
+      }, 300);
     }
   },
   computed: {
     filterSchoolList: function filterSchoolList() {
-      var _this2 = this;
-      var list = this.universityList.filter(function (item) {
-        return item.name.indexOf(_this2.searchSchool) !== -1;
+      var _this3 = this;
+      if (!this.searchSchool) {
+        return this.universityList.slice(0, this.maxResults);
+      }
+      var searchValue = this.searchSchool.toLowerCase();
+      var list = this.universityList.filter(function (item, index) {
+        // 当搜索结果达到最大限制时停止筛选
+        if (index >= _this3.maxResults) return false;
+        var schoolName = item.name.toLowerCase();
+        return schoolName.indexOf(searchValue) !== -1;
       });
-      return list;
+      return list.slice(0, this.maxResults);
     }
   },
   onLoad: function onLoad() {
-    var _this3 = this;
+    var _this4 = this;
     return (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee() {
       var that;
       return _regenerator.default.wrap(function _callee$(_context) {
         while (1) {
           switch (_context.prev = _context.next) {
             case 0:
-              _this3.loadingshow = true;
+              _this4.loadingshow = true;
               // console.log('onload',this.universityList);
-              that = _this3;
-              _this3.chooseShooleInfo = uni.getStorageSync("chooseShooleInfo");
-              if (!_this3.chooseShooleInfo) {
+              that = _this4;
+              _this4.chooseShooleInfo = uni.getStorageSync("chooseShooleInfo");
+              if (!_this4.chooseShooleInfo) {
                 _context.next = 12;
                 break;
               }
-              _this3.chooseShoole = _this3.chooseShooleInfo.name;
-              _this3.longitude = _this3.chooseShooleInfo.location.lng;
-              _this3.latitude = _this3.chooseShooleInfo.location.lat;
-              _this3.loadingshow = false;
-              _this3.forceRefresh = false;
-              _this3.$nextTick(function () {
-                _this3.forceRefresh = true;
+              _this4.chooseShoole = _this4.chooseShooleInfo.name;
+              _this4.longitude = _this4.chooseShooleInfo.location.lng;
+              _this4.latitude = _this4.chooseShooleInfo.location.lat;
+              _this4.loadingshow = false;
+              _this4.forceRefresh = false;
+              _this4.$nextTick(function () {
+                _this4.forceRefresh = true;
               });
               _context.next = 14;
               break;

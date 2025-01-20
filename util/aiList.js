@@ -8,13 +8,6 @@ export const aiList = [
   },
   {
     url: "https://so1.360tres.com/t018f408d11d2b5d951.jpg",
-    name: "讯飞星火（Spark Pro）",
-    class: "xunfei",
-    model: "generalv3",
-    password: "LVXwPZWHqVlcrmxuUwMv:jdukpwNfvZxkDINMVJpr",
-  },
-  {
-    url: "https://so1.360tres.com/t018f408d11d2b5d951.jpg",
     name: "讯飞星火（Spark Pro-128K）",
     class: "xunfei",
     model: "pro-128k",
@@ -64,7 +57,7 @@ export const aiList = [
     key: "sk-785b859091d445c08ecd485942bb403c",
   },
   {
-    url: "https://api.iowen.cn/favicon/chatglm.cn.png",
+    url: "https://ts1.cn.mm.bing.net/th?id=OIP-C.lP7TvomXA35x9wyyCxFl0QHaHa&rs=1&pid=ImgDetMain",
     name: "智谱清言（GLM-4）",
     class: "glm",
     model: "glm-4-flash",

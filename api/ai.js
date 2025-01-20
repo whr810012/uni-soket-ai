@@ -22,7 +22,7 @@ export const xunfeisendai = ( data, password) => {
 export const wenxinsendai = ( data, res ) => {
   return new Promise((resolve, reject) => {
     uni.request({
-      url: `https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat/ai_apaas?access_token=${res}`,
+      url: `https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat/ernie_speed?access_token=${res}`,
       data,
       timeout: 100000,
       method: 'post',

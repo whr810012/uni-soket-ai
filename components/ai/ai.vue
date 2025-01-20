@@ -6,16 +6,20 @@
 				:key="index">
 				<view class="user" v-if="item.role === 'assistant'">
 					<image class="avatar" :src="imageSrc"> </image>
-					<span class="user_content">
-						{{ item.content }}
-					</span>
+					<view class="message-wrapper">
+						<span class="user_content" @longpress="copyMessage(item.content)">{{ item.content }}</span>
+						<view class="action-btns">
+							<view class="action-btn" @click="copyMessage(item.content)">复制</view>
+							<view class="action-btn" @click="regenerateResponse(index)">重新回复</view>
+						</view>
+					</view>
 				</view>
 				<view class="ai" v-else>
-					<view class="ai_content">{{ item.content }}</view>
-					<button
-						style="width: 20px; height: 20px; border-radius: 50%; margin: 0; padding:0;background-color: #fff;border:none;display: flex;align-items: center;justify-content: center;"
-						class="avatar-wrapper" open-type="chooseAvatar" @chooseavatar="onChooseAvatar">
-						<image :src="userimg"></image>
+					<view class="message-wrapper">
+						<view class="ai_content">{{ item.content }}</view>
+					</view>
+					<button class="avatar-btn" open-type="chooseAvatar" @chooseavatar="onChooseAvatar">
+						<image class="avatar" :src="userimg"></image>
 					</button>
 				</view>
 			</view>
@@ -58,8 +62,18 @@
 				console.log(`dialogue_item-${this.dialogueList.length - 1}`);
 				this.scrollIntoView = `dialogue_item-${this.dialogueList.length - 1}`;
 			},
+			showLoading() {
+				uni.showLoading({
+					title: '正在思考中...',
+					mask: true
+				});
+			},
+			hideLoading() {
+				uni.hideLoading();
+			},
 			send() {
 				this.disabled = true;
+				this.showLoading();
 				this.dialogueList.push({
 					role: "user",
 					content: this.usercontent,
@@ -78,24 +92,26 @@
 								this.dialogueList.push(item.message);
 							});
 							uni.setStorageSync(this.data.model, this.dialogueList);
-							this.disabled = false;
 						}
+					}).finally(() => {
+						this.disabled = false;
+						this.hideLoading();
 					});
 				} else if (this.data.class === "wenxin") {
-					getass_token(this.data.client_id, this.data.client_secret).then(
-						(res) => {
-							wenxinsendai(data, res).then((r) => {
-								if (!!r) {
-									this.dialogueList.push({
-										role: "assistant",
-										content: r,
-									});
-									uni.setStorageSync(this.data.model, this.dialogueList);
-									this.disabled = false;
-								}
-							});
-						}
-					);
+					getass_token(this.data.client_id, this.data.client_secret).then((res) => {
+						wenxinsendai(data, res).then((r) => {
+							if (!!r) {
+								this.dialogueList.push({
+									role: "assistant",
+									content: r,
+								});
+								uni.setStorageSync(this.data.model, this.dialogueList);
+							}
+						}).finally(() => {
+							this.disabled = false;
+							this.hideLoading();
+						});
+					});
 				} else if (this.data.class === 'qwen') {
 					qwensendai(data, this.data.key).then((res) => {
 						if (res.length > 0) {
@@ -103,9 +119,11 @@
 								this.dialogueList.push(item.message);
 							});
 							uni.setStorageSync(this.data.model, this.dialogueList);
-							this.disabled = false;
 						}
-					})
+					}).finally(() => {
+						this.disabled = false;
+						this.hideLoading();
+					});
 				} else if (this.data.class === 'glm') {
 					glmsendai(data, this.data.key).then((res) => {
 						if (res.length > 0) {
@@ -113,10 +131,11 @@
 								this.dialogueList.push(item.message);
 							});
 							uni.setStorageSync(this.data.model, this.dialogueList);
-							this.disabled = false;
 						}
-
-					})
+					}).finally(() => {
+						this.disabled = false;
+						this.hideLoading();
+					});
 				} else if (this.data.class === 'Doubao') {
 					doubaosendai(data, this.data.key).then((res) => {
 						if (res.length > 0) {
@@ -124,9 +143,108 @@
 								this.dialogueList.push(item.message);
 							});
 							uni.setStorageSync(this.data.model, this.dialogueList);
-							this.disabled = false;
 						}
-					})
+					}).finally(() => {
+						this.disabled = false;
+						this.hideLoading();
+					});
+				}
+			},
+			copyMessage(content) {
+				uni.setClipboardData({
+					data: content,
+					success: () => {
+						uni.showToast({
+							title: '复制成功',
+							icon: 'success',
+							duration: 1500
+						});
+					}
+				});
+			},
+			regenerateResponse(index) {
+				let userMessage = null;
+				for(let i = index - 1; i >= 0; i--) {
+					if(this.dialogueList[i].role === 'user') {
+						userMessage = this.dialogueList[i].content;
+						break;
+					}
+				}
+				
+				if(!userMessage) return;
+				
+				this.dialogueList = this.dialogueList.slice(0, index);
+				
+				const data = {
+					model: this.data.model,
+					messages: this.dialogueList,
+				};
+				
+				this.showLoading();
+				
+				if (this.data.class === "xunfei") {
+					xunfeisendai(data, this.data.password).then((res) => {
+						if (res.choices.length > 0) {
+							res.choices.map((item) => {
+								this.dialogueList.push(item.message);
+							});
+							uni.setStorageSync(this.data.model, this.dialogueList);
+						}
+					}).finally(() => {
+						this.disabled = false;
+						this.hideLoading();
+					});
+				} else if (this.data.class === "wenxin") {
+					getass_token(this.data.client_id, this.data.client_secret).then((res) => {
+						wenxinsendai(data, res).then((r) => {
+							if (!!r) {
+								this.dialogueList.push({
+									role: "assistant",
+									content: r,
+								});
+								uni.setStorageSync(this.data.model, this.dialogueList);
+							}
+						}).finally(() => {
+							this.disabled = false;
+							this.hideLoading();
+						});
+					});
+				} else if (this.data.class === 'qwen') {
+					qwensendai(data, this.data.key).then((res) => {
+						if (res.length > 0) {
+							res.map((item) => {
+								this.dialogueList.push(item.message);
+							});
+							uni.setStorageSync(this.data.model, this.dialogueList);
+						}
+					}).finally(() => {
+						this.disabled = false;
+						this.hideLoading();
+					});
+				} else if (this.data.class === 'glm') {
+					glmsendai(data, this.data.key).then((res) => {
+						if (res.length > 0) {
+							res.map((item) => {
+								this.dialogueList.push(item.message);
+							});
+							uni.setStorageSync(this.data.model, this.dialogueList);
+						}
+					}).finally(() => {
+						this.disabled = false;
+						this.hideLoading();
+					});
+				} else if (this.data.class === 'Doubao') {
+					doubaosendai(data, this.data.key).then((res) => {
+						if (res.length > 0) {
+							res.map((item) => {
+								this.dialogueList.push(item.message);
+							});
+							uni.setStorageSync(this.data.model, this.dialogueList);
+						}
+					}).finally(() => {
+						this.disabled = false;
+						this.hideLoading();
+					});
 				}
 			},
 		},
@@ -145,7 +263,7 @@
 				this.imageSrc =
 					"https://ts1.cn.mm.bing.net/th/id/R-C.7d60b0cc97ad68c2f0366e7198231748?rik=NqTw7%2f%2fCCDDJFg&riu=http%3a%2f%2fpic.danji100.com%2fupload%2f2023-4%2f20230412144409455103.png&ehk=vfGWk5cEyY%2fq5%2fVJlWcKCsEpOfA3t5bkZ7rpN2uZZe8%3d&risl=&pid=ImgRaw&r=0"
 			} else if (this.data.class === 'glm') {
-				this.imageSrc = 'https://api.iowen.cn/favicon/chatglm.cn.png'
+				this.imageSrc = 'https://ts1.cn.mm.bing.net/th?id=OIP-C.lP7TvomXA35x9wyyCxFl0QHaHa&rs=1&pid=ImgDetMain'
 			} else if (this.data.class === 'Doubao') {
 				this.imageSrc =
 					'https://ark-auto-2100207538-cn-beijing-default.tos-cn-beijing.volces.com/model_cardLTPtdLeE5K.png'
@@ -162,101 +280,231 @@
 	.index {
 		width: 750rpx;
 		height: 100vh;
-		background-color: #fff;
+		background-color: #f5f5f5;
 
 		.top {
 			display: flex;
 			justify-content: center;
 			align-items: center;
 			width: 100%;
-			height: 8vh;
-			background-color: rgb(174, 174, 172);
-			font-family: Arial, Helvetica, sans-serif;
-			font-size: 30rpx;
+			height: 88rpx;
+			background-color: #4a90e2;
+			font-size: 32rpx;
 			color: #fff;
+			font-weight: 500;
+			box-shadow: 0 2rpx 4rpx rgba(0,0,0,0.1);
 		}
 
 		.content {
-			height: 80vh;
-			background-color: #fff;
-			// padding-bottom: 20rpx;
-
+			height: calc(100vh - 188rpx);
+			padding: 20rpx 0;
+			
 			.dialogue_item {
-				width: 100%;
-				padding-top: 20rpx;
-				padding-bottom: 20rpx;
-
+				padding: 24rpx;
+				margin-bottom: 20rpx;
+				
 				.user {
 					display: flex;
-					justify-content: flex-start;
-					margin-left: 20rpx;
+					align-items: flex-start;
+					margin-bottom: 24rpx;
 
+					.message-wrapper {
+						position: relative;
+						display: flex;
+						flex-direction: column;
+						max-width: 70%;
+						
+						.action-btns {
+							display: flex;
+							gap: 16rpx;
+							margin-top: 8rpx;
+							padding: 0 8rpx;
+							
+							.action-btn {
+								font-size: 24rpx;
+								color: #666;
+								padding: 4rpx 12rpx;
+								background: rgba(74, 144, 226, 0.1);
+								border-radius: 6rpx;
+								transition: all 0.3s ease;
+								
+								&:active {
+									background: rgba(74, 144, 226, 0.2);
+								}
+								&:last-child {
+									background: rgba(74, 144, 226, 0.15);
+								}
+							}
+						}
+					}
+					
 					.user_content {
-						padding: 10rpx 20rpx 10rpx 20rpx;
-						margin-left: 20rpx;
-						// 渐变背景色
-						background: linear-gradient(to right,
-								rgb(240, 202, 202),
-								rgb(246, 176, 176));
-						// background-color: rgb(243, 243, 243);
-						padding: 10rpx;
-						border-radius: 10rpx;
-						max-width: 550rpx;
+						margin-left: 16rpx;
+						padding: 20rpx 24rpx;
+						background: #4a90e2;
+						color: #fff;
+						border-radius: 18rpx;
+						border-top-left-radius: 4rpx;
+						max-width: 70%;
+						word-break: break-all;
+						box-shadow: 0 2rpx 8rpx rgba(74, 144, 226, 0.2);
+						line-height: 1.5;
+						font-size: 28rpx;
+						transition: all 0.3s ease;
+						cursor: pointer;
+						user-select: text;
+						
+						&:active {
+							opacity: 0.8;
+						}
 					}
 				}
 
 				.ai {
-					margin-right: 20rpx;
 					display: flex;
+					align-items: flex-start;
 					justify-content: flex-end;
+					margin-bottom: 24rpx;
 
-					.ai_content {
-						padding: 10rpx 20rpx 10rpx 20rpx;
-						margin-right: 20rpx;
-						background-color: rgb(212, 208, 208);
-						padding: 10rpx;
-						border-radius: 10rpx;
-						max-width: 550rpx;
-						text-align: right;
+					.message-wrapper {
+						position: relative;
+						display: flex;
+						flex-direction: column;
+						max-width: 70%;
+						
+						.action-btns {
+							display: flex;
+							gap: 16rpx;
+							margin-top: 8rpx;
+							padding: 0 8rpx;
+						}
 					}
 
-					image {
-						width: 20px;
-						height: 20px;
-						border: 1px solid #6e6e6e;
-						border-radius: 50%;
+					.ai_content {
+						margin-right: 16rpx;
+						padding: 20rpx 24rpx;
+						background: #fff;
+						color: #333;
+						border-radius: 18rpx;
+						border-top-right-radius: 4rpx;
+						max-width: 70%;
+						word-break: break-all;
+						box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.1);
+						line-height: 1.5;
+						font-size: 28rpx;
+						transition: all 0.3s ease;
+						
+						&:active {
+							background: rgba(74, 144, 226, 0.05);
+						}
 					}
 				}
 
-				image {
-					width: 20px;
-					height: 20px;
-					border: 1px solid #6e6e6e;
+				.avatar {
+					width: 72rpx;
+					height: 72rpx;
 					border-radius: 50%;
+					border: 2rpx solid #e0e0e0;
+					box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.1);
+					transition: all 0.3s ease;
+					
+					&:active {
+						transform: scale(0.95);
+					}
 				}
 			}
 		}
 
 		.send_box {
-			border-top: 1px solid #a1a0a0;
-			width: 750rpx;
-			height: 12vh;
-			// background-color: rgb(186, 186, 187);
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 16rpx 24rpx;
+			background: #fff;
+			border-top: 1rpx solid #e0e0e0;
 			display: flex;
 			align-items: center;
+			gap: 16rpx;
 
 			input {
-				height: 80rpx;
-				border: 1px solid #6e6e6e;
-				border-radius: 60rpx;
-				width: 500rpx;
-				margin: 0 40rpx;
-				padding-left: 20rpx;
+				flex: 1;
+				height: 72rpx;
+				background: #f5f5f5;
+				border: none;
+				border-radius: 36rpx;
+				padding: 0 24rpx;
+				font-size: 28rpx;
 			}
 
 			button {
-				margin: 0%;
-				max-height: 10vh;
+				min-width: 120rpx;
+				height: 72rpx;
+				background: #4a90e2;
+				color: #fff;
+				border-radius: 36rpx;
+				font-size: 28rpx;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				padding: 0 32rpx;
+				margin: 0;
+
+				&:disabled {
+					background: #ccc;
+				}
+			}
+		}
+
+		.dialogue_item {
+			.user, .ai {
+				.message-wrapper {
+					position: relative;
+					display: flex;
+					flex-direction: column;
+					max-width: 70%;
+					
+					.action-btns {
+						display: flex;
+						gap: 16rpx;
+						margin-top: 8rpx;
+						padding: 0 8rpx;
+					}
+				}
+				
+				.user .action-btn {
+					right: 0;
+				}
+				
+				.ai .action-btn {
+					left: 0;
+				}
+			}
+
+			.avatar-btn {
+				width: 72rpx;
+				height: 72rpx;
+				margin: 0;
+				padding: 0;
+				background: none;
+				border: none;
+				
+				&::after {
+					border: none;
+				}
+				
+				.avatar {
+					width: 72rpx;
+					height: 72rpx;
+					border-radius: 50%;
+					border: 2rpx solid #e0e0e0;
+					box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.1);
+					transition: all 0.3s ease;
+					
+					&:active {
+						transform: scale(0.95);
+					}
+				}
 			}
 		}
 	}

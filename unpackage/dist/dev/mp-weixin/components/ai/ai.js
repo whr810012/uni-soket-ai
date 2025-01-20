@@ -150,6 +150,10 @@ var _ai = __webpack_require__(/*! ../../api/ai */ 231);
 //
 //
 //
+//
+//
+//
+//
 var _default = {
   name: "ai",
   props: ["data"],
@@ -172,9 +176,19 @@ var _default = {
       console.log("dialogue_item-".concat(this.dialogueList.length - 1));
       this.scrollIntoView = "dialogue_item-".concat(this.dialogueList.length - 1);
     },
+    showLoading: function showLoading() {
+      uni.showLoading({
+        title: '正在思考中...',
+        mask: true
+      });
+    },
+    hideLoading: function hideLoading() {
+      uni.hideLoading();
+    },
     send: function send() {
       var _this = this;
       this.disabled = true;
+      this.showLoading();
       this.dialogueList.push({
         role: "user",
         content: this.usercontent
@@ -193,8 +207,10 @@ var _default = {
               _this.dialogueList.push(item.message);
             });
             uni.setStorageSync(_this.data.model, _this.dialogueList);
-            _this.disabled = false;
           }
+        }).finally(function () {
+          _this.disabled = false;
+          _this.hideLoading();
         });
       } else if (this.data.class === "wenxin") {
         (0, _ai.getass_token)(this.data.client_id, this.data.client_secret).then(function (res) {
@@ -205,8 +221,10 @@ var _default = {
                 content: r
               });
               uni.setStorageSync(_this.data.model, _this.dialogueList);
-              _this.disabled = false;
             }
+          }).finally(function () {
+            _this.disabled = false;
+            _this.hideLoading();
           });
         });
       } else if (this.data.class === 'qwen') {
@@ -216,8 +234,10 @@ var _default = {
               _this.dialogueList.push(item.message);
             });
             uni.setStorageSync(_this.data.model, _this.dialogueList);
-            _this.disabled = false;
           }
+        }).finally(function () {
+          _this.disabled = false;
+          _this.hideLoading();
         });
       } else if (this.data.class === 'glm') {
         (0, _ai.glmsendai)(data, this.data.key).then(function (res) {
@@ -226,8 +246,10 @@ var _default = {
               _this.dialogueList.push(item.message);
             });
             uni.setStorageSync(_this.data.model, _this.dialogueList);
-            _this.disabled = false;
           }
+        }).finally(function () {
+          _this.disabled = false;
+          _this.hideLoading();
         });
       } else if (this.data.class === 'Doubao') {
         (0, _ai.doubaosendai)(data, this.data.key).then(function (res) {
@@ -236,8 +258,103 @@ var _default = {
               _this.dialogueList.push(item.message);
             });
             uni.setStorageSync(_this.data.model, _this.dialogueList);
-            _this.disabled = false;
           }
+        }).finally(function () {
+          _this.disabled = false;
+          _this.hideLoading();
+        });
+      }
+    },
+    copyMessage: function copyMessage(content) {
+      uni.setClipboardData({
+        data: content,
+        success: function success() {
+          uni.showToast({
+            title: '复制成功',
+            icon: 'success',
+            duration: 1500
+          });
+        }
+      });
+    },
+    regenerateResponse: function regenerateResponse(index) {
+      var _this2 = this;
+      var userMessage = null;
+      for (var i = index - 1; i >= 0; i--) {
+        if (this.dialogueList[i].role === 'user') {
+          userMessage = this.dialogueList[i].content;
+          break;
+        }
+      }
+      if (!userMessage) return;
+      this.dialogueList = this.dialogueList.slice(0, index);
+      var data = {
+        model: this.data.model,
+        messages: this.dialogueList
+      };
+      this.showLoading();
+      if (this.data.class === "xunfei") {
+        (0, _ai.xunfeisendai)(data, this.data.password).then(function (res) {
+          if (res.choices.length > 0) {
+            res.choices.map(function (item) {
+              _this2.dialogueList.push(item.message);
+            });
+            uni.setStorageSync(_this2.data.model, _this2.dialogueList);
+          }
+        }).finally(function () {
+          _this2.disabled = false;
+          _this2.hideLoading();
+        });
+      } else if (this.data.class === "wenxin") {
+        (0, _ai.getass_token)(this.data.client_id, this.data.client_secret).then(function (res) {
+          (0, _ai.wenxinsendai)(data, res).then(function (r) {
+            if (!!r) {
+              _this2.dialogueList.push({
+                role: "assistant",
+                content: r
+              });
+              uni.setStorageSync(_this2.data.model, _this2.dialogueList);
+            }
+          }).finally(function () {
+            _this2.disabled = false;
+            _this2.hideLoading();
+          });
+        });
+      } else if (this.data.class === 'qwen') {
+        (0, _ai.qwensendai)(data, this.data.key).then(function (res) {
+          if (res.length > 0) {
+            res.map(function (item) {
+              _this2.dialogueList.push(item.message);
+            });
+            uni.setStorageSync(_this2.data.model, _this2.dialogueList);
+          }
+        }).finally(function () {
+          _this2.disabled = false;
+          _this2.hideLoading();
+        });
+      } else if (this.data.class === 'glm') {
+        (0, _ai.glmsendai)(data, this.data.key).then(function (res) {
+          if (res.length > 0) {
+            res.map(function (item) {
+              _this2.dialogueList.push(item.message);
+            });
+            uni.setStorageSync(_this2.data.model, _this2.dialogueList);
+          }
+        }).finally(function () {
+          _this2.disabled = false;
+          _this2.hideLoading();
+        });
+      } else if (this.data.class === 'Doubao') {
+        (0, _ai.doubaosendai)(data, this.data.key).then(function (res) {
+          if (res.length > 0) {
+            res.map(function (item) {
+              _this2.dialogueList.push(item.message);
+            });
+            uni.setStorageSync(_this2.data.model, _this2.dialogueList);
+          }
+        }).finally(function () {
+          _this2.disabled = false;
+          _this2.hideLoading();
         });
       }
     }
@@ -255,7 +372,7 @@ var _default = {
     } else if (this.data.class === 'qwen') {
       this.imageSrc = "https://ts1.cn.mm.bing.net/th/id/R-C.7d60b0cc97ad68c2f0366e7198231748?rik=NqTw7%2f%2fCCDDJFg&riu=http%3a%2f%2fpic.danji100.com%2fupload%2f2023-4%2f20230412144409455103.png&ehk=vfGWk5cEyY%2fq5%2fVJlWcKCsEpOfA3t5bkZ7rpN2uZZe8%3d&risl=&pid=ImgRaw&r=0";
     } else if (this.data.class === 'glm') {
-      this.imageSrc = 'https://api.iowen.cn/favicon/chatglm.cn.png';
+      this.imageSrc = 'https://ts1.cn.mm.bing.net/th?id=OIP-C.lP7TvomXA35x9wyyCxFl0QHaHa&rs=1&pid=ImgDetMain';
     } else if (this.data.class === 'Doubao') {
       this.imageSrc = 'https://ark-auto-2100207538-cn-beijing-default.tos-cn-beijing.volces.com/model_cardLTPtdLeE5K.png';
     }
