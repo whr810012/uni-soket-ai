@@ -7,7 +7,7 @@
 				<view class="user" v-if="item.role === 'assistant'">
 					<image class="avatar" :src="imageSrc"> </image>
 					<view class="message-wrapper">
-						<span class="user_content" @longpress="copyMessage(item.content)">{{ item.content }}</span>
+						<span class="user_content" @longpress="copyMessage(item.content)" v-html="parseMarkdown(item.content)"></span>
 						<view class="action-btns">
 							<view class="action-btn" @click="copyMessage(item.content)">复制</view>
 							<view class="action-btn" @click="regenerateResponse(index)">重新回复</view>
@@ -25,8 +25,8 @@
 			</view>
 		</scroll-view>
 		<view class="send_box">
-			<input type="text" v-model="usercontent" placeholder="请输入内容" />
-			<button @click="send" :disabled="disabled">发送</button>
+			<input type="text" v-model="usercontent.trim()" placeholder="请输入内容" />
+			<button @click="send" :disabled="disabled || !usercontent.trim()">发送</button>
 		</view>
 	</view>
 </template>
@@ -40,6 +40,7 @@
 		glmsendai,
 		doubaosendai
 	} from "../../api/ai";
+
 	export default {
 		name: "ai",
 		props: ["data"],
@@ -72,6 +73,15 @@
 				uni.hideLoading();
 			},
 			send() {
+				if (!this.usercontent.trim()) {
+					uni.showToast({
+						title: '请输入内容',
+						icon: 'none',
+						duration: 1500
+					});
+					return;
+				}
+
 				this.disabled = true;
 				this.showLoading();
 				this.dialogueList.push({
@@ -247,6 +257,44 @@
 					});
 				}
 			},
+			parseMarkdown(content) {
+				try {
+					if (!content) return '';
+					
+					// 处理代码块
+					content = content.replace(/```([\s\S]*?)```/g, (match, code) => {
+						code = code.replace(/^.*\n/, '');
+						return `<div class="code-block"><pre><code>${code}</code></pre></div>`;
+					});
+					
+					// 处理粗体
+					content = content.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+					
+					// 处理标题 (## 类型)
+					content = content.replace(/^(#{1,6})\s+([^\n]+)/gm, (match, hashes, title) => {
+						const level = hashes.length;
+						return `<div class="markdown-heading-${level}">${title}</div>`;
+					});
+					
+					// 处理行内代码
+					content = content.replace(/`([^`]+)`/g, '<code class="inline-code">$1</code>');
+					
+					// 处理列表
+					content = content.replace(/^\s*[-*+]\s+([^\n]+)/gm, '<div class="markdown-list-item">• $1</div>');
+					
+					// 处理换行 (保持段落间的换行)
+					content = content.replace(/\n\n/g, '</p><p>');
+					content = content.replace(/\n/g, '<br>');
+					
+					// 包装整个内容
+					content = `<p>${content}</p>`;
+					
+					return content;
+				} catch (e) {
+					console.error('Markdown解析错误:', e);
+					return content || '';
+				}
+			},
 		},
 		watch: {
 			dialogueList() {
@@ -356,6 +404,79 @@
 						
 						&:active {
 							opacity: 0.8;
+						}
+						
+						:deep(p) {
+							margin: 16rpx 0;
+							line-height: 1.6;
+						}
+						
+						:deep(strong) {
+							font-weight: bold;
+							color: #000;
+						}
+						
+						:deep(.markdown-heading-1) {
+							font-size: 40rpx;
+							font-weight: bold;
+							margin: 32rpx 0 24rpx;
+							color: #000;
+						}
+						
+						:deep(.markdown-heading-2) {
+							font-size: 36rpx;
+							font-weight: bold;
+							margin: 28rpx 0 20rpx;
+							color: #222;
+						}
+						
+						:deep(.markdown-heading-3) {
+							font-size: 32rpx;
+							font-weight: bold;
+							margin: 24rpx 0 16rpx;
+							color: #333;
+						}
+						
+						:deep(.code-block) {
+							background: #f6f8fa;
+							border-radius: 8rpx;
+							margin: 16rpx 0;
+							padding: 16rpx;
+							
+							pre {
+								margin: 0;
+								overflow-x: auto;
+								
+								code {
+									font-family: Consolas, Monaco, 'Andale Mono', monospace;
+									font-size: 24rpx;
+									line-height: 1.6;
+									color: #333;
+									white-space: pre-wrap;
+									word-break: break-all;
+								}
+							}
+						}
+						
+						:deep(.inline-code) {
+							background: #f6f8fa;
+							padding: 4rpx 8rpx;
+							border-radius: 4rpx;
+							font-family: Consolas, Monaco, 'Andale Mono', monospace;
+							font-size: 24rpx;
+							color: #333;
+						}
+						
+						:deep(.markdown-list-item) {
+							padding: 8rpx 0;
+							padding-left: 32rpx;
+							position: relative;
+						}
+						
+						:deep(br) {
+							display: block;
+							content: "";
+							margin: 8rpx 0;
 						}
 					}
 				}

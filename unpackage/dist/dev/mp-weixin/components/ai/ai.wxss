@@ -74,6 +74,68 @@
 .index .content .dialogue_item .user .user_content.data-v-8e5cc878:active {
   opacity: 0.8;
 }
+.index .content .dialogue_item .user .user_content.data-v-8e5cc878 :deep(._p) {
+  margin: 16rpx 0;
+  line-height: 1.6;
+}
+.index .content .dialogue_item .user .user_content.data-v-8e5cc878 :deep(._strong) {
+  font-weight: bold;
+  color: #000;
+}
+.index .content .dialogue_item .user .user_content.data-v-8e5cc878 :deep(.markdown-heading-1) {
+  font-size: 40rpx;
+  font-weight: bold;
+  margin: 32rpx 0 24rpx;
+  color: #000;
+}
+.index .content .dialogue_item .user .user_content.data-v-8e5cc878 :deep(.markdown-heading-2) {
+  font-size: 36rpx;
+  font-weight: bold;
+  margin: 28rpx 0 20rpx;
+  color: #222;
+}
+.index .content .dialogue_item .user .user_content.data-v-8e5cc878 :deep(.markdown-heading-3) {
+  font-size: 32rpx;
+  font-weight: bold;
+  margin: 24rpx 0 16rpx;
+  color: #333;
+}
+.index .content .dialogue_item .user .user_content.data-v-8e5cc878 :deep(.code-block) {
+  background: #f6f8fa;
+  border-radius: 8rpx;
+  margin: 16rpx 0;
+  padding: 16rpx;
+}
+.index .content .dialogue_item .user .user_content :deep(.code-block) ._pre.data-v-8e5cc878 {
+  margin: 0;
+  overflow-x: auto;
+}
+.index .content .dialogue_item .user .user_content :deep(.code-block) ._pre ._code.data-v-8e5cc878 {
+  font-family: Consolas, Monaco, 'Andale Mono', monospace;
+  font-size: 24rpx;
+  line-height: 1.6;
+  color: #333;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+.index .content .dialogue_item .user .user_content.data-v-8e5cc878 :deep(.inline-code) {
+  background: #f6f8fa;
+  padding: 4rpx 8rpx;
+  border-radius: 4rpx;
+  font-family: Consolas, Monaco, 'Andale Mono', monospace;
+  font-size: 24rpx;
+  color: #333;
+}
+.index .content .dialogue_item .user .user_content.data-v-8e5cc878 :deep(.markdown-list-item) {
+  padding: 8rpx 0;
+  padding-left: 32rpx;
+  position: relative;
+}
+.index .content .dialogue_item .user .user_content.data-v-8e5cc878 :deep(._br) {
+  display: block;
+  content: "";
+  margin: 8rpx 0;
+}
 .index .content .dialogue_item .ai.data-v-8e5cc878 {
   display: flex;
   align-items: flex-start;

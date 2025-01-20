@@ -1,10 +1,10 @@
-export const universityList =
-[
+
+export const universityList = [
   {
     "name": "长春师范高等专科学校",
     "location": {
-      "lat": 44.083711,
-      "lng": 125.177877
+      "lat": 44.083711141069294,
+      "lng": 125.1778773832724
     },
     "address": "http://www.ccsfgz.com/",
     "province": "吉林省",
@@ -19,8 +19,8 @@ export const universityList =
   {
     "name": "中央美术学院",
     "location": {
-      "lat": 39.989397,
-      "lng": 116.470254
+      "lat": 39.997977655216665,
+      "lng": 116.43255452484209
     },
     "address": "http://www.cafa.edu.cn/2018cafa/",
     "province": "北京市",
@@ -35,8 +35,8 @@ export const universityList =
   {
     "name": "盐城幼儿师范高等专科学校(北校区)",
     "location": {
-      "lat": 33.323518,
-      "lng": 120.17344
+      "lat": 33.323517671747254,
+      "lng": 120.17344038380628
     },
     "address": "江苏省盐城市盐都区新都街道海洋路28号",
     "province": "江苏省",
@@ -51,8 +51,8 @@ export const universityList =
   {
     "name": "苏州幼儿师范高等专科学校",
     "location": {
-      "lat": 31.387279,
-      "lng": 120.676137
+      "lat": 31.38727860722114,
+      "lng": 120.67613654888694
     },
     "address": "http://www.szys.net/",
     "province": "江苏省",
@@ -67,8 +67,8 @@ export const universityList =
   {
     "name": "北京邮电大学",
     "location": {
-      "lat": 39.96725,
-      "lng": 116.364594
+      "lat": 40.11426027967259,
+      "lng": 116.3826850046251
     },
     "address": "https://www.bupt.edu.cn/",
     "province": "北京市",
@@ -83,8 +83,8 @@ export const universityList =
   {
     "name": "上饶幼儿师范高等专科学校",
     "location": {
-      "lat": 28.423997,
-      "lng": 117.988372
+      "lat": 28.712092991397174,
+      "lng": 117.06952300382518
     },
     "address": "",
     "province": "江西省",
@@ -99,8 +99,8 @@ export const universityList =
   {
     "name": "中国社会科学院大学(良乡校区)",
     "location": {
-      "lat": 39.745945,
-      "lng": 116.186757
+      "lat": 39.74533922041615,
+      "lng": 116.1898562709726
     },
     "address": "北京市房山区长于大街11号",
     "province": "北京市",
@@ -114,8 +114,8 @@ export const universityList =
   {
     "name": "抚州幼儿师范高等专科学校",
     "location": {
-      "lat": 27.954949,
-      "lng": 116.418811
+      "lat": 27.954949129957786,
+      "lng": 116.41881052482498
     },
     "address": "http://www.fzpec.cn/",
     "province": "江西省",
@@ -129,8 +129,8 @@ export const universityList =
   {
     "name": "北京第二外国语学院中瑞酒店管理学院",
     "location": {
-      "lat": 39.624697,
-      "lng": 116.315862
+      "lat": 39.6257737180051,
+      "lng": 116.3139640941285
     },
     "address": "http://www.bhi.edu.cn/",
     "province": "北京市",
@@ -145,8 +145,8 @@ export const universityList =
   {
     "name": "湘中幼儿师范高等专科学校",
     "location": {
-      "lat": 27.167158,
-      "lng": 111.424046
+      "lat": 27.167157736035666,
+      "lng": 111.42404567226527
     },
     "address": "http://www.hnsysf.com/",
     "province": "湖南省",
@@ -161,8 +161,8 @@ export const universityList =
   {
     "name": "北京大学",
     "location": {
-      "lat": 39.998877,
-      "lng": 116.316833
+      "lat": 39.764275099001786,
+      "lng": 116.36376803804323
     },
     "address": "http://www.pku.edu.cn/",
     "province": "北京市",
@@ -176,8 +176,8 @@ export const universityList =
   {
     "name": "北京交通职业技术学院",
     "location": {
-      "lat": 40.235024,
-      "lng": 116.210855
+      "lat": 40.23502405601548,
+      "lng": 116.21085497074331
     },
     "address": "http://www.jtxy.com.cn/",
     "province": "北京市",
@@ -192,8 +192,8 @@ export const universityList =
   {
     "name": "中国人民大学",
     "location": {
-      "lat": 39.976546,
-      "lng": 116.319769
+      "lat": 39.97654610615823,
+      "lng": 116.31976876467287
     },
     "address": "http://www.ruc.edu.cn/",
     "province": "北京市",
@@ -208,8 +208,8 @@ export const universityList =
   {
     "name": "清华大学",
     "location": {
-      "lat": 40.009645,
-      "lng": 116.333374
+      "lat": 40.009645090734296,
+      "lng": 116.33337396094367
     },
     "address": "http://www.tsinghua.edu.cn/publish/thu2018/index.html",
     "province": "北京市",
@@ -224,8 +224,8 @@ export const universityList =
   {
     "name": "天津科技大学(滨海校区)",
     "location": {
-      "lat": 39.093244,
-      "lng": 117.715812
+      "lat": 39.090385435921235,
+      "lng": 117.71678367004765
     },
     "address": "天津市滨海新区经济开发区第十三大街29号",
     "province": "天津市",
@@ -240,8 +240,8 @@ export const universityList =
   {
     "name": "天津美术学院",
     "location": {
-      "lat": 39.15907,
-      "lng": 117.200742
+      "lat": 39.18924065243078,
+      "lng": 117.2237759095532
     },
     "address": "http://www.tjarts.edu.cn/",
     "province": "天津市",
@@ -256,8 +256,8 @@ export const universityList =
   {
     "name": "北京工业大学",
     "location": {
-      "lat": 39.881251,
-      "lng": 116.488157
+      "lat": 39.890800452579725,
+      "lng": 116.48624067567931
     },
     "address": "http://www.bjut.edu.cn/",
     "province": "北京市",
@@ -272,8 +272,8 @@ export const universityList =
   {
     "name": "天津职业大学",
     "location": {
-      "lat": 39.236038,
-      "lng": 117.195466
+      "lat": 39.23623109978945,
+      "lng": 117.19129318231239
     },
     "address": "天津市北辰区洛河道2号",
     "province": "天津市",
@@ -288,8 +288,8 @@ export const universityList =
   {
     "name": "北京理工大学",
     "location": {
-      "lat": 39.966659,
-      "lng": 116.322726
+      "lat": 39.72773209078721,
+      "lng": 116.09190503816461
     },
     "address": "http://www.bit.edu.cn/",
     "province": "北京市",
@@ -303,8 +303,8 @@ export const universityList =
   {
     "name": "天津公安警官职业学院",
     "location": {
-      "lat": 39.009204,
-      "lng": 117.116273
+      "lat": 39.00920382305219,
+      "lng": 117.11627317391871
     },
     "address": "http://www.tjjingyuan.cn/",
     "province": "天津市",
@@ -317,8 +317,8 @@ export const universityList =
   {
     "name": "北京科技大学",
     "location": {
-      "lat": 39.996165,
-      "lng": 116.365942
+      "lat": 39.99363000534194,
+      "lng": 116.36701675992008
     },
     "address": "http://www.ustb.edu.cn/",
     "province": "北京市",
@@ -333,8 +333,8 @@ export const universityList =
   {
     "name": "北方工业大学",
     "location": {
-      "lat": 39.933738,
-      "lng": 116.21485
+      "lat": 39.933738059633406,
+      "lng": 116.21485000483783
     },
     "address": "http://www.ncut.edu.cn/",
     "province": "北京市",
@@ -349,8 +349,8 @@ export const universityList =
   {
     "name": "北京化工大学(东校区)",
     "location": {
-      "lat": 39.977968,
-      "lng": 116.427674
+      "lat": 39.976218853885364,
+      "lng": 116.42885296715768
     },
     "address": "北京市朝阳区北三环东路15号",
     "province": "北京市",
@@ -365,8 +365,8 @@ export const universityList =
   {
     "name": "北京科技大学天津学院",
     "location": {
-      "lat": 39.549359,
-      "lng": 117.40202
+      "lat": 39.54935908135249,
+      "lng": 117.40202002443735
     },
     "address": "http://tj.ustb.edu.cn/",
     "province": "天津市",
@@ -381,8 +381,8 @@ export const universityList =
   {
     "name": "北京工商大学(阜成路校区)",
     "location": {
-      "lat": 39.931541,
-      "lng": 116.323476
+      "lat": 39.93157707895068,
+      "lng": 116.32231195740216
     },
     "address": "北京市海淀区阜成路11、33号",
     "province": "北京市",
@@ -397,8 +397,8 @@ export const universityList =
   {
     "name": "北京服装学院",
     "location": {
-      "lat": 39.980234,
-      "lng": 116.437457
+      "lat": 39.98774367866658,
+      "lng": 116.37951793871913
     },
     "address": "http://www.bift.edu.cn/",
     "province": "北京市",
@@ -412,8 +412,8 @@ export const universityList =
   {
     "name": "河北地质大学",
     "location": {
-      "lat": 38.025828,
-      "lng": 114.556092
+      "lat": 38.026577261941384,
+      "lng": 114.53462542302678
     },
     "address": "http://www.hgu.edu.cn/",
     "province": "河北省",
@@ -428,8 +428,8 @@ export const universityList =
   {
     "name": "北京印刷学院",
     "location": {
-      "lat": 39.750402,
-      "lng": 116.33571
+      "lat": 39.765338115627856,
+      "lng": 116.31966501038646
     },
     "address": "http://www.bigc.edu.cn/",
     "province": "北京市",
@@ -444,8 +444,8 @@ export const universityList =
   {
     "name": "北京城市学院(顺义校区)",
     "location": {
-      "lat": 40.165316,
-      "lng": 116.822551
+      "lat": 40.10980497771805,
+      "lng": 116.50144602355505
     },
     "address": "北京市顺义区木燕路与杨镇西大街交汇处东北",
     "province": "北京市",
@@ -460,8 +460,8 @@ export const universityList =
   {
     "name": "北京建筑大学",
     "location": {
-      "lat": 39.940685,
-      "lng": 116.347969
+      "lat": 39.75469077161302,
+      "lng": 116.29289352991701
     },
     "address": "http://www.bucea.edu.cn/",
     "province": "北京市",
@@ -475,8 +475,8 @@ export const universityList =
   {
     "name": "华北理工大学",
     "location": {
-      "lat": 39.21084,
-      "lng": 118.59931
+      "lat": 39.62914270199869,
+      "lng": 118.1682032091605
     },
     "address": "http://www.ncst.edu.cn/",
     "province": "河北省",
@@ -491,8 +491,8 @@ export const universityList =
   {
     "name": "北京石油化工学院",
     "location": {
-      "lat": 39.753911,
-      "lng": 116.332327
+      "lat": 39.76316006809025,
+      "lng": 116.31967399344155
     },
     "address": "http://www.bipt.edu.cn/",
     "province": "北京市",
@@ -507,8 +507,8 @@ export const universityList =
   {
     "name": "北京电子科技学院",
     "location": {
-      "lat": 39.843926,
-      "lng": 116.286097
+      "lat": 39.84392607024498,
+      "lng": 116.28609713008962
     },
     "address": "http://www.besti.edu.cn/",
     "province": "北京市",
@@ -522,8 +522,8 @@ export const universityList =
   {
     "name": "天津师范大学",
     "location": {
-      "lat": 39.069342,
-      "lng": 117.132025
+      "lat": 39.105836336284035,
+      "lng": 117.18938841530904
     },
     "address": "http://www.tjnu.edu.cn/",
     "province": "天津市",
@@ -538,8 +538,8 @@ export const universityList =
   {
     "name": "北京农学院",
     "location": {
-      "lat": 40.100942,
-      "lng": 116.317085
+      "lat": 40.100942057700316,
+      "lng": 116.31708498713127
     },
     "address": "https://www.bac.edu.cn/",
     "province": "北京市",
@@ -554,8 +554,8 @@ export const universityList =
   {
     "name": "天津仁爱学院",
     "location": {
-      "lat": 38.891238,
-      "lng": 117.163406
+      "lat": 38.86799595571753,
+      "lng": 117.13804315880026
     },
     "address": "天津市静海区205国道",
     "province": "天津市",
@@ -570,8 +570,8 @@ export const universityList =
   {
     "name": "北京林业大学",
     "location": {
-      "lat": 40.007893,
-      "lng": 116.351835
+      "lat": 40.07055405436101,
+      "lng": 116.11174797806618
     },
     "address": "http://www.bjfu.edu.cn/",
     "province": "北京市",
@@ -586,8 +586,8 @@ export const universityList =
   {
     "name": "中国农业大学(东校区)",
     "location": {
-      "lat": 40.010185,
-      "lng": 116.364154
+      "lat": 40.01018508341904,
+      "lng": 116.36415403992088
     },
     "address": "北京市海淀区清华东路17号",
     "province": "北京市",
@@ -602,8 +602,8 @@ export const universityList =
   {
     "name": "北京协和医学院",
     "location": {
-      "lat": 39.917338,
-      "lng": 116.421237
+      "lat": 39.91733807474174,
+      "lng": 116.42123704321352
     },
     "address": "http://www.pumc.edu.cn/",
     "province": "北京市",
@@ -617,8 +617,8 @@ export const universityList =
   {
     "name": "天津职业技术师范大学",
     "location": {
-      "lat": 39.064979,
-      "lng": 117.302938
+      "lat": 39.064978621220426,
+      "lng": 117.30293755550063
     },
     "address": "http://www.tute.edu.cn/",
     "province": "天津市",
@@ -633,8 +633,8 @@ export const universityList =
   {
     "name": "首都医科大学",
     "location": {
-      "lat": 39.86913,
-      "lng": 116.359366
+      "lat": 39.84921408136945,
+      "lng": 116.3304409934536
     },
     "address": "http://www.ccmu.edu.cn/",
     "province": "北京市",
@@ -648,8 +648,8 @@ export const universityList =
   {
     "name": "北京联合大学",
     "location": {
-      "lat": 39.996699,
-      "lng": 116.433682
+      "lat": 39.99599428703,
+      "lng": 116.43383119663287
     },
     "address": "http://www.buu.edu.cn/",
     "province": "北京市",
@@ -664,8 +664,8 @@ export const universityList =
   {
     "name": "天津天狮学院",
     "location": {
-      "lat": 39.434381,
-      "lng": 117.047517
+      "lat": 39.43438064154252,
+      "lng": 117.04751696001554
     },
     "address": "http://www.tianshi.edu.cn/",
     "province": "天津市",
@@ -680,8 +680,8 @@ export const universityList =
   {
     "name": "北京师范大学",
     "location": {
-      "lat": 39.967345,
-      "lng": 116.372141
+      "lat": 39.96734505008757,
+      "lng": 116.37214096404064
     },
     "address": "http://www.bnu.edu.cn/",
     "province": "北京市",
@@ -696,8 +696,8 @@ export const universityList =
   {
     "name": "北京工业大学耿丹学院",
     "location": {
-      "lat": 40.221871,
-      "lng": 116.658646
+      "lat": 40.22187107301995,
+      "lng": 116.6586459844097
     },
     "address": "http://www.gengdan.cn/",
     "province": "北京市",
@@ -712,8 +712,8 @@ export const universityList =
   {
     "name": "首都师范大学",
     "location": {
-      "lat": 39.936212,
-      "lng": 116.312068
+      "lat": 39.71881010186969,
+      "lng": 116.18564896728607
     },
     "address": "http://www.cnu.edu.cn/",
     "province": "北京市",
@@ -728,8 +728,8 @@ export const universityList =
   {
     "name": "北京交通大学",
     "location": {
-      "lat": 39.957902,
-      "lng": 116.34974
+      "lat": 39.95293510428963,
+      "lng": 116.35394102491684
     },
     "address": "http://www.njtu.edu.cn/",
     "province": "北京市",
@@ -744,8 +744,8 @@ export const universityList =
   {
     "name": "首都体育学院",
     "location": {
-      "lat": 39.975812,
-      "lng": 116.353823
+      "lat": 40.08513150565124,
+      "lng": 116.11890657467518
     },
     "address": "http://www.cupes.edu.cn/cenep/cupes/",
     "province": "北京市",
@@ -759,8 +759,8 @@ export const universityList =
   {
     "name": "中国戏曲学院",
     "location": {
-      "lat": 39.869496,
-      "lng": 116.339316
+      "lat": 39.86949646987007,
+      "lng": 116.33931589256999
     },
     "address": "https://www.nacta.edu.cn/",
     "province": "北京市",
@@ -775,8 +775,8 @@ export const universityList =
   {
     "name": "北京外国语大学",
     "location": {
-      "lat": 39.961489,
-      "lng": 116.319536
+      "lat": 39.961199005015196,
+      "lng": 116.31291801736212
     },
     "address": "http://www.bfsu.edu.cn/",
     "province": "北京市",
@@ -791,8 +791,8 @@ export const universityList =
   {
     "name": "天津滨海汽车工程职业学院",
     "location": {
-      "lat": 38.994754,
-      "lng": 117.479841
+      "lat": 38.99475413773198,
+      "lng": 117.4798410392417
     },
     "address": "http://www.tqzyxy.com/",
     "province": "天津市",
@@ -807,8 +807,8 @@ export const universityList =
   {
     "name": "北京第二外国语学院",
     "location": {
-      "lat": 39.918528,
-      "lng": 116.5701
+      "lat": 39.91852805812361,
+      "lng": 116.57010001029117
     },
     "address": "http://www.bisu.edu.cn/",
     "province": "北京市",
@@ -823,8 +823,8 @@ export const universityList =
   {
     "name": "天津艺术职业学院",
     "location": {
-      "lat": 39.097083,
-      "lng": 117.281455
+      "lat": 39.097083100235146,
+      "lng": 117.28145475889063
     },
     "address": "http://www.arttj.cn/",
     "province": "天津市",
@@ -838,8 +838,8 @@ export const universityList =
   {
     "name": "北京语言大学",
     "location": {
-      "lat": 40.000642,
-      "lng": 116.352933
+      "lat": 40.00064163095547,
+      "lng": 116.35293348545684
     },
     "address": "http://wwwnew.blcu.edu.cn/",
     "province": "北京市",
@@ -853,8 +853,8 @@ export const universityList =
   {
     "name": "中国传媒大学",
     "location": {
-      "lat": 39.918036,
-      "lng": 116.563871
+      "lat": 39.919628858929656,
+      "lng": 116.54747115551153
     },
     "address": "http://by.cuc.edu.cn/",
     "province": "北京市",
@@ -869,8 +869,8 @@ export const universityList =
   {
     "name": "河北北方学院",
     "location": {
-      "lat": 40.77713,
-      "lng": 114.885358
+      "lat": 40.77844978441991,
+      "lng": 114.89789496108992
     },
     "address": "http://211.81.208.4/",
     "province": "河北省",
@@ -885,8 +885,8 @@ export const universityList =
   {
     "name": "中央财经大学(学院南路校区)",
     "location": {
-      "lat": 39.965211,
-      "lng": 116.349163
+      "lat": 39.966138088229414,
+      "lng": 116.35064065047318
     },
     "address": "北京市海淀区学院南路39号",
     "province": "北京市",
@@ -901,8 +901,8 @@ export const universityList =
   {
     "name": "天津医学高等专科学校",
     "location": {
-      "lat": 39.079677,
-      "lng": 117.294134
+      "lat": 39.07967710962589,
+      "lng": 117.29413434116397
     },
     "address": "http://www.tjyzh.cn/",
     "province": "天津市",
@@ -917,8 +917,8 @@ export const universityList =
   {
     "name": "对外经济贸易大学",
     "location": {
-      "lat": 39.986491,
-      "lng": 116.434341
+      "lat": 39.98649064259156,
+      "lng": 116.43434107484033
     },
     "address": "http://www.uibe.edu.cn/",
     "province": "北京市",
@@ -932,8 +932,8 @@ export const universityList =
   {
     "name": "北京科技经营管理学院(沙河新校区)",
     "location": {
-      "lat": 40.150244,
-      "lng": 116.296478
+      "lat": 40.18129647349576,
+      "lng": 116.49078012042445
     },
     "address": "北京市昌平区顺沙路6号院",
     "province": "北京市",
@@ -948,8 +948,8 @@ export const universityList =
   {
     "name": "北京物资学院",
     "location": {
-      "lat": 39.936967,
-      "lng": 116.644583
+      "lat": 39.8760957354244,
+      "lng": 116.36494742334729
     },
     "address": "http://www.bwu.edu.cn/",
     "province": "北京市",
@@ -964,8 +964,8 @@ export const universityList =
   {
     "name": "首都经济贸易大学",
     "location": {
-      "lat": 39.8476,
-      "lng": 116.323563
+      "lat": 39.84759959400033,
+      "lng": 116.32356275799425
     },
     "address": "http://www.cueb.edu.cn/",
     "province": "北京市",
@@ -980,8 +980,8 @@ export const universityList =
   {
     "name": "石家庄职业技术学院",
     "location": {
-      "lat": 38.052708,
-      "lng": 114.413104
+      "lat": 38.05270801720916,
+      "lng": 114.41310391126468
     },
     "address": "http://www.sjzpt.edu.cn/",
     "province": "河北省",
@@ -996,8 +996,8 @@ export const universityList =
   {
     "name": "中国消防救援学院",
     "location": {
-      "lat": 40.207776,
-      "lng": 116.094092
+      "lat": 40.20777603956903,
+      "lng": 116.09409205275921
     },
     "address": "https://www.mem.gov.cn/slxfxy/index.html",
     "province": "北京市",
@@ -1012,8 +1012,8 @@ export const universityList =
   {
     "name": "辽宁政法职业学院",
     "location": {
-      "lat": 41.845308,
-      "lng": 123.626002
+      "lat": 41.84530829068588,
+      "lng": 123.62600197408261
     },
     "address": "http://www.lacpj.com/",
     "province": "辽宁省",
@@ -1028,8 +1028,8 @@ export const universityList =
   {
     "name": "外交学院(展览路校区)",
     "location": {
-      "lat": 39.932071,
-      "lng": 116.352266
+      "lat": 39.931600938843395,
+      "lng": 116.35229074786444
     },
     "address": "北京市西城区展览馆路24号",
     "province": "北京市",
@@ -1043,8 +1043,8 @@ export const universityList =
   {
     "name": "中国人民公安大学(木樨地校区)",
     "location": {
-      "lat": 39.906724,
-      "lng": 116.343705
+      "lat": 39.9048603598291,
+      "lng": 116.34640145694104
     },
     "address": "北京市西城区木樨地南里1号",
     "province": "北京市",
@@ -1059,8 +1059,8 @@ export const universityList =
   {
     "name": "齐齐哈尔医学院",
     "location": {
-      "lat": 47.384783,
-      "lng": 123.957548
+      "lat": 47.38478291458714,
+      "lng": 123.95754802300905
     },
     "address": "http://www.qmu.edu.cn/",
     "province": "黑龙江省",
@@ -1075,8 +1075,8 @@ export const universityList =
   {
     "name": "国际关系学院",
     "location": {
-      "lat": 40.010144,
-      "lng": 116.292752
+      "lat": 40.009799207033645,
+      "lng": 116.29195246506474
     },
     "address": "http://www.uir.cn/",
     "province": "北京市",
@@ -1091,8 +1091,8 @@ export const universityList =
   {
     "name": "辽源职业技术学院",
     "location": {
-      "lat": 42.855258,
-      "lng": 125.135759
+      "lat": 42.85525796785041,
+      "lng": 125.13575898197881
     },
     "address": "http://www.lyvtc.cn/default.html",
     "province": "吉林省",
@@ -1107,8 +1107,8 @@ export const universityList =
   {
     "name": "北京体育大学",
     "location": {
-      "lat": 40.029575,
-      "lng": 116.325654
+      "lat": 40.02957506103658,
+      "lng": 116.32565410305205
     },
     "address": "http://www.bsu.edu.cn/",
     "province": "北京市",
@@ -1123,8 +1123,8 @@ export const universityList =
   {
     "name": "北京航空航天大学",
     "location": {
-      "lat": 39.991858,
-      "lng": 116.354447
+      "lat": 39.984500096745215,
+      "lng": 116.35255395137888
     },
     "address": "http://www.buaa.edu.cn/",
     "province": "北京市",
@@ -1138,8 +1138,8 @@ export const universityList =
   {
     "name": "中央音乐学院",
     "location": {
-      "lat": 39.908296,
-      "lng": 116.365604
+      "lat": 39.90829571991145,
+      "lng": 116.36560354569177
     },
     "address": "http://www.ccom.edu.cn/",
     "province": "北京市",
@@ -1154,8 +1154,8 @@ export const universityList =
   {
     "name": "中国音乐学院",
     "location": {
-      "lat": 39.997789,
-      "lng": 116.385599
+      "lat": 39.99778910438805,
+      "lng": 116.38559901786893
     },
     "address": "http://www.ccmusic.edu.cn/",
     "province": "北京市",
@@ -1170,8 +1170,8 @@ export const universityList =
   {
     "name": "黑龙江农垦科科技职业学院",
     "location": {
-      "lat": 45.755301,
-      "lng": 127.197082
+      "lat": 45.75673419222288,
+      "lng": 127.19779627381955
     },
     "address": "黑龙江省哈尔滨市宾县宾西经济开发区大学城1号",
     "province": "黑龙江省",
@@ -1186,8 +1186,8 @@ export const universityList =
   {
     "name": "上海外国语大学(虹口校区)",
     "location": {
-      "lat": 31.282207,
-      "lng": 121.489282
+      "lat": 31.28238358988897,
+      "lng": 121.48895194043021
     },
     "address": "上海市虹口区大连西路550号",
     "province": "上海市",
@@ -1202,8 +1202,8 @@ export const universityList =
   {
     "name": "中央戏剧学院(东城校区)",
     "location": {
-      "lat": 39.942254,
-      "lng": 116.411001
+      "lat": 39.942215062359516,
+      "lng": 116.40955143598698
     },
     "address": "北京市东城区东棉花胡同39号",
     "province": "北京市",
@@ -1218,8 +1218,8 @@ export const universityList =
   {
     "name": "天津工程职业技术学院(南校区)",
     "location": {
-      "lat": 38.729391,
-      "lng": 117.505054
+      "lat": 38.731239559197505,
+      "lng": 117.50683790456361
     },
     "address": "天津市滨海新区三号院幸福路51号",
     "province": "天津市",
@@ -1234,8 +1234,8 @@ export const universityList =
   {
     "name": "河北科技大学",
     "location": {
-      "lat": 37.984026,
-      "lng": 114.528652
+      "lat": 37.984026057345105,
+      "lng": 114.52865196087708
     },
     "address": "http://www.hebust.edu.cn/",
     "province": "河北省",
@@ -1250,8 +1250,8 @@ export const universityList =
   {
     "name": "北京电影学院",
     "location": {
-      "lat": 39.977148,
-      "lng": 116.36231
+      "lat": 40.11856204001257,
+      "lng": 116.37902396051919
     },
     "address": "http://www.bfa.edu.cn/",
     "province": "北京市",
@@ -1265,8 +1265,8 @@ export const universityList =
   {
     "name": "江苏警官学院(浦口校区)",
     "location": {
-      "lat": 32.098162,
-      "lng": 118.662871
+      "lat": 32.10457182125315,
+      "lng": 118.67419588597113
     },
     "address": "南京市浦口区石佛寺三宫48号",
     "province": "江苏省",
@@ -1281,8 +1281,8 @@ export const universityList =
   {
     "name": "北京舞蹈学院",
     "location": {
-      "lat": 39.952867,
-      "lng": 116.325777
+      "lat": 39.95286679653903,
+      "lng": 116.3257768115847
     },
     "address": "http://www.bda.edu.cn/",
     "province": "北京市",
@@ -1297,8 +1297,8 @@ export const universityList =
   {
     "name": "中央民族大学",
     "location": {
-      "lat": 39.956624,
-      "lng": 116.327126
+      "lat": 39.95662410464323,
+      "lng": 116.3271264257829
     },
     "address": "http://www.muc.edu.cn/",
     "province": "北京市",
@@ -1313,8 +1313,8 @@ export const universityList =
   {
     "name": "江南大学(蠡湖校区)",
     "location": {
-      "lat": 31.489746,
-      "lng": 120.277757
+      "lat": 31.482676509561436,
+      "lng": 120.27994995286895
     },
     "address": "江苏省无锡市滨湖区蠡湖大道1800号",
     "province": "江苏省",
@@ -1329,8 +1329,8 @@ export const universityList =
   {
     "name": "中国政法大学(海淀校区)",
     "location": {
-      "lat": 39.971079,
-      "lng": 116.357865
+      "lat": 39.971101901940806,
+      "lng": 116.35900378494053
     },
     "address": "北京市海淀区西土城路25号",
     "province": "北京市",
@@ -1345,8 +1345,8 @@ export const universityList =
   {
     "name": "华北电力大学",
     "location": {
-      "lat": 40.095687,
-      "lng": 116.31637
+      "lat": 40.09568744021479,
+      "lng": 116.31637020543697
     },
     "address": "http://www.ncepu.edu.cn/",
     "province": "北京市",
@@ -1361,8 +1361,8 @@ export const universityList =
   {
     "name": "北京工业职业技术学院",
     "location": {
-      "lat": 39.96617,
-      "lng": 116.127485
+      "lat": 39.96617009259233,
+      "lng": 116.12748503297327
     },
     "address": "http://www.bgy.org.cn/",
     "province": "北京市",
@@ -1377,8 +1377,8 @@ export const universityList =
   {
     "name": "北京信息职业技术学院",
     "location": {
-      "lat": 39.978853,
-      "lng": 116.489231
+      "lat": 39.97885334535878,
+      "lng": 116.48923077539982
     },
     "address": "http://www.bitc.edu.cn/cn/",
     "province": "北京市",
@@ -1393,8 +1393,8 @@ export const universityList =
   {
     "name": "白城医学高等专科学校",
     "location": {
-      "lat": 45.614863,
-      "lng": 122.808031
+      "lat": 45.614862982639764,
+      "lng": 122.80803092800582
     },
     "address": "http://www.bcmc.edu.cn/",
     "province": "吉林省",
@@ -1408,8 +1408,8 @@ export const universityList =
   {
     "name": "北京电子科技职业学院(亦庄校区)",
     "location": {
-      "lat": 39.776965,
-      "lng": 116.515349
+      "lat": 39.77437513391699,
+      "lng": 116.51867139103109
     },
     "address": "北京市大兴区凉水河一街9号",
     "province": "北京市",
@@ -1424,8 +1424,8 @@ export const universityList =
   {
     "name": "北京京北职业技术学院",
     "location": {
-      "lat": 40.34552,
-      "lng": 116.647689
+      "lat": 40.34551957618553,
+      "lng": 116.64768854362954
     },
     "address": "http://www.jbzy.com.cn/",
     "province": "北京市",
@@ -1439,8 +1439,8 @@ export const universityList =
   {
     "name": "吉林动画学院",
     "location": {
-      "lat": 43.825698,
-      "lng": 125.267826
+      "lat": 43.88218097313332,
+      "lng": 125.37475774426656
     },
     "address": "http://www.jlai.edu.cn/",
     "province": "吉林省",
@@ -1455,8 +1455,8 @@ export const universityList =
   {
     "name": "长春理工大学(东校区)",
     "location": {
-      "lat": 43.842539,
-      "lng": 125.320006
+      "lat": 43.84289911559852,
+      "lng": 125.31998302681235
     },
     "address": "吉林省长春市朝阳区卫星路7089号",
     "province": "吉林省",
@@ -1471,8 +1471,8 @@ export const universityList =
   {
     "name": "中华女子学院",
     "location": {
-      "lat": 40.000844,
-      "lng": 116.441903
+      "lat": 40.201689032011224,
+      "lng": 116.24782500349811
     },
     "address": "http://www.cwu.edu.cn/",
     "province": "北京市",
@@ -1487,8 +1487,8 @@ export const universityList =
   {
     "name": "上海农林职业技术学院",
     "location": {
-      "lat": 31.016352,
-      "lng": 121.225792
+      "lat": 30.901444818977595,
+      "lng": 121.17827495607646
     },
     "address": "http://www.shafc.edu.cn/NL/Default.aspx",
     "province": "上海市",
@@ -1503,8 +1503,8 @@ export const universityList =
   {
     "name": "北京信息科技大学",
     "location": {
-      "lat": 40.044176,
-      "lng": 116.352761
+      "lat": 40.147014366733885,
+      "lng": 116.24542886338078
     },
     "address": "http://www.bistu.edu.cn/",
     "province": "北京市",
@@ -1518,8 +1518,8 @@ export const universityList =
   {
     "name": "防灾科技学院(北区)",
     "location": {
-      "lat": 39.969312,
-      "lng": 116.806272
+      "lat": 40.013481591147674,
+      "lng": 116.7899477974117
     },
     "address": "河北省廊坊市三河市爱民路",
     "province": "河北省",
@@ -1533,8 +1533,8 @@ export const universityList =
   {
     "name": "中国矿业大学(北京)",
     "location": {
-      "lat": 40.003785,
-      "lng": 116.354937
+      "lat": 40.00379725441136,
+      "lng": 116.35379684688247
     },
     "address": "北京市海淀区学院路丁11号",
     "province": "北京市",
@@ -1549,8 +1549,8 @@ export const universityList =
   {
     "name": "辽宁装备制造职业技术学院",
     "location": {
-      "lat": 41.915888,
-      "lng": 123.595845
+      "lat": 41.91588752090366,
+      "lng": 123.59584486997659
     },
     "address": "http://zy.ltcem.com/",
     "province": "辽宁省",
@@ -1563,8 +1563,8 @@ export const universityList =
   {
     "name": "中国石油大学(北京)",
     "location": {
-      "lat": 40.224412,
-      "lng": 116.253981
+      "lat": 40.226337627818786,
+      "lng": 116.25350265364335
     },
     "address": "北京市昌平区府学路18号",
     "province": "北京市",
@@ -1578,8 +1578,8 @@ export const universityList =
   {
     "name": "上海体育职业学院(西北门)",
     "location": {
-      "lat": 31.148545,
-      "lng": 121.43695
+      "lat": 31.14854483418003,
+      "lng": 121.43694966327145
     },
     "address": "上海市徐汇区百色路1333号",
     "province": "上海市",
@@ -1593,8 +1593,8 @@ export const universityList =
   {
     "name": "中国地质大学(北京)",
     "location": {
-      "lat": 39.996876,
-      "lng": 116.354524
+      "lat": 39.99869178067698,
+      "lng": 116.35474527783991
     },
     "address": "北京市海淀区学院路29号",
     "province": "北京市",
@@ -1609,8 +1609,8 @@ export const universityList =
   {
     "name": "亳州职业技术学院",
     "location": {
-      "lat": 33.850358,
-      "lng": 115.774672
+      "lat": 33.850358094020045,
+      "lng": 115.7746724896907
     },
     "address": "http://www.bzvtc.com/",
     "province": "安徽省",
@@ -1625,8 +1625,8 @@ export const universityList =
   {
     "name": "河北对外经贸职业学院",
     "location": {
-      "lat": 39.807276,
-      "lng": 119.434214
+      "lat": 39.807275689250154,
+      "lng": 119.4342141796404
     },
     "address": "http://www.hbiibe.edu.cn/",
     "province": "河北省",
@@ -1641,8 +1641,8 @@ export const universityList =
   {
     "name": "长治职业技术学院(北校区)",
     "location": {
-      "lat": 36.222086,
-      "lng": 113.138337
+      "lat": 36.22233430378787,
+      "lng": 113.13890317928087
     },
     "address": "城北东街97号长治之二",
     "province": "山西省",
@@ -1657,8 +1657,8 @@ export const universityList =
   {
     "name": "中央团校(中国青年政治学院)",
     "location": {
-      "lat": 39.956802,
-      "lng": 116.314099
+      "lat": 39.95728273730821,
+      "lng": 116.31549893892284
     },
     "address": "北京市海淀区西三环北路25号",
     "province": "北京市",
@@ -1673,8 +1673,8 @@ export const universityList =
   {
     "name": "山西艺术职业学院",
     "location": {
-      "lat": 37.858856,
-      "lng": 112.579999
+      "lat": 37.85885631811734,
+      "lng": 112.57999914013536
     },
     "address": "http://www.sxyz.com/",
     "province": "山西省",
@@ -1689,8 +1689,8 @@ export const universityList =
   {
     "name": "北京青年政治学院(望京校区)",
     "location": {
-      "lat": 39.986828,
-      "lng": 116.481254
+      "lat": 39.98704063243595,
+      "lng": 116.48066210863179
     },
     "address": "北京市朝阳区望京街道花家地街9号",
     "province": "北京市",
@@ -1705,8 +1705,8 @@ export const universityList =
   {
     "name": "苏州托普信息技术学院",
     "location": {
-      "lat": 31.46858,
-      "lng": 120.852443
+      "lat": 31.469248926402425,
+      "lng": 120.85478040972303
     },
     "address": "苏州市昆山市巴城镇湖滨北路288号",
     "province": "江苏省",
@@ -1721,8 +1721,8 @@ export const universityList =
   {
     "name": "首钢(工学院)",
     "location": {
-      "lat": 39.932052,
-      "lng": 116.208843
+      "lat": 39.93246652858666,
+      "lng": 116.21004110595126
     },
     "address": "北京市石景山区晋元庄路6号",
     "province": "北京市",
@@ -1736,8 +1736,8 @@ export const universityList =
   {
     "name": "河北能源职业技术学院",
     "location": {
-      "lat": 39.637959,
-      "lng": 118.131407
+      "lat": 39.63795906104911,
+      "lng": 118.13140699852188
     },
     "address": "http://www.hbnyxy.cn/",
     "province": "河北省",
@@ -1752,8 +1752,8 @@ export const universityList =
   {
     "name": "北京农业职业学院",
     "location": {
-      "lat": 39.77807,
-      "lng": 116.234899
+      "lat": 39.77807008140949,
+      "lng": 116.23489901602338
     },
     "address": "http://www.bvca.edu.cn/",
     "province": "北京市",
@@ -1768,8 +1768,8 @@ export const universityList =
   {
     "name": "北京政法职业学院",
     "location": {
-      "lat": 39.768263,
-      "lng": 116.375245
+      "lat": 39.92465860131552,
+      "lng": 116.52004301371427
     },
     "address": "http://www.bcpl.cn/",
     "province": "北京市",
@@ -1784,8 +1784,8 @@ export const universityList =
   {
     "name": "天津铁道职业技术学院",
     "location": {
-      "lat": 39.176797,
-      "lng": 117.227506
+      "lat": 39.176796860987785,
+      "lng": 117.22750603335282
     },
     "address": "http://www.tjtdxy.cn/",
     "province": "天津市",
@@ -1800,8 +1800,8 @@ export const universityList =
   {
     "name": "北京财贸职业学院",
     "location": {
-      "lat": 39.927147,
-      "lng": 116.654178
+      "lat": 39.92714708525436,
+      "lng": 116.65417799246418
     },
     "address": "http://www.bjczy.edu.cn/",
     "province": "北京市",
@@ -1816,8 +1816,8 @@ export const universityList =
   {
     "name": "厦门东海职业技术学院",
     "location": {
-      "lat": 24.751717,
-      "lng": 118.179015
+      "lat": 24.751717232967092,
+      "lng": 118.17901546764381
     },
     "address": "http://www.xmdh.com/",
     "province": "福建省",
@@ -1832,8 +1832,8 @@ export const universityList =
   {
     "name": "北京北大方正软件技术学院",
     "location": {
-      "lat": 39.620775,
-      "lng": 116.749544
+      "lat": 39.61090867337979,
+      "lng": 116.7611301566516
     },
     "address": "经济技术开发区东方大学城毕升路7号",
     "province": "河北省",
@@ -1847,8 +1847,8 @@ export const universityList =
   {
     "name": "北京经贸职业学院",
     "location": {
-      "lat": 39.72787,
-      "lng": 116.170599
+      "lat": 39.72787006020548,
+      "lng": 116.17059902626356
     },
     "address": "http://www.csuedu.com/",
     "province": "北京市",
@@ -1863,8 +1863,8 @@ export const universityList =
   {
     "name": "明达职业技术学院",
     "location": {
-      "lat": 33.79193,
-      "lng": 120.344741
+      "lat": 33.791929948290786,
+      "lng": 120.34474086658994
     },
     "address": "http://www.mdut.cn/",
     "province": "江苏省",
@@ -1879,8 +1879,8 @@ export const universityList =
   {
     "name": "北京经济技术职业学院",
     "location": {
-      "lat": 40.02092,
-      "lng": 116.842766
+      "lat": 40.020920075872844,
+      "lng": 116.84276609529573
     },
     "address": "http://www.bibt.edu.cn/",
     "province": "河北省",
@@ -1893,8 +1893,8 @@ export const universityList =
   {
     "name": "闽北职业技术学院(江南校区)",
     "location": {
-      "lat": 26.584793,
-      "lng": 118.258048
+      "lat": 26.58463858224592,
+      "lng": 118.26173179829745
     },
     "address": "福建省南平市延平区职教园区海瑞路9号",
     "province": "福建省",
@@ -1909,8 +1909,8 @@ export const universityList =
   {
     "name": "北京戏曲艺术职业学院",
     "location": {
-      "lat": 39.861792,
-      "lng": 116.383753
+      "lat": 39.86179179865929,
+      "lng": 116.38375335936813
     },
     "address": "http://www.bjxx.com.cn/",
     "province": "北京市",
@@ -1924,8 +1924,8 @@ export const universityList =
   {
     "name": "华东政法大学(松江校区)",
     "location": {
-      "lat": 31.061249,
-      "lng": 121.20261
+      "lat": 31.06323984566501,
+      "lng": 121.20178190449211
     },
     "address": "上海市松江区松江大学园区龙源路555号",
     "province": "上海市",
@@ -1940,8 +1940,8 @@ export const universityList =
   {
     "name": "北京汇佳职业学院",
     "location": {
-      "lat": 40.199768,
-      "lng": 116.250302
+      "lat": 40.19976805697189,
+      "lng": 116.25030199111131
     },
     "address": "http://www.hju.net.cn/",
     "province": "北京市",
@@ -1956,8 +1956,8 @@ export const universityList =
   {
     "name": "吉利学院(成都校区)",
     "location": {
-      "lat": 30.493615,
-      "lng": 104.435119
+      "lat": 30.320169937693535,
+      "lng": 104.32673022140901
     },
     "address": "四川省成都市简阳市东部新区成简大道二段123号",
     "province": "四川省",
@@ -1972,8 +1972,8 @@ export const universityList =
   {
     "name": "首都师范大学科德学院",
     "location": {
-      "lat": 39.51881,
-      "lng": 116.318854
+      "lat": 39.51881010470171,
+      "lng": 116.31885402017205
     },
     "address": "http://www.kdcnu.com/index.html",
     "province": "北京市",
@@ -1988,8 +1988,8 @@ export const universityList =
   {
     "name": "皖西卫生职业学院",
     "location": {
-      "lat": 31.776483,
-      "lng": 116.537515
+      "lat": 31.776483335788324,
+      "lng": 116.5375147863917
     },
     "address": "http://www.wahvc.edu.cn/",
     "province": "安徽省",
@@ -2004,8 +2004,8 @@ export const universityList =
   {
     "name": "南昌大学共青学院",
     "location": {
-      "lat": 29.234214,
-      "lng": 115.813664
+      "lat": 29.23421410501174,
+      "lng": 115.81366360466728
     },
     "address": "http://www.ndgy.cn/",
     "province": "江西省",
@@ -2020,8 +2020,8 @@ export const universityList =
   {
     "name": "北京科技职业学院(沙河校区)",
     "location": {
-      "lat": 40.123649,
-      "lng": 116.257172
+      "lat": 40.123138070881964,
+      "lng": 116.25849166278468
     },
     "address": "北京市昌平区沙阳路18号",
     "province": "北京市",
@@ -2036,8 +2036,8 @@ export const universityList =
   {
     "name": "上海师范大学(徐汇校区)",
     "location": {
-      "lat": 31.167918,
-      "lng": 121.42531
+      "lat": 31.167673674784364,
+      "lng": 121.42581040545608
     },
     "address": "上海市徐汇区桂林路100号",
     "province": "上海市",
@@ -2052,8 +2052,8 @@ export const universityList =
   {
     "name": "北京培黎职业学院",
     "location": {
-      "lat": 40.02656,
-      "lng": 116.351983
+      "lat": 40.026560421035256,
+      "lng": 116.35198343754949
     },
     "address": "http://www.bjpldx.edu.cn/",
     "province": "北京市",
@@ -2067,8 +2067,8 @@ export const universityList =
   {
     "name": "上海思博职业技术学院",
     "location": {
-      "lat": 31.043761,
-      "lng": 121.78711
+      "lat": 31.04376085505093,
+      "lng": 121.78710995953581
     },
     "address": "http://edu.shsipo.com/",
     "province": "上海市",
@@ -2083,8 +2083,8 @@ export const universityList =
   {
     "name": "北京经济管理职业学院",
     "location": {
-      "lat": 39.989565,
-      "lng": 116.481272
+      "lat": 39.989564903491974,
+      "lng": 116.48127223773417
     },
     "address": "http://www.biem.edu.cn/",
     "province": "北京市",
@@ -2099,8 +2099,8 @@ export const universityList =
   {
     "name": "北京劳动保障职业学院",
     "location": {
-      "lat": 40.231565,
-      "lng": 116.191587
+      "lat": 40.23156505625448,
+      "lng": 116.19158703619867
     },
     "address": "http://www.bvclss.cn/",
     "province": "北京市",
@@ -2115,8 +2115,8 @@ export const universityList =
   {
     "name": "南京医科大学(江宁校区)",
     "location": {
-      "lat": 31.944119,
-      "lng": 118.897191
+      "lat": 31.940374015001918,
+      "lng": 118.8964111572632
     },
     "address": "南京市江宁区龙眠大道101号",
     "province": "江苏省",
@@ -2131,8 +2131,8 @@ export const universityList =
   {
     "name": "北京社会管理职业学院（新校区）",
     "location": {
-      "lat": 39.76149,
-      "lng": 116.382311
+      "lat": 39.73255523655448,
+      "lng": 116.348625212231
     },
     "address": "北京市大兴区科苑东路1号",
     "province": "北京市",
@@ -2146,8 +2146,8 @@ export const universityList =
   {
     "name": "泉州华光职业学院",
     "location": {
-      "lat": 24.966098,
-      "lng": 118.707302
+      "lat": 24.966097837400074,
+      "lng": 118.7073023802571
     },
     "address": "http://www.hgu.cn/",
     "province": "福建省",
@@ -2162,8 +2162,8 @@ export const universityList =
   {
     "name": "北京体育职业学院",
     "location": {
-      "lat": 39.74786,
-      "lng": 116.297115
+      "lat": 39.748074614626084,
+      "lng": 116.29259619079319
     },
     "address": "http://www.bjtzhy.org/",
     "province": "北京市",
@@ -2176,8 +2176,8 @@ export const universityList =
   {
     "name": "北京交通运输职业学院",
     "location": {
-      "lat": 39.750691,
-      "lng": 116.349796
+      "lat": 39.86859394344327,
+      "lng": 116.66876692309897
     },
     "address": "http://www.bjjt.edu.cn/",
     "province": "北京市",
@@ -2192,8 +2192,8 @@ export const universityList =
   {
     "name": "北京卫生职业学院",
     "location": {
-      "lat": 39.891339,
-      "lng": 116.675206
+      "lat": 39.92649341661335,
+      "lng": 116.41121662491082
     },
     "address": "http://www.bjwszyxy.com/",
     "province": "北京市",
@@ -2208,8 +2208,8 @@ export const universityList =
   {
     "name": "东南大学(四牌楼校区)",
     "location": {
-      "lat": 32.061148,
-      "lng": 118.800284
+      "lat": 32.06080174521288,
+      "lng": 118.80229928220484
     },
     "address": "南京市玄武区新街口街道大石桥社区四牌楼2号",
     "province": "江苏省",
@@ -2224,8 +2224,8 @@ export const universityList =
   {
     "name": "中国科学院大学附属科技学校",
     "location": {
-      "lat": 40.004527,
-      "lng": 116.428191
+      "lat": 40.00081075996225,
+      "lng": 116.42653399148367
     },
     "address": "北京市朝阳区小营中路陈经纶中学嘉铭分校欧陆经典校区",
     "province": "北京市",
@@ -2238,8 +2238,8 @@ export const universityList =
   {
     "name": "北京网络职业学院",
     "location": {
-      "lat": 39.694171,
-      "lng": 116.073127
+      "lat": 39.694171107863724,
+      "lng": 116.07312748859788
     },
     "address": "http://www.bjwlxy.org.cn/",
     "province": "北京市",
@@ -2254,8 +2254,8 @@ export const universityList =
   {
     "name": "黑龙江农业工程职业学院(南岗校区)",
     "location": {
-      "lat": 45.678193,
-      "lng": 126.561719
+      "lat": 45.679657119960524,
+      "lng": 126.56202683726723
     },
     "address": "黑龙江省哈尔滨市南岗区哈双路348号",
     "province": "黑龙江省",
@@ -2269,8 +2269,8 @@ export const universityList =
   {
     "name": "南开大学(八里台校区)",
     "location": {
-      "lat": 39.109442,
-      "lng": 117.17546
+      "lat": 39.10865587536332,
+      "lng": 117.18090275197012
     },
     "address": "天津市南开区卫津路94号",
     "province": "天津市",
@@ -2285,8 +2285,8 @@ export const universityList =
   {
     "name": "天津大学(卫津路校区)",
     "location": {
-      "lat": 39.116464,
-      "lng": 117.180115
+      "lat": 39.115911445128454,
+      "lng": 117.17284998205649
     },
     "address": "天津市南开区卫津路92号",
     "province": "天津市",
@@ -2301,8 +2301,8 @@ export const universityList =
   {
     "name": "上海旅游高等专科学校",
     "location": {
-      "lat": 30.83894,
-      "lng": 121.518798
+      "lat": 30.838939831151464,
+      "lng": 121.51879796133814
     },
     "address": "http://www.sitsh.edu.cn/website/index.do?dispatch=index&type=1",
     "province": "上海市",
@@ -2317,8 +2317,8 @@ export const universityList =
   {
     "name": "江苏食品药品职业技术学院",
     "location": {
-      "lat": 33.551613,
-      "lng": 119.052521
+      "lat": 33.55161312496208,
+      "lng": 119.05252102438149
     },
     "address": "http://www.jsfsc.edu.cn/",
     "province": "江苏省",
@@ -2333,8 +2333,8 @@ export const universityList =
   {
     "name": "天津工业大学",
     "location": {
-      "lat": 39.073258,
-      "lng": 117.117765
+      "lat": 39.0732576015011,
+      "lng": 117.11776516954023
     },
     "address": "http://www.tjpu.edu.cn/",
     "province": "天津市",
@@ -2349,8 +2349,8 @@ export const universityList =
   {
     "name": "苏州大学(天赐庄校区)",
     "location": {
-      "lat": 31.310695,
-      "lng": 120.64718
+      "lat": 31.31527119171799,
+      "lng": 120.64615775842465
     },
     "address": "江苏省苏州市姑苏区干将东路333号",
     "province": "江苏省",
@@ -2364,8 +2364,8 @@ export const universityList =
   {
     "name": "中国民航大学",
     "location": {
-      "lat": 39.113268,
-      "lng": 117.359072
+      "lat": 39.11326758259446,
+      "lng": 117.35907230749696
     },
     "address": "https://www.cauc.edu.cn/zhv3/",
     "province": "天津市",
@@ -2380,8 +2380,8 @@ export const universityList =
   {
     "name": "邢台医学院",
     "location": {
-      "lat": 37.094756,
-      "lng": 114.468313
+      "lat": 37.09732599741205,
+      "lng": 114.46857939684722
     },
     "address": "河北省邢台市信都区钢铁北路618号",
     "province": "河北省",
@@ -2396,8 +2396,8 @@ export const universityList =
   {
     "name": "天津理工大学",
     "location": {
-      "lat": 39.066305,
-      "lng": 117.148097
+      "lat": 39.06630553968646,
+      "lng": 117.14809672457629
     },
     "address": "http://www.tjut.edu.cn/",
     "province": "天津市",
@@ -2412,8 +2412,8 @@ export const universityList =
   {
     "name": "河北师范大学",
     "location": {
-      "lat": 38.003617,
-      "lng": 114.526421
+      "lat": 38.00468504303953,
+      "lng": 114.53135397402055
     },
     "address": "http://www.hebtu.edu.cn/",
     "province": "河北省",
@@ -2428,8 +2428,8 @@ export const universityList =
   {
     "name": "天津医科大学(气象台校区)",
     "location": {
-      "lat": 39.112727,
-      "lng": 117.191328
+      "lat": 39.11236231418067,
+      "lng": 117.19177889610164
     },
     "address": "天津市和平区气象台路22号",
     "province": "天津市",
@@ -2444,8 +2444,8 @@ export const universityList =
   {
     "name": "河北东方学院",
     "location": {
-      "lat": 39.600794,
-      "lng": 116.75634
+      "lat": 39.6007936762354,
+      "lng": 116.7563403916724
     },
     "address": "http://www.hbdfxy.cn/",
     "province": "河北省",
@@ -2460,8 +2460,8 @@ export const universityList =
   {
     "name": "天津商业大学",
     "location": {
-      "lat": 39.187459,
-      "lng": 117.131361
+      "lat": 39.15965830704726,
+      "lng": 117.14398122771289
     },
     "address": "http://www.tjcu.edu.cn/",
     "province": "天津市",
@@ -2476,8 +2476,8 @@ export const universityList =
   {
     "name": "天津财经大学",
     "location": {
-      "lat": 39.067009,
-      "lng": 117.284786
+      "lat": 39.11444346921613,
+      "lng": 117.21334730122676
     },
     "address": "http://www.tjufe.edu.cn/",
     "province": "天津市",
@@ -2492,8 +2492,8 @@ export const universityList =
   {
     "name": "河北师范大学汇华学院",
     "location": {
-      "lat": 38.012563,
-      "lng": 114.470428
+      "lat": 38.0125634619554,
+      "lng": 114.47042775026456
     },
     "address": "http://huihua.hebtu.edu.cn/",
     "province": "河北省",
@@ -2508,8 +2508,8 @@ export const universityList =
   {
     "name": "天津音乐学院(南校区)",
     "location": {
-      "lat": 39.123098,
-      "lng": 117.238067
+      "lat": 39.12383207638157,
+      "lng": 117.2383201045736
     },
     "address": "天津市河东区十四经路9号",
     "province": "天津市",
@@ -2524,8 +2524,8 @@ export const universityList =
   {
     "name": "浙江经贸职业技术学院",
     "location": {
-      "lat": 30.322654,
-      "lng": 120.389257
+      "lat": 30.322653605304264,
+      "lng": 120.38925693512022
     },
     "address": "http://www.zjiet.edu.cn/",
     "province": "浙江省",
@@ -2540,8 +2540,8 @@ export const universityList =
   {
     "name": "承德应用技术职业学院",
     "location": {
-      "lat": 40.878286,
-      "lng": 117.932782
+      "lat": 40.77436719493557,
+      "lng": 118.1804557369944
     },
     "address": null,
     "province": "河北省",
@@ -2555,8 +2555,8 @@ export const universityList =
   {
     "name": "天津城建大学",
     "location": {
-      "lat": 39.101033,
-      "lng": 117.101884
+      "lat": 39.101033395191756,
+      "lng": 117.10188438575155
     },
     "address": "http://mb.tcu.edu.cn/",
     "province": "天津市",
@@ -2571,8 +2571,8 @@ export const universityList =
   {
     "name": "成都理工大学",
     "location": {
-      "lat": 30.681403,
-      "lng": 104.153661
+      "lat": 30.671172274296307,
+      "lng": 104.14444463003547
     },
     "address": "http://www.cdut.edu.cn/default.html",
     "province": "四川省",
@@ -2587,8 +2587,8 @@ export const universityList =
   {
     "name": "天津中德应用技术大学",
     "location": {
-      "lat": 39.01727,
-      "lng": 117.392755
+      "lat": 39.01726954950259,
+      "lng": 117.39275463191578
     },
     "address": "http://www.tsguas.edu.cn/",
     "province": "天津市",
@@ -2603,8 +2603,8 @@ export const universityList =
   {
     "name": "天津滨海职业学院",
     "location": {
-      "lat": 39.074073,
-      "lng": 117.649642
+      "lat": 39.074072904251,
+      "lng": 117.64964171114592
     },
     "address": "http://www.tjbpi.com/",
     "province": "天津市",
@@ -2619,8 +2619,8 @@ export const universityList =
   {
     "name": "上海海关学院",
     "location": {
-      "lat": 31.174944,
-      "lng": 121.584489
+      "lat": 31.174944400038033,
+      "lng": 121.5844888873496
     },
     "address": "https://www.shcc.edu.cn/",
     "province": "上海市",
@@ -2635,8 +2635,8 @@ export const universityList =
   {
     "name": "天津电子信息职业技术学院",
     "location": {
-      "lat": 39.01518,
-      "lng": 117.384125
+      "lat": 39.015179827328375,
+      "lng": 117.38412461088143
     },
     "address": "http://www.tjdz.net/",
     "province": "天津市",
@@ -2651,8 +2651,8 @@ export const universityList =
   {
     "name": "安徽大学(磬苑校区)",
     "location": {
-      "lat": 31.771578,
-      "lng": 117.191797
+      "lat": 31.773735475858473,
+      "lng": 117.18818378762016
     },
     "address": "安徽省合肥市蜀山区九龙路111号",
     "province": "安徽省",
@@ -2667,8 +2667,8 @@ export const universityList =
   {
     "name": "天津机电职业技术学院",
     "location": {
-      "lat": 39.020311,
-      "lng": 117.361094
+      "lat": 39.020310531378186,
+      "lng": 117.36109439319992
     },
     "address": "http://www.suoyuan.com.cn/default.html",
     "province": "天津市",
@@ -2683,8 +2683,8 @@ export const universityList =
   {
     "name": "天津现代职业技术学院",
     "location": {
-      "lat": 39.025674,
-      "lng": 117.374811
+      "lat": 39.025673783559704,
+      "lng": 117.37481079969287
     },
     "address": "http://www.xdxy.com.cn/",
     "province": "天津市",
@@ -2699,8 +2699,8 @@ export const universityList =
   {
     "name": "贵州城市职业学院(新校区)",
     "location": {
-      "lat": 26.371939,
-      "lng": 106.645614
+      "lat": 26.37416114314668,
+      "lng": 106.64539318295252
     },
     "address": "贵州省贵阳市贵安新区花燕路1号",
     "province": "贵州省",
@@ -2715,8 +2715,8 @@ export const universityList =
   {
     "name": "安徽广播影视职业技术学院",
     "location": {
-      "lat": 31.935332,
-      "lng": 117.378587
+      "lat": 31.93533209172145,
+      "lng": 117.37858718622627
     },
     "address": "http://www.amtc.cn/",
     "province": "安徽省",
@@ -2731,8 +2731,8 @@ export const universityList =
   {
     "name": "天津轻工职业技术学院",
     "location": {
-      "lat": 39.028599,
-      "lng": 117.379786
+      "lat": 39.02862260911689,
+      "lng": 117.37986385801705
     },
     "address": "http://www.tjlivtc.edu.cn/",
     "province": "天津市",
@@ -2747,8 +2747,8 @@ export const universityList =
   {
     "name": "天津商务职业学院",
     "location": {
-      "lat": 39.01687,
-      "lng": 117.35271
+      "lat": 39.01686987340168,
+      "lng": 117.35270978923089
     },
     "address": "http://www.tcc1955.edu.cn/",
     "province": "天津市",
@@ -2763,8 +2763,8 @@ export const universityList =
   {
     "name": "天津国土资源和房屋职业学院",
     "location": {
-      "lat": 38.874855,
-      "lng": 117.46005
+      "lat": 38.87485503018406,
+      "lng": 117.46005002139863
     },
     "address": "http://www.tjgfxy.com.cn/tjgfxy/",
     "province": "天津市",
@@ -2779,8 +2779,8 @@ export const universityList =
   {
     "name": "大连艺术学院(新校区)",
     "location": {
-      "lat": 39.104574,
-      "lng": 121.840646
+      "lat": 39.10457421204643,
+      "lng": 121.84064609335286
     },
     "address": "辽宁省大连市金州区同汇路19号",
     "province": "辽宁省",
@@ -2795,8 +2795,8 @@ export const universityList =
   {
     "name": "河南交通职业技术学院(东校区)",
     "location": {
-      "lat": 34.793966,
-      "lng": 113.901641
+      "lat": 34.72303490429869,
+      "lng": 114.02754786265176
     },
     "address": "河南省郑州市中牟县文明路1号",
     "province": "河南省",
@@ -2811,8 +2811,8 @@ export const universityList =
   {
     "name": "天津商业大学宝德学院",
     "location": {
-      "lat": 39.097887,
-      "lng": 117.099403
+      "lat": 39.097886925256844,
+      "lng": 117.09940263711913
     },
     "address": "http://www.boustead.edu.cn/",
     "province": "天津市",
@@ -2827,8 +2827,8 @@ export const universityList =
   {
     "name": "齐齐哈尔大学(中校区)",
     "location": {
-      "lat": 47.358055,
-      "lng": 123.939068
+      "lat": 47.35767071631704,
+      "lng": 123.93929005334918
     },
     "address": "黑龙江省齐齐哈尔市建华区文化大街42号",
     "province": "黑龙江省",
@@ -2843,8 +2843,8 @@ export const universityList =
   {
     "name": "呼伦贝尔职业技术学院",
     "location": {
-      "lat": 49.183469,
-      "lng": 119.746981
+      "lat": 49.18346878324734,
+      "lng": 119.74698106202385
     },
     "address": "http://www.hlbrzy.com/",
     "province": "内蒙古自治区",
@@ -2859,8 +2859,8 @@ export const universityList =
   {
     "name": "天津师范大学津沽学院",
     "location": {
-      "lat": 39.061631,
-      "lng": 117.13068
+      "lat": 39.06163113407382,
+      "lng": 117.13068001802662
     },
     "address": "http://www.jinguxy.cn/",
     "province": "天津市",
@@ -2875,8 +2875,8 @@ export const universityList =
   {
     "name": "天津理工大学-中环信息学院",
     "location": {
-      "lat": 39.133121,
-      "lng": 117.025937
+      "lat": 39.13294326769368,
+      "lng": 117.02300462807312
     },
     "address": "天津市西青区杨柳青柳口路99号",
     "province": "天津市",
@@ -2891,8 +2891,8 @@ export const universityList =
   {
     "name": "宁德职业技术学院",
     "location": {
-      "lat": 27.100689,
-      "lng": 119.662702
+      "lat": 27.10068925528662,
+      "lng": 119.66270185253933
     },
     "address": "http://www.ndgzy.com/",
     "province": "福建省",
@@ -2907,8 +2907,8 @@ export const universityList =
   {
     "name": "天津生物工程职业技术学院",
     "location": {
-      "lat": 39.080591,
-      "lng": 117.548562
+      "lat": 39.16638772647615,
+      "lng": 117.20192031615655
     },
     "address": "http://www.tjbio.cn/",
     "province": "天津市",
@@ -2923,8 +2923,8 @@ export const universityList =
   {
     "name": "漳州职业技术学院",
     "location": {
-      "lat": 24.52821,
-      "lng": 117.646759
+      "lat": 24.528209965912914,
+      "lng": 117.64675948196651
     },
     "address": "http://www.fjzzy.org/",
     "province": "福建省",
@@ -2939,8 +2939,8 @@ export const universityList =
   {
     "name": "漳州城市职业学院",
     "location": {
-      "lat": 24.530775,
-      "lng": 117.640165
+      "lat": 24.530775012940726,
+      "lng": 117.64016502121994
     },
     "address": "http://www.zcvc.cn/",
     "province": "福建省",
@@ -2955,8 +2955,8 @@ export const universityList =
   {
     "name": "天津广播影视学院",
     "location": {
-      "lat": 39.123786,
-      "lng": 117.117802
+      "lat": 39.13589884058342,
+      "lng": 117.11644879264591
     },
     "address": "天津西青区全境中北镇东姜井",
     "province": "天津市",
@@ -2969,8 +2969,8 @@ export const universityList =
   {
     "name": "河北大学",
     "location": {
-      "lat": 38.876199,
-      "lng": 115.52262
+      "lat": 38.87496303402624,
+      "lng": 115.52221145153877
     },
     "address": "http://www.hbu.edu.cn/",
     "province": "河北省",
@@ -2985,8 +2985,8 @@ export const universityList =
   {
     "name": "安徽大学江淮学院(史河校区)",
     "location": {
-      "lat": 31.870995,
-      "lng": 117.254992
+      "lat": 31.869175819609328,
+      "lng": 117.25450038341933
     },
     "address": "合肥市蜀山区史河路8号",
     "province": "安徽省",
@@ -3001,8 +3001,8 @@ export const universityList =
   {
     "name": "皖北卫生职业学院",
     "location": {
-      "lat": 33.631677,
-      "lng": 117.088265
+      "lat": 33.63167745335985,
+      "lng": 117.0882650860842
     },
     "address": "http://www.wbwsxy.com/",
     "province": "安徽省",
@@ -3017,8 +3017,8 @@ export const universityList =
   {
     "name": "常州工学院(辽河路校区)",
     "location": {
-      "lat": 31.876041,
-      "lng": 119.950589
+      "lat": 31.877226727179305,
+      "lng": 119.95132212950931
     },
     "address": "江苏省常州市新北区辽河路666号",
     "province": "江苏省",
@@ -3033,8 +3033,8 @@ export const universityList =
   {
     "name": "江西水利职业学院",
     "location": {
-      "lat": 28.757052,
-      "lng": 115.881896
+      "lat": 28.757051998603306,
+      "lng": 115.88189601660504
     },
     "address": "http://www.jxslsd.com/",
     "province": "江西省",
@@ -3049,8 +3049,8 @@ export const universityList =
   {
     "name": "福州工商学院",
     "location": {
-      "lat": 25.909865,
-      "lng": 119.063323
+      "lat": 25.90986463859719,
+      "lng": 119.06332313172041
     },
     "address": "http://www.fjdfxy.com/",
     "province": "福建省",
@@ -3065,8 +3065,8 @@ export const universityList =
   {
     "name": "闽南理工学院(宝盖校区)",
     "location": {
-      "lat": 24.721522,
-      "lng": 118.674513
+      "lat": 24.727552772759154,
+      "lng": 118.666730681404
     },
     "address": "福建省泉州市石狮市宝盖镇龙穴社区龙景路1号",
     "province": "福建省",
@@ -3081,8 +3081,8 @@ export const universityList =
   {
     "name": "山东英才学院",
     "location": {
-      "lat": 36.69366,
-      "lng": 117.328405
+      "lat": 36.86057504226611,
+      "lng": 117.11675709109693
     },
     "address": "http://www.ycxy.com/",
     "province": "山东省",
@@ -3097,8 +3097,8 @@ export const universityList =
   {
     "name": "河北工业技术职业学院",
     "location": {
-      "lat": 37.984297,
-      "lng": 114.467463
+      "lat": 37.98647031055766,
+      "lng": 114.47054102658937
     },
     "address": "河北省石家庄市桥西区红旗大街626号",
     "province": "河北省",
@@ -3113,8 +3113,8 @@ export const universityList =
   {
     "name": "河北体育学院",
     "location": {
-      "lat": 38.1284,
-      "lng": 114.507182
+      "lat": 38.046769211425065,
+      "lng": 114.54435748526078
     },
     "address": "http://www.hepec.edu.cn/",
     "province": "河北省",
@@ -3129,8 +3129,8 @@ export const universityList =
   {
     "name": "扬州市职业大学",
     "location": {
-      "lat": 32.402063,
-      "lng": 119.386574
+      "lat": 32.74358278709301,
+      "lng": 119.45802430616568
     },
     "address": "http://www.xsjxyedu.com/conditions/typeid-2.html",
     "province": "江苏省",
@@ -3145,8 +3145,8 @@ export const universityList =
   {
     "name": "上海东海职业技术学院",
     "location": {
-      "lat": 31.036094,
-      "lng": 121.463708
+      "lat": 31.036094437877267,
+      "lng": 121.46370838780265
     },
     "address": "http://www.esu.edu.cn/",
     "province": "上海市",
@@ -3161,8 +3161,8 @@ export const universityList =
   {
     "name": "河北软件职业技术学院",
     "location": {
-      "lat": 38.873954,
-      "lng": 115.550822
+      "lat": 38.87395384473027,
+      "lng": 115.55082221253993
     },
     "address": "http://www.hbsi.edu.cn/",
     "province": "河北省",
@@ -3177,8 +3177,8 @@ export const universityList =
   {
     "name": "鹤岗师范高等专科学校",
     "location": {
-      "lat": 47.406108,
-      "lng": 130.508872
+      "lat": 47.339956688337814,
+      "lng": 130.21654286723373
     },
     "address": "http://www.hgtc.org.cn/",
     "province": "黑龙江省",
@@ -3193,8 +3193,8 @@ export const universityList =
   {
     "name": "沧州职业技术学院",
     "location": {
-      "lat": 38.287906,
-      "lng": 116.829903
+      "lat": 38.28790620660907,
+      "lng": 116.82990343835944
     },
     "address": "http://www.czvtc.cn/",
     "province": "河北省",
@@ -3209,8 +3209,8 @@ export const universityList =
   {
     "name": "安徽中医药高等专科学校",
     "location": {
-      "lat": 31.305968,
-      "lng": 118.382954
+      "lat": 31.305967661630767,
+      "lng": 118.38295419047851
     },
     "address": "http://www.ahzyygz.com/main/",
     "province": "安徽省",
@@ -3225,8 +3225,8 @@ export const universityList =
   {
     "name": "秦皇岛职业技术学院",
     "location": {
-      "lat": 39.845334,
-      "lng": 119.488218
+      "lat": 39.84533408156918,
+      "lng": 119.48821797130596
     },
     "address": "http://www.qhdvtc.com/",
     "province": "河北省",
@@ -3241,8 +3241,8 @@ export const universityList =
   {
     "name": "石家庄工程职业学院",
     "location": {
-      "lat": 38.176806,
-      "lng": 114.445936
+      "lat": 38.17680590554752,
+      "lng": 114.44593607934885
     },
     "address": "http://www.sjzevc.com/",
     "province": "河北省",
@@ -3257,8 +3257,8 @@ export const universityList =
   {
     "name": "石家庄城市经济职业学院",
     "location": {
-      "lat": 38.05148,
-      "lng": 114.705657
+      "lat": 37.76644919413229,
+      "lng": 114.76014556029007
     },
     "address": "http://www.sjzcsjjxy.com/",
     "province": "河北省",
@@ -3273,8 +3273,8 @@ export const universityList =
   {
     "name": "温州科技职业学院",
     "location": {
-      "lat": 27.989323,
-      "lng": 120.638595
+      "lat": 27.988545345461212,
+      "lng": 120.63789997825494
     },
     "address": "http://www.wzvcst.edu.cn/",
     "province": "浙江省",
@@ -3289,8 +3289,8 @@ export const universityList =
   {
     "name": "河北艺术职业学院",
     "location": {
-      "lat": 38.043339,
-      "lng": 114.525139
+      "lat": 38.04333883247011,
+      "lng": 114.52513913718032
     },
     "address": "http://www.hebart.com/",
     "province": "河北省",
@@ -3305,8 +3305,8 @@ export const universityList =
   {
     "name": "山西华澳商贸职业学院",
     "location": {
-      "lat": 37.677796,
-      "lng": 112.646329
+      "lat": 37.67779643554975,
+      "lng": 112.64632948000884
     },
     "address": "http://www.huaao.sx.cn/",
     "province": "山西省",
@@ -3320,8 +3320,8 @@ export const universityList =
   {
     "name": "沈阳职业技术学院",
     "location": {
-      "lat": 41.876893,
-      "lng": 123.506204
+      "lat": 41.76992410390489,
+      "lng": 123.48786100191096
     },
     "address": "http://www.vtcsy.com/",
     "province": "辽宁省",
@@ -3335,8 +3335,8 @@ export const universityList =
   {
     "name": "云南医药健康职业学院",
     "location": {
-      "lat": 25.09221,
-      "lng": 102.655887
+      "lat": 24.908738986012157,
+      "lng": 102.43755302975921
     },
     "address": null,
     "province": "云南省",
@@ -3351,8 +3351,8 @@ export const universityList =
   {
     "name": "赣南师范大学(黄金校区)",
     "location": {
-      "lat": 25.80179,
-      "lng": 114.893039
+      "lat": 25.774156774200513,
+      "lng": 114.88554171816983
     },
     "address": "江西省赣州市蓉江新区师大南路",
     "province": "江西省",
@@ -3367,13 +3367,17 @@ export const universityList =
   {
     "name": "保定市",
     "num": 12,
-    "index": 213
+    "index": 213,
+    "location": {
+      "lat": 38.87998776845534,
+      "lng": 115.47146383768579
+    }
   },
   {
     "name": "广东药科大学(中山校区)",
     "location": {
-      "lat": 22.482264,
-      "lng": 113.420704
+      "lat": 22.484075003200847,
+      "lng": 113.421164589866
     },
     "address": "广东省中山市五桂山街道长命水村长命水大道9-13号",
     "province": "广东省",
@@ -3388,8 +3392,8 @@ export const universityList =
   {
     "name": "阿拉善职业技术学院",
     "location": {
-      "lat": 38.840569,
-      "lng": 105.652193
+      "lat": 38.840569074035855,
+      "lng": 105.65219302681137
     },
     "address": "",
     "province": "内蒙古自治区",
@@ -3404,8 +3408,8 @@ export const universityList =
   {
     "name": "石家庄邮电职业技术学院",
     "location": {
-      "lat": 38.024451,
-      "lng": 114.537472
+      "lat": 38.02498810727864,
+      "lng": 114.56383167075049
     },
     "address": "http://www.sjzpc.edu.cn/",
     "province": "河北省",
@@ -3420,8 +3424,8 @@ export const universityList =
   {
     "name": "江苏师范大学科文学院(潘安湖校区)",
     "location": {
-      "lat": 34.353685,
-      "lng": 117.379883
+      "lat": 34.35358365941201,
+      "lng": 117.37991056990357
     },
     "address": "江苏省徐州市贾汪区学院路1号",
     "province": "江苏省",
@@ -3436,8 +3440,8 @@ export const universityList =
   {
     "name": "太原师范学院",
     "location": {
-      "lat": 37.755165,
-      "lng": 112.715503
+      "lat": 37.75516491345561,
+      "lng": 112.7155034958047
     },
     "address": "http://www.tynu.edu.cn/",
     "province": "山西省",
@@ -3452,8 +3456,8 @@ export const universityList =
   {
     "name": "大连职业技术学院",
     "location": {
-      "lat": 39.027603,
-      "lng": 121.496529
+      "lat": 39.349869665975255,
+      "lng": 121.85102637284287
     },
     "address": "http://www.dlvtc.edu.cn/web/guest",
     "province": "辽宁省",
@@ -3468,8 +3472,8 @@ export const universityList =
   {
     "name": "长春汽车职业技术大学",
     "location": {
-      "lat": 43.83633,
-      "lng": 125.151685
+      "lat": 43.836330118944346,
+      "lng": 125.15168504036522
     },
     "address": "吉林省长春市绿园区新红旗大街1777号",
     "province": "吉林省",
@@ -3484,8 +3488,8 @@ export const universityList =
   {
     "name": "赤峰工业职业技术学院",
     "location": {
-      "lat": 42.278886,
-      "lng": 118.880004
+      "lat": 42.27888594067104,
+      "lng": 118.88000351729289
     },
     "address": "http://www.cfgy.cn/#",
     "province": "内蒙古自治区",
@@ -3500,8 +3504,8 @@ export const universityList =
   {
     "name": "浙江树人学院(北校区)",
     "location": {
-      "lat": 30.32618,
-      "lng": 120.165411
+      "lat": 30.324503611094386,
+      "lng": 120.16504473067948
     },
     "address": "浙江省杭州市拱墅区树人街8号",
     "province": "浙江省",
@@ -3516,8 +3520,8 @@ export const universityList =
   {
     "name": "河北经贸大学经济管理学院",
     "location": {
-      "lat": 38.012633,
-      "lng": 114.464129
+      "lat": 38.012633470511865,
+      "lng": 114.46412910152026
     },
     "address": "http://jgxy.heuet.edu.cn/",
     "province": "河北省",
@@ -3532,8 +3536,8 @@ export const universityList =
   {
     "name": "河北医科大学-临床学院",
     "location": {
-      "lat": 38.022413,
-      "lng": 114.555165
+      "lat": 38.02186967307793,
+      "lng": 114.55680413691537
     },
     "address": "河北省石家庄市裕华区建华南大街309号",
     "province": "河北省",
@@ -3548,8 +3552,8 @@ export const universityList =
   {
     "name": "华北电力大学科技学院-教三楼",
     "location": {
-      "lat": 38.892825,
-      "lng": 115.496686
+      "lat": 38.892668159671295,
+      "lng": 115.49696789891124
     },
     "address": "河北省保定市竞秀区瑞祥大街282号",
     "province": "河北省",
@@ -3563,8 +3567,8 @@ export const universityList =
   {
     "name": "河北农业大学现代科技学院",
     "location": {
-      "lat": 38.834888,
-      "lng": 115.45578
+      "lat": 38.834887662265594,
+      "lng": 115.45578014212599
     },
     "address": "http://xianke.hebau.edu.cn/",
     "province": "河北省",
@@ -3579,13 +3583,17 @@ export const universityList =
   {
     "name": "邯郸市",
     "num": 8,
-    "index": 227
+    "index": 227,
+    "location": {
+      "lat": 36.631262731204046,
+      "lng": 114.5456282282352
+    }
   },
   {
     "name": "燕京理工学院",
     "location": {
-      "lat": 40.00617,
-      "lng": 116.811005
+      "lat": 40.00617030025643,
+      "lng": 116.81100488704054
     },
     "address": "http://www.yit.edu.cn/",
     "province": "河北省",
@@ -3600,8 +3608,8 @@ export const universityList =
   {
     "name": "保定电力职业技术学院",
     "location": {
-      "lat": 38.857905,
-      "lng": 115.455847
+      "lat": 38.85790480346579,
+      "lng": 115.45584742520869
     },
     "address": "http://www.bddy.cn/",
     "province": "河北省",
@@ -3616,8 +3624,8 @@ export const universityList =
   {
     "name": "北京交通大学海滨学院",
     "location": {
-      "lat": 38.389979,
-      "lng": 117.32044
+      "lat": 38.38784349800215,
+      "lng": 117.32333007871321
     },
     "address": "http://www.bjtuhbxy.cn/",
     "province": "河北省",
@@ -3632,8 +3640,8 @@ export const universityList =
   {
     "name": "上海城建职业学院(奉贤校区)",
     "location": {
-      "lat": 30.912343,
-      "lng": 121.421378
+      "lat": 30.909685682974157,
+      "lng": 121.42172967301589
     },
     "address": "上海市奉贤区南亭公路2080号",
     "province": "上海市",
@@ -3648,8 +3656,8 @@ export const universityList =
   {
     "name": "吉林工业职业技术学院",
     "location": {
-      "lat": 43.827268,
-      "lng": 126.564651
+      "lat": 43.82726753681788,
+      "lng": 126.56465052786683
     },
     "address": "http://www.jvcit.edu.cn/",
     "province": "吉林省",
@@ -3664,8 +3672,8 @@ export const universityList =
   {
     "name": "宣化科技职业学院(西区)",
     "location": {
-      "lat": 40.627111,
-      "lng": 115.058595
+      "lat": 40.626154025199206,
+      "lng": 115.0606037804845
     },
     "address": "河北省张家口市宣化区皇城桥路77号",
     "province": "河北省",
@@ -3680,8 +3688,8 @@ export const universityList =
   {
     "name": "浙江音乐学院",
     "location": {
-      "lat": 30.157179,
-      "lng": 120.059531
+      "lat": 30.1619404351232,
+      "lng": 120.06556727681003
     },
     "address": "http://www.zjcm.edu.cn/",
     "province": "浙江省",
@@ -3696,8 +3704,8 @@ export const universityList =
   {
     "name": "淮阴工学院(枚乘路校区)",
     "location": {
-      "lat": 33.554515,
-      "lng": 119.042257
+      "lat": 33.55856224006592,
+      "lng": 119.03241362333779
     },
     "address": "江苏省淮安市清江浦区枚乘东路1号",
     "province": "江苏省",
@@ -3712,13 +3720,17 @@ export const universityList =
   {
     "name": "济宁市",
     "num": 12,
-    "index": 236
+    "index": 236,
+    "location": {
+      "lat": 35.420177394529645,
+      "lng": 116.59361234853988
+    }
   },
   {
     "name": "南昌医学院(象湖校区)",
     "location": {
-      "lat": 28.579704,
-      "lng": 115.898751
+      "lat": 28.579698946153577,
+      "lng": 115.89874768898336
     },
     "address": "江西省南昌市南昌县小蓝经济开发区汇仁大道689号",
     "province": "江西省",
@@ -3733,8 +3745,8 @@ export const universityList =
   {
     "name": "呼和浩特民族学院",
     "location": {
-      "lat": 40.848678,
-      "lng": 111.662912
+      "lat": 40.848677990361416,
+      "lng": 111.6629120382159
     },
     "address": "http://www.imnc.edu.cn/",
     "province": "内蒙古自治区",
@@ -3748,8 +3760,8 @@ export const universityList =
   {
     "name": "山东工商学院",
     "location": {
-      "lat": 37.491886,
-      "lng": 121.453463
+      "lat": 37.491886019460566,
+      "lng": 121.45346303380026
     },
     "address": "http://www.ccec.edu.cn/",
     "province": "山东省",
@@ -3764,13 +3776,17 @@ export const universityList =
   {
     "name": "太原市",
     "num": 9,
-    "index": 240
+    "index": 240,
+    "location": {
+      "lat": 37.87698902884778,
+      "lng": 112.55639149167204
+    }
   },
   {
     "name": "天津城市建设管理职业技术学院",
     "location": {
-      "lat": 39.198553,
-      "lng": 117.115172
+      "lat": 39.19855272866151,
+      "lng": 117.11517176153293
     },
     "address": "http://www.tjchengjian.com/",
     "province": "天津市",
@@ -3785,8 +3801,8 @@ export const universityList =
   {
     "name": "山西大同大学",
     "location": {
-      "lat": 40.100621,
-      "lng": 113.360792
+      "lat": 40.0957392529632,
+      "lng": 113.36477203874311
     },
     "address": "http://www.sxdtdx.edu.cn/",
     "province": "山西省",
@@ -3801,8 +3817,8 @@ export const universityList =
   {
     "name": "合肥财经职业学院",
     "location": {
-      "lat": 31.761765,
-      "lng": 117.1824
+      "lat": 31.759230219994276,
+      "lng": 117.18018985671742
     },
     "address": "合肥市方兴大道998号",
     "province": "安徽省",
@@ -3817,13 +3833,17 @@ export const universityList =
   {
     "name": "沈阳市",
     "num": 8,
-    "index": 244
+    "index": 244,
+    "location": {
+      "lat": 41.68383006919066,
+      "lng": 123.47109664482264
+    }
   },
   {
     "name": "丽水学院",
     "location": {
-      "lat": 28.465793,
-      "lng": 119.909827
+      "lat": 28.465792894269075,
+      "lng": 119.9098265067276
     },
     "address": "http://www.lsu.edu.cn/",
     "province": "浙江省",
@@ -3838,8 +3858,8 @@ export const universityList =
   {
     "name": "大同煤炭职业技术学院",
     "location": {
-      "lat": 40.029239,
-      "lng": 113.191005
+      "lat": 40.02923881088293,
+      "lng": 113.19100525818179
     },
     "address": "http://www.dtmtxy.cn/",
     "province": "山西省",
@@ -3854,8 +3874,8 @@ export const universityList =
   {
     "name": "山西机电职业技术学院",
     "location": {
-      "lat": 36.2144,
-      "lng": 113.141
+      "lat": 36.21440003393287,
+      "lng": 113.14100018366335
     },
     "address": "http://www.sxjdxy.org/",
     "province": "山西省",
@@ -3870,8 +3890,8 @@ export const universityList =
   {
     "name": "厦门城市职业学院",
     "location": {
-      "lat": 24.468855,
-      "lng": 118.172844
+      "lat": 24.468854913022202,
+      "lng": 118.17284437828394
     },
     "address": "https://www.xmcu.cn/index.aspx",
     "province": "福建省",
@@ -3886,8 +3906,8 @@ export const universityList =
   {
     "name": "山西戏剧职业学校",
     "location": {
-      "lat": 37.877422,
-      "lng": 112.565284
+      "lat": 37.87587719311076,
+      "lng": 112.56535990439203
     },
     "address": "山西省太原市杏花岭区解放路奶生堂25号",
     "province": "山西省",
@@ -3902,8 +3922,8 @@ export const universityList =
   {
     "name": "重庆电力高等专科学校",
     "location": {
-      "lat": 29.492593,
-      "lng": 106.539744
+      "lat": 29.494958736201315,
+      "lng": 106.54475215398925
     },
     "address": "http://www.cqepc.com.cn/default.html",
     "province": "重庆市",
@@ -3918,8 +3938,8 @@ export const universityList =
   {
     "name": "南昌应用技术师范学院",
     "location": {
-      "lat": 28.617102,
-      "lng": 115.757654
+      "lat": 28.619505776840228,
+      "lng": 115.76041115574787
     },
     "address": "江西省南昌市红谷滩区明月山大道1599号",
     "province": "江西省",
@@ -3934,8 +3954,8 @@ export const universityList =
   {
     "name": "辽宁特殊教育师范高等专科学校",
     "location": {
-      "lat": 41.69357,
-      "lng": 123.636918
+      "lat": 41.693569785600616,
+      "lng": 123.63691755382601
     },
     "address": "http://www.lntjsz.com/",
     "province": "辽宁省",
@@ -3950,8 +3970,8 @@ export const universityList =
   {
     "name": "山西金融职业学院",
     "location": {
-      "lat": 37.960281,
-      "lng": 112.536367
+      "lat": 37.96028145130335,
+      "lng": 112.53636664490472
     },
     "address": "http://www.sxjrzyxy.com/",
     "province": "山西省",
@@ -3966,8 +3986,8 @@ export const universityList =
   {
     "name": "中国计量大学现代科技学院",
     "location": {
-      "lat": 29.228352,
-      "lng": 120.022509
+      "lat": 29.228352009962816,
+      "lng": 120.02250896172595
     },
     "address": "http://xdkj.cjlu.edu.cn/",
     "province": "浙江省",
@@ -3980,8 +4000,8 @@ export const universityList =
   {
     "name": "佳木斯大学",
     "location": {
-      "lat": 46.791715,
-      "lng": 130.368294
+      "lat": 46.79171522548977,
+      "lng": 130.36829433567965
     },
     "address": "http://www.jmsu.org/",
     "province": "黑龙江省",
@@ -3996,8 +4016,8 @@ export const universityList =
   {
     "name": "苏州健雄职业技术学院",
     "location": {
-      "lat": 31.417689,
-      "lng": 121.141396
+      "lat": 31.417689105861317,
+      "lng": 121.14139592166983
     },
     "address": "http://www.wjxvtc.cn/",
     "province": "江苏省",
@@ -4012,8 +4032,8 @@ export const universityList =
   {
     "name": "上海建桥学院",
     "location": {
-      "lat": 30.897635,
-      "lng": 121.898611
+      "lat": 30.897634808723836,
+      "lng": 121.8986105140119
     },
     "address": "https://www.gench.edu.cn/",
     "province": "上海市",
@@ -4028,8 +4048,8 @@ export const universityList =
   {
     "name": "郑州职业技术学院",
     "location": {
-      "lat": 34.769425,
-      "lng": 113.457287
+      "lat": 34.769424753448895,
+      "lng": 113.45728717575747
     },
     "address": "http://www.zzyedu.cn/",
     "province": "河南省",
@@ -4044,8 +4064,8 @@ export const universityList =
   {
     "name": "运城幼儿师范高等专科学校",
     "location": {
-      "lat": 35.10486,
-      "lng": 111.071194
+      "lat": 35.10408265593061,
+      "lng": 111.07035585771672
     },
     "address": "http://www.sxycys.com/",
     "province": "山西省",
@@ -4060,8 +4080,8 @@ export const universityList =
   {
     "name": "太原工业学院",
     "location": {
-      "lat": 37.964127,
-      "lng": 112.552108
+      "lat": 37.96412655288913,
+      "lng": 112.55210810150882
     },
     "address": "http://www.tit.edu.cn/",
     "province": "山西省",
@@ -4076,8 +4096,8 @@ export const universityList =
   {
     "name": "山西经贸职业学院(南校区)",
     "location": {
-      "lat": 37.735204,
-      "lng": 112.455811
+      "lat": 37.7319564332101,
+      "lng": 112.45840432664365
     },
     "address": "山西省太原市晋源区旧晋祠路三段629号西镇村",
     "province": "山西省",
@@ -4091,8 +4111,8 @@ export const universityList =
   {
     "name": "湖南电气职业技术学院",
     "location": {
-      "lat": 27.818106,
-      "lng": 112.930265
+      "lat": 27.81810604162368,
+      "lng": 112.93026515256564
     },
     "address": "http://www.hnjd.net.cn/",
     "province": "湖南省",
@@ -4107,8 +4127,8 @@ export const universityList =
   {
     "name": "湖南理工学院",
     "location": {
-      "lat": 29.346256,
-      "lng": 113.152704
+      "lat": 29.346256463617372,
+      "lng": 113.15270365270345
     },
     "address": "http://www.hnist.cn/",
     "province": "湖南省",
@@ -4123,8 +4143,8 @@ export const universityList =
   {
     "name": "湖南水利水电职业技术学院",
     "location": {
-      "lat": 28.219807,
-      "lng": 113.112627
+      "lat": 28.21980702819832,
+      "lng": 113.11262701001674
     },
     "address": "http://www.hnslsdxy.com/",
     "province": "湖南省",
@@ -4139,8 +4159,8 @@ export const universityList =
   {
     "name": "山西工程技术学院",
     "location": {
-      "lat": 37.888054,
-      "lng": 113.613161
+      "lat": 37.88805405493896,
+      "lng": 113.61316096818774
     },
     "address": "http://www.sxit.edu.cn/",
     "province": "山西省",
@@ -4155,8 +4175,8 @@ export const universityList =
   {
     "name": "新联学院郑州校区河南师范大学新联学院郑州校区",
     "location": {
-      "lat": 34.786198,
-      "lng": 113.856546
+      "lat": 34.78625771799395,
+      "lng": 113.85663625632336
     },
     "address": "河南省郑州市郑东新区郑开大道50号",
     "province": "河南省",
@@ -4171,8 +4191,8 @@ export const universityList =
   {
     "name": "内蒙古大学(北校区)-东院",
     "location": {
-      "lat": 40.820988,
-      "lng": 111.706726
+      "lat": 40.822292545508255,
+      "lng": 111.70559691096408
     },
     "address": "内蒙古自治区呼和浩特市赛罕区桥靠西街",
     "province": "内蒙古自治区",
@@ -4187,8 +4207,8 @@ export const universityList =
   {
     "name": "桐城师范高等专科学校(新校区)",
     "location": {
-      "lat": 31.050734,
-      "lng": 117.027353
+      "lat": 31.04460635825515,
+      "lng": 117.04130562656681
     },
     "address": "安徽省安庆市桐城市龙腾街道学苑路与望溪路交叉口199号",
     "province": "安徽省",
@@ -4203,8 +4223,8 @@ export const universityList =
   {
     "name": "山西工商学院(龙城校区)",
     "location": {
-      "lat": 37.773653,
-      "lng": 112.587875
+      "lat": 37.775357072038126,
+      "lng": 112.58989900583863
     },
     "address": "山西省太原市小店区坞城南路99号",
     "province": "山西省",
@@ -4218,8 +4238,8 @@ export const universityList =
   {
     "name": "安庆医药高等专科学校",
     "location": {
-      "lat": 30.618218,
-      "lng": 116.981384
+      "lat": 30.618218301590595,
+      "lng": 116.98138361854042
     },
     "address": "http://www.aqyyz.cn/index.html",
     "province": "安徽省",
@@ -4234,8 +4254,8 @@ export const universityList =
   {
     "name": "皖西学院",
     "location": {
-      "lat": 31.767341,
-      "lng": 116.490237
+      "lat": 31.76674143747911,
+      "lng": 116.48340535399817
     },
     "address": "http://www.wxc.edu.cn/",
     "province": "安徽省",
@@ -4250,8 +4270,8 @@ export const universityList =
   {
     "name": "安顺职业技术学院(蔡官校区)",
     "location": {
-      "lat": 26.312627,
-      "lng": 105.984446
+      "lat": 26.26088754819337,
+      "lng": 105.89995052524274
     },
     "address": "贵州省安顺市西秀区定安大道",
     "province": "贵州省",
@@ -4266,8 +4286,8 @@ export const universityList =
   {
     "name": "吉林大学珠海学院",
     "location": {
-      "lat": 22.056773,
-      "lng": 113.41162
+      "lat": 22.05677278849865,
+      "lng": 113.41161991416455
     },
     "address": "http://www.jluzh.com/",
     "province": "广东省",
@@ -4282,8 +4302,8 @@ export const universityList =
   {
     "name": "内蒙古化工职业学院",
     "location": {
-      "lat": 40.913189,
-      "lng": 111.858743
+      "lat": 40.83185968875266,
+      "lng": 111.72584588495613
     },
     "address": "http://www.hgzyxy.com.cn/",
     "province": "内蒙古自治区",
@@ -4298,8 +4318,8 @@ export const universityList =
   {
     "name": "内蒙古商贸职业学院",
     "location": {
-      "lat": 40.905151,
-      "lng": 111.863995
+      "lat": 40.90515125553014,
+      "lng": 111.8639953011996
     },
     "address": "http://www.imvcc.com/",
     "province": "内蒙古自治区",
@@ -4314,8 +4334,8 @@ export const universityList =
   {
     "name": "辽宁何氏医学院",
     "location": {
-      "lat": 41.921291,
-      "lng": 123.729575
+      "lat": 41.92129125749903,
+      "lng": 123.7295750722637
     },
     "address": "http://www.he-edu.com/",
     "province": "辽宁省",
@@ -4330,8 +4350,8 @@ export const universityList =
   {
     "name": "乌兰察布职业学院",
     "location": {
-      "lat": 40.981298,
-      "lng": 113.185269
+      "lat": 40.981298033791674,
+      "lng": 113.18526894868671
     },
     "address": "http://www.wlcbzyxy.com.cn/",
     "province": "内蒙古自治区",
@@ -4346,8 +4366,8 @@ export const universityList =
   {
     "name": "北京航空航天大学北海学院",
     "location": {
-      "lat": 21.430541,
-      "lng": 109.191566
+      "lat": 21.430540702364244,
+      "lng": 109.19156603993937
     },
     "address": "http://www.bhbhxy.com/",
     "province": "广西壮族自治区",
@@ -4360,8 +4380,8 @@ export const universityList =
   {
     "name": "福建警察学院",
     "location": {
-      "lat": 26.031753,
-      "lng": 119.322581
+      "lat": 26.031752994004503,
+      "lng": 119.32258101876683
     },
     "address": "http://www.fjpsc.edu.cn/",
     "province": "福建省",
@@ -4376,8 +4396,8 @@ export const universityList =
   {
     "name": "长春工业大学(南湖校区)",
     "location": {
-      "lat": 43.860265,
-      "lng": 125.296514
+      "lat": 43.86035134581384,
+      "lng": 125.29915150169705
     },
     "address": "吉林省长春市朝阳区延安大街2055号",
     "province": "吉林省",
@@ -4392,8 +4412,8 @@ export const universityList =
   {
     "name": "福建江夏学院(大学城校区)",
     "location": {
-      "lat": 26.071293,
-      "lng": 119.199711
+      "lat": 26.072239403534667,
+      "lng": 119.20133160378376
     },
     "address": "福建省福州市闽侯县溪源宫路2号",
     "province": "福建省",
@@ -4408,8 +4428,8 @@ export const universityList =
   {
     "name": "内蒙古工业职业学院-南门",
     "location": {
-      "lat": 40.501702,
-      "lng": 111.806554
+      "lat": 40.494788284533975,
+      "lng": 111.80793331194958
     },
     "address": "内蒙古自治区呼和浩特市和林格尔县盛乐镇盛乐北街内蒙古工业职业学院",
     "province": "内蒙古自治区",
@@ -4422,8 +4442,8 @@ export const universityList =
   {
     "name": "安阳职业技术学院",
     "location": {
-      "lat": 36.042421,
-      "lng": 114.385747
+      "lat": 36.088623815857204,
+      "lng": 114.47673376511405
     },
     "address": "http://www.ayzy.cn/",
     "province": "河南省",
@@ -4438,8 +4458,8 @@ export const universityList =
   {
     "name": "黑龙江林业职业技术学院",
     "location": {
-      "lat": 44.595274,
-      "lng": 129.573317
+      "lat": 44.59527405394241,
+      "lng": 129.57331696564296
     },
     "address": "http://www.hljlzy.com/",
     "province": "黑龙江省",
@@ -4454,8 +4474,8 @@ export const universityList =
   {
     "name": "内蒙古民族幼儿师范高等专科学校",
     "location": {
-      "lat": 39.821401,
-      "lng": 109.914183
+      "lat": 39.82140120439174,
+      "lng": 109.91418294770558
     },
     "address": "http://www.nmmzyz.org.cn/",
     "province": "内蒙古自治区",
@@ -4470,8 +4490,8 @@ export const universityList =
   {
     "name": "大连理工大学",
     "location": {
-      "lat": 38.888106,
-      "lng": 121.531261
+      "lat": 38.88622303626646,
+      "lng": 121.53555405401573
     },
     "address": "https://www.dlut.edu.cn/",
     "province": "辽宁省",
@@ -4486,8 +4506,8 @@ export const universityList =
   {
     "name": "沈阳航空航天大学",
     "location": {
-      "lat": 41.931849,
-      "lng": 123.414885
+      "lat": 41.931848881535515,
+      "lng": 123.41488535719687
     },
     "address": "http://www.sau.edu.cn/",
     "province": "辽宁省",
@@ -4502,8 +4522,8 @@ export const universityList =
   {
     "name": "沈阳理工大学",
     "location": {
-      "lat": 41.733289,
-      "lng": 123.500795
+      "lat": 41.73328891842219,
+      "lng": 123.5007949843047
     },
     "address": "http://www.sylu.edu.cn/sylusite/",
     "province": "辽宁省",
@@ -4518,8 +4538,8 @@ export const universityList =
   {
     "name": "上海电力大学(临港校区)",
     "location": {
-      "lat": 30.90808,
-      "lng": 121.898093
+      "lat": 30.909048036021865,
+      "lng": 121.89866540047856
     },
     "address": "上海市浦东新区沪城环路1851号",
     "province": "上海市",
@@ -4534,8 +4554,8 @@ export const universityList =
   {
     "name": "华中科技大学",
     "location": {
-      "lat": 30.519116,
-      "lng": 114.425922
+      "lat": 30.588673599614378,
+      "lng": 114.26747241859808
     },
     "address": "http://www.hust.edu.cn/",
     "province": "湖北省",
@@ -4550,8 +4570,8 @@ export const universityList =
   {
     "name": "吉林师范大学(博达学院)",
     "location": {
-      "lat": 43.15799,
-      "lng": 124.343921
+      "lat": 43.15798984851141,
+      "lng": 124.34392064104345
     },
     "address": "吉林省四平市铁西区东丰路1999号",
     "province": "吉林省",
@@ -4564,8 +4584,8 @@ export const universityList =
   {
     "name": "大连海洋大学(黑石礁校区)",
     "location": {
-      "lat": 38.874923,
-      "lng": 121.561301
+      "lat": 38.87465208363512,
+      "lng": 121.56027362503931
     },
     "address": "辽宁省大连市沙河口区黑石礁街52号",
     "province": "辽宁省",
@@ -4580,8 +4600,8 @@ export const universityList =
   {
     "name": "湖南人文科技学院",
     "location": {
-      "lat": 27.716925,
-      "lng": 112.009313
+      "lat": 27.723391127410185,
+      "lng": 112.01579706066258
     },
     "address": "http://www.huhst.edu.cn/",
     "province": "湖南省",
@@ -4596,8 +4616,8 @@ export const universityList =
   {
     "name": "邵阳职业技术学院",
     "location": {
-      "lat": 27.197222,
-      "lng": 111.436295
+      "lat": 27.01037933532528,
+      "lng": 111.29617736262574
     },
     "address": "http://www.syzyedu.com/",
     "province": "湖南省",
@@ -4612,8 +4632,8 @@ export const universityList =
   {
     "name": "辽宁现代服务职业技术学院",
     "location": {
-      "lat": 41.93743,
-      "lng": 123.597412
+      "lat": 41.93743007764687,
+      "lng": 123.59741214359984
     },
     "address": "http://www.lnxdfwxy.com/",
     "province": "辽宁省",
@@ -4628,8 +4648,8 @@ export const universityList =
   {
     "name": "榆林职业技术学院",
     "location": {
-      "lat": 38.229869,
-      "lng": 109.774379
+      "lat": 38.22986852723037,
+      "lng": 109.77437876288222
     },
     "address": "http://www.yulinvtc.com.cn/",
     "province": "陕西省",
@@ -4644,8 +4664,8 @@ export const universityList =
   {
     "name": "渤海大学(松山校区)",
     "location": {
-      "lat": 41.092012,
-      "lng": 121.124817
+      "lat": 41.093945045862334,
+      "lng": 121.12016438111095
     },
     "address": "锦州市松山新区科技路19号",
     "province": "辽宁省",
@@ -4660,8 +4680,8 @@ export const universityList =
   {
     "name": "海南师范大学(南校区)",
     "location": {
-      "lat": 20.002057,
-      "lng": 110.350948
+      "lat": 20.003064335619673,
+      "lng": 110.3487569992027
     },
     "address": "海口市琼山区龙昆南路99号",
     "province": "海南省",
@@ -4676,8 +4696,8 @@ export const universityList =
   {
     "name": "沈阳体育学院",
     "location": {
-      "lat": 41.679267,
-      "lng": 123.395438
+      "lat": 41.5868350529384,
+      "lng": 123.71949976749434
     },
     "address": "http://www.syty.edu.cn/",
     "province": "辽宁省",
@@ -4692,8 +4712,8 @@ export const universityList =
   {
     "name": "沈阳音乐学院校本部",
     "location": {
-      "lat": 41.774156,
-      "lng": 123.436433
+      "lat": 41.774504870405984,
+      "lng": 123.43479450221452
     },
     "address": "沈阳市和平区三好街61",
     "province": "辽宁省",
@@ -4708,8 +4728,8 @@ export const universityList =
   {
     "name": "重庆电子科技职业大学",
     "location": {
-      "lat": 29.624117,
-      "lng": 106.33082
+      "lat": 29.626535978567066,
+      "lng": 106.33128646826545
     },
     "address": "重庆市沙坪坝区大学城东路76号",
     "province": "重庆市",
@@ -4724,8 +4744,8 @@ export const universityList =
   {
     "name": "温州医科大学(茶山校区)",
     "location": {
-      "lat": 27.931535,
-      "lng": 120.717326
+      "lat": 27.91707996838402,
+      "lng": 120.70777287571447
     },
     "address": "浙江省温州市瓯海区茶山高教园区",
     "province": "浙江省",
@@ -4740,8 +4760,8 @@ export const universityList =
   {
     "name": "江苏商贸职业学院",
     "location": {
-      "lat": 32.058128,
-      "lng": 120.895329
+      "lat": 32.05812801300355,
+      "lng": 120.89532902213793
     },
     "address": "http://www.ntgx.edu.cn/",
     "province": "江苏省",
@@ -4756,8 +4776,8 @@ export const universityList =
   {
     "name": "南宁市职业技术学院",
     "location": {
-      "lat": 22.837174,
-      "lng": 108.197483
+      "lat": 22.836006467092602,
+      "lng": 108.1994410536743
     },
     "address": "广西壮族自治区南宁市西乡塘区大学西路169号",
     "province": "广西壮族自治区",
@@ -4772,8 +4792,8 @@ export const universityList =
   {
     "name": "吉林艺术学院(自由大路分校)",
     "location": {
-      "lat": 43.870361,
-      "lng": 125.323147
+      "lat": 43.870202911557946,
+      "lng": 125.32324719954394
     },
     "address": "吉林省长春市朝阳区自由大路695号",
     "province": "吉林省",
@@ -4788,8 +4808,8 @@ export const universityList =
   {
     "name": "辽宁科技大学",
     "location": {
-      "lat": 41.109661,
-      "lng": 123.067322
+      "lat": 41.109660965472756,
+      "lng": 123.0673219723313
     },
     "address": "http://www.ustl.edu.cn/",
     "province": "辽宁省",
@@ -4804,8 +4824,8 @@ export const universityList =
   {
     "name": "辽宁生态工程职业学院(南校区)",
     "location": {
-      "lat": 41.665097,
-      "lng": 123.330533
+      "lat": 41.66617284438748,
+      "lng": 123.33049997487835
     },
     "address": "辽宁省沈阳市苏家屯区枫杨路186号",
     "province": "辽宁省",
@@ -4820,8 +4840,8 @@ export const universityList =
   {
     "name": "广西英华国际职业学院",
     "location": {
-      "lat": 21.972554,
-      "lng": 108.593633
+      "lat": 21.97255400771284,
+      "lng": 108.5936331418383
     },
     "address": "http://www.tic-gx.com/",
     "province": "广西壮族自治区",
@@ -4836,8 +4856,8 @@ export const universityList =
   {
     "name": "大连商业学校",
     "location": {
-      "lat": 38.95338,
-      "lng": 121.576005
+      "lat": 38.952813522565656,
+      "lng": 121.57538833388911
     },
     "address": "辽宁省大连市甘井子区周水子街道华北路1号",
     "province": "辽宁省",
@@ -4852,8 +4872,8 @@ export const universityList =
   {
     "name": "池州学院",
     "location": {
-      "lat": 30.649346,
-      "lng": 117.574281
+      "lat": 30.649346329937075,
+      "lng": 117.57428097547229
     },
     "address": "http://www.czu.edu.cn/",
     "province": "安徽省",
@@ -4868,8 +4888,8 @@ export const universityList =
   {
     "name": "辽宁石化职业技术学院",
     "location": {
-      "lat": 41.141571,
-      "lng": 121.1288
+      "lat": 40.88522095210766,
+      "lng": 121.09510399297689
     },
     "address": "http://125.222.104.13/index.htm",
     "province": "辽宁省",
@@ -4884,8 +4904,8 @@ export const universityList =
   {
     "name": "辽宁轨道交通职业学院新校园",
     "location": {
-      "lat": 41.757382,
-      "lng": 123.218118
+      "lat": 41.75705677324578,
+      "lng": 123.21849735745275
     },
     "address": "辽宁省沈阳经济技术开发区十三号路17甲5号",
     "province": "辽宁省",
@@ -4900,8 +4920,8 @@ export const universityList =
   {
     "name": "嵩山少林武术职业学院(孔子校区)",
     "location": {
-      "lat": 34.434351,
-      "lng": 113.041505
+      "lat": 34.45768239725879,
+      "lng": 113.04117804996973
     },
     "address": "河南省郑州市登封市嵩山路南段",
     "province": "河南省",
@@ -4916,8 +4936,8 @@ export const universityList =
   {
     "name": "吉林铁道职业技术学院",
     "location": {
-      "lat": 43.724838,
-      "lng": 126.556168
+      "lat": 43.7248381309694,
+      "lng": 126.55616800859721
     },
     "address": "http://www.jtpt.cn/",
     "province": "吉林省",
@@ -4932,13 +4952,17 @@ export const universityList =
   {
     "name": "成都市",
     "num": 13,
-    "index": 315
+    "index": 315,
+    "location": {
+      "lat": 30.622526944649394,
+      "lng": 104.08519778843036
+    }
   },
   {
     "name": "辽宁石油化工大学顺华能源学院学生公寓(F座)",
     "location": {
-      "lat": 41.856176,
-      "lng": 123.79158
+      "lat": 41.85593807775658,
+      "lng": 123.79083295041397
     },
     "address": "辽宁省抚顺市望花区本溪路西段-29号",
     "province": "辽宁省",
@@ -4952,8 +4976,8 @@ export const universityList =
   {
     "name": "海南科技职业大学(美兰校区)",
     "location": {
-      "lat": 20.048865,
-      "lng": 110.416143
+      "lat": 20.04858338209195,
+      "lng": 110.41595950387362
     },
     "address": "海南省海口市美兰区琼山大道18号",
     "province": "海南省",
@@ -4968,8 +4992,8 @@ export const universityList =
   {
     "name": "大连软件职业学院",
     "location": {
-      "lat": 38.941325,
-      "lng": 121.503727
+      "lat": 38.941325071939374,
+      "lng": 121.50372699996667
     },
     "address": "http://www.dlrj.edu.cn/",
     "province": "辽宁省",
@@ -4984,8 +5008,8 @@ export const universityList =
   {
     "name": "辽宁商贸职业学院",
     "location": {
-      "lat": 41.830622,
-      "lng": 123.551773
+      "lat": 41.831120267225714,
+      "lng": 123.55256307321703
     },
     "address": "http://www.lnsmzy.edu.cn/",
     "province": "辽宁省",
@@ -5000,8 +5024,8 @@ export const universityList =
   {
     "name": "四川民族学院(A校区)",
     "location": {
-      "lat": 30.102107,
-      "lng": 102.181929
+      "lat": 30.115664487801332,
+      "lng": 102.18442653781206
     },
     "address": "四川省甘孜藏族自治州康定市姑咱镇文化路4号",
     "province": "四川省",
@@ -5016,8 +5040,8 @@ export const universityList =
   {
     "name": "大连汽车职业技术学院",
     "location": {
-      "lat": 39.021941,
-      "lng": 121.630738
+      "lat": 38.867038778406545,
+      "lng": 121.4623426041053
     },
     "address": "http://www.dlqcxy.net/",
     "province": "辽宁省",
@@ -5032,8 +5056,8 @@ export const universityList =
   {
     "name": "安徽艺术职业学院",
     "location": {
-      "lat": 31.854535,
-      "lng": 117.302838
+      "lat": 31.854535331021136,
+      "lng": 117.30283757409738
     },
     "address": "http://www.artah.cn/",
     "province": "安徽省",
@@ -5048,8 +5072,8 @@ export const universityList =
   {
     "name": "沈阳北软信息职业技术学院",
     "location": {
-      "lat": 41.932616,
-      "lng": 123.462939
+      "lat": 41.932616077822004,
+      "lng": 123.46293895282543
     },
     "address": "http://www.nsi-soft.com/nsi/index",
     "province": "辽宁省",
@@ -5064,8 +5088,8 @@ export const universityList =
   {
     "name": "重庆能源职业学院",
     "location": {
-      "lat": 29.430379,
-      "lng": 106.312957
+      "lat": 29.430378873486244,
+      "lng": 106.31295663417094
     },
     "address": "http://www.cqny.edu.cn/",
     "province": "重庆市",
@@ -5080,8 +5104,8 @@ export const universityList =
   {
     "name": "郑州升达经贸管理学院",
     "location": {
-      "lat": 34.598192,
-      "lng": 113.697218
+      "lat": 34.47628267281798,
+      "lng": 113.19539509754794
     },
     "address": "http://www.shengda.edu.cn/",
     "province": "河南省",
@@ -5096,8 +5120,8 @@ export const universityList =
   {
     "name": "四川外国语大学重庆南方翻译学院",
     "location": {
-      "lat": 29.670271,
-      "lng": 106.614282
+      "lat": 29.046836508473667,
+      "lng": 106.72604556686714
     },
     "address": "http://www.tcsisu.com/",
     "province": "重庆市",
@@ -5112,8 +5136,8 @@ export const universityList =
   {
     "name": "郑州澍青医学高等专科学校",
     "location": {
-      "lat": 34.703982,
-      "lng": 113.540011
+      "lat": 34.703981950314436,
+      "lng": 113.54001096237418
     },
     "address": "http://www.shuqing.org/",
     "province": "河南省",
@@ -5128,8 +5152,8 @@ export const universityList =
   {
     "name": "东北电力大学",
     "location": {
-      "lat": 43.829381,
-      "lng": 126.509725
+      "lat": 43.82938124657418,
+      "lng": 126.5097248052564
     },
     "address": "http://www.neepu.edu.cn/",
     "province": "吉林省",
@@ -5144,8 +5168,8 @@ export const universityList =
   {
     "name": "德州科技职业学院",
     "location": {
-      "lat": 36.949373,
-      "lng": 116.621315
+      "lat": 36.94937342205465,
+      "lng": 116.62131546165377
     },
     "address": "http://www.sddzkj.com/",
     "province": "山东省",
@@ -5160,8 +5184,8 @@ export const universityList =
   {
     "name": "吉林建筑大学",
     "location": {
-      "lat": 43.801673,
-      "lng": 125.41427
+      "lat": 43.93634154504541,
+      "lng": 125.38122545410783
     },
     "address": "http://www.jliae.edu.cn/",
     "province": "吉林省",
@@ -5176,8 +5200,8 @@ export const universityList =
   {
     "name": "东北师范大学(自由校区)",
     "location": {
-      "lat": 43.867341,
-      "lng": 125.332221
+      "lat": 43.86567766689643,
+      "lng": 125.33552802400142
     },
     "address": "吉林省长春市南关区人民大街5268号",
     "province": "吉林省",
@@ -5192,8 +5216,8 @@ export const universityList =
   {
     "name": "云南三鑫职业技术学院",
     "location": {
-      "lat": 23.342632,
-      "lng": 104.313683
+      "lat": 23.34263243652738,
+      "lng": 104.31368268165248
     },
     "address": "http://www.ynsxzy.com/",
     "province": "云南省",
@@ -5207,8 +5231,8 @@ export const universityList =
   {
     "name": "重庆医药高等专科学校",
     "location": {
-      "lat": 29.632984,
-      "lng": 106.319512
+      "lat": 29.63298385649426,
+      "lng": 106.3195119287973
     },
     "address": "http://www.cqyygz.com/",
     "province": "重庆市",
@@ -5223,8 +5247,8 @@ export const universityList =
   {
     "name": "安徽水利水电职业技术学院",
     "location": {
-      "lat": 31.83094,
-      "lng": 117.43332
+      "lat": 31.83094034040234,
+      "lng": 117.43331977315206
     },
     "address": "http://www.ahsdxy.ah.edu.cn/",
     "province": "安徽省",
@@ -5239,8 +5263,8 @@ export const universityList =
   {
     "name": "湖南财经工业职业技术学院",
     "location": {
-      "lat": 26.90582,
-      "lng": 112.655401
+      "lat": 26.90582038883823,
+      "lng": 112.65540082423843
     },
     "address": "http://www.hycgy.com/",
     "province": "湖南省",
@@ -5255,8 +5279,8 @@ export const universityList =
   {
     "name": "长春金融高等专科学校(莲花山校区)",
     "location": {
-      "lat": 43.907086,
-      "lng": 125.56347
+      "lat": 43.906458142280506,
+      "lng": 125.5628191705776
     },
     "address": "吉林省长春市二道区雾开河大街1666号",
     "province": "吉林省",
@@ -5271,8 +5295,8 @@ export const universityList =
   {
     "name": "吉林警察学院",
     "location": {
-      "lat": 43.832716,
-      "lng": 125.4207
+      "lat": 43.83271577431979,
+      "lng": 125.42069960330225
     },
     "address": "http://www.jljcxy.com/",
     "province": "吉林省",
@@ -5286,8 +5310,8 @@ export const universityList =
   {
     "name": "武汉体育学院",
     "location": {
-      "lat": 30.526661,
-      "lng": 114.385028
+      "lat": 30.40296687543786,
+      "lng": 114.43986919342613
     },
     "address": "http://www.whsu.edu.cn/",
     "province": "湖北省",
@@ -5302,8 +5326,8 @@ export const universityList =
   {
     "name": "山西体育职业学院",
     "location": {
-      "lat": 37.786514,
-      "lng": 112.569938
+      "lat": 37.78651362187673,
+      "lng": 112.56993811842361
     },
     "address": "",
     "province": "山西省",
@@ -5318,8 +5342,8 @@ export const universityList =
   {
     "name": "黑龙江农业经济职业学院",
     "location": {
-      "lat": 44.429124,
-      "lng": 129.52388
+      "lat": 44.429124281945946,
+      "lng": 129.52387962020683
     },
     "address": "http://www.hnyjj.org.cn/",
     "province": "黑龙江省",
@@ -5334,8 +5358,8 @@ export const universityList =
   {
     "name": "南京中医药大学(仙林校区)",
     "location": {
-      "lat": 32.108535,
-      "lng": 118.95198
+      "lat": 32.11009094797102,
+      "lng": 118.95371442506689
     },
     "address": "江苏省南京市栖霞区仙林大道138号",
     "province": "江苏省",
@@ -5350,8 +5374,8 @@ export const universityList =
   {
     "name": "辽宁铁道职业技术学院",
     "location": {
-      "lat": 41.150316,
-      "lng": 121.156479
+      "lat": 41.09996063339678,
+      "lng": 121.27700475026995
     },
     "address": "http://www.lntzy.com/",
     "province": "辽宁省",
@@ -5366,8 +5390,8 @@ export const universityList =
   {
     "name": "山西中医药大学",
     "location": {
-      "lat": 37.753133,
-      "lng": 112.737103
+      "lat": 37.75313303074473,
+      "lng": 112.73710298230044
     },
     "address": "http://www.sxtcm.edu.cn/",
     "province": "山西省",
@@ -5381,8 +5405,8 @@ export const universityList =
   {
     "name": "长春科技学院",
     "location": {
-      "lat": 43.541262,
-      "lng": 125.67395
+      "lat": 43.541262043102726,
+      "lng": 125.67395043165855
     },
     "address": "http://www.jlaudev.com.cn/index.php",
     "province": "吉林省",
@@ -5397,8 +5421,8 @@ export const universityList =
   {
     "name": "南阳医学高等专科学校",
     "location": {
-      "lat": 32.975113,
-      "lng": 112.502397
+      "lat": 32.97226049725514,
+      "lng": 112.5075019329359
     },
     "address": "http://www.nymc.edu.cn/",
     "province": "河南省",
@@ -5413,8 +5437,8 @@ export const universityList =
   {
     "name": "吉林医药学院",
     "location": {
-      "lat": 43.809746,
-      "lng": 126.570631
+      "lat": 43.809745967523114,
+      "lng": 126.57063144595226
     },
     "address": "http://www.jlmu.cn/",
     "province": "吉林省",
@@ -5429,8 +5453,8 @@ export const universityList =
   {
     "name": "郑州铁路职业技术学院(前程路校区)",
     "location": {
-      "lat": 34.801967,
-      "lng": 113.893532
+      "lat": 34.80161705050717,
+      "lng": 113.8934719924044
     },
     "address": "河南省郑州市中牟县职教园区前程路9号",
     "province": "河南省",
@@ -5445,8 +5469,8 @@ export const universityList =
   {
     "name": "长白山职业技术学院",
     "location": {
-      "lat": 41.945249,
-      "lng": 126.40604
+      "lat": 41.94611136258776,
+      "lng": 126.4064044902458
     },
     "address": "",
     "province": "吉林省",
@@ -5461,8 +5485,8 @@ export const universityList =
   {
     "name": "成都农业科技职业学院(柳城校区)",
     "location": {
-      "lat": 30.703573,
-      "lng": 103.821769
+      "lat": 30.70122407290609,
+      "lng": 103.82328702546624
     },
     "address": "成都市温江区德通桥路392号",
     "province": "四川省",
@@ -5477,8 +5501,8 @@ export const universityList =
   {
     "name": "重庆工商大学(南岸校区)",
     "location": {
-      "lat": 29.509589,
-      "lng": 106.585459
+      "lat": 29.51376013246034,
+      "lng": 106.58157118157565
     },
     "address": "重庆市南岸区学府大道19号",
     "province": "重庆市",
@@ -5493,8 +5517,8 @@ export const universityList =
   {
     "name": "吉林水利电力职业学院(净月校区)",
     "location": {
-      "lat": 43.759357,
-      "lng": 125.43086
+      "lat": 43.7593564489635,
+      "lng": 125.43085647421192
     },
     "address": "聚业大街6566号",
     "province": "吉林省",
@@ -5508,8 +5532,8 @@ export const universityList =
   {
     "name": "广东松山职业技术学院(曲江校区)",
     "location": {
-      "lat": 24.648508,
-      "lng": 113.648649
+      "lat": 24.64850809191614,
+      "lng": 113.64864914154334
     },
     "address": "广东省韶关市曲江区马坝镇南华村曹溪路188号",
     "province": "广东省",
@@ -5523,8 +5547,8 @@ export const universityList =
   {
     "name": "哈尔滨理工大学",
     "location": {
-      "lat": 45.721271,
-      "lng": 126.623017
+      "lat": 45.72127084874913,
+      "lng": 126.62301693054536
     },
     "address": "http://www.hrbust.edu.cn/",
     "province": "黑龙江省",
@@ -5539,8 +5563,8 @@ export const universityList =
   {
     "name": "郑州航空工业管理学院(龙子湖校区)",
     "location": {
-      "lat": 34.794567,
-      "lng": 113.793729
+      "lat": 34.794567000027016,
+      "lng": 113.79372899942622
     },
     "address": "河南省郑州市郑东新区文苑西路15号",
     "province": "河南省",
@@ -5555,8 +5579,8 @@ export const universityList =
   {
     "name": "河北石家庄幼儿师范高等专科学校",
     "location": {
-      "lat": 38.05068,
-      "lng": 114.352773
+      "lat": 38.05410654949574,
+      "lng": 114.35073545801242
     },
     "address": "河北省石家庄市鹿泉区御园路88号",
     "province": "河北省",
@@ -5571,8 +5595,8 @@ export const universityList =
   {
     "name": "青海卫生职业技术学院",
     "location": {
-      "lat": 36.633158,
-      "lng": 101.794561
+      "lat": 36.74207482498041,
+      "lng": 101.7559089383539
     },
     "address": "http://www.qhwszy.edu.cn/index.htm",
     "province": "青海省",
@@ -5587,8 +5611,8 @@ export const universityList =
   {
     "name": "镇江高等专科学校(新校区)",
     "location": {
-      "lat": 32.12802,
-      "lng": 119.37186
+      "lat": 32.127959122416584,
+      "lng": 119.37196205695167
     },
     "address": "江苏省镇江市丹徒区长香西大道518号",
     "province": "江苏省",
@@ -5603,8 +5627,8 @@ export const universityList =
   {
     "name": "山西国际商务职业学院",
     "location": {
-      "lat": 37.815655,
-      "lng": 112.60751
+      "lat": 37.76575123379221,
+      "lng": 112.48878007831081
     },
     "address": "http://www.sxibs.com/",
     "province": "山西省",
@@ -5619,8 +5643,8 @@ export const universityList =
   {
     "name": "哈尔滨商业大学(北校区)",
     "location": {
-      "lat": 45.826205,
-      "lng": 126.57088
+      "lat": 45.8176337623168,
+      "lng": 126.56988503420747
     },
     "address": "哈尔滨市松北区学海街1号",
     "province": "黑龙江省",
@@ -5635,8 +5659,8 @@ export const universityList =
   {
     "name": "吉林工商学院",
     "location": {
-      "lat": 43.997311,
-      "lng": 125.552131
+      "lat": 43.88218097313332,
+      "lng": 125.37475774426656
     },
     "address": "http://www.jlbtc.edu.cn/",
     "province": "吉林省",
@@ -5651,8 +5675,8 @@ export const universityList =
   {
     "name": "伊春职业学院",
     "location": {
-      "lat": 47.721325,
-      "lng": 128.881123
+      "lat": 47.7213250955569,
+      "lng": 128.88112279439764
     },
     "address": "http://www.zg114zs.com/xuexiao.asp?auid=732",
     "province": "黑龙江省",
@@ -5667,8 +5691,8 @@ export const universityList =
   {
     "name": "广东水利电力职业技术学院",
     "location": {
-      "lat": 23.567471,
-      "lng": 113.621047
+      "lat": 23.151364832734576,
+      "lng": 113.34178196078933
     },
     "address": "http://www.gdsdxy.cn/",
     "province": "广东省",
@@ -5683,8 +5707,8 @@ export const universityList =
   {
     "name": "黑龙江农业职业技术学院",
     "location": {
-      "lat": 46.806764,
-      "lng": 130.403411
+      "lat": 46.80676382037365,
+      "lng": 130.40341098450648
     },
     "address": "http://www.hljnzy.net/",
     "province": "黑龙江省",
@@ -5699,8 +5723,8 @@ export const universityList =
   {
     "name": "重庆工贸职业技术学院",
     "location": {
-      "lat": 29.651352,
-      "lng": 107.370245
+      "lat": 29.651351503954498,
+      "lng": 107.37024506143051
     },
     "address": "http://www.cqgmy.cn/",
     "province": "重庆市",
@@ -5715,8 +5739,8 @@ export const universityList =
   {
     "name": "新疆科技学院(东校区)",
     "location": {
-      "lat": 41.669157,
-      "lng": 86.238322
+      "lat": 41.72535555109371,
+      "lng": 86.23441335083244
     },
     "address": "新疆维吾尔自治区巴音郭楞蒙古自治州库尔勒市金河路360号",
     "province": "新疆维吾尔自治区",
@@ -5730,8 +5754,8 @@ export const universityList =
   {
     "name": "嘉应学院(江北校区)",
     "location": {
-      "lat": 24.33442,
-      "lng": 116.135398
+      "lat": 24.32922078358764,
+      "lng": 116.13238716052138
     },
     "address": "梅州市梅江区梅松路100号",
     "province": "广东省",
@@ -5746,8 +5770,8 @@ export const universityList =
   {
     "name": "漯河医学高等专科学校(嵩山路)",
     "location": {
-      "lat": 33.572155,
-      "lng": 114.018718
+      "lat": 33.57366474704412,
+      "lng": 114.02084021540875
     },
     "address": "河南省漯河市源汇区大学路148号",
     "province": "河南省",
@@ -5762,8 +5786,8 @@ export const universityList =
   {
     "name": "哈尔滨铁道职业技术学院",
     "location": {
-      "lat": 45.584297,
-      "lng": 126.644899
+      "lat": 45.58429717716784,
+      "lng": 126.64489902395471
     },
     "address": "http://www.htxy.net/",
     "province": "黑龙江省",
@@ -5778,8 +5802,8 @@ export const universityList =
   {
     "name": "大兴安岭职业学院",
     "location": {
-      "lat": 50.389021,
-      "lng": 124.118102
+      "lat": 50.38902122880841,
+      "lng": 124.11810234646951
     },
     "address": "http://www.dxalu.org.cn/",
     "province": "黑龙江省",
@@ -5794,8 +5818,8 @@ export const universityList =
   {
     "name": "上海中侨职业技术大学",
     "location": {
-      "lat": 30.804104,
-      "lng": 121.311136
+      "lat": 30.804103872591593,
+      "lng": 121.31113595795212
     },
     "address": "http://www.shzq.edu.cn/",
     "province": "上海市",
@@ -5810,8 +5834,8 @@ export const universityList =
   {
     "name": "齐鲁工业大学(山东省科学院)(长清校区)",
     "location": {
-      "lat": 36.564485,
-      "lng": 116.817806
+      "lat": 36.56448544617799,
+      "lng": 116.81780568856493
     },
     "address": "山东省济南市长清区大学路3501号",
     "province": "山东省",
@@ -5826,8 +5850,8 @@ export const universityList =
   {
     "name": "宁夏葡萄酒与防沙治沙职业技术学院",
     "location": {
-      "lat": 38.334254,
-      "lng": 106.180278
+      "lat": 38.334254313689826,
+      "lng": 106.18027791069
     },
     "address": "http://www.nxfszs.cn/",
     "province": "宁夏回族自治区",
@@ -5842,8 +5866,8 @@ export const universityList =
   {
     "name": "哈尔滨剑桥学院",
     "location": {
-      "lat": 45.662375,
-      "lng": 126.66745
+      "lat": 45.6623750410795,
+      "lng": 126.66745044479953
     },
     "address": "http://www.jqu.net.cn/",
     "province": "黑龙江省",
@@ -5858,8 +5882,8 @@ export const universityList =
   {
     "name": "黑龙江工程学院昆仑旅游学院",
     "location": {
-      "lat": 45.752247,
-      "lng": 127.412759
+      "lat": 45.752246724395896,
+      "lng": 127.41275907557814
     },
     "address": "http://www.kllyxy.com/",
     "province": "黑龙江省",
@@ -5874,8 +5898,8 @@ export const universityList =
   {
     "name": "哈尔滨华德学院",
     "location": {
-      "lat": 45.882586,
-      "lng": 126.547633
+      "lat": 45.88258604762897,
+      "lng": 126.54763292875856
     },
     "address": "http://www.hhdu.edu.cn/",
     "province": "黑龙江省",
@@ -5890,8 +5914,8 @@ export const universityList =
   {
     "name": "黑龙江生物科技学院",
     "location": {
-      "lat": 45.872647,
-      "lng": 126.53345
+      "lat": 45.874688794510845,
+      "lng": 126.52986381695722
     },
     "address": "黑龙江省哈尔滨市利民经济技术开发区群英街2号",
     "province": "黑龙江省",
@@ -5905,8 +5929,8 @@ export const universityList =
   {
     "name": "崇左幼儿师范高等专科学校",
     "location": {
-      "lat": 22.38774,
-      "lng": 107.409114
+      "lat": 22.387670779586486,
+      "lng": 107.40911590863156
     },
     "address": null,
     "province": "广西壮族自治区",
@@ -5920,8 +5944,8 @@ export const universityList =
   {
     "name": "江西婺源茶业职业学院",
     "location": {
-      "lat": 29.275501,
-      "lng": 117.847382
+      "lat": 29.27550076811515,
+      "lng": 117.84738200398787
     },
     "address": null,
     "province": "江西省",
@@ -5936,8 +5960,8 @@ export const universityList =
   {
     "name": "湘南幼儿师范高等专科学校",
     "location": {
-      "lat": 25.845846,
-      "lng": 113.026739
+      "lat": 25.845845552906244,
+      "lng": 113.02673885243895
     },
     "address": "http://www.cdgdsf.com/",
     "province": "湖南省",
@@ -5952,8 +5976,8 @@ export const universityList =
   {
     "name": "七台河职业学院",
     "location": {
-      "lat": 45.784838,
-      "lng": 131.046202
+      "lat": 45.78483770379996,
+      "lng": 131.046201936247
     },
     "address": "http://www.qthzyxy.com/",
     "province": "黑龙江省",
@@ -5968,8 +5992,8 @@ export const universityList =
   {
     "name": "黑龙江民族职业学院",
     "location": {
-      "lat": 45.583092,
-      "lng": 126.653854
+      "lat": 45.58309211101261,
+      "lng": 126.65385351293934
     },
     "address": "http://www.mvcollege.com/",
     "province": "黑龙江省",
@@ -5984,8 +6008,8 @@ export const universityList =
   {
     "name": "长春健康职业学院",
     "location": {
-      "lat": 43.823251,
-      "lng": 125.285861
+      "lat": 43.82325146922553,
+      "lng": 125.28586134116858
     },
     "address": "http://www.ccvch.com/",
     "province": "吉林省",
@@ -6000,13 +6024,17 @@ export const universityList =
   {
     "name": "牡丹江市",
     "num": 8,
-    "index": 383
+    "index": 383,
+    "location": {
+      "lat": 44.55624570898632,
+      "lng": 129.6395397783469
+    }
   },
   {
     "name": "广西培贤国际职业学院",
     "location": {
-      "lat": 23.330192,
-      "lng": 107.627939
+      "lat": 23.330192046938283,
+      "lng": 107.62793899858457
     },
     "address": "http://www.peixianedu.cn/windex.html",
     "province": "广西壮族自治区",
@@ -6021,8 +6049,8 @@ export const universityList =
   {
     "name": "山西水利职业技术学院",
     "location": {
-      "lat": 37.683954,
-      "lng": 112.620466
+      "lat": 37.895669168631905,
+      "lng": 112.53813397116505
     },
     "address": "http://60.222.229.72:800/",
     "province": "山西省",
@@ -6035,8 +6063,8 @@ export const universityList =
   {
     "name": "桂林理工大学(雁山校区)",
     "location": {
-      "lat": 25.069448,
-      "lng": 110.305777
+      "lat": 25.072395361017122,
+      "lng": 110.30417005438244
     },
     "address": "广西壮族自治区桂林市雁山区雁山街319号",
     "province": "广西壮族自治区",
@@ -6051,8 +6079,8 @@ export const universityList =
   {
     "name": "哈尔滨北方航空职业技术学院",
     "location": {
-      "lat": 45.558254,
-      "lng": 127.035223
+      "lat": 45.558254217953966,
+      "lng": 127.0352230087254
     },
     "address": null,
     "province": "黑龙江省",
@@ -6066,8 +6094,8 @@ export const universityList =
   {
     "name": "三亚中瑞酒店管理职业学院",
     "location": {
-      "lat": 18.312713,
-      "lng": 109.698205
+      "lat": 18.312712509643852,
+      "lng": 109.69820513722765
     },
     "address": "http://www.his.edu.cn/",
     "province": "海南省",
@@ -6082,8 +6110,8 @@ export const universityList =
   {
     "name": "复旦大学(邯郸校区)",
     "location": {
-      "lat": 31.301911,
-      "lng": 121.510771
+      "lat": 31.302362836149154,
+      "lng": 121.51007343856412
     },
     "address": "上海市杨浦区邯郸路220号",
     "province": "上海市",
@@ -6098,8 +6126,8 @@ export const universityList =
   {
     "name": "陕西经济管理职业技术学院（雁塔校区）",
     "location": {
-      "lat": 34.216711,
-      "lng": 108.95727
+      "lat": 34.21812436906546,
+      "lng": 108.95722096250371
     },
     "address": "西安市雁塔区雁南一路13号（西安国医医院斜对面）",
     "province": "陕西省",
@@ -6112,8 +6140,8 @@ export const universityList =
   {
     "name": "辽宁广告职业学院",
     "location": {
-      "lat": 41.92434,
-      "lng": 123.356593
+      "lat": 41.92434010364784,
+      "lng": 123.35659260587393
     },
     "address": "http://www.ggxy.com/",
     "province": "辽宁省",
@@ -6128,8 +6156,8 @@ export const universityList =
   {
     "name": "常州工业职业技术学院",
     "location": {
-      "lat": 31.68445,
-      "lng": 119.946004
+      "lat": 31.68444962876523,
+      "lng": 119.94600425072078
     },
     "address": "http://www.czili.edu.cn/",
     "province": "江苏省",
@@ -6144,8 +6172,8 @@ export const universityList =
   {
     "name": "上海中医药大学",
     "location": {
-      "lat": 31.199818,
-      "lng": 121.603152
+      "lat": 31.317764249297053,
+      "lng": 121.54079404971654
     },
     "address": "http://www.shutcm.edu.cn/",
     "province": "上海市",
@@ -6160,8 +6188,8 @@ export const universityList =
   {
     "name": "河北工程大学(新校区)",
     "location": {
-      "lat": 36.661688,
-      "lng": 114.604364
+      "lat": 36.65501870225543,
+      "lng": 114.60413549491392
     },
     "address": "河北省邯郸市丛台区太极路19号",
     "province": "河北省",
@@ -6176,8 +6204,8 @@ export const universityList =
   {
     "name": "枣庄学院",
     "location": {
-      "lat": 34.906942,
-      "lng": 117.544668
+      "lat": 34.90694205532435,
+      "lng": 117.54466806484423
     },
     "address": "http://www.uzz.edu.cn/",
     "province": "山东省",
@@ -6192,8 +6220,8 @@ export const universityList =
   {
     "name": "合肥工业大学(屯溪路校区)",
     "location": {
-      "lat": 31.849406,
-      "lng": 117.302909
+      "lat": 31.853079093297612,
+      "lng": 117.29156662469423
     },
     "address": "合肥市包河区屯溪路193号",
     "province": "安徽省",
@@ -6208,8 +6236,8 @@ export const universityList =
   {
     "name": "上海杉达学院",
     "location": {
-      "lat": 31.274949,
-      "lng": 121.665544
+      "lat": 31.274949374003864,
+      "lng": 121.66554353249822
     },
     "address": "http://www.sandau.edu.cn/",
     "province": "上海市",
@@ -6224,8 +6252,8 @@ export const universityList =
   {
     "name": "上海政法学院(青浦校区)",
     "location": {
-      "lat": 31.117084,
-      "lng": 121.17943
+      "lat": 31.115706344130416,
+      "lng": 121.17921368533439
     },
     "address": "上海市青浦区外青松公路7989号",
     "province": "上海市",
@@ -6240,8 +6268,8 @@ export const universityList =
   {
     "name": "广西城市职业大学(崇左校区)",
     "location": {
-      "lat": 22.373266,
-      "lng": 107.402418
+      "lat": 22.373665123388264,
+      "lng": 107.40089479626806
     },
     "address": "广西壮族自治区崇左市江州区骆越大道1号",
     "province": "广西壮族自治区",
@@ -6256,8 +6284,8 @@ export const universityList =
   {
     "name": "信阳农林学院",
     "location": {
-      "lat": 32.167527,
-      "lng": 114.131263
+      "lat": 32.16752704796306,
+      "lng": 114.13126298293398
     },
     "address": "http://www.xyafc.edu.cn/",
     "province": "河南省",
@@ -6272,8 +6300,8 @@ export const universityList =
   {
     "name": "武汉航海职业技术学院",
     "location": {
-      "lat": 30.583148,
-      "lng": 114.333537
+      "lat": 30.583148135530696,
+      "lng": 114.3335366803795
     },
     "address": "http://www.whim.edu.cn/",
     "province": "湖北省",
@@ -6288,8 +6316,8 @@ export const universityList =
   {
     "name": "上海立达学院",
     "location": {
-      "lat": 30.942256,
-      "lng": 121.327488
+      "lat": 30.942255815407744,
+      "lng": 121.32748799281136
     },
     "address": "http://www.lidapoly.edu.cn/",
     "province": "上海市",
@@ -6304,8 +6332,8 @@ export const universityList =
   {
     "name": "上海邦德职业技术学院",
     "location": {
-      "lat": 31.328958,
-      "lng": 121.408506
+      "lat": 31.328958316606837,
+      "lng": 121.40850562777295
     },
     "address": "http://www.shbangde.com/",
     "province": "上海市",
@@ -6320,8 +6348,8 @@ export const universityList =
   {
     "name": "沈阳师范大学",
     "location": {
-      "lat": 41.914276,
-      "lng": 123.422281
+      "lat": 41.914275616691135,
+      "lng": 123.42228101662998
     },
     "address": "http://www.synu.edu.cn/",
     "province": "辽宁省",
@@ -6336,8 +6364,8 @@ export const universityList =
   {
     "name": "上海兴伟学院",
     "location": {
-      "lat": 31.049122,
-      "lng": 121.793274
+      "lat": 31.04912187130866,
+      "lng": 121.79327404211472
     },
     "address": "http://www.xingwei.edu.cn/",
     "province": "上海市",
@@ -6352,13 +6380,17 @@ export const universityList =
   {
     "name": "贵阳市",
     "num": 11,
-    "index": 406
+    "index": 406,
+    "location": {
+      "lat": 26.6378703603242,
+      "lng": 106.68284623456766
+    }
   },
   {
     "name": "上海工会管理职业学院",
     "location": {
-      "lat": 31.266523,
-      "lng": 121.525455
+      "lat": 31.291856413709816,
+      "lng": 121.5018343600877
     },
     "address": "http://www.shghxyedu.net/",
     "province": "上海市",
@@ -6373,8 +6405,8 @@ export const universityList =
   {
     "name": "上海民航职业技术学院",
     "location": {
-      "lat": 31.177613,
-      "lng": 121.462475
+      "lat": 31.17701151711313,
+      "lng": 121.4615640427198
     },
     "address": "http://www.shcac.edu.cn/",
     "province": "上海市",
@@ -6389,8 +6421,8 @@ export const universityList =
   {
     "name": "南京理工大学",
     "location": {
-      "lat": 32.03162,
-      "lng": 118.863418
+      "lat": 32.13003070700167,
+      "lng": 118.94227971456928
     },
     "address": "http://www.njust.edu.cn/",
     "province": "江苏省",
@@ -6405,8 +6437,8 @@ export const universityList =
   {
     "name": "太原科技大学(东校区)",
     "location": {
-      "lat": 37.881601,
-      "lng": 112.499391
+      "lat": 37.87992782814106,
+      "lng": 112.49691935504505
     },
     "address": "山西省太原市万柏林区西中环路66号",
     "province": "山西省",
@@ -6421,8 +6453,8 @@ export const universityList =
   {
     "name": "南京邮电大学(仙林校区)",
     "location": {
-      "lat": 32.119823,
-      "lng": 118.937284
+      "lat": 32.12031305899095,
+      "lng": 118.93445017357486
     },
     "address": "江苏省南京市栖霞区文苑路9号",
     "province": "江苏省",
@@ -6437,8 +6469,8 @@ export const universityList =
   {
     "name": "南京林业大学(新庄校区)",
     "location": {
-      "lat": 32.085309,
-      "lng": 118.823369
+      "lat": 32.08216122740809,
+      "lng": 118.81731140456539
     },
     "address": "江苏省南京市玄武区龙蟠路159号",
     "province": "江苏省",
@@ -6453,8 +6485,8 @@ export const universityList =
   {
     "name": "河北传媒学院(兴安校区)",
     "location": {
-      "lat": 37.912529,
-      "lng": 114.670816
+      "lat": 37.91098626502903,
+      "lng": 114.66847518977728
     },
     "address": "石家庄市栾城区兴安大街109号",
     "province": "河北省",
@@ -6468,8 +6500,8 @@ export const universityList =
   {
     "name": "锡业学院",
     "location": {
-      "lat": 23.394911,
-      "lng": 103.156154
+      "lat": 23.39415809635284,
+      "lng": 103.15739946010669
     },
     "address": "云南省红河哈尼族彝族自治州个旧市个金路20号",
     "province": "云南省",
@@ -6484,8 +6516,8 @@ export const universityList =
   {
     "name": "福建理工大学(旗山校区北校区)",
     "location": {
-      "lat": 26.041485,
-      "lng": 119.201242
+      "lat": 26.025261600677336,
+      "lng": 119.21547362742267
     },
     "address": "福建省福州市闽侯县上街镇学府南路69号",
     "province": "福建省",
@@ -6500,8 +6532,8 @@ export const universityList =
   {
     "name": "江苏农牧科技职业学院",
     "location": {
-      "lat": 32.462905,
-      "lng": 119.94864
+      "lat": 32.4964290748274,
+      "lng": 119.9480916432343
     },
     "address": "http://www.jsahvc.edu.cn/",
     "province": "江苏省",
@@ -6516,8 +6548,8 @@ export const universityList =
   {
     "name": "徐州医科大学(主校区)",
     "location": {
-      "lat": 34.267697,
-      "lng": 117.263359
+      "lat": 34.267751104497464,
+      "lng": 117.22892774555126
     },
     "address": "徐州市铜山路209号",
     "province": "江苏省",
@@ -6532,8 +6564,8 @@ export const universityList =
   {
     "name": "南京师范大学(仙林校区)",
     "location": {
-      "lat": 32.112189,
-      "lng": 118.916683
+      "lat": 32.112544243808514,
+      "lng": 118.91983914462452
     },
     "address": "江苏省南京市栖霞区文苑路1号",
     "province": "江苏省",
@@ -6548,8 +6580,8 @@ export const universityList =
   {
     "name": "淮阴师范学院",
     "location": {
-      "lat": 33.647735,
-      "lng": 119.013747
+      "lat": 33.64773469034904,
+      "lng": 119.01374737382376
     },
     "address": "http://www.hytc.edu.cn/",
     "province": "江苏省",
@@ -6564,8 +6596,8 @@ export const universityList =
   {
     "name": "南京艺术学院",
     "location": {
-      "lat": 32.068545,
-      "lng": 118.76003
+      "lat": 32.06854524672503,
+      "lng": 118.76003032490779
     },
     "address": "http://www.nua.edu.cn",
     "province": "江苏省",
@@ -6580,8 +6612,8 @@ export const universityList =
   {
     "name": "黑龙江公安警官职业学院",
     "location": {
-      "lat": 45.87403,
-      "lng": 126.545715
+      "lat": 45.87402979718981,
+      "lng": 126.5457149566642
     },
     "address": "http://www.hlpolice.gov.cn/",
     "province": "黑龙江省",
@@ -6596,8 +6628,8 @@ export const universityList =
   {
     "name": "绍兴文理学院元培学院",
     "location": {
-      "lat": 30.077742,
-      "lng": 120.548383
+      "lat": 30.077742184879874,
+      "lng": 120.54838304264938
     },
     "address": "http://www.ypc.edu.cn/",
     "province": "浙江省",
@@ -6612,8 +6644,8 @@ export const universityList =
   {
     "name": "江苏南通职业大学",
     "location": {
-      "lat": 32.013243,
-      "lng": 120.900187
+      "lat": 32.01490595281345,
+      "lng": 120.90039977708066
     },
     "address": "江苏省南通市崇川区青年中路89号",
     "province": "江苏省",
@@ -6627,8 +6659,8 @@ export const universityList =
   {
     "name": "南京工程学院(江宁校区)",
     "location": {
-      "lat": 31.928509,
-      "lng": 118.887844
+      "lat": 31.926746942057772,
+      "lng": 118.88294367122705
     },
     "address": "江苏省南京市江宁区弘景大道1号",
     "province": "江苏省",
@@ -6643,8 +6675,8 @@ export const universityList =
   {
     "name": "南京晓庄学院(方山校区)",
     "location": {
-      "lat": 31.899029,
-      "lng": 118.908211
+      "lat": 31.899032286644594,
+      "lng": 118.90814778824272
     },
     "address": "江苏省南京市江宁区弘景大道3601号",
     "province": "江苏省",
@@ -6659,8 +6691,8 @@ export const universityList =
   {
     "name": "黄河交通学院(尚德校区)",
     "location": {
-      "lat": 35.094585,
-      "lng": 113.438537
+      "lat": 35.095722790598515,
+      "lng": 113.44009594389081
     },
     "address": "焦作市武陟县迎宾大道333号",
     "province": "河南省",
@@ -6675,8 +6707,8 @@ export const universityList =
   {
     "name": "德宏师范高等专科学校(新校区)",
     "location": {
-      "lat": 24.483772,
-      "lng": 98.595105
+      "lat": 24.476387240597333,
+      "lng": 98.58984364522763
     },
     "address": "云南省德宏傣族景颇族自治州芒市芒象线那怀村",
     "province": "云南省",
@@ -6689,8 +6721,8 @@ export const universityList =
   {
     "name": "九州职业技术学院",
     "location": {
-      "lat": 34.189883,
-      "lng": 117.167349
+      "lat": 34.18988302812436,
+      "lng": 117.16734902860505
     },
     "address": "http://www.jzp.edu.cn/",
     "province": "江苏省",
@@ -6705,8 +6737,8 @@ export const universityList =
   {
     "name": "南通理工学院(南通校区)",
     "location": {
-      "lat": 32.048625,
-      "lng": 120.815657
+      "lat": 32.04920074562738,
+      "lng": 120.81528838424899
     },
     "address": "江苏省南通市崇川区永兴路211号",
     "province": "江苏省",
@@ -6721,8 +6753,8 @@ export const universityList =
   {
     "name": "杭州师范大学",
     "location": {
-      "lat": 30.299174,
-      "lng": 120.022837
+      "lat": 30.321623453663697,
+      "lng": 120.40070278460615
     },
     "address": "http://www.hznu.edu.cn/",
     "province": "浙江省",
@@ -6737,8 +6769,8 @@ export const universityList =
   {
     "name": "南京警察学院(仙林校区)",
     "location": {
-      "lat": 32.114522,
-      "lng": 118.924053
+      "lat": 32.115370046769044,
+      "lng": 118.92186958456873
     },
     "address": "南京市栖霞区仙林大学城文澜路28号",
     "province": "江苏省",
@@ -6753,8 +6785,8 @@ export const universityList =
   {
     "name": "应天职业技术学院(高淳校区)",
     "location": {
-      "lat": 31.374556,
-      "lng": 118.962191
+      "lat": 31.36495440650921,
+      "lng": 118.94288669960237
     },
     "address": "南京市高淳区茅山路",
     "province": "江苏省",
@@ -6767,8 +6799,8 @@ export const universityList =
   {
     "name": "无锡科技职业学院",
     "location": {
-      "lat": 31.52616,
-      "lng": 120.396068
+      "lat": 31.526159951402143,
+      "lng": 120.39606797732743
     },
     "address": "http://www.wxstc.cn/",
     "province": "江苏省",
@@ -6783,8 +6815,8 @@ export const universityList =
   {
     "name": "苏州经贸职业技术学院",
     "location": {
-      "lat": 31.258533,
-      "lng": 120.573288
+      "lat": 31.25853287106243,
+      "lng": 120.5732880239302
     },
     "address": "http://www.szjm.edu.cn/site/szjm/",
     "province": "江苏省",
@@ -6799,8 +6831,8 @@ export const universityList =
   {
     "name": "东南大学成贤学院",
     "location": {
-      "lat": 32.15937,
-      "lng": 118.710254
+      "lat": 32.15936995702275,
+      "lng": 118.71025449795549
     },
     "address": "http://cxxy.seu.edu.cn/",
     "province": "江苏省",
@@ -6815,8 +6847,8 @@ export const universityList =
   {
     "name": "湖南电子科技职业学院",
     "location": {
-      "lat": 28.344747,
-      "lng": 112.81446
+      "lat": 28.34302086059636,
+      "lng": 112.81342533966848
     },
     "address": "http://www.8379888.com/index.html",
     "province": "湖南省",
@@ -6831,8 +6863,8 @@ export const universityList =
   {
     "name": "许昌电气职业学院",
     "location": {
-      "lat": 34.07758,
-      "lng": 113.863528
+      "lat": 34.07758007031733,
+      "lng": 113.86352796636534
     },
     "address": "http://www.xcevc.cn/",
     "province": "河南省",
@@ -6847,8 +6879,8 @@ export const universityList =
   {
     "name": "苏州工业园区职业技术学院",
     "location": {
-      "lat": 31.264902,
-      "lng": 120.761705
+      "lat": 31.264901945906526,
+      "lng": 120.76170499956208
     },
     "address": "http://www.ivt.edu.cn/",
     "province": "江苏省",
@@ -6863,8 +6895,8 @@ export const universityList =
   {
     "name": "河南信息统计职业学院",
     "location": {
-      "lat": 34.804777,
-      "lng": 113.693141
+      "lat": 34.80633297350742,
+      "lng": 113.92458103085934
     },
     "address": "http://www.hnisvc.com/",
     "province": "河南省",
@@ -6879,8 +6911,8 @@ export const universityList =
   {
     "name": "无锡南洋职业技术学院",
     "location": {
-      "lat": 31.498489,
-      "lng": 120.252251
+      "lat": 31.498489445007007,
+      "lng": 120.25225079229932
     },
     "address": "http://www.wsoc.edu.cn/",
     "province": "江苏省",
@@ -6895,8 +6927,8 @@ export const universityList =
   {
     "name": "湖北警官学院(北校区)",
     "location": {
-      "lat": 30.607454,
-      "lng": 114.213742
+      "lat": 30.6084762130785,
+      "lng": 114.21115189702229
     },
     "address": "湖北省武汉市硚口区南泥湾大道99号",
     "province": "湖北省",
@@ -6911,8 +6943,8 @@ export const universityList =
   {
     "name": "湖南外贸职业学院",
     "location": {
-      "lat": 28.358845,
-      "lng": 112.918913
+      "lat": 28.35884523357632,
+      "lng": 112.91891254719538
     },
     "address": "http://www.hnwmxy.com/",
     "province": "湖南省",
@@ -6927,8 +6959,8 @@ export const universityList =
   {
     "name": "东北林业大学",
     "location": {
-      "lat": 45.725766,
-      "lng": 126.64374
+      "lat": 45.725766171159556,
+      "lng": 126.64373967086352
     },
     "address": "https://www.nefu.edu.cn/",
     "province": "黑龙江省",
@@ -6943,8 +6975,8 @@ export const universityList =
   {
     "name": "常州机电职业技术学院",
     "location": {
-      "lat": 31.683912,
-      "lng": 119.953637
+      "lat": 31.683911587888883,
+      "lng": 119.95363742213073
     },
     "address": "http://www.czmec.cn/",
     "province": "江苏省",
@@ -6959,8 +6991,8 @@ export const universityList =
   {
     "name": "江西青年职业学院",
     "location": {
-      "lat": 28.764433,
-      "lng": 115.834628
+      "lat": 28.579875625256346,
+      "lng": 115.7879577840328
     },
     "address": "http://www.jxqy.com.cn/WebFile/Default.aspx",
     "province": "江西省",
@@ -6975,8 +7007,8 @@ export const universityList =
   {
     "name": "无锡太湖学院",
     "location": {
-      "lat": 31.5811,
-      "lng": 120.233834
+      "lat": 31.516140716219354,
+      "lng": 120.31497542368628
     },
     "address": "http://www.thxy.org/",
     "province": "江苏省",
@@ -6991,8 +7023,8 @@ export const universityList =
   {
     "name": "中国矿业大学徐海学院",
     "location": {
-      "lat": 34.230144,
-      "lng": 117.211744
+      "lat": 34.230143566620114,
+      "lng": 117.21174400555256
     },
     "address": "http://xhxy.cumt.edu.cn/",
     "province": "江苏省",
@@ -7007,8 +7039,8 @@ export const universityList =
   {
     "name": "南京航空航天大学金城学院",
     "location": {
-      "lat": 31.707112,
-      "lng": 118.890924
+      "lat": 31.70711193182762,
+      "lng": 118.8909240377166
     },
     "address": "http://jc.nuaa.edu.cn/",
     "province": "江苏省",
@@ -7023,8 +7055,8 @@ export const universityList =
   {
     "name": "合肥滨湖职业技术学院",
     "location": {
-      "lat": 31.729761,
-      "lng": 117.258701
+      "lat": 31.73023147879468,
+      "lng": 117.29624275402642
     },
     "address": "方兴大道559号",
     "province": "安徽省",
@@ -7039,8 +7071,8 @@ export const universityList =
   {
     "name": "广东轻工职业技术学院（新港校区）",
     "location": {
-      "lat": 23.098135,
-      "lng": 113.311818
+      "lat": 23.09760257613706,
+      "lng": 113.30572496576679
     },
     "address": "广东省广州市海珠区新港西路152号",
     "province": "广东省",
@@ -7055,8 +7087,8 @@ export const universityList =
   {
     "name": "南京师范大学泰州学院",
     "location": {
-      "lat": 32.481818,
-      "lng": 119.947157
+      "lat": 32.48181840727439,
+      "lng": 119.94715686652064
     },
     "address": "https://www.nnutc.edu.cn/",
     "province": "江苏省",
@@ -7071,8 +7103,8 @@ export const universityList =
   {
     "name": "玉林师范学院(东校区)",
     "location": {
-      "lat": 22.684207,
-      "lng": 110.20257
+      "lat": 22.6841503685469,
+      "lng": 110.2071079644003
     },
     "address": "玉林市玉州区教育东路1303号",
     "province": "广西壮族自治区",
@@ -7087,13 +7119,17 @@ export const universityList =
   {
     "name": "南京市",
     "num": 12,
-    "index": 453
+    "index": 453,
+    "location": {
+      "lat": 32.06465288561847,
+      "lng": 118.80242172124585
+    }
   },
   {
     "name": "三峡大学-科技学院",
     "location": {
-      "lat": 30.729198,
-      "lng": 111.326457
+      "lat": 30.728925444999515,
+      "lng": 111.3295699075399
     },
     "address": "湖北省宜昌市西陵区大学路18号",
     "province": "湖北省",
@@ -7108,8 +7144,8 @@ export const universityList =
   {
     "name": "南京审计大学金审学院",
     "location": {
-      "lat": 32.093734,
-      "lng": 118.9233
+      "lat": 32.04504357358123,
+      "lng": 118.76045109120865
     },
     "address": "http://jsxy.nau.edu.cn/",
     "province": "江苏省",
@@ -7124,8 +7160,8 @@ export const universityList =
   {
     "name": "赣州师范高等专科学校",
     "location": {
-      "lat": 25.799534,
-      "lng": 114.903172
+      "lat": 25.799533741977257,
+      "lng": 114.90317213159449
     },
     "address": "http://www.ganzhsz.cn/default.shtml",
     "province": "江西省",
@@ -7140,8 +7176,8 @@ export const universityList =
   {
     "name": "四川警察学院",
     "location": {
-      "lat": 28.88224,
-      "lng": 105.435038
+      "lat": 28.88224003153939,
+      "lng": 105.43503798837084
     },
     "address": "https://www.scpolicec.edu.cn/",
     "province": "四川省",
@@ -7156,8 +7192,8 @@ export const universityList =
   {
     "name": "南通师范高等专科学校",
     "location": {
-      "lat": 32.010902,
-      "lng": 120.880451
+      "lat": 31.91928717958053,
+      "lng": 120.97916589911205
     },
     "address": "http://www.ntnc.edu.cn/",
     "province": "江苏省",
@@ -7172,8 +7208,8 @@ export const universityList =
   {
     "name": "江苏安全技术职业学院(云龙校区)",
     "location": {
-      "lat": 34.269682,
-      "lng": 117.256313
+      "lat": 34.26982057170763,
+      "lng": 117.25301159659216
     },
     "address": "江苏省徐州市云龙区铜山路381号",
     "province": "江苏省",
@@ -7188,8 +7224,8 @@ export const universityList =
   {
     "name": "丽江师范学院",
     "location": {
-      "lat": 26.892803,
-      "lng": 100.289997
+      "lat": 26.89285565218499,
+      "lng": 100.29002507151728
     },
     "address": "云南省丽江市古城区新团片区存信路499号",
     "province": "云南省",
@@ -7204,8 +7240,8 @@ export const universityList =
   {
     "name": "南昌航空大学科技学院(共青校区)",
     "location": {
-      "lat": 29.169385,
-      "lng": 115.828097
+      "lat": 29.167411592475784,
+      "lng": 115.82901196277514
     },
     "address": "江西省九江市共青城市青年大道69号",
     "province": "江西省",
@@ -7220,8 +7256,8 @@ export const universityList =
   {
     "name": "湖北汽车工业学院科技学院",
     "location": {
-      "lat": 32.653845,
-      "lng": 110.747023
+      "lat": 32.65384488562363,
+      "lng": 110.74702300635508
     },
     "address": "http://kjxy.huat.edu.cn/",
     "province": "湖北省",
@@ -7235,8 +7271,8 @@ export const universityList =
   {
     "name": "西北师范大学知行学院",
     "location": {
-      "lat": 36.113421,
-      "lng": 103.742943
+      "lat": 36.11342135611029,
+      "lng": 103.74294347895933
     },
     "address": "http://zxxy.nwnu.edu.cn/",
     "province": "甘肃省",
@@ -7251,8 +7287,8 @@ export const universityList =
   {
     "name": "新疆医科大学厚博学院",
     "location": {
-      "lat": 43.859133,
-      "lng": 87.589865
+      "lat": 43.85935020627811,
+      "lng": 87.59009214621985
     },
     "address": "http://www.xjmuhbc.edu.cn/default.html",
     "province": "新疆维吾尔自治区",
@@ -7265,8 +7301,8 @@ export const universityList =
   {
     "name": "益阳职业技术学院",
     "location": {
-      "lat": 28.688211,
-      "lng": 112.256702
+      "lat": 28.688211204681313,
+      "lng": 112.25670157801015
     },
     "address": "http://www.yyvtc.cn/",
     "province": "湖南省",
@@ -7281,8 +7317,8 @@ export const universityList =
   {
     "name": "宁波职业技术学院(西校区)",
     "location": {
-      "lat": 29.902048,
-      "lng": 121.820961
+      "lat": 29.90062553125008,
+      "lng": 121.8213816448701
     },
     "address": "宁波市北仑区新大路1069号",
     "province": "浙江省",
@@ -7297,8 +7333,8 @@ export const universityList =
   {
     "name": "浙江万里学院(钱湖校区)",
     "location": {
-      "lat": 29.823102,
-      "lng": 121.569141
+      "lat": 29.8246090576519,
+      "lng": 121.56762273500118
     },
     "address": "浙江省宁波市鄞州区钱湖南路8号",
     "province": "浙江省",
@@ -7313,8 +7349,8 @@ export const universityList =
   {
     "name": "石家庄理工职业学院",
     "location": {
-      "lat": 38.058814,
-      "lng": 114.357694
+      "lat": 37.635117282341156,
+      "lng": 114.5464027472459
     },
     "address": "http://www.sjzlg.com/",
     "province": "河北省",
@@ -7329,8 +7365,8 @@ export const universityList =
   {
     "name": "燕山大学-里仁学院",
     "location": {
-      "lat": 39.912483,
-      "lng": 119.533446
+      "lat": 39.91111064164989,
+      "lng": 119.54390779258318
     },
     "address": "河北省秦皇岛市海港区河北大街西段438号",
     "province": "河北省",
@@ -7345,8 +7381,8 @@ export const universityList =
   {
     "name": "浙江警察学院",
     "location": {
-      "lat": 30.177223,
-      "lng": 120.157241
+      "lat": 30.283900042218047,
+      "lng": 119.74103312148989
     },
     "address": "http://www.zjjcxy.cn/default.html",
     "province": "浙江省",
@@ -7361,8 +7397,8 @@ export const universityList =
   {
     "name": "天府新区通用航空职业学院",
     "location": {
-      "lat": 30.203592,
-      "lng": 104.086243
+      "lat": 30.20359192643009,
+      "lng": 104.08624269739958
     },
     "address": null,
     "province": "四川省",
@@ -7377,8 +7413,8 @@ export const universityList =
   {
     "name": "浙江交通职业技术学院",
     "location": {
-      "lat": 30.349759,
-      "lng": 120.09557
+      "lat": 30.349758995252593,
+      "lng": 120.09556978253778
     },
     "address": "http://www.zjvtit.edu.cn/",
     "province": "浙江省",
@@ -7393,13 +7429,17 @@ export const universityList =
   {
     "name": "杭州市",
     "num": 9,
-    "index": 473
+    "index": 473,
+    "location": {
+      "lat": 30.29784634093307,
+      "lng": 120.21419704377729
+    }
   },
   {
     "name": "浙江艺术职业学院",
     "location": {
-      "lat": 30.180824,
-      "lng": 120.163144
+      "lat": 30.180824305269915,
+      "lng": 120.16314427554256
     },
     "address": "http://www.zj-art.com/",
     "province": "浙江省",
@@ -7414,8 +7454,8 @@ export const universityList =
   {
     "name": "重庆文理学院(红河校区)",
     "location": {
-      "lat": 29.357066,
-      "lng": 105.944504
+      "lat": 29.3614126731673,
+      "lng": 105.94538088910606
     },
     "address": "重庆市永川区红河大道319号",
     "province": "重庆市",
@@ -7430,8 +7470,8 @@ export const universityList =
   {
     "name": "扬州中瑞酒店职业学院",
     "location": {
-      "lat": 32.375128,
-      "lng": 119.362693
+      "lat": 32.375127611225004,
+      "lng": 119.36269307120807
     },
     "address": "http://www.yhiedu.cn/",
     "province": "江苏省",
@@ -7446,8 +7486,8 @@ export const universityList =
   {
     "name": "湖州职业技术学院",
     "location": {
-      "lat": 30.882815,
-      "lng": 120.137571
+      "lat": 30.88281543268364,
+      "lng": 120.13757095496231
     },
     "address": "http://www.hzvtc.net.cn/",
     "province": "浙江省",
@@ -7462,8 +7502,8 @@ export const universityList =
   {
     "name": "荆州职业技术学院",
     "location": {
-      "lat": 30.338306,
-      "lng": 112.207697
+      "lat": 30.355091157579448,
+      "lng": 112.15761858426026
     },
     "address": "http://www.jzit.net.cn/test/",
     "province": "湖北省",
@@ -7478,8 +7518,8 @@ export const universityList =
   {
     "name": "广州番禺职业技术学院",
     "location": {
-      "lat": 22.909052,
-      "lng": 113.313451
+      "lat": 22.90905247887787,
+      "lng": 113.31345093213335
     },
     "address": "http://www.gzpyp.edu.cn/",
     "province": "广东省",
@@ -7494,8 +7534,8 @@ export const universityList =
   {
     "name": "武汉商贸职业学院",
     "location": {
-      "lat": 30.442733,
-      "lng": 114.467834
+      "lat": 30.442732910507146,
+      "lng": 114.46783398293505
     },
     "address": "http://www.whicu.com/",
     "province": "湖北省",
@@ -7510,8 +7550,8 @@ export const universityList =
   {
     "name": "浙江长征职业技术学院",
     "location": {
-      "lat": 30.214131,
-      "lng": 120.025999
+      "lat": 30.214131341066853,
+      "lng": 120.02599889536762
     },
     "address": "http://www.zjczxy.cn/",
     "province": "浙江省",
@@ -7526,8 +7566,8 @@ export const universityList =
   {
     "name": "福建生物工程职业技术学院",
     "location": {
-      "lat": 26.086639,
-      "lng": 119.25334
+      "lat": 26.110519060433912,
+      "lng": 119.25976260430538
     },
     "address": "http://www.fjvcb.cn/home/",
     "province": "福建省",
@@ -7542,8 +7582,8 @@ export const universityList =
   {
     "name": "武汉工贸职业学院",
     "location": {
-      "lat": 30.535115,
-      "lng": 114.421773
+      "lat": 30.535115467715215,
+      "lng": 114.42177327808038
     },
     "address": "http://www.whgmxy.com/",
     "province": "湖北省",
@@ -7558,8 +7598,8 @@ export const universityList =
   {
     "name": "上海财经大学-浙江学院",
     "location": {
-      "lat": 29.085266,
-      "lng": 119.703166
+      "lat": 29.084678999189236,
+      "lng": 119.6999720091527
     },
     "address": "浙江省金华市金东区环城南路99号",
     "province": "浙江省",
@@ -7574,8 +7614,8 @@ export const universityList =
   {
     "name": "云南特殊教育职业学院",
     "location": {
-      "lat": 24.841226,
-      "lng": 102.889633
+      "lat": 24.99394037320185,
+      "lng": 103.17576729252423
     },
     "address": "http://www.ynhxzz.cn/",
     "province": "云南省",
@@ -7590,8 +7630,8 @@ export const universityList =
   {
     "name": "西湖大学(云谷校区)",
     "location": {
-      "lat": 30.335451,
-      "lng": 120.043092
+      "lat": 30.34088278222557,
+      "lng": 120.04071520572373
     },
     "address": "浙江省杭州市西湖区墩余路600号",
     "province": "浙江省",
@@ -7606,8 +7646,8 @@ export const universityList =
   {
     "name": "浙江舟山群岛新区旅游与健康职业学院",
     "location": {
-      "lat": 29.919267,
-      "lng": 122.402942
+      "lat": 29.919266940044167,
+      "lng": 122.40294202675173
     },
     "address": "http://www.zsthc.com/",
     "province": "浙江省",
@@ -7622,8 +7662,8 @@ export const universityList =
   {
     "name": "哈尔滨应用职业技术学院",
     "location": {
-      "lat": 45.655265,
-      "lng": 126.427801
+      "lat": 45.65526507099684,
+      "lng": 126.42780103982943
     },
     "address": "http://www.hyyzy.com/",
     "province": "黑龙江省",
@@ -7638,8 +7678,8 @@ export const universityList =
   {
     "name": "西藏职业技术学院",
     "location": {
-      "lat": 29.656274,
-      "lng": 91.074887
+      "lat": 29.656274462303085,
+      "lng": 91.07488726661538
     },
     "address": "http://www.xzgzy.cn/",
     "province": "西藏自治区",
@@ -7654,13 +7694,17 @@ export const universityList =
   {
     "name": "淮南市",
     "num": 8,
-    "index": 490
+    "index": 490,
+    "location": {
+      "lat": 32.63184739905333,
+      "lng": 117.00638885071616
+    }
   },
   {
     "name": "梧州职业学院",
     "location": {
-      "lat": 23.476416,
-      "lng": 111.242084
+      "lat": 23.476415793884804,
+      "lng": 111.24208356076596
     },
     "address": "http://www.gxuwz.edu.cn/",
     "province": "广西壮族自治区",
@@ -7675,8 +7719,8 @@ export const universityList =
   {
     "name": "山东财经大学(燕山校区)",
     "location": {
-      "lat": 36.650838,
-      "lng": 117.079771
+      "lat": 36.65037148185632,
+      "lng": 117.08028858230836
     },
     "address": "山东省济南市历下区二环东路7366号",
     "province": "山东省",
@@ -7691,8 +7735,8 @@ export const universityList =
   {
     "name": "云南理工职业学院",
     "location": {
-      "lat": 24.909097,
-      "lng": 102.440009
+      "lat": 24.909096533392287,
+      "lng": 102.44000899702269
     },
     "address": null,
     "province": "云南省",
@@ -7707,8 +7751,8 @@ export const universityList =
   {
     "name": "安徽中医药大学(少荃湖新校区)",
     "location": {
-      "lat": 31.944119,
-      "lng": 117.39762
+      "lat": 31.94696871035525,
+      "lng": 117.39775028851788
     },
     "address": "安徽省合肥市瑶海区前江路1号",
     "province": "安徽省",
@@ -7723,8 +7767,8 @@ export const universityList =
   {
     "name": "阜阳师范大学(西湖校区)",
     "location": {
-      "lat": 32.896641,
-      "lng": 115.790755
+      "lat": 32.90039648844161,
+      "lng": 115.79272959823841
     },
     "address": "阜阳市颍州区清河西路100号",
     "province": "安徽省",
@@ -7739,8 +7783,8 @@ export const universityList =
   {
     "name": "蚌埠学院",
     "location": {
-      "lat": 32.895194,
-      "lng": 117.430268
+      "lat": 32.89519449190314,
+      "lng": 117.43026769035136
     },
     "address": "http://www.bbc.edu.cn/",
     "province": "安徽省",
@@ -7755,8 +7799,8 @@ export const universityList =
   {
     "name": "山东杏林科技职业学院",
     "location": {
-      "lat": 36.684553,
-      "lng": 117.549807
+      "lat": 36.58988261429586,
+      "lng": 116.89737651267215
     },
     "address": "",
     "province": "山东省",
@@ -7771,8 +7815,8 @@ export const universityList =
   {
     "name": "安徽新华学院",
     "location": {
-      "lat": 31.831667,
-      "lng": 117.190606
+      "lat": 31.826577833686887,
+      "lng": 117.23344266497664
     },
     "address": "www.axhu.edu.cn",
     "province": "安徽省",
@@ -7787,8 +7831,8 @@ export const universityList =
   {
     "name": "铜陵职业技术学院",
     "location": {
-      "lat": 30.968817,
-      "lng": 117.869329
+      "lat": 30.96881682571654,
+      "lng": 117.8693289710718
     },
     "address": "http://www.tlpt.net.cn/",
     "province": "安徽省",
@@ -7803,8 +7847,8 @@ export const universityList =
   {
     "name": "合肥通用职业技术学院",
     "location": {
-      "lat": 31.864017,
-      "lng": 117.208319
+      "lat": 31.864016947215504,
+      "lng": 117.20831903613465
     },
     "address": "http://www.hftyxy.com/",
     "province": "安徽省",
@@ -7819,8 +7863,8 @@ export const universityList =
   {
     "name": "淄博职业学院南区",
     "location": {
-      "lat": 36.833668,
-      "lng": 117.933286
+      "lat": 36.84276202102956,
+      "lng": 117.9343335018431
     },
     "address": "山东省淄博市周村区联通路",
     "province": "山东省",
@@ -7835,8 +7879,8 @@ export const universityList =
   {
     "name": "安徽电子信息职业技术学院",
     "location": {
-      "lat": 32.902833,
-      "lng": 117.430518
+      "lat": 32.9028331106441,
+      "lng": 117.43051795826644
     },
     "address": "http://www.avceit.cn/",
     "province": "安徽省",
@@ -7851,8 +7895,8 @@ export const universityList =
   {
     "name": "亳州学院",
     "location": {
-      "lat": 33.808464,
-      "lng": 115.775232
+      "lat": 33.80846405546003,
+      "lng": 115.77523204419285
     },
     "address": "http://www.bzuu.edu.cn/",
     "province": "安徽省",
@@ -7867,8 +7911,8 @@ export const universityList =
   {
     "name": "合肥职业技术学院(汇心湖校区)",
     "location": {
-      "lat": 31.913122,
-      "lng": 117.402903
+      "lat": 31.920216369437437,
+      "lng": 117.36999327707342
     },
     "address": "安徽省合肥市新站区岱河路2号",
     "province": "安徽省",
@@ -7882,8 +7926,8 @@ export const universityList =
   {
     "name": "安徽外国语学院",
     "location": {
-      "lat": 31.745639,
-      "lng": 117.030212
+      "lat": 31.745639355695083,
+      "lng": 117.03021164334913
     },
     "address": "http://www.aisu.edu.cn/xxgk.htm",
     "province": "安徽省",
@@ -7898,8 +7942,8 @@ export const universityList =
   {
     "name": "安徽中澳科技职业学院(庐阳校区)",
     "location": {
-      "lat": 31.884107,
-      "lng": 117.257989
+      "lat": 31.883981060794653,
+      "lng": 117.25861785655486
     },
     "address": "合肥市庐阳区濉溪路312号",
     "province": "安徽省",
@@ -7914,8 +7958,8 @@ export const universityList =
   {
     "name": "安庆职业技术学院",
     "location": {
-      "lat": 30.545232,
-      "lng": 117.136028
+      "lat": 30.756497048785597,
+      "lng": 116.85667950018701
     },
     "address": "http://www.aqvtc.cn/",
     "province": "安徽省",
@@ -7930,8 +7974,8 @@ export const universityList =
   {
     "name": "湖南科技大学-潇湘学院",
     "location": {
-      "lat": 27.900245,
-      "lng": 112.929893
+      "lat": 27.90843571409815,
+      "lng": 112.92824558211876
     },
     "address": "湖南省湘潭市雨湖区桃园路2号",
     "province": "湖南省",
@@ -7946,8 +7990,8 @@ export const universityList =
   {
     "name": "芜湖学院",
     "location": {
-      "lat": 31.364939,
-      "lng": 118.272997
+      "lat": 31.37580451951749,
+      "lng": 118.39758848554156
     },
     "address": "安徽省芜湖市鸠江区苏州路66号",
     "province": "安徽省",
@@ -7961,8 +8005,8 @@ export const universityList =
   {
     "name": "新乡学院",
     "location": {
-      "lat": 35.297174,
-      "lng": 113.947998
+      "lat": 35.19656440899276,
+      "lng": 113.81159378076424
     },
     "address": "http://www.xxu.edu.cn/",
     "province": "河南省",
@@ -7977,8 +8021,8 @@ export const universityList =
   {
     "name": "安徽新闻出版职业技术学院",
     "location": {
-      "lat": 31.784072,
-      "lng": 117.249859
+      "lat": 31.784071946289583,
+      "lng": 117.24985901851036
     },
     "address": "http://www.ahcbxy.cn/",
     "province": "安徽省",
@@ -7993,8 +8037,8 @@ export const universityList =
   {
     "name": "安徽邮电职业技术学院",
     "location": {
-      "lat": 31.855219,
-      "lng": 117.239357
+      "lat": 31.85521897511319,
+      "lng": 117.23935701862376
     },
     "address": "http://www.ahptc.cn/",
     "province": "安徽省",
@@ -8009,8 +8053,8 @@ export const universityList =
   {
     "name": "商丘职业技术学院",
     "location": {
-      "lat": 34.379754,
-      "lng": 115.661612
+      "lat": 34.379753996247906,
+      "lng": 115.66161202769652
     },
     "address": "http://www_old.sqzy.edu.cn/",
     "province": "河南省",
@@ -8025,8 +8069,8 @@ export const universityList =
   {
     "name": "安徽旅游职业学院(新校区)",
     "location": {
-      "lat": 32.616399,
-      "lng": 116.277535
+      "lat": 32.61387416813014,
+      "lng": 116.27744402260363
     },
     "address": "阜阳市颍上县南维三路顺心小区北侧约140米",
     "province": "安徽省",
@@ -8039,8 +8083,8 @@ export const universityList =
   {
     "name": "呼和浩特职业学院(新校区)",
     "location": {
-      "lat": 40.902761,
-      "lng": 111.844452
+      "lat": 40.90887699252059,
+      "lng": 111.84587297567184
     },
     "address": "内蒙古自治区呼和浩特市赛罕区巴彦镇大学城",
     "province": "内蒙古自治区",
@@ -8054,8 +8098,8 @@ export const universityList =
   {
     "name": "临夏现代职业学院",
     "location": {
-      "lat": 35.630947,
-      "lng": 103.260532
+      "lat": 35.630946905850955,
+      "lng": 103.26053159127727
     },
     "address": "http://www.lxxdzy.com/",
     "province": "甘肃省",
@@ -8069,8 +8113,8 @@ export const universityList =
   {
     "name": "安徽汽车职业技术学院",
     "location": {
-      "lat": 31.744957,
-      "lng": 117.278813
+      "lat": 31.744957272304646,
+      "lng": 117.27881347119963
     },
     "address": "http://www.jacedu.cn/",
     "province": "安徽省",
@@ -8085,8 +8129,8 @@ export const universityList =
   {
     "name": "潍坊工商职业学院",
     "location": {
-      "lat": 35.963892,
-      "lng": 119.502634
+      "lat": 35.96389229003888,
+      "lng": 119.50263442728284
     },
     "address": "http://www.wfgsxy.com/",
     "province": "山东省",
@@ -8101,8 +8145,8 @@ export const universityList =
   {
     "name": "潍坊学院",
     "location": {
-      "lat": 36.723588,
-      "lng": 119.186636
+      "lat": 36.71265155126753,
+      "lng": 119.16837791142822
     },
     "address": "http://www.wfu.edu.cn/",
     "province": "山东省",
@@ -8117,8 +8161,8 @@ export const universityList =
   {
     "name": "重庆科创职业学院",
     "location": {
-      "lat": 29.378445,
-      "lng": 105.886338
+      "lat": 29.378444712767088,
+      "lng": 105.88633778321015
     },
     "address": "http://www.cqie.cn/",
     "province": "重庆市",
@@ -8133,8 +8177,8 @@ export const universityList =
   {
     "name": "宁德师范学院(新校区)",
     "location": {
-      "lat": 26.662019,
-      "lng": 119.600015
+      "lat": 26.66218193000076,
+      "lng": 119.60213234592136
     },
     "address": "福建省宁德市东侨开发区学院路1号",
     "province": "福建省",
@@ -8149,8 +8193,8 @@ export const universityList =
   {
     "name": "仰恩大学",
     "location": {
-      "lat": 25.115691,
-      "lng": 118.615137
+      "lat": 25.11569097888772,
+      "lng": 118.61513704343876
     },
     "address": "http://web.yeu.edu.cn/",
     "province": "福建省",
@@ -8165,8 +8209,8 @@ export const universityList =
   {
     "name": "福建林业职业技术学院(江南校区)",
     "location": {
-      "lat": 26.589932,
-      "lng": 118.260874
+      "lat": 26.58993234886612,
+      "lng": 118.2608735572135
     },
     "address": "福建省南平市延平区夏道镇海瑞路1号",
     "province": "福建省",
@@ -8181,8 +8225,8 @@ export const universityList =
   {
     "name": "福州英华职业学院",
     "location": {
-      "lat": 26.143079,
-      "lng": 119.178182
+      "lat": 26.143078890047484,
+      "lng": 119.1781818216465
     },
     "address": "http://www.fzacc.com/",
     "province": "福建省",
@@ -8197,8 +8241,8 @@ export const universityList =
   {
     "name": "厦门大学嘉庚学院",
     "location": {
-      "lat": 24.373063,
-      "lng": 118.054712
+      "lat": 24.373062992989414,
+      "lng": 118.05471199358891
     },
     "address": "http://jgxy.xmu.edu.cn/index.php",
     "province": "福建省",
@@ -8213,8 +8257,8 @@ export const universityList =
   {
     "name": "福州大学至诚学院",
     "location": {
-      "lat": 26.081206,
-      "lng": 119.278164
+      "lat": 26.08120645610564,
+      "lng": 119.278164033349
     },
     "address": "http://www.fdzcxy.com/main/",
     "province": "福建省",
@@ -8229,8 +8273,8 @@ export const universityList =
   {
     "name": "山西警察学院(新校区)",
     "location": {
-      "lat": 37.573639,
-      "lng": 112.504474
+      "lat": 37.567691931334124,
+      "lng": 112.5060561102176
     },
     "address": "环校南路与914县道交叉口西150米",
     "province": "山西省",
@@ -8245,8 +8289,8 @@ export const universityList =
   {
     "name": "河南轻工职业学院(嵩山校区)",
     "location": {
-      "lat": 34.674924,
-      "lng": 113.631973
+      "lat": 34.67492398068723,
+      "lng": 113.63197301268605
     },
     "address": "河南省郑州市二七区嵩山南路426号",
     "province": "河南省",
@@ -8261,8 +8305,8 @@ export const universityList =
   {
     "name": "湄洲湾职业技术学院(梧塘校区)",
     "location": {
-      "lat": 25.503662,
-      "lng": 119.096454
+      "lat": 25.502503029133468,
+      "lng": 119.09690628319984
     },
     "address": "福建省莆田市涵江区荔涵东大道1001号",
     "province": "福建省",
@@ -8277,8 +8321,8 @@ export const universityList =
   {
     "name": "福建艺术职业学院",
     "location": {
-      "lat": 26.145513,
-      "lng": 119.15626
+      "lat": 26.145512502570586,
+      "lng": 119.156260023141
     },
     "address": "http://www.fjyszyxy.com/",
     "province": "福建省",
@@ -8293,8 +8337,8 @@ export const universityList =
   {
     "name": "泉州工艺美术职业学院",
     "location": {
-      "lat": 25.508606,
-      "lng": 118.242928
+      "lat": 25.508606151075348,
+      "lng": 118.2429275690633
     },
     "address": "http://www.dhcc.cc/",
     "province": "福建省",
@@ -8309,8 +8353,8 @@ export const universityList =
   {
     "name": "郑州信息科技职业学院(东校区)",
     "location": {
-      "lat": 34.809276,
-      "lng": 113.809177
+      "lat": 34.809276443440254,
+      "lng": 113.80917724911185
     },
     "address": "河南省郑州市金水区龙子湖北路36号",
     "province": "河南省",
@@ -8325,8 +8369,8 @@ export const universityList =
   {
     "name": "成都天一学校",
     "location": {
-      "lat": 30.768159,
-      "lng": 104.133746
+      "lat": 30.768158875123262,
+      "lng": 104.13374599107274
     },
     "address": "四川省成都市金牛区蓉都大道天回路1112号",
     "province": "四川省",
@@ -8341,8 +8385,8 @@ export const universityList =
   {
     "name": "厦门软件职业技术学院",
     "location": {
-      "lat": 24.622274,
-      "lng": 118.081478
+      "lat": 24.622273707845164,
+      "lng": 118.08147763506372
     },
     "address": "http://www.xmist.edu.cn/",
     "province": "福建省",
@@ -8357,8 +8401,8 @@ export const universityList =
   {
     "name": "湖北工业大学",
     "location": {
-      "lat": 30.48646,
-      "lng": 114.31531
+      "lat": 30.485183656608754,
+      "lng": 114.31630816883417
     },
     "address": "http://www.hbut.edu.cn/",
     "province": "湖北省",
@@ -8373,8 +8417,8 @@ export const universityList =
   {
     "name": "漳州理工职业学院(鹤鸣校区)",
     "location": {
-      "lat": 24.5089,
-      "lng": 117.751081
+      "lat": 24.509260540700843,
+      "lng": 117.7511392584611
     },
     "address": "福建省漳州市龙文区鹤鸣路1号",
     "province": "福建省",
@@ -8389,8 +8433,8 @@ export const universityList =
   {
     "name": "漳州卫生职业学院",
     "location": {
-      "lat": 24.533657,
-      "lng": 117.640172
+      "lat": 24.533656980706844,
+      "lng": 117.64017202800292
     },
     "address": "http://www.zzwzy.com/",
     "province": "福建省",
@@ -8405,8 +8449,8 @@ export const universityList =
   {
     "name": "西安航空学院(莲湖校区)",
     "location": {
-      "lat": 34.268685,
-      "lng": 108.89921
+      "lat": 34.26753663374043,
+      "lng": 108.89669852707445
     },
     "address": "西安市莲湖区西二环259号",
     "province": "陕西省",
@@ -8421,8 +8465,8 @@ export const universityList =
   {
     "name": "江西农业大学",
     "location": {
-      "lat": 28.768205,
-      "lng": 115.839464
+      "lat": 28.758311331664427,
+      "lng": 115.85915487364416
     },
     "address": "http://www.jxau.edu.cn/",
     "province": "江西省",
@@ -8437,8 +8481,8 @@ export const universityList =
   {
     "name": "江西工业工程职业技术学院",
     "location": {
-      "lat": 27.668267,
-      "lng": 113.908556
+      "lat": 27.66826709240991,
+      "lng": 113.90855578482886
     },
     "address": "http://www.jxgcxy.net/",
     "province": "江西省",
@@ -8453,8 +8497,8 @@ export const universityList =
   {
     "name": "武汉晴川学院",
     "location": {
-      "lat": 30.396584,
-      "lng": 114.545673
+      "lat": 30.566789445491246,
+      "lng": 114.25070482760992
     },
     "address": "http://www.qcuwh.cn/",
     "province": "湖北省",
@@ -8469,8 +8513,8 @@ export const universityList =
   {
     "name": "郑州财税金融职业学院",
     "location": {
-      "lat": 34.711025,
-      "lng": 113.724059
+      "lat": 34.344434048419096,
+      "lng": 113.81747426829367
     },
     "address": "http://www.zzcsjr.edu.cn/",
     "province": "河南省",
@@ -8485,8 +8529,8 @@ export const universityList =
   {
     "name": "武汉纺织大学外经贸学院(藏龙岛校区)",
     "location": {
-      "lat": 30.390607,
-      "lng": 114.423289
+      "lat": 30.391033811009777,
+      "lng": 114.42272000225734
     },
     "address": "湖北省武汉市江夏区藏龙岛科技园栗庙路19号",
     "province": "湖北省",
@@ -8501,8 +8545,8 @@ export const universityList =
   {
     "name": "徐州生物工程职业技术学院(泉山校区)",
     "location": {
-      "lat": 34.267088,
-      "lng": 117.138684
+      "lat": 34.26884839018664,
+      "lng": 117.138797465937
     },
     "address": "江苏省徐州市泉山区三环西路297号",
     "province": "江苏省",
@@ -8517,8 +8561,8 @@ export const universityList =
   {
     "name": "广东培正学院",
     "location": {
-      "lat": 23.415483,
-      "lng": 113.096764
+      "lat": 23.41548345592939,
+      "lng": 113.09676410251292
     },
     "address": "http://www.peizheng.com.cn/",
     "province": "广东省",
@@ -8533,8 +8577,8 @@ export const universityList =
   {
     "name": "江西科技师范大学(红角洲校区)",
     "location": {
-      "lat": 28.673284,
-      "lng": 115.825902
+      "lat": 28.670298133379642,
+      "lng": 115.82903307295462
     },
     "address": "江西省南昌市红角洲学府大道589号",
     "province": "江西省",
@@ -8549,8 +8593,8 @@ export const universityList =
   {
     "name": "创意职业技术学院",
     "location": {
-      "lat": 31.571957,
-      "lng": 120.231475
+      "lat": 31.57211157709908,
+      "lng": 120.23161105541041
     },
     "address": "江苏省无锡市滨湖区梅茶一路88号",
     "province": "江苏省",
@@ -8565,8 +8609,8 @@ export const universityList =
   {
     "name": "江苏财会职业学院",
     "location": {
-      "lat": 34.657111,
-      "lng": 119.244913
+      "lat": 34.65711141855544,
+      "lng": 119.24491273240339
     },
     "address": "http://www.jscfa.edu.cn/",
     "province": "江苏省",
@@ -8581,8 +8625,8 @@ export const universityList =
   {
     "name": "湖南九嶷职业技术学院",
     "location": {
-      "lat": 26.392629,
-      "lng": 111.639008
+      "lat": 26.392628947559064,
+      "lng": 111.63900802479876
     },
     "address": "http://www.hnxxjsxy.com/bagecms/index.php",
     "province": "湖南省",
@@ -8596,8 +8640,8 @@ export const universityList =
   {
     "name": "武汉铁路桥梁职业学院(汉南校区)",
     "location": {
-      "lat": 30.331104,
-      "lng": 114.050705
+      "lat": 30.33110428565829,
+      "lng": 114.05070483124072
     },
     "address": "湖北省武汉市汉南区马影河大道66号",
     "province": "湖北省",
@@ -8612,8 +8656,8 @@ export const universityList =
   {
     "name": "东北大学",
     "location": {
-      "lat": 41.770971,
-      "lng": 123.424477
+      "lat": 41.77097080407348,
+      "lng": 123.42447701427966
     },
     "address": "http://www.neu.edu.cn/",
     "province": "辽宁省",
@@ -8628,8 +8672,8 @@ export const universityList =
   {
     "name": "西安高新科技职业学院",
     "location": {
-      "lat": 34.521599,
-      "lng": 108.851121
+      "lat": 34.52159903063919,
+      "lng": 108.85112102075361
     },
     "address": "http://www.xhtu.com.cn/",
     "province": "陕西省",
@@ -8644,8 +8688,8 @@ export const universityList =
   {
     "name": "长江工程职业技术学院",
     "location": {
-      "lat": 30.408542,
-      "lng": 114.322349
+      "lat": 30.40854239713449,
+      "lng": 114.32234891406658
     },
     "address": "http://www2.cj-edu.com.cn/",
     "province": "湖北省",
@@ -8660,8 +8704,8 @@ export const universityList =
   {
     "name": "襄阳职业技术学院",
     "location": {
-      "lat": 32.012741,
-      "lng": 112.089341
+      "lat": 32.00514578346592,
+      "lng": 112.30391527215701
     },
     "address": "http://www.hbxytc.com/",
     "province": "湖北省",
@@ -8676,8 +8720,8 @@ export const universityList =
   {
     "name": "大连财经学院",
     "location": {
-      "lat": 39.092157,
-      "lng": 121.838325
+      "lat": 39.09215746644561,
+      "lng": 121.83832532106784
     },
     "address": "http://www.dlufe.edu.cn/",
     "province": "辽宁省",
@@ -8692,8 +8736,8 @@ export const universityList =
   {
     "name": "江西应用工程职业学院",
     "location": {
-      "lat": 27.626516,
-      "lng": 113.986359
+      "lat": 27.626516062211085,
+      "lng": 113.98635910298896
     },
     "address": "http://www.jxatei.net/",
     "province": "江西省",
@@ -8707,8 +8751,8 @@ export const universityList =
   {
     "name": "山东航空学院",
     "location": {
-      "lat": 37.391835,
-      "lng": 117.993217
+      "lat": 37.39224190512757,
+      "lng": 117.99143896277349
     },
     "address": "山东省滨州市滨城区彭李街道黄河五路391号",
     "province": "山东省",
@@ -8723,8 +8767,8 @@ export const universityList =
   {
     "name": "湖南民族职业学院",
     "location": {
-      "lat": 29.303398,
-      "lng": 113.159547
+      "lat": 29.303398040696738,
+      "lng": 113.15954703390675
     },
     "address": "http://www.hnvc.net.cn/",
     "province": "湖南省",
@@ -8739,8 +8783,8 @@ export const universityList =
   {
     "name": "江西旅游商贸职业学院",
     "location": {
-      "lat": 28.711707,
-      "lng": 115.794865
+      "lat": 28.71170705683034,
+      "lng": 115.79486503475783
     },
     "address": "http://www.jxlsxy.com/",
     "province": "江西省",
@@ -8755,8 +8799,8 @@ export const universityList =
   {
     "name": "西安财经大学行知学院",
     "location": {
-      "lat": 34.234216,
-      "lng": 109.102769
+      "lat": 34.23421633480478,
+      "lng": 109.10276855343568
     },
     "address": "http://www.xcxz.com.cn/",
     "province": "陕西省",
@@ -8771,8 +8815,8 @@ export const universityList =
   {
     "name": "江西工商职业技术学院",
     "location": {
-      "lat": 28.454084,
-      "lng": 115.962842
+      "lat": 28.452659305443454,
+      "lng": 115.9589903920569
     },
     "address": "http://www.jxgsxy.cn/",
     "province": "江西省",
@@ -8787,8 +8831,8 @@ export const universityList =
   {
     "name": "福建水利电力职业技术学院",
     "location": {
-      "lat": 25.936326,
-      "lng": 117.369678
+      "lat": 25.936325740536546,
+      "lng": 117.36967813564142
     },
     "address": "http://www.fjsdxy.com/",
     "province": "福建省",
@@ -8803,8 +8847,8 @@ export const universityList =
   {
     "name": "西安交通工程学院",
     "location": {
-      "lat": 34.11991,
-      "lng": 108.598496
+      "lat": 34.1199103500342,
+      "lng": 108.5984956825239
     },
     "address": "http://www.xjgyedu.cn/",
     "province": "陕西省",
@@ -8819,8 +8863,8 @@ export const universityList =
   {
     "name": "湖南工业大学科技学院",
     "location": {
-      "lat": 27.835493,
-      "lng": 113.176344
+      "lat": 27.835493074673497,
+      "lng": 113.17634408931008
     },
     "address": "http://kjxy.hut.edu.cn/",
     "province": "湖南省",
@@ -8835,8 +8879,8 @@ export const universityList =
   {
     "name": "湖南商务职业技术学院",
     "location": {
-      "lat": 28.240418,
-      "lng": 112.903902
+      "lat": 28.24041785133182,
+      "lng": 112.9039018621286
     },
     "address": "http://www.hnswxy.com/",
     "province": "湖南省",
@@ -8851,8 +8895,8 @@ export const universityList =
   {
     "name": "赣南卫生健康职业学院",
     "location": {
-      "lat": 25.77724,
-      "lng": 114.900381
+      "lat": 25.777239956734096,
+      "lng": 114.90038100654536
     },
     "address": "http://www.gnhvc.cn/",
     "province": "江西省",
@@ -8867,8 +8911,8 @@ export const universityList =
   {
     "name": "山东建筑大学",
     "location": {
-      "lat": 36.686465,
-      "lng": 117.192366
+      "lat": 36.6708779380933,
+      "lng": 117.05067297676375
     },
     "address": "http://www.sdjzu.edu.cn/",
     "province": "山东省",
@@ -8883,8 +8927,8 @@ export const universityList =
   {
     "name": "潍坊市山东第二医科大学",
     "location": {
-      "lat": 36.672282,
-      "lng": 119.040166
+      "lat": 36.67358948551234,
+      "lng": 119.03944232497005
     },
     "address": "山东省潍坊市潍城区宝通西街7166号",
     "province": "山东省",
@@ -8899,8 +8943,8 @@ export const universityList =
   {
     "name": "赤峰应用技术职业学院",
     "location": {
-      "lat": 42.295955,
-      "lng": 118.887147
+      "lat": 42.295955399198164,
+      "lng": 118.88714684270825
     },
     "address": null,
     "province": "内蒙古自治区",
@@ -8914,8 +8958,8 @@ export const universityList =
   {
     "name": "中山大学(广州校区南校园)",
     "location": {
-      "lat": 23.102915,
-      "lng": 113.304864
+      "lat": 23.101972798860086,
+      "lng": 113.29816770117495
     },
     "address": "广东省广州市海珠区新港街道中大社区新港西路135号",
     "province": "广东省",
@@ -8930,8 +8974,8 @@ export const universityList =
   {
     "name": "南阳农业职业学院(雪枫校区)",
     "location": {
-      "lat": 32.968404,
-      "lng": 112.499766
+      "lat": 32.9839457269914,
+      "lng": 112.50477072486338
     },
     "address": "河南省南阳市卧龙区雪枫路与北京路交叉口",
     "province": "河南省",
@@ -8946,8 +8990,8 @@ export const universityList =
   {
     "name": "聊城大学(东校区)",
     "location": {
-      "lat": 36.437177,
-      "lng": 116.017982
+      "lat": 36.43419209971919,
+      "lng": 116.02303923098923
     },
     "address": "山东省聊城市东昌府区湖南路1号",
     "province": "山东省",
@@ -8962,8 +9006,8 @@ export const universityList =
   {
     "name": "怀化师范高等专科学校",
     "location": {
-      "lat": 27.435467,
-      "lng": 109.937505
+      "lat": 27.43546680084539,
+      "lng": 109.93750501144326
     },
     "address": null,
     "province": "湖南省",
@@ -8978,8 +9022,8 @@ export const universityList =
   {
     "name": "湘潭理工学院",
     "location": {
-      "lat": 27.985858,
-      "lng": 112.963753
+      "lat": 27.784982534656113,
+      "lng": 112.95750536884121
     },
     "address": "http://www.bjxy.net.cn/www/",
     "province": "湖南省",
@@ -8994,8 +9038,8 @@ export const universityList =
   {
     "name": "山东电力高等专科学校(济南校区)",
     "location": {
-      "lat": 36.60116,
-      "lng": 117.031825
+      "lat": 36.6029012644847,
+      "lng": 117.03254885462499
     },
     "address": "山东济南市市中区二环南路500号",
     "province": "山东省",
@@ -9010,8 +9054,8 @@ export const universityList =
   {
     "name": "曲阜远东职业技术学院",
     "location": {
-      "lat": 35.787181,
-      "lng": 117.119559
+      "lat": 35.565478373436065,
+      "lng": 117.07042437933384
     },
     "address": "http://www.fareast-edu.net/",
     "province": "山东省",
@@ -9026,8 +9070,8 @@ export const universityList =
   {
     "name": "广州城市理工学院",
     "location": {
-      "lat": 23.440751,
-      "lng": 113.179042
+      "lat": 23.439525338734747,
+      "lng": 113.17800748162234
     },
     "address": "广东省广州市花都区秀全街道学府社区学府路1号",
     "province": "广东省",
@@ -9042,8 +9086,8 @@ export const universityList =
   {
     "name": "太原城市职业技术学院",
     "location": {
-      "lat": 37.895979,
-      "lng": 112.535568
+      "lat": 37.86090222039155,
+      "lng": 112.59181868471346
     },
     "address": "http://www.cntcvc.com/",
     "province": "山西省",
@@ -9058,8 +9102,8 @@ export const universityList =
   {
     "name": "山西师范大学现代文理学院",
     "location": {
-      "lat": 36.135947,
-      "lng": 111.499744
+      "lat": 36.13594677137197,
+      "lng": 111.49974409487515
     },
     "address": "http://www.xdwl-sxnu.cn/",
     "province": "山西省",
@@ -9073,8 +9117,8 @@ export const universityList =
   {
     "name": "山东圣翰财贸职业学院",
     "location": {
-      "lat": 36.573222,
-      "lng": 116.853478
+      "lat": 36.57322160724062,
+      "lng": 116.85347811901056
     },
     "address": "http://www.suu.com.cn/",
     "province": "山东省",
@@ -9089,8 +9133,8 @@ export const universityList =
   {
     "name": "山东畜牧兽医职业学院(北校区)",
     "location": {
-      "lat": 36.714921,
-      "lng": 119.177082
+      "lat": 36.71452560508419,
+      "lng": 119.17432119051279
     },
     "address": "潍坊市奎文区胜利东街3031号",
     "province": "山东省",
@@ -9105,8 +9149,8 @@ export const universityList =
   {
     "name": "湖南工商大学",
     "location": {
-      "lat": 28.225764,
-      "lng": 112.925737
+      "lat": 28.225764343774884,
+      "lng": 112.92573670466076
     },
     "address": "http://www.hnuc.edu.cn/",
     "province": "湖南省",
@@ -9121,13 +9165,17 @@ export const universityList =
   {
     "name": "合肥市",
     "num": 6,
-    "index": 583
+    "index": 583,
+    "location": {
+      "lat": 31.826577833686887,
+      "lng": 117.23344266497664
+    }
   },
   {
     "name": "青岛酒店管理职业技术学院",
     "location": {
-      "lat": 36.175255,
-      "lng": 120.496077
+      "lat": 36.175255268898475,
+      "lng": 120.49607659924492
     },
     "address": "http://www.qchm.edu.cn/",
     "province": "山东省",
@@ -9142,8 +9190,8 @@ export const universityList =
   {
     "name": "保山中医药高等专科学校",
     "location": {
-      "lat": 25.090268,
-      "lng": 99.230604
+      "lat": 25.090268496750557,
+      "lng": 99.23060379748608
     },
     "address": "http://www.bszyz.cn/",
     "province": "云南省",
@@ -9157,8 +9205,8 @@ export const universityList =
   {
     "name": "青岛求实职业技术学院",
     "location": {
-      "lat": 36.237796,
-      "lng": 120.348746
+      "lat": 36.23779584778769,
+      "lng": 120.3487459617062
     },
     "address": "http://www.qdqs.com/",
     "province": "山东省",
@@ -9173,8 +9221,8 @@ export const universityList =
   {
     "name": "淄博师范高等专科学校",
     "location": {
-      "lat": 36.666731,
-      "lng": 117.902813
+      "lat": 36.66673075576263,
+      "lng": 117.90281276997293
     },
     "address": "http://www.zbnc.edu.cn/",
     "province": "山东省",
@@ -9189,8 +9237,8 @@ export const universityList =
   {
     "name": "云南财经大学",
     "location": {
-      "lat": 25.086668,
-      "lng": 102.725049
+      "lat": 25.086667704714163,
+      "lng": 102.72504897084136
     },
     "address": "http://www.ynufe.edu.cn/",
     "province": "云南省",
@@ -9205,8 +9253,8 @@ export const universityList =
   {
     "name": "山东旅游职业学院",
     "location": {
-      "lat": 36.679832,
-      "lng": 117.545746
+      "lat": 36.67983182925705,
+      "lng": 117.54574576196454
     },
     "address": "http://www.sdts.net.cn/",
     "province": "山东省",
@@ -9221,8 +9269,8 @@ export const universityList =
   {
     "name": "山东文化产业职业学院",
     "location": {
-      "lat": 36.822129,
-      "lng": 120.540654
+      "lat": 36.822129020685765,
+      "lng": 120.54065384238042
     },
     "address": "http://www.sdcivc.com/",
     "province": "山东省",
@@ -9237,8 +9285,8 @@ export const universityList =
   {
     "name": "青岛远洋船员职业学院(西海岸校区)",
     "location": {
-      "lat": 35.807959,
-      "lng": 120.029597
+      "lat": 35.807065447392695,
+      "lng": 120.03250442387088
     },
     "address": "山东省青岛市西海岸新区翠岛路123号",
     "province": "山东省",
@@ -9253,8 +9301,8 @@ export const universityList =
   {
     "name": "北京电影学院现代创意媒体学院A3",
     "location": {
-      "lat": 35.979416,
-      "lng": 120.265865
+      "lat": 35.97648226491096,
+      "lng": 120.26701983318887
     },
     "address": "青岛市黄岛区漓江东路青岛电影学院",
     "province": "山东省",
@@ -9267,8 +9315,8 @@ export const universityList =
   {
     "name": "潍坊工程职业学院",
     "location": {
-      "lat": 36.636019,
-      "lng": 118.487391
+      "lat": 36.68244624591675,
+      "lng": 118.4820850780822
     },
     "address": "http://www.wfec.cn/",
     "province": "山东省",
@@ -9283,8 +9331,8 @@ export const universityList =
   {
     "name": "汕尾职业技术学院",
     "location": {
-      "lat": 22.799444,
-      "lng": 115.375348
+      "lat": 22.799443501248756,
+      "lng": 115.37534764817326
     },
     "address": "http://www.swvtc.cn/",
     "province": "广东省",
@@ -9299,8 +9347,8 @@ export const universityList =
   {
     "name": "重庆商务职业学院",
     "location": {
-      "lat": 29.642912,
-      "lng": 106.317272
+      "lat": 29.642912174994898,
+      "lng": 106.31727191417835
     },
     "address": "http://www.cqswxy.cn/",
     "province": "重庆市",
@@ -9315,8 +9363,8 @@ export const universityList =
   {
     "name": "重庆三峡医药高等专科学校",
     "location": {
-      "lat": 30.758725,
-      "lng": 108.452346
+      "lat": 30.758725009227582,
+      "lng": 108.4523464963919
     },
     "address": "http://www.sxyyc.net/",
     "province": "重庆市",
@@ -9331,8 +9379,8 @@ export const universityList =
   {
     "name": "柳州城市职业学院",
     "location": {
-      "lat": 24.393335,
-      "lng": 109.535708
+      "lat": 24.39333480229928,
+      "lng": 109.53570831798707
     },
     "address": "http://www.lcvc.cn/Default.aspx",
     "province": "广西壮族自治区",
@@ -9347,8 +9395,8 @@ export const universityList =
   {
     "name": "商丘师范学院(梁园校区)",
     "location": {
-      "lat": 34.440029,
-      "lng": 115.626619
+      "lat": 34.442317703193915,
+      "lng": 115.63116629803014
     },
     "address": "河南省商丘市梁园区平原中路55号",
     "province": "河南省",
@@ -9363,8 +9411,8 @@ export const universityList =
   {
     "name": "中国人民解放军第一七一医院",
     "location": {
-      "lat": 29.730769,
-      "lng": 116.010996
+      "lat": 29.7327379505375,
+      "lng": 116.01568667480878
     },
     "address": "江西省九江市浔阳区庐峰东路东门口18号",
     "province": "江西省",
@@ -9379,8 +9427,8 @@ export const universityList =
   {
     "name": "河南职业技术学院",
     "location": {
-      "lat": 34.802598,
-      "lng": 113.797415
+      "lat": 34.80259837439301,
+      "lng": 113.79741483676419
     },
     "address": "http://www.hnzj.edu.cn/",
     "province": "河南省",
@@ -9395,8 +9443,8 @@ export const universityList =
   {
     "name": "包头轻工职业技术学院",
     "location": {
-      "lat": 40.641924,
-      "lng": 109.954341
+      "lat": 40.64192350247957,
+      "lng": 109.95434115654585
     },
     "address": "http://btqyzs.good-edu.cn/",
     "province": "内蒙古自治区",
@@ -9411,8 +9459,8 @@ export const universityList =
   {
     "name": "太原学院",
     "location": {
-      "lat": 37.699497,
-      "lng": 112.613751
+      "lat": 37.843017352143185,
+      "lng": 112.55205096927838
     },
     "address": "http://www.tyu.edu.cn/",
     "province": "山西省",
@@ -9427,8 +9475,8 @@ export const universityList =
   {
     "name": "洛阳理工学院(开元校区)",
     "location": {
-      "lat": 34.61942,
-      "lng": 112.426314
+      "lat": 34.62001649935812,
+      "lng": 112.43084072037549
     },
     "address": "河南省洛阳市洛龙区学子街8号(学子街与开元大道交叉口西北角)",
     "province": "河南省",
@@ -9443,8 +9491,8 @@ export const universityList =
   {
     "name": "广东体育职业技术学院(东校区)",
     "location": {
-      "lat": 23.148492,
-      "lng": 113.41981
+      "lat": 23.14760500957821,
+      "lng": 113.41941891276903
     },
     "address": "广州市天河区黄村街道体委基地社区奥体路52号",
     "province": "广东省",
@@ -9459,8 +9507,8 @@ export const universityList =
   {
     "name": "锦州医科大学",
     "location": {
-      "lat": 41.155208,
-      "lng": 121.149564
+      "lat": 41.15520847524671,
+      "lng": 121.14956403401095
     },
     "address": "http://www.jzmu.edu.cn/",
     "province": "辽宁省",
@@ -9475,8 +9523,8 @@ export const universityList =
   {
     "name": "洛阳师范学院",
     "location": {
-      "lat": 34.635089,
-      "lng": 112.613118
+      "lat": 34.63508936224266,
+      "lng": 112.61311813716888
     },
     "address": "http://www.lynu.edu.cn/",
     "province": "河南省",
@@ -9491,8 +9539,8 @@ export const universityList =
   {
     "name": "上海科学技术职业学院",
     "location": {
-      "lat": 31.392408,
-      "lng": 121.264624
+      "lat": 31.39240791285877,
+      "lng": 121.26462403423979
     },
     "address": "http://www.scst.edu.cn/",
     "province": "上海市",
@@ -9507,8 +9555,8 @@ export const universityList =
   {
     "name": "重庆工程职业技术学院",
     "location": {
-      "lat": 29.344529,
-      "lng": 106.25755
+      "lat": 29.344528642059704,
+      "lng": 106.25754959948655
     },
     "address": "http://www.cqvie.edu.cn/",
     "province": "重庆市",
@@ -9523,8 +9571,8 @@ export const universityList =
   {
     "name": "许昌职业技术学院",
     "location": {
-      "lat": 34.023478,
-      "lng": 113.889424
+      "lat": 34.023477961298894,
+      "lng": 113.88942368879313
     },
     "address": "http://www.xcitc.edu.cn/",
     "province": "河南省",
@@ -9539,8 +9587,8 @@ export const universityList =
   {
     "name": "成都师范学院",
     "location": {
-      "lat": 30.68211,
-      "lng": 103.835336
+      "lat": 30.683458147137955,
+      "lng": 103.83582162123028
     },
     "address": "https://www.cdnu.edu.cn/",
     "province": "四川省",
@@ -9555,8 +9603,8 @@ export const universityList =
   {
     "name": "桂林山水职业学院",
     "location": {
-      "lat": 25.240271,
-      "lng": 110.199745
+      "lat": 25.24027063091971,
+      "lng": 110.19974473379852
     },
     "address": "http://www.guolianweb.com/index.html",
     "province": "广西壮族自治区",
@@ -9571,8 +9619,8 @@ export const universityList =
   {
     "name": "张家口学院",
     "location": {
-      "lat": 40.849,
-      "lng": 114.875113
+      "lat": 40.848999970792036,
+      "lng": 114.87511303505137
     },
     "address": "http://www.zjku.edu.cn/",
     "province": "河北省",
@@ -9587,8 +9635,8 @@ export const universityList =
   {
     "name": "平顶山工业职业技术学院",
     "location": {
-      "lat": 33.716828,
-      "lng": 113.294454
+      "lat": 33.74756710792167,
+      "lng": 113.32718801417225
     },
     "address": "http://www.pzxy.edu.cn/",
     "province": "河南省",
@@ -9603,8 +9651,8 @@ export const universityList =
   {
     "name": "嘉兴学院(越秀校区)",
     "location": {
-      "lat": 30.752886,
-      "lng": 120.735976
+      "lat": 30.74939076626862,
+      "lng": 120.73495256316944
     },
     "address": "浙江省嘉兴市南湖区越秀南路572号",
     "province": "浙江省",
@@ -9619,8 +9667,8 @@ export const universityList =
   {
     "name": "济源职业技术学院(沁园校区)",
     "location": {
-      "lat": 35.081851,
-      "lng": 112.608667
+      "lat": 35.08071655633991,
+      "lng": 112.60827231792587
     },
     "address": "河南省济源市济源大道88号",
     "province": "河南省",
@@ -9634,8 +9682,8 @@ export const universityList =
   {
     "name": "河南工业职业技术学院(新校区)",
     "location": {
-      "lat": 33.043616,
-      "lng": 112.603574
+      "lat": 33.04556080175433,
+      "lng": 112.60841029765218
     },
     "address": "河南省南阳市宛城区孔明路666号",
     "province": "河南省",
@@ -9650,8 +9698,8 @@ export const universityList =
   {
     "name": "商丘工学院",
     "location": {
-      "lat": 34.424781,
-      "lng": 115.692691
+      "lat": 34.42478101910617,
+      "lng": 115.69269097291688
     },
     "address": "http://www.sqgxy.edu.cn/",
     "province": "河南省",
@@ -9666,8 +9714,8 @@ export const universityList =
   {
     "name": "湖南科技学院",
     "location": {
-      "lat": 26.211772,
-      "lng": 111.612915
+      "lat": 26.211772264054595,
+      "lng": 111.61291503448959
     },
     "address": "http://www.huse.edu.cn/",
     "province": "湖南省",
@@ -9682,8 +9730,8 @@ export const universityList =
   {
     "name": "郑州工商学院",
     "location": {
-      "lat": 34.79794,
-      "lng": 113.896414
+      "lat": 34.798040153714965,
+      "lng": 113.8968821397814
     },
     "address": "http://www.ztbu.edu.cn/",
     "province": "河南省",
@@ -9698,8 +9746,8 @@ export const universityList =
   {
     "name": "中南大学",
     "location": {
-      "lat": 28.1772,
-      "lng": 112.934197
+      "lat": 28.145605246456004,
+      "lng": 112.99812368975026
     },
     "address": "http://www.csu.edu.cn/",
     "province": "湖南省",
@@ -9714,8 +9762,8 @@ export const universityList =
   {
     "name": "福建信息职业技术学院(龙腰校区)",
     "location": {
-      "lat": 26.111393,
-      "lng": 119.299224
+      "lat": 26.11086676254865,
+      "lng": 119.30008798778772
     },
     "address": "福建省福州市鼓楼区福飞南路106号",
     "province": "福建省",
@@ -9730,8 +9778,8 @@ export const universityList =
   {
     "name": "武汉体育学院(藏龙校区)",
     "location": {
-      "lat": 30.402967,
-      "lng": 114.439869
+      "lat": 30.402987121761935,
+      "lng": 114.44271134222916
     },
     "address": "湖北省武汉市江夏区藏龙岛科技园区环岛路1号",
     "province": "湖北省",
@@ -9746,8 +9794,8 @@ export const universityList =
   {
     "name": "南充文化旅游职业学院",
     "location": {
-      "lat": 31.540421,
-      "lng": 106.07531
+      "lat": 31.54042138350413,
+      "lng": 106.07531019320466
     },
     "address": null,
     "province": "四川省",
@@ -9762,8 +9810,8 @@ export const universityList =
   {
     "name": "海南工商职业学院",
     "location": {
-      "lat": 20.017066,
-      "lng": 110.376731
+      "lat": 20.017066234453747,
+      "lng": 110.37673068192694
     },
     "address": "http://www.hntbc.edu.cn/",
     "province": "海南省",
@@ -9778,8 +9826,8 @@ export const universityList =
   {
     "name": "湖南高速铁路职业技术学院",
     "location": {
-      "lat": 26.883747,
-      "lng": 112.703925
+      "lat": 26.883747170622744,
+      "lng": 112.70392531159928
     },
     "address": "http://www.htcrh.com/",
     "province": "湖南省",
@@ -9794,8 +9842,8 @@ export const universityList =
   {
     "name": "湖北中医药大学",
     "location": {
-      "lat": 30.453788,
-      "lng": 114.276969
+      "lat": 30.45378790372923,
+      "lng": 114.27696903495792
     },
     "address": "http://www.hbtcm.edu.cn/",
     "province": "湖北省",
@@ -9810,8 +9858,8 @@ export const universityList =
   {
     "name": "张家界学院",
     "location": {
-      "lat": 29.157558,
-      "lng": 110.457713
+      "lat": 29.126190558381275,
+      "lng": 110.54443192396839
     },
     "address": "湖南省张家界市永定区温泉路1号",
     "province": "湖南省",
@@ -9826,8 +9874,8 @@ export const universityList =
   {
     "name": "郑州城市职业学院",
     "location": {
-      "lat": 34.552045,
-      "lng": 113.346192
+      "lat": 34.55204531762291,
+      "lng": 113.34619166723583
     },
     "address": "http://www.zcu.edu.cn/",
     "province": "河南省",
@@ -9842,8 +9890,8 @@ export const universityList =
   {
     "name": "许昌陶瓷职业学院",
     "location": {
-      "lat": 34.139678,
-      "lng": 113.83525
+      "lat": 34.139678340172814,
+      "lng": 113.83525020721676
     },
     "address": "http://www.xccvc.com/",
     "province": "河南省",
@@ -9858,8 +9906,8 @@ export const universityList =
   {
     "name": "河南工程学院",
     "location": {
-      "lat": 34.628985,
-      "lng": 113.698577
+      "lat": 34.75922295517811,
+      "lng": 113.62175299089904
     },
     "address": "http://www.haue.edu.cn/",
     "province": "河南省",
@@ -9874,8 +9922,8 @@ export const universityList =
   {
     "name": "河南艺术职业学院",
     "location": {
-      "lat": 34.81221,
-      "lng": 113.669753
+      "lat": 34.81220995302446,
+      "lng": 113.6697530475192
     },
     "address": "http://www.hnyszyxy.net/",
     "province": "河南省",
@@ -9890,8 +9938,8 @@ export const universityList =
   {
     "name": "桂林电子科技大学-信息科技学院",
     "location": {
-      "lat": 25.285311,
-      "lng": 110.332479
+      "lat": 25.285071514592563,
+      "lng": 110.33250449659936
     },
     "address": "广西壮族自治区桂林市七星区六合路123号",
     "province": "广西壮族自治区",
@@ -9906,8 +9954,8 @@ export const universityList =
   {
     "name": "福州软件职业技术学院(文岭校本部)",
     "location": {
-      "lat": 25.974794,
-      "lng": 119.709605
+      "lat": 25.822200637218305,
+      "lng": 119.61388047520752
     },
     "address": "福建省福州市长乐区滨海大道999号",
     "province": "福建省",
@@ -9922,8 +9970,8 @@ export const universityList =
   {
     "name": "哈尔滨技术学院",
     "location": {
-      "lat": 45.673325,
-      "lng": 126.661195
+      "lat": 45.672776208104686,
+      "lng": 126.65837441507942
     },
     "address": "哈尔滨市香坊区哈平路217号",
     "province": "黑龙江省",
@@ -9938,8 +9986,8 @@ export const universityList =
   {
     "name": "天津工艺美术学院",
     "location": {
-      "lat": 39.168369,
-      "lng": 117.241999
+      "lat": 39.16730201526863,
+      "lng": 117.24222800303366
     },
     "address": "天津市河北区红星路革新道10号",
     "province": "天津市",
@@ -9954,8 +10002,8 @@ export const universityList =
   {
     "name": "徐州工业职业技术学院(九里校区)",
     "location": {
-      "lat": 34.305683,
-      "lng": 117.150151
+      "lat": 34.305909574761195,
+      "lng": 117.14638554241034
     },
     "address": "江苏省徐州市鼓楼区襄王南路1号",
     "province": "江苏省",
@@ -9970,8 +10018,8 @@ export const universityList =
   {
     "name": "山东科技大学(青岛校区)",
     "location": {
-      "lat": 36.009138,
-      "lng": 120.12927
+      "lat": 36.011185028778286,
+      "lng": 120.12567217983825
     },
     "address": "山东省青岛市黄岛区前湾港路579号",
     "province": "山东省",
@@ -9986,8 +10034,8 @@ export const universityList =
   {
     "name": "郑州西亚斯学院",
     "location": {
-      "lat": 34.406099,
-      "lng": 113.77179
+      "lat": 34.40609902705539,
+      "lng": 113.77179004327822
     },
     "address": null,
     "province": "河南省",
@@ -10002,8 +10050,8 @@ export const universityList =
   {
     "name": "成都工贸职业技术学院",
     "location": {
-      "lat": 30.796074,
-      "lng": 103.968798
+      "lat": 30.815387774137896,
+      "lng": 103.92251106735134
     },
     "address": "http://www.cdgmxy.com/",
     "province": "四川省",
@@ -10018,8 +10066,8 @@ export const universityList =
   {
     "name": "濮阳石油化工职业技术学院(新校区)",
     "location": {
-      "lat": 35.784769,
-      "lng": 115.177282
+      "lat": 35.78363288453635,
+      "lng": 115.08041294409888
     },
     "address": "河南省濮阳市华龙区苏北东路666号",
     "province": "河南省",
@@ -10033,8 +10081,8 @@ export const universityList =
   {
     "name": "南阳科技职业学院",
     "location": {
-      "lat": 32.677641,
-      "lng": 112.156298
+      "lat": 32.67764063073726,
+      "lng": 112.15629780566896
     },
     "address": null,
     "province": "河南省",
@@ -10049,8 +10097,8 @@ export const universityList =
   {
     "name": "林州建筑职业技术学院",
     "location": {
-      "lat": 36.076866,
-      "lng": 113.876907
+      "lat": 36.07686584858089,
+      "lng": 113.87690687947821
     },
     "address": null,
     "province": "河南省",
@@ -10065,8 +10113,8 @@ export const universityList =
   {
     "name": "西昌民族幼儿师范高等专科学校",
     "location": {
-      "lat": 27.945278,
-      "lng": 102.218121
+      "lat": 27.945278008175972,
+      "lng": 102.21812097850119
     },
     "address": null,
     "province": "四川省",
@@ -10080,8 +10128,8 @@ export const universityList =
   {
     "name": "巴中职业技术学院",
     "location": {
-      "lat": 31.877006,
-      "lng": 106.846313
+      "lat": 31.877005647182315,
+      "lng": 106.84631269715828
     },
     "address": "http://www.bzzyjsxy.cn/",
     "province": "四川省",
@@ -10095,8 +10143,8 @@ export const universityList =
   {
     "name": "南通大学杏林学院(启东校区)",
     "location": {
-      "lat": 31.909585,
-      "lng": 121.861529
+      "lat": 31.9137028760759,
+      "lng": 121.86122851835023
     },
     "address": "江苏省南通市启东市南海路1号",
     "province": "江苏省",
@@ -10111,8 +10159,8 @@ export const universityList =
   {
     "name": "武汉工程大学(流芳校区)",
     "location": {
-      "lat": 30.466571,
-      "lng": 114.439425
+      "lat": 30.4692787032204,
+      "lng": 114.43678297501604
     },
     "address": "武汉市江夏区东湖新技术开发区光谷一路206号",
     "province": "湖北省",
@@ -10127,8 +10175,8 @@ export const universityList =
   {
     "name": "中国地质大学(武汉)",
     "location": {
-      "lat": 30.525749,
-      "lng": 114.408655
+      "lat": 30.52587878054942,
+      "lng": 114.40835295308351
     },
     "address": "武汉市洪山区鲁磨路388号",
     "province": "湖北省",
@@ -10143,8 +10191,8 @@ export const universityList =
   {
     "name": "宁夏幼儿师范高等专科学校",
     "location": {
-      "lat": 38.365271,
-      "lng": 106.508992
+      "lat": 38.3652712170706,
+      "lng": 106.5089923307008
     },
     "address": "http://www.nxysedu.com/guide.html",
     "province": "宁夏回族自治区",
@@ -10159,8 +10207,8 @@ export const universityList =
   {
     "name": "湖北师范大学",
     "location": {
-      "lat": 30.235758,
-      "lng": 115.069632
+      "lat": 30.235758089057732,
+      "lng": 115.06963202035145
     },
     "address": "http://www.hbnu.edu.cn/",
     "province": "湖北省",
@@ -10175,8 +10223,8 @@ export const universityList =
   {
     "name": "浙江中医药大学滨江学院",
     "location": {
-      "lat": 30.181545,
-      "lng": 120.156718
+      "lat": 30.181545083604675,
+      "lng": 120.15671815724639
     },
     "address": "http://www.zcmu.edu.cn/",
     "province": "浙江省",
@@ -10191,8 +10239,8 @@ export const universityList =
   {
     "name": "安徽城市管理职业学院",
     "location": {
-      "lat": 31.934508,
-      "lng": 117.398883
+      "lat": 31.767151895623385,
+      "lng": 117.24077167014087
     },
     "address": "http://www.cua.edu.cn/",
     "province": "安徽省",
@@ -10207,8 +10255,8 @@ export const universityList =
   {
     "name": "湖北科技学院",
     "location": {
-      "lat": 29.85549,
-      "lng": 114.343229
+      "lat": 29.86842052766536,
+      "lng": 114.27651411821032
     },
     "address": "http://www.hbust.com.cn/",
     "province": "湖北省",
@@ -10223,8 +10271,8 @@ export const universityList =
   {
     "name": "黄冈职业技术学院",
     "location": {
-      "lat": 30.439469,
-      "lng": 115.003008
+      "lat": 30.439469323272625,
+      "lng": 115.00300775491512
     },
     "address": "http://www.hbhgzy.com.cn/",
     "province": "湖北省",
@@ -10239,8 +10287,8 @@ export const universityList =
   {
     "name": "江西应用科技学院",
     "location": {
-      "lat": 28.67089,
-      "lng": 115.709595
+      "lat": 28.67088998250257,
+      "lng": 115.70959500120127
     },
     "address": "http://www.jxcsedu.com/",
     "province": "江西省",
@@ -10255,8 +10303,8 @@ export const universityList =
   {
     "name": "鄂州职业大学",
     "location": {
-      "lat": 30.382988,
-      "lng": 114.904685
+      "lat": 30.37769833975857,
+      "lng": 114.90626752776511
     },
     "address": "http://www.ezu.net.cn/",
     "province": "湖北省",
@@ -10271,8 +10319,8 @@ export const universityList =
   {
     "name": "黔东南民族职业技术学院",
     "location": {
-      "lat": 26.533239,
-      "lng": 107.906638
+      "lat": 26.533238909997767,
+      "lng": 107.90663783381041
     },
     "address": "http://www.qdnpt.com/",
     "province": "贵州省",
@@ -10287,8 +10335,8 @@ export const universityList =
   {
     "name": "武汉城市职业学院",
     "location": {
-      "lat": 30.482329,
-      "lng": 114.328791
+      "lat": 30.482328745564246,
+      "lng": 114.32879093237027
     },
     "address": "https://www.whcvc.edu.cn/",
     "province": "湖北省",
@@ -10303,8 +10351,8 @@ export const universityList =
   {
     "name": "南京旅游职业学院",
     "location": {
-      "lat": 31.934879,
-      "lng": 118.89785
+      "lat": 32.08176603033605,
+      "lng": 118.75523903280921
     },
     "address": "http://www.nith.edu.cn/",
     "province": "江苏省",
@@ -10319,8 +10367,8 @@ export const universityList =
   {
     "name": "仙桃职业学院",
     "location": {
-      "lat": 30.343416,
-      "lng": 113.433284
+      "lat": 30.343415864979995,
+      "lng": 113.43328409320866
     },
     "address": "http://www.hbxtzy.com/",
     "province": "湖北省",
@@ -10335,8 +10383,8 @@ export const universityList =
   {
     "name": "湖北轻工职业技术学院",
     "location": {
-      "lat": 30.528133,
-      "lng": 114.351121
+      "lat": 30.5281328775103,
+      "lng": 114.3511210107373
     },
     "address": "http://www.hbliti.com/",
     "province": "湖北省",
@@ -10351,8 +10399,8 @@ export const universityList =
   {
     "name": "铜仁幼儿师范高等专科学校",
     "location": {
-      "lat": 27.798244,
-      "lng": 109.237137
+      "lat": 27.798244266241483,
+      "lng": 109.23713743776771
     },
     "address": "http://www.trpec.edu.cn/",
     "province": "贵州省",
@@ -10367,8 +10415,8 @@ export const universityList =
   {
     "name": "湖北水利水电职业技术学院(汤逊湖校区)",
     "location": {
-      "lat": 30.376763,
-      "lng": 114.411535
+      "lat": 30.378937964404358,
+      "lng": 114.4095570417891
     },
     "address": "湖北省武汉市江夏区中州大道98号",
     "province": "湖北省",
@@ -10383,8 +10431,8 @@ export const universityList =
   {
     "name": "株洲师范高等专科学校",
     "location": {
-      "lat": 27.895321,
-      "lng": 113.186344
+      "lat": 27.89532120375128,
+      "lng": 113.1863441160744
     },
     "address": "",
     "province": "湖南省",
@@ -10399,8 +10447,8 @@ export const universityList =
   {
     "name": "西南林业大学(白龙校区)",
     "location": {
-      "lat": 25.066115,
-      "lng": 102.764992
+      "lat": 25.06801204821423,
+      "lng": 102.75953096681378
     },
     "address": "昆明市盘龙区白龙寺300号",
     "province": "云南省",
@@ -10415,8 +10463,8 @@ export const universityList =
   {
     "name": "武汉工商学院(黄家湖校区)",
     "location": {
-      "lat": 30.464468,
-      "lng": 114.280136
+      "lat": 30.464561864890342,
+      "lng": 114.27778092347783
     },
     "address": "武汉市洪山区黄家湖西路3号",
     "province": "湖北省",
@@ -10431,8 +10479,8 @@ export const universityList =
   {
     "name": "昆明工业职业技术学院",
     "location": {
-      "lat": 24.906303,
-      "lng": 102.497013
+      "lat": 24.90621113547564,
+      "lng": 102.49744314792021
     },
     "address": "http://www.kmvtc.net:8180/Index.aspx",
     "province": "云南省",
@@ -10447,8 +10495,8 @@ export const universityList =
   {
     "name": "黄河科技学院",
     "location": {
-      "lat": 34.69353,
-      "lng": 113.683072
+      "lat": 34.72793010120558,
+      "lng": 113.64421691678704
     },
     "address": "http://www.hhstu.edu.cn/",
     "province": "河南省",
@@ -10463,8 +10511,8 @@ export const universityList =
   {
     "name": "云南科技信息职业学院",
     "location": {
-      "lat": 25.089989,
-      "lng": 102.766219
+      "lat": 25.087237028692645,
+      "lng": 102.80327296547163
     },
     "address": "http://www.ynkexin.cn/default.aspx",
     "province": "云南省",
@@ -10479,8 +10527,8 @@ export const universityList =
   {
     "name": "百色学院(澄碧校区)",
     "location": {
-      "lat": 23.927484,
-      "lng": 106.655744
+      "lat": 23.92910331291648,
+      "lng": 106.65014261401276
     },
     "address": "广西壮族自治区百色市右江区盘百二级公路东",
     "province": "广西壮族自治区",
@@ -10495,8 +10543,8 @@ export const universityList =
   {
     "name": "湘潭大学",
     "location": {
-      "lat": 27.887929,
-      "lng": 112.870634
+      "lat": 27.887928624459907,
+      "lng": 112.87063410571363
     },
     "address": "http://www.xtu.edu.cn/",
     "province": "湖南省",
@@ -10511,8 +10559,8 @@ export const universityList =
   {
     "name": "湖南大学",
     "location": {
-      "lat": 28.186051,
-      "lng": 112.950693
+      "lat": 28.204439981477062,
+      "lng": 112.93805669523441
     },
     "address": "http://www.hnu.edu.cn/",
     "province": "湖南省",
@@ -10527,8 +10575,8 @@ export const universityList =
   {
     "name": "湖州师范学院(东校区)",
     "location": {
-      "lat": 30.881445,
-      "lng": 120.140796
+      "lat": 30.881050238664276,
+      "lng": 120.14105143966071
     },
     "address": "二环东路759号",
     "province": "浙江省",
@@ -10543,8 +10591,8 @@ export const universityList =
   {
     "name": "郑州商学院(紫荆东校区)",
     "location": {
-      "lat": 34.767113,
-      "lng": 113.035692
+      "lat": 34.76445604873364,
+      "lng": 113.03215088806941
     },
     "address": "河南省郑州市巩义市紫荆路136号",
     "province": "河南省",
@@ -10559,8 +10607,8 @@ export const universityList =
   {
     "name": "广西现代职业技术学院",
     "location": {
-      "lat": 24.698954,
-      "lng": 108.044625
+      "lat": 24.69895358776545,
+      "lng": 108.04462501603318
     },
     "address": "http://www.gxxd.net.cn/",
     "province": "广西壮族自治区",
@@ -10575,8 +10623,8 @@ export const universityList =
   {
     "name": "湖南工学院",
     "location": {
-      "lat": 26.888519,
-      "lng": 112.69125
+      "lat": 26.888518675605393,
+      "lng": 112.69125049034932
     },
     "address": "http://www.hnit.edu.cn/",
     "province": "湖南省",
@@ -10591,8 +10639,8 @@ export const universityList =
   {
     "name": "重庆电信职业学院(龙水湖校区)",
     "location": {
-      "lat": 29.516721,
-      "lng": 105.793555
+      "lat": 29.516721354962005,
+      "lng": 105.7935552206761
     },
     "address": "重庆市大足区经开区巴岳大道9号",
     "province": "重庆市",
@@ -10607,13 +10655,17 @@ export const universityList =
   {
     "name": "广州市",
     "num": 9,
-    "index": 677
+    "index": 677,
+    "location": {
+      "lat": 23.06970470717481,
+      "lng": 113.19697322618714
+    }
   },
   {
     "name": "湖南网络工程职业学院",
     "location": {
-      "lat": 28.140735,
-      "lng": 112.994498
+      "lat": 28.140735409724222,
+      "lng": 112.99449803888263
     },
     "address": "http://www.hnevc.com/",
     "province": "湖南省",
@@ -10628,8 +10680,8 @@ export const universityList =
   {
     "name": "长沙环境保护职业技术学院",
     "location": {
-      "lat": 28.134818,
-      "lng": 113.029775
+      "lat": 28.219507677534626,
+      "lng": 113.10129901821745
     },
     "address": "http://www.hbcollege.com.cn/",
     "province": "湖南省",
@@ -10644,8 +10696,8 @@ export const universityList =
   {
     "name": "河北金融学院",
     "location": {
-      "lat": 38.92512,
-      "lng": 115.505713
+      "lat": 38.92512029443412,
+      "lng": 115.50571326237306
     },
     "address": "http://www.hbfu.edu.cn/",
     "province": "河北省",
@@ -10660,8 +10712,8 @@ export const universityList =
   {
     "name": "潇湘职业学院",
     "location": {
-      "lat": 27.769747,
-      "lng": 111.991747
+      "lat": 27.77362102106119,
+      "lng": 112.00964600351558
     },
     "address": "http://www.hnxxc.com/",
     "province": "湖南省",
@@ -10676,8 +10728,8 @@ export const universityList =
   {
     "name": "长沙卫生职业学院(湘江新区校区)",
     "location": {
-      "lat": 28.213533,
-      "lng": 112.607208
+      "lat": 28.21353329802998,
+      "lng": 112.60720772178009
     },
     "address": "岳宁大道6号",
     "province": "湖南省",
@@ -10692,8 +10744,8 @@ export const universityList =
   {
     "name": "浙江同济科技职业学院",
     "location": {
-      "lat": 30.248992,
-      "lng": 120.316027
+      "lat": 30.24899164635828,
+      "lng": 120.31602662079406
     },
     "address": "http://www.zjtongji.edu.cn/",
     "province": "浙江省",
@@ -10708,8 +10760,8 @@ export const universityList =
   {
     "name": "神木职业技术学院",
     "location": {
-      "lat": 38.888877,
-      "lng": 110.484861
+      "lat": 38.888877010923345,
+      "lng": 110.48486080767871
     },
     "address": null,
     "province": "陕西省",
@@ -10724,8 +10776,8 @@ export const universityList =
   {
     "name": "阿坝师范学院",
     "location": {
-      "lat": 30.930176,
-      "lng": 103.423101
+      "lat": 32.91217223726307,
+      "lng": 101.70494716846731
     },
     "address": "http://www.abtu.edu.cn/",
     "province": "四川省",
@@ -10740,8 +10792,8 @@ export const universityList =
   {
     "name": "广州中医药大学(大学城校区)",
     "location": {
-      "lat": 23.06413,
-      "lng": 113.410495
+      "lat": 23.06547573521754,
+      "lng": 113.41273066892727
     },
     "address": "广东省广州市番禺区大学城外环东路232号",
     "province": "广东省",
@@ -10756,8 +10808,8 @@ export const universityList =
   {
     "name": "宁夏理工学院",
     "location": {
-      "lat": 38.976259,
-      "lng": 106.420503
+      "lat": 38.976259242340525,
+      "lng": 106.4205034888127
     },
     "address": "http://www.nxist.com/views/font/homepage.form",
     "province": "宁夏回族自治区",
@@ -10772,8 +10824,8 @@ export const universityList =
   {
     "name": "青海柴达木职业技术学院",
     "location": {
-      "lat": 37.354635,
-      "lng": 97.352122
+      "lat": 37.35463460316605,
+      "lng": 97.35212185203186
     },
     "address": "http://www.qhcdmzy.com.cn/",
     "province": "青海省",
@@ -10788,8 +10840,8 @@ export const universityList =
   {
     "name": "广州航海学院(黄埔校区)",
     "location": {
-      "lat": 23.106084,
-      "lng": 113.484983
+      "lat": 23.10279867642983,
+      "lng": 113.48427657056803
     },
     "address": "广东省广州市黄埔区红山街道航专社区红山三路101号",
     "province": "广东省",
@@ -10804,8 +10856,8 @@ export const universityList =
   {
     "name": "广东警官学院(嘉禾校区)",
     "location": {
-      "lat": 23.259864,
-      "lng": 113.313035
+      "lat": 23.257587518037894,
+      "lng": 113.31040594594718
     },
     "address": "广东省广州市白云区永平街道东恒社区文盛庄路118号",
     "province": "广东省",
@@ -10820,8 +10872,8 @@ export const universityList =
   {
     "name": "新安职业技术学院",
     "location": {
-      "lat": 22.561583,
-      "lng": 113.975642
+      "lat": 22.56226345647853,
+      "lng": 113.97536815541692
     },
     "address": "广东省深圳市南山区沙河东路259号",
     "province": "广东省",
@@ -10836,8 +10888,8 @@ export const universityList =
   {
     "name": "四川司法警官职业学院",
     "location": {
-      "lat": 31.136047,
-      "lng": 104.418774
+      "lat": 31.137723170087288,
+      "lng": 104.41919999399512
     },
     "address": "http://www.sjpopc.net/",
     "province": "四川省",
@@ -10852,8 +10904,8 @@ export const universityList =
   {
     "name": "广州康大职业技术学院",
     "location": {
-      "lat": 23.318467,
-      "lng": 113.57092
+      "lat": 23.318467400247425,
+      "lng": 113.57091966409614
     },
     "address": "http://www.kdvtc-edu.cn/",
     "province": "广东省",
@@ -10868,8 +10920,8 @@ export const universityList =
   {
     "name": "曲靖医学高等专科学校(麒麟校区)",
     "location": {
-      "lat": 25.49204,
-      "lng": 103.802701
+      "lat": 25.492068843124322,
+      "lng": 103.80274016198955
     },
     "address": "云南省曲靖市麒麟区南门街128号",
     "province": "云南省",
@@ -10884,8 +10936,8 @@ export const universityList =
   {
     "name": "琼台师范学院",
     "location": {
-      "lat": 20.00446,
-      "lng": 110.364111
+      "lat": 19.980722815994426,
+      "lng": 110.52321718172956
     },
     "address": "http://www.qttc.edu.cn/default.html",
     "province": "海南省",
@@ -10900,8 +10952,8 @@ export const universityList =
   {
     "name": "湘西民族职业技术学院",
     "location": {
-      "lat": 28.231281,
-      "lng": 109.68751
+      "lat": 28.23128062231786,
+      "lng": 109.68751009149048
     },
     "address": "http://www.xxmzy.org.cn/",
     "province": "湖南省",
@@ -10916,8 +10968,8 @@ export const universityList =
   {
     "name": "湖南劳动人事职业学院(新校区)",
     "location": {
-      "lat": 28.257632,
-      "lng": 113.17543
+      "lat": 28.25748000432849,
+      "lng": 113.17337986078923
     },
     "address": "湖南省长沙经济技术开发区星沙产业基地开元东路1319号",
     "province": "湖南省",
@@ -10932,8 +10984,8 @@ export const universityList =
   {
     "name": "黔南民族职业技术学院",
     "location": {
-      "lat": 26.309417,
-      "lng": 107.462734
+      "lat": 26.30941661784201,
+      "lng": 107.46273369840178
     },
     "address": "http://www.qnzy.net/",
     "province": "贵州省",
@@ -10947,8 +10999,8 @@ export const universityList =
   {
     "name": "广东外语外贸大学(大学城校区)",
     "location": {
-      "lat": 23.070256,
-      "lng": 113.403974
+      "lat": 23.068891674377277,
+      "lng": 113.40507090767676
     },
     "address": "广东省广州市番禺区小谷围街道贝岗村外环东路178号",
     "province": "广东省",
@@ -10963,8 +11015,8 @@ export const universityList =
   {
     "name": "安徽工业大学(佳山校区)",
     "location": {
-      "lat": 31.697702,
-      "lng": 118.520697
+      "lat": 31.709070539210284,
+      "lng": 118.51650886386898
     },
     "address": "安徽省马鞍山市花山区湖东北路500号",
     "province": "安徽省",
@@ -10979,8 +11031,8 @@ export const universityList =
   {
     "name": "贵州应用技术职业学院",
     "location": {
-      "lat": 26.68338,
-      "lng": 107.535168
+      "lat": 26.681810577278448,
+      "lng": 107.53312940966795
     },
     "address": "http://www.gzyyxy.com/",
     "province": "贵州省",
@@ -10994,8 +11046,8 @@ export const universityList =
   {
     "name": "广西体育高等专科学校",
     "location": {
-      "lat": 22.836457,
-      "lng": 108.333578
+      "lat": 22.83645703380444,
+      "lng": 108.33357755949928
     },
     "address": "http://www.gxtznn.com/",
     "province": "广西壮族自治区",
@@ -11010,8 +11062,8 @@ export const universityList =
   {
     "name": "平凉职业技术学院",
     "location": {
-      "lat": 35.540779,
-      "lng": 106.735473
+      "lat": 35.54077891957761,
+      "lng": 106.73547302604588
     },
     "address": "http://www.plvtc.cn/ ",
     "province": "甘肃省",
@@ -11026,8 +11078,8 @@ export const universityList =
   {
     "name": "河南工业贸易职业学院",
     "location": {
-      "lat": 34.775595,
-      "lng": 113.666692
+      "lat": 34.77559458916512,
+      "lng": 113.66669225115506
     },
     "address": "http://www.hngm.cn/",
     "province": "河南省",
@@ -11042,8 +11094,8 @@ export const universityList =
   {
     "name": "浙江财经大学(下沙校区)",
     "location": {
-      "lat": 30.326721,
-      "lng": 120.401806
+      "lat": 30.327743257339183,
+      "lng": 120.4017731156213
     },
     "address": "浙江省杭州市下沙高教园区学源街18号",
     "province": "浙江省",
@@ -11058,8 +11110,8 @@ export const universityList =
   {
     "name": "南宁师范大学师园学院",
     "location": {
-      "lat": 22.594171,
-      "lng": 108.24258
+      "lat": 22.59417098257099,
+      "lng": 108.24258001984353
     },
     "address": "http://www.gxsy.edu.cn/",
     "province": "广西壮族自治区",
@@ -11074,8 +11126,8 @@ export const universityList =
   {
     "name": "广西中医药大学赛恩斯新医药学院",
     "location": {
-      "lat": 22.802378,
-      "lng": 108.513392
+      "lat": 22.802377575974692,
+      "lng": 108.51339209201657
     },
     "address": "http://www.gxzyxysy.com/",
     "province": "广西壮族自治区",
@@ -11090,8 +11142,8 @@ export const universityList =
   {
     "name": "齐齐哈尔工程学院",
     "location": {
-      "lat": 47.30851,
-      "lng": 123.972017
+      "lat": 47.308509558683575,
+      "lng": 123.97201685019725
     },
     "address": "http://www.qqhrit.com/",
     "province": "黑龙江省",
@@ -11106,8 +11158,8 @@ export const universityList =
   {
     "name": "辽宁机电职业技术学院",
     "location": {
-      "lat": 40.022295,
-      "lng": 124.352338
+      "lat": 40.04062970957503,
+      "lng": 124.34926879272767
     },
     "address": "http://www.lnmec.net.cn/",
     "province": "辽宁省",
@@ -11122,8 +11174,8 @@ export const universityList =
   {
     "name": "四川美术学院(虎溪校区)",
     "location": {
-      "lat": 29.608766,
-      "lng": 106.303877
+      "lat": 29.605052314476882,
+      "lng": 106.30439533351093
     },
     "address": "重庆市沙坪坝区大学城南路28号",
     "province": "重庆市",
@@ -11138,8 +11190,8 @@ export const universityList =
   {
     "name": "内蒙古科技职业学院",
     "location": {
-      "lat": 40.86247,
-      "lng": 111.813355
+      "lat": 40.86246989156343,
+      "lng": 111.81335530434671
     },
     "address": "",
     "province": "内蒙古自治区",
@@ -11154,8 +11206,8 @@ export const universityList =
   {
     "name": "宁夏财经职业技术学院(新校区)",
     "location": {
-      "lat": 38.514596,
-      "lng": 106.133706
+      "lat": 38.511257609634946,
+      "lng": 106.13425700076941
     },
     "address": "宁夏回族自治区银川市西夏区学院西路31号",
     "province": "宁夏回族自治区",
@@ -11170,8 +11222,8 @@ export const universityList =
   {
     "name": "海南职业技术学院",
     "location": {
-      "lat": 20.002647,
-      "lng": 110.315239
+      "lat": 20.002646956221348,
+      "lng": 110.31523897487273
     },
     "address": "http://www.hcvt.cn/",
     "province": "海南省",
@@ -11186,8 +11238,8 @@ export const universityList =
   {
     "name": "天津工业职业学院",
     "location": {
-      "lat": 39.265674,
-      "lng": 117.121215
+      "lat": 39.26567410433986,
+      "lng": 117.12121502202076
     },
     "address": "http://www.tjmvti.cn/",
     "province": "天津市",
@@ -11202,8 +11254,8 @@ export const universityList =
   {
     "name": "江西中医药大学(湾里校区)",
     "location": {
-      "lat": 28.681639,
-      "lng": 115.757395
+      "lat": 28.686592636980233,
+      "lng": 115.7551383718977
     },
     "address": "江西省南昌市新建区梅岭大道1688号",
     "province": "江西省",
@@ -11218,8 +11270,8 @@ export const universityList =
   {
     "name": "宜宾学院(江北校区)",
     "location": {
-      "lat": 28.799523,
-      "lng": 104.620283
+      "lat": 28.785266068483015,
+      "lng": 104.62018620498024
     },
     "address": "四川省宜宾市翠屏区五粮液大道酒圣路8号",
     "province": "四川省",
@@ -11234,8 +11286,8 @@ export const universityList =
   {
     "name": "大连航运职业技术学院",
     "location": {
-      "lat": 38.801964,
-      "lng": 121.164494
+      "lat": 38.80196424797168,
+      "lng": 121.16449405124789
     },
     "address": "http://www.dlsc.net.cn/",
     "province": "辽宁省",
@@ -11250,8 +11302,8 @@ export const universityList =
   {
     "name": "长安大学(渭水校区)",
     "location": {
-      "lat": 34.376742,
-      "lng": 108.911429
+      "lat": 34.37765617108567,
+      "lng": 108.91620020071277
     },
     "address": "西安市未央区长大南路356号",
     "province": "陕西省",
@@ -11266,8 +11318,8 @@ export const universityList =
   {
     "name": "湖州学院",
     "location": {
-      "lat": 30.879427,
-      "lng": 120.129763
+      "lat": 30.879693274762527,
+      "lng": 120.12839000315869
     },
     "address": "湖州市吴兴区学士路1号",
     "province": "浙江省",
@@ -11282,8 +11334,8 @@ export const universityList =
   {
     "name": "嘉兴学院南湖学院（越秀校区）",
     "location": {
-      "lat": 30.752886,
-      "lng": 120.735976
+      "lat": 30.74939076626862,
+      "lng": 120.73495256316944
     },
     "address": "浙江省嘉兴市南湖区越秀南路572号",
     "province": "浙江省",
@@ -11298,8 +11350,8 @@ export const universityList =
   {
     "name": "浙江农林大学(东湖校区)",
     "location": {
-      "lat": 30.262818,
-      "lng": 119.734742
+      "lat": 30.260022992745963,
+      "lng": 119.73731251972868
     },
     "address": "杭州市临安区武肃街666号",
     "province": "浙江省",
@@ -11314,8 +11366,8 @@ export const universityList =
   {
     "name": "安徽冶金科技职业学院",
     "location": {
-      "lat": 31.666752,
-      "lng": 118.504351
+      "lat": 31.66675216333087,
+      "lng": 118.50435065811362
     },
     "address": "http://www.avcmt.edu.cn/",
     "province": "安徽省",
@@ -11330,8 +11382,8 @@ export const universityList =
   {
     "name": "沧州医学高等专科学校",
     "location": {
-      "lat": 38.290571,
-      "lng": 116.810159
+      "lat": 38.29057103270581,
+      "lng": 116.81015904257234
     },
     "address": "http://www.czmc.cn/",
     "province": "河北省",
@@ -11346,8 +11398,8 @@ export const universityList =
   {
     "name": "河北旅游职业学院(北校区)",
     "location": {
-      "lat": 40.908572,
-      "lng": 117.959933
+      "lat": 40.905727867462375,
+      "lng": 117.95640396991773
     },
     "address": "河北省承德市双桥区种子路2号",
     "province": "河北省",
@@ -11362,8 +11414,8 @@ export const universityList =
   {
     "name": "四川文化产业职业学院",
     "location": {
-      "lat": 30.524915,
-      "lng": 104.044359
+      "lat": 30.597114139817204,
+      "lng": 104.03565093955258
     },
     "address": "http://www.svcci.cn/",
     "province": "四川省",
@@ -11378,8 +11430,8 @@ export const universityList =
   {
     "name": "柳州职业技术学院(社湾路)",
     "location": {
-      "lat": 24.303344,
-      "lng": 109.45513
+      "lat": 24.30709727699062,
+      "lng": 109.45162871889194
     },
     "address": "广西壮族自治区柳州市鱼峰区社湾路28号",
     "province": "广西壮族自治区",
@@ -11394,8 +11446,8 @@ export const universityList =
   {
     "name": "安徽扬子职业技术学院",
     "location": {
-      "lat": 31.235336,
-      "lng": 118.284389
+      "lat": 31.23533636536654,
+      "lng": 118.2843892353461
     },
     "address": "http://www.yangzixueyuan.com/",
     "province": "安徽省",
@@ -11410,8 +11462,8 @@ export const universityList =
   {
     "name": "四川三河职业学院",
     "location": {
-      "lat": 28.83608,
-      "lng": 105.815866
+      "lat": 28.897968672874754,
+      "lng": 105.44582313415063
     },
     "address": "http://www.scshpc.com/",
     "province": "四川省",
@@ -11426,8 +11478,8 @@ export const universityList =
   {
     "name": "成都工业职业技术学院",
     "location": {
-      "lat": 30.449912,
-      "lng": 104.056036
+      "lat": 30.449911760201047,
+      "lng": 104.05603573733775
     },
     "address": "https://www.cdivtc.com/",
     "province": "四川省",
@@ -11442,8 +11494,8 @@ export const universityList =
   {
     "name": "吉安职业技术学院",
     "location": {
-      "lat": 27.099994,
-      "lng": 114.930303
+      "lat": 27.00116094863364,
+      "lng": 115.00734404019411
     },
     "address": "http://www.japt.com.cn/",
     "province": "江西省",
@@ -11458,8 +11510,8 @@ export const universityList =
   {
     "name": "长沙职业技术学院",
     "location": {
-      "lat": 28.220081,
-      "lng": 112.845669
+      "lat": 28.219507677534626,
+      "lng": 113.10129901821745
     },
     "address": "http://www.cszyedu.cn/",
     "province": "湖南省",
@@ -11474,8 +11526,8 @@ export const universityList =
   {
     "name": "上海应用技术大学(奉贤校区)",
     "location": {
-      "lat": 30.848402,
-      "lng": 121.517148
+      "lat": 30.851665109085268,
+      "lng": 121.51693801977972
     },
     "address": "上海市奉贤区海泉路100号",
     "province": "上海市",
@@ -11490,8 +11542,8 @@ export const universityList =
   {
     "name": "湖南环境生物职业技术学院",
     "location": {
-      "lat": 27.004367,
-      "lng": 112.622101
+      "lat": 27.00436697933212,
+      "lng": 112.62210099831674
     },
     "address": "http://www.hnebp.edu.cn/",
     "province": "湖南省",
@@ -11506,8 +11558,8 @@ export const universityList =
   {
     "name": "西安科技大学高新学院",
     "location": {
-      "lat": 34.109829,
-      "lng": 108.890812
+      "lat": 34.10982927728556,
+      "lng": 108.89081220055922
     },
     "address": "http://www.gaoxinedu.com/main.html",
     "province": "陕西省",
@@ -11522,8 +11574,8 @@ export const universityList =
   {
     "name": "天津外国语大学滨海外事学院",
     "location": {
-      "lat": 38.868116,
-      "lng": 117.474486
+      "lat": 38.8681164008378,
+      "lng": 117.47448579094397
     },
     "address": "http://bhws.tjfsu.edu.cn/",
     "province": "天津市",
@@ -11538,8 +11590,8 @@ export const universityList =
   {
     "name": "安徽审计职业学院",
     "location": {
-      "lat": 31.729764,
-      "lng": 117.264486
+      "lat": 31.822337077281595,
+      "lng": 117.31177122239411
     },
     "address": "http://www.ahsjxy.cn/",
     "province": "安徽省",
@@ -11554,8 +11606,8 @@ export const universityList =
   {
     "name": "湖南税务高等专科学校教学大楼",
     "location": {
-      "lat": 28.113608,
-      "lng": 113.01498
+      "lat": 28.113390462776657,
+      "lng": 113.01522383343256
     },
     "address": "湖南省长沙市雨花区玉兰路",
     "province": "湖南省",
@@ -11568,8 +11620,8 @@ export const universityList =
   {
     "name": "六盘水职业技术学院",
     "location": {
-      "lat": 26.612652,
-      "lng": 104.798356
+      "lat": 26.612652462640582,
+      "lng": 104.79835569397359
     },
     "address": "http://www.lpszy.cn/",
     "province": "贵州省",
@@ -11584,8 +11636,8 @@ export const universityList =
   {
     "name": "北华航天工业学院",
     "location": {
-      "lat": 39.533917,
-      "lng": 116.739166
+      "lat": 39.533916554787815,
+      "lng": 116.73916622761043
     },
     "address": "http://www.nciae.edu.cn/",
     "province": "河北省",
@@ -11600,8 +11652,8 @@ export const universityList =
   {
     "name": "河南应用技术职业学院",
     "location": {
-      "lat": 34.778737,
-      "lng": 113.545708
+      "lat": 34.778736777426296,
+      "lng": 113.54570837524066
     },
     "address": "http://www.hnaict.com/",
     "province": "河南省",
@@ -11616,8 +11668,8 @@ export const universityList =
   {
     "name": "广州华商职业学院(广州校区)",
     "location": {
-      "lat": 23.262758,
-      "lng": 113.790532
+      "lat": 23.28444869915894,
+      "lng": 113.7853137485642
     },
     "address": "广东省广州市增城区荔湖街道清燕社区华商路2号",
     "province": "广东省",
@@ -11632,8 +11684,8 @@ export const universityList =
   {
     "name": "广州卫生职业技术学院",
     "location": {
-      "lat": 23.231252,
-      "lng": 113.392135
+      "lat": 23.283060043004753,
+      "lng": 113.25166700629684
     },
     "address": "http://www.gzws.edu.cn/",
     "province": "广东省",
@@ -11648,8 +11700,8 @@ export const universityList =
   {
     "name": "福建医科大学(旗山校区)",
     "location": {
-      "lat": 26.075187,
-      "lng": 119.193276
+      "lat": 26.075139064740718,
+      "lng": 119.18979664239504
     },
     "address": "福州市闽侯县学府北路1号",
     "province": "福建省",
@@ -11664,8 +11716,8 @@ export const universityList =
   {
     "name": "四川信息职业技术学院(雪峰校区)",
     "location": {
-      "lat": 32.424037,
-      "lng": 105.895856
+      "lat": 32.42444647749982,
+      "lng": 105.89774214304731
     },
     "address": "四川省广元市利州区学府路265号",
     "province": "四川省",
@@ -11680,8 +11732,8 @@ export const universityList =
   {
     "name": "南京理工大学紫金学院",
     "location": {
-      "lat": 32.132273,
-      "lng": 118.940764
+      "lat": 32.13227286342762,
+      "lng": 118.94076400368229
     },
     "address": "http://zj.njust.edu.cn/njzjxy/portal/index.do/",
     "province": "江苏省",
@@ -11696,8 +11748,8 @@ export const universityList =
   {
     "name": "皖江工学院(霍里山校区)",
     "location": {
-      "lat": 31.668084,
-      "lng": 118.555108
+      "lat": 31.669865947827184,
+      "lng": 118.56157316825198
     },
     "address": "马鞍山市雨山区霍里山大道333号",
     "province": "安徽省",
@@ -11712,8 +11764,8 @@ export const universityList =
   {
     "name": "烟台幼儿师范高等专科学校",
     "location": {
-      "lat": 37.809575,
-      "lng": 120.732093
+      "lat": 37.80957505464068,
+      "lng": 120.73209298723953
     },
     "address": null,
     "province": "山东省",
@@ -11728,8 +11780,8 @@ export const universityList =
   {
     "name": "山东第一医科大学(济南主校区)",
     "location": {
-      "lat": 36.68527,
-      "lng": 116.876182
+      "lat": 36.682175995276495,
+      "lng": 116.87470310193922
     },
     "address": "山东省济南市槐荫区青岛路6699号",
     "province": "山东省",
@@ -11744,8 +11796,8 @@ export const universityList =
   {
     "name": "烟台黄金职业学院",
     "location": {
-      "lat": 37.53701,
-      "lng": 120.249592
+      "lat": 37.53701031746313,
+      "lng": 120.24959180798979
     },
     "address": "http://www.ytgc.edu.cn/",
     "province": "山东省",
@@ -11760,8 +11812,8 @@ export const universityList =
   {
     "name": "湖南文理学院(西校区)",
     "location": {
-      "lat": 29.054359,
-      "lng": 111.677854
+      "lat": 29.049115666515686,
+      "lng": 111.67806023988223
     },
     "address": "湖南省常德市武陵区洞庭大道3150号",
     "province": "湖南省",
@@ -11776,8 +11828,8 @@ export const universityList =
   {
     "name": "宜宾职业技术学院",
     "location": {
-      "lat": 28.837362,
-      "lng": 104.94417
+      "lat": 28.83736190413238,
+      "lng": 104.94416963244112
     },
     "address": "http://www.ybzy.cn/",
     "province": "四川省",
@@ -11791,8 +11843,8 @@ export const universityList =
   {
     "name": "北京理工大学(珠海)",
     "location": {
-      "lat": 22.370706,
-      "lng": 113.547319
+      "lat": 22.36884808331457,
+      "lng": 113.55487862260976
     },
     "address": "广东省珠海市高新区唐家湾镇金凤路6号",
     "province": "广东省",
@@ -11807,8 +11859,8 @@ export const universityList =
   {
     "name": "北京警察学院",
     "location": {
-      "lat": 40.260665,
-      "lng": 116.17848
+      "lat": 40.26066504349579,
+      "lng": 116.1784800401637
     },
     "address": "http://www.bjpc.edu.cn/",
     "province": "北京市",
@@ -11823,8 +11875,8 @@ export const universityList =
   {
     "name": "蚌埠工商学院",
     "location": {
-      "lat": 32.922224,
-      "lng": 117.275436
+      "lat": 32.922224094134506,
+      "lng": 117.27543566282101
     },
     "address": "http://acsxy.aufe.edu.cn/",
     "province": "安徽省",
@@ -11839,8 +11891,8 @@ export const universityList =
   {
     "name": "黑河学院",
     "location": {
-      "lat": 50.233636,
-      "lng": 127.549456
+      "lat": 50.23363644819644,
+      "lng": 127.54945602164337
     },
     "address": "http://www.hhhxy.cn/",
     "province": "黑龙江省",
@@ -11854,8 +11906,8 @@ export const universityList =
   {
     "name": "天津外国语大学",
     "location": {
-      "lat": 39.114374,
-      "lng": 117.216346
+      "lat": 39.11512000447027,
+      "lng": 117.21415326093032
     },
     "address": "http://www.tjfsu.edu.cn/",
     "province": "天津市",
@@ -11870,8 +11922,8 @@ export const universityList =
   {
     "name": "天津海运职业学院",
     "location": {
-      "lat": 39.009034,
-      "lng": 117.371349
+      "lat": 39.00903378550527,
+      "lng": 117.37134899974907
     },
     "address": "https://www.tjmc.edu.cn/",
     "province": "天津市",
@@ -11886,8 +11938,8 @@ export const universityList =
   {
     "name": "楚雄医药高等专科学校",
     "location": {
-      "lat": 25.088193,
-      "lng": 101.501676
+      "lat": 25.088192986268748,
+      "lng": 101.50167598196613
     },
     "address": "http://www.cxmtc.net/default.html",
     "province": "云南省",
@@ -11901,8 +11953,8 @@ export const universityList =
   {
     "name": "上海体育大学(杨浦校区)",
     "location": {
-      "lat": 31.319055,
-      "lng": 121.532312
+      "lat": 31.31570725987013,
+      "lng": 121.5339343193507
     },
     "address": "上海市杨浦区长海路399号",
     "province": "上海市",
@@ -11917,8 +11969,8 @@ export const universityList =
   {
     "name": "天津石油职业技术学院",
     "location": {
-      "lat": 38.849007,
-      "lng": 117.225005
+      "lat": 38.88501432129171,
+      "lng": 117.18083070786824
     },
     "address": "http://www.tjsyxy.com/",
     "province": "天津市",
@@ -11933,8 +11985,8 @@ export const universityList =
   {
     "name": "北京宫廷爆烤鸡鸭(四望亭路店)",
     "location": {
-      "lat": 32.403492,
-      "lng": 119.427398
+      "lat": 32.403477083457304,
+      "lng": 119.42731231874615
     },
     "address": "四望亭路223-5号（扬州环境资源职业技术学院念四校区附近）",
     "province": "江苏省",
@@ -11949,8 +12001,8 @@ export const universityList =
   {
     "name": "南京体育学院(灵谷寺校区)",
     "location": {
-      "lat": 32.049554,
-      "lng": 118.873541
+      "lat": 32.04605442083687,
+      "lng": 118.8721345406866
     },
     "address": "南京市玄武区灵谷寺路8号",
     "province": "江苏省",
@@ -11965,8 +12017,8 @@ export const universityList =
   {
     "name": "济南大学(主校区)",
     "location": {
-      "lat": 36.620238,
-      "lng": 116.974575
+      "lat": 36.621332581327174,
+      "lng": 116.96395262893316
     },
     "address": "山东省济南市市中区南辛庄西路336号",
     "province": "山东省",
@@ -11980,8 +12032,8 @@ export const universityList =
   {
     "name": "黑龙江农垦职业学院",
     "location": {
-      "lat": 45.881574,
-      "lng": 126.536041
+      "lat": 45.75530087565626,
+      "lng": 127.1970823006002
     },
     "address": "http://www.nkzy.org.cn/",
     "province": "黑龙江省",
@@ -11996,8 +12048,8 @@ export const universityList =
   {
     "name": "河北建材职业技术学院(东校区)",
     "location": {
-      "lat": 39.920782,
-      "lng": 119.569379
+      "lat": 39.922281387720375,
+      "lng": 119.57091633587673
     },
     "address": "河北省秦皇岛市海港区文体路1号",
     "province": "河北省",
@@ -12012,8 +12064,8 @@ export const universityList =
   {
     "name": "武警后勤学院",
     "location": {
-      "lat": 39.160354,
-      "lng": 117.474712
+      "lat": 39.09110259843554,
+      "lng": 117.2080927529767
     },
     "address": "373路;663路[区间];696路;696路[社区专线]",
     "province": "天津市",
@@ -12026,8 +12078,8 @@ export const universityList =
   {
     "name": "江西生物科技职业学院",
     "location": {
-      "lat": 28.568898,
-      "lng": 115.944008
+      "lat": 28.568898351132383,
+      "lng": 115.94400827310534
     },
     "address": "http://www.jxswkj.com/",
     "province": "江西省",
@@ -12042,8 +12094,8 @@ export const universityList =
   {
     "name": "中国劳动关系学院",
     "location": {
-      "lat": 39.935305,
-      "lng": 116.32404
+      "lat": 39.935305344835704,
+      "lng": 116.32404047686445
     },
     "address": "http://www.culr.edu.cn/",
     "province": "北京市",
@@ -12058,8 +12110,8 @@ export const universityList =
   {
     "name": "西藏民族大学",
     "location": {
-      "lat": 34.355944,
-      "lng": 108.739198
+      "lat": 34.35594382534971,
+      "lng": 108.73919844234892
     },
     "address": "http://www.xzmu.edu.cn/",
     "province": "陕西省",
@@ -12074,8 +12126,8 @@ export const universityList =
   {
     "name": "西安交通大学(兴庆校区)",
     "location": {
-      "lat": 34.252359,
-      "lng": 108.990166
+      "lat": 34.25617216086428,
+      "lng": 108.99585393841858
     },
     "address": "陕西省西安市碑林区咸宁西路28号",
     "province": "陕西省",
@@ -12090,8 +12142,8 @@ export const universityList =
   {
     "name": "大连海事大学",
     "location": {
-      "lat": 38.874748,
-      "lng": 121.532616
+      "lat": 38.83270349016089,
+      "lng": 121.41277195013149
     },
     "address": "http://www.dlmu.edu.cn/",
     "province": "辽宁省",
@@ -12106,8 +12158,8 @@ export const universityList =
   {
     "name": "北京艺术传媒职业学院",
     "location": {
-      "lat": 40.105034,
-      "lng": 116.126717
+      "lat": 40.105034064921306,
+      "lng": 116.12671698176224
     },
     "address": "http://www.bjamu.cn/",
     "province": "北京市",
@@ -12121,8 +12173,8 @@ export const universityList =
   {
     "name": "陕西师范大学(长安校区)",
     "location": {
-      "lat": 34.163114,
-      "lng": 108.90061
+      "lat": 34.16096877469286,
+      "lng": 108.8970663831808
     },
     "address": "陕西省西安市长安区郭杜街道西长安街620号",
     "province": "陕西省",
@@ -12137,8 +12189,8 @@ export const universityList =
   {
     "name": "大连工业大学艺术与信息工程学院(西校区)",
     "location": {
-      "lat": 39.638251,
-      "lng": 122.931022
+      "lat": 39.104458579311654,
+      "lng": 121.83179483944542
     },
     "address": "辽宁省大连市庄河市学府大街117号",
     "province": "辽宁省",
@@ -12153,8 +12205,8 @@ export const universityList =
   {
     "name": "山西农业大学(山西省农业科学院)太谷校区",
     "location": {
-      "lat": 37.429983,
-      "lng": 112.590262
+      "lat": 37.42998299752776,
+      "lng": 112.59026201109522
     },
     "address": "山西省晋中市太谷区铭贤南路1号",
     "province": "山西省",
@@ -12169,8 +12221,8 @@ export const universityList =
   {
     "name": "勤务学院",
     "location": {
-      "lat": 29.635466,
-      "lng": 106.324651
+      "lat": 29.568996245338923,
+      "lng": 106.55843415537664
     },
     "address": "249路;272路;554路",
     "province": "重庆市",
@@ -12183,8 +12235,8 @@ export const universityList =
   {
     "name": "西安体育学院",
     "location": {
-      "lat": 34.243522,
-      "lng": 108.942041
+      "lat": 34.24352160726451,
+      "lng": 108.94204076718225
     },
     "address": "http://www.xaipe.edu.cn/",
     "province": "陕西省",
@@ -12199,8 +12251,8 @@ export const universityList =
   {
     "name": "辽宁师范高等专科学校",
     "location": {
-      "lat": 41.68919,
-      "lng": 123.417575
+      "lat": 41.689189857895435,
+      "lng": 123.4175746144021
     },
     "address": null,
     "province": "辽宁省",
@@ -12215,8 +12267,8 @@ export const universityList =
   {
     "name": "西安医学院(未央校区)",
     "location": {
-      "lat": 34.390717,
-      "lng": 109.002184
+      "lat": 34.345727008000665,
+      "lng": 109.0043919729687
     },
     "address": "陕西省西安市未央区辛王路1号",
     "province": "陕西省",
@@ -12231,8 +12283,8 @@ export const universityList =
   {
     "name": "延边大学(延吉校区)",
     "location": {
-      "lat": 42.918231,
-      "lng": 129.494852
+      "lat": 42.91376716830503,
+      "lng": 129.49858845738726
     },
     "address": "吉林省延边朝鲜族自治州延吉市公园街道园校社区公园路977号",
     "province": "吉林省",
@@ -12247,8 +12299,8 @@ export const universityList =
   {
     "name": "山东城市建设职业学院",
     "location": {
-      "lat": 36.6463,
-      "lng": 117.278178
+      "lat": 36.657202947208894,
+      "lng": 117.089948690271
     },
     "address": "http://www.sdcjxy.com/",
     "province": "山东省",
@@ -12263,8 +12315,8 @@ export const universityList =
   {
     "name": "西藏大学(纳金校区)",
     "location": {
-      "lat": 29.648903,
-      "lng": 91.18678
+      "lat": 29.64890299899789,
+      "lng": 91.18678002124015
     },
     "address": "西藏自治区拉萨市城关区藏大东路10号",
     "province": "西藏自治区",
@@ -12279,8 +12331,8 @@ export const universityList =
   {
     "name": "辽宁经济职业技术学院",
     "location": {
-      "lat": 41.942433,
-      "lng": 123.498366
+      "lat": 41.94243278028518,
+      "lng": 123.49836641535849
     },
     "address": "http://www.lnemci.com/",
     "province": "辽宁省",
@@ -12295,8 +12347,8 @@ export const universityList =
   {
     "name": "西安汽车职业大学",
     "location": {
-      "lat": 34.21904,
-      "lng": 109.110599
+      "lat": 34.21903974197908,
+      "lng": 109.11059899273562
     },
     "address": "http://www.xac.edu.cn/",
     "province": "陕西省",
@@ -12310,8 +12362,8 @@ export const universityList =
   {
     "name": "池州职业技术学院",
     "location": {
-      "lat": 30.666441,
-      "lng": 117.480927
+      "lat": 30.639335839331686,
+      "lng": 117.56761689604653
     },
     "address": "http://www.czgz.cn/",
     "province": "安徽省",
@@ -12326,8 +12378,8 @@ export const universityList =
   {
     "name": "唐山幼儿师范高等专科学校",
     "location": {
-      "lat": 39.716191,
-      "lng": 118.053824
+      "lat": 39.716190646974496,
+      "lng": 118.05382412450824
     },
     "address": "http://www.tsyzh.com/",
     "province": "河北省",
@@ -12340,8 +12392,8 @@ export const universityList =
   {
     "name": "商洛职业技术学院",
     "location": {
-      "lat": 33.885314,
-      "lng": 109.918477
+      "lat": 33.88531444798675,
+      "lng": 109.91847711753493
     },
     "address": "http://www.slzyjsxy.com/",
     "province": "陕西省",
@@ -12356,8 +12408,8 @@ export const universityList =
   {
     "name": "安康职业技术学院",
     "location": {
-      "lat": 32.698078,
-      "lng": 109.002652
+      "lat": 32.733315356742956,
+      "lng": 109.00189935483964
     },
     "address": "http://www.akvtc.cn/",
     "province": "陕西省",
@@ -12372,8 +12424,8 @@ export const universityList =
   {
     "name": "贵州师范学院",
     "location": {
-      "lat": 26.649105,
-      "lng": 106.803788
+      "lat": 26.48340032694503,
+      "lng": 106.75288855244632
     },
     "address": "https://www.gznc.edu.cn/",
     "province": "贵州省",
@@ -12388,8 +12440,8 @@ export const universityList =
   {
     "name": "宝鸡三和职业学院",
     "location": {
-      "lat": 34.494493,
-      "lng": 107.104349
+      "lat": 34.4944932576232,
+      "lng": 107.10434852947458
     },
     "address": null,
     "province": "陕西省",
@@ -12404,8 +12456,8 @@ export const universityList =
   {
     "name": "中国人民解放军陆军航空兵学院廊坊营区",
     "location": {
-      "lat": 39.528299,
-      "lng": 116.675198
+      "lat": 39.52850354755545,
+      "lng": 116.67356282649915
     },
     "address": "河北省廊坊市安次区光明西道街道爱民西道142号",
     "province": "河北省",
@@ -12418,8 +12470,8 @@ export const universityList =
   {
     "name": "兰州文理学院",
     "location": {
-      "lat": 36.070599,
-      "lng": 103.903448
+      "lat": 36.07059907440069,
+      "lng": 103.90344812612408
     },
     "address": "https://www.luas.edu.cn/",
     "province": "甘肃省",
@@ -12434,8 +12486,8 @@ export const universityList =
   {
     "name": "兰州财经大学长青学院(甸子街校区)",
     "location": {
-      "lat": 36.051198,
-      "lng": 103.922181
+      "lat": 36.05303149595956,
+      "lng": 103.92217465193784
     },
     "address": "甘肃省兰州市城关区甸子街45号",
     "province": "甘肃省",
@@ -12450,8 +12502,8 @@ export const universityList =
   {
     "name": "兰州新区理工大学技术工程学院",
     "location": {
-      "lat": 36.56063,
-      "lng": 103.765148
+      "lat": 36.593921760791815,
+      "lng": 103.68411560704409
     },
     "address": "甘肃省兰州市兰州新区西岔镇",
     "province": "甘肃省",
@@ -12464,8 +12516,8 @@ export const universityList =
   {
     "name": "甘肃畜牧工程职业技术学院",
     "location": {
-      "lat": 37.685044,
-      "lng": 102.862183
+      "lat": 37.68504397710195,
+      "lng": 102.8621830433884
     },
     "address": "http://www.xmgcedu.cn/",
     "province": "甘肃省",
@@ -12480,8 +12532,8 @@ export const universityList =
   {
     "name": "铁岭卫生职业学院",
     "location": {
-      "lat": 42.252705,
-      "lng": 123.75298
+      "lat": 42.25270513169422,
+      "lng": 123.75297997317341
     },
     "address": "http://www.lntlhc.com/",
     "province": "辽宁省",
@@ -12496,8 +12548,8 @@ export const universityList =
   {
     "name": "四川建筑职业技术学院",
     "location": {
-      "lat": 31.090616,
-      "lng": 104.390537
+      "lat": 31.090616245689652,
+      "lng": 104.3905371312744
     },
     "address": "http://www.scatc.net/",
     "province": "四川省",
@@ -12512,8 +12564,8 @@ export const universityList =
   {
     "name": "青岛港湾职业技术学院",
     "location": {
-      "lat": 35.817165,
-      "lng": 120.029259
+      "lat": 35.81716502307097,
+      "lng": 120.02925866640223
     },
     "address": "http://www.qdgw.com/",
     "province": "山东省",
@@ -12528,8 +12580,8 @@ export const universityList =
   {
     "name": "郑州电子信息职业技术学院",
     "location": {
-      "lat": 34.706967,
-      "lng": 114.038123
+      "lat": 34.7069670143157,
+      "lng": 114.03812298460687
     },
     "address": "http://www.zyfb.com/",
     "province": "河南省",
@@ -12544,8 +12596,8 @@ export const universityList =
   {
     "name": "青海建筑职业技术学院",
     "location": {
-      "lat": 36.606991,
-      "lng": 101.765774
+      "lat": 36.6069912920613,
+      "lng": 101.76577377014227
     },
     "address": "http://www.qhavtc.com/",
     "province": "青海省",
@@ -12560,8 +12612,8 @@ export const universityList =
   {
     "name": "青岛航空科技职业学院",
     "location": {
-      "lat": 36.722539,
-      "lng": 120.345714
+      "lat": 36.29387956421678,
+      "lng": 120.42059513131075
     },
     "address": null,
     "province": "山东省",
@@ -12576,8 +12628,8 @@ export const universityList =
   {
     "name": "青海高等职业技术学院",
     "location": {
-      "lat": 36.485453,
-      "lng": 102.366467
+      "lat": 36.48545316683369,
+      "lng": 102.36646680195082
     },
     "address": "http://www.qhgzy.com/",
     "province": "青海省",
@@ -12592,8 +12644,8 @@ export const universityList =
   {
     "name": "四川职业技术学院",
     "location": {
-      "lat": 30.539752,
-      "lng": 105.61205
+      "lat": 30.539752179951936,
+      "lng": 105.61205026882588
     },
     "address": "http://www.sczyxy.cn/",
     "province": "四川省",
@@ -12608,8 +12660,8 @@ export const universityList =
   {
     "name": "山东化工职业学院",
     "location": {
-      "lat": 37.091508,
-      "lng": 119.234327
+      "lat": 37.08224608239146,
+      "lng": 119.20729052984834
     },
     "address": "http://www.qledu.net/",
     "province": "山东省",
@@ -12624,8 +12676,8 @@ export const universityList =
   {
     "name": "新疆农业职业技术大学(昌吉校区)",
     "location": {
-      "lat": 44.022642,
-      "lng": 87.326707
+      "lat": 44.0207594638704,
+      "lng": 87.32638072986094
     },
     "address": "新疆维吾尔自治区昌吉回族自治州昌吉市文化东路29号",
     "province": "新疆维吾尔自治区",
@@ -12640,8 +12692,8 @@ export const universityList =
   {
     "name": "新疆维吾尔医学专科学校",
     "location": {
-      "lat": 37.120307,
-      "lng": 79.911751
+      "lat": 37.12030697432688,
+      "lng": 79.9117509708343
     },
     "address": "http://www.xjumc.cn/",
     "province": "新疆维吾尔自治区",
@@ -12656,8 +12708,8 @@ export const universityList =
   {
     "name": "河北民族师范学院",
     "location": {
-      "lat": 40.898723,
-      "lng": 117.964993
+      "lat": 40.89872298442189,
+      "lng": 117.96499302822083
     },
     "address": "https://www.hbun.edu.cn/index.htm",
     "province": "河北省",
@@ -12672,8 +12724,8 @@ export const universityList =
   {
     "name": "中国医科大学第七临床学院",
     "location": {
-      "lat": 41.862561,
-      "lng": 123.913946
+      "lat": 41.86271620671773,
+      "lng": 123.91308370658908
     },
     "address": "辽宁省抚顺市新抚区中央大街24号",
     "province": "辽宁省",
@@ -12688,8 +12740,8 @@ export const universityList =
   {
     "name": "新疆应用职业技术学院(南院)",
     "location": {
-      "lat": 44.429678,
-      "lng": 84.885478
+      "lat": 44.432044464900805,
+      "lng": 84.8861835781311
     },
     "address": "新疆维吾尔自治区伊犁哈萨克自治州奎屯市北京西路-62号",
     "province": "新疆维吾尔自治区",
@@ -12703,8 +12755,8 @@ export const universityList =
   {
     "name": "贵州健康职业学院",
     "location": {
-      "lat": 27.793458,
-      "lng": 109.255223
+      "lat": 27.793458023882543,
+      "lng": 109.25522302259414
     },
     "address": "http://www.gzjkzy.com/",
     "province": "贵州省",
@@ -12718,8 +12770,8 @@ export const universityList =
   {
     "name": "平顶山职业技术学院",
     "location": {
-      "lat": 33.828418,
-      "lng": 113.084381
+      "lat": 33.82841809200016,
+      "lng": 113.0843809755055
     },
     "address": null,
     "province": "河南省",
@@ -12733,8 +12785,8 @@ export const universityList =
   {
     "name": "酒泉职业技术学院",
     "location": {
-      "lat": 39.696207,
-      "lng": 98.500771
+      "lat": 39.69620672775335,
+      "lng": 98.50077118390526
     },
     "address": "http://www.jqzy.com/",
     "province": "甘肃省",
@@ -12749,8 +12801,8 @@ export const universityList =
   {
     "name": "新疆工业职业技术学院",
     "location": {
-      "lat": 43.868313,
-      "lng": 87.324236
+      "lat": 43.8683132538866,
+      "lng": 87.32423602545587
     },
     "address": "",
     "province": "新疆维吾尔自治区",
@@ -12765,8 +12817,8 @@ export const universityList =
   {
     "name": "厦门工学院",
     "location": {
-      "lat": 24.622581,
-      "lng": 118.072812
+      "lat": 24.622581174285028,
+      "lng": 118.07281195130348
     },
     "address": "http://www.xit.edu.cn/",
     "province": "福建省",
@@ -12781,8 +12833,8 @@ export const universityList =
   {
     "name": "上海工商职业技术学院",
     "location": {
-      "lat": 31.362358,
-      "lng": 121.185744
+      "lat": 31.254777882260633,
+      "lng": 121.22754800143481
     },
     "address": "http://www.sicp.sh.cn/",
     "province": "上海市",
@@ -12797,8 +12849,8 @@ export const universityList =
   {
     "name": "中商超市(海军工程大学店)",
     "location": {
-      "lat": 30.588457,
-      "lng": 114.250802
+      "lat": 30.58211197844312,
+      "lng": 114.24880059958987
     },
     "address": "湖北省武汉市硚口区汉水桥街道解放大道717号78栋建筑(海军工程大学3号门)",
     "province": "湖北省",
@@ -12812,8 +12864,8 @@ export const universityList =
   {
     "name": "中国人民解放军总医院",
     "location": {
-      "lat": 39.911144,
-      "lng": 116.283506
+      "lat": 39.91102243714217,
+      "lng": 116.28091624289137
     },
     "address": "北京市海淀区复兴路28号",
     "province": "北京市",
@@ -12828,8 +12880,8 @@ export const universityList =
   {
     "name": "青海畜牧兽医职业技术学院",
     "location": {
-      "lat": 36.687078,
-      "lng": 101.754443
+      "lat": 36.68707754905652,
+      "lng": 101.75444326308381
     },
     "address": "http://www.qhxmzy.com.cn/",
     "province": "青海省",
@@ -12844,8 +12896,8 @@ export const universityList =
   {
     "name": "湖南中医药大学",
     "location": {
-      "lat": 28.135339,
-      "lng": 112.900747
+      "lat": 28.1345264336341,
+      "lng": 112.9041963266747
     },
     "address": "http://www.hnucm.edu.cn/",
     "province": "湖南省",
@@ -12860,8 +12912,8 @@ export const universityList =
   {
     "name": "华北水利水电大学(龙子湖校区)",
     "location": {
-      "lat": 34.787209,
-      "lng": 113.799679
+      "lat": 34.78320839283028,
+      "lng": 113.80413757553977
     },
     "address": "郑州市郑东新区金水东路136号",
     "province": "河南省",
@@ -12876,8 +12928,8 @@ export const universityList =
   {
     "name": "山东协和学院(郭店校区)",
     "location": {
-      "lat": 36.739921,
-      "lng": 117.276263
+      "lat": 36.7097775494281,
+      "lng": 117.64848278145607
     },
     "address": "山东省济南市历城区济青路6277号",
     "province": "山东省",
@@ -12892,8 +12944,8 @@ export const universityList =
   {
     "name": "长春财经学院",
     "location": {
-      "lat": 43.794776,
-      "lng": 125.420482
+      "lat": 43.794775759862425,
+      "lng": 125.42048176421609
     },
     "address": "http://www.ccufe.com/",
     "province": "吉林省",
@@ -12908,8 +12960,8 @@ export const universityList =
   {
     "name": "桂林生命与健康职业技术学院",
     "location": {
-      "lat": 25.300143,
-      "lng": 110.245677
+      "lat": 25.30014303668962,
+      "lng": 110.2456773402723
     },
     "address": null,
     "province": "广西壮族自治区",
@@ -12924,8 +12976,8 @@ export const universityList =
   {
     "name": "赣南师范大学科技学院",
     "location": {
-      "lat": 25.855275,
-      "lng": 114.937934
+      "lat": 25.855274853757162,
+      "lng": 114.93793359041098
     },
     "address": "http://www.gnnu.cn/",
     "province": "江西省",
@@ -12940,8 +12992,8 @@ export const universityList =
   {
     "name": "江苏电子信息职业学院",
     "location": {
-      "lat": 33.558009,
-      "lng": 119.054086
+      "lat": 33.55800912952665,
+      "lng": 119.05408596241041
     },
     "address": "http://www.hcit.edu.cn/",
     "province": "江苏省",
@@ -12956,8 +13008,8 @@ export const universityList =
   {
     "name": "桂林电子科技大学(金鸡岭校区)",
     "location": {
-      "lat": 25.289893,
-      "lng": 110.344571
+      "lat": 25.286727173117253,
+      "lng": 110.34200587397525
     },
     "address": "广西壮族自治区桂林市七星区金鸡路1号",
     "province": "广西壮族自治区",
@@ -12971,8 +13023,8 @@ export const universityList =
   {
     "name": "湘潭医卫职业技术学院",
     "location": {
-      "lat": 27.846489,
-      "lng": 112.956041
+      "lat": 27.751505003257556,
+      "lng": 112.9657953812373
     },
     "address": "http://www.xtzy.com/",
     "province": "湖南省",
@@ -12987,8 +13039,8 @@ export const universityList =
   {
     "name": "河南农业职业学院",
     "location": {
-      "lat": 34.730475,
-      "lng": 114.021668
+      "lat": 34.7377960018323,
+      "lng": 114.0173420340918
     },
     "address": "http://www.hnca.edu.cn/",
     "province": "河南省",
@@ -13003,8 +13055,8 @@ export const universityList =
   {
     "name": "昆明幼儿师范高等专科学校",
     "location": {
-      "lat": 25.241781,
-      "lng": 102.9891
+      "lat": 25.241780980037685,
+      "lng": 102.98910003642634
     },
     "address": null,
     "province": "云南省",
@@ -13019,8 +13071,8 @@ export const universityList =
   {
     "name": "青岛职业技术学院",
     "location": {
-      "lat": 35.976472,
-      "lng": 120.167747
+      "lat": 36.241820323104854,
+      "lng": 120.01551297514965
     },
     "address": "http://www.qtc.edu.cn/",
     "province": "山东省",
@@ -13035,8 +13087,8 @@ export const universityList =
   {
     "name": "新疆石河子职业技术学院",
     "location": {
-      "lat": 44.320674,
-      "lng": 86.078002
+      "lat": 44.32067434255097,
+      "lng": 86.0780020592531
     },
     "address": "http://www.shzv.edu.cn/gaikuang/index.jhtml",
     "province": "新疆维吾尔自治区",
@@ -13051,8 +13103,8 @@ export const universityList =
   {
     "name": "电子科技大学成都学院",
     "location": {
-      "lat": 30.734216,
-      "lng": 103.971765
+      "lat": 30.734215744765514,
+      "lng": 103.97176533812453
     },
     "address": "http://www.cduestc.cn/",
     "province": "四川省",
@@ -13067,8 +13119,8 @@ export const universityList =
   {
     "name": "广东工程职业技术学院",
     "location": {
-      "lat": 23.220076,
-      "lng": 113.387677
+      "lat": 23.220076453441223,
+      "lng": 113.38767728758445
     },
     "address": "http://www.gpc.net.cn/",
     "province": "广东省",
@@ -13083,8 +13135,8 @@ export const universityList =
   {
     "name": "武汉职业技术学院(光谷校区)",
     "location": {
-      "lat": 30.490329,
-      "lng": 114.422856
+      "lat": 30.490276816986846,
+      "lng": 114.41750165571932
     },
     "address": "湖北省武汉市洪山区东湖新技术开发区关山大道463号",
     "province": "湖北省",
@@ -13099,8 +13151,8 @@ export const universityList =
   {
     "name": "四川财经职业学院",
     "location": {
-      "lat": 30.584935,
-      "lng": 104.218662
+      "lat": 30.584934782649,
+      "lng": 104.21866173296434
     },
     "address": "http://www.scpcfe.cn/",
     "province": "四川省",
@@ -13115,8 +13167,8 @@ export const universityList =
   {
     "name": "辽东学院(南校区)",
     "location": {
-      "lat": 40.157638,
-      "lng": 124.435535
+      "lat": 40.15791518932663,
+      "lng": 124.43338953424293
     },
     "address": "辽宁省丹东市振安区临江后街116号",
     "province": "辽宁省",
@@ -13131,8 +13183,8 @@ export const universityList =
   {
     "name": "大连翻译职业学院铁山校区",
     "location": {
-      "lat": 39.070895,
-      "lng": 121.765216
+      "lat": 39.07089503956927,
+      "lng": 121.76521555934112
     },
     "address": "辽宁省大连市金州区马桥子街道铁山西路12号",
     "province": "辽宁省",
@@ -13145,8 +13197,8 @@ export const universityList =
   {
     "name": "中南林业科技大学",
     "location": {
-      "lat": 28.13734,
-      "lng": 113.00157
+      "lat": 28.1373404224251,
+      "lng": 113.00157012866869
     },
     "address": "http://www.csuft.edu.cn/",
     "province": "湖南省",
@@ -13161,8 +13213,8 @@ export const universityList =
   {
     "name": "广州华立科技职业学院",
     "location": {
-      "lat": 23.248688,
-      "lng": 113.8708
+      "lat": 23.24868794247088,
+      "lng": 113.87080018391806
     },
     "address": "http://www.hlxy.net/",
     "province": "广东省",
@@ -13177,8 +13229,8 @@ export const universityList =
   {
     "name": "江西中医药大学(湾里校区北区)",
     "location": {
-      "lat": 28.685296,
-      "lng": 115.760089
+      "lat": 28.686592636980233,
+      "lng": 115.7551383718977
     },
     "address": "江西省南昌市新建区梅岭大道1688号",
     "province": "江西省",
@@ -13193,8 +13245,8 @@ export const universityList =
   {
     "name": "武汉传媒学院",
     "location": {
-      "lat": 30.444446,
-      "lng": 114.426333
+      "lat": 30.444446119255733,
+      "lng": 114.42633325651013
     },
     "address": "http://www.whmc.edu.cn/",
     "province": "湖北省",
@@ -13209,8 +13261,8 @@ export const universityList =
   {
     "name": "湖南女子学院",
     "location": {
-      "lat": 28.121674,
-      "lng": 113.014615
+      "lat": 28.12167364006622,
+      "lng": 113.01461532128029
     },
     "address": "http://www.hnnd.com.cn/",
     "province": "湖南省",
@@ -13225,8 +13277,8 @@ export const universityList =
   {
     "name": "山西卫生健康职业学院",
     "location": {
-      "lat": 37.75899,
-      "lng": 112.737718
+      "lat": 37.46181064137266,
+      "lng": 112.56451513789042
     },
     "address": null,
     "province": "山西省",
@@ -13240,8 +13292,8 @@ export const universityList =
   {
     "name": "南京师范大学中北学院(丹阳校区)",
     "location": {
-      "lat": 32.02053,
-      "lng": 119.547851
+      "lat": 32.02052996624275,
+      "lng": 119.54785090461922
     },
     "address": "正德路8号",
     "province": "江苏省",
@@ -13256,8 +13308,8 @@ export const universityList =
   {
     "name": "合肥幼儿师范高等专科学校",
     "location": {
-      "lat": 31.926545,
-      "lng": 117.384069
+      "lat": 31.926544753023016,
+      "lng": 117.38406891593982
     },
     "address": "http://www.hfpec.edu.cn/",
     "province": "安徽省",
@@ -13272,8 +13324,8 @@ export const universityList =
   {
     "name": "广州华夏职业学院",
     "location": {
-      "lat": 23.584003,
-      "lng": 113.52277
+      "lat": 23.584002989120634,
+      "lng": 113.52277039894668
     },
     "address": "http://www.gzhxtc.cn/",
     "province": "广东省",
@@ -13288,8 +13340,8 @@ export const universityList =
   {
     "name": "益阳医学高等专科学校",
     "location": {
-      "lat": 28.542807,
-      "lng": 112.402636
+      "lat": 28.54280681201128,
+      "lng": 112.40263624873818
     },
     "address": "http://www.hnyyyz.com/",
     "province": "湖南省",
@@ -13304,8 +13356,8 @@ export const universityList =
   {
     "name": "河南机电职业学院",
     "location": {
-      "lat": 34.59588,
-      "lng": 113.722539
+      "lat": 34.59588010150946,
+      "lng": 113.72253927589652
     },
     "address": "http://www.hnjd.edu.cn/",
     "province": "河南省",
@@ -13320,8 +13372,8 @@ export const universityList =
   {
     "name": "山东劳动职业技术学院(长清校区)",
     "location": {
-      "lat": 36.578294,
-      "lng": 116.824472
+      "lat": 36.58091071131368,
+      "lng": 116.82407343559969
     },
     "address": "山东省济南市长清区海棠路800号",
     "province": "山东省",
@@ -13336,8 +13388,8 @@ export const universityList =
   {
     "name": "吉林职业技术学院",
     "location": {
-      "lat": 42.792544,
-      "lng": 129.408414
+      "lat": 42.79254351661815,
+      "lng": 129.40841385537914
     },
     "address": "http://www.jlhtedu.com/",
     "province": "吉林省",
@@ -13352,8 +13404,8 @@ export const universityList =
   {
     "name": "深圳信息职业技术学院",
     "location": {
-      "lat": 22.690658,
-      "lng": 114.223244
+      "lat": 22.69065773977441,
+      "lng": 114.22324388284181
     },
     "address": "http://www.sziit.com.cn/",
     "province": "广东省",
@@ -13368,8 +13420,8 @@ export const universityList =
   {
     "name": "泉州医学高等专科学校",
     "location": {
-      "lat": 24.936382,
-      "lng": 118.676452
+      "lat": 25.040282658989458,
+      "lng": 118.71902409936128
     },
     "address": "http://www.qzmc.edu.cn/",
     "province": "福建省",
@@ -13384,8 +13436,8 @@ export const universityList =
   {
     "name": "成都艺术职业大学",
     "location": {
-      "lat": 30.493563,
-      "lng": 103.892092
+      "lat": 30.493562802354944,
+      "lng": 103.89209210718916
     },
     "address": "http://www.cdartpro.cn/",
     "province": "四川省",
@@ -13400,8 +13452,8 @@ export const universityList =
   {
     "name": "湖南城建职业技术学院继续教育学院-北门",
     "location": {
-      "lat": 28.21516,
-      "lng": 112.982328
+      "lat": 28.21522397371509,
+      "lng": 112.9823248314293
     },
     "address": "长沙市开福区湘春路311号",
     "province": "湖南省",
@@ -13415,8 +13467,8 @@ export const universityList =
   {
     "name": "塔里木大学",
     "location": {
-      "lat": 40.550221,
-      "lng": 81.303995
+      "lat": 40.55022069705901,
+      "lng": 81.30399515530668
     },
     "address": "https://www.taru.edu.cn/",
     "province": "新疆维吾尔自治区",
@@ -13431,8 +13483,8 @@ export const universityList =
   {
     "name": "合肥大学",
     "location": {
-      "lat": 31.758259,
-      "lng": 117.259265
+      "lat": 31.760416480975444,
+      "lng": 117.25943423660232
     },
     "address": "合肥市经开区锦绣大道99号",
     "province": "安徽省",
@@ -13447,8 +13499,8 @@ export const universityList =
   {
     "name": "黑龙江大学",
     "location": {
-      "lat": 45.7144,
-      "lng": 126.628135
+      "lat": 45.713419394944424,
+      "lng": 126.63483674461517
     },
     "address": "http://www.hlju.edu.cn/",
     "province": "黑龙江省",
@@ -13463,8 +13515,8 @@ export const universityList =
   {
     "name": "上海财经大学(国定路校区)",
     "location": {
-      "lat": 31.311875,
-      "lng": 121.507251
+      "lat": 31.31109774514568,
+      "lng": 121.51028175561187
     },
     "address": "上海市杨浦区国定路777号",
     "province": "上海市",
@@ -13479,8 +13531,8 @@ export const universityList =
   {
     "name": "宁夏工业职业学院",
     "location": {
-      "lat": 38.504007,
-      "lng": 106.137936
+      "lat": 38.50400687953609,
+      "lng": 106.13793628047718
     },
     "address": "http://www.ngzy.nx.edu.cn/",
     "province": "宁夏回族自治区",
@@ -13495,8 +13547,8 @@ export const universityList =
   {
     "name": "长沙电力职业技术学院",
     "location": {
-      "lat": 28.226168,
-      "lng": 113.115298
+      "lat": 28.226168148637957,
+      "lng": 113.11529821128032
     },
     "address": "http://www.cseptc.net/",
     "province": "湖南省",
@@ -13511,8 +13563,8 @@ export const universityList =
   {
     "name": "江西信息应用职业技术学院",
     "location": {
-      "lat": 28.593585,
-      "lng": 115.91224
+      "lat": 28.683211640639822,
+      "lng": 115.951980285351
     },
     "address": "http://www.jxcia.com/",
     "province": "江西省",
@@ -13527,8 +13579,8 @@ export const universityList =
   {
     "name": "喀什职业技术学院",
     "location": {
-      "lat": 39.409773,
-      "lng": 75.95309
+      "lat": 39.45679473687791,
+      "lng": 76.00543918779947
     },
     "address": null,
     "province": "新疆维吾尔自治区",
@@ -13542,8 +13594,8 @@ export const universityList =
   {
     "name": "广州大学华软软件学院",
     "location": {
-      "lat": 23.457115,
-      "lng": 113.501055
+      "lat": 23.45465812352347,
+      "lng": 113.50194120943259
     },
     "address": "http://www.sise.com.cn/",
     "province": "广东省",
@@ -13558,8 +13610,8 @@ export const universityList =
   {
     "name": "张家口职业技术学院",
     "location": {
-      "lat": 40.737249,
-      "lng": 114.923311
+      "lat": 40.737248987858905,
+      "lng": 114.92331098837538
     },
     "address": "http://www.zhz.cn/",
     "province": "河北省",
@@ -13574,8 +13626,8 @@ export const universityList =
   {
     "name": "兰州工业学院",
     "location": {
-      "lat": 36.058266,
-      "lng": 103.753306
+      "lat": 36.05529011137728,
+      "lng": 103.7578635250051
     },
     "address": "https://www.lzit.edu.cn/",
     "province": "甘肃省",
@@ -13590,8 +13642,8 @@ export const universityList =
   {
     "name": "上海电影艺术职业学院",
     "location": {
-      "lat": 31.19784,
-      "lng": 121.591568
+      "lat": 31.19784034124958,
+      "lng": 121.59156798392098
     },
     "address": "http://www.shfilmart.com/",
     "province": "上海市",
@@ -13606,8 +13658,8 @@ export const universityList =
   {
     "name": "江苏大学京江学院",
     "location": {
-      "lat": 32.119566,
-      "lng": 119.360436
+      "lat": 32.11956603949539,
+      "lng": 119.3604359887837
     },
     "address": "http://jjxy.ujs.edu.cn/",
     "province": "江苏省",
@@ -13622,8 +13674,8 @@ export const universityList =
   {
     "name": "马鞍山学院",
     "location": {
-      "lat": 31.570256,
-      "lng": 118.536447
+      "lat": 31.57025596524817,
+      "lng": 118.53644657500182
     },
     "address": "http://icc.ahut.edu.cn/",
     "province": "安徽省",
@@ -13638,8 +13690,8 @@ export const universityList =
   {
     "name": "重庆健康职业学院",
     "location": {
-      "lat": 29.689669,
-      "lng": 105.70314
+      "lat": 29.6896686516297,
+      "lng": 105.70314023214338
     },
     "address": null,
     "province": "重庆市",
@@ -13654,8 +13706,8 @@ export const universityList =
   {
     "name": "大庆医学高等专科学校",
     "location": {
-      "lat": 46.607892,
-      "lng": 125.055655
+      "lat": 46.607892474227,
+      "lng": 125.05565500384539
     },
     "address": "http://www.dqygz.com/",
     "province": "黑龙江省",
@@ -13670,8 +13722,8 @@ export const universityList =
   {
     "name": "雅安职业技术学院(青年路校区)",
     "location": {
-      "lat": 30.024944,
-      "lng": 103.058252
+      "lat": 30.024802675272262,
+      "lng": 103.05579923165095
     },
     "address": "雅安市雨城区青年路1号",
     "province": "四川省",
@@ -13686,8 +13738,8 @@ export const universityList =
   {
     "name": "星海音乐学院(大学城校区)",
     "location": {
-      "lat": 23.063857,
-      "lng": 113.386825
+      "lat": 23.065493191692624,
+      "lng": 113.38536648649135
     },
     "address": "广东省广州市番禺区小谷围街道大学城外环西路398号",
     "province": "广东省",
@@ -13702,8 +13754,8 @@ export const universityList =
   {
     "name": "重庆理工大学(花溪校区)",
     "location": {
-      "lat": 29.462731,
-      "lng": 106.538439
+      "lat": 29.46421759903219,
+      "lng": 106.53638928901633
     },
     "address": "重庆市巴南区红光大道69号",
     "province": "重庆市",
@@ -13718,8 +13770,8 @@ export const universityList =
   {
     "name": "贵州电子信息职业技术学院",
     "location": {
-      "lat": 26.587275,
-      "lng": 107.998482
+      "lat": 26.58727475419949,
+      "lng": 107.99848211623959
     },
     "address": "http://www.gzeic.com/",
     "province": "贵州省",
@@ -13734,8 +13786,8 @@ export const universityList =
   {
     "name": "海南大学(海甸校区)",
     "location": {
-      "lat": 20.06255,
-      "lng": 110.33554
+      "lat": 20.062384748910247,
+      "lng": 110.33897337423568
     },
     "address": "海南省海口市美兰区人民大道58号",
     "province": "海南省",
@@ -13750,8 +13802,8 @@ export const universityList =
   {
     "name": "南京城市职业学院(溧水校区)",
     "location": {
-      "lat": 31.722402,
-      "lng": 119.008645
+      "lat": 31.723452578376804,
+      "lng": 119.01313769387413
     },
     "address": "江苏省南京市溧水区高山路1号",
     "province": "江苏省",
@@ -13766,8 +13818,8 @@ export const universityList =
   {
     "name": "成都大学",
     "location": {
-      "lat": 30.656051,
-      "lng": 104.196613
+      "lat": 30.656050837664434,
+      "lng": 104.19661300388302
     },
     "address": "http://www.cdu.edu.cn/",
     "province": "四川省",
@@ -13782,8 +13834,8 @@ export const universityList =
   {
     "name": "浙江汽车职业技术学院",
     "location": {
-      "lat": 28.880333,
-      "lng": 121.177119
+      "lat": 28.88033265915536,
+      "lng": 121.17711926892106
     },
     "address": "",
     "province": "浙江省",
@@ -13798,8 +13850,8 @@ export const universityList =
   {
     "name": "中北大学",
     "location": {
-      "lat": 38.02132,
-      "lng": 112.453582
+      "lat": 38.02132026276655,
+      "lng": 112.45358231249665
     },
     "address": "http://www.nuc.edu.cn/",
     "province": "山西省",
@@ -13814,8 +13866,8 @@ export const universityList =
   {
     "name": "广东江门中医药职业学院",
     "location": {
-      "lat": 22.574765,
-      "lng": 113.064746
+      "lat": 22.574765211380413,
+      "lng": 113.0647455297397
     },
     "address": "",
     "province": "广东省",
@@ -13830,8 +13882,8 @@ export const universityList =
   {
     "name": "焦作大学(人民路)",
     "location": {
-      "lat": 35.219769,
-      "lng": 113.286787
+      "lat": 35.222343637713536,
+      "lng": 113.2858966827617
     },
     "address": "焦作市山阳区人民路东段3066号",
     "province": "河南省",
@@ -13846,8 +13898,8 @@ export const universityList =
   {
     "name": "浙江工商大学",
     "location": {
-      "lat": 30.314678,
-      "lng": 120.395661
+      "lat": 30.314678100555327,
+      "lng": 120.39566059577865
     },
     "address": "http://www.hzic.edu.cn/",
     "province": "浙江省",
@@ -13862,8 +13914,8 @@ export const universityList =
   {
     "name": "广州松田职业学院-南1门",
     "location": {
-      "lat": 23.280251,
-      "lng": 113.729373
+      "lat": 23.284191683105394,
+      "lng": 113.73426538204335
     },
     "address": "广东省广州市增城区朱村大道东432号",
     "province": "广东省",
@@ -13876,8 +13928,8 @@ export const universityList =
   {
     "name": "广西民族大学相思湖学院",
     "location": {
-      "lat": 22.694303,
-      "lng": 108.267899
+      "lat": 22.694302791427553,
+      "lng": 108.2678985809728
     },
     "address": "http://xshxy.gxun.edu.cn/",
     "province": "广西壮族自治区",
@@ -13892,8 +13944,8 @@ export const universityList =
   {
     "name": "红河卫生职业学院",
     "location": {
-      "lat": 23.342473,
-      "lng": 103.381368
+      "lat": 23.37448873836479,
+      "lng": 102.42755057757
     },
     "address": "http://www.hhwzy.cn/",
     "province": "云南省",
@@ -13907,8 +13959,8 @@ export const universityList =
   {
     "name": "安徽职业技术学院",
     "location": {
-      "lat": 31.934639,
-      "lng": 117.386038
+      "lat": 31.93463855262073,
+      "lng": 117.38603836093988
     },
     "address": "http://www.uta.edu.cn/",
     "province": "安徽省",
@@ -13923,8 +13975,8 @@ export const universityList =
   {
     "name": "沈阳农业大学",
     "location": {
-      "lat": 41.832739,
-      "lng": 123.57625
+      "lat": 41.83273858553914,
+      "lng": 123.57625049120965
     },
     "address": "http://www.syau.edu.cn/",
     "province": "辽宁省",
@@ -13939,8 +13991,8 @@ export const universityList =
   {
     "name": "沈阳工程学院",
     "location": {
-      "lat": 41.92507,
-      "lng": 123.425593
+      "lat": 41.92506982176784,
+      "lng": 123.42559306904526
     },
     "address": "http://www.sie.edu.cn/",
     "province": "辽宁省",
@@ -13955,8 +14007,8 @@ export const universityList =
   {
     "name": "昆明学院(洋浦校区)",
     "location": {
-      "lat": 24.981207,
-      "lng": 102.806006
+      "lat": 24.985529582249978,
+      "lng": 102.80681821799615
     },
     "address": "云南省昆明市经济技术开发区浦新路2号",
     "province": "云南省",
@@ -13971,8 +14023,8 @@ export const universityList =
   {
     "name": "西安外事学院(南校区)",
     "location": {
-      "lat": 34.236512,
-      "lng": 108.874834
+      "lat": 34.23987918464955,
+      "lng": 108.87534364916905
     },
     "address": "陕西省西安市雁塔区鱼斗路18号",
     "province": "陕西省",
@@ -13987,8 +14039,8 @@ export const universityList =
   {
     "name": "广东石油化工学院",
     "location": {
-      "lat": 21.685018,
-      "lng": 110.929277
+      "lat": 21.685017564820182,
+      "lng": 110.92927714330413
     },
     "address": "http://www.gdpa.edu.cn/",
     "province": "广东省",
@@ -14003,8 +14055,8 @@ export const universityList =
   {
     "name": "咸阳师范学院(渭城校区)",
     "location": {
-      "lat": 34.367718,
-      "lng": 108.73469
+      "lat": 34.36101857333506,
+      "lng": 108.70708482884217
     },
     "address": "咸阳市渭城区文林路1号",
     "province": "陕西省",
@@ -14019,8 +14071,8 @@ export const universityList =
   {
     "name": "黑龙江旅游职业技术学院",
     "location": {
-      "lat": 45.673299,
-      "lng": 126.625954
+      "lat": 45.67532318624183,
+      "lng": 126.62018879530828
     },
     "address": "",
     "province": "黑龙江省",
@@ -14035,8 +14087,8 @@ export const universityList =
   {
     "name": "黄山职业技术学院",
     "location": {
-      "lat": 29.69704,
-      "lng": 118.282326
+      "lat": 30.27865098018807,
+      "lng": 118.14760982483591
     },
     "address": "http://www.hszy.edu.cn/",
     "province": "安徽省",
@@ -14051,8 +14103,8 @@ export const universityList =
   {
     "name": "太原旅游职业学院",
     "location": {
-      "lat": 37.69948,
-      "lng": 112.606566
+      "lat": 37.83810638788629,
+      "lng": 112.58805649140712
     },
     "address": "http://www.tylyzyxy.com/",
     "province": "山西省",
@@ -14067,8 +14119,8 @@ export const universityList =
   {
     "name": "西安邮电大学(长安校区)",
     "location": {
-      "lat": 34.158992,
-      "lng": 108.909777
+      "lat": 34.16258016788601,
+      "lng": 108.90923779402713
     },
     "address": "西安市长安区西长安街618号",
     "province": "陕西省",
@@ -14083,8 +14135,8 @@ export const universityList =
   {
     "name": "浙江海洋大学",
     "location": {
-      "lat": 29.966549,
-      "lng": 122.196569
+      "lat": 29.96654931769124,
+      "lng": 122.19656864268796
     },
     "address": "http://www.zjou.edu.cn/",
     "province": "浙江省",
@@ -14099,8 +14151,8 @@ export const universityList =
   {
     "name": "桂林航天工业学院",
     "location": {
-      "lat": 25.288572,
-      "lng": 110.377843
+      "lat": 25.2885719668351,
+      "lng": 110.37784296380903
     },
     "address": "http://www.guat.edu.cn/",
     "province": "广西壮族自治区",
@@ -14115,8 +14167,8 @@ export const universityList =
   {
     "name": "宜春学院",
     "location": {
-      "lat": 27.798296,
-      "lng": 114.36372
+      "lat": 27.799152502604905,
+      "lng": 114.3405405739212
     },
     "address": "http://www.jxycu.edu.cn/",
     "province": "江西省",
@@ -14131,8 +14183,8 @@ export const universityList =
   {
     "name": "淮北师范大学-信息学院",
     "location": {
-      "lat": 33.987141,
-      "lng": 116.819332
+      "lat": 33.9874004385017,
+      "lng": 116.82248056026941
     },
     "address": "安徽省淮北市相山区东山路100号",
     "province": "安徽省",
@@ -14147,8 +14199,8 @@ export const universityList =
   {
     "name": "新疆大学(红湖校区)",
     "location": {
-      "lat": 43.773611,
-      "lng": 87.620781
+      "lat": 43.77107453042594,
+      "lng": 87.62744728254675
     },
     "address": "新疆维吾尔自治区乌鲁木齐市天山区胜利路666号",
     "province": "新疆维吾尔自治区",
@@ -14163,8 +14215,8 @@ export const universityList =
   {
     "name": "南京理工大学泰州科技学院",
     "location": {
-      "lat": 32.469468,
-      "lng": 119.947124
+      "lat": 32.46946772925365,
+      "lng": 119.94712353938621
     },
     "address": "http://www.nustti.edu.cn/",
     "province": "江苏省",
@@ -14179,8 +14231,8 @@ export const universityList =
   {
     "name": "漯河职业技术学院",
     "location": {
-      "lat": 33.575362,
-      "lng": 114.015637
+      "lat": 33.58390641976786,
+      "lng": 114.13109967099227
     },
     "address": "http://www.lhvtc.edu.cn/",
     "province": "河南省",
@@ -14195,8 +14247,8 @@ export const universityList =
   {
     "name": "广西经贸职业技术学院(青山校区)",
     "location": {
-      "lat": 22.799967,
-      "lng": 108.367897
+      "lat": 22.801565166755648,
+      "lng": 108.36816923857442
     },
     "address": "广西壮族自治区南宁市青秀区青山路14号",
     "province": "广西壮族自治区",
@@ -14211,8 +14263,8 @@ export const universityList =
   {
     "name": "吉林电子信息职业技术学院(汉阳校区)",
     "location": {
-      "lat": 43.928937,
-      "lng": 126.568898
+      "lat": 43.92940707311826,
+      "lng": 126.57039644923086
     },
     "address": "吉林省吉林市龙潭区汉阳街65号",
     "province": "吉林省",
@@ -14227,8 +14279,8 @@ export const universityList =
   {
     "name": "海南外国语职业学院",
     "location": {
-      "lat": 19.60769,
-      "lng": 110.772248
+      "lat": 39.44682751508743,
+      "lng": 106.89847100998414
     },
     "address": "http://www.hncfs.edu.cn/",
     "province": "海南省",
@@ -14243,8 +14295,8 @@ export const universityList =
   {
     "name": "内蒙古鸿德文理学院",
     "location": {
-      "lat": 40.857197,
-      "lng": 111.785516
+      "lat": 40.85719697961554,
+      "lng": 111.78551600811753
     },
     "address": "http://www.honder.com/",
     "province": "内蒙古自治区",
@@ -14259,8 +14311,8 @@ export const universityList =
   {
     "name": "河南财政金融学院(龙子湖校区)",
     "location": {
-      "lat": 34.811091,
-      "lng": 113.814659
+      "lat": 34.813016368137305,
+      "lng": 113.81616741343774
     },
     "address": "河南省郑州市郑东新区龙子湖北路22号",
     "province": "河南省",
@@ -14275,8 +14327,8 @@ export const universityList =
   {
     "name": "浙江工商职业技术学院",
     "location": {
-      "lat": 29.869908,
-      "lng": 121.512311
+      "lat": 30.20855236212681,
+      "lng": 121.24909332010832
     },
     "address": "https://www.zjbti.net.cn/",
     "province": "浙江省",
@@ -14291,8 +14343,8 @@ export const universityList =
   {
     "name": "贵州师范大学-求是学院",
     "location": {
-      "lat": 26.719084,
-      "lng": 106.6325
+      "lat": 26.71908401146169,
+      "lng": 106.63274989222597
     },
     "address": "贵州省贵阳市白云区白云北路397号",
     "province": "贵州省",
@@ -14306,8 +14358,8 @@ export const universityList =
   {
     "name": "湖北三峡职业技术学院",
     "location": {
-      "lat": 30.697775,
-      "lng": 111.319501
+      "lat": 30.697774790728822,
+      "lng": 111.31950098073965
     },
     "address": "http://www.tgc.edu.cn/",
     "province": "湖北省",
@@ -14322,8 +14374,8 @@ export const universityList =
   {
     "name": "漯河食品职业学院(南校区)",
     "location": {
-      "lat": 33.610217,
-      "lng": 113.995796
+      "lat": 33.59272390928748,
+      "lng": 113.99068589604981
     },
     "address": "河南省漯河市郾城区尧河路与白云山路交叉口东南角",
     "province": "河南省",
@@ -14338,8 +14390,8 @@ export const universityList =
   {
     "name": "南京工业大学浦江学院",
     "location": {
-      "lat": 31.642607,
-      "lng": 118.908807
+      "lat": 31.6426067113421,
+      "lng": 118.90880732414813
     },
     "address": "http://web.njpji.cn/",
     "province": "江苏省",
@@ -14354,8 +14406,8 @@ export const universityList =
   {
     "name": "武威职业学院",
     "location": {
-      "lat": 37.934725,
-      "lng": 102.611824
+      "lat": 37.934725024668104,
+      "lng": 102.61182404012983
     },
     "address": "http://www.wwoc.cn/",
     "province": "甘肃省",
@@ -14370,8 +14422,8 @@ export const universityList =
   {
     "name": "衡水学院",
     "location": {
-      "lat": 37.748628,
-      "lng": 115.668092
+      "lat": 37.61598399666024,
+      "lng": 115.68577303235399
     },
     "address": "http://www.hsnc.edu.cn/",
     "province": "河北省",
@@ -14386,8 +14438,8 @@ export const universityList =
   {
     "name": "新疆体育职业技术学院",
     "location": {
-      "lat": 43.762285,
-      "lng": 87.656663
+      "lat": 43.76228454208279,
+      "lng": 87.65666305230887
     },
     "address": "",
     "province": "新疆维吾尔自治区",
@@ -14402,8 +14454,8 @@ export const universityList =
   {
     "name": "安徽卫生健康职业学院",
     "location": {
-      "lat": 30.642775,
-      "lng": 117.573085
+      "lat": 30.64277487886616,
+      "lng": 117.57308497151631
     },
     "address": "http://www.ahwsjkxy.cn/",
     "province": "安徽省",
@@ -14417,8 +14469,8 @@ export const universityList =
   {
     "name": "南华大学-船山学院",
     "location": {
-      "lat": 26.902783,
-      "lng": 112.593714
+      "lat": 26.902881582865398,
+      "lng": 112.5936630713051
     },
     "address": "湖南省衡阳市蒸湘区南华路南华大学西校区5号楼",
     "province": "湖南省",
@@ -14431,8 +14483,8 @@ export const universityList =
   {
     "name": "南通科技职业学院",
     "location": {
-      "lat": 32.009602,
-      "lng": 120.89843
+      "lat": 32.009601782920306,
+      "lng": 120.89843033208058
     },
     "address": "http://www.ntst.edu.cn/",
     "province": "江苏省",
@@ -14447,8 +14499,8 @@ export const universityList =
   {
     "name": "新疆科信职业技术学院",
     "location": {
-      "lat": 43.722689,
-      "lng": 87.393337
+      "lat": 43.76888485341603,
+      "lng": 87.61905603111695
     },
     "address": null,
     "province": "新疆维吾尔自治区",
@@ -14462,8 +14514,8 @@ export const universityList =
   {
     "name": "长春大学(东校区)",
     "location": {
-      "lat": 43.839924,
-      "lng": 125.32768
+      "lat": 43.840655259561935,
+      "lng": 125.32767422875823
     },
     "address": "长春市朝阳区卫星路6543号",
     "province": "吉林省",
@@ -14478,8 +14530,8 @@ export const universityList =
   {
     "name": "四川大学锦江学院",
     "location": {
-      "lat": 30.22062,
-      "lng": 103.87873
+      "lat": 30.30904206423492,
+      "lng": 103.95069010272438
     },
     "address": "http://www.scujj.edu.cn/",
     "province": "四川省",
@@ -14494,8 +14546,8 @@ export const universityList =
   {
     "name": "湖南应用技术学院(东校区)",
     "location": {
-      "lat": 28.99422,
-      "lng": 111.70102
+      "lat": 28.99422002160283,
+      "lng": 111.70102003040417
     },
     "address": "常德市鼎城区善卷路2058号",
     "province": "湖南省",
@@ -14510,8 +14562,8 @@ export const universityList =
   {
     "name": "湖北工业大学-工程技术学院",
     "location": {
-      "lat": 30.484024,
-      "lng": 114.313982
+      "lat": 30.48895117253205,
+      "lng": 114.31738667442946
     },
     "address": "湖北省武汉市洪山区南李路28号附1号",
     "province": "湖北省",
@@ -14526,8 +14578,8 @@ export const universityList =
   {
     "name": "陕西科技大学镐京学院",
     "location": {
-      "lat": 34.309712,
-      "lng": 108.731139
+      "lat": 34.309711620191926,
+      "lng": 108.7311393842967
     },
     "address": "http://www.kdhj-edu.net/",
     "province": "陕西省",
@@ -14542,8 +14594,8 @@ export const universityList =
   {
     "name": "昆明艺术职业学院(海源校区)",
     "location": {
-      "lat": 25.078963,
-      "lng": 102.661456
+      "lat": 25.07923998626792,
+      "lng": 102.6616503408512
     },
     "address": "云南省昆明市五华区海源北路1268号",
     "province": "云南省",
@@ -14558,8 +14610,8 @@ export const universityList =
   {
     "name": "云南林业职业技术学院",
     "location": {
-      "lat": 25.100166,
-      "lng": 102.779968
+      "lat": 25.10016640041685,
+      "lng": 102.77996759682013
     },
     "address": "",
     "province": "云南省",
@@ -14574,8 +14626,8 @@ export const universityList =
   {
     "name": "朝阳师范高等专科学校",
     "location": {
-      "lat": 41.536083,
-      "lng": 120.436012
+      "lat": 41.50374544264061,
+      "lng": 120.39618969772403
     },
     "address": "http://www.cysz.com.cn/",
     "province": "辽宁省",
@@ -14590,8 +14642,8 @@ export const universityList =
   {
     "name": "湖南科技职业学院",
     "location": {
-      "lat": 28.127003,
-      "lng": 113.031562
+      "lat": 28.005218771514578,
+      "lng": 112.99507430186709
     },
     "address": "http://www.hnkjxy.net.cn/",
     "province": "湖南省",
@@ -14606,8 +14658,8 @@ export const universityList =
   {
     "name": "广西经济职业学院",
     "location": {
-      "lat": 23.210264,
-      "lng": 108.185167
+      "lat": 23.21026428330198,
+      "lng": 108.18516670963383
     },
     "address": "",
     "province": "广西壮族自治区",
@@ -14622,8 +14674,8 @@ export const universityList =
   {
     "name": "山东商业职业技术学院",
     "location": {
-      "lat": 36.639894,
-      "lng": 117.277332
+      "lat": 36.63989396674962,
+      "lng": 117.27733180609148
     },
     "address": "http://www.sict.edu.cn/",
     "province": "山东省",
@@ -14638,8 +14690,8 @@ export const universityList =
   {
     "name": "城建学院",
     "location": {
-      "lat": 31.613384,
-      "lng": 117.603333
+      "lat": 31.618259973159365,
+      "lng": 117.59629278419713
     },
     "address": "安徽省合肥市巢湖市书香路科教园区(科教园区)",
     "province": "安徽省",
@@ -14654,8 +14706,8 @@ export const universityList =
   {
     "name": "武汉设计工程学院",
     "location": {
-      "lat": 30.408481,
-      "lng": 114.416036
+      "lat": 30.408480805113694,
+      "lng": 114.41603580078815
     },
     "address": "http://www.wids.edu.cn/",
     "province": "湖北省",
@@ -14670,8 +14722,8 @@ export const universityList =
   {
     "name": "青海师范大学(城北校区)",
     "location": {
-      "lat": 36.749079,
-      "lng": 101.755971
+      "lat": 36.71506428486303,
+      "lng": 101.74636767621021
     },
     "address": "西宁市城北区海湖大道",
     "province": "青海省",
@@ -14686,8 +14738,8 @@ export const universityList =
   {
     "name": "博尔塔拉职业技术学院",
     "location": {
-      "lat": 44.85419,
-      "lng": 82.062638
+      "lat": 44.85418987513808,
+      "lng": 82.06263796357909
     },
     "address": "http://www.betltc.cn/",
     "province": "新疆维吾尔自治区",
@@ -14701,13 +14753,17 @@ export const universityList =
   {
     "name": "佛山市",
     "num": 9,
-    "index": 936
+    "index": 936,
+    "location": {
+      "lat": 23.02775875078891,
+      "lng": 113.12851219549718
+    }
   },
   {
     "name": "湖北医药学院",
     "location": {
-      "lat": 32.628552,
-      "lng": 110.790892
+      "lat": 32.62855247052756,
+      "lng": 110.7908918457654
     },
     "address": "http://www.hbmu.edu.cn/",
     "province": "湖北省",
@@ -14722,8 +14778,8 @@ export const universityList =
   {
     "name": "黔南民族医学高等专科学校(新校区)",
     "location": {
-      "lat": 26.227603,
-      "lng": 107.630947
+      "lat": 26.227393563177777,
+      "lng": 107.63390015394681
     },
     "address": "贵州省黔南布依族苗族自治州都匀市杉木湖大道东段11号",
     "province": "贵州省",
@@ -14737,8 +14793,8 @@ export const universityList =
   {
     "name": "广州华南商贸职业学院",
     "location": {
-      "lat": 23.37361,
-      "lng": 113.447023
+      "lat": 23.37361007335704,
+      "lng": 113.44702321226768
     },
     "address": "http://www.hnsmxy.cn/",
     "province": "广东省",
@@ -14753,8 +14809,8 @@ export const universityList =
   {
     "name": "杨凌职业技术学院(南校区)",
     "location": {
-      "lat": 34.271006,
-      "lng": 108.08534
+      "lat": 34.27317723383564,
+      "lng": 108.08601777891455
     },
     "address": "咸阳市杨陵区渭惠路24号",
     "province": "陕西省",
@@ -14769,8 +14825,8 @@ export const universityList =
   {
     "name": "江苏工程职业技术学院",
     "location": {
-      "lat": 32.012926,
-      "lng": 120.894238
+      "lat": 32.11933706237243,
+      "lng": 121.47228199525101
     },
     "address": "http://www.jcet.edu.cn/",
     "province": "江苏省",
@@ -14785,8 +14841,8 @@ export const universityList =
   {
     "name": "景德镇陶瓷大学(湘湖校区)",
     "location": {
-      "lat": 29.33464,
-      "lng": 117.323354
+      "lat": 29.326894307611102,
+      "lng": 117.31193577612352
     },
     "address": "江西省景德镇市浮梁县湘湖路",
     "province": "江西省",
@@ -14801,8 +14857,8 @@ export const universityList =
   {
     "name": "江苏海洋大学",
     "location": {
-      "lat": 34.612621,
-      "lng": 119.226986
+      "lat": 34.593404864659824,
+      "lng": 119.19679868081401
     },
     "address": "http://www.hhit.edu.cn/",
     "province": "江苏省",
@@ -14817,8 +14873,8 @@ export const universityList =
   {
     "name": "阜阳幼儿师范高等专科学校",
     "location": {
-      "lat": 32.905117,
-      "lng": 115.786187
+      "lat": 32.905116586783976,
+      "lng": 115.78618705954815
     },
     "address": "http://www.fysf.net/",
     "province": "安徽省",
@@ -14833,8 +14889,8 @@ export const universityList =
   {
     "name": "烟台职业学院",
     "location": {
-      "lat": 37.441968,
-      "lng": 121.541442
+      "lat": 37.441967946809285,
+      "lng": 121.5414423568031
     },
     "address": "http://www.ytvc.com.cn/web/18501/index",
     "province": "山东省",
@@ -14849,8 +14905,8 @@ export const universityList =
   {
     "name": "江西软件职业技术大学",
     "location": {
-      "lat": 28.903261,
-      "lng": 115.824073
+      "lat": 28.90222905907689,
+      "lng": 115.82271008013308
     },
     "address": "http://www.aheadedu.com/",
     "province": "江西省",
@@ -14865,8 +14921,8 @@ export const universityList =
   {
     "name": "山西省财政税务专科学校",
     "location": {
-      "lat": 37.857968,
-      "lng": 112.52385
+      "lat": 37.857967783975475,
+      "lng": 112.523850194912
     },
     "address": "http://www.sxftc.edu.cn:8089/schoolww/",
     "province": "山西省",
@@ -14881,8 +14937,8 @@ export const universityList =
   {
     "name": "朔州职业技术学院",
     "location": {
-      "lat": 39.307274,
-      "lng": 112.41351
+      "lat": 39.30727402704118,
+      "lng": 112.41350989183259
     },
     "address": "http://www.szvtc.com/",
     "province": "山西省",
@@ -14897,8 +14953,8 @@ export const universityList =
   {
     "name": "东华大学(延安路校区)",
     "location": {
-      "lat": 31.212475,
-      "lng": 121.420343
+      "lat": 31.209393617813053,
+      "lng": 121.4240315808852
     },
     "address": "上海市长宁区延安西路1882号",
     "province": "上海市",
@@ -14913,8 +14969,8 @@ export const universityList =
   {
     "name": "天津农学院",
     "location": {
-      "lat": 39.098285,
-      "lng": 117.107553
+      "lat": 39.16752705407161,
+      "lng": 116.98151755589195
     },
     "address": "http://www.tjac.edu.cn/",
     "province": "天津市",
@@ -14929,8 +14985,8 @@ export const universityList =
   {
     "name": "山西警官职业学院",
     "location": {
-      "lat": 37.828457,
-      "lng": 112.602982
+      "lat": 37.828457117234926,
+      "lng": 112.6029816577943
     },
     "address": "http://www.sxpolice.org/",
     "province": "山西省",
@@ -14945,8 +15001,8 @@ export const universityList =
   {
     "name": "温州大学(茶山南校区)",
     "location": {
-      "lat": 27.924047,
-      "lng": 120.701726
+      "lat": 27.921005447533425,
+      "lng": 120.70199677128721
     },
     "address": "浙江省温州市瓯海区梅泉大街与高科路交汇处西北侧",
     "province": "浙江省",
@@ -14961,8 +15017,8 @@ export const universityList =
   {
     "name": "沈阳建筑大学",
     "location": {
-      "lat": 41.749347,
-      "lng": 123.522614
+      "lat": 41.74934653654053,
+      "lng": 123.52261365734492
     },
     "address": "http://www.sjzu.edu.cn/",
     "province": "辽宁省",
@@ -14977,8 +15033,8 @@ export const universityList =
   {
     "name": "黑龙江能源职业学院",
     "location": {
-      "lat": 46.699164,
-      "lng": 131.179277
+      "lat": 46.69910960876451,
+      "lng": 131.1777249120664
     },
     "address": "http://www.hmzy.cn/web/guest/home",
     "province": "黑龙江省",
@@ -14992,8 +15048,8 @@ export const universityList =
   {
     "name": "昆明铁道职业技术学院",
     "location": {
-      "lat": 24.997975,
-      "lng": 102.83238
+      "lat": 24.967904704068832,
+      "lng": 102.79208421102636
     },
     "address": "",
     "province": "云南省",
@@ -15008,8 +15064,8 @@ export const universityList =
   {
     "name": "湖北文理学院理工学院",
     "location": {
-      "lat": 31.952502,
-      "lng": 112.089427
+      "lat": 32.06937599118176,
+      "lng": 112.1502756553606
     },
     "address": "http://www.hbasstu.net/",
     "province": "湖北省",
@@ -15024,8 +15080,8 @@ export const universityList =
   {
     "name": "商丘医学高等专科学校(新校区)",
     "location": {
-      "lat": 34.36339,
-      "lng": 115.714852
+      "lat": 34.363390000534004,
+      "lng": 115.71485199018694
     },
     "address": "河南省商丘市梁园区迎宾路666号",
     "province": "河南省",
@@ -15040,8 +15096,8 @@ export const universityList =
   {
     "name": "郑州理工职业学院",
     "location": {
-      "lat": 34.444166,
-      "lng": 113.713743
+      "lat": 34.44416561220596,
+      "lng": 113.71374333783447
     },
     "address": "http://www.zzlgxy.net/",
     "province": "河南省",
@@ -15055,8 +15111,8 @@ export const universityList =
   {
     "name": "上海科技大学",
     "location": {
-      "lat": 31.182971,
-      "lng": 121.601394
+      "lat": 31.182971467564126,
+      "lng": 121.60139445806406
     },
     "address": "http://www.shanghaitech.edu.cn/",
     "province": "上海市",
@@ -15071,8 +15127,8 @@ export const universityList =
   {
     "name": "北京师范大学(珠海分校)",
     "location": {
-      "lat": 22.355593,
-      "lng": 113.544227
+      "lat": 22.35362064288949,
+      "lng": 113.53938905087578
     },
     "address": "广东省珠海市高新区唐家湾镇宁堂社区金凤路18号",
     "province": "广东省",
@@ -15087,8 +15143,8 @@ export const universityList =
   {
     "name": "兰州职业技术学院(总校区)",
     "location": {
-      "lat": 36.134332,
-      "lng": 103.683586
+      "lat": 36.13471836794914,
+      "lng": 103.68735283061041
     },
     "address": "甘肃省兰州市安宁区刘沙公路37号",
     "province": "甘肃省",
@@ -15103,8 +15159,8 @@ export const universityList =
   {
     "name": "中国人民解放军广西军区直属医院-正门",
     "location": {
-      "lat": 22.805878,
-      "lng": 108.340925
+      "lat": 22.805296844868074,
+      "lng": 108.34062943741137
     },
     "address": "南宁市青秀区桃源路78号",
     "province": "广西壮族自治区",
@@ -15118,8 +15174,8 @@ export const universityList =
   {
     "name": "衡阳师范学院(西校区)-南岳学院",
     "location": {
-      "lat": 26.868172,
-      "lng": 112.63289
+      "lat": 26.868731627923342,
+      "lng": 112.63595736080357
     },
     "address": "湖南省衡阳市雁峰区黄白路165号",
     "province": "湖南省",
@@ -15134,8 +15190,8 @@ export const universityList =
   {
     "name": "湖南都市职业学院",
     "location": {
-      "lat": 28.22925,
-      "lng": 113.189362
+      "lat": 28.229807972021543,
+      "lng": 113.19076099443495
     },
     "address": "http://www.hnupc.com/",
     "province": "湖南省",
@@ -15150,8 +15206,8 @@ export const universityList =
   {
     "name": "陕西艺术职业学院(长安校区)",
     "location": {
-      "lat": 34.037582,
-      "lng": 108.783058
+      "lat": 34.0354379892385,
+      "lng": 108.78195688631837
     },
     "address": "西安市长安区西安工程技师学院(长安校区)",
     "province": "陕西省",
@@ -15165,8 +15221,8 @@ export const universityList =
   {
     "name": "潍坊理工学院(中心校区)",
     "location": {
-      "lat": 36.77676,
-      "lng": 119.134815
+      "lat": 36.775373389935304,
+      "lng": 119.13262544196165
     },
     "address": "山东省潍坊市寒亭区民主街7777号",
     "province": "山东省",
@@ -15181,8 +15237,8 @@ export const universityList =
   {
     "name": "湖北职业技术学院",
     "location": {
-      "lat": 30.913359,
-      "lng": 113.93217
+      "lat": 30.913359273108608,
+      "lng": 113.93217045479095
     },
     "address": "http://www.hbvtc.edu.cn/",
     "province": "湖北省",
@@ -15197,8 +15253,8 @@ export const universityList =
   {
     "name": "贵州建设职业技术学院",
     "location": {
-      "lat": 26.590677,
-      "lng": 106.474457
+      "lat": 26.590677262171003,
+      "lng": 106.47445687327905
     },
     "address": "http://www.gzjszy.cn/",
     "province": "贵州省",
@@ -15213,8 +15269,8 @@ export const universityList =
   {
     "name": "湖北艺术职业学院",
     "location": {
-      "lat": 30.516706,
-      "lng": 114.378261
+      "lat": 30.53175554488679,
+      "lng": 114.34985718471532
     },
     "address": "http://www.artschool.com.cn/",
     "province": "湖北省",
@@ -15229,8 +15285,8 @@ export const universityList =
   {
     "name": "信阳师范学院(谭山校区)",
     "location": {
-      "lat": 32.142454,
-      "lng": 114.046947
+      "lat": 32.13532637526153,
+      "lng": 114.04481796574218
     },
     "address": "信阳市浉河区南湖路237号",
     "province": "河南省",
@@ -15245,8 +15301,8 @@ export const universityList =
   {
     "name": "河南科技学院",
     "location": {
-      "lat": 35.286109,
-      "lng": 113.945234
+      "lat": 35.28610905673608,
+      "lng": 113.94523361351705
     },
     "address": "http://www.hist.edu.cn/",
     "province": "河南省",
@@ -15261,8 +15317,8 @@ export const universityList =
   {
     "name": "湖南国防工业职业技术学院",
     "location": {
-      "lat": 27.851877,
-      "lng": 112.656399
+      "lat": 27.851877046960208,
+      "lng": 112.65639929081243
     },
     "address": "http://www.hnkgzy.com/",
     "province": "湖南省",
@@ -15277,8 +15333,8 @@ export const universityList =
   {
     "name": "昆明医科大学海源学院",
     "location": {
-      "lat": 25.075507,
-      "lng": 102.669661
+      "lat": 25.247481570092884,
+      "lng": 102.99948354981275
     },
     "address": "http://www.kyhyxy.com/",
     "province": "云南省",
@@ -15293,8 +15349,8 @@ export const universityList =
   {
     "name": "河南警察学院",
     "location": {
-      "lat": 34.796774,
-      "lng": 113.82817
+      "lat": 34.796773985570674,
+      "lng": 113.82817003267877
     },
     "address": "http://www.hnp.edu.cn/",
     "province": "河南省",
@@ -15309,8 +15365,8 @@ export const universityList =
   {
     "name": "白银矿冶职业技术学院(南校区)",
     "location": {
-      "lat": 36.536418,
-      "lng": 104.138385
+      "lat": 36.53235331909229,
+      "lng": 104.13941187341581
     },
     "address": "甘肃省白银市白银区纺织路街道诚信大道2号",
     "province": "甘肃省",
@@ -15324,8 +15380,8 @@ export const universityList =
   {
     "name": "航天工程大学-北门",
     "location": {
-      "lat": 40.362805,
-      "lng": 116.670851
+      "lat": 40.36078665774062,
+      "lng": 116.67562368905664
     },
     "address": "北京市怀柔区雁栖开发区航天工程大学",
     "province": "北京市",
@@ -15338,8 +15394,8 @@ export const universityList =
   {
     "name": "广东白云学院(北校区)",
     "location": {
-      "lat": 23.413832,
-      "lng": 113.487846
+      "lat": 23.41346899514702,
+      "lng": 113.48499557429798
     },
     "address": "广东省广州市白云区九佛西路280号",
     "province": "广东省",
@@ -15354,8 +15410,8 @@ export const universityList =
   {
     "name": "山西运城农业职业技术学院",
     "location": {
-      "lat": 35.026047,
-      "lng": 111.006547
+      "lat": 35.0260473120251,
+      "lng": 111.00654706140976
     },
     "address": "http://www.ycnxy.com:8080/",
     "province": "山西省",
@@ -15370,8 +15426,8 @@ export const universityList =
   {
     "name": "浙江财经大学东方学院",
     "location": {
-      "lat": 30.431288,
-      "lng": 120.44276
+      "lat": 30.431288191895558,
+      "lng": 120.44276010112505
     },
     "address": "http://www.zufedfc.edu.cn/",
     "province": "浙江省",
@@ -15386,8 +15442,8 @@ export const universityList =
   {
     "name": "浙江理工大学(下沙校区)",
     "location": {
-      "lat": 30.31952,
-      "lng": 120.359631
+      "lat": 30.318575877147143,
+      "lng": 120.36120779472391
     },
     "address": "浙江省杭州市钱塘区2号大街928号",
     "province": "浙江省",
@@ -15402,8 +15458,8 @@ export const universityList =
   {
     "name": "武汉理工大学(马房山校区)",
     "location": {
-      "lat": 30.526212,
-      "lng": 114.357936
+      "lat": 30.523363701591713,
+      "lng": 114.35851226847339
     },
     "address": "武汉市洪山区珞狮路205号",
     "province": "湖北省",
@@ -15418,8 +15474,8 @@ export const universityList =
   {
     "name": "安徽财贸职业学院(翡翠校区)",
     "location": {
-      "lat": 31.75871,
-      "lng": 117.185894
+      "lat": 31.756257016389533,
+      "lng": 117.18773193994863
     },
     "address": "合肥市肥西县翡翠路900号",
     "province": "安徽省",
@@ -15434,8 +15490,8 @@ export const universityList =
   {
     "name": "黑龙江建筑职业技术学院",
     "location": {
-      "lat": 45.878296,
-      "lng": 126.515105
+      "lat": 45.87829626071113,
+      "lng": 126.51510510658096
     },
     "address": "http://www.hict.org.cn/",
     "province": "黑龙江省",
@@ -15450,8 +15506,8 @@ export const universityList =
   {
     "name": "中国计量大学",
     "location": {
-      "lat": 30.327401,
-      "lng": 120.369036
+      "lat": 30.325993690358207,
+      "lng": 120.38247463868933
     },
     "address": "http://www.cjlu.edu.cn/",
     "province": "浙江省",
@@ -15466,8 +15522,8 @@ export const universityList =
   {
     "name": "广东岭南职业技术学院",
     "location": {
-      "lat": 23.174677,
-      "lng": 113.42646
+      "lat": 23.11596689857713,
+      "lng": 113.25418846003197
     },
     "address": "http://www.lnc.edu.cn/",
     "province": "广东省",
@@ -15482,8 +15538,8 @@ export const universityList =
   {
     "name": "山东理工职业学院(新校区)",
     "location": {
-      "lat": 35.361856,
-      "lng": 116.582395
+      "lat": 35.36209249769821,
+      "lng": 116.58567519054539
     },
     "address": "山东省济宁市任城区荷花路6号",
     "province": "山东省",
@@ -15498,8 +15554,8 @@ export const universityList =
   {
     "name": "泰山职业技术学院",
     "location": {
-      "lat": 36.228515,
-      "lng": 117.182196
+      "lat": 36.19246337378558,
+      "lng": 117.15625028436816
     },
     "address": "http://mtotc.com.cn/",
     "province": "山东省",
@@ -15514,8 +15570,8 @@ export const universityList =
   {
     "name": "伊犁师范大学",
     "location": {
-      "lat": 43.943063,
-      "lng": 81.311817
+      "lat": 43.94306327455954,
+      "lng": 81.31181715053482
     },
     "address": "https://www.ylnu.edu.cn/index.htm",
     "province": "新疆维吾尔自治区",
@@ -15530,8 +15586,8 @@ export const universityList =
   {
     "name": "普洱学院",
     "location": {
-      "lat": 22.774454,
-      "lng": 101.005894
+      "lat": 22.774454510489527,
+      "lng": 101.0058941643901
     },
     "address": "http://www.peuni.cn/",
     "province": "云南省",
@@ -15546,8 +15602,8 @@ export const universityList =
   {
     "name": "甘肃能源化工职业学院",
     "location": {
-      "lat": 36.731644,
-      "lng": 104.829289
+      "lat": 36.733078426272364,
+      "lng": 104.8307966617146
     },
     "address": "http://www.gsnyedu.cn/index.html",
     "province": "甘肃省",
@@ -15560,8 +15616,8 @@ export const universityList =
   {
     "name": "赣南医科大学(黄金校区)",
     "location": {
-      "lat": 25.780637,
-      "lng": 114.90875
+      "lat": 25.80021108099508,
+      "lng": 114.94368696770883
     },
     "address": "江西省赣州市章贡区323国道高校园区",
     "province": "江西省",
@@ -15576,8 +15632,8 @@ export const universityList =
   {
     "name": "常德职业技术学院",
     "location": {
-      "lat": 29.04149,
-      "lng": 111.648517
+      "lat": 29.041490407585567,
+      "lng": 111.64851694794092
     },
     "address": "http://www.cdzy.cn/",
     "province": "湖南省",
@@ -15592,8 +15648,8 @@ export const universityList =
   {
     "name": "玉溪师范学院",
     "location": {
-      "lat": 24.345234,
-      "lng": 102.570076
+      "lat": 24.345234445530583,
+      "lng": 102.57007626871933
     },
     "address": "http://www.yxnu.edu.cn/",
     "province": "云南省",
@@ -15608,8 +15664,8 @@ export const universityList =
   {
     "name": "湖北财税职业学院",
     "location": {
-      "lat": 30.520905,
-      "lng": 114.305173
+      "lat": 30.5209052551108,
+      "lng": 114.30517250424084
     },
     "address": "http://www.hbcszyxy.edu.cn/",
     "province": "湖北省",
@@ -15624,8 +15680,8 @@ export const universityList =
   {
     "name": "金陵科技学院(江宁校区)",
     "location": {
-      "lat": 31.910135,
-      "lng": 118.906145
+      "lat": 31.904467592401147,
+      "lng": 118.90545898019025
     },
     "address": "江苏省南京市江宁区弘景大道99号",
     "province": "江苏省",
@@ -15640,8 +15696,8 @@ export const universityList =
   {
     "name": "广东职业技术学院",
     "location": {
-      "lat": 23.005638,
-      "lng": 112.83003
+      "lat": 23.236458419801842,
+      "lng": 113.09142259829126
     },
     "address": "http://www.gdptc.cn/default.shtml",
     "province": "广东省",
@@ -15656,8 +15712,8 @@ export const universityList =
   {
     "name": "温州大学瓯江学院",
     "location": {
-      "lat": 27.936715,
-      "lng": 120.71373
+      "lat": 27.93590049779511,
+      "lng": 120.71541440136312
     },
     "address": "http://www.ojc.zj.cn/",
     "province": "浙江省",
@@ -15672,8 +15728,8 @@ export const universityList =
   {
     "name": "衡阳师范学院(东校区)",
     "location": {
-      "lat": 26.887123,
-      "lng": 112.683061
+      "lat": 26.88443407431208,
+      "lng": 112.68634178972222
     },
     "address": "衡阳市珠晖区衡花路16号",
     "province": "湖南省",
@@ -15688,8 +15744,8 @@ export const universityList =
   {
     "name": "江西新能源科技职业学院",
     "location": {
-      "lat": 27.83785,
-      "lng": 115.025606
+      "lat": 27.8378500292452,
+      "lng": 115.02560578273098
     },
     "address": "http://tynxy.fanya.chaoxing.com/portal",
     "province": "江西省",
@@ -15704,8 +15760,8 @@ export const universityList =
   {
     "name": "包头职业技术学院",
     "location": {
-      "lat": 40.650215,
-      "lng": 109.959862
+      "lat": 40.68422386642285,
+      "lng": 109.88300312277647
     },
     "address": "http://www.btvtc.cn/",
     "province": "内蒙古自治区",
@@ -15720,8 +15776,8 @@ export const universityList =
   {
     "name": "湖北第二师范学院",
     "location": {
-      "lat": 30.486322,
-      "lng": 114.45557
+      "lat": 30.48632192502958,
+      "lng": 114.45557004662118
     },
     "address": "http://www.hue.edu.cn/static/",
     "province": "湖北省",
@@ -15736,13 +15792,17 @@ export const universityList =
   {
     "name": "苏州市",
     "num": 12,
-    "index": 1002
+    "index": 1002,
+    "location": {
+      "lat": 31.303564074441766,
+      "lng": 120.59241222959322
+    }
   },
   {
     "name": "福州墨尔本理工职业学院",
     "location": {
-      "lat": 26.076895,
-      "lng": 119.168313
+      "lat": 26.076894971460668,
+      "lng": 119.16831303731715
     },
     "address": "http://www.fmp.edu.cn/",
     "province": "福建省",
@@ -15757,8 +15817,8 @@ export const universityList =
   {
     "name": "西安建筑科技大学-华清学院",
     "location": {
-      "lat": 34.252436,
-      "lng": 109.025795
+      "lat": 34.25101962373102,
+      "lng": 109.02804049433274
     },
     "address": "陕西省西安市新城区幸福南路109号",
     "province": "陕西省",
@@ -15773,8 +15833,8 @@ export const universityList =
   {
     "name": "黑龙江工商学院",
     "location": {
-      "lat": 45.876943,
-      "lng": 126.532011
+      "lat": 45.87694295516343,
+      "lng": 126.53201139593995
     },
     "address": "http://www.hgs-edu.cn/",
     "province": "黑龙江省",
@@ -15789,8 +15849,8 @@ export const universityList =
   {
     "name": "重庆城市管理职业学院(大学城校区)",
     "location": {
-      "lat": 29.583066,
-      "lng": 106.310422
+      "lat": 29.60053256314422,
+      "lng": 106.30524279492876
     },
     "address": "重庆市沙坪坝区虎溪大学城南二路151号",
     "province": "重庆市",
@@ -15805,8 +15865,8 @@ export const universityList =
   {
     "name": "宁夏职业技术学院",
     "location": {
-      "lat": 38.531163,
-      "lng": 106.148921
+      "lat": 38.53116317268244,
+      "lng": 106.14892093991429
     },
     "address": "http://www.nxtc.edu.cn/",
     "province": "宁夏回族自治区",
@@ -15821,8 +15881,8 @@ export const universityList =
   {
     "name": "河南大学(民生学院)",
     "location": {
-      "lat": 34.825581,
-      "lng": 114.306325
+      "lat": 34.825380846986484,
+      "lng": 114.37577788003628
     },
     "address": "开封市金明大道与东京大道交叉口",
     "province": "河南省",
@@ -15837,8 +15897,8 @@ export const universityList =
   {
     "name": "湖北生态工程职业技术学院",
     "location": {
-      "lat": 30.350533,
-      "lng": 114.343555
+      "lat": 30.350532982990636,
+      "lng": 114.34355503257952
     },
     "address": "http://www.hb-green.com/",
     "province": "湖北省",
@@ -15853,8 +15913,8 @@ export const universityList =
   {
     "name": "广东行政职业学院",
     "location": {
-      "lat": 23.406383,
-      "lng": 113.193022
+      "lat": 23.406382983641034,
+      "lng": 113.19302202940281
     },
     "address": "http://www.gdxzzy.cn/",
     "province": "广东省",
@@ -15869,8 +15929,8 @@ export const universityList =
   {
     "name": "唐山海运职业学院",
     "location": {
-      "lat": 39.192901,
-      "lng": 118.602207
+      "lat": 39.1929005220731,
+      "lng": 118.60220747901252
     },
     "address": null,
     "province": "河北省",
@@ -15885,8 +15945,8 @@ export const universityList =
   {
     "name": "无锡职业技术学院(高浪路)",
     "location": {
-      "lat": 31.502251,
-      "lng": 120.278627
+      "lat": 31.502250927202503,
+      "lng": 120.27862701834438
     },
     "address": "无锡市滨湖区高浪西路1600号",
     "province": "江苏省",
@@ -15901,8 +15961,8 @@ export const universityList =
   {
     "name": "河南大学(金明校区)",
     "location": {
-      "lat": 34.822891,
-      "lng": 114.316001
+      "lat": 34.82203561250629,
+      "lng": 114.36141316645679
     },
     "address": "开封市龙亭区金明大道北段",
     "province": "河南省",
@@ -15917,8 +15977,8 @@ export const universityList =
   {
     "name": "常州大学(科教城校区)",
     "location": {
-      "lat": 31.6897,
-      "lng": 119.961774
+      "lat": 31.689610251787066,
+      "lng": 119.96334451147153
     },
     "address": "江苏省常州市武进区滆湖中路21号",
     "province": "江苏省",
@@ -15933,8 +15993,8 @@ export const universityList =
   {
     "name": "云南警官学院",
     "location": {
-      "lat": 25.082211,
-      "lng": 102.697813
+      "lat": 25.082211111970093,
+      "lng": 102.69781333592388
     },
     "address": "http://www.ynpsc.edu.cn/",
     "province": "云南省",
@@ -15949,8 +16009,8 @@ export const universityList =
   {
     "name": "浙江农业商贸职业学院",
     "location": {
-      "lat": 30.076318,
-      "lng": 120.651767
+      "lat": 30.076318155310577,
+      "lng": 120.65176731701226
     },
     "address": "http://www.znszy.com/",
     "province": "浙江省",
@@ -15965,8 +16025,8 @@ export const universityList =
   {
     "name": "河南司法警官职业学院",
     "location": {
-      "lat": 34.786262,
-      "lng": 113.819631
+      "lat": 34.81317373818426,
+      "lng": 113.66653621548795
     },
     "address": "http://www.hnsfjy.net/",
     "province": "河南省",
@@ -15981,8 +16041,8 @@ export const universityList =
   {
     "name": "云南农业大学",
     "location": {
-      "lat": 25.134885,
-      "lng": 102.755738
+      "lat": 25.134562050142975,
+      "lng": 102.75558201579321
     },
     "address": "https://www.ynau.edu.cn/",
     "province": "云南省",
@@ -15997,8 +16057,8 @@ export const universityList =
   {
     "name": "运城师范高等专科学校",
     "location": {
-      "lat": 35.133867,
-      "lng": 110.924546
+      "lat": 35.1338672066188,
+      "lng": 110.92454605140638
     },
     "address": "http://www.sxycsf.com/",
     "province": "山西省",
@@ -16013,8 +16073,8 @@ export const universityList =
   {
     "name": "宁波诺丁汉大学",
     "location": {
-      "lat": 29.806395,
-      "lng": 121.56878
+      "lat": 29.806394943314636,
+      "lng": 121.5687800219893
     },
     "address": "https://www.nottingham.edu.cn/en/index.aspx",
     "province": "浙江省",
@@ -16029,8 +16089,8 @@ export const universityList =
   {
     "name": "金肯职业技术学院",
     "location": {
-      "lat": 31.690769,
-      "lng": 118.88766
+      "lat": 31.692029340506956,
+      "lng": 118.88562664029371
     },
     "address": "http://www.jku.edu.cn/",
     "province": "江苏省",
@@ -16045,8 +16105,8 @@ export const universityList =
   {
     "name": "乐山职业技术学院(新校区)",
     "location": {
-      "lat": 29.612586,
-      "lng": 103.694434
+      "lat": 29.61268952332525,
+      "lng": 103.69840278551503
     },
     "address": "四川省乐山市市中区青江路中段1336号",
     "province": "四川省",
@@ -16061,8 +16121,8 @@ export const universityList =
   {
     "name": "广西蓝天航空职业学院",
     "location": {
-      "lat": 23.783184,
-      "lng": 109.209257
+      "lat": 23.78318398420491,
+      "lng": 109.2092569991554
     },
     "address": "http://www.gxltu.edu.cn/",
     "province": "广西壮族自治区",
@@ -16077,8 +16137,8 @@ export const universityList =
   {
     "name": "温州肯恩大学",
     "location": {
-      "lat": 27.923659,
-      "lng": 120.659421
+      "lat": 27.923658633329044,
+      "lng": 120.65942149182533
     },
     "address": "http://www.wku.edu.cn/zsjy/ptbk/",
     "province": "浙江省",
@@ -16093,8 +16153,8 @@ export const universityList =
   {
     "name": "唐山学院(大学西道校区东院)",
     "location": {
-      "lat": 39.683935,
-      "lng": 118.173299
+      "lat": 39.68123158417972,
+      "lng": 118.17307022841356
     },
     "address": "唐山市路北区大学西道9号",
     "province": "河北省",
@@ -16109,8 +16169,8 @@ export const universityList =
   {
     "name": "湖南中医药高等专科学校-西校区",
     "location": {
-      "lat": 27.824362,
-      "lng": 113.185771
+      "lat": 27.82265796859286,
+      "lng": 113.18532983932342
     },
     "address": "湖南省株洲市芦淞区芦淞路136号",
     "province": "湖南省",
@@ -16125,8 +16185,8 @@ export const universityList =
   {
     "name": "贵州航天职业技术学院",
     "location": {
-      "lat": 27.723795,
-      "lng": 107.070526
+      "lat": 27.723794518876105,
+      "lng": 107.07052641626143
     },
     "address": "http://www.gzhtzy.com/web/web/web_new/index.asp?xt_bh=LDEwMywxMjIsMTA0LDExNg",
     "province": "贵州省",
@@ -16141,8 +16201,8 @@ export const universityList =
   {
     "name": "台州学院(椒江校区)",
     "location": {
-      "lat": 28.659755,
-      "lng": 121.396486
+      "lat": 28.65590826744797,
+      "lng": 121.39559606210008
     },
     "address": "浙江省台州市椒江区市府大道1139号",
     "province": "浙江省",
@@ -16157,8 +16217,8 @@ export const universityList =
   {
     "name": "安徽农业大学",
     "location": {
-      "lat": 31.868279,
-      "lng": 117.263408
+      "lat": 31.868278845350797,
+      "lng": 117.26340816051737
     },
     "address": "https://www.ahau.edu.cn/",
     "province": "安徽省",
@@ -16172,8 +16232,8 @@ export const universityList =
   {
     "name": "广西金融职业技术学院(新校区)",
     "location": {
-      "lat": 22.841052,
-      "lng": 108.19107
+      "lat": 22.838154035519956,
+      "lng": 108.19182845346307
     },
     "address": "南宁市西乡塘区大学西路168号",
     "province": "广西壮族自治区",
@@ -16188,8 +16248,8 @@ export const universityList =
   {
     "name": "四川护理职业学院",
     "location": {
-      "lat": 30.57581,
-      "lng": 104.27043
+      "lat": 30.575809763464267,
+      "lng": 104.27042991170721
     },
     "address": "http://www.cnsnvc.edu.cn/",
     "province": "四川省",
@@ -16204,8 +16264,8 @@ export const universityList =
   {
     "name": "广西警察学院(仙葫校区)",
     "location": {
-      "lat": 22.80666,
-      "lng": 108.450965
+      "lat": 22.808223712813266,
+      "lng": 108.44880455468436
     },
     "address": "广西壮族自治区南宁市青秀区军堂路6号",
     "province": "广西壮族自治区",
@@ -16220,8 +16280,8 @@ export const universityList =
   {
     "name": "浙江海洋大学东海科学技术学院",
     "location": {
-      "lat": 30.041245,
-      "lng": 122.120663
+      "lat": 30.038627448585128,
+      "lng": 122.12044894614253
     },
     "address": "http://dk.zjou.edu.cn/index.htm",
     "province": "浙江省",
@@ -16236,8 +16296,8 @@ export const universityList =
   {
     "name": "连云港职业技术学院",
     "location": {
-      "lat": 34.668765,
-      "lng": 119.248642
+      "lat": 34.66876452031344,
+      "lng": 119.2486424968808
     },
     "address": "http://www.lygtc.edu.cn/index.html",
     "province": "江苏省",
@@ -16252,8 +16312,8 @@ export const universityList =
   {
     "name": "济宁学院",
     "location": {
-      "lat": 35.554157,
-      "lng": 116.964544
+      "lat": 35.5541568776123,
+      "lng": 116.96454371395872
     },
     "address": "http://www.jnxy.edu.cn/",
     "province": "山东省",
@@ -16268,8 +16328,8 @@ export const universityList =
   {
     "name": "湖南大众传媒职业技术学院",
     "location": {
-      "lat": 28.262846,
-      "lng": 113.083601
+      "lat": 28.262845966063704,
+      "lng": 113.0836009623879
     },
     "address": "http://new.hnmmc.cn:8080/index.html",
     "province": "湖南省",
@@ -16284,8 +16344,8 @@ export const universityList =
   {
     "name": "乌兰察布医学高等专科学校",
     "location": {
-      "lat": 40.986693,
-      "lng": 113.175088
+      "lat": 40.986692835511896,
+      "lng": 113.17508809301994
     },
     "address": "",
     "province": "内蒙古自治区",
@@ -16300,8 +16360,8 @@ export const universityList =
   {
     "name": "空军工程大学",
     "location": {
-      "lat": 34.278921,
-      "lng": 109.04295
+      "lat": 34.34726881662395,
+      "lng": 108.94646555063274
     },
     "address": "4路;11路;38路;42路;105路;111路;231路;256路;270路;301路;307路;308路;401路;浐灞3号线",
     "province": "陕西省",
@@ -16314,8 +16374,8 @@ export const universityList =
   {
     "name": "大连大学",
     "location": {
-      "lat": 39.106662,
-      "lng": 121.826772
+      "lat": 39.106661548275945,
+      "lng": 121.82677212407347
     },
     "address": "http://www.dlu.edu.cn/",
     "province": "辽宁省",
@@ -16330,8 +16390,8 @@ export const universityList =
   {
     "name": "郑州体育职业学院",
     "location": {
-      "lat": 34.467056,
-      "lng": 113.011223
+      "lat": 34.467055601873845,
+      "lng": 113.0112233340951
     },
     "address": null,
     "province": "河南省",
@@ -16346,8 +16406,8 @@ export const universityList =
   {
     "name": "西安文理学院",
     "location": {
-      "lat": 34.221412,
-      "lng": 108.912655
+      "lat": 34.22141178424931,
+      "lng": 108.91265467869543
     },
     "address": "http://www.xawl.edu.cn/",
     "province": "陕西省",
@@ -16362,8 +16422,8 @@ export const universityList =
   {
     "name": "重庆化工职业学院",
     "location": {
-      "lat": 29.576416,
-      "lng": 106.530144
+      "lat": 29.576416254625467,
+      "lng": 106.53014444877412
     },
     "address": "http://www.cqhgzy.com/",
     "province": "重庆市",
@@ -16378,8 +16438,8 @@ export const universityList =
   {
     "name": "武汉文理学院",
     "location": {
-      "lat": 30.739369,
-      "lng": 114.423047
+      "lat": 30.739369100931853,
+      "lng": 114.42304680580187
     },
     "address": "http://www.jdwlxy.cn/index.html",
     "province": "湖北省",
@@ -16394,8 +16454,8 @@ export const universityList =
   {
     "name": "广东工业大学(大学城校区)",
     "location": {
-      "lat": 23.045705,
-      "lng": 113.399597
+      "lat": 23.048813649246394,
+      "lng": 113.39480740790646
     },
     "address": "广东省广州市番禺区大学城外环西路100号",
     "province": "广东省",
@@ -16410,8 +16470,8 @@ export const universityList =
   {
     "name": "江苏城乡建设职业学院",
     "location": {
-      "lat": 31.770854,
-      "lng": 119.75311
+      "lat": 31.776911938022913,
+      "lng": 119.94070155329537
     },
     "address": "http://www.js-cj.com/",
     "province": "江苏省",
@@ -16426,8 +16486,8 @@ export const universityList =
   {
     "name": "杭州科技职业技术学院",
     "location": {
-      "lat": 30.093052,
-      "lng": 119.905538
+      "lat": 30.292471270845375,
+      "lng": 120.12238779523265
     },
     "address": "http://www.hzpt.edu.cn/",
     "province": "浙江省",
@@ -16442,8 +16502,8 @@ export const universityList =
   {
     "name": "云南中医药大学",
     "location": {
-      "lat": 24.844342,
-      "lng": 102.829256
+      "lat": 24.84434200629949,
+      "lng": 102.82925600318642
     },
     "address": "http://www.ynutcm.edu.cn/",
     "province": "云南省",
@@ -16458,8 +16518,8 @@ export const universityList =
   {
     "name": "江西外语外贸职业学院(瑶湖校区)",
     "location": {
-      "lat": 28.704666,
-      "lng": 116.037826
+      "lat": 28.7017319747101,
+      "lng": 116.03711701036994
     },
     "address": "江西省南昌市南昌县天祥大道291号",
     "province": "江西省",
@@ -16474,8 +16534,8 @@ export const universityList =
   {
     "name": "中国人民解放军联勤保障部队第901医院",
     "location": {
-      "lat": 31.859206,
-      "lng": 117.253903
+      "lat": 31.858881091773288,
+      "lng": 117.25406416626367
     },
     "address": "合肥市蜀山区长江西路424号",
     "province": "安徽省",
@@ -16490,8 +16550,8 @@ export const universityList =
   {
     "name": "黑龙江艺术职业学院",
     "location": {
-      "lat": 45.733413,
-      "lng": 126.737552
+      "lat": 45.73341261771906,
+      "lng": 126.73755160171268
     },
     "address": "",
     "province": "黑龙江省",
@@ -16505,8 +16565,8 @@ export const universityList =
   {
     "name": "重庆交通大学",
     "location": {
-      "lat": 29.49464,
-      "lng": 106.577412
+      "lat": 29.494640044733433,
+      "lng": 106.57741202706583
     },
     "address": "http://www.cqjtu.edu.cn/",
     "province": "重庆市",
@@ -16521,8 +16581,8 @@ export const universityList =
   {
     "name": "重庆艺术工程职业学院",
     "location": {
-      "lat": 29.862874,
-      "lng": 106.071018
+      "lat": 29.862873998976355,
+      "lng": 106.07101798752062
     },
     "address": "http://www.cqysxy.com/",
     "province": "重庆市",
@@ -16537,8 +16597,8 @@ export const universityList =
   {
     "name": "重庆幼儿师范高等专科学校",
     "location": {
-      "lat": 30.877305,
-      "lng": 108.375087
+      "lat": 30.941821959312374,
+      "lng": 108.70959810799798
     },
     "address": "http://www.cqsxsf.com/",
     "province": "重庆市",
@@ -16553,8 +16613,8 @@ export const universityList =
   {
     "name": "哈尔滨师范大学(松北校区)",
     "location": {
-      "lat": 45.872345,
-      "lng": 126.566175
+      "lat": 45.87249961548492,
+      "lng": 126.56973564600115
     },
     "address": "哈尔滨市利民经济开发区师大路1号",
     "province": "黑龙江省",
@@ -16569,8 +16629,8 @@ export const universityList =
   {
     "name": "燕山大学(东校区)",
     "location": {
-      "lat": 39.913048,
-      "lng": 119.546011
+      "lat": 39.91111064164989,
+      "lng": 119.54390779258318
     },
     "address": "河北省秦皇岛市河北大街西段438号",
     "province": "河北省",
@@ -16585,8 +16645,8 @@ export const universityList =
   {
     "name": "山西大学商务学院-管理学院",
     "location": {
-      "lat": 37.748651,
-      "lng": 112.669237
+      "lat": 37.75004174312341,
+      "lng": 112.67085845575575
     },
     "address": "太原市小店区慎思路一品美城南侧约230米",
     "province": "山西省",
@@ -16599,8 +16659,8 @@ export const universityList =
   {
     "name": "石家庄人民医学高等专科学校",
     "location": {
-      "lat": 37.999187,
-      "lng": 114.461781
+      "lat": 37.99918703699859,
+      "lng": 114.46178102074772
     },
     "address": "http://www.sjzrmyz.com/",
     "province": "河北省",
@@ -16615,8 +16675,8 @@ export const universityList =
   {
     "name": "西安海棠职业学院",
     "location": {
-      "lat": 34.236367,
-      "lng": 109.088676
+      "lat": 34.23636694838622,
+      "lng": 109.0886756671035
     },
     "address": "http://www.xahtxy.cn/",
     "province": "陕西省",
@@ -16631,8 +16691,8 @@ export const universityList =
   {
     "name": "汕头职业技术学院",
     "location": {
-      "lat": 23.299284,
-      "lng": 116.766417
+      "lat": 23.36362298271601,
+      "lng": 116.77023204190927
     },
     "address": "http://www.stpt.edu.cn/",
     "province": "广东省",
@@ -16647,8 +16707,8 @@ export const universityList =
   {
     "name": "河南工业和信息化职业学院",
     "location": {
-      "lat": 35.203232,
-      "lng": 113.296598
+      "lat": 35.20323208248559,
+      "lng": 113.29659774714932
     },
     "address": "http://www.hciit.edu.cn/",
     "province": "河南省",
@@ -16663,8 +16723,8 @@ export const universityList =
   {
     "name": "广州城建职业学院",
     "location": {
-      "lat": 23.530535,
-      "lng": 113.616838
+      "lat": 23.53053502903484,
+      "lng": 113.61683798751231
     },
     "address": "http://www.gzccc.edu.cn/",
     "province": "广东省",
@@ -16679,8 +16739,8 @@ export const universityList =
   {
     "name": "闽南师范大学",
     "location": {
-      "lat": 24.515698,
-      "lng": 117.643042
+      "lat": 24.50022514997688,
+      "lng": 117.58533460884223
     },
     "address": "http://www.mnnu.edu.cn/",
     "province": "福建省",
@@ -16695,8 +16755,8 @@ export const universityList =
   {
     "name": "南开大学滨海学院",
     "location": {
-      "lat": 38.868211,
-      "lng": 117.456076
+      "lat": 38.86821079033927,
+      "lng": 117.45607564833084
     },
     "address": "http://binhai.nankai.edu.cn/",
     "province": "天津市",
@@ -16711,8 +16771,8 @@ export const universityList =
   {
     "name": "湖北大学知行学院",
     "location": {
-      "lat": 30.695386,
-      "lng": 114.379343
+      "lat": 30.695386102268234,
+      "lng": 114.37934343426649
     },
     "address": "http://www.hudazx.cn/",
     "province": "湖北省",
@@ -16727,8 +16787,8 @@ export const universityList =
   {
     "name": "泰山科技学院",
     "location": {
-      "lat": 36.248227,
-      "lng": 117.289707
+      "lat": 36.24816011602514,
+      "lng": 117.28914533202264
     },
     "address": "山东省泰安市岱岳区学院西路8号",
     "province": "山东省",
@@ -16743,8 +16803,8 @@ export const universityList =
   {
     "name": "济宁职业技术学院(北校区)",
     "location": {
-      "lat": 35.441271,
-      "lng": 116.598105
+      "lat": 35.44127071606961,
+      "lng": 116.5981053133786
     },
     "address": "山东省济宁市任城区金宇路77号",
     "province": "山东省",
@@ -16759,8 +16819,8 @@ export const universityList =
   {
     "name": "松原职业技术学院",
     "location": {
-      "lat": 45.179198,
-      "lng": 124.866426
+      "lat": 45.17919814229534,
+      "lng": 124.86642631935348
     },
     "address": "http://www.sypt.cn/",
     "province": "吉林省",
@@ -16775,8 +16835,8 @@ export const universityList =
   {
     "name": "赣州职业技术学院",
     "location": {
-      "lat": 25.799993,
-      "lng": 114.779158
+      "lat": 25.7999929732165,
+      "lng": 114.77915800174426
     },
     "address": null,
     "province": "江西省",
@@ -16790,8 +16850,8 @@ export const universityList =
   {
     "name": "华东交通大学理工学院(广兰大道)",
     "location": {
-      "lat": 28.711271,
-      "lng": 115.838157
+      "lat": 28.69674256832059,
+      "lng": 115.85829735120461
     },
     "address": "南昌市青山湖区经济技术开发区黄家湖东路111号",
     "province": "江西省",
@@ -16806,8 +16866,8 @@ export const universityList =
   {
     "name": "长春中医药大学",
     "location": {
-      "lat": 43.835444,
-      "lng": 125.426589
+      "lat": 43.8354443872256,
+      "lng": 125.42658934337844
     },
     "address": "http://www.ccucm.edu.cn/",
     "province": "吉林省",
@@ -16822,8 +16882,8 @@ export const universityList =
   {
     "name": "安阳工学院",
     "location": {
-      "lat": 36.071688,
-      "lng": 114.356486
+      "lat": 36.07168787770106,
+      "lng": 114.35648596073456
     },
     "address": "http://www.ayit.edu.cn/",
     "province": "河南省",
@@ -16838,8 +16898,8 @@ export const universityList =
   {
     "name": "重庆工商大学融智学院巴南校区",
     "location": {
-      "lat": 29.351652,
-      "lng": 106.533063
+      "lat": 29.351660516177844,
+      "lng": 106.53303025522398
     },
     "address": "重庆市巴南区龙洲湾街道尚文大道906号",
     "province": "重庆市",
@@ -16854,8 +16914,8 @@ export const universityList =
   {
     "name": "江西艺术职业学院(庐山中大道校区)",
     "location": {
-      "lat": 28.761787,
-      "lng": 115.865584
+      "lat": 28.760278118277594,
+      "lng": 115.86393116403913
     },
     "address": "南昌市青山湖区庐山中大道1201号",
     "province": "江西省",
@@ -16870,8 +16930,8 @@ export const universityList =
   {
     "name": "长春工业大学人文信息学院",
     "location": {
-      "lat": 43.787606,
-      "lng": 125.434653
+      "lat": 43.7876058864134,
+      "lng": 125.43465262346655
     },
     "address": "http://www.ccutchi.com/",
     "province": "吉林省",
@@ -16886,8 +16946,8 @@ export const universityList =
   {
     "name": "江苏卫生健康职业学院(浦口校区)",
     "location": {
-      "lat": 32.081803,
-      "lng": 118.617575
+      "lat": 32.0817670246409,
+      "lng": 118.6175920388375
     },
     "address": "南京浦口区黄山岭路69号",
     "province": "江苏省",
@@ -16902,8 +16962,8 @@ export const universityList =
   {
     "name": "运城学院",
     "location": {
-      "lat": 35.129643,
-      "lng": 110.938629
+      "lat": 35.12964261239425,
+      "lng": 110.93862914620851
     },
     "address": "http://www.ycu.edu.cn/",
     "province": "山西省",
@@ -16918,8 +16978,8 @@ export const universityList =
   {
     "name": "西安理工大学高科学院",
     "location": {
-      "lat": 34.522953,
-      "lng": 108.853897
+      "lat": 34.09511461818646,
+      "lng": 108.90514996497343
     },
     "address": "http://www.xthtc.com/",
     "province": "陕西省",
@@ -16933,8 +16993,8 @@ export const universityList =
   {
     "name": "重庆师范大学(大学城校区)",
     "location": {
-      "lat": 29.618613,
-      "lng": 106.307308
+      "lat": 29.617845796377107,
+      "lng": 106.3096919224571
     },
     "address": "重庆市沙坪坝区大学城中路37号",
     "province": "重庆市",
@@ -16949,8 +17009,8 @@ export const universityList =
   {
     "name": "广西电力职业技术学院(科园校区)",
     "location": {
-      "lat": 22.857556,
-      "lng": 108.27636
+      "lat": 22.856404776158566,
+      "lng": 108.2779332823298
     },
     "address": "广西南宁市科园大道39号",
     "province": "广西壮族自治区",
@@ -16965,8 +17025,8 @@ export const universityList =
   {
     "name": "新疆天山职业技术大学",
     "location": {
-      "lat": 43.805543,
-      "lng": 87.726705
+      "lat": 43.80027135831345,
+      "lng": 87.63840777756565
     },
     "address": "http://www.xjtsxy.cn/",
     "province": "新疆维吾尔自治区",
@@ -16981,8 +17041,8 @@ export const universityList =
   {
     "name": "四川电力职业技术学院",
     "location": {
-      "lat": 30.669681,
-      "lng": 104.041644
+      "lat": 30.66968108073273,
+      "lng": 104.0416439847624
     },
     "address": "",
     "province": "四川省",
@@ -16997,8 +17057,8 @@ export const universityList =
   {
     "name": "正德职业技术学院",
     "location": {
-      "lat": 31.947136,
-      "lng": 118.790004
+      "lat": 31.947136001704497,
+      "lng": 118.79000399502868
     },
     "address": "http://zd.nuaa.edu.cn/",
     "province": "江苏省",
@@ -17013,8 +17073,8 @@ export const universityList =
   {
     "name": "师范大学漓江学院",
     "location": {
-      "lat": 25.101094,
-      "lng": 110.28448
+      "lat": 25.101196777082855,
+      "lng": 110.28478848419721
     },
     "address": "桂林市雁山区X103桂林学院",
     "province": "广西壮族自治区",
@@ -17027,8 +17087,8 @@ export const universityList =
   {
     "name": "川南幼儿师范高等专科学校",
     "location": {
-      "lat": 29.358663,
-      "lng": 105.263691
+      "lat": 29.35866305624573,
+      "lng": 105.26369097341835
     },
     "address": "http://www.cnyz.edu.cn/",
     "province": "四川省",
@@ -17043,8 +17103,8 @@ export const universityList =
   {
     "name": "郑州亚欧交通职业学院",
     "location": {
-      "lat": 34.746458,
-      "lng": 113.659273
+      "lat": 34.74645805499078,
+      "lng": 113.65927323577868
     },
     "address": null,
     "province": "河南省",
@@ -17059,8 +17119,8 @@ export const universityList =
   {
     "name": "江西制造职业技术学院(艾溪湖校区)",
     "location": {
-      "lat": 28.677872,
-      "lng": 116.009906
+      "lat": 28.68017111346016,
+      "lng": 116.00996383989825
     },
     "address": "江西省南昌市南昌县紫阳大道318号",
     "province": "江西省",
@@ -17075,8 +17135,8 @@ export const universityList =
   {
     "name": "西昌学院(安宁校区)",
     "location": {
-      "lat": 27.952339,
-      "lng": 102.219489
+      "lat": 27.952347615575903,
+      "lng": 102.2203006269899
     },
     "address": "四川省凉山彝族自治州西昌市安宁镇学府路1号",
     "province": "四川省",
@@ -17091,8 +17151,8 @@ export const universityList =
   {
     "name": "中华职业学校",
     "location": {
-      "lat": 31.207187,
-      "lng": 121.479294
+      "lat": 31.207732978475473,
+      "lng": 121.47909393576371
     },
     "address": "上海市黄浦区斜土路716号",
     "province": "上海市",
@@ -17107,8 +17167,8 @@ export const universityList =
   {
     "name": "吉林外国语大学",
     "location": {
-      "lat": 43.828053,
-      "lng": 125.451969
+      "lat": 43.88218097313332,
+      "lng": 125.37475774426656
     },
     "address": "http://www.hqwy.com/",
     "province": "吉林省",
@@ -17123,8 +17183,8 @@ export const universityList =
   {
     "name": "深圳北理莫斯科大学",
     "location": {
-      "lat": 22.685235,
-      "lng": 114.212304
+      "lat": 22.685234993802336,
+      "lng": 114.2123039590227
     },
     "address": "http://www.szmsubit.edu.cn/index.htm",
     "province": "广东省",
@@ -17139,8 +17199,8 @@ export const universityList =
   {
     "name": "中南林业科技大学涉外学院",
     "location": {
-      "lat": 28.364756,
-      "lng": 112.917244
+      "lat": 28.364755992946336,
+      "lng": 112.91724403454171
     },
     "address": "http://swxy.csuft.edu.cn/",
     "province": "湖南省",
@@ -17155,8 +17215,8 @@ export const universityList =
   {
     "name": "南京审计大学(浦口校区)",
     "location": {
-      "lat": 32.068569,
-      "lng": 118.614913
+      "lat": 32.06929352904321,
+      "lng": 118.61813515434883
     },
     "address": "南京市浦口区雨山西路86号",
     "province": "江苏省",
@@ -17171,8 +17231,8 @@ export const universityList =
   {
     "name": "苏州卫生职业技术学院(石湖校区)",
     "location": {
-      "lat": 31.267099,
-      "lng": 120.591798
+      "lat": 31.264470733427714,
+      "lng": 120.59224173120742
     },
     "address": "江苏省苏州市虎丘区科华路28号",
     "province": "江苏省",
@@ -17187,8 +17247,8 @@ export const universityList =
   {
     "name": "私立华联学院",
     "location": {
-      "lat": 23.164577,
-      "lng": 113.41152
+      "lat": 23.16457732349601,
+      "lng": 113.41152038191407
     },
     "address": "http://www.hlu.edu.cn/hlu2015/index2015.aspx",
     "province": "广东省",
@@ -17203,8 +17263,8 @@ export const universityList =
   {
     "name": "内蒙古能源职业学院",
     "location": {
-      "lat": 40.909672,
-      "lng": 111.776022
+      "lat": 40.90967166181456,
+      "lng": 111.77602208667422
     },
     "address": "http://www.nmpower.cn/",
     "province": "内蒙古自治区",
@@ -17218,8 +17278,8 @@ export const universityList =
   {
     "name": "浙江农林大学暨阳学院",
     "location": {
-      "lat": 29.75581,
-      "lng": 120.26099
+      "lat": 29.755810183907876,
+      "lng": 120.26099012030005
     },
     "address": "http://www.zjyc.edu.cn/",
     "province": "浙江省",
@@ -17234,8 +17294,8 @@ export const universityList =
   {
     "name": "武汉民政职业学院",
     "location": {
-      "lat": 30.515443,
-      "lng": 114.385001
+      "lat": 30.51544278374567,
+      "lng": 114.38500123185999
     },
     "address": "http://www.whmzxy.cn/",
     "province": "湖北省",
@@ -17250,8 +17310,8 @@ export const universityList =
   {
     "name": "江苏农林职业技术学院",
     "location": {
-      "lat": 31.964258,
-      "lng": 119.178279
+      "lat": 31.96425799231854,
+      "lng": 119.1782790347592
     },
     "address": "http://www.jsafc.edu.cn/",
     "province": "江苏省",
@@ -17266,8 +17326,8 @@ export const universityList =
   {
     "name": "江西理工大学应用科学学院(黄金校区)",
     "location": {
-      "lat": 25.843797,
-      "lng": 114.924247
+      "lat": 25.841217399126318,
+      "lng": 114.92507075381785
     },
     "address": "江西省赣州市章贡区客家大道156号",
     "province": "江西省",
@@ -17281,8 +17341,8 @@ export const universityList =
   {
     "name": "登云科技职业学院",
     "location": {
-      "lat": 31.396734,
-      "lng": 120.898403
+      "lat": 31.396733914129904,
+      "lng": 120.89840302359308
     },
     "address": "江苏省苏州市昆山市马鞍山西路1058号",
     "province": "江苏省",
@@ -17297,8 +17357,8 @@ export const universityList =
   {
     "name": "西北大学(长安校区)",
     "location": {
-      "lat": 34.150915,
-      "lng": 108.881104
+      "lat": 34.15091549849437,
+      "lng": 108.88110385359069
     },
     "address": "陕西省西安市长安区学府大道1号",
     "province": "陕西省",
@@ -17313,8 +17373,8 @@ export const universityList =
   {
     "name": "西藏藏医药大学",
     "location": {
-      "lat": 29.671583,
-      "lng": 91.134205
+      "lat": 29.660331037557548,
+      "lng": 91.27224525658399
     },
     "address": "http://www.ttmc.edu.cn/",
     "province": "西藏自治区",
@@ -17329,8 +17389,8 @@ export const universityList =
   {
     "name": "常州信息职业技术学院",
     "location": {
-      "lat": 31.683938,
-      "lng": 119.96101
+      "lat": 31.683937706450756,
+      "lng": 119.9610098154511
     },
     "address": "http://www.ccit.js.cn/",
     "province": "江苏省",
@@ -17345,8 +17405,8 @@ export const universityList =
   {
     "name": "广西建设职业技术学院(相思湖校区)",
     "location": {
-      "lat": 22.850202,
-      "lng": 108.225049
+      "lat": 22.847824787926402,
+      "lng": 108.22532949981891
     },
     "address": "南宁市西乡塘区罗文大道33号",
     "province": "广西壮族自治区",
@@ -17361,8 +17421,8 @@ export const universityList =
   {
     "name": "新疆警察学院",
     "location": {
-      "lat": 43.898322,
-      "lng": 87.574852
+      "lat": 43.898322471800356,
+      "lng": 87.5748521237514
     },
     "address": "http://www.xjpcedu.cn/",
     "province": "新疆维吾尔自治区",
@@ -17376,8 +17436,8 @@ export const universityList =
   {
     "name": "常州工程职业技术学院",
     "location": {
-      "lat": 31.689954,
-      "lng": 119.95297
+      "lat": 31.68995368898923,
+      "lng": 119.95297025062845
     },
     "address": "http://www.czie.edu.cn/",
     "province": "江苏省",
@@ -17392,8 +17452,8 @@ export const universityList =
   {
     "name": "贵州民用航空职业学院",
     "location": {
-      "lat": 26.405236,
-      "lng": 106.155875
+      "lat": 26.405236460956367,
+      "lng": 106.1558745310511
     },
     "address": null,
     "province": "贵州省",
@@ -17407,8 +17467,8 @@ export const universityList =
   {
     "name": "大连医科大学",
     "location": {
-      "lat": 38.810167,
-      "lng": 121.32138
+      "lat": 38.810167054418436,
+      "lng": 121.32137996449624
     },
     "address": "http://www.dlmedu.edu.cn/",
     "province": "辽宁省",
@@ -17423,8 +17483,8 @@ export const universityList =
   {
     "name": "东北财经大学",
     "location": {
-      "lat": 38.884545,
-      "lng": 121.557927
+      "lat": 38.88614713673786,
+      "lng": 121.54687899158004
     },
     "address": "http://www.dufe.edu.cn/",
     "province": "辽宁省",
@@ -17439,8 +17499,8 @@ export const universityList =
   {
     "name": "厦门兴才学院",
     "location": {
-      "lat": 24.619495,
-      "lng": 118.044296
+      "lat": 24.621554147979808,
+      "lng": 118.04448972604149
     },
     "address": "福建省厦门市集美区兴溪路879-889号",
     "province": "福建省",
@@ -17455,8 +17515,8 @@ export const universityList =
   {
     "name": "昌吉学院",
     "location": {
-      "lat": 44.024988,
-      "lng": 87.260561
+      "lat": 44.02498815118886,
+      "lng": 87.26056098683935
     },
     "address": "http://www.cjc.edu.cn/",
     "province": "新疆维吾尔自治区",
@@ -17471,8 +17531,8 @@ export const universityList =
   {
     "name": "河套学院(新校区)",
     "location": {
-      "lat": 40.724389,
-      "lng": 107.461084
+      "lat": 40.72401766207964,
+      "lng": 107.468440286571
     },
     "address": "内蒙古自治区巴彦淖尔市临河区三封路内蒙古美术职业学院西100米",
     "province": "内蒙古自治区",
@@ -17486,8 +17546,8 @@ export const universityList =
   {
     "name": "天府新区航空旅游职业学院",
     "location": {
-      "lat": 30.343558,
-      "lng": 103.92762
+      "lat": 30.343558377650304,
+      "lng": 103.92761973078657
     },
     "address": null,
     "province": "四川省",
@@ -17502,8 +17562,8 @@ export const universityList =
   {
     "name": "阿勒泰职业技术学院",
     "location": {
-      "lat": 47.775235,
-      "lng": 88.14191
+      "lat": 47.775235253305375,
+      "lng": 88.1419097127516
     },
     "address": null,
     "province": "新疆维吾尔自治区",
@@ -17517,8 +17577,8 @@ export const universityList =
   {
     "name": "太原理工大学现代科技学院(虎峪校区)",
     "location": {
-      "lat": 37.860831,
-      "lng": 112.528918
+      "lat": 37.860818106269434,
+      "lng": 112.52880075657748
     },
     "address": "山西省太原市万柏林区新矿院路18号",
     "province": "山西省",
@@ -17533,8 +17593,8 @@ export const universityList =
   {
     "name": "内蒙古建筑职业技术学院(北校区)",
     "location": {
-      "lat": 40.879276,
-      "lng": 111.641129
+      "lat": 40.88310745481485,
+      "lng": 111.63554444221
     },
     "address": "呼和浩特市回民区青少年生态园南侧",
     "province": "内蒙古自治区",
@@ -17549,8 +17609,8 @@ export const universityList =
   {
     "name": "江阴职业技术学院",
     "location": {
-      "lat": 31.879355,
-      "lng": 120.252103
+      "lat": 31.879355016363814,
+      "lng": 120.25210302104293
     },
     "address": "http://www.jypc.org/",
     "province": "江苏省",
@@ -17565,8 +17625,8 @@ export const universityList =
   {
     "name": "青岛农业大学海都学院",
     "location": {
-      "lat": 36.992551,
-      "lng": 120.730793
+      "lat": 36.992550928115854,
+      "lng": 120.73079260018328
     },
     "address": "http://www.hdxy.edu.cn/",
     "province": "山东省",
@@ -17581,8 +17641,8 @@ export const universityList =
   {
     "name": "西安航空职业技术学院(东校区)",
     "location": {
-      "lat": 34.659825,
-      "lng": 109.251281
+      "lat": 34.661776361305115,
+      "lng": 109.25207636140188
     },
     "address": "陕西省西安市阎良区农飞路8号",
     "province": "陕西省",
@@ -17597,8 +17657,8 @@ export const universityList =
   {
     "name": "浙江育英职业技术学院",
     "location": {
-      "lat": 30.311075,
-      "lng": 120.358136
+      "lat": 30.311075343261034,
+      "lng": 120.3581363085242
     },
     "address": "http://www.zjyyc.com/",
     "province": "浙江省",
@@ -17613,8 +17673,8 @@ export const universityList =
   {
     "name": "山东海事职业学院",
     "location": {
-      "lat": 37.089164,
-      "lng": 119.199503
+      "lat": 37.089163642351565,
+      "lng": 119.19950284989069
     },
     "address": "http://www.sdm.net.cn/",
     "province": "山东省",
@@ -17629,8 +17689,8 @@ export const universityList =
   {
     "name": "西南医科大学(忠山校区)",
     "location": {
-      "lat": 28.890489,
-      "lng": 105.451069
+      "lat": 28.889929728654813,
+      "lng": 105.45203249132518
     },
     "address": "泸州市江阳区忠山隧道与忠山路三段交叉路口往西北约50米",
     "province": "四川省",
@@ -17645,8 +17705,8 @@ export const universityList =
   {
     "name": "山西铁道职业技术学院",
     "location": {
-      "lat": 37.886867,
-      "lng": 112.621381
+      "lat": 37.84572051084124,
+      "lng": 112.58500036623161
     },
     "address": "http://www.sxqgzy.cn/",
     "province": "山西省",
@@ -17661,8 +17721,8 @@ export const universityList =
   {
     "name": "沈阳工学院",
     "location": {
-      "lat": 41.849276,
-      "lng": 123.724188
+      "lat": 41.84927562726085,
+      "lng": 123.72418793412037
     },
     "address": "http://www.situ.edu.cn/gw.do?action=index",
     "province": "辽宁省",
@@ -17677,8 +17737,8 @@ export const universityList =
   {
     "name": "北部湾大学",
     "location": {
-      "lat": 21.904202,
-      "lng": 108.622482
+      "lat": 21.904201969925296,
+      "lng": 108.62248204362061
     },
     "address": "https://www.bbgu.edu.cn/",
     "province": "广西壮族自治区",
@@ -17693,8 +17753,8 @@ export const universityList =
   {
     "name": "广东东软学院",
     "location": {
-      "lat": 23.143497,
-      "lng": 113.030647
+      "lat": 23.143496986528614,
+      "lng": 113.03064702038937
     },
     "address": "http://www.nuit.edu.cn/",
     "province": "广东省",
@@ -17709,8 +17769,8 @@ export const universityList =
   {
     "name": "信阳学院",
     "location": {
-      "lat": 32.149386,
-      "lng": 114.043999
+      "lat": 32.149386057797905,
+      "lng": 114.04399898060873
     },
     "address": "http://www.xyu.edu.cn/",
     "province": "河南省",
@@ -17725,8 +17785,8 @@ export const universityList =
   {
     "name": "郑州卫生健康职业学院",
     "location": {
-      "lat": 34.723515,
-      "lng": 113.419059
+      "lat": 34.72351502465638,
+      "lng": 113.41905852715266
     },
     "address": null,
     "province": "河南省",
@@ -17741,8 +17801,8 @@ export const universityList =
   {
     "name": "广州南洋理工职业学院",
     "location": {
-      "lat": 23.586677,
-      "lng": 113.621743
+      "lat": 23.586676529713763,
+      "lng": 113.62174336440903
     },
     "address": "http://www.nyjy.cn/",
     "province": "广东省",
@@ -17757,8 +17817,8 @@ export const universityList =
   {
     "name": "衢州职业技术学院",
     "location": {
-      "lat": 28.983239,
-      "lng": 118.873726
+      "lat": 28.983238856441666,
+      "lng": 118.87372560304992
     },
     "address": "http://www.qzct.net/",
     "province": "浙江省",
@@ -17773,8 +17833,8 @@ export const universityList =
   {
     "name": "湖南软件职业学院(本科)",
     "location": {
-      "lat": 27.912716,
-      "lng": 112.937142
+      "lat": 27.912715673242552,
+      "lng": 112.93714222022555
     },
     "address": "湖南省湘潭市湘潭经济技术开发区开源路25号",
     "province": "湖南省",
@@ -17789,8 +17849,8 @@ export const universityList =
   {
     "name": "湖北理工学院",
     "location": {
-      "lat": 30.213857,
-      "lng": 115.033353
+      "lat": 30.213856780665598,
+      "lng": 115.0333529641949
     },
     "address": "http://www.hbpu.edu.cn/",
     "province": "湖北省",
@@ -17805,8 +17865,8 @@ export const universityList =
   {
     "name": "武汉科技职业学院",
     "location": {
-      "lat": 30.608859,
-      "lng": 114.368557
+      "lat": 30.60885851819259,
+      "lng": 114.36855748000818
     },
     "address": "http://www.whuvt.com/",
     "province": "湖北省",
@@ -17821,8 +17881,8 @@ export const universityList =
   {
     "name": "广州体育职业技术学院",
     "location": {
-      "lat": 23.171134,
-      "lng": 113.365188
+      "lat": 23.17113398609906,
+      "lng": 113.36518802948848
     },
     "address": "http://www.gztzy.edu.cn/",
     "province": "广东省",
@@ -17837,8 +17897,8 @@ export const universityList =
   {
     "name": "甘肃建筑职业技术学院",
     "location": {
-      "lat": 36.056162,
-      "lng": 103.768672
+      "lat": 36.056162114056576,
+      "lng": 103.76867229622336
     },
     "address": "",
     "province": "甘肃省",
@@ -17853,8 +17913,8 @@ export const universityList =
   {
     "name": "福建船政交通职业学院",
     "location": {
-      "lat": 26.033675,
-      "lng": 119.318408
+      "lat": 26.024919242018647,
+      "lng": 119.31998877855754
     },
     "address": "http://www.fjcpc.edu.cn/",
     "province": "福建省",
@@ -17869,8 +17929,8 @@ export const universityList =
   {
     "name": "湖南理工职业技术学院",
     "location": {
-      "lat": 27.844053,
-      "lng": 112.928279
+      "lat": 27.84405305893049,
+      "lng": 112.92827926857538
     },
     "address": "http://www.xlgy.com/",
     "province": "湖南省",
@@ -17885,8 +17945,8 @@ export const universityList =
   {
     "name": "保山学院",
     "location": {
-      "lat": 25.140959,
-      "lng": 99.16799
+      "lat": 25.140959285886,
+      "lng": 99.1679902865114
     },
     "address": "http://www.bsnc.cn/",
     "province": "云南省",
@@ -17901,8 +17961,8 @@ export const universityList =
   {
     "name": "潞安职业技术学院",
     "location": {
-      "lat": 36.447193,
-      "lng": 112.997362
+      "lat": 36.447192998014316,
+      "lng": 112.99736248007615
     },
     "address": "http://lazyjsxy.net/",
     "province": "山西省",
@@ -17917,8 +17977,8 @@ export const universityList =
   {
     "name": "曹妃甸大学城唐山工业职业技术学院",
     "location": {
-      "lat": 39.206791,
-      "lng": 118.57507
+      "lat": 39.20676298317826,
+      "lng": 118.57501819665036
     },
     "address": "唐山市曹妃甸区渤海大道25号",
     "province": "河北省",
@@ -17933,8 +17993,8 @@ export const universityList =
   {
     "name": "南昌工学院",
     "location": {
-      "lat": 28.616218,
-      "lng": 115.766123
+      "lat": 28.695855252419573,
+      "lng": 116.03749241224243
     },
     "address": "http://www.ncpu.edu.cn/index.php?9",
     "province": "江西省",
@@ -17949,8 +18009,8 @@ export const universityList =
   {
     "name": "宁波大学科学技术学院",
     "location": {
-      "lat": 30.191213,
-      "lng": 121.302975
+      "lat": 30.218767386060378,
+      "lng": 121.1560853726912
     },
     "address": "http://www.nbu.edu.cn/",
     "province": "浙江省",
@@ -17965,8 +18025,8 @@ export const universityList =
   {
     "name": "岭南师范学院(寸金校区)",
     "location": {
-      "lat": 21.275264,
-      "lng": 110.353396
+      "lat": 21.277347465513053,
+      "lng": 110.35546806000444
     },
     "address": "广东省湛江市赤坎区寸金路29号",
     "province": "广东省",
@@ -17981,8 +18041,8 @@ export const universityList =
   {
     "name": "九江学院(主校区)",
     "location": {
-      "lat": 29.685495,
-      "lng": 116.018822
+      "lat": 29.680347934187665,
+      "lng": 116.01222577317162
     },
     "address": "九江市濂溪区前进东路551号",
     "province": "江西省",
@@ -17997,8 +18057,8 @@ export const universityList =
   {
     "name": "四川幼儿师范高等专科学校(绵阳校区)",
     "location": {
-      "lat": 31.524898,
-      "lng": 104.674308
+      "lat": 31.523983986679593,
+      "lng": 104.67262266819546
     },
     "address": "四川省绵阳市涪城区教育中路16号",
     "province": "四川省",
@@ -18013,8 +18073,8 @@ export const universityList =
   {
     "name": "河西学院",
     "location": {
-      "lat": 38.95486,
-      "lng": 100.447348
+      "lat": 38.95418815815691,
+      "lng": 100.44913717569764
     },
     "address": "https://www10.hxu.edu.cn/",
     "province": "甘肃省",
@@ -18029,8 +18089,8 @@ export const universityList =
   {
     "name": "南京信息职业技术学院",
     "location": {
-      "lat": 32.134965,
-      "lng": 118.948207
+      "lat": 32.134965349840314,
+      "lng": 118.94820700381577
     },
     "address": "http://www.njcit.cn/",
     "province": "江苏省",
@@ -18045,8 +18105,8 @@ export const universityList =
   {
     "name": "内蒙古电子信息职业技术学院",
     "location": {
-      "lat": 40.903691,
-      "lng": 111.8569
+      "lat": 40.903690959740885,
+      "lng": 111.85690003512903
     },
     "address": "http://www.imeic.cn/default.html",
     "province": "内蒙古自治区",
@@ -18061,8 +18121,8 @@ export const universityList =
   {
     "name": "宿迁职业技术学院",
     "location": {
-      "lat": 34.026782,
-      "lng": 118.29623
+      "lat": 34.02678207387334,
+      "lng": 118.29622997993421
     },
     "address": "http://www.sqzyxy.com/index.html",
     "province": "江苏省",
@@ -18077,8 +18137,8 @@ export const universityList =
   {
     "name": "河南农业大学",
     "location": {
-      "lat": 34.792213,
-      "lng": 113.669352
+      "lat": 34.792212994270145,
+      "lng": 113.66935204393954
     },
     "address": "http://www.henau.edu.cn/",
     "province": "河南省",
@@ -18093,8 +18153,8 @@ export const universityList =
   {
     "name": "江西建设职业技术学院",
     "location": {
-      "lat": 28.577994,
-      "lng": 115.888719
+      "lat": 28.57799431046484,
+      "lng": 115.88871945542603
     },
     "address": "http://www.jxjsxy.com/index_v.aspx",
     "province": "江西省",
@@ -18109,8 +18169,8 @@ export const universityList =
   {
     "name": "湖南石油化工职业技术学院(新校区)",
     "location": {
-      "lat": 29.268576,
-      "lng": 113.171441
+      "lat": 29.26779511535638,
+      "lng": 113.17373280502399
     },
     "address": "湖南省岳阳市岳阳县湘北大道188号",
     "province": "湖南省",
@@ -18124,8 +18184,8 @@ export const universityList =
   {
     "name": "湖北开放职业学院",
     "location": {
-      "lat": 30.505522,
-      "lng": 114.404273
+      "lat": 30.650375469217288,
+      "lng": 114.40944107054776
     },
     "address": "http://www.hbou.cn/index.html",
     "province": "湖北省",
@@ -18140,8 +18200,8 @@ export const universityList =
   {
     "name": "无锡商业职业技术学院(九龙校区)",
     "location": {
-      "lat": 31.567127,
-      "lng": 120.179885
+      "lat": 31.567113353912674,
+      "lng": 120.17920714585814
     },
     "address": "无锡市滨湖区钱胡路809号",
     "province": "江苏省",
@@ -18156,8 +18216,8 @@ export const universityList =
   {
     "name": "曲靖职业技术学院",
     "location": {
-      "lat": 25.539913,
-      "lng": 103.830432
+      "lat": 25.539913011218413,
+      "lng": 103.83043195644484
     },
     "address": null,
     "province": "云南省",
@@ -18172,8 +18232,8 @@ export const universityList =
   {
     "name": "东华理工大学(南昌校区)",
     "location": {
-      "lat": 28.724024,
-      "lng": 115.832777
+      "lat": 28.72450160867964,
+      "lng": 115.83556321502671
     },
     "address": "江西省南昌市经开区广兰大道418号",
     "province": "江西省",
@@ -18188,8 +18248,8 @@ export const universityList =
   {
     "name": "内蒙古交通职业技术学院",
     "location": {
-      "lat": 42.278204,
-      "lng": 118.898637
+      "lat": 42.27820380992187,
+      "lng": 118.8986366193336
     },
     "address": "http://www.nmjtzy.com/",
     "province": "内蒙古自治区",
@@ -18204,8 +18264,8 @@ export const universityList =
   {
     "name": "四川应用技术职业学院",
     "location": {
-      "lat": 27.90511,
-      "lng": 102.205468
+      "lat": 26.659465171977693,
+      "lng": 102.24499010477072
     },
     "address": "http://www.sccas.edu.cn/",
     "province": "四川省",
@@ -18219,8 +18279,8 @@ export const universityList =
   {
     "name": "江苏第二师范学院(石湫校区)",
     "location": {
-      "lat": 31.631484,
-      "lng": 118.90971
+      "lat": 31.63613831397717,
+      "lng": 118.90921317857755
     },
     "address": "江苏省南京市石湫街道新河西路6号",
     "province": "江苏省",
@@ -18235,8 +18295,8 @@ export const universityList =
   {
     "name": "浙江大学(紫金港校区)",
     "location": {
-      "lat": 30.308304,
-      "lng": 120.092406
+      "lat": 30.315792112156775,
+      "lng": 120.09499917887784
     },
     "address": "杭州市西湖区余杭塘路866号",
     "province": "浙江省",
@@ -18251,8 +18311,8 @@ export const universityList =
   {
     "name": "广西物流职业技术学院",
     "location": {
-      "lat": 23.052155,
-      "lng": 109.551659
+      "lat": 23.051623050861267,
+      "lng": 109.55614395985735
     },
     "address": null,
     "province": "广西壮族自治区",
@@ -18266,8 +18326,8 @@ export const universityList =
   {
     "name": "长江艺术工程职业学院",
     "location": {
-      "lat": 30.448587,
-      "lng": 112.220966
+      "lat": 30.448586805988924,
+      "lng": 112.22096601085731
     },
     "address": "http://www.cjchuanxi.com/index.aspx",
     "province": "湖北省",
@@ -18282,8 +18342,8 @@ export const universityList =
   {
     "name": "常熟理工学院(东湖校区)",
     "location": {
-      "lat": 31.614752,
-      "lng": 120.743012
+      "lat": 31.618958448796597,
+      "lng": 120.74308438396797
     },
     "address": "江苏省苏州市常熟市南三环路99号",
     "province": "江苏省",
@@ -18298,8 +18358,8 @@ export const universityList =
   {
     "name": "湖北民族大学科技学院",
     "location": {
-      "lat": 30.297554,
-      "lng": 109.518978
+      "lat": 30.30388299067514,
+      "lng": 109.50803243680147
     },
     "address": "http://www.hbmykjxy.cn/",
     "province": "湖北省",
@@ -18314,8 +18374,8 @@ export const universityList =
   {
     "name": "黑龙江交通职业技术学院(哈尔滨校区)",
     "location": {
-      "lat": 45.878008,
-      "lng": 126.527603
+      "lat": 45.88177424431655,
+      "lng": 126.50341545697954
     },
     "address": "黑龙江省哈尔滨市呼兰区学院路88号",
     "province": "黑龙江省",
@@ -18330,8 +18390,8 @@ export const universityList =
   {
     "name": "河北工程大学科信学院",
     "location": {
-      "lat": 36.577829,
-      "lng": 114.515134
+      "lat": 36.57782917756633,
+      "lng": 114.51513434939349
     },
     "address": "http://kexin.hebeu.edu.cn/",
     "province": "河北省",
@@ -18346,8 +18406,8 @@ export const universityList =
   {
     "name": "厦门南洋职业学院",
     "location": {
-      "lat": 24.606617,
-      "lng": 118.2595
+      "lat": 24.606616956181593,
+      "lng": 118.25949977859753
     },
     "address": "http://www.ny2000.com/",
     "province": "福建省",
@@ -18362,8 +18422,8 @@ export const universityList =
   {
     "name": "贵州中医药大学时珍学院",
     "location": {
-      "lat": 26.828014,
-      "lng": 106.610018
+      "lat": 26.828223401677196,
+      "lng": 106.60761844813437
     },
     "address": "http://szxy.gyctcm.edu.cn/",
     "province": "贵州省",
@@ -18376,8 +18436,8 @@ export const universityList =
   {
     "name": "陕西航空职业技术学院-北门",
     "location": {
-      "lat": 33.029666,
-      "lng": 107.033992
+      "lat": 33.02508067636026,
+      "lng": 107.02913116336035
     },
     "address": "汉中市南郑区陕航北门道路",
     "province": "陕西省",
@@ -18390,8 +18450,8 @@ export const universityList =
   {
     "name": "三明学院",
     "location": {
-      "lat": 26.1988,
-      "lng": 117.570982
+      "lat": 26.198799995571132,
+      "lng": 117.57098202239185
     },
     "address": "http://www.fjsmu.cn/",
     "province": "福建省",
@@ -18406,8 +18466,8 @@ export const universityList =
   {
     "name": "南京信息工程大学",
     "location": {
-      "lat": 32.209229,
-      "lng": 118.721777
+      "lat": 32.209228967531224,
+      "lng": 118.72177652374869
     },
     "address": "https://www.nuist.edu.cn/",
     "province": "江苏省",
@@ -18422,8 +18482,8 @@ export const universityList =
   {
     "name": "长沙理工大学(云塘校区)",
     "location": {
-      "lat": 28.073469,
-      "lng": 113.015628
+      "lat": 28.087700665196124,
+      "lng": 113.04132679493286
     },
     "address": "湖南省长沙市天心区万家丽南路二段960号",
     "province": "湖南省",
@@ -18438,8 +18498,8 @@ export const universityList =
   {
     "name": "黑龙江中医药大学",
     "location": {
-      "lat": 45.732555,
-      "lng": 126.654805
+      "lat": 45.77018259717172,
+      "lng": 126.64790574232717
     },
     "address": "http://www.hljucm.net/",
     "province": "黑龙江省",
@@ -18454,8 +18514,8 @@ export const universityList =
   {
     "name": "江苏财经职业技术学院",
     "location": {
-      "lat": 33.557247,
-      "lng": 119.066645
+      "lat": 33.55724707363176,
+      "lng": 119.06664499208432
     },
     "address": "http://www.jscjxy.cn/",
     "province": "江苏省",
@@ -18470,8 +18530,8 @@ export const universityList =
   {
     "name": "南京传媒学院",
     "location": {
-      "lat": 31.891205,
-      "lng": 118.895612
+      "lat": 31.891205346078408,
+      "lng": 118.89561202468151
     },
     "address": "http://www.cucn.edu.cn/",
     "province": "江苏省",
@@ -18486,8 +18546,8 @@ export const universityList =
   {
     "name": "眉山职业技术学院",
     "location": {
-      "lat": 30.072047,
-      "lng": 103.893731
+      "lat": 30.072047192547494,
+      "lng": 103.89373115542266
     },
     "address": "http://www.msvtc.net/",
     "province": "四川省",
@@ -18501,8 +18561,8 @@ export const universityList =
   {
     "name": "湖北文理学院",
     "location": {
-      "lat": 32.006294,
-      "lng": 112.048585
+      "lat": 32.06937599118176,
+      "lng": 112.1502756553606
     },
     "address": "http://www.hbuas.edu.cn/",
     "province": "湖北省",
@@ -18517,8 +18577,8 @@ export const universityList =
   {
     "name": "成都锦城学院",
     "location": {
-      "lat": 30.731225,
-      "lng": 103.956421
+      "lat": 30.729860678347634,
+      "lng": 103.95714092442208
     },
     "address": "四川省成都市高新西区西源大道1号",
     "province": "四川省",
@@ -18533,8 +18593,8 @@ export const universityList =
   {
     "name": "苏州信息职业技术学院",
     "location": {
-      "lat": 31.140909,
-      "lng": 120.6397
+      "lat": 31.14090881911269,
+      "lng": 120.63970001977452
     },
     "address": "http://szitu.cn/",
     "province": "江苏省",
@@ -18549,8 +18609,8 @@ export const universityList =
   {
     "name": "昭通卫生职业学院",
     "location": {
-      "lat": 27.39259,
-      "lng": 103.758552
+      "lat": 27.39258996050967,
+      "lng": 103.75855197498502
     },
     "address": "",
     "province": "云南省",
@@ -18565,8 +18625,8 @@ export const universityList =
   {
     "name": "石家庄科技工程职业学院",
     "location": {
-      "lat": 38.168476,
-      "lng": 114.574559
+      "lat": 38.16847631283522,
+      "lng": 114.5745587859979
     },
     "address": "http://www.sjzkg.edu.cn/",
     "province": "河北省",
@@ -18581,8 +18641,8 @@ export const universityList =
   {
     "name": "江汉大学",
     "location": {
-      "lat": 30.520853,
-      "lng": 114.166697
+      "lat": 30.520852990081064,
+      "lng": 114.16669736241947
     },
     "address": "http://www.jhun.edu.cn/",
     "province": "湖北省",
@@ -18597,8 +18657,8 @@ export const universityList =
   {
     "name": "娄底职业技术学院",
     "location": {
-      "lat": 27.747274,
-      "lng": 112.029441
+      "lat": 27.747274002723334,
+      "lng": 112.02944097389637
     },
     "address": "http://www.ldzy.com/",
     "province": "湖南省",
@@ -18613,8 +18673,8 @@ export const universityList =
   {
     "name": "华北理工大学轻工学院(丰润校区)",
     "location": {
-      "lat": 39.812732,
-      "lng": 118.177289
+      "lat": 39.83835343085074,
+      "lng": 118.16854133135446
     },
     "address": "河北省唐山市丰润区南环东道99号",
     "province": "河北省",
@@ -18629,8 +18689,8 @@ export const universityList =
   {
     "name": "福建对外经济贸易职业技术学院(西门)",
     "location": {
-      "lat": 26.081384,
-      "lng": 119.510453
+      "lat": 26.078946646138874,
+      "lng": 119.51256553745087
     },
     "address": "福建省福州市马尾区亭江镇亭江路8号",
     "province": "福建省",
@@ -18643,8 +18703,8 @@ export const universityList =
   {
     "name": "安徽信息工程学院(新芜校区)",
     "location": {
-      "lat": 31.141609,
-      "lng": 118.638086
+      "lat": 31.142657491798523,
+      "lng": 118.64297518814129
     },
     "address": "安徽省芜湖市湾沚区永和路1号",
     "province": "安徽省",
@@ -18659,13 +18719,17 @@ export const universityList =
   {
     "name": "淄博市",
     "num": 8,
-    "index": 1187
+    "index": 1187,
+    "location": {
+      "lat": 36.81908568332188,
+      "lng": 118.06145253489896
+    }
   },
   {
     "name": "景德镇学院",
     "location": {
-      "lat": 29.383564,
-      "lng": 117.25015
+      "lat": 29.383564030889925,
+      "lng": 117.25014996384543
     },
     "address": "http://www.jdzu.jx.cn/",
     "province": "江西省",
@@ -18679,8 +18743,8 @@ export const universityList =
   {
     "name": "海南经贸职业技术学院(新校区)",
     "location": {
-      "lat": 19.988301,
-      "lng": 110.525625
+      "lat": 19.984487234765815,
+      "lng": 110.5241669852975
     },
     "address": "校际二号路",
     "province": "海南省",
@@ -18695,8 +18759,8 @@ export const universityList =
   {
     "name": "湖北经济学院-法商学院",
     "location": {
-      "lat": 30.422783,
-      "lng": 114.434865
+      "lat": 30.422400927328145,
+      "lng": 114.43858803010781
     },
     "address": "湖北省武汉市江夏区杨桥湖大道8号湖北经济学院内",
     "province": "湖北省",
@@ -18711,8 +18775,8 @@ export const universityList =
   {
     "name": "合肥共达职业技术学院",
     "location": {
-      "lat": 31.969818,
-      "lng": 117.321083
+      "lat": 31.7790897589274,
+      "lng": 117.21077320678793
     },
     "address": "http://gdxy.hfut.edu.cn/",
     "province": "安徽省",
@@ -18727,8 +18791,8 @@ export const universityList =
   {
     "name": "长春光华学院",
     "location": {
-      "lat": 43.883363,
-      "lng": 125.441458
+      "lat": 43.8833628115735,
+      "lng": 125.44145818601012
     },
     "address": "http://www.ghu.edu.cn/",
     "province": "吉林省",
@@ -18743,8 +18807,8 @@ export const universityList =
   {
     "name": "梅河口康美职业技术学院",
     "location": {
-      "lat": 42.530572,
-      "lng": 125.723091
+      "lat": 42.53057247357623,
+      "lng": 125.72309142610695
     },
     "address": null,
     "province": "吉林省",
@@ -18757,8 +18821,8 @@ export const universityList =
   {
     "name": "黑龙江八一农垦大学",
     "location": {
-      "lat": 46.593607,
-      "lng": 125.174669
+      "lat": 46.59360729108607,
+      "lng": 125.17466880594658
     },
     "address": "http://www.byau.edu.cn/",
     "province": "黑龙江省",
@@ -18773,8 +18837,8 @@ export const universityList =
   {
     "name": "榆林学院",
     "location": {
-      "lat": 38.29937,
-      "lng": 109.728096
+      "lat": 38.29937005677092,
+      "lng": 109.72809599690548
     },
     "address": "https://www.yulinu.edu.cn/",
     "province": "陕西省",
@@ -18789,8 +18853,8 @@ export const universityList =
   {
     "name": "烟台工程职业技术学院",
     "location": {
-      "lat": 37.565527,
-      "lng": 121.233259
+      "lat": 37.565526793509854,
+      "lng": 121.23325888888395
     },
     "address": "http://www.ytetc.edu.cn/",
     "province": "山东省",
@@ -18805,8 +18869,8 @@ export const universityList =
   {
     "name": "揭阳职业技术学院",
     "location": {
-      "lat": 23.482959,
-      "lng": 116.322684
+      "lat": 23.48295898494489,
+      "lng": 116.32268402003115
     },
     "address": "http://www.jyc.edu.cn/",
     "province": "广东省",
@@ -18821,8 +18885,8 @@ export const universityList =
   {
     "name": "广西民族师范学院-南门",
     "location": {
-      "lat": 22.385836,
-      "lng": 107.401866
+      "lat": 22.387890332433532,
+      "lng": 107.40532335260025
     },
     "address": "广西壮族自治区崇左市江州区佛子路23号",
     "province": "广西壮族自治区",
@@ -18836,8 +18900,8 @@ export const universityList =
   {
     "name": "广东工商职业技术大学(星湖校区)",
     "location": {
-      "lat": 23.102042,
-      "lng": 112.485103
+      "lat": 23.080396527831102,
+      "lng": 112.47967555806228
     },
     "address": "广东省肇庆市端州区北岭四路与石牌路交叉路口东南角(黄岗街道七星岩景区旁)",
     "province": "广东省",
@@ -18852,8 +18916,8 @@ export const universityList =
   {
     "name": "沧州师范学院",
     "location": {
-      "lat": 38.291282,
-      "lng": 116.790243
+      "lat": 38.291282518991935,
+      "lng": 116.79024325009392
     },
     "address": "http://www.caztc.edu.cn/",
     "province": "河北省",
@@ -18868,8 +18932,8 @@ export const universityList =
   {
     "name": "保定职业技术学院",
     "location": {
-      "lat": 38.865727,
-      "lng": 115.477046
+      "lat": 38.886714029114174,
+      "lng": 115.52566561588574
     },
     "address": "http://www.bvtc.com.cn/",
     "province": "河北省",
@@ -18884,8 +18948,8 @@ export const universityList =
   {
     "name": "天津体育学院(新校区)",
     "location": {
-      "lat": 38.958815,
-      "lng": 117.066181
+      "lat": 38.95883711302605,
+      "lng": 117.06664898093652
     },
     "address": "天津市静海区东海道16号",
     "province": "天津市",
@@ -18900,8 +18964,8 @@ export const universityList =
   {
     "name": "泉州海洋职业学院",
     "location": {
-      "lat": 24.767428,
-      "lng": 118.757879
+      "lat": 24.767428487478572,
+      "lng": 118.75787940587703
     },
     "address": "http://www.qzoiedu.com/",
     "province": "福建省",
@@ -18916,8 +18980,8 @@ export const universityList =
   {
     "name": "武昌职业学院",
     "location": {
-      "lat": 30.377915,
-      "lng": 114.40595
+      "lat": 30.559566983522483,
+      "lng": 114.32254851755089
     },
     "address": "http://www.wczy.cn/",
     "province": "湖北省",
@@ -18932,8 +18996,8 @@ export const universityList =
   {
     "name": "承德石油高专",
     "location": {
-      "lat": 40.904239,
-      "lng": 117.969185
+      "lat": 40.90281585723249,
+      "lng": 117.96475551624401
     },
     "address": "河北省承德市双桥区学院路2号",
     "province": "河北省",
@@ -18948,8 +19012,8 @@ export const universityList =
   {
     "name": "武汉科技大学(黄家湖校区)",
     "location": {
-      "lat": 30.444975,
-      "lng": 114.274447
+      "lat": 30.44647328618237,
+      "lng": 114.2801648466402
     },
     "address": "武汉市洪山区黄家湖西路2号",
     "province": "湖北省",
@@ -18964,8 +19028,8 @@ export const universityList =
   {
     "name": "广西自然资源职业技术学院",
     "location": {
-      "lat": 22.62622,
-      "lng": 107.98499
+      "lat": 22.626220229883774,
+      "lng": 107.98498965731471
     },
     "address": null,
     "province": "广西壮族自治区",
@@ -18978,8 +19042,8 @@ export const universityList =
   {
     "name": "宁夏艺术职业学院",
     "location": {
-      "lat": 38.521627,
-      "lng": 106.12803
+      "lat": 38.5216274738738,
+      "lng": 106.1280302164659
     },
     "address": "http://www.nxyszyxy.com/index.asp",
     "province": "宁夏回族自治区",
@@ -18994,8 +19058,8 @@ export const universityList =
   {
     "name": "辽宁建筑职业学院(北校区)",
     "location": {
-      "lat": 41.261515,
-      "lng": 123.171885
+      "lat": 41.26274811210813,
+      "lng": 123.1718602099523
     },
     "address": "白塔区青年大街24-26号",
     "province": "辽宁省",
@@ -19010,8 +19074,8 @@ export const universityList =
   {
     "name": "黔西南民族职业技术学院",
     "location": {
-      "lat": 25.08212,
-      "lng": 104.955076
+      "lat": 25.08211980708645,
+      "lng": 104.9550760494647
     },
     "address": "http://www.qxnvc.edu.cn/",
     "province": "贵州省",
@@ -19026,8 +19090,8 @@ export const universityList =
   {
     "name": "内蒙古师范大学(赛罕校区)",
     "location": {
-      "lat": 40.809629,
-      "lng": 111.701164
+      "lat": 40.81142499508296,
+      "lng": 111.6997432827694
     },
     "address": "内蒙古自治区呼和浩特市赛罕区昭乌达路81号",
     "province": "内蒙古自治区",
@@ -19042,8 +19106,8 @@ export const universityList =
   {
     "name": "黑龙江外国语学院",
     "location": {
-      "lat": 45.86402,
-      "lng": 126.558567
+      "lat": 45.864019814216036,
+      "lng": 126.55856701359552
     },
     "address": "http://www.hiu.edu.cn/",
     "province": "黑龙江省",
@@ -19058,8 +19122,8 @@ export const universityList =
   {
     "name": "上海交通职业技术学院",
     "location": {
-      "lat": 31.198343,
-      "lng": 121.431097
+      "lat": 31.167365456375606,
+      "lng": 121.37714973496387
     },
     "address": "http://www.scp.edu.cn/",
     "province": "上海市",
@@ -19074,8 +19138,8 @@ export const universityList =
   {
     "name": "西南科技大学(青义校区)",
     "location": {
-      "lat": 31.54202,
-      "lng": 104.695562
+      "lat": 31.546011908505392,
+      "lng": 104.70647620964449
     },
     "address": "四川省绵阳市涪城区青龙大道中段59号",
     "province": "四川省",
@@ -19090,8 +19154,8 @@ export const universityList =
   {
     "name": "郑州科技学院",
     "location": {
-      "lat": 34.714354,
-      "lng": 113.518576
+      "lat": 34.71435353432315,
+      "lng": 113.51857640477003
     },
     "address": "http://www.zit.edu.cn/",
     "province": "河南省",
@@ -19106,8 +19170,8 @@ export const universityList =
   {
     "name": "牡丹江大学",
     "location": {
-      "lat": 44.599914,
-      "lng": 129.578236
+      "lat": 44.60550098092738,
+      "lng": 129.38062387612248
     },
     "address": "http://www.mdjdx.cn/mdnew/index.asp",
     "province": "黑龙江省",
@@ -19122,8 +19186,8 @@ export const universityList =
   {
     "name": "忻州职业技术学院",
     "location": {
-      "lat": 38.477165,
-      "lng": 112.741829
+      "lat": 38.47716474865836,
+      "lng": 112.7418294167412
     },
     "address": "http://www.xzvtc.net/",
     "province": "山西省",
@@ -19138,8 +19202,8 @@ export const universityList =
   {
     "name": "武汉警官职业学院(东西湖校区)",
     "location": {
-      "lat": 30.630993,
-      "lng": 114.132767
+      "lat": 30.63138424309442,
+      "lng": 114.12918430398389
     },
     "address": "武汉市东西湖区东吴大道特1号",
     "province": "湖北省",
@@ -19154,8 +19218,8 @@ export const universityList =
   {
     "name": "哈尔滨音乐学院",
     "location": {
-      "lat": 45.836008,
-      "lng": 126.577034
+      "lat": 45.8360076772871,
+      "lng": 126.57703374945591
     },
     "address": "http://www.hrbcm.edu.cn/web/yemian/index.html",
     "province": "黑龙江省",
@@ -19170,8 +19234,8 @@ export const universityList =
   {
     "name": "泉州师范学院",
     "location": {
-      "lat": 24.874507,
-      "lng": 118.677208
+      "lat": 25.192713737056483,
+      "lng": 118.31188230846139
     },
     "address": "http://www.qztc.edu.cn/",
     "province": "福建省",
@@ -19186,8 +19250,8 @@ export const universityList =
   {
     "name": "广西国际商务职业技术学院",
     "location": {
-      "lat": 22.847936,
-      "lng": 108.264218
+      "lat": 23.176173467202798,
+      "lng": 108.17286477500095
     },
     "address": "http://www.gxibvc.net/default.html",
     "province": "广西壮族自治区",
@@ -19202,8 +19266,8 @@ export const universityList =
   {
     "name": "河南工业大学(莲花街校区)",
     "location": {
-      "lat": 34.837052,
-      "lng": 113.556304
+      "lat": 34.83503448289951,
+      "lng": 113.55727019596793
     },
     "address": "河南省郑州市高新区莲花街100号",
     "province": "河南省",
@@ -19218,8 +19282,8 @@ export const universityList =
   {
     "name": "合肥经济技术职业学院",
     "location": {
-      "lat": 31.900335,
-      "lng": 117.220812
+      "lat": 31.89906531804766,
+      "lng": 117.21964325505455
     },
     "address": "合肥市庐阳区环湖东路中段360号",
     "province": "安徽省",
@@ -19233,8 +19297,8 @@ export const universityList =
   {
     "name": "重庆文化艺术职业学院",
     "location": {
-      "lat": 29.353186,
-      "lng": 106.539468
+      "lat": 29.353185791672683,
+      "lng": 106.53946751250635
     },
     "address": "http://www.cqyixiao.com/",
     "province": "重庆市",
@@ -19249,8 +19313,8 @@ export const universityList =
   {
     "name": "扬州大学(扬子津校区)",
     "location": {
-      "lat": 32.348519,
-      "lng": 119.406561
+      "lat": 32.347240062633546,
+      "lng": 119.41001203259057
     },
     "address": "扬州市邗江区华扬西路196号",
     "province": "江苏省",
@@ -19265,8 +19329,8 @@ export const universityList =
   {
     "name": "中国药科大学(江宁校区)",
     "location": {
-      "lat": 31.904977,
-      "lng": 118.919876
+      "lat": 31.90777346513418,
+      "lng": 118.92642031045172
     },
     "address": "江苏省南京市江宁区龙眠大道639号",
     "province": "江苏省",
@@ -19281,8 +19345,8 @@ export const universityList =
   {
     "name": "攀枝花攀西职业学院",
     "location": {
-      "lat": 26.872667,
-      "lng": 102.119986
+      "lat": 26.871538398996236,
+      "lng": 102.12021043896515
     },
     "address": null,
     "province": "四川省",
@@ -19296,8 +19360,8 @@ export const universityList =
   {
     "name": "通辽职业学院",
     "location": {
-      "lat": 43.687534,
-      "lng": 122.257978
+      "lat": 43.687533582396796,
+      "lng": 122.25797799260079
     },
     "address": "http://www.tlzyxy.com/",
     "province": "内蒙古自治区",
@@ -19312,8 +19376,8 @@ export const universityList =
   {
     "name": "邢台学院",
     "location": {
-      "lat": 37.095344,
-      "lng": 114.51114
+      "lat": 37.0953445370125,
+      "lng": 114.51113958479061
     },
     "address": "http://www.xttc.edu.cn/",
     "province": "河北省",
@@ -19327,8 +19391,8 @@ export const universityList =
   {
     "name": "四川商务职业学院(和盛校区)",
     "location": {
-      "lat": 30.756816,
-      "lng": 103.790621
+      "lat": 30.75773000947567,
+      "lng": 103.78913147370477
     },
     "address": "四川省成都市温江区和盛镇星艺大道188号",
     "province": "四川省",
@@ -19343,8 +19407,8 @@ export const universityList =
   {
     "name": "重庆建筑工程职业学院",
     "location": {
-      "lat": 29.55637,
-      "lng": 106.671353
+      "lat": 29.55637000858146,
+      "lng": 106.6713531342157
     },
     "address": "http://www.cqjzc.edu.cn/",
     "province": "重庆市",
@@ -19359,8 +19423,8 @@ export const universityList =
   {
     "name": "上海大学(宝山校区)",
     "location": {
-      "lat": 31.32144,
-      "lng": 121.39903
+      "lat": 31.32163963569644,
+      "lng": 121.39477341110303
     },
     "address": "上海市宝山区上大路99号",
     "province": "上海市",
@@ -19375,8 +19439,8 @@ export const universityList =
   {
     "name": "安徽交通职业技术学院(北校区)",
     "location": {
-      "lat": 31.83568,
-      "lng": 117.30536
+      "lat": 31.83467237752862,
+      "lng": 117.30628976217221
     },
     "address": "合肥市包河区望江东路与交通巷交叉路口往北约100米(汇鑫大厦西北侧约100米)",
     "province": "安徽省",
@@ -19391,8 +19455,8 @@ export const universityList =
   {
     "name": "福建农林大学-金山学院",
     "location": {
-      "lat": 26.083335,
-      "lng": 119.241525
+      "lat": 26.08941336120694,
+      "lng": 119.24658904383645
     },
     "address": "福建省福州市仓山区上下店路15号",
     "province": "福建省",
@@ -19407,8 +19471,8 @@ export const universityList =
   {
     "name": "上海行健职业学院(原平路分校)",
     "location": {
-      "lat": 31.286535,
-      "lng": 121.438036
+      "lat": 31.28700694421522,
+      "lng": 121.43939458137795
     },
     "address": "上海市静安区原平路55号",
     "province": "上海市",
@@ -19423,8 +19487,8 @@ export const universityList =
   {
     "name": "海南软件职业技术学院",
     "location": {
-      "lat": 19.257086,
-      "lng": 110.48099
+      "lat": 19.257086578107998,
+      "lng": 110.48098981599155
     },
     "address": "http://www.hncst.edu.cn/",
     "province": "海南省",
@@ -19439,8 +19503,8 @@ export const universityList =
   {
     "name": "广东酒店管理职业技术学院",
     "location": {
-      "lat": 22.940126,
-      "lng": 113.72627
+      "lat": 22.940126448335555,
+      "lng": 113.72627046300718
     },
     "address": "http://www.gdjdxy.com/",
     "province": "广东省",
@@ -19455,8 +19519,8 @@ export const universityList =
   {
     "name": "湖南铁路科技职业技术学院",
     "location": {
-      "lat": 27.909491,
-      "lng": 113.164424
+      "lat": 27.909490656804735,
+      "lng": 113.16442384468826
     },
     "address": "http://www.hntky.com/",
     "province": "湖南省",
@@ -19471,8 +19535,8 @@ export const universityList =
   {
     "name": "河北农业大学",
     "location": {
-      "lat": 38.855841,
-      "lng": 115.489891
+      "lat": 38.83346411108497,
+      "lng": 115.45231897099603
     },
     "address": "http://www.hebau.edu.cn/",
     "province": "河北省",
@@ -19487,8 +19551,8 @@ export const universityList =
   {
     "name": "吐鲁番职业技术学院",
     "location": {
-      "lat": 42.961939,
-      "lng": 89.266316
+      "lat": 42.96193891408429,
+      "lng": 89.26631603461165
     },
     "address": "",
     "province": "新疆维吾尔自治区",
@@ -19502,8 +19566,8 @@ export const universityList =
   {
     "name": "上饶职业技术学院",
     "location": {
-      "lat": 28.484139,
-      "lng": 117.909102
+      "lat": 28.48413947790497,
+      "lng": 117.90910206030263
     },
     "address": "http://www.srzy.cn/",
     "province": "江西省",
@@ -19518,8 +19582,8 @@ export const universityList =
   {
     "name": "河北工程技术学院",
     "location": {
-      "lat": 37.988065,
-      "lng": 114.473386
+      "lat": 38.0027223600305,
+      "lng": 114.46890745801947
     },
     "address": "http://www.hbfsh.com/",
     "province": "河北省",
@@ -19534,8 +19598,8 @@ export const universityList =
   {
     "name": "承德护理职业学院",
     "location": {
-      "lat": 40.957721,
-      "lng": 117.960437
+      "lat": 40.77436719493557,
+      "lng": 118.1804557369944
     },
     "address": "http://www.cdwx.cn",
     "province": "河北省",
@@ -19550,8 +19614,8 @@ export const universityList =
   {
     "name": "西安翻译学院",
     "location": {
-      "lat": 34.029876,
-      "lng": 109.016875
+      "lat": 34.02987573291021,
+      "lng": 109.01687491616593
     },
     "address": "http://www.xafy.edu.cn/",
     "province": "陕西省",
@@ -19566,8 +19630,8 @@ export const universityList =
   {
     "name": "福建技术师范学院(五马山校区)",
     "location": {
-      "lat": 25.710182,
-      "lng": 119.384282
+      "lat": 25.72234435445408,
+      "lng": 119.38655950496349
     },
     "address": "福建省福州市福清市玉屏街道校园新村1号",
     "province": "福建省",
@@ -19582,13 +19646,17 @@ export const universityList =
   {
     "name": "北京市",
     "num": 8,
-    "index": 1246
+    "index": 1246,
+    "location": {
+      "lat": 39.910924547299565,
+      "lng": 116.4133836971231
+    }
   },
   {
     "name": "重庆海联职业技术学院(两江校区)",
     "location": {
-      "lat": 29.739559,
-      "lng": 106.812695
+      "lat": 29.742253278187857,
+      "lng": 106.7845411555549
     },
     "address": "重庆市渝北区两江大道与双口路交叉路口往北约60米",
     "province": "重庆市",
@@ -19603,8 +19671,8 @@ export const universityList =
   {
     "name": "广东海洋大学寸金学院(麻章校区)",
     "location": {
-      "lat": 21.292676,
-      "lng": 110.34314
+      "lat": 21.288406293170137,
+      "lng": 110.3420098265195
     },
     "address": "广东省湛江市麻章区学智路2号",
     "province": "广东省",
@@ -19619,8 +19687,8 @@ export const universityList =
   {
     "name": "陇南师范学院",
     "location": {
-      "lat": 33.760996,
-      "lng": 105.748001
+      "lat": 33.76019376186344,
+      "lng": 105.74882635560567
     },
     "address": "甘肃省陇南市成县陇南路34号",
     "province": "甘肃省",
@@ -19635,8 +19703,8 @@ export const universityList =
   {
     "name": "重庆邮电大学移通学院",
     "location": {
-      "lat": 30.006867,
-      "lng": 106.246223
+      "lat": 30.006867434046672,
+      "lng": 106.24622260800803
     },
     "address": "http://www.cqyti.com/",
     "province": "重庆市",
@@ -19651,8 +19719,8 @@ export const universityList =
   {
     "name": "海南健康管理职业技术学院(澄迈校区)",
     "location": {
-      "lat": 19.756834,
-      "lng": 110.013615
+      "lat": 19.75444596522635,
+      "lng": 110.00980423208445
     },
     "address": "海南省澄迈县金江镇文化北路1号",
     "province": "海南省",
@@ -19667,8 +19735,8 @@ export const universityList =
   {
     "name": "铜仁学院(新校区)",
     "location": {
-      "lat": 27.792764,
-      "lng": 109.228579
+      "lat": 27.790511763754182,
+      "lng": 109.24477016002237
     },
     "address": "贵州省铜仁市碧江区川硐教育园区自由路与敬业路交汇处",
     "province": "贵州省",
@@ -19683,8 +19751,8 @@ export const universityList =
   {
     "name": "哈尔滨信息工程学院",
     "location": {
-      "lat": 45.884154,
-      "lng": 126.51319
+      "lat": 45.88415422031,
+      "lng": 126.51319036838642
     },
     "address": "http://www.hxci.com.cn/",
     "province": "黑龙江省",
@@ -19699,8 +19767,8 @@ export const universityList =
   {
     "name": "新疆师范大学(昆仑校区)",
     "location": {
-      "lat": 43.838903,
-      "lng": 87.599119
+      "lat": 43.84034491022142,
+      "lng": 87.59954133204873
     },
     "address": "新疆维吾尔自治区乌鲁木齐市沙依巴克区新医路102号",
     "province": "新疆维吾尔自治区",
@@ -19715,8 +19783,8 @@ export const universityList =
   {
     "name": "兰州科技职业学院",
     "location": {
-      "lat": 35.958759,
-      "lng": 104.014802
+      "lat": 35.95875926561518,
+      "lng": 104.01480225680206
     },
     "address": "http://www.lvu.edu.cn/",
     "province": "甘肃省",
@@ -19731,8 +19799,8 @@ export const universityList =
   {
     "name": "福建华南女子职业学院(旗山校区)",
     "location": {
-      "lat": 26.030498,
-      "lng": 119.209437
+      "lat": 26.030431191067233,
+      "lng": 119.20951202290766
     },
     "address": "福建省福州市闽侯上街大学城学府南路66号",
     "province": "福建省",
@@ -19747,8 +19815,8 @@ export const universityList =
   {
     "name": "四川工商学院(成都校区)",
     "location": {
-      "lat": 30.825562,
-      "lng": 103.992488
+      "lat": 30.823775044733818,
+      "lng": 103.99296184476852
     },
     "address": "成都市郫都区团结街道学院街65号",
     "province": "四川省",
@@ -19763,8 +19831,8 @@ export const universityList =
   {
     "name": "南京医科大学康达学院",
     "location": {
-      "lat": 34.656306,
-      "lng": 119.235808
+      "lat": 34.65630636176262,
+      "lng": 119.23580849589031
     },
     "address": "http://kdc.njmu.edu.cn/",
     "province": "江苏省",
@@ -19779,8 +19847,8 @@ export const universityList =
   {
     "name": "晋城职业技术学院",
     "location": {
-      "lat": 35.494757,
-      "lng": 112.879333
+      "lat": 35.494756842340614,
+      "lng": 112.87933259200078
     },
     "address": "http://www.sxjczy.cn:88/gb2015/",
     "province": "山西省",
@@ -19795,8 +19863,8 @@ export const universityList =
   {
     "name": "内江职业技术学院",
     "location": {
-      "lat": 29.613016,
-      "lng": 105.132875
+      "lat": 29.61301592432201,
+      "lng": 105.13287505390993
     },
     "address": "http://www.njvtc.edu.cn/",
     "province": "四川省",
@@ -19811,8 +19879,8 @@ export const universityList =
   {
     "name": "右江民族医学院",
     "location": {
-      "lat": 23.894935,
-      "lng": 106.619499
+      "lat": 23.894934928822845,
+      "lng": 106.61949898765266
     },
     "address": "http://www.ymcn.gx.cn/",
     "province": "广西壮族自治区",
@@ -19827,8 +19895,8 @@ export const universityList =
   {
     "name": "山东力明科技职业学院",
     "location": {
-      "lat": 36.589883,
-      "lng": 116.897377
+      "lat": 36.58988261429586,
+      "lng": 116.89737651267215
     },
     "address": "http://edu.6789.com.cn/",
     "province": "山东省",
@@ -19843,8 +19911,8 @@ export const universityList =
   {
     "name": "新疆铁道职业技术学院",
     "location": {
-      "lat": 43.884149,
-      "lng": 87.561472
+      "lat": 43.88414900142762,
+      "lng": 87.56147195301082
     },
     "address": "http://www.xjtzy.net/",
     "province": "新疆维吾尔自治区",
@@ -19859,8 +19927,8 @@ export const universityList =
   {
     "name": "山东警察学院(明水校区)",
     "location": {
-      "lat": 36.657448,
-      "lng": 117.534691
+      "lat": 36.67406564268369,
+      "lng": 117.53039542757949
     },
     "address": "山东省济南市章丘区双山街道章莱路2555号",
     "province": "山东省",
@@ -19875,8 +19943,8 @@ export const universityList =
   {
     "name": "湖南铁道职业技术学院",
     "location": {
-      "lat": 27.885306,
-      "lng": 113.13588
+      "lat": 27.88530600316186,
+      "lng": 113.13588000745703
     },
     "address": "http://www.hnrpc.com/",
     "province": "湖南省",
@@ -19891,8 +19959,8 @@ export const universityList =
   {
     "name": "济南大学泉城学院",
     "location": {
-      "lat": 37.817073,
-      "lng": 120.714115
+      "lat": 37.817072777397,
+      "lng": 120.71411474991558
     },
     "address": "http://www.ujnpl.com/",
     "province": "山东省",
@@ -19907,8 +19975,8 @@ export const universityList =
   {
     "name": "中国海洋大学(崂山校区)",
     "location": {
-      "lat": 36.167816,
-      "lng": 120.505352
+      "lat": 36.16279496666807,
+      "lng": 120.50567822751887
     },
     "address": "山东省青岛市崂山区松岭路238号",
     "province": "山东省",
@@ -19923,8 +19991,8 @@ export const universityList =
   {
     "name": "新疆理工学院",
     "location": {
-      "lat": 41.236941,
-      "lng": 80.224161
+      "lat": 41.23694149041521,
+      "lng": 80.22416114583899
     },
     "address": "http://www.xjistedu.cn/",
     "province": "新疆维吾尔自治区",
@@ -19938,8 +20006,8 @@ export const universityList =
   {
     "name": "哈尔滨工程大学",
     "location": {
-      "lat": 45.78251,
-      "lng": 126.688328
+      "lat": 45.78250957731717,
+      "lng": 126.68832814281818
     },
     "address": "http://www.hrbeu.edu.cn/",
     "province": "黑龙江省",
@@ -19954,8 +20022,8 @@ export const universityList =
   {
     "name": "广东食品药品职业学院",
     "location": {
-      "lat": 23.208121,
-      "lng": 113.382255
+      "lat": 23.445021281806124,
+      "lng": 113.2923695882627
     },
     "address": "http://www.gdyzy.edu.cn/index.do",
     "province": "广东省",
@@ -19970,8 +20038,8 @@ export const universityList =
   {
     "name": "广东邮电职业技术学院(广州校区)",
     "location": {
-      "lat": 23.141185,
-      "lng": 113.370704
+      "lat": 23.140475349579624,
+      "lng": 113.37117370859114
     },
     "address": "广东省广州市天河区中山大道西191号",
     "province": "广东省",
@@ -19986,8 +20054,8 @@ export const universityList =
   {
     "name": "苏州工业职业技术学院",
     "location": {
-      "lat": 31.225668,
-      "lng": 120.596833
+      "lat": 31.225668285630846,
+      "lng": 120.59683261134673
     },
     "address": "http://www.siit.cn/",
     "province": "江苏省",
@@ -20002,8 +20070,8 @@ export const universityList =
   {
     "name": "包头铁道职业技术学院",
     "location": {
-      "lat": 40.660823,
-      "lng": 110.008864
+      "lat": 40.66082299777458,
+      "lng": 110.00886425862672
     },
     "address": "http://www.zg114zs.com/xuexiao.asp?auid=2319",
     "province": "内蒙古自治区",
@@ -20018,8 +20086,8 @@ export const universityList =
   {
     "name": "吉林师范大学",
     "location": {
-      "lat": 43.163301,
-      "lng": 124.351479
+      "lat": 43.16330097253004,
+      "lng": 124.35147862428221
     },
     "address": "http://www.jlnu.edu.cn/",
     "province": "吉林省",
@@ -20034,8 +20102,8 @@ export const universityList =
   {
     "name": "湖南工商职业学院",
     "location": {
-      "lat": 26.972555,
-      "lng": 112.626075
+      "lat": 26.972554940039533,
+      "lng": 112.62607501206102
     },
     "address": "http://www.hngsxy.com/",
     "province": "湖南省",
@@ -20050,8 +20118,8 @@ export const universityList =
   {
     "name": "南昌工程学院(瑶湖校区)",
     "location": {
-      "lat": 28.695855,
-      "lng": 116.037492
+      "lat": 28.696724904455632,
+      "lng": 116.03797040060414
     },
     "address": "江西省南昌市南昌县天祥大道289号",
     "province": "江西省",
@@ -20066,8 +20134,8 @@ export const universityList =
   {
     "name": "哈尔滨远东理工学院",
     "location": {
-      "lat": 45.872678,
-      "lng": 126.537486
+      "lat": 45.87267783034029,
+      "lng": 126.53748602903998
     },
     "address": "http://www.fe-edu.com.cn/",
     "province": "黑龙江省",
@@ -20082,8 +20150,8 @@ export const universityList =
   {
     "name": "西安电子科技大学(南校区)",
     "location": {
-      "lat": 34.129522,
-      "lng": 108.840053
+      "lat": 34.09605091878624,
+      "lng": 108.80313695397152
     },
     "address": "西安市长安区西沣路兴隆段266号",
     "province": "陕西省",
@@ -20098,8 +20166,8 @@ export const universityList =
   {
     "name": "长春早期教育职业学院",
     "location": {
-      "lat": 44.014092,
-      "lng": 125.015682
+      "lat": 44.01409222767895,
+      "lng": 125.0156816759851
     },
     "address": null,
     "province": "吉林省",
@@ -20114,8 +20182,8 @@ export const universityList =
   {
     "name": "拉萨师范高等专科学校",
     "location": {
-      "lat": 29.656889,
-      "lng": 91.264442
+      "lat": 29.65688900091759,
+      "lng": 91.26444203594359
     },
     "address": "http://www.xzlssf.org/",
     "province": "西藏自治区",
@@ -20130,8 +20198,8 @@ export const universityList =
   {
     "name": "山东科技职业学院",
     "location": {
-      "lat": 36.669209,
-      "lng": 119.030401
+      "lat": 36.669209351389036,
+      "lng": 119.03040070035104
     },
     "address": "http://www.sdvcst.edu.cn/",
     "province": "山东省",
@@ -20146,8 +20214,8 @@ export const universityList =
   {
     "name": "重庆信息技术职业学院",
     "location": {
-      "lat": 30.793809,
-      "lng": 108.385686
+      "lat": 30.79380853520325,
+      "lng": 108.38568611907407
     },
     "address": "http://www.cqeec.com/",
     "province": "重庆市",
@@ -20162,8 +20230,8 @@ export const universityList =
   {
     "name": "哈尔滨体育学院",
     "location": {
-      "lat": 45.766262,
-      "lng": 126.684284
+      "lat": 45.76626194722305,
+      "lng": 126.68428433073443
     },
     "address": "http://www.hrbipe.edu.cn/",
     "province": "黑龙江省",
@@ -20178,8 +20246,8 @@ export const universityList =
   {
     "name": "重庆水利电力职业技术学院",
     "location": {
-      "lat": 29.372783,
-      "lng": 105.940037
+      "lat": 29.372782899052034,
+      "lng": 105.9400367797984
     },
     "address": "http://www.cqsdzy.com/index.html",
     "province": "重庆市",
@@ -20194,8 +20262,8 @@ export const universityList =
   {
     "name": "绵阳师范学院(高新校区)",
     "location": {
-      "lat": 31.459785,
-      "lng": 104.605137
+      "lat": 31.455526068973686,
+      "lng": 104.61344293001197
     },
     "address": "绵阳市高新区绵兴西路166号",
     "province": "四川省",
@@ -20210,8 +20278,8 @@ export const universityList =
   {
     "name": "陇东学院(新校区)",
     "location": {
-      "lat": 35.735667,
-      "lng": 107.690891
+      "lat": 35.73922405540134,
+      "lng": 107.69019355933926
     },
     "address": "甘肃省庆阳市西峰区庆阳市兰州路45号",
     "province": "甘肃省",
@@ -20226,8 +20294,8 @@ export const universityList =
   {
     "name": "山东交通职业学院(新校区)",
     "location": {
-      "lat": 36.676379,
-      "lng": 119.183757
+      "lat": 36.67589708334536,
+      "lng": 119.18124730565582
     },
     "address": "山东省潍坊市高新区渤海路7369号",
     "province": "山东省",
@@ -20242,8 +20310,8 @@ export const universityList =
   {
     "name": "克拉玛依职业技术学院",
     "location": {
-      "lat": 45.555609,
-      "lng": 84.933497
+      "lat": 45.555609045424895,
+      "lng": 84.93349713972327
     },
     "address": "http://www.kzjsxy.net/",
     "province": "新疆维吾尔自治区",
@@ -20258,8 +20326,8 @@ export const universityList =
   {
     "name": "武汉工程职业技术学院(校本部)",
     "location": {
-      "lat": 30.718569,
-      "lng": 114.553483
+      "lat": 30.719600859034323,
+      "lng": 114.55437547813861
     },
     "address": "湖北省武汉市新洲区汉施路18号",
     "province": "湖北省",
@@ -20274,8 +20342,8 @@ export const universityList =
   {
     "name": "宿迁泽达职业技术学院",
     "location": {
-      "lat": 34.026099,
-      "lng": 118.289859
+      "lat": 34.02609909147098,
+      "lng": 118.28985901759636
     },
     "address": "http://www.zdct.cn/",
     "province": "江苏省",
@@ -20290,8 +20358,8 @@ export const universityList =
   {
     "name": "汉口学院",
     "location": {
-      "lat": 30.422245,
-      "lng": 114.323313
+      "lat": 30.42224490612944,
+      "lng": 114.32331288570931
     },
     "address": "http://www.hkxy.edu.cn/",
     "province": "湖北省",
@@ -20306,8 +20374,8 @@ export const universityList =
   {
     "name": "哈尔滨传媒职业学院",
     "location": {
-      "lat": 45.58562,
-      "lng": 126.523845
+      "lat": 45.585620108472504,
+      "lng": 126.52384517004033
     },
     "address": "http://www.hrbmcc.com/",
     "province": "黑龙江省",
@@ -20322,8 +20390,8 @@ export const universityList =
   {
     "name": "内蒙古民族大学",
     "location": {
-      "lat": 43.635846,
-      "lng": 122.260422
+      "lat": 43.63584594097483,
+      "lng": 122.26042165307959
     },
     "address": "http://www.imun.edu.cn/",
     "province": "内蒙古自治区",
@@ -20338,8 +20406,8 @@ export const universityList =
   {
     "name": "新疆和田学院",
     "location": {
-      "lat": 37.115981,
-      "lng": 79.915688
+      "lat": 37.11598125672611,
+      "lng": 79.91568797439288
     },
     "address": "新疆维吾尔自治区和田地区和田市北京西路169号",
     "province": "新疆维吾尔自治区",
@@ -20354,8 +20422,8 @@ export const universityList =
   {
     "name": "泉州幼儿师范高等专科学校",
     "location": {
-      "lat": 24.883071,
-      "lng": 118.66494
+      "lat": 25.330125024010663,
+      "lng": 118.31029401448971
     },
     "address": "http://www.qzys.net/",
     "province": "福建省",
@@ -20370,8 +20438,8 @@ export const universityList =
   {
     "name": "大连交通大学(沙河口校区)",
     "location": {
-      "lat": 38.91748,
-      "lng": 121.577305
+      "lat": 38.91748043980915,
+      "lng": 121.57730477886409
     },
     "address": "辽宁省大连市沙河口区黄河路794号大连交通大学",
     "province": "辽宁省",
@@ -20386,8 +20454,8 @@ export const universityList =
   {
     "name": "佛山职业技术学院",
     "location": {
-      "lat": 23.247387,
-      "lng": 112.987042
+      "lat": 23.247386985088188,
+      "lng": 112.98704228281338
     },
     "address": "http://www.fspt.net/",
     "province": "广东省",
@@ -20402,8 +20470,8 @@ export const universityList =
   {
     "name": "大连海军大连舰艇学院第二招待所",
     "location": {
-      "lat": 38.884212,
-      "lng": 121.678135
+      "lat": 38.90013226285061,
+      "lng": 121.68273494402597
     },
     "address": "大连市中山区解放路迎宾楼酒店",
     "province": "辽宁省",
@@ -20416,8 +20484,8 @@ export const universityList =
   {
     "name": "湖南交通职业技术学院",
     "location": {
-      "lat": 28.148144,
-      "lng": 113.19148
+      "lat": 28.148144072534095,
+      "lng": 113.1914798185038
     },
     "address": "http://www.hnjtzy.com.cn/",
     "province": "湖南省",
@@ -20432,8 +20500,8 @@ export const universityList =
   {
     "name": "聊城大学东昌学院(新校区)",
     "location": {
-      "lat": 36.509612,
-      "lng": 116.065041
+      "lat": 36.509611649484334,
+      "lng": 116.06504067290543
     },
     "address": "山东省聊城市东昌府区北外环路266号",
     "province": "山东省",
@@ -20447,8 +20515,8 @@ export const universityList =
   {
     "name": "内江师范学院(高桥校区)",
     "location": {
-      "lat": 29.623122,
-      "lng": 105.109335
+      "lat": 29.614526476646535,
+      "lng": 105.11537848800621
     },
     "address": "四川内江市东兴区红桥街北侧",
     "province": "四川省",
@@ -20462,8 +20530,8 @@ export const universityList =
   {
     "name": "甘肃中医药大学",
     "location": {
-      "lat": 35.566598,
-      "lng": 104.600087
+      "lat": 35.56659789733449,
+      "lng": 104.60008701352017
     },
     "address": "https://www.gszy.edu.cn/reception",
     "province": "甘肃省",
@@ -20477,8 +20545,8 @@ export const universityList =
   {
     "name": "炎黄职业技术学院",
     "location": {
-      "lat": 33.791416,
-      "lng": 119.308566
+      "lat": 33.79141637921303,
+      "lng": 119.30856585236546
     },
     "address": "http://www.yhjyjt.cn/",
     "province": "江苏省",
@@ -20493,8 +20561,8 @@ export const universityList =
   {
     "name": "广西农业职业技术大学",
     "location": {
-      "lat": 22.850648,
-      "lng": 108.249508
+      "lat": 22.848070575591677,
+      "lng": 108.25071983555841
     },
     "address": "广西壮族自治区南宁市西乡塘区大学东路176号",
     "province": "广西壮族自治区",
@@ -20509,8 +20577,8 @@ export const universityList =
   {
     "name": "扬州工业职业技术学院",
     "location": {
-      "lat": 32.342028,
-      "lng": 119.404582
+      "lat": 32.342028388645765,
+      "lng": 119.40458150629111
     },
     "address": "http://www.ypi.edu.cn/",
     "province": "江苏省",
@@ -20525,8 +20593,8 @@ export const universityList =
   {
     "name": "集美大学诚毅学院",
     "location": {
-      "lat": 24.594248,
-      "lng": 118.101098
+      "lat": 24.591779078568383,
+      "lng": 118.09922078582983
     },
     "address": "http://chengyi.jmu.edu.cn/",
     "province": "福建省",
@@ -20541,8 +20609,8 @@ export const universityList =
   {
     "name": "成都文理学院(金堂校区)",
     "location": {
-      "lat": 30.851321,
-      "lng": 104.470183
+      "lat": 30.851127986320645,
+      "lng": 104.47089558965277
     },
     "address": "四川省成都市金堂县学府大道278号",
     "province": "四川省",
@@ -20557,8 +20625,8 @@ export const universityList =
   {
     "name": "中国民用航空飞行学院",
     "location": {
-      "lat": 30.956069,
-      "lng": 104.313105
+      "lat": 30.9560690228999,
+      "lng": 104.3131046336031
     },
     "address": "http://www.cafuc.edu.cn/",
     "province": "四川省",
@@ -20573,8 +20641,8 @@ export const universityList =
   {
     "name": "长沙师范学院",
     "location": {
-      "lat": 28.262152,
-      "lng": 113.090104
+      "lat": 28.262151980216135,
+      "lng": 113.0901039756336
     },
     "address": "http://www.cssf.cn/",
     "province": "湖南省",
@@ -20589,8 +20657,8 @@ export const universityList =
   {
     "name": "漳州科技职业学院",
     "location": {
-      "lat": 24.082247,
-      "lng": 117.543091
+      "lat": 24.082247255775155,
+      "lng": 117.54309125326617
     },
     "address": "http://www.tftc.edu.cn/",
     "province": "福建省",
@@ -20605,8 +20673,8 @@ export const universityList =
   {
     "name": "长沙幼儿师范高等专科学校(新校区)",
     "location": {
-      "lat": 28.222381,
-      "lng": 112.611052
+      "lat": 28.22353189167244,
+      "lng": 112.60768283556415
     },
     "address": "湖南省长沙市湘江新区华强路177号",
     "province": "湖南省",
@@ -20621,8 +20689,8 @@ export const universityList =
   {
     "name": "六盘水师范学院",
     "location": {
-      "lat": 26.581311,
-      "lng": 104.824935
+      "lat": 26.581311415946555,
+      "lng": 104.8249352065468
     },
     "address": "https://www.lpssy.edu.cn/",
     "province": "贵州省",
@@ -20637,8 +20705,8 @@ export const universityList =
   {
     "name": "东华理工大学长江学院",
     "location": {
-      "lat": 27.992338,
-      "lng": 116.359018
+      "lat": 27.992337740495746,
+      "lng": 116.35901778298123
     },
     "address": "http://cjc.ecit.cn/",
     "province": "江西省",
@@ -20651,8 +20719,8 @@ export const universityList =
   {
     "name": "上海工程技术大学(松江校区)",
     "location": {
-      "lat": 31.061653,
-      "lng": 121.21267
+      "lat": 31.065580623517388,
+      "lng": 121.20938085046211
     },
     "address": "上海市松江区龙腾路333号",
     "province": "上海市",
@@ -20667,8 +20735,8 @@ export const universityList =
   {
     "name": "广州东华职业学院",
     "location": {
-      "lat": 23.2602,
-      "lng": 113.478978
+      "lat": 23.26020000915694,
+      "lng": 113.47897800534972
     },
     "address": "http://www.gzdhxy.com/",
     "province": "广东省",
@@ -20683,8 +20751,8 @@ export const universityList =
   {
     "name": "华东交通大学(双港东校区)",
     "location": {
-      "lat": 28.749703,
-      "lng": 115.876341
+      "lat": 28.68759600617345,
+      "lng": 115.96855240505471
     },
     "address": "江西省南昌市青山湖区经济技术开发区双港东大街808号",
     "province": "江西省",
@@ -20699,8 +20767,8 @@ export const universityList =
   {
     "name": "南京农业大学(卫岗校区)",
     "location": {
-      "lat": 32.038896,
-      "lng": 118.849755
+      "lat": 32.04060936286697,
+      "lng": 118.84754279853709
     },
     "address": "南京市玄武区卫岗1号",
     "province": "江苏省",
@@ -20715,8 +20783,8 @@ export const universityList =
   {
     "name": "新疆交通职业技术学院",
     "location": {
-      "lat": 43.947678,
-      "lng": 87.64155
+      "lat": 43.94767794303949,
+      "lng": 87.64154987057844
     },
     "address": "http://www.xjjtedu.com/",
     "province": "新疆维吾尔自治区",
@@ -20731,8 +20799,8 @@ export const universityList =
   {
     "name": "江苏大学",
     "location": {
-      "lat": 32.206296,
-      "lng": 119.520631
+      "lat": 32.21861606406707,
+      "lng": 119.46273897280425
     },
     "address": "http://www.ujs.edu.cn/",
     "province": "江苏省",
@@ -20747,8 +20815,8 @@ export const universityList =
   {
     "name": "新乡医学院(卫辉校区)",
     "location": {
-      "lat": 35.414391,
-      "lng": 114.065553
+      "lat": 35.39230137056416,
+      "lng": 114.05664415778104
     },
     "address": "新乡市卫辉市学院西路东150米",
     "province": "河南省",
@@ -20763,8 +20831,8 @@ export const universityList =
   {
     "name": "昆明冶金高等专科学校",
     "location": {
-      "lat": 25.07139,
-      "lng": 102.695529
+      "lat": 25.094514387808317,
+      "lng": 102.66582288011313
     },
     "address": "http://www.kmyz.edu.cn/",
     "province": "云南省",
@@ -20779,8 +20847,8 @@ export const universityList =
   {
     "name": "湖南三一工业职业技术学院",
     "location": {
-      "lat": 28.191847,
-      "lng": 113.14554
+      "lat": 28.191846787047027,
+      "lng": 113.14554002558593
     },
     "address": "http://www.sanyedu.com/",
     "province": "湖南省",
@@ -20795,8 +20863,8 @@ export const universityList =
   {
     "name": "郑州黄河护理职业学院",
     "location": {
-      "lat": 34.792691,
-      "lng": 113.533776
+      "lat": 34.79269100432647,
+      "lng": 113.53377555433777
     },
     "address": "http://www.zyrnvc.com/",
     "province": "河南省",
@@ -20811,8 +20879,8 @@ export const universityList =
   {
     "name": "河南科技职业大学",
     "location": {
-      "lat": 33.638525,
-      "lng": 114.734236
+      "lat": 33.63852478104222,
+      "lng": 114.7342358242963
     },
     "address": "http://www.zkkjxy.net/",
     "province": "河南省",
@@ -20827,8 +20895,8 @@ export const universityList =
   {
     "name": "西南民族大学(武侯校区)",
     "location": {
-      "lat": 30.645411,
-      "lng": 104.055946
+      "lat": 30.645026620441644,
+      "lng": 104.0566380511822
     },
     "address": "四川省成都市武侯区一环路南四段16号",
     "province": "四川省",
@@ -20843,8 +20911,8 @@ export const universityList =
   {
     "name": "山东艺术学院(长清校区)",
     "location": {
-      "lat": 36.528984,
-      "lng": 116.830981
+      "lat": 36.52908546055064,
+      "lng": 116.83173122058061
     },
     "address": "济南市长清区大学科技园紫薇路6000号",
     "province": "山东省",
@@ -20858,8 +20926,8 @@ export const universityList =
   {
     "name": "四川希望汽车职业学院",
     "location": {
-      "lat": 30.090726,
-      "lng": 104.620558
+      "lat": 30.0907261041013,
+      "lng": 104.62055840795651
     },
     "address": "http://www.qicheedu.com/",
     "province": "四川省",
@@ -20874,8 +20942,8 @@ export const universityList =
   {
     "name": "连云港师范高等专科学校",
     "location": {
-      "lat": 34.652324,
-      "lng": 119.234616
+      "lat": 34.652324091105946,
+      "lng": 119.23461554617305
     },
     "address": "https://www.lygsf.cn/",
     "province": "江苏省",
@@ -20890,8 +20958,8 @@ export const universityList =
   {
     "name": "运城护理职业学院",
     "location": {
-      "lat": 35.124474,
-      "lng": 110.929394
+      "lat": 35.12447446604552,
+      "lng": 110.92939447573539
     },
     "address": "http://www.ychlxy.com/",
     "province": "山西省",
@@ -20906,8 +20974,8 @@ export const universityList =
   {
     "name": "广西卫生职业技术学院(昆仑校区)",
     "location": {
-      "lat": 22.866923,
-      "lng": 108.380658
+      "lat": 22.86908251013125,
+      "lng": 108.38181692469135
     },
     "address": "广西壮族自治区南宁市兴宁区昆仑大道8号",
     "province": "广西壮族自治区",
@@ -20922,8 +20990,8 @@ export const universityList =
   {
     "name": "广东碧桂园职业学院",
     "location": {
-      "lat": 23.72808,
-      "lng": 113.117471
+      "lat": 23.72808019755627,
+      "lng": 113.1174714817999
     },
     "address": "http://www.bgypt.com/",
     "province": "广东省",
@@ -20938,8 +21006,8 @@ export const universityList =
   {
     "name": "贵州大学明德学院",
     "location": {
-      "lat": 26.400504,
-      "lng": 106.642355
+      "lat": 26.40160907650094,
+      "lng": 106.64124274200614
     },
     "address": "http://mdc.gzu.edu.cn/gdmd/;jsessionid=43C4EAAD0F8641566B56738AE9F3C69C",
     "province": "贵州省",
@@ -20954,8 +21022,8 @@ export const universityList =
   {
     "name": "大庆职业学院",
     "location": {
-      "lat": 46.6807,
-      "lng": 125.157043
+      "lat": 46.68070045739535,
+      "lng": 125.15704306370463
     },
     "address": "http://www.dqzyxy.net/",
     "province": "黑龙江省",
@@ -20970,8 +21038,8 @@ export const universityList =
   {
     "name": "河南检察职业学院",
     "location": {
-      "lat": 34.613315,
-      "lng": 113.714366
+      "lat": 34.613314969497225,
+      "lng": 113.71436604321399
     },
     "address": "http://www.hnjc.org/",
     "province": "河南省",
@@ -20986,8 +21054,8 @@ export const universityList =
   {
     "name": "广西制造工程职业技术学院",
     "location": {
-      "lat": 23.170438,
-      "lng": 108.192834
+      "lat": 23.17043802527283,
+      "lng": 108.19283401665061
     },
     "address": null,
     "province": "广西壮族自治区",
@@ -21002,8 +21070,8 @@ export const universityList =
   {
     "name": "广东亚视演艺职业学院",
     "location": {
-      "lat": 23.172337,
-      "lng": 111.774708
+      "lat": 23.172336771208506,
+      "lng": 111.77470803136332
     },
     "address": "http://www.atvcn.com/index.html",
     "province": "广东省",
@@ -21017,8 +21085,8 @@ export const universityList =
   {
     "name": "沈阳医学院",
     "location": {
-      "lat": 41.894656,
-      "lng": 123.415043
+      "lat": 41.89465638915419,
+      "lng": 123.41504327930552
     },
     "address": "http://www.symc.edu.cn/web/guest/home",
     "province": "辽宁省",
@@ -21033,8 +21101,8 @@ export const universityList =
   {
     "name": "泸州职业技术学院(东华校区)",
     "location": {
-      "lat": 28.920064,
-      "lng": 105.413891
+      "lat": 28.91597157644732,
+      "lng": 105.41383690037576
     },
     "address": "四川省泸州市龙马潭区长桥路2号",
     "province": "四川省",
@@ -21049,8 +21117,8 @@ export const universityList =
   {
     "name": "锡林郭勒职业学院",
     "location": {
-      "lat": 43.940908,
-      "lng": 116.033895
+      "lat": 42.212629729572974,
+      "lng": 116.51812953314747
     },
     "address": "http://www.xlglvc.cn/",
     "province": "内蒙古自治区",
@@ -21065,8 +21133,8 @@ export const universityList =
   {
     "name": "南京交通职业技术学院",
     "location": {
-      "lat": 31.918547,
-      "lng": 118.918469
+      "lat": 31.91854677850248,
+      "lng": 118.91846931855235
     },
     "address": "http://www.njitt.edu.cn/",
     "province": "江苏省",
@@ -21081,8 +21149,8 @@ export const universityList =
   {
     "name": "山东现代学院",
     "location": {
-      "lat": 36.678327,
-      "lng": 117.362024
+      "lat": 36.6783266104931,
+      "lng": 117.36202395974165
     },
     "address": "http://www.sdxd.edu.cn/",
     "province": "山东省",
@@ -21097,8 +21165,8 @@ export const universityList =
   {
     "name": "阳江职业技术学院",
     "location": {
-      "lat": 21.848992,
-      "lng": 111.993557
+      "lat": 21.848991998139297,
+      "lng": 111.993556992515
     },
     "address": "http://www.cnyjpt.cn/",
     "province": "广东省",
@@ -21113,8 +21181,8 @@ export const universityList =
   {
     "name": "湖南工艺美术职业学院",
     "location": {
-      "lat": 28.580762,
-      "lng": 112.341059
+      "lat": 28.58076195032275,
+      "lng": 112.34105875350778
     },
     "address": "http://www.hnmeida.com.cn/",
     "province": "湖南省",
@@ -21129,8 +21197,8 @@ export const universityList =
   {
     "name": "蚌埠医科大学",
     "location": {
-      "lat": 32.911226,
-      "lng": 117.438562
+      "lat": 32.90895824285936,
+      "lng": 117.4392339471381
     },
     "address": "安徽省蚌埠市龙子湖区东海大道2600号",
     "province": "安徽省",
@@ -21145,8 +21213,8 @@ export const universityList =
   {
     "name": "渤海石油职业学院",
     "location": {
-      "lat": 38.690367,
-      "lng": 116.107359
+      "lat": 38.72241843248162,
+      "lng": 116.0649345830247
     },
     "address": "http://www.qianyan.biz/qy-10052838.html",
     "province": "河北省",
@@ -21159,8 +21227,8 @@ export const universityList =
   {
     "name": "上海交通大学(徐汇校区)",
     "location": {
-      "lat": 31.205568,
-      "lng": 121.439446
+      "lat": 31.203279675886552,
+      "lng": 121.4410201550288
     },
     "address": "上海市徐汇区华山路1954号",
     "province": "上海市",
@@ -21175,8 +21243,8 @@ export const universityList =
   {
     "name": "江西传媒职业学院",
     "location": {
-      "lat": 28.752345,
-      "lng": 115.963715
+      "lat": 28.75234519645102,
+      "lng": 115.96371538920728
     },
     "address": "http://www.jxmvc.cn/",
     "province": "江西省",
@@ -21191,8 +21259,8 @@ export const universityList =
   {
     "name": "盐城工业职业技术学院",
     "location": {
-      "lat": 33.327149,
-      "lng": 120.181359
+      "lat": 33.32714851621028,
+      "lng": 120.18135930619893
     },
     "address": "http://www.yctei.cn/",
     "province": "江苏省",
@@ -21207,8 +21275,8 @@ export const universityList =
   {
     "name": "遵义医科大学(大连路校区)",
     "location": {
-      "lat": 27.714138,
-      "lng": 106.951233
+      "lat": 27.714101354522036,
+      "lng": 106.95107648687534
     },
     "address": "贵州省遵义市汇川区大连路201号",
     "province": "贵州省",
@@ -21222,8 +21290,8 @@ export const universityList =
   {
     "name": "广东财经大学华商学院",
     "location": {
-      "lat": 23.261684,
-      "lng": 113.784846
+      "lat": 23.26168369578837,
+      "lng": 113.78484645003807
     },
     "address": "http://www.gdhsc.edu.cn/",
     "province": "广东省",
@@ -21238,8 +21306,8 @@ export const universityList =
   {
     "name": "黔南民族师范学院",
     "location": {
-      "lat": 26.298301,
-      "lng": 107.526704
+      "lat": 26.27231818017286,
+      "lng": 107.52699524066452
     },
     "address": "http://www.sgmtu.edu.cn/",
     "province": "贵州省",
@@ -21253,8 +21321,8 @@ export const universityList =
   {
     "name": "福建商学院(马尾校区)",
     "location": {
-      "lat": 26.080385,
-      "lng": 119.511315
+      "lat": 26.078946646138874,
+      "lng": 119.51256553745087
     },
     "address": "福建省福州市马尾区亭江镇亭江路8号",
     "province": "福建省",
@@ -21269,8 +21337,8 @@ export const universityList =
   {
     "name": "珠海艺术职业学院",
     "location": {
-      "lat": 22.141802,
-      "lng": 113.362664
+      "lat": 22.141801971340428,
+      "lng": 113.36266397066738
     },
     "address": "http://www.zhac.net/",
     "province": "广东省",
@@ -21285,8 +21353,8 @@ export const universityList =
   {
     "name": "辽宁师范大学(北院)",
     "location": {
-      "lat": 38.926191,
-      "lng": 121.568933
+      "lat": 38.92070582070683,
+      "lng": 121.57206792723257
     },
     "address": "辽宁省大连市沙河口区黄河路850号",
     "province": "辽宁省",
@@ -21301,8 +21369,8 @@ export const universityList =
   {
     "name": "大连理工大学城市学院",
     "location": {
-      "lat": 39.158072,
-      "lng": 121.855384
+      "lat": 39.158072141606,
+      "lng": 121.85538396304122
     },
     "address": "http://www.dl-city.com/",
     "province": "辽宁省",
@@ -21317,8 +21385,8 @@ export const universityList =
   {
     "name": "茅台学院",
     "location": {
-      "lat": 27.745509,
-      "lng": 106.340639
+      "lat": 27.857631745324408,
+      "lng": 106.38232270766191
     },
     "address": "http://www.mtxy.edu.cn/",
     "province": "贵州省",
@@ -21333,8 +21401,8 @@ export const universityList =
   {
     "name": "浙江越秀外国语学院",
     "location": {
-      "lat": 29.975043,
-      "lng": 120.608833
+      "lat": 30.075750365992683,
+      "lng": 120.54142063596373
     },
     "address": "http://www.zyufl.edu.cn/",
     "province": "浙江省",
@@ -21349,8 +21417,8 @@ export const universityList =
   {
     "name": "张家界航空工业职业技术学院",
     "location": {
-      "lat": 29.153397,
-      "lng": 110.460987
+      "lat": 29.153396732265797,
+      "lng": 110.46098733703803
     },
     "address": "http://www.zjjhy.net/",
     "province": "湖南省",
@@ -21365,8 +21433,8 @@ export const universityList =
   {
     "name": "茂名职业技术学院(南校区)",
     "location": {
-      "lat": 21.472931,
-      "lng": 110.984514
+      "lat": 21.496164925941887,
+      "lng": 110.9673477928838
     },
     "address": "广东省茂名市电白区沙院镇海城路五路1号",
     "province": "广东省",
@@ -21380,8 +21448,8 @@ export const universityList =
   {
     "name": "湘潭大学-兴湘学院",
     "location": {
-      "lat": 27.884076,
-      "lng": 112.868082
+      "lat": 27.887115108665324,
+      "lng": 112.88950858243864
     },
     "address": "湖南省湘潭市雨湖区北二环路5栋",
     "province": "湖南省",
@@ -21396,8 +21464,8 @@ export const universityList =
   {
     "name": "新疆机电职业技术学院汉餐厅",
     "location": {
-      "lat": 43.886003,
-      "lng": 87.580113
+      "lat": 43.88532027498221,
+      "lng": 87.5771164824504
     },
     "address": "新市区天津北路176号",
     "province": "新疆维吾尔自治区",
@@ -21411,8 +21479,8 @@ export const universityList =
   {
     "name": "三门峡社会管理职业学院",
     "location": {
-      "lat": 34.705509,
-      "lng": 111.015474
+      "lat": 34.70550921629322,
+      "lng": 111.01547397241517
     },
     "address": "http://www.smxcsa.com/",
     "province": "河南省",
@@ -21426,8 +21494,8 @@ export const universityList =
   {
     "name": "南京大学金陵学院-南一门",
     "location": {
-      "lat": 32.180435,
-      "lng": 118.715619
+      "lat": 32.183465809420824,
+      "lng": 118.71157428841076
     },
     "address": "江苏省南京市浦口区学府路8号",
     "province": "江苏省",
@@ -21441,8 +21509,8 @@ export const universityList =
   {
     "name": "云南师范大学(呈贡校区)",
     "location": {
-      "lat": 24.867435,
-      "lng": 102.859747
+      "lat": 24.864178453775306,
+      "lng": 102.8593932547307
     },
     "address": "昆明市呈贡区聚贤街768号",
     "province": "云南省",
@@ -21457,8 +21525,8 @@ export const universityList =
   {
     "name": "重庆护理职业学院",
     "location": {
-      "lat": 29.449025,
-      "lng": 106.239853
+      "lat": 29.44902450080101,
+      "lng": 106.23985307077639
     },
     "address": "http://www.cqnvc.com/",
     "province": "重庆市",
@@ -21473,8 +21541,8 @@ export const universityList =
   {
     "name": "贵州中医药大学(花溪新校区)",
     "location": {
-      "lat": 26.389441,
-      "lng": 106.626434
+      "lat": 26.387226792521723,
+      "lng": 106.64238170356188
     },
     "address": "贵州省贵阳市花溪区大学城栋青南路",
     "province": "贵州省",
@@ -21489,8 +21557,8 @@ export const universityList =
   {
     "name": "黄河水利职业技术学院",
     "location": {
-      "lat": 34.833466,
-      "lng": 114.326923
+      "lat": 34.833465930889254,
+      "lng": 114.32692299589283
     },
     "address": "http://www.yrcti.edu.cn/",
     "province": "河南省",
@@ -21505,8 +21573,8 @@ export const universityList =
   {
     "name": "六安职业技术学院",
     "location": {
-      "lat": 31.837742,
-      "lng": 116.55059
+      "lat": 31.837741505506404,
+      "lng": 116.55059016207272
     },
     "address": "http://www.lvtc.edu.cn/",
     "province": "安徽省",
@@ -21521,8 +21589,8 @@ export const universityList =
   {
     "name": "安徽农业大学经济技术学院",
     "location": {
-      "lat": 31.939497,
-      "lng": 117.398975
+      "lat": 31.939497352034568,
+      "lng": 117.39897521791129
     },
     "address": "http://jjjs.ahau.edu.cn/",
     "province": "安徽省",
@@ -21537,8 +21605,8 @@ export const universityList =
   {
     "name": "江苏理工学院",
     "location": {
-      "lat": 31.756585,
-      "lng": 119.925132
+      "lat": 31.75658492936426,
+      "lng": 119.92513167304368
     },
     "address": "http://www.jstu.edu.cn/",
     "province": "江苏省",
@@ -21553,8 +21621,8 @@ export const universityList =
   {
     "name": "莆田学院",
     "location": {
-      "lat": 25.450168,
-      "lng": 119.015319
+      "lat": 25.515065037227572,
+      "lng": 119.05964097743623
     },
     "address": "http://www.ptu.edu.cn/",
     "province": "福建省",
@@ -21568,8 +21636,8 @@ export const universityList =
   {
     "name": "华南理工大学(五山校区)",
     "location": {
-      "lat": 23.161069,
-      "lng": 113.351557
+      "lat": 23.15553524640794,
+      "lng": 113.35079250403474
     },
     "address": "广州市天河区五山路381号",
     "province": "广东省",
@@ -21584,8 +21652,8 @@ export const universityList =
   {
     "name": "宁夏师范大学(古雁校区)",
     "location": {
-      "lat": 36.027159,
-      "lng": 106.254431
+      "lat": 36.027625849480984,
+      "lng": 106.24745553232046
     },
     "address": "宁夏回族自治区固原市原州区学院路固原体育馆东侧",
     "province": "宁夏回族自治区",
@@ -21600,8 +21668,8 @@ export const universityList =
   {
     "name": "中国刑事警察学院",
     "location": {
-      "lat": 41.849907,
-      "lng": 123.388133
+      "lat": 41.84990673495167,
+      "lng": 123.38813265131257
     },
     "address": "http://www.cipuc.edu.cn/",
     "province": "辽宁省",
@@ -21616,8 +21684,8 @@ export const universityList =
   {
     "name": "辽宁工程职业学院",
     "location": {
-      "lat": 42.249539,
-      "lng": 123.756963
+      "lat": 42.249538857974024,
+      "lng": 123.75696323946575
     },
     "address": "http://www.lngczyxy.com/",
     "province": "辽宁省",
@@ -21632,8 +21700,8 @@ export const universityList =
   {
     "name": "广东第二师范学院(花都校区)",
     "location": {
-      "lat": 23.411084,
-      "lng": 113.191783
+      "lat": 23.408368700737906,
+      "lng": 113.19137947777837
     },
     "address": "广东省广州市花都区迎宾大道西30号",
     "province": "广东省",
@@ -21648,8 +21716,8 @@ export const universityList =
   {
     "name": "中国矿业大学(南湖校区)",
     "location": {
-      "lat": 34.221332,
-      "lng": 117.151767
+      "lat": 34.22037561916511,
+      "lng": 117.146832359571
     },
     "address": "江苏省徐州市铜山区大学路1号",
     "province": "江苏省",
@@ -21664,8 +21732,8 @@ export const universityList =
   {
     "name": "武夷山职业学院",
     "location": {
-      "lat": 27.725727,
-      "lng": 118.005804
+      "lat": 27.72572671590013,
+      "lng": 118.00580366028376
     },
     "address": "http://www.wyszyxy.com/",
     "province": "福建省",
@@ -21680,8 +21748,8 @@ export const universityList =
   {
     "name": "红河学院",
     "location": {
-      "lat": 23.356148,
-      "lng": 103.429813
+      "lat": 23.35614800772453,
+      "lng": 103.42981303134239
     },
     "address": "https://www.uoh.edu.cn/",
     "province": "云南省",
@@ -21696,8 +21764,8 @@ export const universityList =
   {
     "name": "石家庄铁道大学",
     "location": {
-      "lat": 38.089425,
-      "lng": 114.515029
+      "lat": 37.88722703418344,
+      "lng": 114.37438496751251
     },
     "address": "http://www.stdu.edu.cn/",
     "province": "河北省",
@@ -21712,8 +21780,8 @@ export const universityList =
   {
     "name": "广西中医药大学",
     "location": {
-      "lat": 22.846845,
-      "lng": 108.32562
+      "lat": 22.846844713468922,
+      "lng": 108.32561956081956
     },
     "address": "http://www.gxtcmu.edu.cn/",
     "province": "广西壮族自治区",
@@ -21728,8 +21796,8 @@ export const universityList =
   {
     "name": "沙洲职业工学院",
     "location": {
-      "lat": 31.909881,
-      "lng": 120.594373
+      "lat": 31.9098808111587,
+      "lng": 120.59437341018261
     },
     "address": "http://www.szit.edu.cn/website/",
     "province": "江苏省",
@@ -21744,8 +21812,8 @@ export const universityList =
   {
     "name": "甘肃机电职业技术学院(兰州校区)",
     "location": {
-      "lat": 36.079564,
-      "lng": 103.77514
+      "lat": 36.07966516435592,
+      "lng": 103.77512141114059
     },
     "address": "甘肃省兰州市七里河区敦煌路888号",
     "province": "甘肃省",
@@ -21760,8 +21828,8 @@ export const universityList =
   {
     "name": "营口理工学院",
     "location": {
-      "lat": 40.638134,
-      "lng": 122.250448
+      "lat": 40.63813392271994,
+      "lng": 122.2504479466634
     },
     "address": "http://www.yku.edu.cn/",
     "province": "辽宁省",
@@ -21776,8 +21844,8 @@ export const universityList =
   {
     "name": "天津体育职业学院",
     "location": {
-      "lat": 38.969981,
-      "lng": 117.078464
+      "lat": 38.969981105625635,
+      "lng": 117.07846403398705
     },
     "address": "http://www.tjvcs.cn/",
     "province": "天津市",
@@ -21792,8 +21860,8 @@ export const universityList =
   {
     "name": "南京邮电大学通达学院",
     "location": {
-      "lat": 32.338389,
-      "lng": 119.406954
+      "lat": 32.338389211476645,
+      "lng": 119.40695393114295
     },
     "address": "http://www.tdxy.com.cn/",
     "province": "江苏省",
@@ -21808,8 +21876,8 @@ export const universityList =
   {
     "name": "温州商学院(北校区)",
     "location": {
-      "lat": 27.92429,
-      "lng": 120.69843
+      "lat": 27.92323269172465,
+      "lng": 120.69776674047269
     },
     "address": "浙江省温州市瓯海区梅泉大街588号",
     "province": "浙江省",
@@ -21824,8 +21892,8 @@ export const universityList =
   {
     "name": "大连民族大学",
     "location": {
-      "lat": 39.051454,
-      "lng": 121.781714
+      "lat": 39.091361696438696,
+      "lng": 121.98834934801712
     },
     "address": "http://www.dlnu.edu.cn/hhh/index.htm",
     "province": "辽宁省",
@@ -21840,8 +21908,8 @@ export const universityList =
   {
     "name": "惠州城市职业学院",
     "location": {
-      "lat": 23.015762,
-      "lng": 114.43774
+      "lat": 23.015761548889074,
+      "lng": 114.43773983515467
     },
     "address": "http://www.hzc.edu.cn/",
     "province": "广东省",
@@ -21856,8 +21924,8 @@ export const universityList =
   {
     "name": "开封文化艺术职业学院",
     "location": {
-      "lat": 34.831812,
-      "lng": 114.346009
+      "lat": 34.820871830506405,
+      "lng": 114.3435266461254
     },
     "address": "http://yh.glkjjt.com/kaifeng/",
     "province": "河南省",
@@ -21872,8 +21940,8 @@ export const universityList =
   {
     "name": "宝鸡文理学院(高新校区)",
     "location": {
-      "lat": 34.354694,
-      "lng": 107.216578
+      "lat": 34.35235199242616,
+      "lng": 107.21957543486717
     },
     "address": "陕西省宝鸡市渭滨区高新大道1号",
     "province": "陕西省",
@@ -21888,8 +21956,8 @@ export const universityList =
   {
     "name": "青海警官职业学院(西宁警校)",
     "location": {
-      "lat": 36.607343,
-      "lng": 101.79171
+      "lat": 36.607724618720404,
+      "lng": 101.7923928081667
     },
     "address": "青海省西宁市城中区南滩街道建新巷22号",
     "province": "青海省",
@@ -21904,8 +21972,8 @@ export const universityList =
   {
     "name": "河北工艺美术职业学院",
     "location": {
-      "lat": 38.949126,
-      "lng": 115.26238
+      "lat": 38.94912613693883,
+      "lng": 115.2623799963386
     },
     "address": "http://www.1964.cn/",
     "province": "河北省",
@@ -21919,8 +21987,8 @@ export const universityList =
   {
     "name": "陕西国防工业职业技术学院",
     "location": {
-      "lat": 34.100429,
-      "lng": 108.626899
+      "lat": 34.06751715851342,
+      "lng": 108.63011918054443
     },
     "address": "http://www.gfxy.com/",
     "province": "陕西省",
@@ -21935,8 +22003,8 @@ export const universityList =
   {
     "name": "安徽林业职业技术学院",
     "location": {
-      "lat": 31.847394,
-      "lng": 117.193962
+      "lat": 31.82980070460435,
+      "lng": 117.29234141319658
     },
     "address": "http://www.ahlyxy.cn/",
     "province": "安徽省",
@@ -21951,8 +22019,8 @@ export const universityList =
   {
     "name": "广州铁路职业技术学院(科教城校区)",
     "location": {
-      "lat": 23.292977,
-      "lng": 113.66976
+      "lat": 23.266592400631392,
+      "lng": 113.81754566889597
     },
     "address": "广州市增城区科德大道198号",
     "province": "广东省",
@@ -21966,8 +22034,8 @@ export const universityList =
   {
     "name": "江苏航运职业技术学院",
     "location": {
-      "lat": 31.922481,
-      "lng": 120.969167
+      "lat": 31.922481186904527,
+      "lng": 120.96916659098883
     },
     "address": "http://www.ntsc.edu.cn/",
     "province": "江苏省",
@@ -21982,8 +22050,8 @@ export const universityList =
   {
     "name": "福州外语外贸学院",
     "location": {
-      "lat": 25.928822,
-      "lng": 119.506353
+      "lat": 25.928821648526274,
+      "lng": 119.50635258705428
     },
     "address": "http://www.fzfu.com/",
     "province": "福建省",
@@ -21998,8 +22066,8 @@ export const universityList =
   {
     "name": "南京视觉艺术职业学院",
     "location": {
-      "lat": 31.75503,
-      "lng": 118.933388
+      "lat": 31.755029942121126,
+      "lng": 118.93338801713986
     },
     "address": "http://www.niva.cn/portal2.php",
     "province": "江苏省",
@@ -22014,8 +22082,8 @@ export const universityList =
   {
     "name": "滁州职业技术学院(新校区)",
     "location": {
-      "lat": 32.254129,
-      "lng": 118.310816
+      "lat": 32.256226878759065,
+      "lng": 118.31356341356309
     },
     "address": "安徽省滁州市琅琊区丰乐大道2188号",
     "province": "安徽省",
@@ -22030,8 +22098,8 @@ export const universityList =
   {
     "name": "牡丹江医科大学",
     "location": {
-      "lat": 44.610399,
-      "lng": 129.587118
+      "lat": 44.61034938012495,
+      "lng": 129.58786843693798
     },
     "address": "黑龙江省牡丹江市爱民区通乡街3号",
     "province": "黑龙江省",
@@ -22046,8 +22114,8 @@ export const universityList =
   {
     "name": "江西科技学院",
     "location": {
-      "lat": 28.686736,
-      "lng": 116.025864
+      "lat": 28.686736338169727,
+      "lng": 116.02586375758905
     },
     "address": "https://www.jxut.edu.cn/",
     "province": "江西省",
@@ -22062,8 +22130,8 @@ export const universityList =
   {
     "name": "培黎职业学院",
     "location": {
-      "lat": 38.802891,
-      "lng": 101.08424
+      "lat": 38.80289067520177,
+      "lng": 101.08424042887975
     },
     "address": null,
     "province": "甘肃省",
@@ -22077,8 +22145,8 @@ export const universityList =
   {
     "name": "天津医科大学临床医学院",
     "location": {
-      "lat": 38.873134,
-      "lng": 117.469996
+      "lat": 38.87313410918853,
+      "lng": 117.46999561085235
     },
     "address": "http://www.tmucmc.edu.cn/",
     "province": "天津市",
@@ -22093,8 +22161,8 @@ export const universityList =
   {
     "name": "重庆第二师范学院(学府大道校区)",
     "location": {
-      "lat": 29.516349,
-      "lng": 106.582937
+      "lat": 29.51711831524775,
+      "lng": 106.58385602163953
     },
     "address": "重庆市南岸区四公里学府大道9号",
     "province": "重庆市",
@@ -22109,8 +22177,8 @@ export const universityList =
   {
     "name": "重庆资源与环境保护职业学院",
     "location": {
-      "lat": 29.694307,
-      "lng": 105.708936
+      "lat": 29.617437696970633,
+      "lng": 106.52077009179729
     },
     "address": "http://www.cqzhxy.cn/",
     "province": "重庆市",
@@ -22125,8 +22193,8 @@ export const universityList =
   {
     "name": "临沂科技职业学院",
     "location": {
-      "lat": 35.115579,
-      "lng": 118.510133
+      "lat": 35.11557896471305,
+      "lng": 118.5101329608508
     },
     "address": null,
     "province": "山东省",
@@ -22141,8 +22209,8 @@ export const universityList =
   {
     "name": "贵阳学院",
     "location": {
-      "lat": 26.563491,
-      "lng": 106.784401
+      "lat": 26.563490690289367,
+      "lng": 106.7844011995565
     },
     "address": "http://www.gyu.cn/",
     "province": "贵州省",
@@ -22157,8 +22225,8 @@ export const universityList =
   {
     "name": "广东机电职业技术学院(北校区)",
     "location": {
-      "lat": 23.38733,
-      "lng": 113.45315
+      "lat": 23.387330010219042,
+      "lng": 113.45315001516592
     },
     "address": "广东省广州市白云区钟落潭镇高职园区社区马沥环村路1号",
     "province": "广东省",
@@ -22173,8 +22241,8 @@ export const universityList =
   {
     "name": "湖北民族大学",
     "location": {
-      "lat": 30.301281,
-      "lng": 109.509443
+      "lat": 30.301280666941715,
+      "lng": 109.50944259679102
     },
     "address": "http://www.hbmy.edu.cn/templet/default/index.html/",
     "province": "湖北省",
@@ -22189,8 +22257,8 @@ export const universityList =
   {
     "name": "德阳科贸职业学院",
     "location": {
-      "lat": 30.990053,
-      "lng": 104.262727
+      "lat": 30.99005320403867,
+      "lng": 104.26272685212858
     },
     "address": null,
     "province": "四川省",
@@ -22205,18 +22273,26 @@ export const universityList =
   {
     "name": "兴安盟",
     "num": 10,
-    "index": 1412
+    "index": 1412,
+    "location": {
+      "lat": 46.08846371321896,
+      "lng": 122.04436452582519
+    }
   },
   {
     "name": "长沙市",
     "num": 8,
-    "index": 1413
+    "index": 1413,
+    "location": {
+      "lat": 28.23488939994364,
+      "lng": 112.94547319535287
+    }
   },
   {
     "name": "中南财经政法大学(南湖校区)",
     "location": {
-      "lat": 30.480725,
-      "lng": 114.392191
+      "lat": 30.477977397495025,
+      "lng": 114.39464543981511
     },
     "address": "武汉市东湖高新技术开发区南湖大道182号",
     "province": "湖北省",
@@ -22231,8 +22307,8 @@ export const universityList =
   {
     "name": "河南经贸职业学院(龙子湖校区)",
     "location": {
-      "lat": 34.806682,
-      "lng": 113.80502
+      "lat": 34.80623835095186,
+      "lng": 113.80534480831464
     },
     "address": "河南省郑州市金水区龙子湖北路58号",
     "province": "河南省",
@@ -22247,8 +22323,8 @@ export const universityList =
   {
     "name": "绥化学院",
     "location": {
-      "lat": 46.630247,
-      "lng": 126.984308
+      "lat": 46.63024678132075,
+      "lng": 126.98430831004723
     },
     "address": "http://www.shxy.edu.cn/",
     "province": "黑龙江省",
@@ -22263,8 +22339,8 @@ export const universityList =
   {
     "name": "济南护理职业学院",
     "location": {
-      "lat": 36.646715,
-      "lng": 117.235711
+      "lat": 36.64671522159771,
+      "lng": 117.23571106605043
     },
     "address": "http://www.sdjnwx.com/",
     "province": "山东省",
@@ -22279,8 +22355,8 @@ export const universityList =
   {
     "name": "辽宁民族师范高等专科学校",
     "location": {
-      "lat": 41.838304,
-      "lng": 123.457026
+      "lat": 41.838304393576585,
+      "lng": 123.45702585680598
     },
     "address": "http://www.lnnc.edu.cn/",
     "province": "辽宁省",
@@ -22295,8 +22371,8 @@ export const universityList =
   {
     "name": "南昌健康职业技术学院",
     "location": {
-      "lat": 28.728897,
-      "lng": 115.738131
+      "lat": 28.677872041771288,
+      "lng": 116.00990598902342
     },
     "address": null,
     "province": "江西省",
@@ -22311,8 +22387,8 @@ export const universityList =
   {
     "name": "浙江警官职业学院(下沙校区)",
     "location": {
-      "lat": 30.319855,
-      "lng": 120.366802
+      "lat": 30.31758550912224,
+      "lng": 120.36640943277943
     },
     "address": "浙江省杭州市钱塘区白杨街道二号大街688号",
     "province": "浙江省",
@@ -22327,8 +22403,8 @@ export const universityList =
   {
     "name": "大连东软信息学院(软件园校区)",
     "location": {
-      "lat": 38.899271,
-      "lng": 121.543102
+      "lat": 38.89494033599027,
+      "lng": 121.5416493263926
     },
     "address": "辽宁省大连市甘井子区软件园路8号",
     "province": "辽宁省",
@@ -22343,8 +22419,8 @@ export const universityList =
   {
     "name": "四川邮电职业技术学院",
     "location": {
-      "lat": 30.625423,
-      "lng": 104.130718
+      "lat": 30.625422909617512,
+      "lng": 104.13071798285971
     },
     "address": "http://www.sptpc.com/",
     "province": "四川省",
@@ -22359,8 +22435,8 @@ export const universityList =
   {
     "name": "陕西工业职业技术学院",
     "location": {
-      "lat": 34.354921,
-      "lng": 108.721504
+      "lat": 34.41370821915058,
+      "lng": 108.63257415967264
     },
     "address": "http://www.sxpi.edu.cn/",
     "province": "陕西省",
@@ -22375,8 +22451,8 @@ export const universityList =
   {
     "name": "牡丹江师范学院",
     "location": {
-      "lat": 44.594781,
-      "lng": 129.567356
+      "lat": 44.59478102434001,
+      "lng": 129.56735598993984
     },
     "address": "http://www.mdjnu.cn/",
     "province": "黑龙江省",
@@ -22391,8 +22467,8 @@ export const universityList =
   {
     "name": "湖南邮电职业技术学院",
     "location": {
-      "lat": 28.16644,
-      "lng": 112.982471
+      "lat": 28.1664399921171,
+      "lng": 112.98247098573572
     },
     "address": "http://www.hnydxy.com/",
     "province": "湖南省",
@@ -22407,8 +22483,8 @@ export const universityList =
   {
     "name": "贵州装备制造职业学院",
     "location": {
-      "lat": 26.593218,
-      "lng": 106.473498
+      "lat": 26.593218071849094,
+      "lng": 106.47349766265583
     },
     "address": "http://www.gzzbzy.cn/",
     "province": "贵州省",
@@ -22423,8 +22499,8 @@ export const universityList =
   {
     "name": "苏州大学-应用技术学院",
     "location": {
-      "lat": 31.155151,
-      "lng": 120.850034
+      "lat": 31.156877393218977,
+      "lng": 120.84732627060123
     },
     "address": "江苏省苏州市昆山市周庄镇大学路1号",
     "province": "江苏省",
@@ -22439,8 +22515,8 @@ export const universityList =
   {
     "name": "江西财经职业学院",
     "location": {
-      "lat": 29.710789,
-      "lng": 116.001418
+      "lat": 29.641358968677444,
+      "lng": 115.92126003353093
     },
     "address": "http://www.jxvc.jx.cn/",
     "province": "江西省",
@@ -22455,8 +22531,8 @@ export const universityList =
   {
     "name": "克孜勒苏职业技术学院",
     "location": {
-      "lat": 39.681812,
-      "lng": 76.078878
+      "lat": 39.68181236389443,
+      "lng": 76.07887817849561
     },
     "address": null,
     "province": "新疆维吾尔自治区",
@@ -22470,8 +22546,8 @@ export const universityList =
   {
     "name": "云南外事外语职业学院",
     "location": {
-      "lat": 25.246105,
-      "lng": 103.017029
+      "lat": 25.2461053677831,
+      "lng": 103.01702880387509
     },
     "address": "http://www.fafl.cn/",
     "province": "云南省",
@@ -22486,8 +22562,8 @@ export const universityList =
   {
     "name": "滁州学院(会峰校区)",
     "location": {
-      "lat": 32.282388,
-      "lng": 118.320321
+      "lat": 32.263693952284285,
+      "lng": 118.32281506201036
     },
     "address": "安徽省滁州市丰乐大道1528号",
     "province": "安徽省",
@@ -22502,8 +22578,8 @@ export const universityList =
   {
     "name": "上海海事职业技术学院",
     "location": {
-      "lat": 31.244897,
-      "lng": 121.534987
+      "lat": 31.397697446514698,
+      "lng": 121.49471322281845
     },
     "address": "http://www.sma.edu.cn/OceanAffairs.Web/",
     "province": "上海市",
@@ -22518,8 +22594,8 @@ export const universityList =
   {
     "name": "赣西科技职业学院",
     "location": {
-      "lat": 27.838025,
-      "lng": 114.938455
+      "lat": 27.838025237531074,
+      "lng": 114.93845532625099
     },
     "address": "http://www.ganxidx.com/new/",
     "province": "江西省",
@@ -22534,8 +22610,8 @@ export const universityList =
   {
     "name": "广西民族大学(相思湖校区)",
     "location": {
-      "lat": 22.849621,
-      "lng": 108.242055
+      "lat": 22.854670372526726,
+      "lng": 108.24303510141473
     },
     "address": "广西壮族自治区南宁市西乡塘区大学东路188号",
     "province": "广西壮族自治区",
@@ -22550,8 +22626,8 @@ export const universityList =
   {
     "name": "重庆大学城市科技学院",
     "location": {
-      "lat": 29.39739,
-      "lng": 105.893234
+      "lat": 29.399103403850372,
+      "lng": 105.89220120293292
     },
     "address": "http://www.cqucc.com.cn/default.html",
     "province": "重庆市",
@@ -22566,8 +22642,8 @@ export const universityList =
   {
     "name": "四川文理学院(莲湖校区)",
     "location": {
-      "lat": 31.23931,
-      "lng": 107.475763
+      "lat": 31.239788683351627,
+      "lng": 107.47283506661745
     },
     "address": "四川省达州市通川区塔石路中段519号",
     "province": "四川省",
@@ -22582,8 +22658,8 @@ export const universityList =
   {
     "name": "福建体育职业技术学院",
     "location": {
-      "lat": 26.118805,
-      "lng": 119.306166
+      "lat": 26.118805068085504,
+      "lng": 119.30616556354401
     },
     "address": "http://www.fjipe.cn/new/",
     "province": "福建省",
@@ -22598,8 +22674,8 @@ export const universityList =
   {
     "name": "大理护理职业学院",
     "location": {
-      "lat": 25.669404,
-      "lng": 100.307402
+      "lat": 25.66940441322791,
+      "lng": 100.30740171363546
     },
     "address": "http://www.dlhlzyxy.com/",
     "province": "云南省",
@@ -22614,8 +22690,8 @@ export const universityList =
   {
     "name": "湖北铁道运输职业学院",
     "location": {
-      "lat": 30.463125,
-      "lng": 114.354835
+      "lat": 30.46312504828685,
+      "lng": 114.35483496503775
     },
     "address": "http://www.wtsx.com.cn/",
     "province": "湖北省",
@@ -22630,8 +22706,8 @@ export const universityList =
   {
     "name": "石家庄财经职业学院",
     "location": {
-      "lat": 38.174459,
-      "lng": 114.44225
+      "lat": 38.123487491070975,
+      "lng": 114.2890373203317
     },
     "address": "http://www.hebcj.cn/",
     "province": "河北省",
@@ -22646,8 +22722,8 @@ export const universityList =
   {
     "name": "贵州电子商务职业技术学院",
     "location": {
-      "lat": 26.592362,
-      "lng": 106.436971
+      "lat": 26.592361799754325,
+      "lng": 106.43697058436005
     },
     "address": "",
     "province": "贵州省",
@@ -22662,8 +22738,8 @@ export const universityList =
   {
     "name": "安徽工业经济职业技术学院",
     "location": {
-      "lat": 31.825982,
-      "lng": 117.335657
+      "lat": 31.825982410806134,
+      "lng": 117.33565734556552
     },
     "address": "http://www.ahiec.net/",
     "province": "安徽省",
@@ -22678,8 +22754,8 @@ export const universityList =
   {
     "name": "贵州交通职业大学",
     "location": {
-      "lat": 26.573346,
-      "lng": 106.449731
+      "lat": 26.571047648960196,
+      "lng": 106.44802746755653
     },
     "address": "贵州省贵阳市清镇市站街镇云站路25号",
     "province": "贵州省",
@@ -22694,8 +22770,8 @@ export const universityList =
   {
     "name": "兰州大学(本部)",
     "location": {
-      "lat": 36.052393,
-      "lng": 103.866202
+      "lat": 36.052330379605344,
+      "lng": 103.86232962869366
     },
     "address": "甘肃省兰州市城关区天水南路222号",
     "province": "甘肃省",
@@ -22710,8 +22786,8 @@ export const universityList =
   {
     "name": "盐城师范学院(通榆校区)",
     "location": {
-      "lat": 33.389791,
-      "lng": 120.16413
+      "lat": 33.390725209057344,
+      "lng": 120.16035108438984
     },
     "address": "盐城市亭湖区开放大道50号",
     "province": "江苏省",
@@ -22726,8 +22802,8 @@ export const universityList =
   {
     "name": "浙江工业大学(屏峰校区)",
     "location": {
-      "lat": 30.234097,
-      "lng": 120.047668
+      "lat": 30.234097039809047,
+      "lng": 120.04766800054041
     },
     "address": "杭州市西湖区留和路288号",
     "province": "浙江省",
@@ -22742,8 +22818,8 @@ export const universityList =
   {
     "name": "吉林体育学院",
     "location": {
-      "lat": 43.867758,
-      "lng": 125.346391
+      "lat": 43.86775757542819,
+      "lng": 125.34639105287248
     },
     "address": "http://www.jlsu.edu.cn/index.html",
     "province": "吉林省",
@@ -22758,8 +22834,8 @@ export const universityList =
   {
     "name": "南昌师范学院(昌北校区)",
     "location": {
-      "lat": 28.729028,
-      "lng": 115.810581
+      "lat": 28.729052099552522,
+      "lng": 115.8116973935677
     },
     "address": "南昌市昌北经济开发区瑞香路889号",
     "province": "江西省",
@@ -22774,8 +22850,8 @@ export const universityList =
   {
     "name": "河南城建学院",
     "location": {
-      "lat": 33.779533,
-      "lng": 113.193115
+      "lat": 33.77913464901793,
+      "lng": 113.1982041887082
     },
     "address": "http://www.hncj.edu.cn/",
     "province": "河南省",
@@ -22790,8 +22866,8 @@ export const universityList =
   {
     "name": "浙江旅游职业学院(南校区)",
     "location": {
-      "lat": 30.248842,
-      "lng": 120.308893
+      "lat": 30.247630793490785,
+      "lng": 120.30709270300568
     },
     "address": "浙江省杭州市萧山区高教园区学知路333号",
     "province": "浙江省",
@@ -22806,8 +22882,8 @@ export const universityList =
   {
     "name": "遵义医科大学医学与科技学院",
     "location": {
-      "lat": 27.728347,
-      "lng": 107.093602
+      "lat": 27.728346518332184,
+      "lng": 107.09360208819412
     },
     "address": "http://mts.zmc.edu.cn/",
     "province": "贵州省",
@@ -22822,8 +22898,8 @@ export const universityList =
   {
     "name": "陕西旅游烹饪职业学院",
     "location": {
-      "lat": 34.557327,
-      "lng": 108.93935
+      "lat": 34.55732693300892,
+      "lng": 108.9393495337049
     },
     "address": "http://www.sntcc.cn/",
     "province": "陕西省",
@@ -22838,8 +22914,8 @@ export const universityList =
   {
     "name": "成都信息工程大学",
     "location": {
-      "lat": 30.588652,
-      "lng": 103.995255
+      "lat": 30.61235413046293,
+      "lng": 104.31192192456868
     },
     "address": "http://www.cuit.edu.cn/",
     "province": "四川省",
@@ -22854,8 +22930,8 @@ export const universityList =
   {
     "name": "鞍山职业技术学院",
     "location": {
-      "lat": 41.151718,
-      "lng": 122.924962
+      "lat": 41.15167011070909,
+      "lng": 122.92536167462288
     },
     "address": null,
     "province": "辽宁省",
@@ -22869,8 +22945,8 @@ export const universityList =
   {
     "name": "宿州职业技术学院",
     "location": {
-      "lat": 33.730813,
-      "lng": 116.980406
+      "lat": 33.73081306763199,
+      "lng": 116.98040599265391
     },
     "address": "http://www.ahgmedu.cn/zzrsc/",
     "province": "安徽省",
@@ -22885,8 +22961,8 @@ export const universityList =
   {
     "name": "甘肃林业职业技术学院",
     "location": {
-      "lat": 34.489191,
-      "lng": 105.918659
+      "lat": 34.48919103196285,
+      "lng": 105.91865900718605
     },
     "address": "http://www.gsfc.edu.cn/",
     "province": "甘肃省",
@@ -22900,8 +22976,8 @@ export const universityList =
   {
     "name": "石家庄医学高等专科学校",
     "location": {
-      "lat": 38.267735,
-      "lng": 114.42452
+      "lat": 38.10705604791842,
+      "lng": 114.44060257004448
     },
     "address": "http://www.sjzmc.cn/cmshtml/index.any",
     "province": "河北省",
@@ -22916,8 +22992,8 @@ export const universityList =
   {
     "name": "河南工学院",
     "location": {
-      "lat": 35.306362,
-      "lng": 113.960603
+      "lat": 35.30636223498976,
+      "lng": 113.96060254282615
     },
     "address": "http://www.hait.edu.cn/",
     "province": "河南省",
@@ -22932,8 +23008,8 @@ export const universityList =
   {
     "name": "郑州轻工业大学(东风校区)",
     "location": {
-      "lat": 34.803426,
-      "lng": 113.661435
+      "lat": 34.806364168546736,
+      "lng": 113.66404242956172
     },
     "address": "郑州市金水区东风路5号",
     "province": "河南省",
@@ -22948,8 +23024,8 @@ export const universityList =
   {
     "name": "南京特殊教育师范学院(栖霞校区)",
     "location": {
-      "lat": 32.134762,
-      "lng": 118.83707
+      "lat": 32.13469605130202,
+      "lng": 118.83695312403272
     },
     "address": "江苏省南京市栖霞区神农路1号",
     "province": "江苏省",
@@ -22964,8 +23040,8 @@ export const universityList =
   {
     "name": "滁州城市职业学院",
     "location": {
-      "lat": 32.251441,
-      "lng": 118.302681
+      "lat": 32.251441247156606,
+      "lng": 118.30268116095412
     },
     "address": "http://www.fysf.com/",
     "province": "安徽省",
@@ -22980,8 +23056,8 @@ export const universityList =
   {
     "name": "山东管理学院(长清校区)",
     "location": {
-      "lat": 36.536228,
-      "lng": 116.791446
+      "lat": 36.540341201888594,
+      "lng": 116.79286738014967
     },
     "address": "山东省济南市长清区丁香路3500号",
     "province": "山东省",
@@ -22996,8 +23072,8 @@ export const universityList =
   {
     "name": "安徽公安职业学院",
     "location": {
-      "lat": 31.834892,
-      "lng": 117.18346
+      "lat": 31.83489179610613,
+      "lng": 117.18346022775705
     },
     "address": "http://www.ahgaxy.com.cn/",
     "province": "安徽省",
@@ -23012,8 +23088,8 @@ export const universityList =
   {
     "name": "昆明理工大学津桥学院(空港校区)",
     "location": {
-      "lat": 25.128204,
-      "lng": 103.004941
+      "lat": 25.128343989755887,
+      "lng": 103.00463614038573
     },
     "address": "云南省昆明市官渡区云桥街1369号",
     "province": "云南省",
@@ -23027,8 +23103,8 @@ export const universityList =
   {
     "name": "鹰潭职业技术学院",
     "location": {
-      "lat": 28.301142,
-      "lng": 117.063484
+      "lat": 28.27725963595326,
+      "lng": 117.19524975312962
     },
     "address": "",
     "province": "江西省",
@@ -23042,8 +23118,8 @@ export const universityList =
   {
     "name": "吉林工程职业学院",
     "location": {
-      "lat": 43.173989,
-      "lng": 124.424397
+      "lat": 43.17398928401008,
+      "lng": 124.42439686727421
     },
     "address": "http://www.jlevc.cn/",
     "province": "吉林省",
@@ -23058,8 +23134,8 @@ export const universityList =
   {
     "name": "长春工程学院",
     "location": {
-      "lat": 43.860063,
-      "lng": 125.290173
+      "lat": 43.867467450707494,
+      "lng": 125.3273467065693
     },
     "address": "http://www.ccit.edu.cn/",
     "province": "吉林省",
@@ -23074,8 +23150,8 @@ export const universityList =
   {
     "name": "陕西服装工程学院",
     "location": {
-      "lat": 34.309446,
-      "lng": 108.72519
+      "lat": 34.30944601492238,
+      "lng": 108.72518999673467
     },
     "address": "http://www.sxfu.org/",
     "province": "陕西省",
@@ -23090,8 +23166,8 @@ export const universityList =
   {
     "name": "昌吉职业技术学院(新校区)",
     "location": {
-      "lat": 44.094798,
-      "lng": 87.06593
+      "lat": 44.10461737753498,
+      "lng": 87.08153094446453
     },
     "address": "新疆昌吉高新技术开发区兴业大道8号",
     "province": "新疆维吾尔自治区",
@@ -23105,8 +23181,8 @@ export const universityList =
   {
     "name": "哈尔滨石油学院",
     "location": {
-      "lat": 45.85309,
-      "lng": 126.567103
+      "lat": 45.853089956502366,
+      "lng": 126.5671034311958
     },
     "address": "http://www.hip.edu.cn/",
     "province": "黑龙江省",
@@ -23121,8 +23197,8 @@ export const universityList =
   {
     "name": "安阳学院",
     "location": {
-      "lat": 36.031282,
-      "lng": 114.400667
+      "lat": 36.088623815857204,
+      "lng": 114.47673376511405
     },
     "address": "http://www.ayrwedu.cn/",
     "province": "河南省",
@@ -23137,8 +23213,8 @@ export const universityList =
   {
     "name": "西安铁路职业技术学院(新校区)",
     "location": {
-      "lat": 34.392795,
-      "lng": 109.07442
+      "lat": 34.392993836592744,
+      "lng": 109.0749332995813
     },
     "address": "陕西省西安市灞桥区港务大道396号",
     "province": "陕西省",
@@ -23153,8 +23229,8 @@ export const universityList =
   {
     "name": "南昌大学科学技术学院(共青校区)",
     "location": {
-      "lat": 29.178089,
-      "lng": 115.808065
+      "lat": 29.17782161905906,
+      "lng": 115.8041173120159
     },
     "address": "江西省九江市共青城市江益镇五四大道199号",
     "province": "江西省",
@@ -23169,8 +23245,8 @@ export const universityList =
   {
     "name": "新乡职业技术学院",
     "location": {
-      "lat": 35.284734,
-      "lng": 114.048985
+      "lat": 35.19656440899276,
+      "lng": 113.81159378076424
     },
     "address": "http://www.xxvtc.edu.cn/",
     "province": "河南省",
@@ -23185,8 +23261,8 @@ export const universityList =
   {
     "name": "曲阜师范大学",
     "location": {
-      "lat": 35.60109,
-      "lng": 116.973441
+      "lat": 35.60109046243703,
+      "lng": 116.97344125037395
     },
     "address": "http://www.qfnu.edu.cn/",
     "province": "山东省",
@@ -23201,8 +23277,8 @@ export const universityList =
   {
     "name": "鄂尔多斯生态环境职业学院",
     "location": {
-      "lat": 39.631397,
-      "lng": 109.834498
+      "lat": 39.63139739822114,
+      "lng": 109.83449812862914
     },
     "address": "http://www.ordosnmxx.com/",
     "province": "内蒙古自治区",
@@ -23217,8 +23293,8 @@ export const universityList =
   {
     "name": "厦门大学(思明校区)",
     "location": {
-      "lat": 24.442324,
-      "lng": 118.108573
+      "lat": 24.441302825146735,
+      "lng": 118.09972365725416
     },
     "address": "福建省厦门市思明区思明南路422号",
     "province": "福建省",
@@ -23233,8 +23309,8 @@ export const universityList =
   {
     "name": "邯郸幼儿师范高等专科学校",
     "location": {
-      "lat": 36.662804,
-      "lng": 114.212071
+      "lat": 36.29445989310526,
+      "lng": 115.15838703016213
     },
     "address": null,
     "province": "河北省",
@@ -23248,8 +23324,8 @@ export const universityList =
   {
     "name": "郑州工业应用技术学院",
     "location": {
-      "lat": 34.418885,
-      "lng": 113.763753
+      "lat": 34.41888529876594,
+      "lng": 113.7637531733721
     },
     "address": "http://www.zzhxxy.com/index.html",
     "province": "河南省",
@@ -23264,8 +23340,8 @@ export const universityList =
   {
     "name": "哈尔滨幼儿师范高等专科学校",
     "location": {
-      "lat": 45.73155,
-      "lng": 126.779023
+      "lat": 45.73155033338243,
+      "lng": 126.7790233128699
     },
     "address": "http://www.hayouzhuan.org.cn/website/index.aspx",
     "province": "黑龙江省",
@@ -23280,8 +23356,8 @@ export const universityList =
   {
     "name": "嘉兴南洋职业技术学院",
     "location": {
-      "lat": 30.79337,
-      "lng": 120.711813
+      "lat": 30.793369734498537,
+      "lng": 120.71181284204627
     },
     "address": "http://www.jxnyc.net/",
     "province": "浙江省",
@@ -23296,8 +23372,8 @@ export const universityList =
   {
     "name": "河北地质大学华信学院",
     "location": {
-      "lat": 38.337794,
-      "lng": 114.778222
+      "lat": 38.337793877554546,
+      "lng": 114.77822180274515
     },
     "address": "http://www.sjzuehx.cn/",
     "province": "河北省",
@@ -23311,8 +23387,8 @@ export const universityList =
   {
     "name": "山东轻工职业学院",
     "location": {
-      "lat": 36.779815,
-      "lng": 117.867737
+      "lat": 36.77981469830509,
+      "lng": 117.86773735336922
     },
     "address": "http://www.silkedu.com/",
     "province": "山东省",
@@ -23327,8 +23403,8 @@ export const universityList =
   {
     "name": "长江职业学院",
     "location": {
-      "lat": 30.502821,
-      "lng": 114.402482
+      "lat": 30.502821494197363,
+      "lng": 114.40248216725361
     },
     "address": "http://www.cjxy.edu.cn/",
     "province": "湖北省",
@@ -23343,8 +23419,8 @@ export const universityList =
   {
     "name": "郑州电子商务职业学院",
     "location": {
-      "lat": 34.692894,
-      "lng": 113.748916
+      "lat": 34.692894285943765,
+      "lng": 113.74891631041656
     },
     "address": null,
     "province": "河南省",
@@ -23359,8 +23435,8 @@ export const universityList =
   {
     "name": "梧州学院",
     "location": {
-      "lat": 23.503845,
-      "lng": 111.322852
+      "lat": 23.50384508098702,
+      "lng": 111.32285155659967
     },
     "address": "http://www.gxuwz.edu.cn/",
     "province": "广西壮族自治区",
@@ -23375,8 +23451,8 @@ export const universityList =
   {
     "name": "青岛科技大学(崂山校区)",
     "location": {
-      "lat": 36.126442,
-      "lng": 120.487295
+      "lat": 36.125314175757964,
+      "lng": 120.48371735271644
     },
     "address": "青岛市崂山区松岭路99号",
     "province": "山东省",
@@ -23391,8 +23467,8 @@ export const universityList =
   {
     "name": "广西师范大学(雁山校区)",
     "location": {
-      "lat": 25.100099,
-      "lng": 110.295168
+      "lat": 25.104902657566306,
+      "lng": 110.2979260226152
     },
     "address": "广西壮族自治区桂林市雁山区雁中路1号",
     "province": "广西壮族自治区",
@@ -23407,8 +23483,8 @@ export const universityList =
   {
     "name": "中国科学技术大学(东校区)",
     "location": {
-      "lat": 31.842919,
-      "lng": 117.276137
+      "lat": 31.84206122492243,
+      "lng": 117.27209154089903
     },
     "address": "合肥市包河区金寨路96号",
     "province": "安徽省",
@@ -23423,13 +23499,17 @@ export const universityList =
   {
     "name": "咸阳市",
     "num": 8,
-    "index": 1490
+    "index": 1490,
+    "location": {
+      "lat": 34.335476293368586,
+      "lng": 108.71542245143303
+    }
   },
   {
     "name": "合肥科技职业学院",
     "location": {
-      "lat": 31.752733,
-      "lng": 117.037167
+      "lat": 31.75273302925555,
+      "lng": 117.03716659409903
     },
     "address": "http://www.hfstu.cn/",
     "province": "安徽省",
@@ -23444,8 +23524,8 @@ export const universityList =
   {
     "name": "铜陵学院(翠湖校区)",
     "location": {
-      "lat": 30.970181,
-      "lng": 117.852884
+      "lat": 30.971971731759915,
+      "lng": 117.84996635512643
     },
     "address": "铜陵市铜官区翠湖四路1335号",
     "province": "安徽省",
@@ -23460,8 +23540,8 @@ export const universityList =
   {
     "name": "宁夏大学新华学院(北校区)",
     "location": {
-      "lat": 38.507925,
-      "lng": 106.129195
+      "lat": 38.50879459407226,
+      "lng": 106.1276065755874
     },
     "address": "银川市西夏区贺兰山西路668号",
     "province": "宁夏回族自治区",
@@ -23476,8 +23556,8 @@ export const universityList =
   {
     "name": "大连外国语大学(旅顺校区)",
     "location": {
-      "lat": 38.819576,
-      "lng": 121.314685
+      "lat": 38.85477713533208,
+      "lng": 121.36702196915272
     },
     "address": "大连市旅顺口区旅顺南路西段6号",
     "province": "辽宁省",
@@ -23492,8 +23572,8 @@ export const universityList =
   {
     "name": "保定学院",
     "location": {
-      "lat": 38.887037,
-      "lng": 115.585285
+      "lat": 38.8864107836853,
+      "lng": 115.58378328746478
     },
     "address": "http://www.bdu.edu.cn/default.html",
     "province": "河北省",
@@ -23508,8 +23588,8 @@ export const universityList =
   {
     "name": "西安医学高等专科学校",
     "location": {
-      "lat": 34.117596,
-      "lng": 108.736195
+      "lat": 34.117595798340425,
+      "lng": 108.73619504770686
     },
     "address": "http://www.xagdyz.com/",
     "province": "陕西省",
@@ -23524,8 +23604,8 @@ export const universityList =
   {
     "name": "湖南生物机电职业技术学院(东湖校区)",
     "location": {
-      "lat": 28.191391,
-      "lng": 113.100851
+      "lat": 28.221435140388607,
+      "lng": 113.07247697576987
     },
     "address": "湖南省长沙市芙蓉区隆平高科技园近湖南农大",
     "province": "湖南省",
@@ -23540,8 +23620,8 @@ export const universityList =
   {
     "name": "萍乡学院",
     "location": {
-      "lat": 27.635124,
-      "lng": 113.887091
+      "lat": 27.6327054981043,
+      "lng": 113.88632901160281
     },
     "address": "http://www.pxc.jx.cn/",
     "province": "江西省",
@@ -23556,8 +23636,8 @@ export const universityList =
   {
     "name": "福建中医药大学(旗山校区)",
     "location": {
-      "lat": 26.079517,
-      "lng": 119.186356
+      "lat": 26.075789004023573,
+      "lng": 119.18675462061705
     },
     "address": "福建省福州市闽侯县上街镇邱阳路1号",
     "province": "福建省",
@@ -23572,8 +23652,8 @@ export const universityList =
   {
     "name": "白城师范学院",
     "location": {
-      "lat": 45.621098,
-      "lng": 122.815542
+      "lat": 45.62109825223862,
+      "lng": 122.81554157054424
     },
     "address": "http://www.bcsfxy.com/",
     "province": "吉林省",
@@ -23588,8 +23668,8 @@ export const universityList =
   {
     "name": "甘肃政法大学",
     "location": {
-      "lat": 36.110232,
-      "lng": 103.736992
+      "lat": 36.1222788252281,
+      "lng": 103.71901468627618
     },
     "address": "https://www.gsupl.edu.cn/",
     "province": "甘肃省",
@@ -23603,8 +23683,8 @@ export const universityList =
   {
     "name": "江西洪州职业学院",
     "location": {
-      "lat": 28.246536,
-      "lng": 115.778031
+      "lat": 28.24653589264744,
+      "lng": 115.77803052001477
     },
     "address": "http://www.jxhzxy.com/",
     "province": "江西省",
@@ -23619,8 +23699,8 @@ export const universityList =
   {
     "name": "随州职业技术学院",
     "location": {
-      "lat": 31.675054,
-      "lng": 113.372783
+      "lat": 31.675054432482106,
+      "lng": 113.3727834866033
     },
     "address": "http://www.szvtc.cn/",
     "province": "湖北省",
@@ -23635,8 +23715,8 @@ export const universityList =
   {
     "name": "青海大学",
     "location": {
-      "lat": 36.734403,
-      "lng": 101.755818
+      "lat": 36.63025304135275,
+      "lng": 101.7665071467606
     },
     "address": "https://www.qhu.edu.cn/",
     "province": "青海省",
@@ -23651,8 +23731,8 @@ export const universityList =
   {
     "name": "沈阳工业大学工程学院",
     "location": {
-      "lat": 41.205026,
-      "lng": 123.191483
+      "lat": 41.27416129045421,
+      "lng": 123.24336640651318
     },
     "address": "0",
     "province": "辽宁省",
@@ -23666,8 +23746,8 @@ export const universityList =
   {
     "name": "绍兴职业技术学院",
     "location": {
-      "lat": 29.986662,
-      "lng": 120.56757
+      "lat": 29.98666194436098,
+      "lng": 120.56757038227428
     },
     "address": "https://www.sxvtc.com/",
     "province": "浙江省",
@@ -23682,8 +23762,8 @@ export const universityList =
   {
     "name": "菏泽职业学院",
     "location": {
-      "lat": 35.285667,
-      "lng": 115.483858
+      "lat": 35.28566731872162,
+      "lng": 115.48385775880695
     },
     "address": "http://hzzyxy.com/",
     "province": "山东省",
@@ -23698,8 +23778,8 @@ export const universityList =
   {
     "name": "荆州理工职业学院(中校区)",
     "location": {
-      "lat": 30.334966,
-      "lng": 112.259248
+      "lat": 30.333798307816192,
+      "lng": 112.260254839625
     },
     "address": "湖北省荆州市沙市区工农路22号",
     "province": "湖北省",
@@ -23714,8 +23794,8 @@ export const universityList =
   {
     "name": "齐鲁医药学院(新校区)",
     "location": {
-      "lat": 36.831332,
-      "lng": 117.921921
+      "lat": 36.83513237466021,
+      "lng": 117.923085549061
     },
     "address": "山东省淄博市周村区姜萌路2018号",
     "province": "山东省",
@@ -23730,8 +23810,8 @@ export const universityList =
   {
     "name": "河南科技大学(开元校区)",
     "location": {
-      "lat": 34.60819,
-      "lng": 112.428209
+      "lat": 34.613935808423605,
+      "lng": 112.4230853794162
     },
     "address": "开元大道263号",
     "province": "河南省",
@@ -23746,8 +23826,8 @@ export const universityList =
   {
     "name": "长沙民政职业技术学院",
     "location": {
-      "lat": 28.146403,
-      "lng": 113.019159
+      "lat": 28.219507677534626,
+      "lng": 113.10129901821745
     },
     "address": "http://www.csmzxy.com/",
     "province": "湖南省",
@@ -23762,8 +23842,8 @@ export const universityList =
   {
     "name": "齐鲁师范学院",
     "location": {
-      "lat": 36.68372,
-      "lng": 117.057875
+      "lat": 36.66137757133191,
+      "lng": 117.5025022330197
     },
     "address": "http://www.qlnu.edu.cn/",
     "province": "山东省",
@@ -23778,8 +23858,8 @@ export const universityList =
   {
     "name": "曲靖师范学院",
     "location": {
-      "lat": 25.528116,
-      "lng": 103.757557
+      "lat": 25.496293275418907,
+      "lng": 103.81008910953369
     },
     "address": "https://www.qjnu.edu.cn/",
     "province": "云南省",
@@ -23794,8 +23874,8 @@ export const universityList =
   {
     "name": "南充科技职业学院",
     "location": {
-      "lat": 30.974879,
-      "lng": 105.96699
+      "lat": 30.974879220858792,
+      "lng": 105.96698990972554
     },
     "address": null,
     "province": "四川省",
@@ -23810,8 +23890,8 @@ export const universityList =
   {
     "name": "闽江师范高等专科学校(旗山校区)",
     "location": {
-      "lat": 26.025458,
-      "lng": 119.223252
+      "lat": 26.025399339283855,
+      "lng": 119.22210491869512
     },
     "address": "福建省福州市闽侯县学府南路1号",
     "province": "福建省",
@@ -23826,8 +23906,8 @@ export const universityList =
   {
     "name": "浙江工贸职业技术学院",
     "location": {
-      "lat": 28.008608,
-      "lng": 120.705534
+      "lat": 27.937543017709746,
+      "lng": 120.96524403310214
     },
     "address": "http://www.zjitc.net/",
     "province": "浙江省",
@@ -23842,8 +23922,8 @@ export const universityList =
   {
     "name": "长沙南方职业学院",
     "location": {
-      "lat": 28.156238,
-      "lng": 112.913791
+      "lat": 28.28122701405939,
+      "lng": 113.07528597709866
     },
     "address": "http://www.nfdx.net/",
     "province": "湖南省",
@@ -23858,8 +23938,8 @@ export const universityList =
   {
     "name": "西安工业大学(未央校区)",
     "location": {
-      "lat": 34.385755,
-      "lng": 108.992378
+      "lat": 34.38558271478051,
+      "lng": 108.99593945710313
     },
     "address": "陕西省西安市未央区学府中路2号",
     "province": "陕西省",
@@ -23874,8 +23954,8 @@ export const universityList =
   {
     "name": "云南国防工业职业技术学院",
     "location": {
-      "lat": 24.827242,
-      "lng": 102.83648
+      "lat": 24.82724176762138,
+      "lng": 102.83647972694251
     },
     "address": "",
     "province": "云南省",
@@ -23890,8 +23970,8 @@ export const universityList =
   {
     "name": "河北公安警察职业学院",
     "location": {
-      "lat": 38.005631,
-      "lng": 114.477684
+      "lat": 38.00563107272687,
+      "lng": 114.47768399268251
     },
     "address": "http://www.hebsjy.com/",
     "province": "河北省",
@@ -23906,8 +23986,8 @@ export const universityList =
   {
     "name": "内蒙古体育职业学院",
     "location": {
-      "lat": 40.864971,
-      "lng": 111.680546
+      "lat": 40.86497142692411,
+      "lng": 111.68054595503786
     },
     "address": "http://www.nmtyxy.com/",
     "province": "内蒙古自治区",
@@ -23922,8 +24002,8 @@ export const universityList =
   {
     "name": "汕头大学(桑浦山校区)",
     "location": {
-      "lat": 23.41896,
-      "lng": 116.639757
+      "lat": 23.416114035969244,
+      "lng": 116.64015300241043
     },
     "address": "广东省汕头市金平区鮀江街道大学路243号",
     "province": "广东省",
@@ -23938,8 +24018,8 @@ export const universityList =
   {
     "name": "吉林大学(前卫南区)",
     "location": {
-      "lat": 43.828854,
-      "lng": 125.285531
+      "lat": 43.82799795592186,
+      "lng": 125.28298074488974
     },
     "address": "吉林省长春市朝阳区前进大街2699号",
     "province": "吉林省",
@@ -23954,8 +24034,8 @@ export const universityList =
   {
     "name": "抚州职业技术学院",
     "location": {
-      "lat": 27.961227,
-      "lng": 116.401229
+      "lat": 27.961227379718174,
+      "lng": 116.40122861989784
     },
     "address": "http://www.fzjsxy.cn/",
     "province": "江西省",
@@ -23970,8 +24050,8 @@ export const universityList =
   {
     "name": "四川外国语大学成都学院(成都校区)",
     "location": {
-      "lat": 30.83492,
-      "lng": 103.584278
+      "lat": 30.835076302500788,
+      "lng": 103.58063539365274
     },
     "address": "四川省成都市都江堰市青城山镇高尔夫大道367号",
     "province": "四川省",
@@ -23986,8 +24066,8 @@ export const universityList =
   {
     "name": "江西中医药高等专科学校(新校区)",
     "location": {
-      "lat": 27.952499,
-      "lng": 116.403721
+      "lat": 27.952499103753755,
+      "lng": 116.40372078887334
     },
     "address": "江西省抚州市高新区文昌大道2766号",
     "province": "江西省",
@@ -24002,8 +24082,8 @@ export const universityList =
   {
     "name": "集宁师范学院(泉山校区)",
     "location": {
-      "lat": 41.01706,
-      "lng": 113.149758
+      "lat": 41.03341300882044,
+      "lng": 113.14765510037293
     },
     "address": "内蒙古自治区乌兰察布市集宁区工农大街59号",
     "province": "内蒙古自治区",
@@ -24018,8 +24098,8 @@ export const universityList =
   {
     "name": "山东大学(中心校区)",
     "location": {
-      "lat": 36.681366,
-      "lng": 117.066638
+      "lat": 36.681926220606826,
+      "lng": 117.0637184388713
     },
     "address": "济南市历城区山大南路27号",
     "province": "山东省",
@@ -24034,8 +24114,8 @@ export const universityList =
   {
     "name": "西安理工大学(金花校区)",
     "location": {
-      "lat": 34.2596,
-      "lng": 108.999753
+      "lat": 34.259781201380356,
+      "lng": 109.00277026203155
     },
     "address": "陕西省西安市碑林区金花南路5号",
     "province": "陕西省",
@@ -24050,8 +24130,8 @@ export const universityList =
   {
     "name": "辽宁师范大学海华学院(西校区)",
     "location": {
-      "lat": 39.641988,
-      "lng": 122.931653
+      "lat": 39.686956078878055,
+      "lng": 122.97449548262718
     },
     "address": "辽宁省大连市庄河市前程大街117号",
     "province": "辽宁省",
@@ -24065,8 +24145,8 @@ export const universityList =
   {
     "name": "鲁迅美术学院(沈阳校区)",
     "location": {
-      "lat": 41.782696,
-      "lng": 123.436881
+      "lat": 41.783801771894765,
+      "lng": 123.43540669741957
     },
     "address": "辽宁省沈阳市和平区三好街19号",
     "province": "辽宁省",
@@ -24080,8 +24160,8 @@ export const universityList =
   {
     "name": "云南经贸外事职业学院(杨林校区)",
     "location": {
-      "lat": 25.278495,
-      "lng": 102.971944
+      "lat": 25.271335954148864,
+      "lng": 103.10694888625844
     },
     "address": "云南省昆明市嵩明县长松路1号路5号",
     "province": "云南省",
@@ -24096,8 +24176,8 @@ export const universityList =
   {
     "name": "广西科技大学(文昌校区)",
     "location": {
-      "lat": 24.336022,
-      "lng": 109.453324
+      "lat": 24.33037254558659,
+      "lng": 109.45580305476487
     },
     "address": "广西壮族自治区柳州市城中区文昌路2号",
     "province": "广西壮族自治区",
@@ -24112,8 +24192,8 @@ export const universityList =
   {
     "name": "南昌航空大学(前湖校区)",
     "location": {
-      "lat": 28.656991,
-      "lng": 115.835044
+      "lat": 28.662773194353168,
+      "lng": 115.83532624203325
     },
     "address": "江西省南昌市红谷滩新区丰和南大道696号",
     "province": "江西省",
@@ -24128,8 +24208,8 @@ export const universityList =
   {
     "name": "铜仁职业技术学院",
     "location": {
-      "lat": 27.784341,
-      "lng": 109.22054
+      "lat": 27.784340877685036,
+      "lng": 109.2205398960181
     },
     "address": "http://www.trzy.edu.cn/",
     "province": "贵州省",
@@ -24144,8 +24224,8 @@ export const universityList =
   {
     "name": "兰州理工大学(兰工坪校区)",
     "location": {
-      "lat": 36.061345,
-      "lng": 103.783038
+      "lat": 36.062241716596425,
+      "lng": 103.78274784525921
     },
     "address": "甘肃省兰州七里河区兰工坪路287号",
     "province": "甘肃省",
@@ -24160,8 +24240,8 @@ export const universityList =
   {
     "name": "辽宁理工职业大学(北校区)",
     "location": {
-      "lat": 40.901156,
-      "lng": 121.071712
+      "lat": 41.11510930713197,
+      "lng": 121.11045324939532
     },
     "address": "辽宁省锦州市太和区昆山路9号",
     "province": "辽宁省",
@@ -24175,8 +24255,8 @@ export const universityList =
   {
     "name": "四川体育职业学院(太平寺校区)",
     "location": {
-      "lat": 30.605738,
-      "lng": 104.033766
+      "lat": 30.607645937474288,
+      "lng": 104.03488342732486
     },
     "address": "四川省成都市武侯区太平寺路8号",
     "province": "四川省",
@@ -24191,8 +24271,8 @@ export const universityList =
   {
     "name": "河南物流职业学院",
     "location": {
-      "lat": 35.005177,
-      "lng": 113.702587
+      "lat": 35.00517734261511,
+      "lng": 113.70258728170604
     },
     "address": null,
     "province": "河南省",
@@ -24206,8 +24286,8 @@ export const universityList =
   {
     "name": "东北石油大学",
     "location": {
-      "lat": 46.598274,
-      "lng": 125.155612
+      "lat": 46.59827350223174,
+      "lng": 125.15561170370503
     },
     "address": "http://www.nepu.edu.cn/default.html",
     "province": "黑龙江省",
@@ -24222,8 +24302,8 @@ export const universityList =
   {
     "name": "湖北国土资源职业学院",
     "location": {
-      "lat": 30.324227,
-      "lng": 114.053826
+      "lat": 30.324227413970778,
+      "lng": 114.0538264428879
     },
     "address": "http://www.hbgt.com.cn/",
     "province": "湖北省",
@@ -24238,8 +24318,8 @@ export const universityList =
   {
     "name": "威海海洋职业学院",
     "location": {
-      "lat": 37.069794,
-      "lng": 122.445818
+      "lat": 37.06979438160797,
+      "lng": 122.44581825609528
     },
     "address": "http://www.whovc.cn/",
     "province": "山东省",
@@ -24254,8 +24334,8 @@ export const universityList =
   {
     "name": "四川水利职业技术学院",
     "location": {
-      "lat": 30.635708,
-      "lng": 103.781703
+      "lat": 30.99669975661535,
+      "lng": 103.62187884537961
     },
     "address": "http://www.swcvc.net.cn/",
     "province": "四川省",
@@ -24270,8 +24350,8 @@ export const universityList =
   {
     "name": "广东司法警官职业学院(龙洞校区)",
     "location": {
-      "lat": 23.200225,
-      "lng": 113.367545
+      "lat": 23.202142679733118,
+      "lng": 113.36653674538073
     },
     "address": "广东省广州市天河区龙腾路245号(近广东工业大学)",
     "province": "广东省",
@@ -24286,8 +24366,8 @@ export const universityList =
   {
     "name": "北华大学",
     "location": {
-      "lat": 43.843166,
-      "lng": 126.61234
+      "lat": 43.8431660839452,
+      "lng": 126.61233986061109
     },
     "address": "http://www.beihua.edu.cn/",
     "province": "吉林省",
@@ -24302,8 +24382,8 @@ export const universityList =
   {
     "name": "湖北中医药高等专科学校",
     "location": {
-      "lat": 30.337891,
-      "lng": 112.178272
+      "lat": 30.361510258729812,
+      "lng": 112.20188681030034
     },
     "address": "http://m.hbzyy.org/",
     "province": "湖北省",
@@ -24318,8 +24398,8 @@ export const universityList =
   {
     "name": "阿克苏职业技术学院新校区",
     "location": {
-      "lat": 41.236598,
-      "lng": 80.208666
+      "lat": 41.22841112894345,
+      "lng": 80.25060249903355
     },
     "address": "新疆维吾尔自治区阿克苏地区温宿县学府路41号",
     "province": "新疆维吾尔自治区",
@@ -24333,8 +24413,8 @@ export const universityList =
   {
     "name": "冀中职业学院",
     "location": {
-      "lat": 38.547544,
-      "lng": 115.018651
+      "lat": 38.86131138550014,
+      "lng": 115.51737632213131
     },
     "address": "http://www.jzhxy.com/",
     "province": "河北省",
@@ -24349,8 +24429,8 @@ export const universityList =
   {
     "name": "毕节医学高等专科学校",
     "location": {
-      "lat": 27.237674,
-      "lng": 105.4443
+      "lat": 27.237673831180338,
+      "lng": 105.44430005715896
     },
     "address": "http://www.bijiemc.cn/",
     "province": "贵州省",
@@ -24365,8 +24445,8 @@ export const universityList =
   {
     "name": "郑州财经学院",
     "location": {
-      "lat": 34.867305,
-      "lng": 113.607671
+      "lat": 34.86730472980075,
+      "lng": 113.60767097406351
     },
     "address": "http://www.zzife.edu.cn/",
     "province": "河南省",
@@ -24381,8 +24461,8 @@ export const universityList =
   {
     "name": "乌海职业技术学院",
     "location": {
-      "lat": 39.656421,
-      "lng": 106.805551
+      "lat": 39.65642060720443,
+      "lng": 106.80555145582919
     },
     "address": "http://www.whvtc.net/default.html",
     "province": "内蒙古自治区",
@@ -24396,8 +24476,8 @@ export const universityList =
   {
     "name": "苏州百年职业学院",
     "location": {
-      "lat": 31.28051,
-      "lng": 120.749749
+      "lat": 31.280509988403903,
+      "lng": 120.74974945152981
     },
     "address": "http://www.scc.edu.cn/",
     "province": "江苏省",
@@ -24412,13 +24492,17 @@ export const universityList =
   {
     "name": "铁门关市",
     "num": 9,
-    "index": 1553
+    "index": 1553,
+    "location": {
+      "lat": 41.86364869769258,
+      "lng": 85.6868578317237
+    }
   },
   {
     "name": "江苏信息职业技术学院",
     "location": {
-      "lat": 31.575608,
-      "lng": 120.175267
+      "lat": 31.575608495709027,
+      "lng": 120.17526717789137
     },
     "address": "http://www.jsit.edu.cn/",
     "province": "江苏省",
@@ -24433,8 +24517,8 @@ export const universityList =
   {
     "name": "辽宁金融职业学院",
     "location": {
-      "lat": 41.944486,
-      "lng": 123.524822
+      "lat": 41.94448567408455,
+      "lng": 123.52482241093284
     },
     "address": "http://www.lnfvc.edu.cn/newweb/index.asp",
     "province": "辽宁省",
@@ -24449,8 +24533,8 @@ export const universityList =
   {
     "name": "山东药品食品职业学院",
     "location": {
-      "lat": 37.440044,
-      "lng": 121.946696
+      "lat": 37.44004410697911,
+      "lng": 121.94669635880827
     },
     "address": "http://www.sddfvc.cn/",
     "province": "山东省",
@@ -24465,8 +24549,8 @@ export const universityList =
   {
     "name": "山西大学(坞城校区)",
     "location": {
-      "lat": 37.805857,
-      "lng": 112.593756
+      "lat": 37.80506042846837,
+      "lng": 112.59255475624833
     },
     "address": "山西省太原市小店区坞城路92号",
     "province": "山西省",
@@ -24481,8 +24565,8 @@ export const universityList =
   {
     "name": "辽宁工业大学",
     "location": {
-      "lat": 41.15025,
-      "lng": 121.12963
+      "lat": 41.15024994424829,
+      "lng": 121.12963000593068
     },
     "address": "http://www.lnit.edu.cn/",
     "province": "辽宁省",
@@ -24497,8 +24581,8 @@ export const universityList =
   {
     "name": "国家电网浙江电力职业技术学院(台州路)",
     "location": {
-      "lat": 30.327238,
-      "lng": 120.157819
+      "lat": 30.32741025755732,
+      "lng": 120.1574068880809
     },
     "address": "浙江省杭州市拱墅区台州路217号",
     "province": "浙江省",
@@ -24513,8 +24597,8 @@ export const universityList =
   {
     "name": "苏州市职业大学",
     "location": {
-      "lat": 31.229725,
-      "lng": 120.603437
+      "lat": 31.229724892402334,
+      "lng": 120.60343704328662
     },
     "address": "苏州市吴中区国际教育园致能大道106号",
     "province": "江苏省",
@@ -24529,8 +24613,8 @@ export const universityList =
   {
     "name": "辽宁省交通高等专科学校",
     "location": {
-      "lat": 41.942296,
-      "lng": 123.517898
+      "lat": 41.94229555615525,
+      "lng": 123.51789773307863
     },
     "address": "http://www.lncc.edu.cn/",
     "province": "辽宁省",
@@ -24545,8 +24629,8 @@ export const universityList =
   {
     "name": "杭州医学院(临安校区)",
     "location": {
-      "lat": 30.214015,
-      "lng": 119.743224
+      "lat": 30.21779020000088,
+      "lng": 119.74461107233614
     },
     "address": "浙江省杭州市临安区颐康街8号",
     "province": "浙江省",
@@ -24561,8 +24645,8 @@ export const universityList =
   {
     "name": "广西财经学院(明秀校区)",
     "location": {
-      "lat": 22.842011,
-      "lng": 108.304806
+      "lat": 22.84021780389545,
+      "lng": 108.30720223176841
     },
     "address": "广西壮族自治区南宁市西乡塘区明秀西路100号",
     "province": "广西壮族自治区",
@@ -24577,8 +24661,8 @@ export const universityList =
   {
     "name": "重庆大学-A区",
     "location": {
-      "lat": 29.571111,
-      "lng": 106.475186
+      "lat": 29.57163966472628,
+      "lng": 106.47642694709235
     },
     "address": "重庆市沙坪坝区沙正街174号",
     "province": "重庆市",
@@ -24593,8 +24677,8 @@ export const universityList =
   {
     "name": "湖北大学(武昌主校区)",
     "location": {
-      "lat": 30.584492,
-      "lng": 114.340121
+      "lat": 30.580568176128903,
+      "lng": 114.33695095996181
     },
     "address": "湖北省武汉市武昌区友谊大道368号",
     "province": "湖北省",
@@ -24609,8 +24693,8 @@ export const universityList =
   {
     "name": "衢州学院",
     "location": {
-      "lat": 28.98829,
-      "lng": 118.875524
+      "lat": 28.98828983165233,
+      "lng": 118.87552374118866
     },
     "address": "http://www.qzu.zj.cn/",
     "province": "浙江省",
@@ -24625,8 +24709,8 @@ export const universityList =
   {
     "name": "辽河石油职业技术学院",
     "location": {
-      "lat": 41.35273,
-      "lng": 121.815561
+      "lat": 41.20331328246273,
+      "lng": 122.05059697917831
     },
     "address": "",
     "province": "辽宁省",
@@ -24639,8 +24723,8 @@ export const universityList =
   {
     "name": "广州涉外经济职业技术学院(北校区)",
     "location": {
-      "lat": 23.262967,
-      "lng": 113.362158
+      "lat": 23.262839673229614,
+      "lng": 113.3639095610871
     },
     "address": "广东省广州市白云区大源北路28号",
     "province": "广东省",
@@ -24655,8 +24739,8 @@ export const universityList =
   {
     "name": "厦门医学院",
     "location": {
-      "lat": 24.613924,
-      "lng": 118.011341
+      "lat": 24.455712496254684,
+      "lng": 118.09512370423073
     },
     "address": "https://www.xmmc.edu.cn/",
     "province": "福建省",
@@ -24671,8 +24755,8 @@ export const universityList =
   {
     "name": "西南财经大学天府学院(成都东区)",
     "location": {
-      "lat": 30.708343,
-      "lng": 104.197403
+      "lat": 30.708265944796228,
+      "lng": 104.19526321002373
     },
     "address": "四川省成都市成华区龙潭寺龙港路399号",
     "province": "四川省",
@@ -24687,8 +24771,8 @@ export const universityList =
   {
     "name": "昆山杜克大学",
     "location": {
-      "lat": 31.421427,
-      "lng": 120.905861
+      "lat": 31.421019064436702,
+      "lng": 120.90367625659773
     },
     "address": "https://www.dukekunshan.edu.cn/",
     "province": "江苏省",
@@ -24703,8 +24787,8 @@ export const universityList =
   {
     "name": "桂林医学院",
     "location": {
-      "lat": 25.296698,
-      "lng": 110.317824
+      "lat": 25.29669821201932,
+      "lng": 110.31782420829904
     },
     "address": "http://www.glmc.edu.cn/",
     "province": "广西壮族自治区",
@@ -24719,8 +24803,8 @@ export const universityList =
   {
     "name": "广州体育学院",
     "location": {
-      "lat": 23.14979,
-      "lng": 113.326708
+      "lat": 23.149794092131902,
+      "lng": 113.32670192653721
     },
     "address": "http://www.gipe.edu.cn/",
     "province": "广东省",
@@ -24735,8 +24819,8 @@ export const universityList =
   {
     "name": "厦门演艺职业学院",
     "location": {
-      "lat": 24.588576,
-      "lng": 118.272552
+      "lat": 24.588576043205542,
+      "lng": 118.27255197799211
     },
     "address": "http://www.xmyanyi.com/",
     "province": "福建省",
@@ -24751,8 +24835,8 @@ export const universityList =
   {
     "name": "郑州信息工程职业学院",
     "location": {
-      "lat": 34.749985,
-      "lng": 113.467879
+      "lat": 34.749984859964876,
+      "lng": 113.46787891636451
     },
     "address": "http://www.zxxyedu.com/",
     "province": "河南省",
@@ -24767,8 +24851,8 @@ export const universityList =
   {
     "name": "唐山职业技术学院",
     "location": {
-      "lat": 39.591377,
-      "lng": 118.097355
+      "lat": 39.59137710241319,
+      "lng": 118.09735502138571
     },
     "address": "http://www.tsvtc.com/",
     "province": "河北省",
@@ -24782,8 +24866,8 @@ export const universityList =
   {
     "name": "安顺学院",
     "location": {
-      "lat": 26.249521,
-      "lng": 105.907595
+      "lat": 26.249521071619696,
+      "lng": 105.90759501529958
     },
     "address": "http://www.asu.edu.cn/",
     "province": "贵州省",
@@ -24798,8 +24882,8 @@ export const universityList =
   {
     "name": "黑龙江商业职业学院",
     "location": {
-      "lat": 46.649008,
-      "lng": 125.150918
+      "lat": 46.64900797415668,
+      "lng": 125.15091805741537
     },
     "address": "http://www.hljszy.net/",
     "province": "黑龙江省",
@@ -24812,8 +24896,8 @@ export const universityList =
   {
     "name": "九江职业大学(濂溪校区)",
     "location": {
-      "lat": 29.658458,
-      "lng": 116.008904
+      "lat": 29.656445359657933,
+      "lng": 116.00759743369409
     },
     "address": "九江市濂溪区莲花镇濂溪大道88号",
     "province": "江西省",
@@ -24828,8 +24912,8 @@ export const universityList =
   {
     "name": "河南测绘职业学院",
     "location": {
-      "lat": 34.793585,
-      "lng": 113.863019
+      "lat": 34.477107717141614,
+      "lng": 113.84333378900939
     },
     "address": "http://www.hnchxy.cn/",
     "province": "河南省",
@@ -24844,8 +24928,8 @@ export const universityList =
   {
     "name": "安徽师范大学(花津校区)",
     "location": {
-      "lat": 31.288817,
-      "lng": 118.385422
+      "lat": 31.293018829448144,
+      "lng": 118.38708468904395
     },
     "address": "芜湖市弋江区九华南路189号",
     "province": "安徽省",
@@ -24860,8 +24944,8 @@ export const universityList =
   {
     "name": "深圳技术大学",
     "location": {
-      "lat": 22.708309,
-      "lng": 114.403965
+      "lat": 22.708309003199542,
+      "lng": 114.40396498527947
     },
     "address": "http://www.sztu.edu.cn/",
     "province": "广东省",
@@ -24876,8 +24960,8 @@ export const universityList =
   {
     "name": "武汉纺织大学(阳光校区)",
     "location": {
-      "lat": 30.382144,
-      "lng": 114.344906
+      "lat": 30.379655638672112,
+      "lng": 114.35148302785782
     },
     "address": "湖北省武汉市江夏区阳光大道1号",
     "province": "湖北省",
@@ -24892,8 +24976,8 @@ export const universityList =
   {
     "name": "仲恺农业工程学院(白云校区)",
     "location": {
-      "lat": 23.379333,
-      "lng": 113.451549
+      "lat": 23.37866271062086,
+      "lng": 113.45182699081126
     },
     "address": "广东省广州市白云区钟落潭镇广新路388号",
     "province": "广东省",
@@ -24908,8 +24992,8 @@ export const universityList =
   {
     "name": "百色职业学院",
     "location": {
-      "lat": 23.918066,
-      "lng": 106.632247
+      "lat": 23.817721043049566,
+      "lng": 106.73626999034778
     },
     "address": "http://www.bszyxy.com/",
     "province": "广西壮族自治区",
@@ -24924,8 +25008,8 @@ export const universityList =
   {
     "name": "潮汕职业技术学院",
     "location": {
-      "lat": 23.296232,
-      "lng": 116.147356
+      "lat": 23.296231893919707,
+      "lng": 116.14735607438196
     },
     "address": "http://www.chaoshan.cn/",
     "province": "广东省",
@@ -24940,8 +25024,8 @@ export const universityList =
   {
     "name": "银川能源学院",
     "location": {
-      "lat": 38.2533,
-      "lng": 106.236821
+      "lat": 38.37319406974634,
+      "lng": 106.5119010439421
     },
     "address": "http://www.ycu.com.cn/",
     "province": "宁夏回族自治区",
@@ -24956,8 +25040,8 @@ export const universityList =
   {
     "name": "上饶师范学院",
     "location": {
-      "lat": 28.423035,
-      "lng": 117.976913
+      "lat": 28.4230347409677,
+      "lng": 117.97691280763415
     },
     "address": "http://www.sru.jx.cn/",
     "province": "江西省",
@@ -24972,8 +25056,8 @@ export const universityList =
   {
     "name": "湖南艺术职业学院(星沙校区)",
     "location": {
-      "lat": 28.262241,
-      "lng": 113.133669
+      "lat": 28.26176740271126,
+      "lng": 113.12985228765652
     },
     "address": "湖南省长沙市长沙县特立东路719号",
     "province": "湖南省",
@@ -24988,8 +25072,8 @@ export const universityList =
   {
     "name": "安徽机电职业技术学院",
     "location": {
-      "lat": 31.289016,
-      "lng": 118.368311
+      "lat": 31.288911505809374,
+      "lng": 118.36819467162736
     },
     "address": "https://www.ahcme.edu.cn/",
     "province": "安徽省",
@@ -25004,8 +25088,8 @@ export const universityList =
   {
     "name": "吉林建筑科技学院",
     "location": {
-      "lat": 43.999576,
-      "lng": 125.157355
+      "lat": 43.93634154504541,
+      "lng": 125.38122545410783
     },
     "address": "http://www.jluat.edu.cn/",
     "province": "吉林省",
@@ -25020,8 +25104,8 @@ export const universityList =
   {
     "name": "贵州农业职业学院",
     "location": {
-      "lat": 26.58721,
-      "lng": 106.439302
+      "lat": 26.663256652967537,
+      "lng": 106.80947317582334
     },
     "address": "http://www.gznzy.net/",
     "province": "贵州省",
@@ -25036,8 +25120,8 @@ export const universityList =
   {
     "name": "山东工业职业学院",
     "location": {
-      "lat": 36.892606,
-      "lng": 118.086808
+      "lat": 36.890018628304404,
+      "lng": 118.08929201078925
     },
     "address": "http://www.sdivc.net.cn/",
     "province": "山东省",
@@ -25052,8 +25136,8 @@ export const universityList =
   {
     "name": "成都理工大学工程技术学院",
     "location": {
-      "lat": 29.56574,
-      "lng": 103.738152
+      "lat": 29.565740015719694,
+      "lng": 103.73815199584347
     },
     "address": "http://www.cdutetc.cn/",
     "province": "四川省",
@@ -25068,8 +25152,8 @@ export const universityList =
   {
     "name": "赤峰学院",
     "location": {
-      "lat": 42.249098,
-      "lng": 118.923091
+      "lat": 42.24815085554797,
+      "lng": 118.92382798041102
     },
     "address": "http://web.cfxy.cn/cfxy/",
     "province": "内蒙古自治区",
@@ -25084,8 +25168,8 @@ export const universityList =
   {
     "name": "天津城市职业学院",
     "location": {
-      "lat": 39.155519,
-      "lng": 117.243502
+      "lat": 39.15551912216242,
+      "lng": 117.24350189007735
     },
     "address": "http://www.tjcsxy.cn/default_new.html",
     "province": "天津市",
@@ -25100,8 +25184,8 @@ export const universityList =
   {
     "name": "云南能源职业技术学院",
     "location": {
-      "lat": 25.552013,
-      "lng": 103.832453
+      "lat": 25.573861421314636,
+      "lng": 103.79802953772733
     },
     "address": "http://www.ynny.cn/",
     "province": "云南省",
@@ -25116,8 +25200,8 @@ export const universityList =
   {
     "name": "浙江广厦建设职业技术大学",
     "location": {
-      "lat": 29.304774,
-      "lng": 120.250919
+      "lat": 29.304773650914676,
+      "lng": 120.25091903756991
     },
     "address": "http://www.guangshaxy.com/",
     "province": "浙江省",
@@ -25132,8 +25216,8 @@ export const universityList =
   {
     "name": "云南交通运输职业学院",
     "location": {
-      "lat": 24.925011,
-      "lng": 102.448562
+      "lat": 24.925011000457456,
+      "lng": 102.448562033272
     },
     "address": "http://www.ynvct.com/",
     "province": "云南省",
@@ -25148,8 +25232,8 @@ export const universityList =
   {
     "name": "三亚航空旅游职业学院",
     "location": {
-      "lat": 18.2975,
-      "lng": 109.496734
+      "lat": 18.297499559311202,
+      "lng": 109.49673362666908
     },
     "address": "http://www.hnasatc.edu.cn/",
     "province": "海南省",
@@ -25164,8 +25248,8 @@ export const universityList =
   {
     "name": "浙江国际海运职业技术学院",
     "location": {
-      "lat": 29.993585,
-      "lng": 122.192112
+      "lat": 29.993585158807115,
+      "lng": 122.19211232871554
     },
     "address": "http://www.zimc.cn/",
     "province": "浙江省",
@@ -25180,8 +25264,8 @@ export const universityList =
   {
     "name": "泉州信息工程学院",
     "location": {
-      "lat": 24.948303,
-      "lng": 118.591486
+      "lat": 24.948303304996266,
+      "lng": 118.59148591699658
     },
     "address": "http://www.qziedu.cn/",
     "province": "福建省",
@@ -25196,8 +25280,8 @@ export const universityList =
   {
     "name": "武汉铁路职业技术学院(新校区)",
     "location": {
-      "lat": 30.437961,
-      "lng": 114.417215
+      "lat": 30.435230706298338,
+      "lng": 114.4188388733015
     },
     "address": "湖北省武汉市江夏区藏龙大道特1号",
     "province": "湖北省",
@@ -25212,8 +25296,8 @@ export const universityList =
   {
     "name": "哈尔滨医科大学",
     "location": {
-      "lat": 45.707524,
-      "lng": 126.6264
+      "lat": 45.70752395500276,
+      "lng": 126.6264000389265
     },
     "address": "http://www.hrbmu.edu.cn/",
     "province": "黑龙江省",
@@ -25228,8 +25312,8 @@ export const universityList =
   {
     "name": "湛江幼儿师范专科学校(湖光校区)",
     "location": {
-      "lat": 21.166611,
-      "lng": 110.253822
+      "lat": 21.166611193722126,
+      "lng": 110.25382173734528
     },
     "address": "广东省湛江市麻章区湖光镇雷湖大道湛江教育基地南环路1号",
     "province": "广东省",
@@ -25244,8 +25328,8 @@ export const universityList =
   {
     "name": "安徽医科大学",
     "location": {
-      "lat": 31.855085,
-      "lng": 117.269717
+      "lat": 31.855085099048623,
+      "lng": 117.26971696011395
     },
     "address": "http://www.ahmu.edu.cn/",
     "province": "安徽省",
@@ -25260,8 +25344,8 @@ export const universityList =
   {
     "name": "陕西青年职业学院(长安校区)",
     "location": {
-      "lat": 34.122277,
-      "lng": 108.953002
+      "lat": 34.15158118366138,
+      "lng": 108.92922051026605
     },
     "address": "陕西省西安市长安区常宁新区鱼包头街123号",
     "province": "陕西省",
@@ -25276,8 +25360,8 @@ export const universityList =
   {
     "name": "甘肃有色冶金职业技术学院",
     "location": {
-      "lat": 38.557154,
-      "lng": 102.185478
+      "lat": 38.55715449079811,
+      "lng": 102.1854778247504
     },
     "address": "http://www.gsysyj.org/",
     "province": "甘肃省",
@@ -25292,8 +25376,8 @@ export const universityList =
   {
     "name": "黑龙江工程学院",
     "location": {
-      "lat": 45.792091,
-      "lng": 126.69387
+      "lat": 45.79209109377066,
+      "lng": 126.6938698793398
     },
     "address": "http://www.hljit.edu.cn/",
     "province": "黑龙江省",
@@ -25308,8 +25392,8 @@ export const universityList =
   {
     "name": "浙江师范大学",
     "location": {
-      "lat": 29.1406,
-      "lng": 119.649097
+      "lat": 29.140600435060474,
+      "lng": 119.64909656644245
     },
     "address": "http://www.zjnu.edu.cn/",
     "province": "浙江省",
@@ -25324,8 +25408,8 @@ export const universityList =
   {
     "name": "石河子大学科技学院",
     "location": {
-      "lat": 44.316333,
-      "lng": 86.066076
+      "lat": 44.31633311878296,
+      "lng": 86.06607597564152
     },
     "address": "http://kjxy.shzu.edu.cn/",
     "province": "新疆维吾尔自治区",
@@ -25339,8 +25423,8 @@ export const universityList =
   {
     "name": "中国人民警察大学",
     "location": {
-      "lat": 39.538804,
-      "lng": 116.663969
+      "lat": 39.538804187918146,
+      "lng": 116.66396898353963
     },
     "address": "https://www.cppu.edu.cn/index.htm",
     "province": "河北省",
@@ -25355,8 +25439,8 @@ export const universityList =
   {
     "name": "五家渠市新疆兵团警官高等专科学校",
     "location": {
-      "lat": 44.162318,
-      "lng": 87.543333
+      "lat": 44.16373781364316,
+      "lng": 87.5576417579774
     },
     "address": "五家渠市前进东街新疆政法学院东南侧约80米",
     "province": "新疆维吾尔自治区",
@@ -25369,8 +25453,8 @@ export const universityList =
   {
     "name": "南京财经大学(仙林校区)",
     "location": {
-      "lat": 32.115144,
-      "lng": 118.928683
+      "lat": 32.11063412560987,
+      "lng": 118.9254005540368
     },
     "address": "江苏南京市仙林大学城文苑路3号",
     "province": "江苏省",
@@ -25385,8 +25469,8 @@ export const universityList =
   {
     "name": "重庆航天职业技术学院(江北校区)",
     "location": {
-      "lat": 29.581571,
-      "lng": 106.512447
+      "lat": 29.588605831012536,
+      "lng": 106.53177783768238
     },
     "address": "重庆市江北区红石路255号",
     "province": "重庆市",
@@ -25401,8 +25485,8 @@ export const universityList =
   {
     "name": "湖南有色金属职业技术学院",
     "location": {
-      "lat": 27.903629,
-      "lng": 113.172526
+      "lat": 27.90362948413161,
+      "lng": 113.17252575191061
     },
     "address": "http://www.hnyszy.com.cn/index.html",
     "province": "湖南省",
@@ -25417,8 +25501,8 @@ export const universityList =
   {
     "name": "德阳农业科技职业学院",
     "location": {
-      "lat": 31.341477,
-      "lng": 104.506646
+      "lat": 31.341476622802467,
+      "lng": 104.50664599301666
     },
     "address": null,
     "province": "四川省",
@@ -25432,8 +25516,8 @@ export const universityList =
   {
     "name": "宝鸡职业技术学院",
     "location": {
-      "lat": 34.346541,
-      "lng": 107.30374
+      "lat": 34.346540760453586,
+      "lng": 107.30373965436912
     },
     "address": "http://www.bjvtc.com/",
     "province": "陕西省",
@@ -25448,8 +25532,8 @@ export const universityList =
   {
     "name": "安徽商贸职业技术学院",
     "location": {
-      "lat": 31.295053,
-      "lng": 118.373972
+      "lat": 31.295053176440923,
+      "lng": 118.37397158453147
     },
     "address": "https://www.abc.edu.cn/",
     "province": "安徽省",
@@ -25464,8 +25548,8 @@ export const universityList =
   {
     "name": "四川托普信息技术职业学院",
     "location": {
-      "lat": 30.788082,
-      "lng": 103.930511
+      "lat": 30.788082019210346,
+      "lng": 103.9305111965621
     },
     "address": "http://www.scetop.com/",
     "province": "四川省",
@@ -25480,8 +25564,8 @@ export const universityList =
   {
     "name": "河南地矿职业学院",
     "location": {
-      "lat": 34.793589,
-      "lng": 113.857742
+      "lat": 34.79358884046264,
+      "lng": 113.85774171108393
     },
     "address": null,
     "province": "河南省",
@@ -25496,8 +25580,8 @@ export const universityList =
   {
     "name": "黔南民族幼儿师范高等专科学校(新校区)",
     "location": {
-      "lat": 26.559016,
-      "lng": 107.246148
+      "lat": 26.56172994495176,
+      "lng": 107.2401740168507
     },
     "address": "贵州省黔南布依族苗族自治州贵定县利民路48号（近贵定县第二小学）",
     "province": "贵州省",
@@ -25511,8 +25595,8 @@ export const universityList =
   {
     "name": "河北经贸大学",
     "location": {
-      "lat": 38.141249,
-      "lng": 114.499536
+      "lat": 38.01427570264713,
+      "lng": 114.46374094370938
     },
     "address": "http://www.heuet.edu.cn/",
     "province": "河北省",
@@ -25527,8 +25611,8 @@ export const universityList =
   {
     "name": "贵州工商职业学院",
     "location": {
-      "lat": 26.561916,
-      "lng": 106.458499
+      "lat": 26.561915513207605,
+      "lng": 106.45849883522179
     },
     "address": "http://www.gzgszy.com/",
     "province": "贵州省",
@@ -25543,8 +25627,8 @@ export const universityList =
   {
     "name": "河南林业职业学院",
     "location": {
-      "lat": 34.693718,
-      "lng": 112.506676
+      "lat": 34.69371797899213,
+      "lng": 112.50667603085003
     },
     "address": "http://www.hnfjc.cn/",
     "province": "河南省",
@@ -25559,8 +25643,8 @@ export const universityList =
   {
     "name": "辽宁体育运动职业技术学院",
     "location": {
-      "lat": 41.752613,
-      "lng": 123.471696
+      "lat": 41.75261265552415,
+      "lng": 123.4716956349367
     },
     "address": "",
     "province": "辽宁省",
@@ -25574,8 +25658,8 @@ export const universityList =
   {
     "name": "保定理工学院",
     "location": {
-      "lat": 38.821286,
-      "lng": 115.491787
+      "lat": 38.82128609493645,
+      "lng": 115.49178701171299
     },
     "address": "http://www.cuggw.com/",
     "province": "河北省",
@@ -25590,8 +25674,8 @@ export const universityList =
   {
     "name": "四川工商职业技术学院",
     "location": {
-      "lat": 30.918968,
-      "lng": 103.702367
+      "lat": 30.918967871107483,
+      "lng": 103.70236701907363
     },
     "address": "http://www.sctbc.net/",
     "province": "四川省",
@@ -25606,8 +25690,8 @@ export const universityList =
   {
     "name": "江西师范大学科学技术学院(共青校区)",
     "location": {
-      "lat": 29.174774,
-      "lng": 115.836282
+      "lat": 29.174458034219526,
+      "lng": 115.8382823858045
     },
     "address": "江西省九江市共青城市青年大道78号",
     "province": "江西省",
@@ -25622,8 +25706,8 @@ export const universityList =
   {
     "name": "新疆生产建设兵团兴新职业技术学院",
     "location": {
-      "lat": 44.002764,
-      "lng": 87.357097
+      "lat": 43.99364245770914,
+      "lng": 87.4570571425669
     },
     "address": "http://www.btc.edu.cn/",
     "province": "新疆维吾尔自治区",
@@ -25637,8 +25721,8 @@ export const universityList =
   {
     "name": "惠州工程职业学院",
     "location": {
-      "lat": 23.202485,
-      "lng": 114.380582
+      "lat": 23.202484556777762,
+      "lng": 114.38058155387918
     },
     "address": "http://www.hzevc.com.cn/",
     "province": "广东省",
@@ -25653,8 +25737,8 @@ export const universityList =
   {
     "name": "四川西南航空职业学院",
     "location": {
-      "lat": 30.868141,
-      "lng": 104.468936
+      "lat": 30.868140668236794,
+      "lng": 104.46893611584386
     },
     "address": "http://www.xnhkxy.edu.cn/",
     "province": "四川省",
@@ -25669,8 +25753,8 @@ export const universityList =
   {
     "name": "江西科技职业学院",
     "location": {
-      "lat": 28.484052,
-      "lng": 115.96626
+      "lat": 28.484052485963453,
+      "lng": 115.96626037854675
     },
     "address": "http://www.jxkeda.com/index.html",
     "province": "江西省",
@@ -25685,8 +25769,8 @@ export const universityList =
   {
     "name": "西安信息职业大学",
     "location": {
-      "lat": 34.12227,
-      "lng": 108.94908
+      "lat": 34.12227003907294,
+      "lng": 108.94907997898899
     },
     "address": "http://www.sxetcedu.com/",
     "province": "陕西省",
@@ -25701,8 +25785,8 @@ export const universityList =
   {
     "name": "南宁师范大学(明秀校区)",
     "location": {
-      "lat": 22.846922,
-      "lng": 108.326571
+      "lat": 22.848514191215916,
+      "lng": 108.32687925463578
     },
     "address": "广西壮族自治区南宁市西乡塘区明秀东路175号",
     "province": "广西壮族自治区",
@@ -25717,8 +25801,8 @@ export const universityList =
   {
     "name": "中国石油大学(华东)",
     "location": {
-      "lat": 35.947633,
-      "lng": 120.18217
+      "lat": 35.94868892144832,
+      "lng": 120.18185786575697
     },
     "address": "山东省青岛市黄岛区长江西路66号",
     "province": "山东省",
@@ -25733,8 +25817,8 @@ export const universityList =
   {
     "name": "吉林化工学院",
     "location": {
-      "lat": 43.906693,
-      "lng": 126.625598
+      "lat": 44.0030441110862,
+      "lng": 126.41899199620437
     },
     "address": "http://www.jlict.edu.cn/index.html",
     "province": "吉林省",
@@ -25749,8 +25833,8 @@ export const universityList =
   {
     "name": "马鞍山师范高等专科学校",
     "location": {
-      "lat": 31.661304,
-      "lng": 118.502797
+      "lat": 31.66130395861402,
+      "lng": 118.50279703873412
     },
     "address": "http://www.massz.edu.cn/",
     "province": "安徽省",
@@ -25765,8 +25849,8 @@ export const universityList =
   {
     "name": "西安明德理工学院",
     "location": {
-      "lat": 34.051373,
-      "lng": 108.792002
+      "lat": 34.051373297280165,
+      "lng": 108.79200218768369
     },
     "address": "http://www.npumd.edu.cn/",
     "province": "陕西省",
@@ -25781,8 +25865,8 @@ export const universityList =
   {
     "name": "景德镇陶瓷大学科技艺术学院",
     "location": {
-      "lat": 29.299268,
-      "lng": 117.258233
+      "lat": 29.2992680266218,
+      "lng": 117.25823300665209
     },
     "address": "http://www.jci-ky.cn/",
     "province": "江西省",
@@ -25797,8 +25881,8 @@ export const universityList =
   {
     "name": "浙江经济职业技术学院",
     "location": {
-      "lat": 30.315108,
-      "lng": 120.385485
+      "lat": 30.315107947028864,
+      "lng": 120.38548477062271
     },
     "address": "http://www.zjtie.edu.cn/",
     "province": "浙江省",
@@ -25813,8 +25897,8 @@ export const universityList =
   {
     "name": "成都工业学院(郫都校区)",
     "location": {
-      "lat": 30.793023,
-      "lng": 103.892736
+      "lat": 30.79292115989511,
+      "lng": 103.89344800952591
     },
     "address": "四川省成都市郫都区中信大道二段1号",
     "province": "四川省",
@@ -25829,8 +25913,8 @@ export const universityList =
   {
     "name": "清远职业技术学院",
     "location": {
-      "lat": 23.725769,
-      "lng": 113.08658
+      "lat": 23.725769027805775,
+      "lng": 113.08658001294967
     },
     "address": "http://www.qypt.com.cn/",
     "province": "广东省",
@@ -25845,8 +25929,8 @@ export const universityList =
   {
     "name": "柳州工学院",
     "location": {
-      "lat": 24.373336,
-      "lng": 109.537323
+      "lat": 24.39783132255643,
+      "lng": 109.52456286186737
     },
     "address": "http://www.lzls.gxut.edu.cn/",
     "province": "广西壮族自治区",
@@ -25861,8 +25945,8 @@ export const universityList =
   {
     "name": "黑龙江护理高等专科学校",
     "location": {
-      "lat": 45.694526,
-      "lng": 126.623128
+      "lat": 45.50789548620521,
+      "lng": 126.96968569295572
     },
     "address": "http://www.hljhlgz.org.cn/",
     "province": "黑龙江省",
@@ -25877,8 +25961,8 @@ export const universityList =
   {
     "name": "南阳理工学院",
     "location": {
-      "lat": 32.973367,
-      "lng": 112.559488
+      "lat": 32.97336711169823,
+      "lng": 112.5594880405955
     },
     "address": "http://www.nyist.edu.cn/",
     "province": "河南省",
@@ -25893,8 +25977,8 @@ export const universityList =
   {
     "name": "湖南汽车工程职业学院",
     "location": {
-      "lat": 27.892178,
-      "lng": 113.190231
+      "lat": 27.894265004002612,
+      "lng": 113.19287201238271
     },
     "address": "http://www.zzptc.com/",
     "province": "湖南省",
@@ -25908,8 +25992,8 @@ export const universityList =
   {
     "name": "内江卫生与健康职业学院",
     "location": {
-      "lat": 29.609,
-      "lng": 105.130717
+      "lat": 29.609000207235248,
+      "lng": 105.13071678509236
     },
     "address": "http://njnhvc.com/",
     "province": "四川省",
@@ -25923,8 +26007,8 @@ export const universityList =
   {
     "name": "安徽现代信息工程职业学院",
     "location": {
-      "lat": 32.559985,
-      "lng": 116.800377
+      "lat": 32.55998519109768,
+      "lng": 116.80037694472145
     },
     "address": "http://www.ahmodern.cn/",
     "province": "安徽省",
@@ -25939,8 +26023,8 @@ export const universityList =
   {
     "name": "鄂尔多斯应用技术学院",
     "location": {
-      "lat": 39.618021,
-      "lng": 109.829163
+      "lat": 39.81792009900244,
+      "lng": 109.91860153284807
     },
     "address": "http://www.oit.edu.cn/",
     "province": "内蒙古自治区",
@@ -25955,8 +26039,8 @@ export const universityList =
   {
     "name": "宿州学院",
     "location": {
-      "lat": 33.639568,
-      "lng": 117.083975
+      "lat": 33.63543911056041,
+      "lng": 117.00055399710666
     },
     "address": "http://www.ahszu.edu.cn/",
     "province": "安徽省",
@@ -25971,8 +26055,8 @@ export const universityList =
   {
     "name": "湖北美术学院(藏龙岛校区)",
     "location": {
-      "lat": 30.397531,
-      "lng": 114.425605
+      "lat": 30.397953521478566,
+      "lng": 114.42917899853518
     },
     "address": "湖北省武汉市江夏区藏龙岛科技园栗庙路5号",
     "province": "湖北省",
@@ -25987,8 +26071,8 @@ export const universityList =
   {
     "name": "三亚学院(南校区)",
     "location": {
-      "lat": 18.331341,
-      "lng": 109.563237
+      "lat": 18.332548262299724,
+      "lng": 109.56689739545266
     },
     "address": "三亚市吉阳区吉阳镇学院路191号",
     "province": "海南省",
@@ -26003,8 +26087,8 @@ export const universityList =
   {
     "name": "青岛工学院",
     "location": {
-      "lat": 36.245714,
-      "lng": 120.027055
+      "lat": 36.24571382458524,
+      "lng": 120.02705512298624
     },
     "address": "http://www.oucqdc.edu.cn/a/index.html",
     "province": "山东省",
@@ -26019,8 +26103,8 @@ export const universityList =
   {
     "name": "贵州工程应用技术学院",
     "location": {
-      "lat": 27.300238,
-      "lng": 105.320267
+      "lat": 27.301394886426003,
+      "lng": 105.31742051239395
     },
     "address": "http://www.gues.edu.cn/",
     "province": "贵州省",
@@ -26034,8 +26118,8 @@ export const universityList =
   {
     "name": "山东青年政治学院",
     "location": {
-      "lat": 36.678549,
-      "lng": 117.246085
+      "lat": 36.678549117301344,
+      "lng": 117.24608460824909
     },
     "address": "http://www.sdyu.edu.cn/",
     "province": "山东省",
@@ -26050,8 +26134,8 @@ export const universityList =
   {
     "name": "山西青年职业学院",
     "location": {
-      "lat": 37.704114,
-      "lng": 112.606306
+      "lat": 37.70411435719534,
+      "lng": 112.60630565767288
     },
     "address": "http://www.sxqzy.cn/",
     "province": "山西省",
@@ -26066,8 +26150,8 @@ export const universityList =
   {
     "name": "渤海船舶职业学院",
     "location": {
-      "lat": 40.635905,
-      "lng": 120.781097
+      "lat": 40.75804667278181,
+      "lng": 120.86459817030268
     },
     "address": "http://www.bhcy.cn/",
     "province": "辽宁省",
@@ -26082,8 +26166,8 @@ export const universityList =
   {
     "name": "贵阳职业技术学院",
     "location": {
-      "lat": 26.625062,
-      "lng": 106.609819
+      "lat": 26.586952323568134,
+      "lng": 106.72500308332314
     },
     "address": "http://www.gyvtc.edu.cn/web/",
     "province": "贵州省",
@@ -26098,8 +26182,8 @@ export const universityList =
   {
     "name": "湖南工程学院-应用技术学院",
     "location": {
-      "lat": 27.819237,
-      "lng": 112.934122
+      "lat": 27.72102758764942,
+      "lng": 112.55168363788779
     },
     "address": "湖南省湘潭市岳塘区书院路17号",
     "province": "湖南省",
@@ -26114,8 +26198,8 @@ export const universityList =
   {
     "name": "丽水职业技术学院",
     "location": {
-      "lat": 28.479197,
-      "lng": 119.916563
+      "lat": 28.47919701435643,
+      "lng": 119.91656298957524
     },
     "address": "http://www.lszjy.com/",
     "province": "浙江省",
@@ -26130,8 +26214,8 @@ export const universityList =
   {
     "name": "泉州纺织服装学院",
     "location": {
-      "lat": 24.743309,
-      "lng": 118.677923
+      "lat": 24.743309039346354,
+      "lng": 118.67792302907134
     },
     "address": "福建省泉州市石狮市学府路1358号",
     "province": "福建省",
@@ -26146,8 +26230,8 @@ export const universityList =
   {
     "name": "成都银杏酒店管理学院(成都校区)",
     "location": {
-      "lat": 30.79192,
-      "lng": 103.964974
+      "lat": 30.799283989855898,
+      "lng": 103.96628585417476
     },
     "address": "成都市郫都区红光街道广场路北二段60号",
     "province": "四川省",
@@ -26162,8 +26246,8 @@ export const universityList =
   {
     "name": "哈尔滨学院",
     "location": {
-      "lat": 45.712953,
-      "lng": 126.613012
+      "lat": 45.71295306411354,
+      "lng": 126.61301187326681
     },
     "address": "http://www.hrbu.edu.cn/",
     "province": "黑龙江省",
@@ -26178,8 +26262,8 @@ export const universityList =
   {
     "name": "山西通用航空职业技术学院",
     "location": {
-      "lat": 39.944283,
-      "lng": 113.404192
+      "lat": 39.94428325608632,
+      "lng": 113.40419246926803
     },
     "address": null,
     "province": "山西省",
@@ -26193,8 +26277,8 @@ export const universityList =
   {
     "name": "陕西电子信息职业技术学院",
     "location": {
-      "lat": 34.123871,
-      "lng": 109.378884
+      "lat": 34.12387104534621,
+      "lng": 109.378884041768
     },
     "address": "http://www.sxitu.com/",
     "province": "陕西省",
@@ -26208,8 +26292,8 @@ export const universityList =
   {
     "name": "广西生态工程职业技术学院",
     "location": {
-      "lat": 24.472093,
-      "lng": 109.38908
+      "lat": 24.472092858402018,
+      "lng": 109.38907988591393
     },
     "address": "http://www.gxstzy.cn/",
     "province": "广西壮族自治区",
@@ -26224,8 +26308,8 @@ export const universityList =
   {
     "name": "潍坊职业学院",
     "location": {
-      "lat": 36.722492,
-      "lng": 119.148671
+      "lat": 37.09219093158869,
+      "lng": 119.21247402213258
     },
     "address": "http://www.sdwfvc.com/",
     "province": "山东省",
@@ -26240,8 +26324,8 @@ export const universityList =
   {
     "name": "石嘴山工贸职业技术学院",
     "location": {
-      "lat": 38.969301,
-      "lng": 106.400887
+      "lat": 38.96930106377394,
+      "lng": 106.40088746088297
     },
     "address": null,
     "province": "宁夏回族自治区",
@@ -26255,8 +26339,8 @@ export const universityList =
   {
     "name": "辽宁城市建设职业技术学院",
     "location": {
-      "lat": 41.951896,
-      "lng": 123.498365
+      "lat": 41.95189616782227,
+      "lng": 123.49836542722242
     },
     "address": "http://www.lncjxy.com/",
     "province": "辽宁省",
@@ -26271,8 +26355,8 @@ export const universityList =
   {
     "name": "云南机电职业技术学院",
     "location": {
-      "lat": 25.152038,
-      "lng": 102.738561
+      "lat": 25.246539374867414,
+      "lng": 102.99591521083663
     },
     "address": "http://www.ynmec.com/",
     "province": "云南省",
@@ -26287,8 +26371,8 @@ export const universityList =
   {
     "name": "武汉体育学院藏龙校区体育科技学院",
     "location": {
-      "lat": 30.403038,
-      "lng": 114.439906
+      "lat": 30.402987121761935,
+      "lng": 114.44271134222916
     },
     "address": "江夏区经济开发区藏龙岛街道藏龙岛科技园区环岛路1号",
     "province": "湖北省",
@@ -26303,8 +26387,8 @@ export const universityList =
   {
     "name": "包头钢铁职业技术学院",
     "location": {
-      "lat": 40.630663,
-      "lng": 109.840921
+      "lat": 40.66163845054852,
+      "lng": 109.82512996995723
     },
     "address": "http://www.btsvc.edu.cn/default.html",
     "province": "内蒙古自治区",
@@ -26319,8 +26403,8 @@ export const universityList =
   {
     "name": "渭南职业技术学院",
     "location": {
-      "lat": 34.521471,
-      "lng": 109.418324
+      "lat": 34.50279929952478,
+      "lng": 109.4847454834052
     },
     "address": "http://www.wnzy.net/",
     "province": "陕西省",
@@ -26335,8 +26419,8 @@ export const universityList =
   {
     "name": "厦门华厦学院",
     "location": {
-      "lat": 24.636232,
-      "lng": 118.089533
+      "lat": 24.6362323568349,
+      "lng": 118.08953345921343
     },
     "address": "http://www.hxxy.edu.cn/",
     "province": "福建省",
@@ -26351,8 +26435,8 @@ export const universityList =
   {
     "name": "广州城市职业学院(科教城校区)",
     "location": {
-      "lat": 23.305902,
-      "lng": 113.663244
+      "lat": 23.266592400631392,
+      "lng": 113.81754566889597
     },
     "address": "广州市增城区X290",
     "province": "广东省",
@@ -26365,8 +26449,8 @@ export const universityList =
   {
     "name": "合肥信息技术职业学院",
     "location": {
-      "lat": 31.764669,
-      "lng": 117.17978
+      "lat": 31.764669163725856,
+      "lng": 117.17977987008265
     },
     "address": "http://www.hfitu.cn/",
     "province": "安徽省",
@@ -26381,8 +26465,8 @@ export const universityList =
   {
     "name": "石河子工程职业技术学院",
     "location": {
-      "lat": 44.352834,
-      "lng": 86.050361
+      "lat": 44.352833602356924,
+      "lng": 86.05036056989722
     },
     "address": null,
     "province": "新疆维吾尔自治区",
@@ -26397,8 +26481,8 @@ export const universityList =
   {
     "name": "广西工业职业技术学院(一校区)",
     "location": {
-      "lat": 22.846238,
-      "lng": 108.307399
+      "lat": 22.845738988402342,
+      "lng": 108.30746238104403
     },
     "address": "广西壮族自治区南宁市西乡塘区秀灵路37号",
     "province": "广西壮族自治区",
@@ -26413,8 +26497,8 @@ export const universityList =
   {
     "name": "上海立信会计金融学院(上川路校区)",
     "location": {
-      "lat": 31.284262,
-      "lng": 121.661369
+      "lat": 31.284738731705247,
+      "lng": 121.66277019389726
     },
     "address": "上海市浦东新区上川路995号",
     "province": "上海市",
@@ -26429,8 +26513,8 @@ export const universityList =
   {
     "name": "杭州职业技术学院",
     "location": {
-      "lat": 30.327048,
-      "lng": 120.359645
+      "lat": 30.327047642639755,
+      "lng": 120.359644653306
     },
     "address": "http://www.hzvtc.edu.cn/",
     "province": "浙江省",
@@ -26445,8 +26529,8 @@ export const universityList =
   {
     "name": "云南师范大学文理学院",
     "location": {
-      "lat": 25.25201,
-      "lng": 103.003843
+      "lat": 25.252009674267388,
+      "lng": 103.00384293662067
     },
     "address": "http://www.ysdwl.cn/",
     "province": "云南省",
@@ -26461,8 +26545,8 @@ export const universityList =
   {
     "name": "山东职业学院",
     "location": {
-      "lat": 36.676081,
-      "lng": 117.333729
+      "lat": 36.67069057941535,
+      "lng": 117.06056161364815
     },
     "address": "http://www.sdp.edu.cn/",
     "province": "山东省",
@@ -26477,8 +26561,8 @@ export const universityList =
   {
     "name": "温州医科大学仁济学院",
     "location": {
-      "lat": 27.853257,
-      "lng": 121.141408
+      "lat": 27.85325664411509,
+      "lng": 121.14140812151973
     },
     "address": "http://rjxy.wmu.edu.cn/",
     "province": "浙江省",
@@ -26493,8 +26577,8 @@ export const universityList =
   {
     "name": "西安职业技术学院",
     "location": {
-      "lat": 34.233025,
-      "lng": 108.846703
+      "lat": 34.3082306904065,
+      "lng": 108.99595957914656
     },
     "address": "http://www.xzyedu.com.cn/",
     "province": "陕西省",
@@ -26509,8 +26593,8 @@ export const universityList =
   {
     "name": "东营职业学院",
     "location": {
-      "lat": 37.441751,
-      "lng": 118.630208
+      "lat": 37.44175055211353,
+      "lng": 118.6302081109113
     },
     "address": "http://www.dyxy.net/",
     "province": "山东省",
@@ -26525,8 +26609,8 @@ export const universityList =
   {
     "name": "文山学院",
     "location": {
-      "lat": 23.361324,
-      "lng": 104.255491
+      "lat": 23.36132440110704,
+      "lng": 104.25549125921029
     },
     "address": "https://www.wsu.edu.cn/",
     "province": "云南省",
@@ -26541,8 +26625,8 @@ export const universityList =
   {
     "name": "贵州航空职业技术学院",
     "location": {
-      "lat": 26.48396,
-      "lng": 106.713959
+      "lat": 26.4839600018564,
+      "lng": 106.71395868657328
     },
     "address": "",
     "province": "贵州省",
@@ -26557,8 +26641,8 @@ export const universityList =
   {
     "name": "西安交通大学城市学院",
     "location": {
-      "lat": 34.375845,
-      "lng": 108.865815
+      "lat": 34.37584491541229,
+      "lng": 108.86581523279418
     },
     "address": "http://www.xjtucc.cn/",
     "province": "陕西省",
@@ -26573,8 +26657,8 @@ export const universityList =
   {
     "name": "武汉生物工程学院",
     "location": {
-      "lat": 30.718908,
-      "lng": 114.533094
+      "lat": 30.720130574806227,
+      "lng": 114.53354395302333
     },
     "address": "http://www.whsw.net/",
     "province": "湖北省",
@@ -26589,8 +26673,8 @@ export const universityList =
   {
     "name": "广东省外语艺术职业学院",
     "location": {
-      "lat": 23.154706,
-      "lng": 113.346138
+      "lat": 23.204459238551888,
+      "lng": 113.37808104914673
     },
     "address": "https://www.gtcfla.net/",
     "province": "广东省",
@@ -26605,8 +26689,8 @@ export const universityList =
   {
     "name": "阳光学院",
     "location": {
-      "lat": 26.009337,
-      "lng": 119.455088
+      "lat": 26.009336958462885,
+      "lng": 119.45508799839723
     },
     "address": "http://www.ygu.edu.cn/",
     "province": "福建省",
@@ -26621,8 +26705,8 @@ export const universityList =
   {
     "name": "营口职业技术学院",
     "location": {
-      "lat": 40.609507,
-      "lng": 122.246854
+      "lat": 40.66393110512643,
+      "lng": 122.25124339619249
     },
     "address": "http://www.ykdx.net/",
     "province": "辽宁省",
@@ -26637,8 +26721,8 @@ export const universityList =
   {
     "name": "上海师范大学天华学院",
     "location": {
-      "lat": 31.415127,
-      "lng": 121.207386
+      "lat": 31.415126996502682,
+      "lng": 121.207385803755
     },
     "address": "http://www.sthu.cn/",
     "province": "上海市",
@@ -26653,8 +26737,8 @@ export const universityList =
   {
     "name": "广东南方职业学院",
     "location": {
-      "lat": 22.590417,
-      "lng": 113.146046
+      "lat": 22.590416631234767,
+      "lng": 113.14604586141844
     },
     "address": "http://www.gdnfu.com/index.html",
     "province": "广东省",
@@ -26669,8 +26753,8 @@ export const universityList =
   {
     "name": "福建卫生职业技术学院",
     "location": {
-      "lat": 26.14849,
-      "lng": 119.177774
+      "lat": 26.13473891454137,
+      "lng": 119.20008511505851
     },
     "address": "http://www.fjwx.com.cn/",
     "province": "福建省",
@@ -26685,8 +26769,8 @@ export const universityList =
   {
     "name": "伊犁职业技术学院",
     "location": {
-      "lat": 43.936726,
-      "lng": 81.344575
+      "lat": 43.93672578504859,
+      "lng": 81.34457493892278
     },
     "address": "",
     "province": "新疆维吾尔自治区",
@@ -26701,8 +26785,8 @@ export const universityList =
   {
     "name": "硅湖职业技术学院",
     "location": {
-      "lat": 31.29098,
-      "lng": 121.146456
+      "lat": 31.28822774435439,
+      "lng": 121.14624003413238
     },
     "address": "http://web.usl.edu.cn/",
     "province": "江苏省",
@@ -26717,8 +26801,8 @@ export const universityList =
   {
     "name": "阳泉师范高等专科学校",
     "location": {
-      "lat": 37.809602,
-      "lng": 113.624736
+      "lat": 37.78537902146426,
+      "lng": 113.61412826356089
     },
     "address": "http://www.sxyqsz.cn/",
     "province": "山西省",
@@ -26733,8 +26817,8 @@ export const universityList =
   {
     "name": "江西工业贸易职业技术学院",
     "location": {
-      "lat": 28.660004,
-      "lng": 115.793989
+      "lat": 28.660004172237496,
+      "lng": 115.7939891868859
     },
     "address": "http://www.jxgmxy.com/",
     "province": "江西省",
@@ -26749,8 +26833,8 @@ export const universityList =
   {
     "name": "湖北工程学院新技术学院",
     "location": {
-      "lat": 30.940898,
-      "lng": 113.91256
+      "lat": 30.94089833400044,
+      "lng": 113.91255999635538
     },
     "address": "http://www.hbeutc.cn/",
     "province": "湖北省",
@@ -26765,8 +26849,8 @@ export const universityList =
   {
     "name": "晋中学院",
     "location": {
-      "lat": 37.746726,
-      "lng": 112.727671
+      "lat": 37.68669758167543,
+      "lng": 112.70657119496623
     },
     "address": "http://www.jzxy.edu.cn/cn/index.html",
     "province": "山西省",
@@ -26780,8 +26864,8 @@ export const universityList =
   {
     "name": "暨南大学(石牌校区)",
     "location": {
-      "lat": 23.136831,
-      "lng": 113.35451
+      "lat": 23.13436440567907,
+      "lng": 113.35539092993879
     },
     "address": "广州市天河区黄埔大道西601号",
     "province": "广东省",
@@ -26796,8 +26880,8 @@ export const universityList =
   {
     "name": "长沙学院",
     "location": {
-      "lat": 28.252655,
-      "lng": 113.036201
+      "lat": 28.25265485207751,
+      "lng": 113.03620061454188
     },
     "address": "http://www.ccsu.cn/",
     "province": "湖南省",
@@ -26812,8 +26896,8 @@ export const universityList =
   {
     "name": "内蒙古财经大学",
     "location": {
-      "lat": 40.862715,
-      "lng": 111.63656
+      "lat": 40.862715213877294,
+      "lng": 111.63656024608069
     },
     "address": "http://www.imufe.edu.cn/",
     "province": "内蒙古自治区",
@@ -26828,8 +26912,8 @@ export const universityList =
   {
     "name": "石家庄科技职业学院",
     "location": {
-      "lat": 38.042483,
-      "lng": 114.698924
+      "lat": 38.04248302406628,
+      "lng": 114.6989237940213
     },
     "address": "http://www.sjzkjxy.net/",
     "province": "河北省",
@@ -26844,8 +26928,8 @@ export const universityList =
   {
     "name": "内蒙古扎兰屯职业学院(秀水校区)",
     "location": {
-      "lat": 48.036076,
-      "lng": 122.73901
+      "lat": 48.06160856853559,
+      "lng": 122.72816249528263
     },
     "address": "内蒙古自治区呼伦贝尔市扎兰屯市秀水路林中巷4号",
     "province": "内蒙古自治区",
@@ -26859,8 +26943,8 @@ export const universityList =
   {
     "name": "通化师范学院",
     "location": {
-      "lat": 41.752808,
-      "lng": 125.994828
+      "lat": 41.75280773879262,
+      "lng": 125.99482794456975
     },
     "address": "http://www.thnu.edu.cn/publish/index.htm",
     "province": "吉林省",
@@ -26875,8 +26959,8 @@ export const universityList =
   {
     "name": "湖北省青年职业学院",
     "location": {
-      "lat": 30.513401,
-      "lng": 114.376943
+      "lat": 30.512749000461532,
+      "lng": 114.37710440778287
     },
     "address": "湖北省武汉市洪山区雄楚大道415号",
     "province": "湖北省",
@@ -26891,8 +26975,8 @@ export const universityList =
   {
     "name": "上海健康医学院(浦东校区)",
     "location": {
-      "lat": 31.111155,
-      "lng": 121.616627
+      "lat": 31.1096104102387,
+      "lng": 121.61772978444083
     },
     "address": "上海市浦东新区周祝公路279号",
     "province": "上海市",
@@ -26907,8 +26991,8 @@ export const universityList =
   {
     "name": "台州科技职业学院",
     "location": {
-      "lat": 28.671656,
-      "lng": 121.267609
+      "lat": 28.671656291368677,
+      "lng": 121.26760863714998
     },
     "address": "http://www.tzvcst.net/",
     "province": "浙江省",
@@ -26923,8 +27007,8 @@ export const universityList =
   {
     "name": "山西老区职业技术学院",
     "location": {
-      "lat": 37.907786,
-      "lng": 112.520878
+      "lat": 37.9077864289265,
+      "lng": 112.52087833079334
     },
     "address": "http://www.sxlqzy.cn/",
     "province": "山西省",
@@ -26939,8 +27023,8 @@ export const universityList =
   {
     "name": "广西外国语学院",
     "location": {
-      "lat": 22.806228,
-      "lng": 108.522545
+      "lat": 22.806227999214002,
+      "lng": 108.52254501668527
     },
     "address": "http://www.gxufl.com/",
     "province": "广西壮族自治区",
@@ -26955,8 +27039,8 @@ export const universityList =
   {
     "name": "信阳涉外职业技术学院",
     "location": {
-      "lat": 31.680563,
-      "lng": 114.889253
+      "lat": 31.680563280443856,
+      "lng": 114.88925317225338
     },
     "address": "http://www.xyswxy.com/",
     "province": "河南省",
@@ -26971,8 +27055,8 @@ export const universityList =
   {
     "name": "成都职业技术学院(高新校区)",
     "location": {
-      "lat": 30.598907,
-      "lng": 104.068525
+      "lat": 30.597776257850455,
+      "lng": 104.06925430291707
     },
     "address": "成都市高新区天益街83号",
     "province": "四川省",
@@ -26987,8 +27071,8 @@ export const universityList =
   {
     "name": "青岛恒星科技学院",
     "location": {
-      "lat": 36.180614,
-      "lng": 120.496398
+      "lat": 36.18061374310297,
+      "lng": 120.49639765363419
     },
     "address": "http://www.hx.cn/",
     "province": "山东省",
@@ -27003,8 +27087,8 @@ export const universityList =
   {
     "name": "苏州科技大学(石湖校区)",
     "location": {
-      "lat": 31.254753,
-      "lng": 120.57981
+      "lat": 31.254764299324265,
+      "lng": 120.5807106325286
     },
     "address": "江苏省苏州市虎丘区学府路99号",
     "province": "江苏省",
@@ -27019,8 +27103,8 @@ export const universityList =
   {
     "name": "石河子大学",
     "location": {
-      "lat": 44.309995,
-      "lng": 86.064688
+      "lat": 44.310248566539904,
+      "lng": 86.06507741923663
     },
     "address": "http://www.shzu.edu.cn/",
     "province": "新疆维吾尔自治区",
@@ -27035,8 +27119,8 @@ export const universityList =
   {
     "name": "黑龙江生态工程职业学院",
     "location": {
-      "lat": 45.883279,
-      "lng": 126.508097
+      "lat": 45.88327944958208,
+      "lng": 126.50809652699205
     },
     "address": "http://www.hljstgc.org.cn/",
     "province": "黑龙江省",
@@ -27051,8 +27135,8 @@ export const universityList =
   {
     "name": "福建电力职业技术学院",
     "location": {
-      "lat": 24.952475,
-      "lng": 118.593126
+      "lat": 24.952475046852463,
+      "lng": 118.59312604319615
     },
     "address": "http://fjdy.zhiye.chaoxing.com/",
     "province": "福建省",
@@ -27067,8 +27151,8 @@ export const universityList =
   {
     "name": "新疆农业大学(亚心校区)",
     "location": {
-      "lat": 43.729088,
-      "lng": 87.399496
+      "lat": 43.728682038942885,
+      "lng": 87.40434682100516
     },
     "address": "新疆维吾尔自治区乌鲁木齐市沙依巴克区西山新镇聚安路888号",
     "province": "新疆维吾尔自治区",
@@ -27083,8 +27167,8 @@ export const universityList =
   {
     "name": "深圳职业技术学院(东区)",
     "location": {
-      "lat": 22.593081,
-      "lng": 113.959053
+      "lat": 22.59278599050881,
+      "lng": 113.95892143916237
     },
     "address": "广东省深圳市南山区沙河西路4089号",
     "province": "广东省",
@@ -27098,8 +27182,8 @@ export const universityList =
   {
     "name": "陕西机电职业技术学院",
     "location": {
-      "lat": 34.389129,
-      "lng": 107.122183
+      "lat": 34.42147900287009,
+      "lng": 107.23795503509297
     },
     "address": "http://www.sxjdzy.cn/",
     "province": "陕西省",
@@ -27114,8 +27198,8 @@ export const universityList =
   {
     "name": "河南护理职业学院",
     "location": {
-      "lat": 36.03717,
-      "lng": 114.39155
+      "lat": 36.037169668812126,
+      "lng": 114.3915496993666
     },
     "address": "http://www.hncedu.cn/",
     "province": "河南省",
@@ -27130,8 +27214,8 @@ export const universityList =
   {
     "name": "广州科技职业技术大学",
     "location": {
-      "lat": 23.408558,
-      "lng": 113.470739
+      "lat": 23.408558150669272,
+      "lng": 113.47073892687602
     },
     "address": "http://www.gzkjxy.net/",
     "province": "广东省",
@@ -27146,8 +27230,8 @@ export const universityList =
   {
     "name": "成都医学院(新都校区)",
     "location": {
-      "lat": 30.827049,
-      "lng": 104.207341
+      "lat": 30.822777545909073,
+      "lng": 104.20375929370655
     },
     "address": "四川省成都市新都区新都大道783号",
     "province": "四川省",
@@ -27162,8 +27246,8 @@ export const universityList =
   {
     "name": "长春人文学院",
     "location": {
-      "lat": 43.82893,
-      "lng": 125.416371
+      "lat": 43.830045695866296,
+      "lng": 125.41884325496589
     },
     "address": "吉林省长春市南关区博硕路1488号",
     "province": "吉林省",
@@ -27178,8 +27262,8 @@ export const universityList =
   {
     "name": "新疆职业大学(迎宾校区)",
     "location": {
-      "lat": 43.907804,
-      "lng": 87.546121
+      "lat": 43.908041393274786,
+      "lng": 87.54637269501582
     },
     "address": "新疆维吾尔自治区乌鲁木齐市新市区北京北路1075号",
     "province": "新疆维吾尔自治区",
@@ -27194,8 +27278,8 @@ export const universityList =
   {
     "name": "新疆师范高等专科学校(亚心校区)",
     "location": {
-      "lat": 43.711248,
-      "lng": 87.391984
+      "lat": 43.7112481296781,
+      "lng": 87.39198398125464
     },
     "address": "乌鲁木齐市沙依巴克区西山农牧场榆泉南路560号",
     "province": "新疆维吾尔自治区",
@@ -27209,8 +27293,8 @@ export const universityList =
   {
     "name": "广州美术学院(大学城校区)",
     "location": {
-      "lat": 23.044584,
-      "lng": 113.389007
+      "lat": 23.04223481347527,
+      "lng": 113.38913335098509
     },
     "address": "广州市番禺区大学城外环西路168号",
     "province": "广东省",
@@ -27225,8 +27309,8 @@ export const universityList =
   {
     "name": "陕西中医药大学(新校区)",
     "location": {
-      "lat": 34.322022,
-      "lng": 108.747781
+      "lat": 34.32202201186718,
+      "lng": 108.74778103285234
     },
     "address": "陕西省咸阳市秦都区世纪大道中段1号",
     "province": "陕西省",
@@ -27241,8 +27325,8 @@ export const universityList =
   {
     "name": "濮阳职业技术学院",
     "location": {
-      "lat": 35.776597,
-      "lng": 114.963326
+      "lat": 35.7120136377277,
+      "lng": 115.05017041113886
     },
     "address": "http://www.pyvtc.cn/",
     "province": "河南省",
@@ -27257,8 +27341,8 @@ export const universityList =
   {
     "name": "焦作工贸职业学院",
     "location": {
-      "lat": 35.089987,
-      "lng": 112.917772
+      "lat": 35.089986571084154,
+      "lng": 112.91777189324769
     },
     "address": "http://www.jzgmxy.com/",
     "province": "河南省",
@@ -27273,8 +27357,8 @@ export const universityList =
   {
     "name": "苏州工业园区服务外包职业学院",
     "location": {
-      "lat": 31.268712,
-      "lng": 120.752445
+      "lat": 31.264901945906526,
+      "lng": 120.76170499956208
     },
     "address": "http://www.siso.edu.cn/",
     "province": "江苏省",
@@ -27287,8 +27371,8 @@ export const universityList =
   {
     "name": "江西师范高等专科学校",
     "location": {
-      "lat": 28.306734,
-      "lng": 117.065684
+      "lat": 28.306733972497923,
+      "lng": 117.065684005399
     },
     "address": "http://www.jxsfgz.com/",
     "province": "江西省",
@@ -27303,8 +27387,8 @@ export const universityList =
   {
     "name": "江西财经大学现代经济管理学院(共青新校区)",
     "location": {
-      "lat": 29.168999,
-      "lng": 115.836021
+      "lat": 29.16747467051161,
+      "lng": 115.83382930573191
     },
     "address": "江西省九江市共青城市江益镇青年大道59号江西财经大学",
     "province": "江西省",
@@ -27319,8 +27403,8 @@ export const universityList =
   {
     "name": "烟台南山学院(东海校区)",
     "location": {
-      "lat": 37.727786,
-      "lng": 120.448498
+      "lat": 37.72051577996597,
+      "lng": 120.45165682906533
     },
     "address": "山东省烟台市龙口市东海旅游度假区大学路12号",
     "province": "山东省",
@@ -27335,8 +27419,8 @@ export const universityList =
   {
     "name": "陕西邮电职业技术学院",
     "location": {
-      "lat": 34.362442,
-      "lng": 108.714384
+      "lat": 34.36244179537259,
+      "lng": 108.7143841899246
     },
     "address": "http://www.sptc.sn.cn/",
     "province": "陕西省",
@@ -27351,8 +27435,8 @@ export const universityList =
   {
     "name": "韶关学院(韶乐园校区)",
     "location": {
-      "lat": 24.78069,
-      "lng": 113.678461
+      "lat": 24.779131708233596,
+      "lng": 113.68478887050333
     },
     "address": "广东省韶关市浈江区新韶镇大学路288号",
     "province": "广东省",
@@ -27367,8 +27451,8 @@ export const universityList =
   {
     "name": "无锡工艺职业技术学院",
     "location": {
-      "lat": 31.345106,
-      "lng": 119.840623
+      "lat": 31.3451062276541,
+      "lng": 119.8406225042259
     },
     "address": "http://www.wxgyxy.cn/",
     "province": "江苏省",
@@ -27383,8 +27467,8 @@ export const universityList =
   {
     "name": "陕西国际商贸学院(南校区)",
     "location": {
-      "lat": 34.303632,
-      "lng": 108.726353
+      "lat": 34.305087373193075,
+      "lng": 108.72192124264495
     },
     "address": "陕西省西安市西咸新区沣西新城大学园统一西路35号",
     "province": "陕西省",
@@ -27399,8 +27483,8 @@ export const universityList =
   {
     "name": "广东外语外贸大学南国商学院",
     "location": {
-      "lat": 23.344847,
-      "lng": 113.390352
+      "lat": 23.344846653185293,
+      "lng": 113.39035235156175
     },
     "address": "http://www.gwng.edu.cn/web/portal/index",
     "province": "广东省",
@@ -27415,8 +27499,8 @@ export const universityList =
   {
     "name": "新疆建设职业技术学院(建工校区)",
     "location": {
-      "lat": 43.843984,
-      "lng": 87.603679
+      "lat": 43.84355496091612,
+      "lng": 87.60255676398462
     },
     "address": "乌鲁木齐市新市区西八家户路528号(新疆师范大学北侧)",
     "province": "新疆维吾尔自治区",
@@ -27431,8 +27515,8 @@ export const universityList =
   {
     "name": "楚雄师范学院",
     "location": {
-      "lat": 25.032448,
-      "lng": 101.55591
+      "lat": 25.032447850469538,
+      "lng": 101.55590964999377
     },
     "address": "https://www.cxtc.edu.cn/",
     "province": "云南省",
@@ -27447,8 +27531,8 @@ export const universityList =
   {
     "name": "广东茂名农林科技职业学院",
     "location": {
-      "lat": 21.663059,
-      "lng": 110.831742
+      "lat": 21.66305902525417,
+      "lng": 110.83174200564059
     },
     "address": null,
     "province": "广东省",
@@ -27463,8 +27547,8 @@ export const universityList =
   {
     "name": "山西医科大学晋祠学院(太原校区)",
     "location": {
-      "lat": 37.692847,
-      "lng": 112.435446
+      "lat": 37.69284669115489,
+      "lng": 112.43544633272515
     },
     "address": "太原市晋源区晋祠镇晋疗路2号",
     "province": "山西省",
@@ -27478,8 +27562,8 @@ export const universityList =
   {
     "name": "平顶山学院(湖滨校区)",
     "location": {
-      "lat": 33.752018,
-      "lng": 113.216694
+      "lat": 33.75071145277454,
+      "lng": 113.21672652967955
     },
     "address": "河南省平顶山市新华区平顶山学院音乐系",
     "province": "河南省",
@@ -27494,8 +27578,8 @@ export const universityList =
   {
     "name": "海口经济学院",
     "location": {
-      "lat": 19.970277,
-      "lng": 110.495174
+      "lat": 19.96844377213976,
+      "lng": 110.48964256415246
     },
     "address": "http://www.hkc.edu.cn/",
     "province": "海南省",
@@ -27510,8 +27594,8 @@ export const universityList =
   {
     "name": "黑龙江工业学院",
     "location": {
-      "lat": 45.290436,
-      "lng": 130.972941
+      "lat": 45.29043622956479,
+      "lng": 130.97294143885526
     },
     "address": "http://www.hljut.edu.cn/",
     "province": "黑龙江省",
@@ -27526,8 +27610,8 @@ export const universityList =
   {
     "name": "广西大学行健文理学院",
     "location": {
-      "lat": 22.861097,
-      "lng": 108.297559
+      "lat": 22.861096928464395,
+      "lng": 108.2975587424609
     },
     "address": "http://xingjian.gxu.edu.cn/",
     "province": "广西壮族自治区",
@@ -27542,8 +27626,8 @@ export const universityList =
   {
     "name": "湖南高尔夫旅游职业学院",
     "location": {
-      "lat": 28.819149,
-      "lng": 111.948607
+      "lat": 28.819149343652242,
+      "lng": 111.94860704243825
     },
     "address": "",
     "province": "湖南省",
@@ -27558,8 +27642,8 @@ export const universityList =
   {
     "name": "柳州铁道职业技术学院",
     "location": {
-      "lat": 24.401964,
-      "lng": 109.540008
+      "lat": 24.401964055694346,
+      "lng": 109.54000796747862
     },
     "address": "http://www.lztdzy.com/",
     "province": "广西壮族自治区",
@@ -27574,8 +27658,8 @@ export const universityList =
   {
     "name": "郴州职业技术学院",
     "location": {
-      "lat": 25.786785,
-      "lng": 113.099804
+      "lat": 25.78678498598645,
+      "lng": 113.09980396835769
     },
     "address": "http://www.czzy-edu.com/",
     "province": "湖南省",
@@ -27590,8 +27674,8 @@ export const universityList =
   {
     "name": "上海视觉艺术学院",
     "location": {
-      "lat": 31.05258,
-      "lng": 121.21238
+      "lat": 31.052580447092478,
+      "lng": 121.21238029255993
     },
     "address": "http://www.siva.edu.cn/",
     "province": "上海市",
@@ -27606,8 +27690,8 @@ export const universityList =
   {
     "name": "满洲里俄语职业学院",
     "location": {
-      "lat": 49.61475,
-      "lng": 117.421975
+      "lat": 49.614750249405866,
+      "lng": 117.42197524277383
     },
     "address": "http://www.sxpolice.org/",
     "province": "内蒙古自治区",
@@ -27622,8 +27706,8 @@ export const universityList =
   {
     "name": "郑州电力职业技术学院",
     "location": {
-      "lat": 34.727521,
-      "lng": 113.999467
+      "lat": 34.727520986419535,
+      "lng": 113.99946701207094
     },
     "address": "http://www.zzdl.com/",
     "province": "河南省",
@@ -27638,8 +27722,8 @@ export const universityList =
   {
     "name": "东莞职业技术学院",
     "location": {
-      "lat": 22.903262,
-      "lng": 113.863548
+      "lat": 22.90326216120277,
+      "lng": 113.86354753472456
     },
     "address": "http://www.dgpt.edu.cn/",
     "province": "广东省",
@@ -27654,8 +27738,8 @@ export const universityList =
   {
     "name": "抚顺师范高等专科学校",
     "location": {
-      "lat": 41.790522,
-      "lng": 123.700675
+      "lat": 41.887037475382286,
+      "lng": 123.92159012078525
     },
     "address": "http://www.fvti.com/cnc_school/division/01/portal_index.html",
     "province": "辽宁省",
@@ -27669,8 +27753,8 @@ export const universityList =
   {
     "name": "河北美术学院(北校区)",
     "location": {
-      "lat": 38.351068,
-      "lng": 114.72302
+      "lat": 38.34950877130615,
+      "lng": 114.72433452130424
     },
     "address": "河北省石家庄市新乐市北环港路111号",
     "province": "河北省",
@@ -27685,8 +27769,8 @@ export const universityList =
   {
     "name": "江西农业工程职业学院",
     "location": {
-      "lat": 28.053603,
-      "lng": 115.562785
+      "lat": 28.053603334734635,
+      "lng": 115.56278502158462
     },
     "address": "http://www.jxaevc.com/",
     "province": "江西省",
@@ -27701,8 +27785,8 @@ export const universityList =
   {
     "name": "沈阳大学",
     "location": {
-      "lat": 41.832252,
-      "lng": 123.467062
+      "lat": 41.83225155581328,
+      "lng": 123.46706163613293
     },
     "address": "http://www.syu.edu.cn/",
     "province": "辽宁省",
@@ -27717,8 +27801,8 @@ export const universityList =
   {
     "name": "红河职业技术学院",
     "location": {
-      "lat": 23.374649,
-      "lng": 103.349082
+      "lat": 23.37448873836479,
+      "lng": 102.42755057757
     },
     "address": null,
     "province": "云南省",
@@ -27733,8 +27817,8 @@ export const universityList =
   {
     "name": "辽宁地质工程职业学院",
     "location": {
-      "lat": 40.03522,
-      "lng": 124.280893
+      "lat": 40.035220485427885,
+      "lng": 124.28089283154688
     },
     "address": "http://www.lndzxy.com/default.html",
     "province": "辽宁省",
@@ -27748,8 +27832,8 @@ export const universityList =
   {
     "name": "焦作师范高等专科学校(新校区)",
     "location": {
-      "lat": 35.219053,
-      "lng": 113.279982
+      "lat": 35.21905294088033,
+      "lng": 113.27998196979235
     },
     "address": "河南省焦作市山阳区山阳路998号",
     "province": "河南省",
@@ -27764,8 +27848,8 @@ export const universityList =
   {
     "name": "武汉光谷职业学院-西南门",
     "location": {
-      "lat": 30.40003,
-      "lng": 114.431239
+      "lat": 30.394849782540245,
+      "lng": 114.42469950827913
     },
     "address": "湖北省武汉市江夏区藏龙岛科技园栗庙路6号",
     "province": "湖北省",
@@ -27778,8 +27862,8 @@ export const universityList =
   {
     "name": "天津开发区职业技术学院",
     "location": {
-      "lat": 39.116141,
-      "lng": 117.229286
+      "lat": 39.11614084857094,
+      "lng": 117.22928647487362
     },
     "address": "http://www.tedazj.com/",
     "province": "天津市",
@@ -27793,8 +27877,8 @@ export const universityList =
   {
     "name": "湖南化工职业技术学院",
     "location": {
-      "lat": 27.908816,
-      "lng": 113.176773
+      "lat": 27.908816305490507,
+      "lng": 113.17677320985204
     },
     "address": "http://www.hnhgzy.com/",
     "province": "湖南省",
@@ -27809,8 +27893,8 @@ export const universityList =
   {
     "name": "河北机电职业技术学院",
     "location": {
-      "lat": 37.101022,
-      "lng": 114.465692
+      "lat": 37.1010215854407,
+      "lng": 114.46569170395486
     },
     "address": "http://www.hbjd.com.cn/",
     "province": "河北省",
@@ -27825,8 +27909,8 @@ export const universityList =
   {
     "name": "哈尔滨电力职业技术学院",
     "location": {
-      "lat": 45.740823,
-      "lng": 126.703995
+      "lat": 45.740822886008395,
+      "lng": 126.7039953095567
     },
     "address": "",
     "province": "黑龙江省",
@@ -27841,8 +27925,8 @@ export const universityList =
   {
     "name": "福州理工学院",
     "location": {
-      "lat": 26.245445,
-      "lng": 119.477633
+      "lat": 26.245444811118368,
+      "lng": 119.47763250228205
     },
     "address": "http://www.fit.edu.cn/",
     "province": "福建省",
@@ -27857,8 +27941,8 @@ export const universityList =
   {
     "name": "广东以色列理工学院",
     "location": {
-      "lat": 23.416495,
-      "lng": 116.646298
+      "lat": 23.40854571413952,
+      "lng": 116.64117374696107
     },
     "address": "http://www.gtiit.edu.cn/",
     "province": "广东省",
@@ -27873,8 +27957,8 @@ export const universityList =
   {
     "name": "湖南财政经济学院",
     "location": {
-      "lat": 28.210612,
-      "lng": 112.931338
+      "lat": 28.217878421612806,
+      "lng": 112.8039439046749
     },
     "address": "http://www.hufe.edu.cn/",
     "province": "湖南省",
@@ -27889,8 +27973,8 @@ export const universityList =
   {
     "name": "辽宁农业职业技术学院",
     "location": {
-      "lat": 40.19013,
-      "lng": 122.158503
+      "lat": 40.19013025379512,
+      "lng": 122.15850251500346
     },
     "address": "http://www.lnnzy.ln.cn/",
     "province": "辽宁省",
@@ -27905,8 +27989,8 @@ export const universityList =
   {
     "name": "江西师范大学(瑶湖校区)",
     "location": {
-      "lat": 28.686226,
-      "lng": 116.037792
+      "lat": 28.684289192205995,
+      "lng": 116.02962882547179
     },
     "address": "江西省南昌市南昌县紫阳大道99号",
     "province": "江西省",
@@ -27921,8 +28005,8 @@ export const universityList =
   {
     "name": "宁波卫生职业技术学院",
     "location": {
-      "lat": 29.813089,
-      "lng": 121.574633
+      "lat": 29.81308898191142,
+      "lng": 121.57463257221542
     },
     "address": "http://www.nbchs.net/",
     "province": "浙江省",
@@ -27937,8 +28021,8 @@ export const universityList =
   {
     "name": "陕西职业技术学院(白鹿原校区)",
     "location": {
-      "lat": 34.220682,
-      "lng": 109.104347
+      "lat": 34.248159545192486,
+      "lng": 109.07721277522619
     },
     "address": "陕西省西安市灞桥区狄寨路2028号",
     "province": "陕西省",
@@ -27953,8 +28037,8 @@ export const universityList =
   {
     "name": "郑州工程技术学院",
     "location": {
-      "lat": 34.869692,
-      "lng": 113.658116
+      "lat": 34.86742452988785,
+      "lng": 113.63655104705656
     },
     "address": "http://www.zhzhu.edu.cn/",
     "province": "河南省",
@@ -27969,8 +28053,8 @@ export const universityList =
   {
     "name": "云南轻纺职业学院",
     "location": {
-      "lat": 24.900249,
-      "lng": 102.454494
+      "lat": 24.900248976264294,
+      "lng": 102.45449417336629
     },
     "address": "http://www.ynqfzyxy.cn/",
     "province": "云南省",
@@ -27985,8 +28069,8 @@ export const universityList =
   {
     "name": "咸阳职业技术学院",
     "location": {
-      "lat": 34.304881,
-      "lng": 108.74309
+      "lat": 34.26630704842283,
+      "lng": 108.89889245862148
     },
     "address": "http://www.xianyangzhiyuan.cn/",
     "province": "陕西省",
@@ -28001,8 +28085,8 @@ export const universityList =
   {
     "name": "新乡医学院三全学院(平原校区)",
     "location": {
-      "lat": 34.998651,
-      "lng": 113.6869
+      "lat": 34.94695234368076,
+      "lng": 114.21970250784958
     },
     "address": "河南省新乡市原阳县黄河大堤新庄立交桥",
     "province": "河南省",
@@ -28017,8 +28101,8 @@ export const universityList =
   {
     "name": "东莞理工学院(松山湖校区)",
     "location": {
-      "lat": 22.909223,
-      "lng": 113.880882
+      "lat": 22.915399452949718,
+      "lng": 113.87999568826791
     },
     "address": "广东省东莞市松山湖区大学路1号",
     "province": "广东省",
@@ -28033,8 +28117,8 @@ export const universityList =
   {
     "name": "郑州轨道工程职业学院",
     "location": {
-      "lat": 34.780323,
-      "lng": 113.483231
+      "lat": 34.780322984034335,
+      "lng": 113.48323131685225
     },
     "address": null,
     "province": "河南省",
@@ -28048,8 +28132,8 @@ export const universityList =
   {
     "name": "龙岩学院",
     "location": {
-      "lat": 25.035874,
-      "lng": 117.029619
+      "lat": 25.03587404034984,
+      "lng": 117.02961901545743
     },
     "address": "http://www.lyun.edu.cn/",
     "province": "福建省",
@@ -28064,8 +28148,8 @@ export const universityList =
   {
     "name": "惠州卫生职业技术学院",
     "location": {
-      "lat": 23.011848,
-      "lng": 114.44338
+      "lat": 23.01184753568955,
+      "lng": 114.44338038528052
     },
     "address": "http://www.hzhsp.edu.cn/",
     "province": "广东省",
@@ -28080,8 +28164,8 @@ export const universityList =
   {
     "name": "云南工贸职业技术学院",
     "location": {
-      "lat": 24.9274,
-      "lng": 102.484152
+      "lat": 24.927400428493392,
+      "lng": 102.48415217892116
     },
     "address": "http://www.ynit.edu.cn/",
     "province": "云南省",
@@ -28096,8 +28180,8 @@ export const universityList =
   {
     "name": "华中农业大学",
     "location": {
-      "lat": 30.48178,
-      "lng": 114.363708
+      "lat": 30.481779897059855,
+      "lng": 114.36370797771256
     },
     "address": "http://www.hzau.edu.cn/",
     "province": "湖北省",
@@ -28112,8 +28196,8 @@ export const universityList =
   {
     "name": "丽江文化旅游学院",
     "location": {
-      "lat": 26.921301,
-      "lng": 100.237129
+      "lat": 26.92151899419872,
+      "lng": 100.23753303821181
     },
     "address": "云南省丽江市古城区玉泉路1号",
     "province": "云南省",
@@ -28128,8 +28212,8 @@ export const universityList =
   {
     "name": "山西师范大学(太原校区)",
     "location": {
-      "lat": 37.748519,
-      "lng": 112.668678
+      "lat": 37.748568917593836,
+      "lng": 112.66691433043108
     },
     "address": "山西省太原市小店区太榆路339号",
     "province": "山西省",
@@ -28144,8 +28228,8 @@ export const universityList =
   {
     "name": "安徽粮食工程职业学院",
     "location": {
-      "lat": 31.922984,
-      "lng": 117.402623
+      "lat": 31.86106501186883,
+      "lng": 117.23765598731008
     },
     "address": "http://www.ahlsxy.cn/",
     "province": "安徽省",
@@ -28160,8 +28244,8 @@ export const universityList =
   {
     "name": "厦门海洋职业技术学院(翔安校区)",
     "location": {
-      "lat": 24.59813,
-      "lng": 118.262656
+      "lat": 24.597276937911108,
+      "lng": 118.26193032381508
     },
     "address": "福建省厦门市翔安区洪钟大道4566号",
     "province": "福建省",
@@ -28176,8 +28260,8 @@ export const universityList =
   {
     "name": "廊坊燕京职业技术学院",
     "location": {
-      "lat": 39.976942,
-      "lng": 116.99671
+      "lat": 39.97519776135004,
+      "lng": 116.99914832864464
     },
     "address": "http://www.lfyjzjxy.com/",
     "province": "河北省",
@@ -28192,8 +28276,8 @@ export const universityList =
   {
     "name": "广东农工商职业技术学院(增城校区)",
     "location": {
-      "lat": 23.28829,
-      "lng": 113.621817
+      "lat": 23.289928988546052,
+      "lng": 113.6179559287191
     },
     "address": "广东省广州市增城区中新镇风光路393号",
     "province": "广东省",
@@ -28208,8 +28292,8 @@ export const universityList =
   {
     "name": "内蒙古经贸外语职业学院",
     "location": {
-      "lat": 40.901194,
-      "lng": 111.701074
+      "lat": 40.90119410241833,
+      "lng": 111.70107367322967
     },
     "address": "http://www.nmgjwy.com/",
     "province": "内蒙古自治区",
@@ -28224,8 +28308,8 @@ export const universityList =
   {
     "name": "苏州大学-文正学院",
     "location": {
-      "lat": 31.222759,
-      "lng": 120.593036
+      "lat": 31.224386837500838,
+      "lng": 120.58995096232643
     },
     "address": "苏州市吴中区吴中大道苏州城市学院",
     "province": "江苏省",
@@ -28238,8 +28322,8 @@ export const universityList =
   {
     "name": "湖北科技职业学院(关山校区)",
     "location": {
-      "lat": 30.477711,
-      "lng": 114.410792
+      "lat": 30.477959968054012,
+      "lng": 114.41246701265811
     },
     "address": "湖北省武汉市洪山区东湖新技术开发区软件园路2号",
     "province": "湖北省",
@@ -28254,8 +28338,8 @@ export const universityList =
   {
     "name": "桂林师范高等专科学校",
     "location": {
-      "lat": 25.226711,
-      "lng": 110.165527
+      "lat": 25.226711037608723,
+      "lng": 110.1655274684598
     },
     "address": "http://www.glnc.edu.cn/",
     "province": "广西壮族自治区",
@@ -28270,8 +28354,8 @@ export const universityList =
   {
     "name": "上海震旦职业学院",
     "location": {
-      "lat": 31.425121,
-      "lng": 121.362517
+      "lat": 31.418240409304286,
+      "lng": 121.36603886360261
     },
     "address": "https://www.aurora-college.cn/",
     "province": "上海市",
@@ -28286,8 +28370,8 @@ export const universityList =
   {
     "name": "武汉工程科技学院",
     "location": {
-      "lat": 30.354851,
-      "lng": 114.34516
+      "lat": 30.35485127540315,
+      "lng": 114.3451600350342
     },
     "address": "http://www.wuhues.com/",
     "province": "湖北省",
@@ -28302,8 +28386,8 @@ export const universityList =
   {
     "name": "延边职业技术学院(朝阳川校区)",
     "location": {
-      "lat": 42.885881,
-      "lng": 129.354639
+      "lat": 42.88756368603776,
+      "lng": 129.38896661905474
     },
     "address": "吉林省延边朝鲜族自治州延吉市朝阳川镇西部新城",
     "province": "吉林省",
@@ -28318,8 +28402,8 @@ export const universityList =
   {
     "name": "广元中核职业技术学院",
     "location": {
-      "lat": 32.37886,
-      "lng": 105.642797
+      "lat": 32.37885951988041,
+      "lng": 105.64279746982142
     },
     "address": null,
     "province": "四川省",
@@ -28333,8 +28417,8 @@ export const universityList =
   {
     "name": "重庆轻工职业学院",
     "location": {
-      "lat": 29.539749,
-      "lng": 106.378639
+      "lat": 29.539749285290746,
+      "lng": 106.3786389364278
     },
     "address": "http://www.cqivc.com/website/",
     "province": "重庆市",
@@ -28349,8 +28433,8 @@ export const universityList =
   {
     "name": "毕节职业技术学院",
     "location": {
-      "lat": 27.222691,
-      "lng": 105.43978
+      "lat": 27.222690915147144,
+      "lng": 105.43978014315644
     },
     "address": "http://www.gzbjzy.cn/",
     "province": "贵州省",
@@ -28365,8 +28449,8 @@ export const universityList =
   {
     "name": "武汉电力职业技术学院",
     "location": {
-      "lat": 30.5311,
-      "lng": 114.372364
+      "lat": 30.531099892876796,
+      "lng": 114.37236395977617
     },
     "address": "http://www.whetc.com/",
     "province": "湖北省",
@@ -28381,8 +28465,8 @@ export const universityList =
   {
     "name": "天水师范学院",
     "location": {
-      "lat": 34.576057,
-      "lng": 105.705485
+      "lat": 34.57605717481984,
+      "lng": 105.70548518085192
     },
     "address": "https://www.tsnu.edu.cn/",
     "province": "甘肃省",
@@ -28397,8 +28481,8 @@ export const universityList =
   {
     "name": "河南师范大学",
     "location": {
-      "lat": 35.333536,
-      "lng": 113.922073
+      "lat": 35.02494800366417,
+      "lng": 113.82476231072665
     },
     "address": "http://www.henannu.edu.cn/",
     "province": "河南省",
@@ -28413,8 +28497,8 @@ export const universityList =
   {
     "name": "遵义医药高等专科学校",
     "location": {
-      "lat": 27.732843,
-      "lng": 107.081349
+      "lat": 27.73284324981687,
+      "lng": 107.08134920104207
     },
     "address": "http://www.zunyiyizhuan.com/",
     "province": "贵州省",
@@ -28429,8 +28513,8 @@ export const universityList =
   {
     "name": "顺德职业技术学院",
     "location": {
-      "lat": 22.815475,
-      "lng": 113.330979
+      "lat": 22.815474728768752,
+      "lng": 113.3309794777132
     },
     "address": "http://www.sdpt.com.cn/",
     "province": "广东省",
@@ -28445,8 +28529,8 @@ export const universityList =
   {
     "name": "山西工程职业学院",
     "location": {
-      "lat": 37.887164,
-      "lng": 112.555701
+      "lat": 37.88716366874266,
+      "lng": 112.55570096422653
     },
     "address": null,
     "province": "山西省",
@@ -28461,8 +28545,8 @@ export const universityList =
   {
     "name": "驻马店幼儿师范高等专科学校",
     "location": {
-      "lat": 33.071643,
-      "lng": 113.99749
+      "lat": 33.07164336543168,
+      "lng": 113.99749047045735
     },
     "address": "http://www.zmdyz.org/",
     "province": "河南省",
@@ -28477,8 +28561,8 @@ export const universityList =
   {
     "name": "广东文艺职业学院(番禺校区)",
     "location": {
-      "lat": 22.977782,
-      "lng": 113.353881
+      "lat": 22.978547211165825,
+      "lng": 113.35294825759686
     },
     "address": "广州市番禺区市广路242号",
     "province": "广东省",
@@ -28493,8 +28577,8 @@ export const universityList =
   {
     "name": "杭州师范大学(钱江学院)",
     "location": {
-      "lat": 30.321623,
-      "lng": 120.400703
+      "lat": 30.319359856123096,
+      "lng": 120.39534205664481
     },
     "address": "浙江省杭州市钱塘区学林街16号",
     "province": "浙江省",
@@ -28509,8 +28593,8 @@ export const universityList =
   {
     "name": "长春职业技术学院",
     "location": {
-      "lat": 43.836808,
-      "lng": 125.37521
+      "lat": 43.83680825640664,
+      "lng": 125.37521040041302
     },
     "address": "http://www.cvit.com.cn/",
     "province": "吉林省",
@@ -28525,8 +28609,8 @@ export const universityList =
   {
     "name": "邵阳学院(七里坪校区)",
     "location": {
-      "lat": 27.206649,
-      "lng": 111.44839
+      "lat": 27.21583246799427,
+      "lng": 111.45442959850251
     },
     "address": "湖南省邵阳市大祥区七里坪学院路",
     "province": "湖南省",
@@ -28541,8 +28625,8 @@ export const universityList =
   {
     "name": "甘肃工业职业技术学院",
     "location": {
-      "lat": 34.57035,
-      "lng": 105.822171
+      "lat": 34.57034999299293,
+      "lng": 105.82217102422325
     },
     "address": "http://www.gipc.edu.cn/",
     "province": "甘肃省",
@@ -28557,8 +28641,8 @@ export const universityList =
   {
     "name": "青岛黄海学院",
     "location": {
-      "lat": 35.934444,
-      "lng": 120.115767
+      "lat": 35.930029823810045,
+      "lng": 120.11882295964686
     },
     "address": "http://www.huanghaicollege.com/",
     "province": "山东省",
@@ -28573,8 +28657,8 @@ export const universityList =
   {
     "name": "湖南机电职业技术学院",
     "location": {
-      "lat": 28.267401,
-      "lng": 113.066472
+      "lat": 28.267400626999788,
+      "lng": 113.06647180343765
     },
     "address": "http://www.hnjdzy.net/",
     "province": "湖南省",
@@ -28589,8 +28673,8 @@ export const universityList =
   {
     "name": "西南政法大学(渝北校区)",
     "location": {
-      "lat": 29.669912,
-      "lng": 106.599228
+      "lat": 29.67232027231593,
+      "lng": 106.6030920663322
     },
     "address": "重庆市渝北区宝圣湖街道宝圣大道301号",
     "province": "重庆市",
@@ -28605,8 +28689,8 @@ export const universityList =
   {
     "name": "江西工程职业学院",
     "location": {
-      "lat": 28.655707,
-      "lng": 115.904222
+      "lat": 28.655707231935736,
+      "lng": 115.9042224119121
     },
     "address": "http://www.jxgcxy.com/",
     "province": "江西省",
@@ -28621,8 +28705,8 @@ export const universityList =
   {
     "name": "安康学院(江北校区)",
     "location": {
-      "lat": 32.705561,
-      "lng": 108.987252
+      "lat": 32.7054696555718,
+      "lng": 108.99333176603822
     },
     "address": "陕西省安康市汉滨区安康大道高新区数字化创业中心对面",
     "province": "陕西省",
@@ -28637,8 +28721,8 @@ export const universityList =
   {
     "name": "中央司法警官学院",
     "location": {
-      "lat": 38.887012,
-      "lng": 115.521249
+      "lat": 38.88701228822128,
+      "lng": 115.52124909684595
     },
     "address": "http://www.cicp.edu.cn/",
     "province": "河北省",
@@ -28653,8 +28737,8 @@ export const universityList =
   {
     "name": "许昌学院",
     "location": {
-      "lat": 34.049918,
-      "lng": 113.875612
+      "lat": 34.04991791907569,
+      "lng": 113.87561197208558
     },
     "address": "https://www.xcu.edu.cn/",
     "province": "河南省",
@@ -28669,8 +28753,8 @@ export const universityList =
   {
     "name": "辽宁 税务高等专科学校",
     "location": {
-      "lat": 38.886352,
-      "lng": 121.550879
+      "lat": 38.88503412149495,
+      "lng": 121.55234976196635
     },
     "address": "辽宁省大连市沙河口区数码路41号",
     "province": "辽宁省",
@@ -28684,8 +28768,8 @@ export const universityList =
   {
     "name": "烟台大学(北区)",
     "location": {
-      "lat": 37.476629,
-      "lng": 121.46463
+      "lat": 37.486165983744485,
+      "lng": 121.4614923579401
     },
     "address": "山东省烟台市莱山区清泉路30号",
     "province": "山东省",
@@ -28700,8 +28784,8 @@ export const universityList =
   {
     "name": "华东师范大学(闵行校区)",
     "location": {
-      "lat": 31.036778,
-      "lng": 121.460011
+      "lat": 31.04109852623299,
+      "lng": 121.45773726124729
     },
     "address": "上海市闵行区东川路500号",
     "province": "上海市",
@@ -28716,8 +28800,8 @@ export const universityList =
   {
     "name": "泸州医疗器械职业学院",
     "location": {
-      "lat": 28.801131,
-      "lng": 105.43406
+      "lat": 28.800511403025844,
+      "lng": 105.43497295105195
     },
     "address": null,
     "province": "四川省",
@@ -28731,8 +28815,8 @@ export const universityList =
   {
     "name": "义乌工商职业技术学院",
     "location": {
-      "lat": 29.304079,
-      "lng": 120.104716
+      "lat": 29.304078840172266,
+      "lng": 120.10471568366394
     },
     "address": "http://www.ywu.cn/",
     "province": "浙江省",
@@ -28747,8 +28831,8 @@ export const universityList =
   {
     "name": "咸宁职业技术学院",
     "location": {
-      "lat": 29.832714,
-      "lng": 114.321259
+      "lat": 29.832713700095727,
+      "lng": 114.3212593444614
     },
     "address": "http://www.xnec.cn/",
     "province": "湖北省",
@@ -28763,8 +28847,8 @@ export const universityList =
   {
     "name": "铁岭师范高等专科学校",
     "location": {
-      "lat": 42.256827,
-      "lng": 123.753066
+      "lat": 42.256827301233514,
+      "lng": 123.75306612067182
     },
     "address": "http://www.tlsz.com.cn/",
     "province": "辽宁省",
@@ -28779,8 +28863,8 @@ export const universityList =
   {
     "name": "安庆师范大学(龙山校区)",
     "location": {
-      "lat": 30.614033,
-      "lng": 117.004044
+      "lat": 30.61514954950841,
+      "lng": 117.01039574244342
     },
     "address": "安徽省安庆市宜秀区集贤北路1318号",
     "province": "安徽省",
@@ -28795,8 +28879,8 @@ export const universityList =
   {
     "name": "江南影视艺术职业学院",
     "location": {
-      "lat": 31.574378,
-      "lng": 120.182316
+      "lat": 31.574377932641443,
+      "lng": 120.18231564224486
     },
     "address": "http://www.jnys.cn/",
     "province": "江苏省",
@@ -28811,8 +28895,8 @@ export const universityList =
   {
     "name": "新余学院",
     "location": {
-      "lat": 27.863694,
-      "lng": 115.002353
+      "lat": 27.86369439286856,
+      "lng": 115.00235260562958
     },
     "address": "http://www.xyc.edu.cn/",
     "province": "江西省",
@@ -28827,8 +28911,8 @@ export const universityList =
   {
     "name": "济南工程职业技术学院(双山校区)",
     "location": {
-      "lat": 36.673997,
-      "lng": 117.51787
+      "lat": 36.673749555701605,
+      "lng": 117.51785391486303
     },
     "address": "山东省济南市章丘区经十东路6088号",
     "province": "山东省",
@@ -28843,8 +28927,8 @@ export const universityList =
   {
     "name": "乐山师范学院",
     "location": {
-      "lat": 29.565202,
-      "lng": 103.760565
+      "lat": 29.563885593380206,
+      "lng": 103.75863641570294
     },
     "address": "http://www1.lsnu.edu.cn/",
     "province": "四川省",
@@ -28859,8 +28943,8 @@ export const universityList =
   {
     "name": "西安石油大学(鄠邑校区)",
     "location": {
-      "lat": 34.108531,
-      "lng": 108.660416
+      "lat": 34.11308575800172,
+      "lng": 108.64222321847753
     },
     "address": "陕西省西安市鄠邑区丰京路560号",
     "province": "陕西省",
@@ -28875,8 +28959,8 @@ export const universityList =
   {
     "name": "兰州资源环境学院",
     "location": {
-      "lat": 36.029832,
-      "lng": 103.951911
+      "lat": 36.0631814753695,
+      "lng": 103.83147490052859
     },
     "address": "甘肃省兰州市城关区窦家山36号",
     "province": "甘肃省",
@@ -28891,8 +28975,8 @@ export const universityList =
   {
     "name": "宁夏警官职业学院",
     "location": {
-      "lat": 38.514282,
-      "lng": 106.152862
+      "lat": 38.51428173548314,
+      "lng": 106.15286207567823
     },
     "address": "http://www.nsjy.com.cn/",
     "province": "宁夏回族自治区",
@@ -28907,8 +28991,8 @@ export const universityList =
   {
     "name": "内蒙古警察职业学院",
     "location": {
-      "lat": 40.878097,
-      "lng": 111.701494
+      "lat": 40.87809653291607,
+      "lng": 111.70149443953055
     },
     "address": "http://www.imppc.cn/",
     "province": "内蒙古自治区",
@@ -28923,8 +29007,8 @@ export const universityList =
   {
     "name": "湖南司法警官职业学院",
     "location": {
-      "lat": 28.214873,
-      "lng": 113.102195
+      "lat": 28.214872726648277,
+      "lng": 113.10219489830226
     },
     "address": "http://www.hnsfjy.cn/",
     "province": "湖南省",
@@ -28939,8 +29023,8 @@ export const universityList =
   {
     "name": "广东女子职业技术学院",
     "location": {
-      "lat": 22.963387,
-      "lng": 113.473458
+      "lat": 22.963386990812968,
+      "lng": 113.47345800782328
     },
     "address": "http://www.gdfs.edu.cn/",
     "province": "广东省",
@@ -28955,8 +29039,8 @@ export const universityList =
   {
     "name": "宁波幼儿师范高等专科学校",
     "location": {
-      "lat": 30.3248,
-      "lng": 121.254344
+      "lat": 29.902178751328726,
+      "lng": 121.54486102084412
     },
     "address": null,
     "province": "浙江省",
@@ -28971,8 +29055,8 @@ export const universityList =
   {
     "name": "甘肃警察学院(左家湾校区)",
     "location": {
-      "lat": 36.104137,
-      "lng": 103.839666
+      "lat": 36.102498300332805,
+      "lng": 103.84254777356679
     },
     "address": "甘肃省兰州市城关区左家湾169号",
     "province": "甘肃省",
@@ -28986,8 +29070,8 @@ export const universityList =
   {
     "name": "重庆财经职业学院",
     "location": {
-      "lat": 29.37375,
-      "lng": 105.895729
+      "lat": 29.373750438254664,
+      "lng": 105.8957289385
     },
     "address": "http://www.cqcfe.com/",
     "province": "重庆市",
@@ -29002,8 +29086,8 @@ export const universityList =
   {
     "name": "南通大学",
     "location": {
-      "lat": 31.978961,
-      "lng": 120.918476
+      "lat": 32.015619928460126,
+      "lng": 120.87607025030951
     },
     "address": "http://www.ntu.edu.cn/",
     "province": "江苏省",
@@ -29018,8 +29102,8 @@ export const universityList =
   {
     "name": "大连装备制造职业技术学院",
     "location": {
-      "lat": 39.208188,
-      "lng": 121.712478
+      "lat": 39.20818813236368,
+      "lng": 121.7124784682752
     },
     "address": "http://www.dlemcedu.cn/",
     "province": "辽宁省",
@@ -29034,8 +29118,8 @@ export const universityList =
   {
     "name": "长沙航空职业技术学院(跳马校区)",
     "location": {
-      "lat": 28.036978,
-      "lng": 113.051936
+      "lat": 28.033826136769967,
+      "lng": 113.05949924590206
     },
     "address": "湖南省长沙市雨花区跳马镇新田村",
     "province": "湖南省",
@@ -29050,8 +29134,8 @@ export const universityList =
   {
     "name": "安徽体育运动职业技术学院",
     "location": {
-      "lat": 31.776554,
-      "lng": 117.358661
+      "lat": 31.861886996909774,
+      "lng": 117.30444742740181
     },
     "address": "http://www.ahty.net/",
     "province": "安徽省",
@@ -29066,8 +29150,8 @@ export const universityList =
   {
     "name": "重庆应用技术职业学院",
     "location": {
-      "lat": 30.011567,
-      "lng": 106.240377
+      "lat": 30.011567026672505,
+      "lng": 106.24037670524073
     },
     "address": "http://www.cqyyzy.com/",
     "province": "重庆市",
@@ -29082,8 +29166,8 @@ export const universityList =
   {
     "name": "贵州轻工职业技术学院(科技新城新校区)",
     "location": {
-      "lat": 26.344141,
-      "lng": 106.487571
+      "lat": 26.410629189199653,
+      "lng": 106.45610197646084
     },
     "address": "贵州省安顺市贵安新区云安路1号",
     "province": "贵州省",
@@ -29096,8 +29180,8 @@ export const universityList =
   {
     "name": "锦州师范高等专科学校",
     "location": {
-      "lat": 41.147891,
-      "lng": 121.163102
+      "lat": 41.1478909666864,
+      "lng": 121.16310203702963
     },
     "address": "http://www.jzsz.com.cn/",
     "province": "辽宁省",
@@ -29112,8 +29196,8 @@ export const universityList =
   {
     "name": "重庆青年职业技术学院巴南校区",
     "location": {
-      "lat": 29.354981,
-      "lng": 106.529409
+      "lat": 29.354341144957285,
+      "lng": 106.53210275478523
     },
     "address": "重庆市巴南区箭滨二路1126号",
     "province": "重庆市",
@@ -29128,8 +29212,8 @@ export const universityList =
   {
     "name": "长春东方职业学院",
     "location": {
-      "lat": 44.141172,
-      "lng": 125.515946
+      "lat": 44.14117212062,
+      "lng": 125.51594603821971
     },
     "address": "http://www.dfzyxy.net/",
     "province": "吉林省",
@@ -29144,8 +29228,8 @@ export const universityList =
   {
     "name": "辽宁警察学院",
     "location": {
-      "lat": 38.970718,
-      "lng": 121.33579
+      "lat": 38.97071759397531,
+      "lng": 121.33579049165678
     },
     "address": "http://www.lnpc.cn/",
     "province": "辽宁省",
@@ -29160,8 +29244,8 @@ export const universityList =
   {
     "name": "福州大学(旗山校区)",
     "location": {
-      "lat": 26.062197,
-      "lng": 119.203482
+      "lat": 26.086876596076827,
+      "lng": 119.21927687328954
     },
     "address": "福州市闽侯县乌龙江大道2号",
     "province": "福建省",
@@ -29176,8 +29260,8 @@ export const universityList =
   {
     "name": "贵州民族大学(南校区)",
     "location": {
-      "lat": 26.38066,
-      "lng": 106.626416
+      "lat": 26.405913314268606,
+      "lng": 106.63527781555737
     },
     "address": "贵州省贵阳市花溪区党武镇思雅路",
     "province": "贵州省",
@@ -29192,8 +29276,8 @@ export const universityList =
   {
     "name": "德阳城市轨道交通职业学院",
     "location": {
-      "lat": 31.113306,
-      "lng": 104.177136
+      "lat": 31.113306293185317,
+      "lng": 104.17713621330734
     },
     "address": null,
     "province": "四川省",
@@ -29208,8 +29292,8 @@ export const universityList =
   {
     "name": "开封大学",
     "location": {
-      "lat": 34.832959,
-      "lng": 114.340939
+      "lat": 34.8329587523742,
+      "lng": 114.34093853812061
     },
     "address": "http://www.kfu.edu.cn/",
     "province": "河南省",
@@ -29224,8 +29308,8 @@ export const universityList =
   {
     "name": "广西水利电力职业技术学院(长堽校区)",
     "location": {
-      "lat": 22.84233,
-      "lng": 108.358071
+      "lat": 22.841601680867747,
+      "lng": 108.36041290948164
     },
     "address": "广西壮族自治区南宁市兴宁区长堽路99号",
     "province": "广西壮族自治区",
@@ -29240,8 +29324,8 @@ export const universityList =
   {
     "name": "大理大学",
     "location": {
-      "lat": 25.676203,
-      "lng": 100.161979
+      "lat": 25.612143161142143,
+      "lng": 100.2191369091707
     },
     "address": "http://www.dali.edu.cn/",
     "province": "云南省",
@@ -29256,8 +29340,8 @@ export const universityList =
   {
     "name": "塔里木职业技术学院",
     "location": {
-      "lat": 40.587363,
-      "lng": 81.267019
+      "lat": 39.89469059329652,
+      "lng": 79.08876137108501
     },
     "address": null,
     "province": "新疆维吾尔自治区",
@@ -29270,8 +29354,8 @@ export const universityList =
   {
     "name": "西安欧亚学院",
     "location": {
-      "lat": 34.182481,
-      "lng": 108.928454
+      "lat": 34.182480606774526,
+      "lng": 108.92845389634384
     },
     "address": "http://www.eurasia.edu/",
     "province": "陕西省",
@@ -29286,8 +29370,8 @@ export const universityList =
   {
     "name": "云南现代职业技术学院",
     "location": {
-      "lat": 24.991214,
-      "lng": 101.580967
+      "lat": 25.05254723038091,
+      "lng": 101.56978281079363
     },
     "address": "",
     "province": "云南省",
@@ -29301,8 +29385,8 @@ export const universityList =
   {
     "name": "中原工学院(龙湖校区)",
     "location": {
-      "lat": 34.591237,
-      "lng": 113.691346
+      "lat": 34.598681600354716,
+      "lng": 113.69462092878246
     },
     "address": "河南省郑州市新郑市淮河路1号",
     "province": "河南省",
@@ -29317,8 +29401,8 @@ export const universityList =
   {
     "name": "吉首大学(砂子坳校区)",
     "location": {
-      "lat": 28.293269,
-      "lng": 109.731388
+      "lat": 28.23903938887384,
+      "lng": 109.68727480324355
     },
     "address": "湖南省湘西土家族苗族自治州吉首市人民南路120号",
     "province": "湖南省",
@@ -29333,8 +29417,8 @@ export const universityList =
   {
     "name": "昆明理工大学(呈贡校区)",
     "location": {
-      "lat": 24.856098,
-      "lng": 102.863344
+      "lat": 24.861802869350097,
+      "lng": 102.86009689743643
     },
     "address": "云南省昆明市呈贡区景明南路727号",
     "province": "云南省",
@@ -29348,8 +29432,8 @@ export const universityList =
   {
     "name": "长沙商贸旅游职业技术学院",
     "location": {
-      "lat": 28.078015,
-      "lng": 113.050045
+      "lat": 28.219507677534626,
+      "lng": 113.10129901821745
     },
     "address": "http://www.hncpu.com/",
     "province": "湖南省",
@@ -29364,8 +29448,8 @@ export const universityList =
   {
     "name": "西北农林科技大学(北校区)",
     "location": {
-      "lat": 34.291642,
-      "lng": 108.079342
+      "lat": 34.28758468211041,
+      "lng": 108.08318290638617
     },
     "address": "陕西省咸阳市杨陵区西农路22号",
     "province": "陕西省",
@@ -29380,8 +29464,8 @@ export const universityList =
   {
     "name": "达州职业技术学院(新校区)",
     "location": {
-      "lat": 31.278247,
-      "lng": 107.541298
+      "lat": 31.25788708793844,
+      "lng": 107.53834803830739
     },
     "address": "四川省达州市通川区凤北街道韩家坝犀牛大道书山路1号",
     "province": "四川省",
@@ -29395,8 +29479,8 @@ export const universityList =
   {
     "name": "四川大学(望江校区)",
     "location": {
-      "lat": 30.637031,
-      "lng": 104.090633
+      "lat": 30.636234282617803,
+      "lng": 104.08731635214512
     },
     "address": "四川省成都市武侯区一环路南一段24号",
     "province": "四川省",
@@ -29411,8 +29495,8 @@ export const universityList =
   {
     "name": "德宏职业学院",
     "location": {
-      "lat": 24.419414,
-      "lng": 98.593369
+      "lat": 24.419413995108016,
+      "lng": 98.59336895536984
     },
     "address": "http://yndhvczs.good-edu.cn/",
     "province": "云南省",
@@ -29427,8 +29511,8 @@ export const universityList =
   {
     "name": "云南经济管理学院",
     "location": {
-      "lat": 24.904556,
-      "lng": 102.442266
+      "lat": 24.90455607904814,
+      "lng": 102.44226598961575
     },
     "address": "http://www.ynjgy.com/",
     "province": "云南省",
@@ -29443,8 +29527,8 @@ export const universityList =
   {
     "name": "辽宁轻工职业学院",
     "location": {
-      "lat": 39.083375,
-      "lng": 121.747865
+      "lat": 39.083374582111496,
+      "lng": 121.74786469858533
     },
     "address": "http://www.lnqg.com.cn/",
     "province": "辽宁省",
@@ -29459,8 +29543,8 @@ export const universityList =
   {
     "name": "上海工商外国语职业学院",
     "location": {
-      "lat": 31.050963,
-      "lng": 121.787733
+      "lat": 31.053839106067795,
+      "lng": 121.78775143950048
     },
     "address": "https://www.sicfl.edu.cn/",
     "province": "上海市",
@@ -29475,8 +29559,8 @@ export const universityList =
   {
     "name": "云南体育运动职业技术学院",
     "location": {
-      "lat": 24.970356,
-      "lng": 102.689526
+      "lat": 24.970355854674697,
+      "lng": 102.68952583878321
     },
     "address": "http://www.ynasc.com/",
     "province": "云南省",
@@ -29491,8 +29575,8 @@ export const universityList =
   {
     "name": "西安财经大学(长安校区)",
     "location": {
-      "lat": 34.120783,
-      "lng": 108.941603
+      "lat": 34.117369853785185,
+      "lng": 108.94205064854286
     },
     "address": "陕西省西安市长安区常宁大街360号",
     "province": "陕西省",
@@ -29507,8 +29591,8 @@ export const universityList =
   {
     "name": "天津交通职业学院",
     "location": {
-      "lat": 39.154957,
-      "lng": 117.083147
+      "lat": 39.1549567766893,
+      "lng": 117.08314708027167
     },
     "address": "http://www.tjtvc.com/",
     "province": "天津市",
@@ -29523,8 +29607,8 @@ export const universityList =
   {
     "name": "淮南师范学院(泉山校区)",
     "location": {
-      "lat": 32.619575,
-      "lng": 116.966616
+      "lat": 32.61959920038159,
+      "lng": 116.95412938868989
     },
     "address": "淮南市田家庵区洞山西路",
     "province": "安徽省",
@@ -29539,8 +29623,8 @@ export const universityList =
   {
     "name": "四川传媒学院(郫都校区东区)",
     "location": {
-      "lat": 30.829425,
-      "lng": 103.991601
+      "lat": 30.82804371908195,
+      "lng": 103.9880217932775
     },
     "address": "四川省成都市郫都区团结街道学院街67号",
     "province": "四川省",
@@ -29555,8 +29639,8 @@ export const universityList =
   {
     "name": "陕西科技大学(西安校区)",
     "location": {
-      "lat": 34.383906,
-      "lng": 108.983631
+      "lat": 34.30395190312289,
+      "lng": 108.9545991680423
     },
     "address": "陕西省西安市未央区未央大学园区",
     "province": "陕西省",
@@ -29571,8 +29655,8 @@ export const universityList =
   {
     "name": "海南卫生健康职业学院(秀华校区)",
     "location": {
-      "lat": 20.014587,
-      "lng": 110.296149
+      "lat": 20.01372746858582,
+      "lng": 110.29626164216685
     },
     "address": "海口市秀英区秀华路32号",
     "province": "海南省",
@@ -29587,8 +29671,8 @@ export const universityList =
   {
     "name": "广州工程技术职业学院",
     "location": {
-      "lat": 23.140971,
-      "lng": 113.30665
+      "lat": 23.130088720961737,
+      "lng": 113.29305894791082
     },
     "address": "http://www.gzvtc.cn/wechatNews/default.aspx",
     "province": "广东省",
@@ -29603,8 +29687,8 @@ export const universityList =
   {
     "name": "西安建筑科技大学(雁塔校区)",
     "location": {
-      "lat": 34.243736,
-      "lng": 108.973163
+      "lat": 34.26532506764366,
+      "lng": 108.97209932717382
     },
     "address": "陕西省西安市碑林区雁塔路中段13号",
     "province": "陕西省",
@@ -29619,8 +29703,8 @@ export const universityList =
   {
     "name": "陇桥学院",
     "location": {
-      "lat": 36.009958,
-      "lng": 103.969786
+      "lat": 36.009897799208304,
+      "lng": 103.96935105223591
     },
     "address": "甘肃省兰州市榆中县薇乐大道221",
     "province": "甘肃省",
@@ -29633,8 +29717,8 @@ export const universityList =
   {
     "name": "四川旅游学院",
     "location": {
-      "lat": 30.586842,
-      "lng": 104.285414
+      "lat": 30.586841710198186,
+      "lng": 104.28541418659694
     },
     "address": "http://www.sctu.edu.cn/",
     "province": "四川省",
@@ -29649,8 +29733,8 @@ export const universityList =
   {
     "name": "郑州工业安全职业学院",
     "location": {
-      "lat": 34.537572,
-      "lng": 113.689637
+      "lat": 34.537571968182725,
+      "lng": 113.68963703998256
     },
     "address": "http://www.zazy.cn/",
     "province": "河南省",
@@ -29665,8 +29749,8 @@ export const universityList =
   {
     "name": "武汉学院",
     "location": {
-      "lat": 30.447796,
-      "lng": 114.302535
+      "lat": 30.44779593438311,
+      "lng": 114.30253498943298
     },
     "address": "http://www.whxy.edu.cn/",
     "province": "湖北省",
@@ -29681,8 +29765,8 @@ export const universityList =
   {
     "name": "杭州万向职业技术学院",
     "location": {
-      "lat": 30.259624,
-      "lng": 120.081673
+      "lat": 30.25996489361719,
+      "lng": 120.09897615703161
     },
     "address": "http://www.wxpoly.cn/",
     "province": "浙江省",
@@ -29697,8 +29781,8 @@ export const universityList =
   {
     "name": "兰州现代职业学院",
     "location": {
-      "lat": 36.55006,
-      "lng": 103.769527
+      "lat": 36.55005963898925,
+      "lng": 103.76952730340777
     },
     "address": "http://www.lzmvc.com/",
     "province": "甘肃省",
@@ -29713,8 +29797,8 @@ export const universityList =
   {
     "name": "广东生态工程职业学院",
     "location": {
-      "lat": 23.199196,
-      "lng": 113.38339
+      "lat": 23.093147189364366,
+      "lng": 113.35839989407403
     },
     "address": "http://www.gdsty.cn/gdstyb/index.html",
     "province": "广东省",
@@ -29729,13 +29813,17 @@ export const universityList =
   {
     "name": "厦门市",
     "num": 8,
-    "index": 1889
+    "index": 1889,
+    "location": {
+      "lat": 24.52718536229384,
+      "lng": 118.13488333490308
+    }
   },
   {
     "name": "江苏航空职业技术学院",
     "location": {
-      "lat": 32.149143,
-      "lng": 119.725991
+      "lat": 32.149142711355395,
+      "lng": 119.72599081606423
     },
     "address": "http://www.jatc.edu.cn/",
     "province": "江苏省",
@@ -29750,8 +29838,8 @@ export const universityList =
   {
     "name": "北京师范大学-香港浸会大学联合国际学院",
     "location": {
-      "lat": 22.356223,
-      "lng": 113.527687
+      "lat": 22.35622298213887,
+      "lng": 113.5276865555095
     },
     "address": "http://uic.edu.hk/cn/",
     "province": "广东省",
@@ -29766,8 +29854,8 @@ export const universityList =
   {
     "name": "桂林博文管理学院",
     "location": {
-      "lat": 25.070005,
-      "lng": 110.300051
+      "lat": 25.068124147006685,
+      "lng": 110.3025652315894
     },
     "address": "广西壮族自治区桂林市雁山区雁山街317号",
     "province": "广西壮族自治区",
@@ -29782,8 +29870,8 @@ export const universityList =
   {
     "name": "山西应用科技学院(新校区)",
     "location": {
-      "lat": 37.62989,
-      "lng": 112.58387
+      "lat": 37.613006522924714,
+      "lng": 112.40703185147792
     },
     "address": "山西省太原市小店区榆古路东1号",
     "province": "山西省",
@@ -29798,8 +29886,8 @@ export const universityList =
   {
     "name": "南方科技大学",
     "location": {
-      "lat": 22.603944,
-      "lng": 114.005913
+      "lat": 22.603944106278686,
+      "lng": 114.00591260884875
     },
     "address": "http://www.sustc.edu.cn/",
     "province": "广东省",
@@ -29814,8 +29902,8 @@ export const universityList =
   {
     "name": "辽宁对外经贸学院",
     "location": {
-      "lat": 38.825543,
-      "lng": 121.162903
+      "lat": 38.82554334444997,
+      "lng": 121.16290270303696
     },
     "address": "http://www.luibe.edu.cn/",
     "province": "辽宁省",
@@ -29830,8 +29918,8 @@ export const universityList =
   {
     "name": "山东医学高等专科学校",
     "location": {
-      "lat": 36.618139,
-      "lng": 116.997464
+      "lat": 36.61813854655436,
+      "lng": 116.99746409564398
     },
     "address": "http://www.sdmc.edu.cn/",
     "province": "山东省",
@@ -29846,8 +29934,8 @@ export const universityList =
   {
     "name": "内蒙古科技大学",
     "location": {
-      "lat": 40.626366,
-      "lng": 109.839293
+      "lat": 40.62636600432158,
+      "lng": 109.83929301394976
     },
     "address": "http://www.imust.cn/",
     "province": "内蒙古自治区",
@@ -29862,8 +29950,8 @@ export const universityList =
   {
     "name": "新疆艺术学院(团结路校区)",
     "location": {
-      "lat": 43.776865,
-      "lng": 87.634354
+      "lat": 43.77758488584562,
+      "lng": 87.63538515918567
     },
     "address": "乌鲁木齐市天山区团结路734号",
     "province": "新疆维吾尔自治区",
@@ -29878,8 +29966,8 @@ export const universityList =
   {
     "name": "绵阳飞行职业学院",
     "location": {
-      "lat": 31.595183,
-      "lng": 104.468206
+      "lat": 31.595183086318,
+      "lng": 104.4682064222781
     },
     "address": null,
     "province": "四川省",
@@ -29893,8 +29981,8 @@ export const universityList =
   {
     "name": "兰州交通大学博文学院",
     "location": {
-      "lat": 36.013947,
-      "lng": 103.971558
+      "lat": 36.0139472163895,
+      "lng": 103.97155791938228
     },
     "address": "http://www.bowenedu.cn/w/Default.htm",
     "province": "甘肃省",
@@ -29909,8 +29997,8 @@ export const universityList =
   {
     "name": "浙江特殊教育职业学院",
     "location": {
-      "lat": 30.21088,
-      "lng": 120.021164
+      "lat": 30.21088033708177,
+      "lng": 120.02116376596017
     },
     "address": "http://www.zjtjxy.net/",
     "province": "浙江省",
@@ -29925,8 +30013,8 @@ export const universityList =
   {
     "name": "上海欧华职业技术学院(西北门)",
     "location": {
-      "lat": 30.879263,
-      "lng": 121.703521
+      "lat": 30.879323598882095,
+      "lng": 121.70355056913371
     },
     "address": "上海市奉贤区五四公路3389号",
     "province": "上海市",
@@ -29940,8 +30028,8 @@ export const universityList =
   {
     "name": "长春理工大学光电信息学院(新校区)",
     "location": {
-      "lat": 44.00766,
-      "lng": 125.158243
+      "lat": 44.006920764335504,
+      "lng": 125.16120447368502
     },
     "address": "吉林省长春市宽城区学理路333号",
     "province": "吉林省",
@@ -29956,8 +30044,8 @@ export const universityList =
   {
     "name": "湖南工业职业技术学院",
     "location": {
-      "lat": 28.144765,
-      "lng": 112.91673
+      "lat": 28.144765009350927,
+      "lng": 112.91673002412907
     },
     "address": "http://www.hunangy.com/",
     "province": "湖南省",
@@ -29972,8 +30060,8 @@ export const universityList =
   {
     "name": "广州理工学院",
     "location": {
-      "lat": 23.265073,
-      "lng": 113.46344
+      "lat": 23.26507299591147,
+      "lng": 113.46344001494877
     },
     "address": "http://www.thxy.cn/index.htm",
     "province": "广东省",
@@ -29988,8 +30076,8 @@ export const universityList =
   {
     "name": "云南工程职业学院",
     "location": {
-      "lat": 24.901366,
-      "lng": 102.445452
+      "lat": 24.90136601736554,
+      "lng": 102.44545200976694
     },
     "address": "http://www.ynenc.cn/",
     "province": "云南省",
@@ -30004,8 +30092,8 @@ export const universityList =
   {
     "name": "山西财贸职业技术学院",
     "location": {
-      "lat": 37.781756,
-      "lng": 112.66294
+      "lat": 37.80178873464957,
+      "lng": 112.58997832621516
     },
     "address": "http://www.sxcmvc.com/",
     "province": "山西省",
@@ -30019,8 +30107,8 @@ export const universityList =
   {
     "name": "山东外国语职业技术大学",
     "location": {
-      "lat": 35.476368,
-      "lng": 119.538395
+      "lat": 35.47636790929859,
+      "lng": 119.53839453234625
     },
     "address": "http://www.sdflc.com/",
     "province": "山东省",
@@ -30035,8 +30123,8 @@ export const universityList =
   {
     "name": "安徽工贸职业技术学院",
     "location": {
-      "lat": 32.646196,
-      "lng": 117.004746
+      "lat": 32.64619613532175,
+      "lng": 117.00474602959953
     },
     "address": "http://www.ahgmedu.cn/",
     "province": "安徽省",
@@ -30051,8 +30139,8 @@ export const universityList =
   {
     "name": "四川汽车职业技术学院",
     "location": {
-      "lat": 31.437648,
-      "lng": 104.649941
+      "lat": 31.43764842636865,
+      "lng": 104.64994090322128
     },
     "address": "http://www.scavtc.com/",
     "province": "四川省",
@@ -30067,8 +30155,8 @@ export const universityList =
   {
     "name": "山东铝业职业学院(威海校区)",
     "location": {
-      "lat": 37.00864,
-      "lng": 121.941231
+      "lat": 37.00631393713583,
+      "lng": 121.94137659357818
     },
     "address": "山东省威海市文登区大学路1号",
     "province": "山东省",
@@ -30083,8 +30171,8 @@ export const universityList =
   {
     "name": "浙江科技学院（小和山校区）",
     "location": {
-      "lat": 30.22612,
-      "lng": 120.03169
+      "lat": 30.22455992806737,
+      "lng": 120.03861002676109
     },
     "address": "浙江省杭州市西湖区留和路318号",
     "province": "浙江省",
@@ -30099,8 +30187,8 @@ export const universityList =
   {
     "name": "四川艺术职业学院",
     "location": {
-      "lat": 30.757429,
-      "lng": 103.79629
+      "lat": 30.75742875331141,
+      "lng": 103.79628998048322
     },
     "address": "http://www.scapi.cn/",
     "province": "四川省",
@@ -30115,8 +30203,8 @@ export const universityList =
   {
     "name": "江苏科技大学苏州理工学院",
     "location": {
-      "lat": 31.900236,
-      "lng": 120.576862
+      "lat": 31.90023643066147,
+      "lng": 120.57686229172386
     },
     "address": "http://szlg.just.edu.cn/",
     "province": "江苏省",
@@ -30131,8 +30219,8 @@ export const universityList =
   {
     "name": "湖北工程职业学院(新校区)",
     "location": {
-      "lat": 30.149288,
-      "lng": 115.125244
+      "lat": 30.142450294928732,
+      "lng": 115.08085221549327
     },
     "address": "湖北省黄石市大冶市汪仁镇大棋大道东366号",
     "province": "湖北省",
@@ -30146,8 +30234,8 @@ export const universityList =
   {
     "name": "广西职业技术学院",
     "location": {
-      "lat": 22.585037,
-      "lng": 108.243233
+      "lat": 22.866403469583343,
+      "lng": 108.26669036006227
     },
     "address": "http://www.gxzjy.com/",
     "province": "广西壮族自治区",
@@ -30162,8 +30250,8 @@ export const universityList =
   {
     "name": "新疆农业大学(老满城校区)",
     "location": {
-      "lat": 43.819605,
-      "lng": 87.57342
+      "lat": 43.81854525618509,
+      "lng": 87.57301041779485
     },
     "address": "新疆维吾尔自治区乌鲁木齐市沙依巴克区农大东路311号",
     "province": "新疆维吾尔自治区",
@@ -30177,8 +30265,8 @@ export const universityList =
   {
     "name": "武汉信息传播职业技术学院",
     "location": {
-      "lat": 30.409907,
-      "lng": 114.38052
+      "lat": 30.40990698904417,
+      "lng": 114.38052003482345
     },
     "address": "http://www.whinfo.cn/",
     "province": "湖北省",
@@ -30193,8 +30281,8 @@ export const universityList =
   {
     "name": "井冈山大学",
     "location": {
-      "lat": 27.117775,
-      "lng": 115.038877
+      "lat": 26.753709741565643,
+      "lng": 114.29555585942124
     },
     "address": "http://www.jgsu.edu.cn/",
     "province": "江西省",
@@ -30209,8 +30297,8 @@ export const universityList =
   {
     "name": "重庆安全技术职业学院",
     "location": {
-      "lat": 30.763148,
-      "lng": 108.458721
+      "lat": 30.763147802891773,
+      "lng": 108.4587208722907
     },
     "address": "http://www.cqvist.net/?WebShieldDRSessionVerify=UE890QsvVTpWEq1ARy16",
     "province": "重庆市",
@@ -30225,8 +30313,8 @@ export const universityList =
   {
     "name": "河南财经政法大学(郑东校区)",
     "location": {
-      "lat": 34.785329,
-      "lng": 113.825366
+      "lat": 34.79114898572253,
+      "lng": 113.82479671582769
     },
     "address": "河南省郑州市金水区博学路街道明理路社区金水东路180号",
     "province": "河南省",
@@ -30241,8 +30329,8 @@ export const universityList =
   {
     "name": "山东工程职业技术大学",
     "location": {
-      "lat": 36.672134,
-      "lng": 117.514656
+      "lat": 37.19890280336583,
+      "lng": 117.12663360085693
     },
     "address": "http://www.sdkevin.edu.cn/",
     "province": "山东省",
@@ -30257,8 +30345,8 @@ export const universityList =
   {
     "name": "黄山学院(率水校区)",
     "location": {
-      "lat": 29.698243,
-      "lng": 118.300557
+      "lat": 29.700223630018286,
+      "lng": 118.30380995549028
     },
     "address": "安徽省黄山市屯溪区西海路39号",
     "province": "安徽省",
@@ -30273,8 +30361,8 @@ export const universityList =
   {
     "name": "昆明医科大学",
     "location": {
-      "lat": 24.851662,
-      "lng": 102.832969
+      "lat": 25.055501089483638,
+      "lng": 102.71827134560137
     },
     "address": "https://www.kmmc.cn/",
     "province": "云南省",
@@ -30289,8 +30377,8 @@ export const universityList =
   {
     "name": "玉柴职业技术学院",
     "location": {
-      "lat": 22.579804,
-      "lng": 110.145332
+      "lat": 22.57980393503853,
+      "lng": 110.14533176399115
     },
     "address": "",
     "province": "广西壮族自治区",
@@ -30305,8 +30393,8 @@ export const universityList =
   {
     "name": "中山职业技术学院",
     "location": {
-      "lat": 22.518834,
-      "lng": 113.438593
+      "lat": 22.510247992317467,
+      "lng": 113.38372725859728
     },
     "address": "http://www.zspt.cn/",
     "province": "广东省",
@@ -30321,8 +30409,8 @@ export const universityList =
   {
     "name": "西北大学现代学院",
     "location": {
-      "lat": 34.054827,
-      "lng": 108.801496
+      "lat": 34.05482668180349,
+      "lng": 108.80149610912699
     },
     "address": "http://www.xdxd.cn/",
     "province": "陕西省",
@@ -30337,8 +30425,8 @@ export const universityList =
   {
     "name": "四川电子机械职业技术学院",
     "location": {
-      "lat": 31.385384,
-      "lng": 104.846267
+      "lat": 31.38538360789639,
+      "lng": 104.84626691988521
     },
     "address": "http://www.scemvtc.com/zz/",
     "province": "四川省",
@@ -30353,8 +30441,8 @@ export const universityList =
   {
     "name": "大连工业大学",
     "location": {
-      "lat": 38.979392,
-      "lng": 121.53422
+      "lat": 38.965826414938,
+      "lng": 121.37965367174237
     },
     "address": "http://www.dlpu.edu.cn/",
     "province": "辽宁省",
@@ -30369,8 +30457,8 @@ export const universityList =
   {
     "name": "泉州职业技术大学(晋江校区)",
     "location": {
-      "lat": 24.785163,
-      "lng": 118.475259
+      "lat": 24.788264570007758,
+      "lng": 118.47074584123749
     },
     "address": "福建省泉州市晋江市内坑镇大学路1号",
     "province": "福建省",
@@ -30385,8 +30473,8 @@ export const universityList =
   {
     "name": "浙江建设职业技术学院",
     "location": {
-      "lat": 30.252249,
-      "lng": 120.305158
+      "lat": 30.25224886490086,
+      "lng": 120.30515820208994
     },
     "address": "http://www.zjjy.net/",
     "province": "浙江省",
@@ -30401,8 +30489,8 @@ export const universityList =
   {
     "name": "杭州电子科技大学(下沙校区)",
     "location": {
-      "lat": 30.320093,
-      "lng": 120.350212
+      "lat": 30.31728731338519,
+      "lng": 120.35360085383486
     },
     "address": "浙江省杭州市钱塘区2号大街1158号",
     "province": "浙江省",
@@ -30417,13 +30505,17 @@ export const universityList =
   {
     "name": "新乡市",
     "num": 8,
-    "index": 1933
+    "index": 1933,
+    "location": {
+      "lat": 35.19656440899276,
+      "lng": 113.81159378076424
+    }
   },
   {
     "name": "宣城职业技术学院",
     "location": {
-      "lat": 30.914896,
-      "lng": 118.736205
+      "lat": 30.914895760843223,
+      "lng": 118.7362051966805
     },
     "address": "",
     "province": "安徽省",
@@ -30438,8 +30530,8 @@ export const universityList =
   {
     "name": "同济大学",
     "location": {
-      "lat": 31.289045,
-      "lng": 121.508483
+      "lat": 31.235929042252014,
+      "lng": 121.48053886017651
     },
     "address": "https://www.tongji.edu.cn/",
     "province": "上海市",
@@ -30454,8 +30546,8 @@ export const universityList =
   {
     "name": "鞍山师范学院",
     "location": {
-      "lat": 41.082871,
-      "lng": 123.002236
+      "lat": 41.082870765251556,
+      "lng": 123.00223596525025
     },
     "address": "http://www.asnc.edu.cn/",
     "province": "辽宁省",
@@ -30470,8 +30562,8 @@ export const universityList =
   {
     "name": "上海电机学院(临港校区)",
     "location": {
-      "lat": 30.894216,
-      "lng": 121.891945
+      "lat": 30.898302125473336,
+      "lng": 121.88928286891849
     },
     "address": "上海市浦东新区南汇新城镇水华路300号",
     "province": "上海市",
@@ -30486,8 +30578,8 @@ export const universityList =
   {
     "name": "山东水利职业学院",
     "location": {
-      "lat": 35.46152,
-      "lng": 119.558246
+      "lat": 35.461519925063435,
+      "lng": 119.55824600615014
     },
     "address": "http://www.sdwrp.com/",
     "province": "山东省",
@@ -30502,8 +30594,8 @@ export const universityList =
   {
     "name": "河北外国语学院(新校区)",
     "location": {
-      "lat": 37.905745,
-      "lng": 114.473544
+      "lat": 37.905744758092595,
+      "lng": 114.47354370258702
     },
     "address": "河北省石家庄市元氏县马村镇红旗北大街1218号",
     "province": "河北省",
@@ -30518,8 +30610,8 @@ export const universityList =
   {
     "name": "贵州电力职业技术学院",
     "location": {
-      "lat": 26.552452,
-      "lng": 106.440132
+      "lat": 26.557112210936722,
+      "lng": 106.69973078492764
     },
     "address": "",
     "province": "贵州省",
@@ -30533,8 +30625,8 @@ export const universityList =
   {
     "name": "河南水利与环境职业学院",
     "location": {
-      "lat": 34.806365,
-      "lng": 113.685408
+      "lat": 34.38634036821276,
+      "lng": 113.83647549593236
     },
     "address": "http://www.hnshxy.cn/",
     "province": "河南省",
@@ -30549,8 +30641,8 @@ export const universityList =
   {
     "name": "驻马店职业技术学院",
     "location": {
-      "lat": 33.009701,
-      "lng": 114.007756
+      "lat": 33.009700871505586,
+      "lng": 114.00775630582538
     },
     "address": "http://www.zmdvtc.cn/",
     "province": "河南省",
@@ -30565,8 +30657,8 @@ export const universityList =
   {
     "name": "上海对外经贸大学(松江校区)",
     "location": {
-      "lat": 31.052547,
-      "lng": 121.223889
+      "lat": 31.05588460372402,
+      "lng": 121.22155190198626
     },
     "address": "上海市松江区文翔路1900号",
     "province": "上海市",
@@ -30581,8 +30673,8 @@ export const universityList =
   {
     "name": "深圳大学(粤海校区)",
     "location": {
-      "lat": 22.537872,
-      "lng": 113.942618
+      "lat": 22.534150032621675,
+      "lng": 113.93686184059166
     },
     "address": "广东省深圳市南山区南海大道3688号",
     "province": "广东省",
@@ -30597,8 +30689,8 @@ export const universityList =
   {
     "name": "山东师范大学(千佛山校区)",
     "location": {
-      "lat": 36.657743,
-      "lng": 117.048375
+      "lat": 36.66089062323206,
+      "lng": 117.04835606719242
     },
     "address": "山东省济南市历下区文化东路88号",
     "province": "山东省",
@@ -30613,8 +30705,8 @@ export const universityList =
   {
     "name": "贵州民族大学人文科技学院",
     "location": {
-      "lat": 26.375758,
-      "lng": 106.640385
+      "lat": 26.46136499215892,
+      "lng": 106.68150290850849
     },
     "address": "http://www.gzmdrw.cn/rw/welcome",
     "province": "贵州省",
@@ -30629,13 +30721,17 @@ export const universityList =
   {
     "name": "齐齐哈尔市",
     "num": 8,
-    "index": 1947
+    "index": 1947,
+    "location": {
+      "lat": 47.3599771860153,
+      "lng": 123.92457086841536
+    }
   },
   {
     "name": "江西环境工程职业学院(东江源校区)",
     "location": {
-      "lat": 25.889649,
-      "lng": 114.921123
+      "lat": 25.934317277617684,
+      "lng": 114.92634491035278
     },
     "address": "江西省赣州市章贡区105国道",
     "province": "江西省",
@@ -30650,8 +30746,8 @@ export const universityList =
   {
     "name": "华北科技学院",
     "location": {
-      "lat": 39.962737,
-      "lng": 116.810463
+      "lat": 39.96578928808116,
+      "lng": 116.80945486088306
     },
     "address": "http://www.ncist.edu.cn/",
     "province": "河北省",
@@ -30666,8 +30762,8 @@ export const universityList =
   {
     "name": "安徽医学高等专科学校(芙蓉路校区)",
     "location": {
-      "lat": 31.793678,
-      "lng": 117.233068
+      "lat": 31.79167504358662,
+      "lng": 117.2323055898621
     },
     "address": "合肥市蜀山区芙蓉路632号",
     "province": "安徽省",
@@ -30682,8 +30778,8 @@ export const universityList =
   {
     "name": "武汉外语外事职业学院(江夏校区)",
     "location": {
-      "lat": 30.39956,
-      "lng": 114.435366
+      "lat": 30.394849782540245,
+      "lng": 114.42469950827913
     },
     "address": "湖北省武汉市江夏区栗庙路6号",
     "province": "湖北省",
@@ -30698,8 +30794,8 @@ export const universityList =
   {
     "name": "哈密职业技术学院",
     "location": {
-      "lat": 42.844486,
-      "lng": 93.495811
+      "lat": 42.84448561006669,
+      "lng": 93.49581101131012
     },
     "address": "http://www.hmzyedu.cn/home/index.html",
     "province": "新疆维吾尔自治区",
@@ -30714,8 +30810,8 @@ export const universityList =
   {
     "name": "成都航空职业技术学院",
     "location": {
-      "lat": 30.534462,
-      "lng": 104.246157
+      "lat": 30.534462016012707,
+      "lng": 104.24615661886098
     },
     "address": "http://www.cap.edu.cn/campus/sy_new/",
     "province": "四川省",
@@ -30730,8 +30826,8 @@ export const universityList =
   {
     "name": "湖南涉外经济学院",
     "location": {
-      "lat": 28.207866,
-      "lng": 112.882351
+      "lat": 28.203245503421446,
+      "lng": 112.886958023605
     },
     "address": "http://www.hieu.edu.cn/",
     "province": "湖南省",
@@ -30746,8 +30842,8 @@ export const universityList =
   {
     "name": "贵州护理职业技术学院花溪校区",
     "location": {
-      "lat": 26.472984,
-      "lng": 106.675257
+      "lat": 26.472977889720124,
+      "lng": 106.67517443602334
     },
     "address": "贵州省贵阳市花溪区大职路338号",
     "province": "贵州省",
@@ -30761,8 +30857,8 @@ export const universityList =
   {
     "name": "湖南工程学院(主校区)",
     "location": {
-      "lat": 27.853052,
-      "lng": 112.939517
+      "lat": 27.85076588265614,
+      "lng": 112.93937702467254
     },
     "address": "湘潭市岳塘区福星东路88号",
     "province": "湖南省",
@@ -30777,8 +30873,8 @@ export const universityList =
   {
     "name": "安徽工业职业技术学院(天井湖校区)",
     "location": {
-      "lat": 30.939963,
-      "lng": 117.805824
+      "lat": 30.941154949113688,
+      "lng": 117.8061334479365
     },
     "address": "安徽省铜陵市铜官区长江西路274号",
     "province": "安徽省",
@@ -30793,8 +30889,8 @@ export const universityList =
   {
     "name": "商洛学院",
     "location": {
-      "lat": 33.870036,
-      "lng": 109.963058
+      "lat": 33.87003563512474,
+      "lng": 109.96305813355357
     },
     "address": "http://www.slxy.cn/",
     "province": "陕西省",
@@ -30809,8 +30905,8 @@ export const universityList =
   {
     "name": "泰州职业技术学院",
     "location": {
-      "lat": 32.380772,
-      "lng": 119.900585
+      "lat": 32.38077256492615,
+      "lng": 119.90058529532243
     },
     "address": "http://www.tzpc.edu.cn/",
     "province": "江苏省",
@@ -30825,8 +30921,8 @@ export const universityList =
   {
     "name": "建东职业技术学院",
     "location": {
-      "lat": 31.87348,
-      "lng": 119.985998
+      "lat": 31.87347956346793,
+      "lng": 119.98599780016106
     },
     "address": "http://www.czjdu.com/",
     "province": "江苏省",
@@ -30841,8 +30937,8 @@ export const universityList =
   {
     "name": "青岛大学(浮山校区)",
     "location": {
-      "lat": 36.077594,
-      "lng": 120.429451
+      "lat": 36.12553376708195,
+      "lng": 120.45255459559199
     },
     "address": "青岛市崂山区宁夏路308号",
     "province": "山东省",
@@ -30857,8 +30953,8 @@ export const universityList =
   {
     "name": "陕西交通职业技术学院",
     "location": {
-      "lat": 34.330812,
-      "lng": 108.946187
+      "lat": 34.330812340344096,
+      "lng": 108.94618743524686
     },
     "address": "http://www.scct.cn/",
     "province": "陕西省",
@@ -30873,8 +30969,8 @@ export const universityList =
   {
     "name": "广西演艺职业学院",
     "location": {
-      "lat": 22.579655,
-      "lng": 108.246182
+      "lat": 22.57965451798908,
+      "lng": 108.24618186561516
     },
     "address": "http://www.gxart.cn/",
     "province": "广西壮族自治区",
@@ -30889,8 +30985,8 @@ export const universityList =
   {
     "name": "安徽黄梅戏艺术职业学院",
     "location": {
-      "lat": 30.625987,
-      "lng": 116.989956
+      "lat": 30.625986864820643,
+      "lng": 116.98995596836103
     },
     "address": "http://www.ahmxx.cn/",
     "province": "安徽省",
@@ -30905,8 +31001,8 @@ export const universityList =
   {
     "name": "广东工贸职业技术学院(白云校区)",
     "location": {
-      "lat": 23.404849,
-      "lng": 113.46729
+      "lat": 23.406173631752903,
+      "lng": 113.46382197445148
     },
     "address": "广东省广州市白云区钟落潭镇马沥社区广从九路980号",
     "province": "广东省",
@@ -30921,8 +31017,8 @@ export const universityList =
   {
     "name": "河北建筑工程学院(朝阳校区)",
     "location": {
-      "lat": 40.761555,
-      "lng": 114.90381
+      "lat": 40.76583782226271,
+      "lng": 114.90351098747719
     },
     "address": "河北省张家口市桥东区朝阳西大街13号",
     "province": "河北省",
@@ -30937,8 +31033,8 @@ export const universityList =
   {
     "name": "甘肃交通职业技术学院",
     "location": {
-      "lat": 36.545672,
-      "lng": 103.742693
+      "lat": 36.54567220425698,
+      "lng": 103.74269258223039
     },
     "address": "http://www.gsjtxy.edu.cn/default.html",
     "province": "甘肃省",
@@ -30952,8 +31048,8 @@ export const universityList =
   {
     "name": "淮北师范大学",
     "location": {
-      "lat": 33.989397,
-      "lng": 116.81761
+      "lat": 33.98939725642715,
+      "lng": 116.8176097681332
     },
     "address": "http://www.chnu.edu.cn/",
     "province": "安徽省",
@@ -30968,8 +31064,8 @@ export const universityList =
   {
     "name": "新疆能源职业技术学院(古城新街)",
     "location": {
-      "lat": 43.374621,
-      "lng": 88.312259
+      "lat": 43.374491437644565,
+      "lng": 88.312522462774
     },
     "address": "乌鲁木齐市达坂城区洛宾路8号",
     "province": "新疆维吾尔自治区",
@@ -30983,8 +31079,8 @@ export const universityList =
   {
     "name": "潍坊护理职业学院",
     "location": {
-      "lat": 36.621725,
-      "lng": 118.495489
+      "lat": 36.62172491983031,
+      "lng": 118.49548896408824
     },
     "address": "http://www.wfhlxy.com/",
     "province": "山东省",
@@ -30999,8 +31095,8 @@ export const universityList =
   {
     "name": "西安思源学院",
     "location": {
-      "lat": 34.24114,
-      "lng": 109.086615
+      "lat": 34.241140494627714,
+      "lng": 109.0866145949414
     },
     "address": "http://www.xasyu.cn/",
     "province": "陕西省",
@@ -31015,13 +31111,17 @@ export const universityList =
   {
     "name": "泰州市",
     "num": 8,
-    "index": 1972
+    "index": 1972,
+    "location": {
+      "lat": 32.4606750493083,
+      "lng": 119.9295663378548
+    }
   },
   {
     "name": "陕西理工大学",
     "location": {
-      "lat": 33.075625,
-      "lng": 107.059138
+      "lat": 33.07562489461092,
+      "lng": 107.0591382504462
     },
     "address": "https://www.snut.edu.cn/",
     "province": "陕西省",
@@ -31036,8 +31136,8 @@ export const universityList =
   {
     "name": "福州黎明职业技术学院",
     "location": {
-      "lat": 25.912993,
-      "lng": 119.186194
+      "lat": 25.912992506464658,
+      "lng": 119.18619434747066
     },
     "address": "http://www.fzlmxy.cn/",
     "province": "福建省",
@@ -31052,8 +31152,8 @@ export const universityList =
   {
     "name": "武汉音乐学院(解放路校区)",
     "location": {
-      "lat": 30.543769,
-      "lng": 114.301969
+      "lat": 30.543597883442526,
+      "lng": 114.3041518495204
     },
     "address": "湖北省武汉市武昌区解放路255号",
     "province": "湖北省",
@@ -31068,8 +31168,8 @@ export const universityList =
   {
     "name": "南宁学院",
     "location": {
-      "lat": 22.755926,
-      "lng": 108.459619
+      "lat": 22.755926461135214,
+      "lng": 108.4596194343765
     },
     "address": "http://www.nnxy.cn/",
     "province": "广西壮族自治区",
@@ -31084,8 +31184,8 @@ export const universityList =
   {
     "name": "中南民族大学",
     "location": {
-      "lat": 30.491874,
-      "lng": 114.399395
+      "lat": 30.491873572320124,
+      "lng": 114.39939549969077
     },
     "address": "http://www.scuec.edu.cn/s/1/t/560/main.htm",
     "province": "湖北省",
@@ -31100,8 +31200,8 @@ export const universityList =
   {
     "name": "延安大学西安创新学院",
     "location": {
-      "lat": 34.157534,
-      "lng": 108.943357
+      "lat": 34.15753394969197,
+      "lng": 108.94335723390712
     },
     "address": "http://www.xacxxy.com/",
     "province": "陕西省",
@@ -31116,8 +31216,8 @@ export const universityList =
   {
     "name": "齐鲁理工学院(济南校区)",
     "location": {
-      "lat": 36.684553,
-      "lng": 117.549807
+      "lat": 36.68171978686861,
+      "lng": 117.55065230666004
     },
     "address": "山东省济南市章丘区双山街道经十东路3028号",
     "province": "山东省",
@@ -31132,8 +31232,8 @@ export const universityList =
   {
     "name": "上海出版印刷高等专科学校(水丰路校区)",
     "location": {
-      "lat": 31.289409,
-      "lng": 121.549229
+      "lat": 31.289171029888532,
+      "lng": 121.54878133315852
     },
     "address": "上海市杨浦区水丰路100号",
     "province": "上海市",
@@ -31148,8 +31248,8 @@ export const universityList =
   {
     "name": "苏州工艺美术职业技术学院",
     "location": {
-      "lat": 31.236873,
-      "lng": 120.592312
+      "lat": 31.236872855844798,
+      "lng": 120.5923119786983
     },
     "address": "http://www.sgmart.com/",
     "province": "江苏省",
@@ -31164,8 +31264,8 @@ export const universityList =
   {
     "name": "广西工程职业学院",
     "location": {
-      "lat": 23.32066,
-      "lng": 107.611647
+      "lat": 23.32066037027111,
+      "lng": 107.61164679087769
     },
     "address": "http://www.gxgcedu.com/",
     "province": "广西壮族自治区",
@@ -31180,8 +31280,8 @@ export const universityList =
   {
     "name": "江西泰豪动漫职业学院",
     "location": {
-      "lat": 28.578962,
-      "lng": 115.883315
+      "lat": 28.57896233063042,
+      "lng": 115.88331471049648
     },
     "address": "",
     "province": "江西省",
@@ -31195,8 +31295,8 @@ export const universityList =
   {
     "name": "武汉船舶职业技术学院",
     "location": {
-      "lat": 30.573939,
-      "lng": 114.242147
+      "lat": 30.57393860686774,
+      "lng": 114.24214685067747
     },
     "address": "http://www.wspc.edu.cn/",
     "province": "湖北省",
@@ -31211,8 +31311,8 @@ export const universityList =
   {
     "name": "湖南安全技术职业学院",
     "location": {
-      "lat": 28.276451,
-      "lng": 113.0644
+      "lat": 28.27645098410831,
+      "lng": 113.06440004144069
     },
     "address": "http://www.hnvist.cn/",
     "province": "湖南省",
@@ -31227,8 +31327,8 @@ export const universityList =
   {
     "name": "湖北体育职业学院",
     "location": {
-      "lat": 30.495571,
-      "lng": 114.457058
+      "lat": 30.495570888241534,
+      "lng": 114.4570578202068
     },
     "address": "http://www.hbtyzy.com/",
     "province": "湖北省",
@@ -31243,8 +31343,8 @@ export const universityList =
   {
     "name": "邯郸科技职业学院",
     "location": {
-      "lat": 36.460492,
-      "lng": 114.428306
+      "lat": 36.460492486382115,
+      "lng": 114.42830557608784
     },
     "address": null,
     "province": "河北省",
@@ -31259,8 +31359,8 @@ export const universityList =
   {
     "name": "哈尔滨金融学院",
     "location": {
-      "lat": 45.72812,
-      "lng": 126.742766
+      "lat": 45.72812002346903,
+      "lng": 126.74276644485923
     },
     "address": "http://www.hrbfu.edu.cn/",
     "province": "黑龙江省",
@@ -31275,8 +31375,8 @@ export const universityList =
   {
     "name": "西安科技大学(南院)",
     "location": {
-      "lat": 34.229439,
-      "lng": 108.966654
+      "lat": 34.23092770784062,
+      "lng": 108.96666709409389
     },
     "address": "陕西省西安市雁塔区雁塔北路南段98号",
     "province": "陕西省",
@@ -31291,8 +31391,8 @@ export const universityList =
   {
     "name": "大庆师范学院",
     "location": {
-      "lat": 46.64656,
-      "lng": 124.867593
+      "lat": 46.68117769899154,
+      "lng": 124.8732843429389
     },
     "address": "http://www.dqsy.net/",
     "province": "黑龙江省",
@@ -31307,8 +31407,8 @@ export const universityList =
   {
     "name": "四平职业大学",
     "location": {
-      "lat": 43.097427,
-      "lng": 124.438102
+      "lat": 43.14581363049538,
+      "lng": 124.34491201100427
     },
     "address": "http://www.jlsppc.cn/",
     "province": "吉林省",
@@ -31322,8 +31422,8 @@ export const universityList =
   {
     "name": "长江大学文理学院(新校区)",
     "location": {
-      "lat": 30.338887,
-      "lng": 112.201469
+      "lat": 30.338886829384048,
+      "lng": 112.20146900840764
     },
     "address": "湖北省荆州市荆州区学苑路33号",
     "province": "湖北省",
@@ -31336,8 +31436,8 @@ export const universityList =
   {
     "name": "湖北城市建设职业技术学院",
     "location": {
-      "lat": 30.407743,
-      "lng": 114.443373
+      "lat": 30.407742943668886,
+      "lng": 114.4433730340678
     },
     "address": "http://www.hbucvc.edu.cn/",
     "province": "湖北省",
@@ -31352,8 +31452,8 @@ export const universityList =
   {
     "name": "青岛大学琴岛学院",
     "location": {
-      "lat": 36.313194,
-      "lng": 120.511203
+      "lat": 36.31241833723856,
+      "lng": 120.51213722379673
     },
     "address": "山东省青岛市城阳区铁骑山路79号",
     "province": "山东省",
@@ -31368,8 +31468,8 @@ export const universityList =
   {
     "name": "广西扶绥凤之翔农牧有限责任公司",
     "location": {
-      "lat": 22.607921,
-      "lng": 107.915483
+      "lat": 22.626954714982087,
+      "lng": 107.90980256412102
     },
     "address": "崇左市扶绥县空港大道广西中远职业学院南侧约270米",
     "province": "广西壮族自治区",
@@ -31382,8 +31482,8 @@ export const universityList =
   {
     "name": "扬州大学广陵学院",
     "location": {
-      "lat": 32.314966,
-      "lng": 119.411037
+      "lat": 32.40066115971978,
+      "lng": 119.43850484607827
     },
     "address": "http://glxy.yzu.edu.cn/",
     "province": "江苏省",
@@ -31398,8 +31498,8 @@ export const universityList =
   {
     "name": "广东茂名幼儿师范专科学校(茂名校区)",
     "location": {
-      "lat": 21.655698,
-      "lng": 110.843902
+      "lat": 21.655697973229742,
+      "lng": 110.84390200800294
     },
     "address": "茂名市西城西路6号",
     "province": "广东省",
@@ -31414,8 +31514,8 @@ export const universityList =
   {
     "name": "滇西科技师范学院",
     "location": {
-      "lat": 23.893918,
-      "lng": 100.082537
+      "lat": 23.893918048166537,
+      "lng": 100.08253698014653
     },
     "address": "http://www.wynu.edu.cn/",
     "province": "云南省",
@@ -31430,8 +31530,8 @@ export const universityList =
   {
     "name": "重庆城市职业学院",
     "location": {
-      "lat": 29.331594,
-      "lng": 105.948712
+      "lat": 29.33159399129339,
+      "lng": 105.94871198559706
     },
     "address": "http://www.cqcvc.com.cn/",
     "province": "重庆市",
@@ -31446,8 +31546,8 @@ export const universityList =
   {
     "name": "东营科技职业学院(新校区)",
     "location": {
-      "lat": 37.06428,
-      "lng": 118.456712
+      "lat": 37.06415348975068,
+      "lng": 118.45672726099379
     },
     "address": "山东省东营市广饶县迎宾路361号",
     "province": "山东省",
@@ -31462,8 +31562,8 @@ export const universityList =
   {
     "name": "商丘学院",
     "location": {
-      "lat": 34.41189,
-      "lng": 115.726796
+      "lat": 34.39326587717129,
+      "lng": 115.71270890273178
     },
     "address": "http://www.sqxy.edu.cn/Index.html",
     "province": "河南省",
@@ -31478,8 +31578,8 @@ export const universityList =
   {
     "name": "重庆科技大学(虎溪校区)",
     "location": {
-      "lat": 29.596567,
-      "lng": 106.330207
+      "lat": 29.593846495068554,
+      "lng": 106.32544406889157
     },
     "address": "重庆市沙坪坝区大学城东路20号",
     "province": "重庆市",
@@ -31494,8 +31594,8 @@ export const universityList =
   {
     "name": "集美大学",
     "location": {
-      "lat": 24.587821,
-      "lng": 118.101123
+      "lat": 24.58848001575901,
+      "lng": 118.10102898499028
     },
     "address": "http://www.jmu.edu.cn/",
     "province": "福建省",
@@ -31510,8 +31610,8 @@ export const universityList =
   {
     "name": "汝州职业技术学院",
     "location": {
-      "lat": 34.246583,
-      "lng": 112.884376
+      "lat": 34.246102063934785,
+      "lng": 112.88571505264918
     },
     "address": null,
     "province": "河南省",
@@ -31525,8 +31625,8 @@ export const universityList =
   {
     "name": "毕节幼儿师范高等专科学校",
     "location": {
-      "lat": 27.217113,
-      "lng": 105.438016
+      "lat": 27.217112857372868,
+      "lng": 105.43801649994928
     },
     "address": "http://www.gzbjyz.com/",
     "province": "贵州省",
@@ -31541,8 +31641,8 @@ export const universityList =
   {
     "name": "中国美术学院(南山校区)",
     "location": {
-      "lat": 30.249116,
-      "lng": 120.167077
+      "lat": 30.24962721927281,
+      "lng": 120.16645363304133
     },
     "address": "浙江省杭州市上城区南山路218号",
     "province": "浙江省",
@@ -31557,13 +31657,17 @@ export const universityList =
   {
     "name": "肇庆市",
     "num": 8,
-    "index": 2007
+    "index": 2007,
+    "location": {
+      "lat": 23.070830692451647,
+      "lng": 112.51880502741959
+    }
   },
   {
     "name": "安徽工商职业学院",
     "location": {
-      "lat": 31.965614,
-      "lng": 117.266626
+      "lat": 31.96561436347701,
+      "lng": 117.266625711193
     },
     "address": "http://www.ahbvc.cn/",
     "province": "安徽省",
@@ -31578,8 +31682,8 @@ export const universityList =
   {
     "name": "韩山师范学院",
     "location": {
-      "lat": 23.66189,
-      "lng": 116.672606
+      "lat": 23.66130914135626,
+      "lng": 116.67285168228503
     },
     "address": "https://www.hstc.edu.cn/",
     "province": "广东省",
@@ -31594,8 +31698,8 @@ export const universityList =
   {
     "name": "重庆理工职业学院",
     "location": {
-      "lat": 29.358619,
-      "lng": 106.62018
+      "lat": 29.35861867016045,
+      "lng": 106.62018035238175
     },
     "address": null,
     "province": "重庆市",
@@ -31609,8 +31713,8 @@ export const universityList =
   {
     "name": "肇庆医学院(端州校区)",
     "location": {
-      "lat": 23.051364,
-      "lng": 112.45848
+      "lat": 23.0521820476199,
+      "lng": 112.4585532514604
     },
     "address": "广东省肇庆市端州区西江南路6号",
     "province": "广东省",
@@ -31625,8 +31729,8 @@ export const universityList =
   {
     "name": "湖北健康职业学院",
     "location": {
-      "lat": 29.991062,
-      "lng": 114.357243
+      "lat": 29.991062059399727,
+      "lng": 114.35724321741546
     },
     "address": null,
     "province": "湖北省",
@@ -31640,8 +31744,8 @@ export const universityList =
   {
     "name": "甘肃钢铁职业技术学院",
     "location": {
-      "lat": 39.778416,
-      "lng": 98.318947
+      "lat": 39.79104417139286,
+      "lng": 98.29332827723313
     },
     "address": "http://www.ggzy.edu.cn/gt/default.html",
     "province": "甘肃省",
@@ -31656,8 +31760,8 @@ export const universityList =
   {
     "name": "武昌首义学院",
     "location": {
-      "lat": 30.493248,
-      "lng": 114.313311
+      "lat": 30.49324795571091,
+      "lng": 114.31331106233067
     },
     "address": "http://www.wsyu.edu.cn/",
     "province": "湖北省",
@@ -31672,8 +31776,8 @@ export const universityList =
   {
     "name": "太原幼儿师范高等专科学校(徐沟校区)",
     "location": {
-      "lat": 37.568426,
-      "lng": 112.503224
+      "lat": 37.613066838238375,
+      "lng": 112.36455763137184
     },
     "address": "山西省太原市清徐县914县道南50米",
     "province": "山西省",
@@ -31688,8 +31792,8 @@ export const universityList =
   {
     "name": "云南新兴职业学院",
     "location": {
-      "lat": 24.984711,
-      "lng": 102.861029
+      "lat": 24.98471127477734,
+      "lng": 102.8610293385555
     },
     "address": "http://www.ynxzy.com/",
     "province": "云南省",
@@ -31704,8 +31808,8 @@ export const universityList =
   {
     "name": "四川外国语大学",
     "location": {
-      "lat": 29.576542,
-      "lng": 106.442919
+      "lat": 29.576541664029268,
+      "lng": 106.44291898378408
     },
     "address": "http://www.sisu.edu.cn/sisu2013/",
     "province": "重庆市",
@@ -31720,8 +31824,8 @@ export const universityList =
   {
     "name": "四川文轩职业学院",
     "location": {
-      "lat": 30.611806,
-      "lng": 103.555453
+      "lat": 30.6118056353915,
+      "lng": 103.55545283596933
     },
     "address": "http://www.scwxzyxy.cn/",
     "province": "四川省",
@@ -31736,8 +31840,8 @@ export const universityList =
   {
     "name": "四川现代职业学院",
     "location": {
-      "lat": 30.52289,
-      "lng": 104.004664
+      "lat": 30.52288974972989,
+      "lng": 104.00466380115535
     },
     "address": "http://www.scmvc.cn/SiteHtml/",
     "province": "四川省",
@@ -31752,8 +31856,8 @@ export const universityList =
   {
     "name": "浙大城市学院(南校区)",
     "location": {
-      "lat": 30.328663,
-      "lng": 120.161952
+      "lat": 30.32668105184112,
+      "lng": 120.15995484182939
     },
     "address": "杭州市拱墅区湖州街51号",
     "province": "浙江省",
@@ -31768,8 +31872,8 @@ export const universityList =
   {
     "name": "绵阳职业技术学院",
     "location": {
-      "lat": 31.496395,
-      "lng": 104.794585
+      "lat": 31.615940959181184,
+      "lng": 104.49071301767785
     },
     "address": "http://www.myvtc.edu.cn/",
     "province": "四川省",
@@ -31784,8 +31888,8 @@ export const universityList =
   {
     "name": "河北医科大学",
     "location": {
-      "lat": 38.051666,
-      "lng": 114.541653
+      "lat": 38.019403228144746,
+      "lng": 114.55576668388191
     },
     "address": "http://www.hebmu.edu.cn/",
     "province": "河北省",
@@ -31800,8 +31904,8 @@ export const universityList =
   {
     "name": "广州医科大学(越秀校区)",
     "location": {
-      "lat": 23.140113,
-      "lng": 113.261982
+      "lat": 23.139192933774428,
+      "lng": 113.26162795677149
     },
     "address": "广州市越秀区东风西路195号",
     "province": "广东省",
@@ -31816,8 +31920,8 @@ export const universityList =
   {
     "name": "三峡大学",
     "location": {
-      "lat": 30.72842,
-      "lng": 111.322117
+      "lat": 30.728420146660028,
+      "lng": 111.32211711587637
     },
     "address": "http://www.ctgu.edu.cn/",
     "province": "湖北省",
@@ -31832,8 +31936,8 @@ export const universityList =
   {
     "name": "山东女子学院(长清大学科技园校区)",
     "location": {
-      "lat": 36.561651,
-      "lng": 116.8308
+      "lat": 36.56184756861522,
+      "lng": 116.83045356065375
     },
     "address": "济南市长清区大学科技园大学路2399号",
     "province": "山东省",
@@ -31848,8 +31952,8 @@ export const universityList =
   {
     "name": "四川科技职业学院(天府东校区)",
     "location": {
-      "lat": 30.239892,
-      "lng": 104.106928
+      "lat": 30.238604132051286,
+      "lng": 104.10754960579075
     },
     "address": "四川省眉山市仁寿县视高街道花海大道大学路1号",
     "province": "四川省",
@@ -31864,8 +31968,8 @@ export const universityList =
   {
     "name": "潍坊科技学院",
     "location": {
-      "lat": 36.890667,
-      "lng": 118.781755
+      "lat": 36.890666610614865,
+      "lng": 118.7817553046833
     },
     "address": "http://www.wfust.edu.cn/",
     "province": "山东省",
@@ -31880,8 +31984,8 @@ export const universityList =
   {
     "name": "罗定职业技术学院(东校区)",
     "location": {
-      "lat": 22.77598,
-      "lng": 111.566048
+      "lat": 22.774296060762723,
+      "lng": 111.57648048166133
     },
     "address": "广东省云浮市罗定市西门岗5号",
     "province": "广东省",
@@ -31896,8 +32000,8 @@ export const universityList =
   {
     "name": "北海职业学院",
     "location": {
-      "lat": 21.452291,
-      "lng": 109.103279
+      "lat": 21.452290994633437,
+      "lng": 109.10327895749799
     },
     "address": "http://www.bhzyxy.net/",
     "province": "广西壮族自治区",
@@ -31912,8 +32016,8 @@ export const universityList =
   {
     "name": "襄阳汽车职业技术学院",
     "location": {
-      "lat": 31.958622,
-      "lng": 112.096686
+      "lat": 32.02669004189473,
+      "lng": 112.1741469564911
     },
     "address": "http://www.xyqczy.com/",
     "province": "湖北省",
@@ -31928,8 +32032,8 @@ export const universityList =
   {
     "name": "吉林科技职业技术学院",
     "location": {
-      "lat": 43.873603,
-      "lng": 125.520768
+      "lat": 43.83680825640664,
+      "lng": 125.37521040041302
     },
     "address": "",
     "province": "吉林省",
@@ -31944,8 +32048,8 @@ export const universityList =
   {
     "name": "佳木斯职业学院",
     "location": {
-      "lat": 46.797352,
-      "lng": 130.329872
+      "lat": 46.797352320685846,
+      "lng": 130.32987219206774
     },
     "address": "http://www.jmszy.org.cn/",
     "province": "黑龙江省",
@@ -31960,8 +32064,8 @@ export const universityList =
   {
     "name": "湖南科技大学",
     "location": {
-      "lat": 27.910548,
-      "lng": 112.925998
+      "lat": 27.910547983229513,
+      "lng": 112.92599802173355
     },
     "address": "http://www.hnust.edu.cn/",
     "province": "湖南省",
@@ -31976,8 +32080,8 @@ export const universityList =
   {
     "name": "安徽涉外经济职业学院国际学院-东北门",
     "location": {
-      "lat": 31.777328,
-      "lng": 117.219733
+      "lat": 31.938156219078216,
+      "lng": 117.39979285558645
     },
     "address": "安徽省合肥市肥西县合安路218号",
     "province": "安徽省",
@@ -31991,8 +32095,8 @@ export const universityList =
   {
     "name": "广东信息工程职业学院",
     "location": {
-      "lat": 23.35462,
-      "lng": 112.832232
+      "lat": 23.354620264956058,
+      "lng": 112.83223172483585
     },
     "address": "http://www.xxgcxy.cn/main.shtml",
     "province": "广东省",
@@ -32007,8 +32111,8 @@ export const universityList =
   {
     "name": "贵州大学-科技学院",
     "location": {
-      "lat": 26.627696,
-      "lng": 106.720938
+      "lat": 26.624217187489233,
+      "lng": 106.72126855782774
     },
     "address": "贵阳市云岩区南垭路小石城·北湖北侧约280米",
     "province": "贵州省",
@@ -32021,8 +32125,8 @@ export const universityList =
   {
     "name": "潍坊环境工程职业学院",
     "location": {
-      "lat": 36.875421,
-      "lng": 119.423515
+      "lat": 36.875420959923666,
+      "lng": 119.42351500169435
     },
     "address": null,
     "province": "山东省",
@@ -32037,8 +32141,8 @@ export const universityList =
   {
     "name": "喀什大学",
     "location": {
-      "lat": 39.484197,
-      "lng": 76.009331
+      "lat": 39.484196726932964,
+      "lng": 76.00933109642145
     },
     "address": "http://www.ksu.edu.cn/",
     "province": "新疆维吾尔自治区",
@@ -32053,8 +32157,8 @@ export const universityList =
   {
     "name": "福建农林大学",
     "location": {
-      "lat": 26.088571,
-      "lng": 119.243461
+      "lat": 26.088570996833834,
+      "lng": 119.24346096439064
     },
     "address": "http://www.fafu.edu.cn/",
     "province": "福建省",
@@ -32069,8 +32173,8 @@ export const universityList =
   {
     "name": "陕西学前师范学院(长安校区)",
     "location": {
-      "lat": 34.135166,
-      "lng": 108.940875
+      "lat": 34.13516575363166,
+      "lng": 108.94087494629139
     },
     "address": "西安市长安区神禾二路101号",
     "province": "陕西省",
@@ -32085,8 +32189,8 @@ export const universityList =
   {
     "name": "内蒙古农业大学(新校区)",
     "location": {
-      "lat": 40.812759,
-      "lng": 111.725903
+      "lat": 40.80891623497334,
+      "lng": 111.72272624958109
     },
     "address": "内蒙古自治区呼和浩特市赛罕区乌兰察布东路街道鄂尔多斯东街发展小区对面",
     "province": "内蒙古自治区",
@@ -32100,8 +32204,8 @@ export const universityList =
   {
     "name": "青岛农业大学(城阳校区)",
     "location": {
-      "lat": 36.327029,
-      "lng": 120.404108
+      "lat": 36.3255267998112,
+      "lng": 120.4084039577432
     },
     "address": "山东省青岛市城阳区长城路700号",
     "province": "山东省",
@@ -32116,8 +32220,8 @@ export const universityList =
   {
     "name": "安徽国际商务职业学院(新校区)",
     "location": {
-      "lat": 31.990983,
-      "lng": 117.276349
+      "lat": 31.991289237802548,
+      "lng": 117.28868521994043
     },
     "address": "安徽省合肥市长丰县魏武路1号",
     "province": "安徽省",
@@ -32132,8 +32236,8 @@ export const universityList =
   {
     "name": "长江大学(荆州校区)",
     "location": {
-      "lat": 30.339948,
-      "lng": 112.221609
+      "lat": 30.59089381514615,
+      "lng": 112.08784755462248
     },
     "address": "荆州市荆州区南环路1号",
     "province": "湖北省",
@@ -32148,13 +32252,17 @@ export const universityList =
   {
     "name": "芜湖市",
     "num": 8,
-    "index": 2045
+    "index": 2045,
+    "location": {
+      "lat": 31.358536655799266,
+      "lng": 118.43943137653523
+    }
   },
   {
     "name": "辽宁理工学院",
     "location": {
-      "lat": 41.087832,
-      "lng": 121.129831
+      "lat": 41.08796084792203,
+      "lng": 121.12552995992203
     },
     "address": "http://www.lise.edu.cn/",
     "province": "辽宁省",
@@ -32169,8 +32277,8 @@ export const universityList =
   {
     "name": "武汉城市学院",
     "location": {
-      "lat": 30.592144,
-      "lng": 114.433983
+      "lat": 30.557868805169253,
+      "lng": 114.42000496368398
     },
     "address": "湖北省武汉市东湖生态旅游风景区黄家大湾1号",
     "province": "湖北省",
@@ -32185,8 +32293,8 @@ export const universityList =
   {
     "name": "四川农业大学(成都校区)",
     "location": {
-      "lat": 30.711426,
-      "lng": 103.868398
+      "lat": 30.711034190189142,
+      "lng": 103.86801751952174
     },
     "address": "四川省成都市温江区惠民路211号",
     "province": "四川省",
@@ -32201,8 +32309,8 @@ export const universityList =
   {
     "name": "上海纽约大学(前滩校园)",
     "location": {
-      "lat": 31.154689,
-      "lng": 121.488023
+      "lat": 31.1544064665384,
+      "lng": 121.48771614154013
     },
     "address": "上海市浦东新区杨思西路567号",
     "province": "上海市",
@@ -32217,8 +32325,8 @@ export const universityList =
   {
     "name": "黑龙江司法警官职业学院",
     "location": {
-      "lat": 45.653093,
-      "lng": 126.627655
+      "lat": 45.65309341562949,
+      "lng": 126.62765524121562
     },
     "address": "http://www.hljsfjy.org.cn/",
     "province": "黑龙江省",
@@ -32233,8 +32341,8 @@ export const universityList =
   {
     "name": "贵州电子科技职业学院",
     "location": {
-      "lat": 26.367735,
-      "lng": 106.503865
+      "lat": 26.367734579454698,
+      "lng": 106.5038645210884
     },
     "address": "",
     "province": "贵州省",
@@ -32249,8 +32357,8 @@ export const universityList =
   {
     "name": "和田职业技术学院",
     "location": {
-      "lat": 37.128225,
-      "lng": 79.977024
+      "lat": 37.12822533613143,
+      "lng": 79.97702409495307
     },
     "address": null,
     "province": "新疆维吾尔自治区",
@@ -32264,8 +32372,8 @@ export const universityList =
   {
     "name": "鄂东职业技术学院学生公寓-12号楼",
     "location": {
-      "lat": 30.460403,
-      "lng": 114.932267
+      "lat": 30.45623070789187,
+      "lng": 114.93270304197384
     },
     "address": "黄冈市黄州区闻一多路黄冈师范学院(北校区)",
     "province": "湖北省",
@@ -32279,8 +32387,8 @@ export const universityList =
   {
     "name": "电子科技大学中山学院",
     "location": {
-      "lat": 22.533684,
-      "lng": 113.396955
+      "lat": 22.533683688105015,
+      "lng": 113.3969552563801
     },
     "address": "http://www.zsc.edu.cn/",
     "province": "广东省",
@@ -32295,8 +32403,8 @@ export const universityList =
   {
     "name": "昆明卫生职业学院",
     "location": {
-      "lat": 24.654939,
-      "lng": 102.631699
+      "lat": 25.083033589148556,
+      "lng": 102.64149371267222
     },
     "address": "http://www.kmhpc.net/",
     "province": "云南省",
@@ -32311,8 +32419,8 @@ export const universityList =
   {
     "name": "吕梁职业技术学院",
     "location": {
-      "lat": 37.125556,
-      "lng": 111.773904
+      "lat": 37.123684916709685,
+      "lng": 111.77843197086584
     },
     "address": "http://www.llzy.net/",
     "province": "山西省",
@@ -32327,8 +32435,8 @@ export const universityList =
   {
     "name": "湖南食品药品职业学院",
     "location": {
-      "lat": 28.127898,
-      "lng": 112.897078
+      "lat": 28.127898420893356,
+      "lng": 112.89707806398542
     },
     "address": "http://www.hnyzy.cn/CL0001/",
     "province": "湖南省",
@@ -32343,8 +32451,8 @@ export const universityList =
   {
     "name": "河南推拿职业学院",
     "location": {
-      "lat": 34.625288,
-      "lng": 112.432112
+      "lat": 34.62528796398478,
+      "lng": 112.43211200233321
     },
     "address": "http://www.hnzjschool.com/",
     "province": "河南省",
@@ -32359,8 +32467,8 @@ export const universityList =
   {
     "name": "广西医科大学",
     "location": {
-      "lat": 22.803457,
-      "lng": 108.357299
+      "lat": 23.173067938942566,
+      "lng": 108.25238232956517
     },
     "address": "http://www.gxmu.edu.cn/",
     "province": "广西壮族自治区",
@@ -32375,8 +32483,8 @@ export const universityList =
   {
     "name": "广州科技贸易职业学院(番禺校区)",
     "location": {
-      "lat": 23.006346,
-      "lng": 113.397855
+      "lat": 23.008090334210728,
+      "lng": 113.3975876634589
     },
     "address": "广东省广州市番禺区南村镇市新路北段669号",
     "province": "广东省",
@@ -32391,8 +32499,8 @@ export const universityList =
   {
     "name": "吉林工程技术师范学院",
     "location": {
-      "lat": 43.94523,
-      "lng": 125.326859
+      "lat": 43.91907530009255,
+      "lng": 125.40193094696009
     },
     "address": "http://www.jltiet.edu.cn/",
     "province": "吉林省",
@@ -32407,8 +32515,8 @@ export const universityList =
   {
     "name": "广州商学院",
     "location": {
-      "lat": 23.309277,
-      "lng": 113.575414
+      "lat": 23.309277385976486,
+      "lng": 113.57541388656108
     },
     "address": "http://www.gzcc.cn/",
     "province": "广东省",
@@ -32423,8 +32531,8 @@ export const universityList =
   {
     "name": "内蒙古艺术学院",
     "location": {
-      "lat": 40.836565,
-      "lng": 111.706747
+      "lat": 40.83656465079206,
+      "lng": 111.70674656235573
     },
     "address": "http://www.imac.edu.cn/",
     "province": "内蒙古自治区",
@@ -32439,8 +32547,8 @@ export const universityList =
   {
     "name": "贵州工贸职业学院",
     "location": {
-      "lat": 26.879734,
-      "lng": 104.236575
+      "lat": 26.879733770706824,
+      "lng": 104.23657519094017
     },
     "address": "http://www.gzgmzyxy.com/",
     "province": "贵州省",
@@ -32455,8 +32563,8 @@ export const universityList =
   {
     "name": "山东中医药大学(长清校区)",
     "location": {
-      "lat": 36.565775,
-      "lng": 116.807872
+      "lat": 36.567348020278885,
+      "lng": 116.80997363231508
     },
     "address": "山东省济南市长清区大学路4655号",
     "province": "山东省",
@@ -32471,8 +32579,8 @@ export const universityList =
   {
     "name": "常州纺织服装职业技术学院",
     "location": {
-      "lat": 31.689912,
-      "lng": 119.946147
+      "lat": 31.68991197883609,
+      "lng": 119.94614717112742
     },
     "address": "http://www.cztgi.edu.cn/",
     "province": "江苏省",
@@ -32486,8 +32594,8 @@ export const universityList =
   {
     "name": "广西职业师范学院(相思湖校区)",
     "location": {
-      "lat": 22.837907,
-      "lng": 108.24385
+      "lat": 22.836700011123913,
+      "lng": 108.24274431992124
     },
     "address": "广西壮族自治区南宁市西乡塘区大学东路105号",
     "province": "广西壮族自治区",
@@ -32502,8 +32610,8 @@ export const universityList =
   {
     "name": "定西师范高等专科学校",
     "location": {
-      "lat": 35.566323,
-      "lng": 104.599968
+      "lat": 35.56659789733449,
+      "lng": 104.60008701352017
     },
     "address": "http://www.dxatc.edu.cn/",
     "province": "甘肃省",
@@ -32518,8 +32626,8 @@ export const universityList =
   {
     "name": "惠州经济职业技术学院",
     "location": {
-      "lat": 23.083391,
-      "lng": 114.479765
+      "lat": 23.083391273741015,
+      "lng": 114.4797652618141
     },
     "address": "http://www.hzcollege.com/",
     "province": "广东省",
@@ -32534,8 +32642,8 @@ export const universityList =
   {
     "name": "河北化工医药职业技术学院",
     "location": {
-      "lat": 37.995841,
-      "lng": 114.609718
+      "lat": 37.9958410711066,
+      "lng": 114.60971801450567
     },
     "address": "http://www.hebcpc.cn/",
     "province": "河北省",
@@ -32550,8 +32658,8 @@ export const universityList =
   {
     "name": "辽宁石油化工大学",
     "location": {
-      "lat": 41.863659,
-      "lng": 123.798166
+      "lat": 41.863659106379565,
+      "lng": 123.79816554880026
     },
     "address": "http://www.lnpu.edu.cn/",
     "province": "辽宁省",
@@ -32566,8 +32674,8 @@ export const universityList =
   {
     "name": "四川国际标榜职业学院",
     "location": {
-      "lat": 30.603869,
-      "lng": 104.305129
+      "lat": 30.603869394317687,
+      "lng": 104.30512902813277
     },
     "address": "http://www.polus.edu.cn/",
     "province": "四川省",
@@ -32582,13 +32690,17 @@ export const universityList =
   {
     "name": "绍兴市",
     "num": 8,
-    "index": 2073
+    "index": 2073,
+    "location": {
+      "lat": 30.057657361054257,
+      "lng": 120.59002264710614
+    }
   },
   {
     "name": "香港中文大学(深圳)",
     "location": {
-      "lat": 22.694207,
-      "lng": 114.219305
+      "lat": 22.69400520924654,
+      "lng": 114.21791558371115
     },
     "address": "广东省深圳市龙岗区龙翔大道2001号",
     "province": "广东省",
@@ -32603,8 +32715,8 @@ export const universityList =
   {
     "name": "江西冶金职业技术学院",
     "location": {
-      "lat": 27.789881,
-      "lng": 114.865028
+      "lat": 27.789881005294905,
+      "lng": 114.8650282830424
     },
     "address": "http://www.jxyjxy.com/",
     "province": "江西省",
@@ -32619,8 +32731,8 @@ export const universityList =
   {
     "name": "内蒙古丰州职业学院",
     "location": {
-      "lat": 40.807849,
-      "lng": 111.717271
+      "lat": 40.807849496637516,
+      "lng": 111.71727066055789
     },
     "address": "http://www.nmgfzzyxy.com/",
     "province": "内蒙古自治区",
@@ -32635,8 +32747,8 @@ export const universityList =
   {
     "name": "江西航空职业技术学院(昌南校区)",
     "location": {
-      "lat": 28.499855,
-      "lng": 115.939569
+      "lat": 28.53839146588786,
+      "lng": 115.93532316176893
     },
     "address": "江西省南昌市南昌县迎宾南大道872号",
     "province": "江西省",
@@ -32650,8 +32762,8 @@ export const universityList =
   {
     "name": "西安工商学院",
     "location": {
-      "lat": 34.534688,
-      "lng": 109.114764
+      "lat": 34.534688249040826,
+      "lng": 109.11476371674097
     },
     "address": "http://www.bxait.cn/",
     "province": "陕西省",
@@ -32666,8 +32778,8 @@ export const universityList =
   {
     "name": "上海海事大学(临港校区)",
     "location": {
-      "lat": 30.88028,
-      "lng": 121.911858
+      "lat": 30.88134056582654,
+      "lng": 121.9083387135322
     },
     "address": "上海市浦东新区南汇新城镇海港大道1550号",
     "province": "上海市",
@@ -32682,8 +32794,8 @@ export const universityList =
   {
     "name": "南京大学(鼓楼校区)",
     "location": {
-      "lat": 32.06143,
-      "lng": 118.786007
+      "lat": 32.06018849751858,
+      "lng": 118.78823226707135
     },
     "address": "江苏省南京市鼓楼区汉口路22号",
     "province": "江苏省",
@@ -32698,8 +32810,8 @@ export const universityList =
   {
     "name": "宁夏建设职业技术学院(新校区)",
     "location": {
-      "lat": 38.514453,
-      "lng": 106.14927
+      "lat": 38.51445268352685,
+      "lng": 106.14926984177437
     },
     "address": "银川市西夏区学院东路355号",
     "province": "宁夏回族自治区",
@@ -32714,8 +32826,8 @@ export const universityList =
   {
     "name": "永城职业学院",
     "location": {
-      "lat": 33.921948,
-      "lng": 116.464101
+      "lat": 33.92194800658853,
+      "lng": 116.46410067875819
     },
     "address": "http://www.ycvc.edu.cn/xbweb/jb/default.asp",
     "province": "河南省",
@@ -32730,8 +32842,8 @@ export const universityList =
   {
     "name": "浙江安防职业技术学院",
     "location": {
-      "lat": 27.974785,
-      "lng": 120.563624
+      "lat": 27.97478498948081,
+      "lng": 120.56362394650914
     },
     "address": "http://www.zjist.cn/",
     "province": "浙江省",
@@ -32746,8 +32858,8 @@ export const universityList =
   {
     "name": "广州现代信息工程职业技术学院",
     "location": {
-      "lat": 23.147968,
-      "lng": 113.446178
+      "lat": 23.147967879241286,
+      "lng": 113.44617790678308
     },
     "address": "http://www.gzmodern.cn/",
     "province": "广东省",
@@ -32762,8 +32874,8 @@ export const universityList =
   {
     "name": "福州职业技术学院",
     "location": {
-      "lat": 26.080417,
-      "lng": 119.16418
+      "lat": 26.080417008208762,
+      "lng": 119.16418002349766
     },
     "address": "http://www.fvti.cn/",
     "province": "福建省",
@@ -32778,8 +32890,8 @@ export const universityList =
   {
     "name": "河北女子职业技术学院",
     "location": {
-      "lat": 38.005325,
-      "lng": 114.454772
+      "lat": 38.01876304457812,
+      "lng": 114.46663402643482
     },
     "address": "http://www.hebnzxy.com/",
     "province": "河北省",
@@ -32794,8 +32906,8 @@ export const universityList =
   {
     "name": "云南民族大学(雨花校区)",
     "location": {
-      "lat": 24.844327,
-      "lng": 102.858319
+      "lat": 24.846547180314293,
+      "lng": 102.86258035284851
     },
     "address": "云南省昆明市呈贡区月华街2929号",
     "province": "云南省",
@@ -32810,8 +32922,8 @@ export const universityList =
   {
     "name": "贵州经贸职业技术学院",
     "location": {
-      "lat": 26.299955,
-      "lng": 107.449565
+      "lat": 26.29995474971448,
+      "lng": 107.44956489895205
     },
     "address": "",
     "province": "贵州省",
@@ -32825,8 +32937,8 @@ export const universityList =
   {
     "name": "贵州医科大学",
     "location": {
-      "lat": 26.604248,
-      "lng": 106.721792
+      "lat": 26.60424791206024,
+      "lng": 106.72179218010935
     },
     "address": "https://www.gmc.edu.cn/",
     "province": "贵州省",
@@ -32840,8 +32952,8 @@ export const universityList =
   {
     "name": "长江大学工程技术学院(新校区)",
     "location": {
-      "lat": 30.371176,
-      "lng": 112.083538
+      "lat": 30.370808572571157,
+      "lng": 112.06208837463221
     },
     "address": "湖北省荆州市荆州区太湖港管理区清刘路",
     "province": "湖北省",
@@ -32855,8 +32967,8 @@ export const universityList =
   {
     "name": "九江市职业技术学院",
     "location": {
-      "lat": 29.686579,
-      "lng": 115.999008
+      "lat": 29.686485231642298,
+      "lng": 116.00020464884108
     },
     "address": "江西省九江市濂溪区十里大道1188号",
     "province": "江西省",
@@ -32871,8 +32983,8 @@ export const universityList =
   {
     "name": "福建幼儿师范高等专科学校",
     "location": {
-      "lat": 26.036059,
-      "lng": 119.312999
+      "lat": 26.033531958236445,
+      "lng": 119.27108601474656
     },
     "address": "http://www.fj61.net/index.html",
     "province": "福建省",
@@ -32887,8 +32999,8 @@ export const universityList =
   {
     "name": "中国医科大学(沈北校区)",
     "location": {
-      "lat": 41.962089,
-      "lng": 123.489738
+      "lat": 41.96198833358041,
+      "lng": 123.48960209765038
     },
     "address": "辽宁省沈阳市沈北新区蒲河路77号",
     "province": "辽宁省",
@@ -32903,8 +33015,8 @@ export const universityList =
   {
     "name": "郑州师范学院(东校区)",
     "location": {
-      "lat": 34.867701,
-      "lng": 113.662977
+      "lat": 34.86670335735756,
+      "lng": 113.67618527429283
     },
     "address": "郑州市惠济区北大学城英才街16号",
     "province": "河南省",
@@ -32919,8 +33031,8 @@ export const universityList =
   {
     "name": "云南交通职业技术学院(呈贡校区)",
     "location": {
-      "lat": 24.842069,
-      "lng": 102.866297
+      "lat": 24.841975955732966,
+      "lng": 102.86646175129474
     },
     "address": "云南省昆明市呈贡区万青路2056号",
     "province": "云南省",
@@ -32935,8 +33047,8 @@ export const universityList =
   {
     "name": "贵州警察学院",
     "location": {
-      "lat": 26.556605,
-      "lng": 106.782894
+      "lat": 26.55660516811556,
+      "lng": 106.78289366325015
     },
     "address": "http://www.gzjgxy.cn/",
     "province": "贵州省",
@@ -32951,8 +33063,8 @@ export const universityList =
   {
     "name": "江苏护理职业学院",
     "location": {
-      "lat": 33.541581,
-      "lng": 119.054362
+      "lat": 33.5415810043415,
+      "lng": 119.05436237101583
     },
     "address": "http://www.jscn.edu.cn/",
     "province": "江苏省",
@@ -32967,13 +33079,17 @@ export const universityList =
   {
     "name": "赣州市",
     "num": 13,
-    "index": 2098
+    "index": 2098,
+    "location": {
+      "lat": 25.835176103497655,
+      "lng": 114.9405033729825
+    }
   },
   {
     "name": "云南大学滇池学院",
     "location": {
-      "lat": 24.978527,
-      "lng": 102.680504
+      "lat": 25.236585250403053,
+      "lng": 103.00995518696963
     },
     "address": "https://www.ynudcc.cn/",
     "province": "云南省",
@@ -32988,8 +33104,8 @@ export const universityList =
   {
     "name": "滇西应用技术大学",
     "location": {
-      "lat": 25.676653,
-      "lng": 100.301747
+      "lat": 25.67665290153167,
+      "lng": 100.30174714994365
     },
     "address": "http://www.wyuas.edu.cn/",
     "province": "云南省",
@@ -33004,8 +33120,8 @@ export const universityList =
   {
     "name": "四川文化传媒职业学院",
     "location": {
-      "lat": 30.619994,
-      "lng": 103.684267
+      "lat": 30.619994350584204,
+      "lng": 103.68426706135308
     },
     "address": "http://www.svccc.net/",
     "province": "四川省",
@@ -33020,8 +33136,8 @@ export const universityList =
   {
     "name": "四川电影电视学院(金牛校区)",
     "location": {
-      "lat": 30.727682,
-      "lng": 104.031038
+      "lat": 30.73020998188829,
+      "lng": 104.03282298397663
     },
     "address": "成都市金牛区华严路8号",
     "province": "四川省",
@@ -33036,8 +33152,8 @@ export const universityList =
   {
     "name": "重庆传媒职业学院",
     "location": {
-      "lat": 29.860057,
-      "lng": 106.079201
+      "lat": 29.86005680658301,
+      "lng": 106.07920101173052
     },
     "address": "http://www.cqcmxy.com/default.html",
     "province": "重庆市",
@@ -33052,8 +33168,8 @@ export const universityList =
   {
     "name": "豫章师范学院",
     "location": {
-      "lat": 28.671281,
-      "lng": 115.78278
+      "lat": 28.684788433370006,
+      "lng": 115.95798527802212
     },
     "address": "http://www.yuznu.edu.cn/html/index.html",
     "province": "江西省",
@@ -33068,8 +33184,8 @@ export const universityList =
   {
     "name": "泉州工程职业技术学院",
     "location": {
-      "lat": 24.971594,
-      "lng": 118.451997
+      "lat": 24.97159426803298,
+      "lng": 118.45199721711438
     },
     "address": "",
     "province": "福建省",
@@ -33083,8 +33199,8 @@ export const universityList =
   {
     "name": "湖南信息职业技术学院",
     "location": {
-      "lat": 28.347241,
-      "lng": 112.823848
+      "lat": 28.194396602403152,
+      "lng": 113.0231942287283
     },
     "address": "http://www.hniu.cn/",
     "province": "湖南省",
@@ -33099,8 +33215,8 @@ export const universityList =
   {
     "name": "广西交通职业技术学院(昆仑校区)",
     "location": {
-      "lat": 22.914925,
-      "lng": 108.497511
+      "lat": 22.87410596544046,
+      "lng": 108.39926531447058
     },
     "address": "南宁市兴宁区昆仑大道1258号",
     "province": "广西壮族自治区",
@@ -33115,8 +33231,8 @@ export const universityList =
   {
     "name": "浙江工业大学之江学院",
     "location": {
-      "lat": 30.099381,
-      "lng": 120.488265
+      "lat": 30.09938065096333,
+      "lng": 120.48826493453015
     },
     "address": "http://www.zjc.zjut.edu.cn/",
     "province": "浙江省",
@@ -33131,8 +33247,8 @@ export const universityList =
   {
     "name": "上海电子信息职业技术学院(奉贤校区)",
     "location": {
-      "lat": 30.931226,
-      "lng": 121.702789
+      "lat": 30.930387899303295,
+      "lng": 121.70021812518337
     },
     "address": "上海市奉贤区奉城镇瓦洪公路3098号",
     "province": "上海市",
@@ -33147,8 +33263,8 @@ export const universityList =
   {
     "name": "成都东软学院",
     "location": {
-      "lat": 30.894435,
-      "lng": 103.60298
+      "lat": 30.894435202132257,
+      "lng": 103.60298020423014
     },
     "address": "http://www.nsu.edu.cn/",
     "province": "四川省",
@@ -33163,8 +33279,8 @@ export const universityList =
   {
     "name": "泊头学院",
     "location": {
-      "lat": 38.082711,
-      "lng": 116.5776
+      "lat": 38.08074660994387,
+      "lng": 116.57677855243566
     },
     "address": "河北省沧州市泊头市解放西路150号",
     "province": "河北省",
@@ -33179,8 +33295,8 @@ export const universityList =
   {
     "name": "广东省青年职业学院",
     "location": {
-      "lat": 23.375125,
-      "lng": 113.435792
+      "lat": 23.37607612568818,
+      "lng": 113.42498355607931
     },
     "address": "广东省广州市白云区钟落潭镇障岗现龙街南101号",
     "province": "广东省",
@@ -33195,8 +33311,8 @@ export const universityList =
   {
     "name": "承德医学院",
     "location": {
-      "lat": 41.039134,
-      "lng": 117.963582
+      "lat": 41.03913360645933,
+      "lng": 117.96358179026467
     },
     "address": "http://www.cdmc.edu.cn/",
     "province": "河北省",
@@ -33211,8 +33327,8 @@ export const universityList =
   {
     "name": "黑龙江三江美术职业学院(哈尔滨校区)",
     "location": {
-      "lat": 45.857598,
-      "lng": 126.625737
+      "lat": 45.856355168252946,
+      "lng": 126.62432809726774
     },
     "address": "黑龙江省哈尔滨市松北区松浦村江北中环线与松浦大道路口西行700米",
     "province": "黑龙江省",
@@ -33227,8 +33343,8 @@ export const universityList =
   {
     "name": "重庆工业职业技术学院",
     "location": {
-      "lat": 29.778531,
-      "lng": 106.646335
+      "lat": 29.778530976572114,
+      "lng": 106.64633487661833
     },
     "address": "http://www.cqipc.net/",
     "province": "重庆市",
@@ -33243,8 +33359,8 @@ export const universityList =
   {
     "name": "武汉轻工大学(常青校区)",
     "location": {
-      "lat": 30.642287,
-      "lng": 114.244943
+      "lat": 30.64273821548612,
+      "lng": 114.24163319958687
     },
     "address": "武汉市东西湖区学府南路68号",
     "province": "湖北省",
@@ -33259,8 +33375,8 @@ export const universityList =
   {
     "name": "贵州机电职业技术学院",
     "location": {
-      "lat": 26.263552,
-      "lng": 107.584884
+      "lat": 26.263552110955825,
+      "lng": 107.58488366465829
     },
     "address": null,
     "province": "贵州省",
@@ -33274,8 +33390,8 @@ export const universityList =
   {
     "name": "铜川职业技术学院",
     "location": {
-      "lat": 34.891461,
-      "lng": 108.939729
+      "lat": 34.89146117070226,
+      "lng": 108.93972879829121
     },
     "address": "http://www.tczyxy.net/",
     "province": "陕西省",
@@ -33290,8 +33406,8 @@ export const universityList =
   {
     "name": "重庆智能工程职业学院",
     "location": {
-      "lat": 29.298042,
-      "lng": 105.971231
+      "lat": 29.298042037697094,
+      "lng": 105.97123106743595
     },
     "address": null,
     "province": "重庆市",
@@ -33306,8 +33422,8 @@ export const universityList =
   {
     "name": "吉林财经大学",
     "location": {
-      "lat": 43.825567,
-      "lng": 125.440222
+      "lat": 43.88218097313332,
+      "lng": 125.37475774426656
     },
     "address": "http://www.jlufe.edu.cn/",
     "province": "吉林省",
@@ -33322,8 +33438,8 @@ export const universityList =
   {
     "name": "大理农林职业技术学院",
     "location": {
-      "lat": 25.704178,
-      "lng": 100.157135
+      "lat": 25.704177888112305,
+      "lng": 100.15713496458699
     },
     "address": "http://www.dlvtcaf.cn/",
     "province": "云南省",
@@ -33338,8 +33454,8 @@ export const universityList =
   {
     "name": "苏州高博软件技术职业学院",
     "location": {
-      "lat": 31.326822,
-      "lng": 120.424515
+      "lat": 31.326821913120256,
+      "lng": 120.42451497723411
     },
     "address": "http://www.gist.edu.cn/",
     "province": "江苏省",
@@ -33354,8 +33470,8 @@ export const universityList =
   {
     "name": "西安工程大学(金花校区)",
     "location": {
-      "lat": 34.263925,
-      "lng": 109.006408
+      "lat": 34.26354873152763,
+      "lng": 109.00281598578201
     },
     "address": "西安市新城区金花南路19号",
     "province": "陕西省",
@@ -33370,8 +33486,8 @@ export const universityList =
   {
     "name": "浙大宁波理工学院",
     "location": {
-      "lat": 29.821473,
-      "lng": 121.580964
+      "lat": 29.821472578890532,
+      "lng": 121.58096382944767
     },
     "address": "http://www.nit.net.cn/",
     "province": "浙江省",
@@ -33386,8 +33502,8 @@ export const universityList =
   {
     "name": "川北幼儿师范高等专科学校",
     "location": {
-      "lat": 32.422369,
-      "lng": 105.898859
+      "lat": 32.42236879323576,
+      "lng": 105.89885927577951
     },
     "address": "http://www.cbyzsc.cn/cbyz/",
     "province": "四川省",
@@ -33402,8 +33518,8 @@ export const universityList =
   {
     "name": "金华职业技术大学",
     "location": {
-      "lat": 29.067929,
-      "lng": 119.642556
+      "lat": 29.06627379097598,
+      "lng": 119.64272865834543
     },
     "address": "浙江省金华市婺城区海棠西路888号",
     "province": "浙江省",
@@ -33418,8 +33534,8 @@ export const universityList =
   {
     "name": "重庆工商职业学院",
     "location": {
-      "lat": 29.502594,
-      "lng": 106.458347
+      "lat": 29.502593982222173,
+      "lng": 106.45834702159064
     },
     "address": "http://www.cqtbi.edu.cn/",
     "province": "重庆市",
@@ -33434,8 +33550,8 @@ export const universityList =
   {
     "name": "武汉工程大学-邮电与信息工程学院",
     "location": {
-      "lat": 30.510754,
-      "lng": 114.396354
+      "lat": 30.510747495475762,
+      "lng": 114.39701858331136
     },
     "address": "湖北省武汉市洪山区虎泉街366号",
     "province": "湖北省",
@@ -33450,8 +33566,8 @@ export const universityList =
   {
     "name": "青岛滨海学院",
     "location": {
-      "lat": 35.989168,
-      "lng": 120.169851
+      "lat": 35.984686350771575,
+      "lng": 120.17036997557317
     },
     "address": "http://www.qdbhu.edu.cn/",
     "province": "山东省",
@@ -33466,8 +33582,8 @@ export const universityList =
   {
     "name": "浙江外国语学院",
     "location": {
-      "lat": 30.225725,
-      "lng": 120.044481
+      "lat": 30.224378779821155,
+      "lng": 120.03517733191583
     },
     "address": "http://www.zisu.edu.cn/",
     "province": "浙江省",
@@ -33482,8 +33598,8 @@ export const universityList =
   {
     "name": "南昌理工学院",
     "location": {
-      "lat": 28.78808,
-      "lng": 115.867585
+      "lat": 28.78808001702831,
+      "lng": 115.86758502169975
     },
     "address": "http://www.nut.edu.cn/",
     "province": "江西省",
@@ -33498,8 +33614,8 @@ export const universityList =
   {
     "name": "荆楚理工学院",
     "location": {
-      "lat": 31.051181,
-      "lng": 112.199088
+      "lat": 31.0511806970931,
+      "lng": 112.19908822931454
     },
     "address": "http://www.jcut.edu.cn/",
     "province": "湖北省",
@@ -33514,8 +33630,8 @@ export const universityList =
   {
     "name": "山东外贸职业学院(青岛北校区)",
     "location": {
-      "lat": 36.178077,
-      "lng": 120.443648
+      "lat": 36.179363030968375,
+      "lng": 120.44474966816855
     },
     "address": "山东省青岛市李沧区巨峰路201号",
     "province": "山东省",
@@ -33530,8 +33646,8 @@ export const universityList =
   {
     "name": "重庆对外经贸学院(合川A校区)",
     "location": {
-      "lat": 30.00281,
-      "lng": 106.253848
+      "lat": 30.002810113342875,
+      "lng": 106.25384769466837
     },
     "address": "重庆市合川区学府路88号",
     "province": "重庆市",
@@ -33546,8 +33662,8 @@ export const universityList =
   {
     "name": "菏泽家政职业学院",
     "location": {
-      "lat": 34.766419,
-      "lng": 116.105329
+      "lat": 35.28710802241359,
+      "lng": 115.46428601733888
     },
     "address": "http://www.hzjzxy.com/",
     "province": "山东省",
@@ -33562,8 +33678,8 @@ export const universityList =
   {
     "name": "科尔沁艺术职业学院",
     "location": {
-      "lat": 43.687903,
-      "lng": 122.266064
+      "lat": 43.63634330963595,
+      "lng": 122.23059018472092
     },
     "address": "http://www.keqysxy.com.cn/web/yszyxy/index.html",
     "province": "内蒙古自治区",
@@ -33578,8 +33694,8 @@ export const universityList =
   {
     "name": "重庆电讯职业学院",
     "location": {
-      "lat": 29.416725,
-      "lng": 106.287004
+      "lat": 29.41672502811341,
+      "lng": 106.2870037795213
     },
     "address": "http://www.cqdxxy.com.cn/",
     "province": "重庆市",
@@ -33594,8 +33710,8 @@ export const universityList =
   {
     "name": "上海公安学院",
     "location": {
-      "lat": 31.386062,
-      "lng": 121.525864
+      "lat": 31.386061570324344,
+      "lng": 121.52586448163238
     },
     "address": "http://www.shpc.edu.cn",
     "province": "上海市",
@@ -33610,8 +33726,8 @@ export const universityList =
   {
     "name": "三江学院",
     "location": {
-      "lat": 31.963802,
-      "lng": 118.759861
+      "lat": 31.8429919685697,
+      "lng": 118.778828984654
     },
     "address": "http://www.sju.edu.cn/",
     "province": "江苏省",
@@ -33626,8 +33742,8 @@ export const universityList =
   {
     "name": "云南师范大学海屯路校区",
     "location": {
-      "lat": 25.086409,
-      "lng": 102.654635
+      "lat": 25.08863950627055,
+      "lng": 102.65663626898781
     },
     "address": "云南省昆明市五华区商院路1号",
     "province": "云南省",
@@ -33642,8 +33758,8 @@ export const universityList =
   {
     "name": "钦州幼儿师范高等专科学校",
     "location": {
-      "lat": 21.970158,
-      "lng": 108.59838
+      "lat": 21.970158155568537,
+      "lng": 108.59837996781256
     },
     "address": null,
     "province": "广西壮族自治区",
@@ -33658,8 +33774,8 @@ export const universityList =
   {
     "name": "浙江中医药大学(滨文校区)",
     "location": {
-      "lat": 30.181545,
-      "lng": 120.156718
+      "lat": 30.18068092945328,
+      "lng": 120.15660604871874
     },
     "address": "浙江省杭州市滨江区滨文路548号",
     "province": "浙江省",
@@ -33674,8 +33790,8 @@ export const universityList =
   {
     "name": "锦州医科大学医疗学院",
     "location": {
-      "lat": 41.089329,
-      "lng": 121.12085
+      "lat": 41.08932956356603,
+      "lng": 121.12085005770672
     },
     "address": "http://www.jymu.edu.cn/",
     "province": "辽宁省",
@@ -33690,8 +33806,8 @@ export const universityList =
   {
     "name": "东莞城市学院",
     "location": {
-      "lat": 22.984523,
-      "lng": 113.847273
+      "lat": 23.09955273775366,
+      "lng": 113.80938141537487
     },
     "address": "广东省东莞市寮步镇文昌路1号",
     "province": "广东省",
@@ -33706,13 +33822,17 @@ export const universityList =
   {
     "name": "南昌市",
     "num": 13,
-    "index": 2145
+    "index": 2145,
+    "location": {
+      "lat": 28.68945529506072,
+      "lng": 115.86458944231661
+    }
   },
   {
     "name": "阜阳科技职业学院",
     "location": {
-      "lat": 32.903391,
-      "lng": 115.79483
+      "lat": 32.90339110215451,
+      "lng": 115.79483001618183
     },
     "address": "http://www.fky.net.cn/",
     "province": "安徽省",
@@ -33727,8 +33847,8 @@ export const universityList =
   {
     "name": "华南农业大学",
     "location": {
-      "lat": 23.164035,
-      "lng": 113.361285
+      "lat": 23.165060838305408,
+      "lng": 113.37552662759941
     },
     "address": "http://www.scau.edu.cn/",
     "province": "广东省",
@@ -33743,8 +33863,8 @@ export const universityList =
   {
     "name": "山东体育学院",
     "location": {
-      "lat": 36.690904,
-      "lng": 117.200005
+      "lat": 36.69090406416266,
+      "lng": 117.20000539830093
     },
     "address": "http://www.sdpei.edu.cn/",
     "province": "山东省",
@@ -33759,8 +33879,8 @@ export const universityList =
   {
     "name": "安徽文达信息工程学院",
     "location": {
-      "lat": 31.748613,
-      "lng": 117.025912
+      "lat": 31.74861282687802,
+      "lng": 117.02591217351727
     },
     "address": "http://www.wendaedu.com.cn/",
     "province": "安徽省",
@@ -33775,8 +33895,8 @@ export const universityList =
   {
     "name": "青海职业技术大学",
     "location": {
-      "lat": 36.677581,
-      "lng": 101.753362
+      "lat": 36.67745596948365,
+      "lng": 101.75259113678334
     },
     "address": "青海省西宁市城北区经二路66号",
     "province": "青海省",
@@ -33791,8 +33911,8 @@ export const universityList =
   {
     "name": "湖北商贸学院",
     "location": {
-      "lat": 30.506814,
-      "lng": 114.383431
+      "lat": 30.50681436871558,
+      "lng": 114.38343135315075
     },
     "address": "http://www.hugsmxy.com/",
     "province": "湖北省",
@@ -33807,8 +33927,8 @@ export const universityList =
   {
     "name": "西双版纳职业技术学院(景洪校区)",
     "location": {
-      "lat": 22.013669,
-      "lng": 100.7957
+      "lat": 22.011285267066736,
+      "lng": 100.79485857473107
     },
     "address": "景洪市宣慰大道93号",
     "province": "云南省",
@@ -33823,8 +33943,8 @@ export const universityList =
   {
     "name": "河北轨道运输职业技术学院(西校区)",
     "location": {
-      "lat": 38.062119,
-      "lng": 114.482012
+      "lat": 38.06160878042799,
+      "lng": 114.48159314877029
     },
     "address": "河北省石家庄市新华区宁安路189号",
     "province": "河北省",
@@ -33839,8 +33959,8 @@ export const universityList =
   {
     "name": "闽江学院",
     "location": {
-      "lat": 26.072713,
-      "lng": 119.176895
+      "lat": 26.07546456218862,
+      "lng": 119.24656793365698
     },
     "address": "http://www.mju.edu.cn/",
     "province": "福建省",
@@ -33855,8 +33975,8 @@ export const universityList =
   {
     "name": "宁夏工商职业技术学院",
     "location": {
-      "lat": 38.53203,
-      "lng": 106.137201
+      "lat": 38.53203033761923,
+      "lng": 106.13720083775617
     },
     "address": "http://www.nxgs.edu.cn/default.html",
     "province": "宁夏回族自治区",
@@ -33871,8 +33991,8 @@ export const universityList =
   {
     "name": "资阳环境科技职业学院",
     "location": {
-      "lat": 30.087371,
-      "lng": 104.693183
+      "lat": 30.087371225349848,
+      "lng": 104.6931829948773
     },
     "address": null,
     "province": "四川省",
@@ -33887,8 +34007,8 @@ export const universityList =
   {
     "name": "濮阳医学高等专科学校",
     "location": {
-      "lat": 35.817475,
-      "lng": 114.998545
+      "lat": 35.717888889374784,
+      "lng": 115.03558408559006
     },
     "address": "http://www.pyyzh.cn/",
     "province": "河南省",
@@ -33903,8 +34023,8 @@ export const universityList =
   {
     "name": "华中师范大学",
     "location": {
-      "lat": 30.524004,
-      "lng": 114.367216
+      "lat": 30.524004396179922,
+      "lng": 114.36721577089848
     },
     "address": "http://www.ccnu.edu.cn/",
     "province": "湖北省",
@@ -33919,8 +34039,8 @@ export const universityList =
   {
     "name": "西安城市建设职业学院",
     "location": {
-      "lat": 34.051473,
-      "lng": 108.786881
+      "lat": 34.05147349708166,
+      "lng": 108.78688148695461
     },
     "address": "http://www.xacsjsedu.com/",
     "province": "陕西省",
@@ -33935,8 +34055,8 @@ export const universityList =
   {
     "name": "贵州医科大学神奇民族医药学院",
     "location": {
-      "lat": 26.56793,
-      "lng": 106.78818
+      "lat": 26.567930199992645,
+      "lng": 106.78817956236075
     },
     "address": "http://sqxy.gmc.edu.cn/",
     "province": "贵州省",
@@ -33951,8 +34071,8 @@ export const universityList =
   {
     "name": "广西大学",
     "location": {
-      "lat": 22.848572,
-      "lng": 108.297688
+      "lat": 22.848571891113508,
+      "lng": 108.29768827811539
     },
     "address": "http://www.gxu.edu.cn/",
     "province": "广西壮族自治区",
@@ -33967,8 +34087,8 @@ export const universityList =
   {
     "name": "中国石油大学胜利学院",
     "location": {
-      "lat": 37.470474,
-      "lng": 118.539921
+      "lat": 37.43964182632334,
+      "lng": 118.68138493513693
     },
     "address": "http://www.slcupc.edu.cn/",
     "province": "山东省",
@@ -33983,8 +34103,8 @@ export const universityList =
   {
     "name": "长春信息技术职业学院",
     "location": {
-      "lat": 43.780667,
-      "lng": 125.219413
+      "lat": 43.54956267148915,
+      "lng": 125.67097362685958
     },
     "address": "http://www.citpc.edu.cn/",
     "province": "吉林省",
@@ -33999,8 +34119,8 @@ export const universityList =
   {
     "name": "西京学院",
     "location": {
-      "lat": 34.139142,
-      "lng": 108.935839
+      "lat": 34.140737018556585,
+      "lng": 108.93821398570975
     },
     "address": "http://www.xijing.com.cn/",
     "province": "陕西省",
@@ -34015,8 +34135,8 @@ export const universityList =
   {
     "name": "中山大学新华学院",
     "location": {
-      "lat": 23.067996,
-      "lng": 113.587174
+      "lat": 23.067995844631117,
+      "lng": 113.5871739633105
     },
     "address": "http://www.xhsysu.edu.cn/",
     "province": "广东省",
@@ -34031,8 +34151,8 @@ export const universityList =
   {
     "name": "周口师范学院",
     "location": {
-      "lat": 33.641926,
-      "lng": 114.689688
+      "lat": 33.64192569722483,
+      "lng": 114.6896883150732
     },
     "address": "http://www.zknu.edu.cn/",
     "province": "河南省",
@@ -34047,8 +34167,8 @@ export const universityList =
   {
     "name": "黑龙江财经学院",
     "location": {
-      "lat": 45.884212,
-      "lng": 126.498628
+      "lat": 45.88421181428157,
+      "lng": 126.49862802759463
     },
     "address": "http://www.hfu.edu.cn/",
     "province": "黑龙江省",
@@ -34063,8 +34183,8 @@ export const universityList =
   {
     "name": "德州学院",
     "location": {
-      "lat": 37.476906,
-      "lng": 116.339471
+      "lat": 37.47690591550443,
+      "lng": 116.33947147908432
     },
     "address": "http://www.dzu.edu.cn/",
     "province": "山东省",
@@ -34079,8 +34199,8 @@ export const universityList =
   {
     "name": "廊坊卫生职业学院",
     "location": {
-      "lat": 39.615064,
-      "lng": 116.742221
+      "lat": 39.61506414550738,
+      "lng": 116.74222109515821
     },
     "address": "http://www.lfwx.net/default.html",
     "province": "河北省",
@@ -34095,8 +34215,8 @@ export const universityList =
   {
     "name": "长安大学兴华学院",
     "location": {
-      "lat": 34.243951,
-      "lng": 108.866296
+      "lat": 34.24395125373023,
+      "lng": 108.86629645505587
     },
     "address": "http://www.chdxhxy.com/website/index.aspx",
     "province": "陕西省",
@@ -34111,8 +34231,8 @@ export const universityList =
   {
     "name": "厦门理工学院(集美校区)",
     "location": {
-      "lat": 24.630356,
-      "lng": 118.093221
+      "lat": 24.630155496667,
+      "lng": 118.09522036190357
     },
     "address": "福建省厦门市集美区理工路600号",
     "province": "福建省",
@@ -34127,8 +34247,8 @@ export const universityList =
   {
     "name": "武汉华夏理工学院",
     "location": {
-      "lat": 30.473194,
-      "lng": 114.41652
+      "lat": 30.473194220466436,
+      "lng": 114.4165204366108
     },
     "address": "http://www.hxut.edu.cn/",
     "province": "湖北省",
@@ -34143,8 +34263,8 @@ export const universityList =
   {
     "name": "南京信息工程大学滨江学院",
     "location": {
-      "lat": 32.205398,
-      "lng": 118.715261
+      "lat": 32.18277042361371,
+      "lng": 118.6875612346708
     },
     "address": "http://www.bjxy.cn/",
     "province": "江苏省",
@@ -34158,8 +34278,8 @@ export const universityList =
   {
     "name": "河南牧业经济学院(英才校区)",
     "location": {
-      "lat": 34.868122,
-      "lng": 113.648213
+      "lat": 34.86791646362768,
+      "lng": 113.64891873765683
     },
     "address": "郑州市惠济区惠济区英才街2号",
     "province": "河南省",
@@ -34174,8 +34294,8 @@ export const universityList =
   {
     "name": "西藏农牧学院",
     "location": {
-      "lat": 29.672647,
-      "lng": 94.348183
+      "lat": 29.672646948792995,
+      "lng": 94.34818255908647
     },
     "address": "http://www.xza.edu.cn/",
     "province": "西藏自治区",
@@ -34190,8 +34310,8 @@ export const universityList =
   {
     "name": "南京科技职业学院",
     "location": {
-      "lat": 32.239979,
-      "lng": 118.755557
+      "lat": 32.23997909404457,
+      "lng": 118.75555703295976
     },
     "address": "http://www.njpi.edu.cn/",
     "province": "江苏省",
@@ -34206,8 +34326,8 @@ export const universityList =
   {
     "name": "徐州工程学院(中心校区)",
     "location": {
-      "lat": 34.199387,
-      "lng": 117.305848
+      "lat": 34.196058427598594,
+      "lng": 117.30601730611104
     },
     "address": "江苏省徐州市云龙区丽水路2号",
     "province": "江苏省",
@@ -34222,8 +34342,8 @@ export const universityList =
   {
     "name": "邢台职业技术学院",
     "location": {
-      "lat": 37.091545,
-      "lng": 114.458623
+      "lat": 37.091544606761445,
+      "lng": 114.45862347688015
     },
     "address": "http://www.xpc.edu.cn/",
     "province": "河北省",
@@ -34238,8 +34358,8 @@ export const universityList =
   {
     "name": "闽南科技学院(康美校区)",
     "location": {
-      "lat": 25.040699,
-      "lng": 118.487895
+      "lat": 25.042267573593797,
+      "lng": 118.48705367946023
     },
     "address": "泉州市南安市康美镇康元路8号",
     "province": "福建省",
@@ -34254,8 +34374,8 @@ export const universityList =
   {
     "name": "江西服装学院",
     "location": {
-      "lat": 28.460361,
-      "lng": 115.957697
+      "lat": 28.46036099698921,
+      "lng": 115.95769710161461
     },
     "address": "http://www.jift.edu.cn/",
     "province": "江西省",
@@ -34270,8 +34390,8 @@ export const universityList =
   {
     "name": "延安职业技术学院",
     "location": {
-      "lat": 36.635842,
-      "lng": 109.414916
+      "lat": 36.635842189564585,
+      "lng": 109.41491633340092
     },
     "address": "http://www.yapt.cn/",
     "province": "陕西省",
@@ -34286,8 +34406,8 @@ export const universityList =
   {
     "name": "青岛工程职业学院",
     "location": {
-      "lat": 36.263264,
-      "lng": 120.243104
+      "lat": 36.26326366132462,
+      "lng": 120.24310361678288
     },
     "address": null,
     "province": "山东省",
@@ -34301,8 +34421,8 @@ export const universityList =
   {
     "name": "山西信息职业技术学院",
     "location": {
-      "lat": 36.129509,
-      "lng": 111.550161
+      "lat": 36.1295090427119,
+      "lng": 111.55016113230046
     },
     "address": "http://www.vcit.cn/",
     "province": "山西省",
@@ -34317,8 +34437,8 @@ export const universityList =
   {
     "name": "湖南文理学院芙蓉学院",
     "location": {
-      "lat": 29.031847,
-      "lng": 111.727291
+      "lat": 29.03184736159101,
+      "lng": 111.72729070554314
     },
     "address": "http://fur.huas.cn/",
     "province": "湖南省",
@@ -34333,8 +34453,8 @@ export const universityList =
   {
     "name": "郑州旅游职业学院",
     "location": {
-      "lat": 34.810228,
-      "lng": 113.904394
+      "lat": 34.73045149668401,
+      "lng": 113.7039118331805
     },
     "address": "http://www.zztrc.edu.cn/",
     "province": "河南省",
@@ -34349,8 +34469,8 @@ export const universityList =
   {
     "name": "重庆工程学院(南泉校区)",
     "location": {
-      "lat": 29.429754,
-      "lng": 106.602487
+      "lat": 29.452567262372465,
+      "lng": 106.61918404174097
     },
     "address": "重庆市巴南区南泉街道白鹤林16号",
     "province": "重庆市",
@@ -34365,8 +34485,8 @@ export const universityList =
   {
     "name": "眉山药科职业学院",
     "location": {
-      "lat": 30.008639,
-      "lng": 103.52994
+      "lat": 30.00863891633704,
+      "lng": 103.52994015101098
     },
     "address": null,
     "province": "四川省",
@@ -34380,8 +34500,8 @@ export const universityList =
   {
     "name": "哈尔滨城市职业学院",
     "location": {
-      "lat": 45.645454,
-      "lng": 126.807312
+      "lat": 45.64545399113948,
+      "lng": 126.80731176185424
     },
     "address": "http://www.hrbcvc.com/",
     "province": "黑龙江省",
@@ -34395,8 +34515,8 @@ export const universityList =
   {
     "name": "上海民远职业技术学院",
     "location": {
-      "lat": 31.203869,
-      "lng": 121.666667
+      "lat": 31.204386515824243,
+      "lng": 121.6663079904872
     },
     "address": "http://www.shmy.edu.cn/index.php",
     "province": "上海市",
@@ -34411,8 +34531,8 @@ export const universityList =
   {
     "name": "浙江体育职业技术学院",
     "location": {
-      "lat": 30.25964,
-      "lng": 120.300589
+      "lat": 29.561350354213307,
+      "lng": 119.21514179336738
     },
     "address": "http://www.zjcs.net.cn/",
     "province": "浙江省",
@@ -34427,8 +34547,8 @@ export const universityList =
   {
     "name": "云南艺术学院",
     "location": {
-      "lat": 24.838174,
-      "lng": 102.832957
+      "lat": 25.061156232586836,
+      "lng": 102.68035261241
     },
     "address": "https://www.ynart.edu.cn/",
     "province": "云南省",
@@ -34443,8 +34563,8 @@ export const universityList =
   {
     "name": "江苏旅游职业学院(新校区)",
     "location": {
-      "lat": 32.30908,
-      "lng": 119.41674
+      "lat": 32.30775705506792,
+      "lng": 119.41735774623731
     },
     "address": "江苏省扬州市经济技术开发区毓秀路88号",
     "province": "江苏省",
@@ -34459,8 +34579,8 @@ export const universityList =
   {
     "name": "鲁东大学",
     "location": {
-      "lat": 37.529024,
-      "lng": 121.365431
+      "lat": 37.52612340485929,
+      "lng": 121.36681095718842
     },
     "address": "http://www.ldu.edu.cn/",
     "province": "山东省",
@@ -34475,8 +34595,8 @@ export const universityList =
   {
     "name": "郑州大学",
     "location": {
-      "lat": 34.820759,
-      "lng": 113.538912
+      "lat": 34.78790336651202,
+      "lng": 113.66896559290915
     },
     "address": "http://www.zzu.edu.cn/",
     "province": "河南省",
@@ -34491,8 +34611,8 @@ export const universityList =
   {
     "name": "天津体育学院",
     "location": {
-      "lat": 39.080319,
-      "lng": 117.194496
+      "lat": 38.95881466826079,
+      "lng": 117.06618105359637
     },
     "address": "http://www.tjus.edu.cn/",
     "province": "天津市",
@@ -34505,8 +34625,8 @@ export const universityList =
   {
     "name": "上海理工大学",
     "location": {
-      "lat": 31.297902,
-      "lng": 121.562072
+      "lat": 31.288322713665632,
+      "lng": 121.54883720776124
     },
     "address": "http://www.usst.edu.cn/",
     "province": "上海市",
@@ -34521,8 +34641,8 @@ export const universityList =
   {
     "name": "辽宁大学(崇山校区)",
     "location": {
-      "lat": 41.838983,
-      "lng": 123.412947
+      "lat": 41.83897759715085,
+      "lng": 123.41624431377237
     },
     "address": "沈阳市皇姑区崇山中路66号",
     "province": "辽宁省",
@@ -34537,8 +34657,8 @@ export const universityList =
   {
     "name": "保险职业学院",
     "location": {
-      "lat": 28.09941,
-      "lng": 113.005044
+      "lat": 28.099410358336776,
+      "lng": 113.00504414556629
     },
     "address": "http://www.bxxy.com/",
     "province": "湖南省",
@@ -34553,8 +34673,8 @@ export const universityList =
   {
     "name": "重庆医科大学(医学院路)",
     "location": {
-      "lat": 29.538879,
-      "lng": 106.514522
+      "lat": 29.54073194953758,
+      "lng": 106.51437496504332
     },
     "address": "重庆市渝中区医学院路1号",
     "province": "重庆市",
@@ -34569,8 +34689,8 @@ export const universityList =
   {
     "name": "徐州幼儿师范高等专科学校(碧螺校区)",
     "location": {
-      "lat": 34.298682,
-      "lng": 117.253619
+      "lat": 34.29786486037408,
+      "lng": 117.25642006229414
     },
     "address": "江苏省徐州市鼓楼区洞山路17号",
     "province": "江苏省",
@@ -34585,8 +34705,8 @@ export const universityList =
   {
     "name": "上海第二工业大学(金海路校区)",
     "location": {
-      "lat": 31.270235,
-      "lng": 121.658149
+      "lat": 31.266307076699253,
+      "lng": 121.65921550916372
     },
     "address": "上海市浦东新区金海路2360号(近杉达学院)",
     "province": "上海市",
@@ -34601,8 +34721,8 @@ export const universityList =
   {
     "name": "山东经贸职业学院",
     "location": {
-      "lat": 36.688085,
-      "lng": 119.101198
+      "lat": 36.688085402123285,
+      "lng": 119.10119804403398
     },
     "address": "http://www.sdecu.com/",
     "province": "山东省",
@@ -34617,8 +34737,8 @@ export const universityList =
   {
     "name": "成都纺织高等专科学校",
     "location": {
-      "lat": 30.762924,
-      "lng": 103.962372
+      "lat": 30.763164016864117,
+      "lng": 103.96265139991193
     },
     "address": "http://www.cdtc.edu.cn/cdtc_index.htm",
     "province": "四川省",
@@ -34633,8 +34753,8 @@ export const universityList =
   {
     "name": "海南医学院",
     "location": {
-      "lat": 20.033853,
-      "lng": 110.33862
+      "lat": 19.987843997036446,
+      "lng": 110.3406269750179
     },
     "address": "http://www.hainmc.edu.cn/",
     "province": "海南省",
@@ -34649,8 +34769,8 @@ export const universityList =
   {
     "name": "海南政法职业学院",
     "location": {
-      "lat": 19.98802,
-      "lng": 110.382252
+      "lat": 19.988020476706556,
+      "lng": 110.38225184725054
     },
     "address": "http://www.hnplc.com/",
     "province": "海南省",
@@ -34665,8 +34785,8 @@ export const universityList =
   {
     "name": "石化职业技术学院",
     "location": {
-      "lat": 36.091177,
-      "lng": 103.643757
+      "lat": 36.09311340046816,
+      "lng": 103.64346602508988
     },
     "address": "甘肃省兰州市西固区山丹街1号",
     "province": "甘肃省",
@@ -34681,8 +34801,8 @@ export const universityList =
   {
     "name": "山东华宇工学院",
     "location": {
-      "lat": 37.4708,
-      "lng": 116.36596
+      "lat": 37.47079972399072,
+      "lng": 116.36596035264034
     },
     "address": "http://www.sdhyxy.com/",
     "province": "山东省",
@@ -34697,8 +34817,8 @@ export const universityList =
   {
     "name": "西南科技大学城市学院城游仙校区",
     "location": {
-      "lat": 31.452077,
-      "lng": 104.802735
+      "lat": 31.449476617099293,
+      "lng": 104.80111997139531
     },
     "address": "四川省绵阳市游仙区三星路11号",
     "province": "四川省",
@@ -34713,8 +34833,8 @@ export const universityList =
   {
     "name": "平顶山文化艺术职业学院",
     "location": {
-      "lat": 33.874244,
-      "lng": 113.03824
+      "lat": 33.87424414619401,
+      "lng": 113.03824014179935
     },
     "address": "",
     "province": "河南省",
@@ -34727,8 +34847,8 @@ export const universityList =
   {
     "name": "六盘水幼儿师范高等专科学校",
     "location": {
-      "lat": 26.530286,
-      "lng": 105.008752
+      "lat": 26.52979766695187,
+      "lng": 105.00717103173488
     },
     "address": null,
     "province": "贵州省",
@@ -34742,8 +34862,8 @@ export const universityList =
   {
     "name": "庆阳职业技术学院",
     "location": {
-      "lat": 35.697785,
-      "lng": 107.643101
+      "lat": 35.69778471133747,
+      "lng": 107.64310133026748
     },
     "address": "http://www.qyvtc.com/",
     "province": "甘肃省",
@@ -34758,8 +34878,8 @@ export const universityList =
   {
     "name": "绍兴文理学院(南山校区)",
     "location": {
-      "lat": 29.984873,
-      "lng": 120.57687
+      "lat": 29.987653797818815,
+      "lng": 120.57849701117183
     },
     "address": "城南大道900号",
     "province": "浙江省",
@@ -34774,8 +34894,8 @@ export const universityList =
   {
     "name": "聊城职业技术学院",
     "location": {
-      "lat": 36.490738,
-      "lng": 116.008946
+      "lat": 36.49073793372531,
+      "lng": 116.00894598533485
     },
     "address": "http://www.lctvu.sd.cn/",
     "province": "山东省",
@@ -34790,8 +34910,8 @@ export const universityList =
   {
     "name": "芜湖职业技术学院(文津校区)",
     "location": {
-      "lat": 31.282727,
-      "lng": 118.375997
+      "lat": 31.286568427426957,
+      "lng": 118.3750799138697
     },
     "address": "安徽省芜湖市弋江区文津西路201号",
     "province": "安徽省",
@@ -34806,8 +34926,8 @@ export const universityList =
   {
     "name": "长垣烹饪职业技术学院",
     "location": {
-      "lat": 35.17944,
-      "lng": 114.713934
+      "lat": 35.17943953406749,
+      "lng": 114.71393447909303
     },
     "address": "http://www.cyprxy.net/",
     "province": "河南省",
@@ -34822,8 +34942,8 @@ export const universityList =
   {
     "name": "福建农业职业技术学院(相思岭校区)",
     "location": {
-      "lat": 25.835087,
-      "lng": 119.313246
+      "lat": 25.828732697607013,
+      "lng": 119.31308134817141
     },
     "address": "福建省福州市福清市镜洋镇红星村龟山116号",
     "province": "福建省",
@@ -34838,8 +34958,8 @@ export const universityList =
   {
     "name": "山东理工大学",
     "location": {
-      "lat": 36.815484,
-      "lng": 118.008295
+      "lat": 36.81548410704984,
+      "lng": 118.00829539617656
     },
     "address": "http://www.sdut.edu.cn/",
     "province": "山东省",
@@ -34854,13 +34974,17 @@ export const universityList =
   {
     "name": "镇江市",
     "num": 8,
-    "index": 2218
+    "index": 2218,
+    "location": {
+      "lat": 32.19471592052375,
+      "lng": 119.43048944567383
+    }
   },
   {
     "name": "武汉商学院",
     "location": {
-      "lat": 30.466056,
-      "lng": 114.093785
+      "lat": 30.46506995572115,
+      "lng": 114.09657338854682
     },
     "address": "http://www.wbu.edu.cn/",
     "province": "湖北省",
@@ -34875,8 +34999,8 @@ export const universityList =
   {
     "name": "成都中医药大学(温江校区)",
     "location": {
-      "lat": 30.692594,
-      "lng": 103.81401
+      "lat": 30.692157796129028,
+      "lng": 103.81098886371245
     },
     "address": "柳台大道西段1166号",
     "province": "四川省",
@@ -34891,8 +35015,8 @@ export const universityList =
   {
     "name": "五邑大学",
     "location": {
-      "lat": 22.60353,
-      "lng": 113.0913
+      "lat": 22.602660309731366,
+      "lng": 113.09253595813996
     },
     "address": "http://www.wyu.edu.cn/",
     "province": "广东省",
@@ -34907,8 +35031,8 @@ export const universityList =
   {
     "name": "渤海理工职业学院",
     "location": {
-      "lat": 38.398501,
-      "lng": 117.321172
+      "lat": 38.39850075521724,
+      "lng": 117.32117207938659
     },
     "address": "http://www.bhlgxy.cn/",
     "province": "河北省",
@@ -34923,8 +35047,8 @@ export const universityList =
   {
     "name": "四川化工职业技术学院(护国校区)",
     "location": {
-      "lat": 28.805786,
-      "lng": 105.429862
+      "lat": 28.803193027454693,
+      "lng": 105.4316756308481
     },
     "address": "四川省泸州市纳溪区护国大道733号",
     "province": "四川省",
@@ -34939,8 +35063,8 @@ export const universityList =
   {
     "name": "南京工业职业技术大学(仙林校区)",
     "location": {
-      "lat": 32.126757,
-      "lng": 118.945686
+      "lat": 32.12601959184089,
+      "lng": 118.94282642330265
     },
     "address": "江苏省南京市栖霞区仙林大学城羊山北路1号",
     "province": "江苏省",
@@ -34955,8 +35079,8 @@ export const universityList =
   {
     "name": "鹤壁能源化工职业学院",
     "location": {
-      "lat": 35.710776,
-      "lng": 114.315251
+      "lat": 35.71077586173101,
+      "lng": 114.31525104291003
     },
     "address": "http://yh.glkjjt.com/hebiny/",
     "province": "河南省",
@@ -34971,8 +35095,8 @@ export const universityList =
   {
     "name": "江西警察学院",
     "location": {
-      "lat": 28.670516,
-      "lng": 115.76155
+      "lat": 28.67051625433968,
+      "lng": 115.76155029696471
     },
     "address": "http://www.jxga.com/",
     "province": "江西省",
@@ -34987,8 +35111,8 @@ export const universityList =
   {
     "name": "贵阳幼儿师范高等专科学校",
     "location": {
-      "lat": 26.58937,
-      "lng": 106.483894
+      "lat": 26.589370288625,
+      "lng": 106.48389429130266
     },
     "address": "http://www.gypec.edu.cn/",
     "province": "贵州省",
@@ -35003,8 +35127,8 @@ export const universityList =
   {
     "name": "长治幼儿师范高等专科学校",
     "location": {
-      "lat": 36.228593,
-      "lng": 113.087135
+      "lat": 36.228593080473324,
+      "lng": 113.08713527002963
     },
     "address": null,
     "province": "山西省",
@@ -35019,8 +35143,8 @@ export const universityList =
   {
     "name": "西宁城市职业技术学院",
     "location": {
-      "lat": 36.748066,
-      "lng": 101.769662
+      "lat": 36.748065905151066,
+      "lng": 101.7696615465589
     },
     "address": "",
     "province": "青海省",
@@ -35035,8 +35159,8 @@ export const universityList =
   {
     "name": "佛山科学技术学院-佛山大学",
     "location": {
-      "lat": 23.03014,
-      "lng": 113.104391
+      "lat": 23.027684581300196,
+      "lng": 113.10398764660793
     },
     "address": "广东省佛山市禅城区张槎街道江湾一路18号",
     "province": "广东省",
@@ -35051,8 +35175,8 @@ export const universityList =
   {
     "name": "凯里学院",
     "location": {
-      "lat": 26.530582,
-      "lng": 107.898748
+      "lat": 26.530581521553586,
+      "lng": 107.8987480165189
     },
     "address": "https://www.kluniv.edu.cn/",
     "province": "贵州省",
@@ -35067,8 +35191,8 @@ export const universityList =
   {
     "name": "吕梁学院",
     "location": {
-      "lat": 37.588502,
-      "lng": 111.154173
+      "lat": 37.58850227677094,
+      "lng": 111.15417315163072
     },
     "address": "http://www.llhc.edu.cn/",
     "province": "山西省",
@@ -35083,8 +35207,8 @@ export const universityList =
   {
     "name": "宁夏民族职业技术学院",
     "location": {
-      "lat": 37.975591,
-      "lng": 106.161164
+      "lat": 37.98979886217117,
+      "lng": 106.21992794810325
     },
     "address": "http://jsxy.wuzhong.gov.cn/",
     "province": "宁夏回族自治区",
@@ -35099,8 +35223,8 @@ export const universityList =
   {
     "name": "阜阳职业技术学院(七渔河校区)",
     "location": {
-      "lat": 32.904352,
-      "lng": 115.771069
+      "lat": 32.903361925720446,
+      "lng": 115.77637989897352
     },
     "address": "安徽省阜阳市颍州区清河西路1066号",
     "province": "安徽省",
@@ -35115,8 +35239,8 @@ export const universityList =
   {
     "name": "枣庄职业学院",
     "location": {
-      "lat": 34.833535,
-      "lng": 117.306283
+      "lat": 34.833534596410544,
+      "lng": 117.30628347403366
     },
     "address": "http://www.sdzzvc.edu.cn/",
     "province": "山东省",
@@ -35131,8 +35255,8 @@ export const universityList =
   {
     "name": "金山学院(金山职业技术学院)",
     "location": {
-      "lat": 32.264582,
-      "lng": 119.855186
+      "lat": 32.263244285921154,
+      "lng": 119.8532896898832
     },
     "address": "江苏省镇江市扬中市金山路1号",
     "province": "江苏省",
@@ -35147,8 +35271,8 @@ export const universityList =
   {
     "name": "河池学院",
     "location": {
-      "lat": 24.504078,
-      "lng": 108.674115
+      "lat": 24.5040778829552,
+      "lng": 108.67411493753661
     },
     "address": "http://www.hcnu.edu.cn/",
     "province": "广西壮族自治区",
@@ -35163,8 +35287,8 @@ export const universityList =
   {
     "name": "日照职业技术学院",
     "location": {
-      "lat": 35.468116,
-      "lng": 119.545959
+      "lat": 35.43829807753727,
+      "lng": 119.45862617085737
     },
     "address": "http://www.rzpt.cn/",
     "province": "山东省",
@@ -35179,8 +35303,8 @@ export const universityList =
   {
     "name": "兰考三农职业学院",
     "location": {
-      "lat": 34.804693,
-      "lng": 114.804325
+      "lat": 34.80469332768605,
+      "lng": 114.80432503374574
     },
     "address": null,
     "province": "河南省",
@@ -35195,8 +35319,8 @@ export const universityList =
   {
     "name": "辽阳职业技术学院",
     "location": {
-      "lat": 41.295676,
-      "lng": 123.167188
+      "lat": 41.21167877180807,
+      "lng": 123.11242122079864
     },
     "address": "http://www.419.com.cn/M1P/index.jsp?o=0100",
     "province": "辽宁省",
@@ -35211,8 +35335,8 @@ export const universityList =
   {
     "name": "广西机电职业技术学院",
     "location": {
-      "lat": 22.842128,
-      "lng": 108.244075
+      "lat": 22.842128249809324,
+      "lng": 108.2440754290255
     },
     "address": "http://www.gxcme.edu.cn/",
     "province": "广西壮族自治区",
@@ -35227,8 +35351,8 @@ export const universityList =
   {
     "name": "湖北工程学院",
     "location": {
-      "lat": 30.941635,
-      "lng": 113.91966
+      "lat": 30.941635345602283,
+      "lng": 113.91966011327568
     },
     "address": "http://www.hbeu.cn/",
     "province": "湖北省",
@@ -35243,8 +35367,8 @@ export const universityList =
   {
     "name": "哈尔滨广厦学院",
     "location": {
-      "lat": 45.882036,
-      "lng": 126.556687
+      "lat": 45.882035812048144,
+      "lng": 126.55668703982424
     },
     "address": "http://www.gsxy.cn/",
     "province": "黑龙江省",
@@ -35259,8 +35383,8 @@ export const universityList =
   {
     "name": "广东科技学院(南城校区)",
     "location": {
-      "lat": 22.978418,
-      "lng": 113.762141
+      "lat": 22.97780474173372,
+      "lng": 113.76035298251945
     },
     "address": "广东省东莞市南城街道雅园社区西湖路99号",
     "province": "广东省",
@@ -35275,8 +35399,8 @@ export const universityList =
   {
     "name": "滨州医学院(滨州校区)",
     "location": {
-      "lat": 37.378273,
-      "lng": 118.020097
+      "lat": 37.37965555917313,
+      "lng": 118.01980251009829
     },
     "address": "山东省滨州市黄河三路522号",
     "province": "山东省",
@@ -35291,8 +35415,8 @@ export const universityList =
   {
     "name": "三明医学科技职业学院",
     "location": {
-      "lat": 26.255647,
-      "lng": 117.647757
+      "lat": 26.25564701792695,
+      "lng": 117.64775696040448
     },
     "address": "http://www.smvtc.com/",
     "province": "福建省",
@@ -35307,8 +35431,8 @@ export const universityList =
   {
     "name": "广东财经大学(广州校区)",
     "location": {
-      "lat": 23.096688,
-      "lng": 113.360872
+      "lat": 23.093223400090242,
+      "lng": 113.36061825953017
     },
     "address": "广东省广州市海珠区仑头路21号",
     "province": "广东省",
@@ -35322,8 +35446,8 @@ export const universityList =
   {
     "name": "陕西财经职业技术学院",
     "location": {
-      "lat": 34.360737,
-      "lng": 108.704897
+      "lat": 34.36073704008063,
+      "lng": 108.70489700577261
     },
     "address": "http://www.sxptife.net/",
     "province": "陕西省",
@@ -35337,8 +35461,8 @@ export const universityList =
   {
     "name": "湖南第一师范学院",
     "location": {
-      "lat": 28.20148,
-      "lng": 112.87397
+      "lat": 28.181524882876055,
+      "lng": 112.97915489094673
     },
     "address": "http://www.hnfnu.edu.cn/",
     "province": "湖南省",
@@ -35353,8 +35477,8 @@ export const universityList =
   {
     "name": "兰州财经大学(和平校区)",
     "location": {
-      "lat": 36.003868,
-      "lng": 103.970825
+      "lat": 36.003856018201745,
+      "lng": 103.96678621034383
     },
     "address": "兰州市榆中县开发区薇乐大道4号",
     "province": "甘肃省",
@@ -35369,8 +35493,8 @@ export const universityList =
   {
     "name": "四川交通职业技术学院",
     "location": {
-      "lat": 30.694365,
-      "lng": 103.822602
+      "lat": 30.69436497776325,
+      "lng": 103.82260170819269
     },
     "address": "http://www.svtcc.edu.cn/front",
     "province": "四川省",
@@ -35385,8 +35509,8 @@ export const universityList =
   {
     "name": "河北政法职业学院(新校区)",
     "location": {
-      "lat": 38.144471,
-      "lng": 114.469134
+      "lat": 38.144042392530594,
+      "lng": 114.46877855117879
     },
     "address": "河北省石家庄市新华区友谊北大街569号",
     "province": "河北省",
@@ -35401,8 +35525,8 @@ export const universityList =
   {
     "name": "阿坝职业学院",
     "location": {
-      "lat": 31.67214,
-      "lng": 103.852865
+      "lat": 32.91217223726307,
+      "lng": 101.70494716846731
     },
     "address": null,
     "province": "四川省",
@@ -35417,8 +35541,8 @@ export const universityList =
   {
     "name": "山西能源学院",
     "location": {
-      "lat": 37.758472,
-      "lng": 112.743604
+      "lat": 37.758471996598736,
+      "lng": 112.74360401927616
     },
     "address": "http://www.sxie.edu.cn/",
     "province": "山西省",
@@ -35432,8 +35556,8 @@ export const universityList =
   {
     "name": "信阳职业技术学院",
     "location": {
-      "lat": 32.169194,
-      "lng": 114.14136
+      "lat": 32.122119076012325,
+      "lng": 114.08639989898522
     },
     "address": "http://www.xyvtc.edu.cn/",
     "province": "河南省",
@@ -35448,8 +35572,8 @@ export const universityList =
   {
     "name": "河南质量工程职业学院",
     "location": {
-      "lat": 33.71859,
-      "lng": 113.297889
+      "lat": 33.71859005935499,
+      "lng": 113.29788897148934
     },
     "address": "http://www.zlxy.cn/",
     "province": "河南省",
@@ -35464,8 +35588,8 @@ export const universityList =
   {
     "name": "长沙医学院",
     "location": {
-      "lat": 28.30219,
-      "lng": 112.8808
+      "lat": 28.302190473171613,
+      "lng": 112.88079995967504
     },
     "address": "http://www.csmu.edu.cn/",
     "province": "湖南省",
@@ -35480,8 +35604,8 @@ export const universityList =
   {
     "name": "西交利物浦大学",
     "location": {
-      "lat": 31.279684,
-      "lng": 120.746339
+      "lat": 31.48667374250524,
+      "lng": 121.1685790955545
     },
     "address": "http://www.xjtlu.edu.cn/zh/",
     "province": "江苏省",
@@ -35496,8 +35620,8 @@ export const universityList =
   {
     "name": "安阳幼儿师范高等专科学校",
     "location": {
-      "lat": 35.945389,
-      "lng": 114.392605
+      "lat": 36.088623815857204,
+      "lng": 114.47673376511405
     },
     "address": "http://www.ayys.net.cn/portal/index.htm",
     "province": "河南省",
@@ -35512,8 +35636,8 @@ export const universityList =
   {
     "name": "重庆机电职业技术大学",
     "location": {
-      "lat": 29.558447,
-      "lng": 106.245103
+      "lat": 29.55844700230064,
+      "lng": 106.24510303766664
     },
     "address": "http://www.cqevi.net.cn/",
     "province": "重庆市",
@@ -35528,8 +35652,8 @@ export const universityList =
   {
     "name": "江西枫林涉外经贸职业学院",
     "location": {
-      "lat": 29.1379,
-      "lng": 115.735484
+      "lat": 29.137899788602727,
+      "lng": 115.73548443548194
     },
     "address": "http://www.fenglin.org/",
     "province": "江西省",
@@ -35544,8 +35668,8 @@ export const universityList =
   {
     "name": "西安美术学院",
     "location": {
-      "lat": 34.22419,
-      "lng": 108.935085
+      "lat": 34.37839408424697,
+      "lng": 109.22955314735019
     },
     "address": "http://www.xafa.edu.cn/",
     "province": "陕西省",
@@ -35560,8 +35684,8 @@ export const universityList =
   {
     "name": "毕节工业职业技术学院",
     "location": {
-      "lat": 27.220553,
-      "lng": 105.454091
+      "lat": 27.22055301696352,
+      "lng": 105.45409095840063
     },
     "address": null,
     "province": "贵州省",
@@ -35575,8 +35699,8 @@ export const universityList =
   {
     "name": "莱芜职业技术学院",
     "location": {
-      "lat": 36.250722,
-      "lng": 117.735347
+      "lat": 36.250721879142574,
+      "lng": 117.73534697375024
     },
     "address": "http://www.lwvc.edu.cn/",
     "province": "山东省",
@@ -35591,8 +35715,8 @@ export const universityList =
   {
     "name": "江西医学高等专科学校",
     "location": {
-      "lat": 28.424548,
-      "lng": 117.983285
+      "lat": 28.42454836803314,
+      "lng": 117.98328520725873
     },
     "address": "http://www.jxyxgz.cn/",
     "province": "江西省",
@@ -35607,8 +35731,8 @@ export const universityList =
   {
     "name": "黄冈科技职业学院",
     "location": {
-      "lat": 30.456754,
-      "lng": 114.899828
+      "lat": 30.648592293923354,
+      "lng": 114.91932332038603
     },
     "address": "http://www.hbhgkj.com/",
     "province": "湖北省",
@@ -35623,8 +35747,8 @@ export const universityList =
   {
     "name": "山东财经大学东方学院",
     "location": {
-      "lat": 36.129447,
-      "lng": 117.090685
+      "lat": 36.12944687821147,
+      "lng": 117.09068503129754
     },
     "address": "http://www.sdor.cn/",
     "province": "山东省",
@@ -35639,8 +35763,8 @@ export const universityList =
   {
     "name": "安徽矿业职业技术学院",
     "location": {
-      "lat": 33.955113,
-      "lng": 116.795593
+      "lat": 33.95498077072381,
+      "lng": 116.79553435937825
     },
     "address": "http://www.anhky.com/",
     "province": "安徽省",
@@ -35654,8 +35778,8 @@ export const universityList =
   {
     "name": "内蒙古工业大学(新城校区)",
     "location": {
-      "lat": 40.852623,
-      "lng": 111.690109
+      "lat": 40.8503721218355,
+      "lng": 111.68957248812433
     },
     "address": "呼和浩特市新城区爱民街49号",
     "province": "内蒙古自治区",
@@ -35670,8 +35794,8 @@ export const universityList =
   {
     "name": "江汉艺术职业学院",
     "location": {
-      "lat": 30.428779,
-      "lng": 112.91504
+      "lat": 30.42877897342363,
+      "lng": 112.91503969703909
     },
     "address": "http://www.hbjhart.com/",
     "province": "湖北省",
@@ -35691,8 +35815,8 @@ export const universityList =
   {
     "name": "辽宁财贸学院",
     "location": {
-      "lat": 40.627492,
-      "lng": 120.801877
+      "lat": 40.62749173420088,
+      "lng": 120.80187740162943
     },
     "address": "http://www.lncmxy.com/",
     "province": "辽宁省",
@@ -35707,8 +35831,8 @@ export const universityList =
   {
     "name": "湖北医药学院-药护学院",
     "location": {
-      "lat": 32.626409,
-      "lng": 110.794688
+      "lat": 32.62966014392955,
+      "lng": 110.78629386901258
     },
     "address": "湖北省十堰市茅箭区人民南路30号",
     "province": "湖北省",
@@ -35723,8 +35847,8 @@ export const universityList =
   {
     "name": "珠海城市职业技术学院",
     "location": {
-      "lat": 22.138046,
-      "lng": 113.365239
+      "lat": 22.169199405332506,
+      "lng": 113.3086916197125
     },
     "address": "https://www.zhcpt.edu.cn/",
     "province": "广东省",
@@ -35739,8 +35863,8 @@ export const universityList =
   {
     "name": "鄂尔多斯职业学院",
     "location": {
-      "lat": 39.622539,
-      "lng": 109.830261
+      "lat": 39.62253858193717,
+      "lng": 109.83026127069132
     },
     "address": "http://www.ordosvc.cn/",
     "province": "内蒙古自治区",
@@ -35755,8 +35879,8 @@ export const universityList =
   {
     "name": "江西机电职业技术学院(下罗校区)",
     "location": {
-      "lat": 28.74133,
-      "lng": 115.861253
+      "lat": 28.745443055929034,
+      "lng": 115.84818988710133
     },
     "address": "江西省南昌市青山湖区枫林大道168号",
     "province": "江西省",
@@ -35771,8 +35895,8 @@ export const universityList =
   {
     "name": "淮北职业技术学院(新校区)",
     "location": {
-      "lat": 33.916987,
-      "lng": 116.904264
+      "lat": 33.91365746075899,
+      "lng": 116.87829012567111
     },
     "address": "安徽省淮北市烈山区沱河路8号",
     "province": "安徽省",
@@ -35787,8 +35911,8 @@ export const universityList =
   {
     "name": "恩施职业技术学院",
     "location": {
-      "lat": 30.299325,
-      "lng": 109.501948
+      "lat": 30.299324902709046,
+      "lng": 109.50194758476853
     },
     "address": "http://www.eszy.edu.cn/",
     "province": "湖北省",
@@ -35803,8 +35927,8 @@ export const universityList =
   {
     "name": "安徽艺术学院",
     "location": {
-      "lat": 31.936282,
-      "lng": 117.372324
+      "lat": 31.936281955157956,
+      "lng": 117.3723242002107
     },
     "address": null,
     "province": "安徽省",
@@ -35819,8 +35943,8 @@ export const universityList =
   {
     "name": "山东艺术设计职业学院",
     "location": {
-      "lat": 36.716522,
-      "lng": 117.056766
+      "lat": 36.71652169543995,
+      "lng": 117.05676627286849
     },
     "address": "http://www.sysy.com.cn/",
     "province": "山东省",
@@ -35835,8 +35959,8 @@ export const universityList =
   {
     "name": "厦门华天涉外职业技术学院",
     "location": {
-      "lat": 24.609822,
-      "lng": 118.256782
+      "lat": 24.60982198860198,
+      "lng": 118.256781955278
     },
     "address": "http://www.xmht.com/",
     "province": "福建省",
@@ -35851,8 +35975,8 @@ export const universityList =
   {
     "name": "工商嘉华",
     "location": {
-      "lat": 39.941772,
-      "lng": 116.738704
+      "lat": 39.95496259635235,
+      "lng": 116.72816342240202
     },
     "address": "北京市通州区宋庄南路甲1号",
     "province": "北京市",
@@ -35867,8 +35991,8 @@ export const universityList =
   {
     "name": "青岛飞洋职业技术学院",
     "location": {
-      "lat": 36.323305,
-      "lng": 120.331909
+      "lat": 36.323305329645834,
+      "lng": 120.33190875204103
     },
     "address": "http://www.feiyangcollege.com/",
     "province": "山东省",
@@ -35882,8 +36006,8 @@ export const universityList =
   {
     "name": "淮南职业技术学院",
     "location": {
-      "lat": 32.627693,
-      "lng": 117.019337
+      "lat": 32.627693065767644,
+      "lng": 117.01933702633698
     },
     "address": "http://www.hnvtc.ah.edu.cn/",
     "province": "安徽省",
@@ -35898,8 +36022,8 @@ export const universityList =
   {
     "name": "三亚城市职业学院",
     "location": {
-      "lat": 18.323454,
-      "lng": 109.525215
+      "lat": 18.323454265668275,
+      "lng": 109.52521494183684
     },
     "address": "http://www.sycsxy.cn/",
     "province": "海南省",
@@ -35914,8 +36038,8 @@ export const universityList =
   {
     "name": "黄山健康职业学院",
     "location": {
-      "lat": 29.78077,
-      "lng": 118.202665
+      "lat": 30.27865098018807,
+      "lng": 118.14760982483591
     },
     "address": null,
     "province": "安徽省",
@@ -35929,8 +36053,8 @@ export const universityList =
   {
     "name": "岳阳职业技术学院(新校区)",
     "location": {
-      "lat": 29.297819,
-      "lng": 113.151568
+      "lat": 29.304170494990725,
+      "lng": 113.15039689398513
     },
     "address": "岳阳市岳阳楼区郭镇湘北大道",
     "province": "湖南省",
@@ -35945,8 +36069,8 @@ export const universityList =
   {
     "name": "西北民族大学",
     "location": {
-      "lat": 36.050215,
-      "lng": 103.825969
+      "lat": 36.05021466390701,
+      "lng": 103.82596873690518
     },
     "address": "http://www.xbmu.edu.cn/frontIndex.action?siteId=1",
     "province": "甘肃省",
@@ -35961,8 +36085,8 @@ export const universityList =
   {
     "name": "白城职业技术学院",
     "location": {
-      "lat": 45.64815,
-      "lng": 122.810951
+      "lat": 45.64814971865794,
+      "lng": 122.81095140904932
     },
     "address": "http://www.bcvit.cn/",
     "province": "吉林省",
@@ -35976,8 +36100,8 @@ export const universityList =
   {
     "name": "唐山科技职业技术学院",
     "location": {
-      "lat": 39.603696,
-      "lng": 118.245074
+      "lat": 39.60369606791395,
+      "lng": 118.2450739963964
     },
     "address": "http://www.tskjzy.cn/",
     "province": "河北省",
@@ -35992,8 +36116,8 @@ export const universityList =
   {
     "name": "北海艺术设计学院",
     "location": {
-      "lat": 21.455058,
-      "lng": 109.153504
+      "lat": 21.455058475198673,
+      "lng": 109.15350447617199
     },
     "address": "http://www.sszss.com/",
     "province": "广西壮族自治区",
@@ -36008,8 +36132,8 @@ export const universityList =
   {
     "name": "天门职业学院",
     "location": {
-      "lat": 30.674865,
-      "lng": 113.186499
+      "lat": 30.67486533021014,
+      "lng": 113.18649935774374
     },
     "address": "http://www.tmzyxy.cn/",
     "province": "湖北省",
@@ -36024,8 +36148,8 @@ export const universityList =
   {
     "name": "沈阳科技学院(南校区)",
     "location": {
-      "lat": 41.686923,
-      "lng": 123.409253
+      "lat": 41.68692311537111,
+      "lng": 123.40925253249657
     },
     "address": "辽宁省沈阳市浑南区全运二西路30号",
     "province": "辽宁省",
@@ -36040,8 +36164,8 @@ export const universityList =
   {
     "name": "山东电子职业技术学院",
     "location": {
-      "lat": 36.670549,
-      "lng": 117.527493
+      "lat": 36.66657624342704,
+      "lng": 117.07672976536948
     },
     "address": "http://www.sdcet.cn/",
     "province": "山东省",
@@ -36056,8 +36180,8 @@ export const universityList =
   {
     "name": "广东海洋大学",
     "location": {
-      "lat": 21.157362,
-      "lng": 110.307239
+      "lat": 21.227860956225598,
+      "lng": 110.42144303019637
     },
     "address": "http://www.gdou.edu.cn/",
     "province": "广东省",
@@ -36072,8 +36196,8 @@ export const universityList =
   {
     "name": "辽宁中医药大学(杏林学院)-宿舍",
     "location": {
-      "lat": 41.934675,
-      "lng": 123.478382
+      "lat": 41.937515262453424,
+      "lng": 123.47587041996377
     },
     "address": "辽宁省沈阳市沈北新区沈北路81号沈阳航空航天大学北方科技学院内",
     "province": "辽宁省",
@@ -36086,8 +36210,8 @@ export const universityList =
   {
     "name": "河南科技学院新科学院(新校区)",
     "location": {
-      "lat": 35.210127,
-      "lng": 113.903289
+      "lat": 35.33992095683718,
+      "lng": 113.90473461044093
     },
     "address": "河南省新乡市新乡县朗公庙镇新飞大道南段777号",
     "province": "河南省",
@@ -36102,8 +36226,8 @@ export const universityList =
   {
     "name": "江西陶瓷工艺美术职业技术学院(新校区)",
     "location": {
-      "lat": 29.383853,
-      "lng": 117.218132
+      "lat": 29.381809861288048,
+      "lng": 117.2179538859035
     },
     "address": "江西省景德镇市浮梁县工美大道666号",
     "province": "江西省",
@@ -36117,8 +36241,8 @@ export const universityList =
   {
     "name": "大连枫叶职业技术学院",
     "location": {
-      "lat": 38.966932,
-      "lng": 121.313683
+      "lat": 38.96693212161035,
+      "lng": 121.3136830133951
     },
     "address": "http://www.dlxgjy.com/",
     "province": "辽宁省",
@@ -36133,8 +36257,8 @@ export const universityList =
   {
     "name": "浙江横店影视职业学院",
     "location": {
-      "lat": 29.151522,
-      "lng": 120.337548
+      "lat": 29.151521934363416,
+      "lng": 120.33754766837932
     },
     "address": "http://zjhyxy.zhiye.chaoxing.com/",
     "province": "浙江省",
@@ -36149,8 +36273,8 @@ export const universityList =
   {
     "name": "广西科技师范学院",
     "location": {
-      "lat": 23.779485,
-      "lng": 109.217548
+      "lat": 23.779485145501987,
+      "lng": 109.21754790985699
     },
     "address": "http://www.gxstnu.edu.cn/",
     "province": "广西壮族自治区",
@@ -36165,8 +36289,8 @@ export const universityList =
   {
     "name": "青岛理工大学(黄岛校区)",
     "location": {
-      "lat": 35.979979,
-      "lng": 120.21173
+      "lat": 35.98009589549496,
+      "lng": 120.21178796806063
     },
     "address": "山东省青岛市黄岛区嘉陵江东路777号",
     "province": "山东省",
@@ -36180,8 +36304,8 @@ export const universityList =
   {
     "name": "汉中职业技术学院",
     "location": {
-      "lat": 33.170845,
-      "lng": 106.985391
+      "lat": 33.170844815534075,
+      "lng": 106.9853905121463
     },
     "address": "http://www.hzvtc.cn/",
     "province": "陕西省",
@@ -36196,8 +36320,8 @@ export const universityList =
   {
     "name": "西北师范大学(云亭校区)",
     "location": {
-      "lat": 36.103823,
-      "lng": 103.744892
+      "lat": 36.10286747901771,
+      "lng": 103.74504479520827
     },
     "address": "甘肃省兰州市安宁东路967号",
     "province": "甘肃省",
@@ -36212,8 +36336,8 @@ export const universityList =
   {
     "name": "山东工艺美术学院(长清校区)",
     "location": {
-      "lat": 36.560837,
-      "lng": 116.841869
+      "lat": 36.55879947490716,
+      "lng": 116.84450225035485
     },
     "address": "山东省济南市长清区大学科技园大学路1255号",
     "province": "山东省",
@@ -36228,8 +36352,8 @@ export const universityList =
   {
     "name": "宿迁学院",
     "location": {
-      "lat": 33.936746,
-      "lng": 118.303171
+      "lat": 33.936746077562134,
+      "lng": 118.30317100694872
     },
     "address": "http://www.sqc.edu.cn/",
     "province": "江苏省",
@@ -36244,8 +36368,8 @@ export const universityList =
   {
     "name": "广州大学(大学城校区)",
     "location": {
-      "lat": 23.046825,
-      "lng": 113.377372
+      "lat": 23.060172518291676,
+      "lng": 113.38923719510201
     },
     "address": "广东省广州市番禺区外环西路230号",
     "province": "广东省",
@@ -36260,8 +36384,8 @@ export const universityList =
   {
     "name": "江苏建筑职业技术学院",
     "location": {
-      "lat": 34.209231,
-      "lng": 117.182764
+      "lat": 34.35290811121926,
+      "lng": 118.03332676904266
     },
     "address": "http://www.jsjzi.edu.cn/",
     "province": "江苏省",
@@ -36276,8 +36400,8 @@ export const universityList =
   {
     "name": "盘锦职业技术学院",
     "location": {
-      "lat": 40.734399,
-      "lng": 122.112493
+      "lat": 40.7343985321294,
+      "lng": 122.1124927440712
     },
     "address": "http://www.pjzy.net.cn/",
     "province": "辽宁省",
@@ -36292,8 +36416,8 @@ export const universityList =
   {
     "name": "宁波城市职业技术学院",
     "location": {
-      "lat": 29.814698,
-      "lng": 121.577728
+      "lat": 29.702638167994778,
+      "lng": 121.37980825293688
     },
     "address": "http://www.nbcc.cn/",
     "province": "浙江省",
@@ -36308,8 +36432,8 @@ export const universityList =
   {
     "name": "泰山护理职业学院(新校区)",
     "location": {
-      "lat": 36.189815,
-      "lng": 117.013392
+      "lat": 36.18980203239273,
+      "lng": 117.01338350656961
     },
     "address": "山东省泰安市岱岳区天平大街25号",
     "province": "山东省",
@@ -36324,8 +36448,8 @@ export const universityList =
   {
     "name": "西南财经大学(柳林校区)",
     "location": {
-      "lat": 30.687832,
-      "lng": 103.827675
+      "lat": 30.68734250071212,
+      "lng": 103.83255717900701
     },
     "address": "成都市温江区柳台大道555号",
     "province": "四川省",
@@ -36340,8 +36464,8 @@ export const universityList =
   {
     "name": "齐齐哈尔高等师范专科学校",
     "location": {
-      "lat": 47.320699,
-      "lng": 123.980191
+      "lat": 47.32069921918945,
+      "lng": 123.9801907116937
     },
     "address": "http://www.qqhrtc.com/",
     "province": "黑龙江省",
@@ -36356,8 +36480,8 @@ export const universityList =
   {
     "name": "石家庄工商职业学院",
     "location": {
-      "lat": 38.001454,
-      "lng": 114.478545
+      "lat": 38.001454062314025,
+      "lng": 114.47854501851383
     },
     "address": "http://www.sjzgsxy.com/default.aspx",
     "province": "河北省",
@@ -36372,8 +36496,8 @@ export const universityList =
   {
     "name": "川北医学院(顺庆校区)",
     "location": {
-      "lat": 30.801407,
-      "lng": 106.086844
+      "lat": 30.79987623270643,
+      "lng": 106.08748744303682
     },
     "address": "四川省南充市顺庆区涪江路234号",
     "province": "四川省",
@@ -36388,8 +36512,8 @@ export const universityList =
   {
     "name": "大连医科大学中山学院",
     "location": {
-      "lat": 38.859516,
-      "lng": 121.519435
+      "lat": 38.92295309233416,
+      "lng": 121.65515696486965
     },
     "address": "http://www.dmuzs.edu.cn/",
     "province": "辽宁省",
@@ -36404,8 +36528,8 @@ export const universityList =
   {
     "name": "山东中医药高等专科学校(新校区)",
     "location": {
-      "lat": 37.444956,
-      "lng": 121.640234
+      "lat": 37.44621579011865,
+      "lng": 121.6404155917898
     },
     "address": "滨海东路508号",
     "province": "山东省",
@@ -36420,8 +36544,8 @@ export const universityList =
   {
     "name": "四川机电职业技术学院",
     "location": {
-      "lat": 26.574837,
-      "lng": 101.766215
+      "lat": 26.574837005933848,
+      "lng": 101.76621491727342
     },
     "address": "http://www.scemi.com/",
     "province": "四川省",
@@ -36436,8 +36560,8 @@ export const universityList =
   {
     "name": "贵州财经职业学院",
     "location": {
-      "lat": 26.598855,
-      "lng": 106.445741
+      "lat": 26.59824500631853,
+      "lng": 106.4477690250614
     },
     "address": null,
     "province": "贵州省",
@@ -36451,8 +36575,8 @@ export const universityList =
   {
     "name": "朔州师范高等专科学校",
     "location": {
-      "lat": 39.382779,
-      "lng": 112.463009
+      "lat": 39.3827790081249,
+      "lng": 112.46300913051836
     },
     "address": "http://www.sxszsfdx.com/",
     "province": "山西省",
@@ -36467,8 +36591,8 @@ export const universityList =
   {
     "name": "云南农业职业技术学院",
     "location": {
-      "lat": 25.172325,
-      "lng": 102.985343
+      "lat": 24.89222577587088,
+      "lng": 102.52893001366225
     },
     "address": "http://www.ynavc.com/",
     "province": "云南省",
@@ -36483,8 +36607,8 @@ export const universityList =
   {
     "name": "河源职业技术学院",
     "location": {
-      "lat": 23.759732,
-      "lng": 114.744687
+      "lat": 23.759732367711347,
+      "lng": 114.74468696509906
     },
     "address": "http://www.hycollege.net/",
     "province": "广东省",
@@ -36499,8 +36623,8 @@ export const universityList =
   {
     "name": "湖南工业大学",
     "location": {
-      "lat": 27.823866,
-      "lng": 113.114149
+      "lat": 27.83653188517954,
+      "lng": 113.17859955478379
     },
     "address": "http://www.hut.edu.cn/",
     "province": "湖南省",
@@ -36515,8 +36639,8 @@ export const universityList =
   {
     "name": "上海商学院(奉浦校区)",
     "location": {
-      "lat": 30.947048,
-      "lng": 121.463114
+      "lat": 30.96049904554414,
+      "lng": 121.50566626190162
     },
     "address": "上海市奉贤区东方美谷大道6333号",
     "province": "上海市",
@@ -36531,8 +36655,8 @@ export const universityList =
   {
     "name": "贵州理工学院(贵安校区)",
     "location": {
-      "lat": 26.382418,
-      "lng": 106.621903
+      "lat": 26.38066041263726,
+      "lng": 106.62641576041611
     },
     "address": "贵州省贵阳市花溪区南环高速(贵州民族大学新校区西北侧)",
     "province": "贵州省",
@@ -36545,8 +36669,8 @@ export const universityList =
   {
     "name": "重庆公共运输职业学院",
     "location": {
-      "lat": 29.411366,
-      "lng": 106.28262
+      "lat": 29.411365760602944,
+      "lng": 106.2826199588035
     },
     "address": "http://www.cqgyzy.com/",
     "province": "重庆市",
@@ -36561,8 +36685,8 @@ export const universityList =
   {
     "name": "苏州农业职业技术学院",
     "location": {
-      "lat": 31.320135,
-      "lng": 120.588194
+      "lat": 31.43078807204037,
+      "lng": 120.61147849455087
     },
     "address": "http://www.szai.com/",
     "province": "江苏省",
@@ -36577,8 +36701,8 @@ export const universityList =
   {
     "name": "邯郸学院",
     "location": {
-      "lat": 36.583567,
-      "lng": 114.516364
+      "lat": 36.78454138801393,
+      "lng": 114.97601295569586
     },
     "address": "http://www.hdc.edu.cn/",
     "province": "河北省",
@@ -36593,8 +36717,8 @@ export const universityList =
   {
     "name": "怀化职业技术学院",
     "location": {
-      "lat": 27.539834,
-      "lng": 109.941533
+      "lat": 27.539833653298913,
+      "lng": 109.94153274385702
     },
     "address": "http://www.hhvtc.com.cn/",
     "province": "湖南省",
@@ -36609,8 +36733,8 @@ export const universityList =
   {
     "name": "重庆三峡职业学院",
     "location": {
-      "lat": 30.763036,
-      "lng": 108.400921
+      "lat": 30.763035934165263,
+      "lng": 108.40092057204834
     },
     "address": "http://www.cqsxedu.com/",
     "province": "重庆市",
@@ -36625,8 +36749,8 @@ export const universityList =
   {
     "name": "长沙理工大学-城南学院",
     "location": {
-      "lat": 28.158435,
-      "lng": 112.983005
+      "lat": 28.161818957033653,
+      "lng": 112.98281629437363
     },
     "address": "湖南省长沙市天心区赤岭路45号",
     "province": "湖南省",
@@ -36641,8 +36765,8 @@ export const universityList =
   {
     "name": "内蒙古机电职业技术学院",
     "location": {
-      "lat": 40.911173,
-      "lng": 111.853126
+      "lat": 40.911172851719655,
+      "lng": 111.85312562486776
     },
     "address": "http://www.nmgjdxy.com/web/main/",
     "province": "内蒙古自治区",
@@ -36657,8 +36781,8 @@ export const universityList =
   {
     "name": "新疆工程学院",
     "location": {
-      "lat": 43.849144,
-      "lng": 87.41686
+      "lat": 43.96292370337008,
+      "lng": 87.68162031497037
     },
     "address": "http://www.xjie.edu.cn/",
     "province": "新疆维吾尔自治区",
@@ -36673,8 +36797,8 @@ export const universityList =
   {
     "name": "四川轻化工大学(宜宾校区)",
     "location": {
-      "lat": 28.811278,
-      "lng": 104.677185
+      "lat": 28.806518037301036,
+      "lng": 104.6828029732107
     },
     "address": "四川省宜宾市三江新区临港经济技术开发区大学城188号",
     "province": "四川省",
@@ -36689,8 +36813,8 @@ export const universityList =
   {
     "name": "齐齐哈尔理工职业学院",
     "location": {
-      "lat": 47.22183,
-      "lng": 123.612137
+      "lat": 47.22183016232248,
+      "lng": 123.61213661882103
     },
     "address": "http://www.qlgxy.com/",
     "province": "黑龙江省",
@@ -36705,8 +36829,8 @@ export const universityList =
   {
     "name": "黑龙江冰雪体育职业学院",
     "location": {
-      "lat": 45.865174,
-      "lng": 126.695977
+      "lat": 45.86517367138001,
+      "lng": 126.69597694474402
     },
     "address": "http://bingxue.zhiye.chaoxing.com/",
     "province": "黑龙江省",
@@ -36721,8 +36845,8 @@ export const universityList =
   {
     "name": "天津渤海职业技术学院",
     "location": {
-      "lat": 39.269084,
-      "lng": 117.369046
+      "lat": 39.07839035626057,
+      "lng": 117.22723321796946
     },
     "address": "https://www.tjbhzy.com/",
     "province": "天津市",
@@ -36737,8 +36861,8 @@ export const universityList =
   {
     "name": "贵州盛华职业学院",
     "location": {
-      "lat": 26.073397,
-      "lng": 106.600516
+      "lat": 26.07339659936222,
+      "lng": 106.60051635494429
     },
     "address": "http://www.forerunnercollege.com/",
     "province": "贵州省",
@@ -36752,8 +36876,8 @@ export const universityList =
   {
     "name": "内蒙古医科大学",
     "location": {
-      "lat": 40.826934,
-      "lng": 111.667314
+      "lat": 40.81759577641502,
+      "lng": 111.6804903499268
     },
     "address": "https://www.immu.edu.cn/",
     "province": "内蒙古自治区",
@@ -36768,8 +36892,8 @@ export const universityList =
   {
     "name": "新疆医科大学(新医路校区)",
     "location": {
-      "lat": 43.843278,
-      "lng": 87.586247
+      "lat": 43.84192401421812,
+      "lng": 87.58426385024055
     },
     "address": "乌鲁木齐市新市区新医路393号",
     "province": "新疆维吾尔自治区",
@@ -36784,8 +36908,8 @@ export const universityList =
   {
     "name": "呼伦贝尔学院(主校区)",
     "location": {
-      "lat": 49.206952,
-      "lng": 119.785543
+      "lat": 49.20711475744797,
+      "lng": 119.78621473483348
     },
     "address": "内蒙古自治区呼伦贝尔市海拉尔区学府路83号",
     "province": "内蒙古自治区",
@@ -36800,8 +36924,8 @@ export const universityList =
   {
     "name": "西南石油大学(成都校区)",
     "location": {
-      "lat": 30.833417,
-      "lng": 104.192499
+      "lat": 30.827415136644756,
+      "lng": 104.18585858014812
     },
     "address": "四川省成都市新都区新都大道8号",
     "province": "四川省",
@@ -36816,8 +36940,8 @@ export const universityList =
   {
     "name": "四川华新现代职业学院",
     "location": {
-      "lat": 30.655265,
-      "lng": 104.241298
+      "lat": 30.655265477201148,
+      "lng": 104.24129840300192
     },
     "address": "http://www.schxmvc.com.cn/",
     "province": "四川省",
@@ -36832,8 +36956,8 @@ export const universityList =
   {
     "name": "山东服装职业学院",
     "location": {
-      "lat": 36.221567,
-      "lng": 117.180999
+      "lat": 36.22156665228305,
+      "lng": 117.18099869099859
     },
     "address": "http://www.svict.com/",
     "province": "山东省",
@@ -36848,8 +36972,8 @@ export const universityList =
   {
     "name": "泰山学院",
     "location": {
-      "lat": 36.228513,
-      "lng": 117.045757
+      "lat": 36.22851287187123,
+      "lng": 117.0457569998604
     },
     "address": "http://www.tsu.edu.cn/",
     "province": "山东省",
@@ -36864,8 +36988,8 @@ export const universityList =
   {
     "name": "泉州经贸职业技术学院",
     "location": {
-      "lat": 24.910597,
-      "lng": 118.547363
+      "lat": 24.910597008384233,
+      "lng": 118.5473630368026
     },
     "address": "http://www.qzjmc.cn/",
     "province": "福建省",
@@ -36880,8 +37004,8 @@ export const universityList =
   {
     "name": "河南建筑职业技术学院",
     "location": {
-      "lat": 34.718005,
-      "lng": 113.529892
+      "lat": 34.71800545033728,
+      "lng": 113.52989217961814
     },
     "address": "http://www.hnjs.edu.cn/",
     "province": "河南省",
@@ -36896,8 +37020,8 @@ export const universityList =
   {
     "name": "西华大学(郫都校区)",
     "location": {
-      "lat": 30.782454,
-      "lng": 103.962133
+      "lat": 30.77707815661075,
+      "lng": 103.95190515075718
     },
     "address": "四川省成都市郫都区红光大道9999号",
     "province": "四川省",
@@ -36912,8 +37036,8 @@ export const universityList =
   {
     "name": "石家庄铁道大学四方学院(南校区)",
     "location": {
-      "lat": 37.889637,
-      "lng": 114.412919
+      "lat": 37.89252241077236,
+      "lng": 114.41776054736731
     },
     "address": "河北省石家庄市元氏县装院路甲一号",
     "province": "河北省",
@@ -36928,8 +37052,8 @@ export const universityList =
   {
     "name": "浙江理工大学科技与艺术学院",
     "location": {
-      "lat": 30.190043,
-      "lng": 120.826569
+      "lat": 30.190043388221532,
+      "lng": 120.82656867602941
     },
     "address": "http://www.ky.zstu.edu.cn/index.htm",
     "province": "浙江省",
@@ -36944,8 +37068,8 @@ export const universityList =
   {
     "name": "威海职业学院",
     "location": {
-      "lat": 37.452907,
-      "lng": 121.946604
+      "lat": 37.45290698398962,
+      "lng": 121.94660401300185
     },
     "address": "http://www.weihaicollege.com/",
     "province": "山东省",
@@ -36960,8 +37084,8 @@ export const universityList =
   {
     "name": "榆林能源科技职业学院",
     "location": {
-      "lat": 38.383909,
-      "lng": 109.79334
+      "lat": 38.383908940390654,
+      "lng": 109.79334019558684
     },
     "address": null,
     "province": "陕西省",
@@ -36976,8 +37100,8 @@ export const universityList =
   {
     "name": "云南水利水电职业学院(富民校区)",
     "location": {
-      "lat": 25.245187,
-      "lng": 102.491482
+      "lat": 25.229226734529213,
+      "lng": 102.50104355640302
     },
     "address": "云南省昆明市富民县永定街道134号",
     "province": "云南省",
@@ -36992,13 +37116,17 @@ export const universityList =
   {
     "name": "济南市",
     "num": 8,
-    "index": 2354
+    "index": 2354,
+    "location": {
+      "lat": 36.85200786652008,
+      "lng": 117.21407106597616
+    }
   },
   {
     "name": "阜阳师范大学信息工程学院",
     "location": {
-      "lat": 32.899151,
-      "lng": 115.811385
+      "lat": 32.89915056564327,
+      "lng": 115.81138452910304
     },
     "address": "http://cie.fync.edu.cn/",
     "province": "安徽省",
@@ -37013,8 +37141,8 @@ export const universityList =
   {
     "name": "长春大学旅游学院",
     "location": {
-      "lat": 43.69656,
-      "lng": 125.527015
+      "lat": 43.69656040751515,
+      "lng": 125.52701459939146
     },
     "address": "http://www.cctourcollege.com/",
     "province": "吉林省",
@@ -37029,8 +37157,8 @@ export const universityList =
   {
     "name": "安徽电气工程职业技术学院(新校区)",
     "location": {
-      "lat": 31.819802,
-      "lng": 117.307128
+      "lat": 31.819663540889238,
+      "lng": 117.3072012727732
     },
     "address": "合肥市包河区包河大道56号",
     "province": "安徽省",
@@ -37045,8 +37173,8 @@ export const universityList =
   {
     "name": "三门峡职业技术学院",
     "location": {
-      "lat": 34.794162,
-      "lng": 111.168355
+      "lat": 34.79416222021075,
+      "lng": 111.16835452105563
     },
     "address": "http://www.smxpt.cn/",
     "province": "河南省",
@@ -37061,8 +37189,8 @@ export const universityList =
   {
     "name": "衡水职业技术学院",
     "location": {
-      "lat": 37.705335,
-      "lng": 115.687471
+      "lat": 37.78501726318418,
+      "lng": 115.85913512628306
     },
     "address": "http://www.hsvtc.cn/",
     "province": "河北省",
@@ -37077,8 +37205,8 @@ export const universityList =
   {
     "name": "郑州幼儿师范高等专科学校",
     "location": {
-      "lat": 34.783504,
-      "lng": 113.862003
+      "lat": 34.78350442145864,
+      "lng": 113.86200255377886
     },
     "address": "http://www.zyedu.org/",
     "province": "河南省",
@@ -37093,8 +37221,8 @@ export const universityList =
   {
     "name": "山西农业大学信息学院",
     "location": {
-      "lat": 37.457115,
-      "lng": 112.579356
+      "lat": 37.457114884529496,
+      "lng": 112.57935649237353
     },
     "address": "http://www.cisau.com.cn/",
     "province": "山西省",
@@ -37109,8 +37237,8 @@ export const universityList =
   {
     "name": "上海戏剧学院(华山路校区)",
     "location": {
-      "lat": 31.223535,
-      "lng": 121.446441
+      "lat": 31.223534845046096,
+      "lng": 121.44644097962878
     },
     "address": "上海市静安区华山路630号上海戏剧学院内近镇宁路",
     "province": "上海市",
@@ -37125,8 +37253,8 @@ export const universityList =
   {
     "name": "南方医科大学",
     "location": {
-      "lat": 23.193292,
-      "lng": 113.341254
+      "lat": 23.19329185038065,
+      "lng": 113.3412543859635
     },
     "address": "http://www.fimmu.com/",
     "province": "广东省",
@@ -37141,8 +37269,8 @@ export const universityList =
   {
     "name": "长春师范大学",
     "location": {
-      "lat": 43.919075,
-      "lng": 125.401931
+      "lat": 43.91927731428141,
+      "lng": 125.40293974404779
     },
     "address": "http://www.cncnc.edu.cn/",
     "province": "吉林省",
@@ -37157,8 +37285,8 @@ export const universityList =
   {
     "name": "贵州大学(花溪东校区)",
     "location": {
-      "lat": 26.450442,
-      "lng": 106.678823
+      "lat": 26.451824642786544,
+      "lng": 106.67972938394072
     },
     "address": "贵阳市花溪区花溪大道南段2708号",
     "province": "贵州省",
@@ -37173,8 +37301,8 @@ export const universityList =
   {
     "name": "四川卫生康复职业学院",
     "location": {
-      "lat": 29.359426,
-      "lng": 104.852076
+      "lat": 29.359426037404816,
+      "lng": 104.85207598040246
     },
     "address": "http://www.svchr.edu.cn/",
     "province": "四川省",
@@ -37189,8 +37317,8 @@ export const universityList =
   {
     "name": "安阳师范学院(新校区)",
     "location": {
-      "lat": 36.065262,
-      "lng": 114.379048
+      "lat": 36.063632605156826,
+      "lng": 114.3743437352896
     },
     "address": "河南省安阳市文峰区弦歌大道436号",
     "province": "河南省",
@@ -37205,8 +37333,8 @@ export const universityList =
   {
     "name": "云南艺术学院文华学院",
     "location": {
-      "lat": 24.942683,
-      "lng": 102.904135
+      "lat": 24.94268345167491,
+      "lng": 102.9041349775903
     },
     "address": "http://www.whxyart.cn/list/ynartwhPc/1/12/auto/20/0.html",
     "province": "云南省",
@@ -37221,8 +37349,8 @@ export const universityList =
   {
     "name": "河南理工大学(南校区)",
     "location": {
-      "lat": 35.193959,
-      "lng": 113.274063
+      "lat": 35.19435559225622,
+      "lng": 113.27331833951934
     },
     "address": "河南省焦作市山阳区世纪大道2001号",
     "province": "河南省",
@@ -37237,8 +37365,8 @@ export const universityList =
   {
     "name": "江门职业技术学院",
     "location": {
-      "lat": 22.631526,
-      "lng": 113.115135
+      "lat": 22.22544315180779,
+      "lng": 112.8032394534942
     },
     "address": "http://www.jmpt.cn/",
     "province": "广东省",
@@ -37253,8 +37381,8 @@ export const universityList =
   {
     "name": "石家庄科技信息职业学院",
     "location": {
-      "lat": 37.995276,
-      "lng": 114.466223
+      "lat": 38.31383905434894,
+      "lng": 114.42016602986193
     },
     "address": "http://www.hebkx.cn/index.php",
     "province": "河北省",
@@ -37269,8 +37397,8 @@ export const universityList =
   {
     "name": "宜春职业技术学院(新校区)",
     "location": {
-      "lat": 27.839352,
-      "lng": 114.368134
+      "lat": 28.443054400926084,
+      "lng": 115.35430825516993
     },
     "address": "江西省宜春市袁州区锦绣大道996号",
     "province": "江西省",
@@ -37285,8 +37413,8 @@ export const universityList =
   {
     "name": "运城职业技术大学",
     "location": {
-      "lat": 35.078743,
-      "lng": 111.015403
+      "lat": 35.07874295216861,
+      "lng": 111.01540300627987
     },
     "address": "http://www.ycptu.edu.cn/",
     "province": "山西省",
@@ -37301,8 +37429,8 @@ export const universityList =
   {
     "name": "重庆经贸职业学院",
     "location": {
-      "lat": 29.537311,
-      "lng": 108.838583
+      "lat": 29.53731139731384,
+      "lng": 108.83858308821817
     },
     "address": "http://www.cqvcet.com/",
     "province": "重庆市",
@@ -37317,8 +37445,8 @@ export const universityList =
   {
     "name": "山东政法学院(茂岭校区)",
     "location": {
-      "lat": 36.673185,
-      "lng": 117.097454
+      "lat": 36.67190677435854,
+      "lng": 117.09294355101072
     },
     "address": "山东省济南市历下区解放东路63号",
     "province": "山东省",
@@ -37333,8 +37461,8 @@ export const universityList =
   {
     "name": "山东农业大学(岱宗校区)",
     "location": {
-      "lat": 36.200713,
-      "lng": 117.12296
+      "lat": 36.200891796961386,
+      "lng": 117.12467466603132
     },
     "address": "山东省泰安市泰山区岱宗大街61号",
     "province": "山东省",
@@ -37349,8 +37477,8 @@ export const universityList =
   {
     "name": "陕西铁路工程职业技术学院",
     "location": {
-      "lat": 34.493059,
-      "lng": 109.514034
+      "lat": 34.48283689836668,
+      "lng": 109.50148343031152
     },
     "address": "http://www.sxri.net/",
     "province": "陕西省",
@@ -37365,8 +37493,8 @@ export const universityList =
   {
     "name": "哈尔滨工业大学",
     "location": {
-      "lat": 45.749057,
-      "lng": 126.639003
+      "lat": 45.74756958377594,
+      "lng": 126.6325677147275
     },
     "address": "http://www.hit.edu.cn/",
     "province": "黑龙江省",
@@ -37381,8 +37509,8 @@ export const universityList =
   {
     "name": "新疆财经大学",
     "location": {
-      "lat": 43.888901,
-      "lng": 87.55535
+      "lat": 43.85873964715235,
+      "lng": 87.57815052192294
     },
     "address": "http://www.xjufe.edu.cn/",
     "province": "新疆维吾尔自治区",
@@ -37397,8 +37525,8 @@ export const universityList =
   {
     "name": "河北石油职业技术学院",
     "location": {
-      "lat": 39.530335,
-      "lng": 116.68257
+      "lat": 39.53033475989463,
+      "lng": 116.68257046522639
     },
     "address": "",
     "province": "河北省",
@@ -37413,8 +37541,8 @@ export const universityList =
   {
     "name": "洛阳科技职业学院",
     "location": {
-      "lat": 34.69337,
-      "lng": 112.296527
+      "lat": 34.69337020508741,
+      "lng": 112.29652715849019
     },
     "address": "http://www.lykjxy.cn/",
     "province": "河南省",
@@ -37429,8 +37557,8 @@ export const universityList =
   {
     "name": "山西传媒学院(文华校区)",
     "location": {
-      "lat": 37.747287,
-      "lng": 112.738142
+      "lat": 37.746429209030985,
+      "lng": 112.7371439450317
     },
     "address": "山西省晋中市榆次区文华街125号",
     "province": "山西省",
@@ -37444,8 +37572,8 @@ export const universityList =
   {
     "name": "沈阳药科大学",
     "location": {
-      "lat": 41.7741,
-      "lng": 123.451265
+      "lat": 41.77410004173247,
+      "lng": 123.45126457441775
     },
     "address": "http://www.syphu.edu.cn/",
     "province": "辽宁省",
@@ -37460,8 +37588,8 @@ export const universityList =
   {
     "name": "江西旅游商贸职业学院(经济管理分院)",
     "location": {
-      "lat": 28.711707,
-      "lng": 115.794865
+      "lat": 28.714865373780242,
+      "lng": 115.79626908626948
     },
     "address": "江西省南昌市经济技术开发区丁香路一号",
     "province": "江西省",
@@ -37476,8 +37604,8 @@ export const universityList =
   {
     "name": "山西药科职业学院",
     "location": {
-      "lat": 37.782726,
-      "lng": 112.657831
+      "lat": 37.7827257532125,
+      "lng": 112.65783129392804
     },
     "address": "http://www.sxbac.net.cn/",
     "province": "山西省",
@@ -37492,8 +37620,8 @@ export const universityList =
   {
     "name": "永州职业技术学院(本部)",
     "location": {
-      "lat": 26.275959,
-      "lng": 111.636303
+      "lat": 26.27564692266328,
+      "lng": 111.63831049057048
     },
     "address": "永州市零陵区永州大道289号",
     "province": "湖南省",
@@ -37508,8 +37636,8 @@ export const universityList =
   {
     "name": "广东南华工商职业学院(天河校区)",
     "location": {
-      "lat": 23.172392,
-      "lng": 113.330972
+      "lat": 23.171568554841315,
+      "lng": 113.33118204560564
     },
     "address": "广东省广州市天河区沙太南路113号",
     "province": "广东省",
@@ -37524,8 +37652,8 @@ export const universityList =
   {
     "name": "山东交通学院(长清校区)",
     "location": {
-      "lat": 36.543993,
-      "lng": 116.799642
+      "lat": 36.54687755973505,
+      "lng": 116.80177677419762
     },
     "address": "山东省济南市长清区大学科技园海棠路5001号",
     "province": "山东省",
@@ -37540,8 +37668,8 @@ export const universityList =
   {
     "name": "邯郸职业技术学院",
     "location": {
-      "lat": 36.588547,
-      "lng": 114.517917
+      "lat": 36.588547099809034,
+      "lng": 114.5179172998634
     },
     "address": "http://www.hd-u.com/hdzj",
     "province": "河北省",
@@ -37556,8 +37684,8 @@ export const universityList =
   {
     "name": "重庆工商大学派斯学院",
     "location": {
-      "lat": 30.011144,
-      "lng": 106.269463
+      "lat": 30.011143659732785,
+      "lng": 106.26946347833162
     },
     "address": "http://www.paisi.edu.cn/",
     "province": "重庆市",
@@ -37572,8 +37700,8 @@ export const universityList =
   {
     "name": "郑州商贸旅游职业学院",
     "location": {
-      "lat": 34.768394,
-      "lng": 113.509224
+      "lat": 34.56525150842085,
+      "lng": 113.34911322624592
     },
     "address": "http://www.zzvcct.com/",
     "province": "河南省",
@@ -37588,8 +37716,8 @@ export const universityList =
   {
     "name": "淮南联合大学",
     "location": {
-      "lat": 32.618115,
-      "lng": 116.954717
+      "lat": 32.65089232132356,
+      "lng": 117.01675062511266
     },
     "address": "http://www.hnuu.edu.cn/",
     "province": "安徽省",
@@ -37604,8 +37732,8 @@ export const universityList =
   {
     "name": "闽西职业技术学院(南校区)",
     "location": {
-      "lat": 25.068978,
-      "lng": 117.037921
+      "lat": 25.07601179580301,
+      "lng": 117.03920348609297
     },
     "address": "福建省龙岩市新罗区曹溪闽大路8号",
     "province": "福建省",
@@ -37620,8 +37748,8 @@ export const universityList =
   {
     "name": "四川工业科技学院(罗江校区)",
     "location": {
-      "lat": 31.326747,
-      "lng": 104.503607
+      "lat": 31.326589330287582,
+      "lng": 104.50444927672258
     },
     "address": "德阳市罗江区大学路59号",
     "province": "四川省",
@@ -37636,8 +37764,8 @@ export const universityList =
   {
     "name": "西安健康工程职业学院",
     "location": {
-      "lat": 34.025359,
-      "lng": 108.744181
+      "lat": 34.02535903177599,
+      "lng": 108.74418098369057
     },
     "address": "",
     "province": "陕西省",
@@ -37651,8 +37779,8 @@ export const universityList =
   {
     "name": "四川文化艺术学院(绵阳校区)",
     "location": {
-      "lat": 31.427396,
-      "lng": 104.766691
+      "lat": 31.42746909430402,
+      "lng": 104.77105754869004
     },
     "address": "机场东路83号",
     "province": "四川省",
@@ -37667,8 +37795,8 @@ export const universityList =
   {
     "name": "荆门职业学院",
     "location": {
-      "lat": 30.996752,
-      "lng": 112.205797
+      "lat": 30.99675183876481,
+      "lng": 112.20579704435471
     },
     "address": "http://www.jmzyxy.net.cn/",
     "province": "湖北省",
@@ -37683,8 +37811,8 @@ export const universityList =
   {
     "name": "沈阳城市建设学院",
     "location": {
-      "lat": 41.684461,
-      "lng": 123.421633
+      "lat": 41.68446100055141,
+      "lng": 123.42163270954343
     },
     "address": "http://www.syucu.edu.cn/",
     "province": "辽宁省",
@@ -37699,8 +37827,8 @@ export const universityList =
   {
     "name": "重庆建筑科技职业学院",
     "location": {
-      "lat": 29.624144,
-      "lng": 106.334728
+      "lat": 29.624144240656253,
+      "lng": 106.33472805633413
     },
     "address": "http://www.cqfdcxy.com/",
     "province": "重庆市",
@@ -37715,8 +37843,8 @@ export const universityList =
   {
     "name": "宁波财经学院",
     "location": {
-      "lat": 29.892875,
-      "lng": 121.488521
+      "lat": 29.892874954469246,
+      "lng": 121.48852100605738
     },
     "address": "https://www.dhyedu.com/",
     "province": "浙江省",
@@ -37731,8 +37859,8 @@ export const universityList =
   {
     "name": "长春医学高等专科学校",
     "location": {
-      "lat": 43.891446,
-      "lng": 125.436621
+      "lat": 43.89144616392636,
+      "lng": 125.43662099050002
     },
     "address": "http://www.cmcedu.cn/",
     "province": "吉林省",
@@ -37747,8 +37875,8 @@ export const universityList =
   {
     "name": "蚌埠经济技术职业学院",
     "location": {
-      "lat": 33.161774,
-      "lng": 117.376506
+      "lat": 33.161774288388756,
+      "lng": 117.3765060818513
     },
     "address": "http://www.bjy.ah.cn/index.php",
     "province": "安徽省",
@@ -37763,8 +37891,8 @@ export const universityList =
   {
     "name": "重庆三峡学院",
     "location": {
-      "lat": 30.757785,
-      "lng": 108.458786
+      "lat": 30.757784860804616,
+      "lng": 108.45878599944017
     },
     "address": "http://www.sanxiau.edu.cn/",
     "province": "重庆市",
@@ -37779,8 +37907,8 @@ export const universityList =
   {
     "name": "南京机电职业技术学院(高淳校区)",
     "location": {
-      "lat": 31.391839,
-      "lng": 118.894435
+      "lat": 31.391838654732148,
+      "lng": 118.8944351546329
     },
     "address": "江苏省南京市高淳区鹿鸣大道33号",
     "province": "江苏省",
@@ -37795,8 +37923,8 @@ export const universityList =
   {
     "name": "台州职业技术学院",
     "location": {
-      "lat": 28.659357,
-      "lng": 121.405764
+      "lat": 28.218063907400385,
+      "lng": 121.23712697527327
     },
     "address": "http://www.tzvtc.edu.cn/",
     "province": "浙江省",
@@ -37811,8 +37939,8 @@ export const universityList =
   {
     "name": "厦门安防科技职业学院",
     "location": {
-      "lat": 24.594079,
-      "lng": 118.26745
+      "lat": 24.594079055410468,
+      "lng": 118.26745032134153
     },
     "address": "http://www.xmafkj.com/",
     "province": "福建省",
@@ -37827,8 +37955,8 @@ export const universityList =
   {
     "name": "辽宁医药职业学院",
     "location": {
-      "lat": 41.684937,
-      "lng": 123.359947
+      "lat": 41.6849374442139,
+      "lng": 123.35994678881765
     },
     "address": "http://www.lnyyzyxy.com/",
     "province": "辽宁省",
@@ -37843,8 +37971,8 @@ export const universityList =
   {
     "name": "保定幼儿师范高等专科学校",
     "location": {
-      "lat": 39.479383,
-      "lng": 115.931332
+      "lat": 39.27360245302176,
+      "lng": 115.81637165180277
     },
     "address": "http://www.hezs.cn/",
     "province": "河北省",
@@ -37859,8 +37987,8 @@ export const universityList =
   {
     "name": "四川长江职业学院",
     "location": {
-      "lat": 30.651449,
-      "lng": 104.170728
+      "lat": 30.651448558437927,
+      "lng": 104.17072842044355
     },
     "address": "http://www.sccvc.com/",
     "province": "四川省",
@@ -37875,8 +38003,8 @@ export const universityList =
   {
     "name": "山东司法警官职业学院",
     "location": {
-      "lat": 36.65012,
-      "lng": 117.536146
+      "lat": 36.65012008292305,
+      "lng": 117.53614610996271
     },
     "address": "http://www.sdsfjy.com/",
     "province": "山东省",
@@ -37891,8 +38019,8 @@ export const universityList =
   {
     "name": "广西工商职业技术学院",
     "location": {
-      "lat": 22.832416,
-      "lng": 108.207225
+      "lat": 23.180426817973647,
+      "lng": 108.28346828155824
     },
     "address": "http://www.gxgsxy.com/",
     "province": "广西壮族自治区",
@@ -37907,8 +38035,8 @@ export const universityList =
   {
     "name": "湖南农业大学-东方科技学院",
     "location": {
-      "lat": 28.1903,
-      "lng": 113.08852
+      "lat": 28.19273177955747,
+      "lng": 113.09109408796637
     },
     "address": "湖南省长沙市芙蓉区农大路1号",
     "province": "湖南省",
@@ -37923,8 +38051,8 @@ export const universityList =
   {
     "name": "晋中职业技术学院(新校区)",
     "location": {
-      "lat": 37.728599,
-      "lng": 112.787542
+      "lat": 37.723992468015936,
+      "lng": 112.77269465508073
     },
     "address": "山西省晋中市榆次区龙湖东大街919号",
     "province": "山西省",
@@ -37938,8 +38066,8 @@ export const universityList =
   {
     "name": "周口职业技术学院(开元校区)",
     "location": {
-      "lat": 33.591987,
-      "lng": 114.652658
+      "lat": 33.58978699603533,
+      "lng": 114.65669336594586
     },
     "address": "开元大道与五一路交叉口西北角",
     "province": "河南省",
@@ -37954,8 +38082,8 @@ export const universityList =
   {
     "name": "沈阳航空职业技术学院",
     "location": {
-      "lat": 41.815402,
-      "lng": 123.50193
+      "lat": 41.87575224280779,
+      "lng": 123.43571230095407
     },
     "address": "http://www.syhzy.cn/",
     "province": "辽宁省",
@@ -37969,8 +38097,8 @@ export const universityList =
   {
     "name": "内蒙古美术职业学院",
     "location": {
-      "lat": 40.724018,
-      "lng": 107.469339
+      "lat": 40.72401766207964,
+      "lng": 107.46933859208097
     },
     "address": "http://www.nmgmsxy.net/",
     "province": "内蒙古自治区",
@@ -37984,8 +38112,8 @@ export const universityList =
   {
     "name": "九江理工职业学院",
     "location": {
-      "lat": 29.612065,
-      "lng": 115.926063
+      "lat": 29.612065056682482,
+      "lng": 115.92606318326064
     },
     "address": null,
     "province": "江西省",
@@ -38000,8 +38128,8 @@ export const universityList =
   {
     "name": "安徽建筑大学(南校区)",
     "location": {
-      "lat": 31.747572,
-      "lng": 117.229891
+      "lat": 31.74749711477981,
+      "lng": 117.23359241250515
     },
     "address": "经济技术开发区紫云路292号",
     "province": "安徽省",
@@ -38016,8 +38144,8 @@ export const universityList =
   {
     "name": "重庆警察学院",
     "location": {
-      "lat": 29.631993,
-      "lng": 106.326001
+      "lat": 29.631992759704865,
+      "lng": 106.32600056915481
     },
     "address": "http://www.cqjy.com.cn/Index.shtml",
     "province": "重庆市",
@@ -38032,8 +38160,8 @@ export const universityList =
   {
     "name": "郑州经贸学院",
     "location": {
-      "lat": 34.621237,
-      "lng": 113.726495
+      "lat": 34.62123727714748,
+      "lng": 113.72649505404026
     },
     "address": "http://www.zcib.edu.cn/",
     "province": "河南省",
@@ -38048,8 +38176,8 @@ export const universityList =
   {
     "name": "安徽科技学院(龙湖校区)",
     "location": {
-      "lat": 32.891135,
-      "lng": 117.438047
+      "lat": 32.89113190153871,
+      "lng": 117.43804782454274
     },
     "address": "安徽省蚌埠市黄山大道1501号",
     "province": "安徽省",
@@ -38063,8 +38191,8 @@ export const universityList =
   {
     "name": "河南中医药大学(龙子湖校区)",
     "location": {
-      "lat": 34.786384,
-      "lng": 113.812058
+      "lat": 34.78961257058236,
+      "lng": 113.81005749868108
     },
     "address": "河南省郑州市金水区博学路街道明理路社区金水东路156号",
     "province": "河南省",
@@ -38079,8 +38207,8 @@ export const universityList =
   {
     "name": "西南交通大学(犀浦校区)",
     "location": {
-      "lat": 30.770399,
-      "lng": 103.993214
+      "lat": 30.767136279384246,
+      "lng": 103.98912832600467
     },
     "address": "四川省成都市郫都区犀安路999号",
     "province": "四川省",
@@ -38095,8 +38223,8 @@ export const universityList =
   {
     "name": "重庆交通职业学院",
     "location": {
-      "lat": 29.412848,
-      "lng": 106.289107
+      "lat": 29.412847815090036,
+      "lng": 106.28910689238056
     },
     "address": "http://www.cqjy.edu.cn/",
     "province": "重庆市",
@@ -38110,8 +38238,8 @@ export const universityList =
   {
     "name": "警官高等专科学校",
     "location": {
-      "lat": 29.691613,
-      "lng": 91.16595
+      "lat": 29.684836377086388,
+      "lng": 91.16208721972895
     },
     "address": "西藏自治区拉萨市城关区夺底路68号",
     "province": "西藏自治区",
@@ -38126,8 +38254,8 @@ export const universityList =
   {
     "name": "四川音乐学院(武侯校区)",
     "location": {
-      "lat": 30.643663,
-      "lng": 104.085456
+      "lat": 30.644210798425085,
+      "lng": 104.0848089119751
     },
     "address": "四川省成都市武侯区新生路6号",
     "province": "四川省",
@@ -38142,8 +38270,8 @@ export const universityList =
   {
     "name": "乌鲁木齐职业大学",
     "location": {
-      "lat": 43.790365,
-      "lng": 87.657359
+      "lat": 43.47708606579323,
+      "lng": 87.41602874517912
     },
     "address": "http://www.uvu.edu.cn/",
     "province": "新疆维吾尔自治区",
@@ -38158,8 +38286,8 @@ export const universityList =
   {
     "name": "江海职业技术学院",
     "location": {
-      "lat": 32.329878,
-      "lng": 119.441025
+      "lat": 32.32987805310534,
+      "lng": 119.44102504218651
     },
     "address": "http://www.jhu.cn/",
     "province": "江苏省",
@@ -38174,8 +38302,8 @@ export const universityList =
   {
     "name": "攀枝花学院",
     "location": {
-      "lat": 26.573981,
-      "lng": 101.732177
+      "lat": 26.573981483439677,
+      "lng": 101.73217749269773
     },
     "address": "http://www.pzhu.edu.cn/",
     "province": "四川省",
@@ -38190,8 +38318,8 @@ export const universityList =
   {
     "name": "广东技术师范大学(东校区)",
     "location": {
-      "lat": 23.137131,
-      "lng": 113.378211
+      "lat": 23.13625527750001,
+      "lng": 113.37755652855962
     },
     "address": "广州市天河区中山大道西293号",
     "province": "广东省",
@@ -38206,8 +38334,8 @@ export const universityList =
   {
     "name": "浙江金融职业学院",
     "location": {
-      "lat": 30.325836,
-      "lng": 120.389611
+      "lat": 30.325836266747817,
+      "lng": 120.38961086749114
     },
     "address": "http://www.zfc.edu.cn/",
     "province": "浙江省",
@@ -38222,8 +38350,8 @@ export const universityList =
   {
     "name": "上海海洋大学(临港校区)",
     "location": {
-      "lat": 30.889079,
-      "lng": 121.903312
+      "lat": 30.886287845824146,
+      "lng": 121.90661163135873
     },
     "address": "上海浦东新区南汇新城沪城环路999号",
     "province": "上海市",
@@ -38238,8 +38366,8 @@ export const universityList =
   {
     "name": "广西安全工程职业技术学院",
     "location": {
-      "lat": 23.178791,
-      "lng": 108.270464
+      "lat": 23.178791390010403,
+      "lng": 108.27046396184734
     },
     "address": "http://www.gxazy.com/",
     "province": "广西壮族自治区",
@@ -38254,8 +38382,8 @@ export const universityList =
   {
     "name": "沈阳城市学院",
     "location": {
-      "lat": 41.630896,
-      "lng": 123.543166
+      "lat": 41.626994502327015,
+      "lng": 123.54395874372027
     },
     "address": "http://www.sycu.cn/",
     "province": "辽宁省",
@@ -38270,8 +38398,8 @@ export const universityList =
   {
     "name": "武昌工学院",
     "location": {
-      "lat": 30.48946,
-      "lng": 114.291844
+      "lat": 30.559566983522483,
+      "lng": 114.32254851755089
     },
     "address": "http://www.wuit.cn/",
     "province": "湖北省",
@@ -38286,8 +38414,8 @@ export const universityList =
   {
     "name": "华北理工大学冀唐学院",
     "location": {
-      "lat": 39.214069,
-      "lng": 118.59337
+      "lat": 39.21406853007742,
+      "lng": 118.59336976974424
     },
     "address": "http://jtxy.ncst.edu.cn/",
     "province": "河北省",
@@ -38302,8 +38430,8 @@ export const universityList =
   {
     "name": "盐城工学院(南校区)",
     "location": {
-      "lat": 33.388024,
-      "lng": 120.205308
+      "lat": 33.39828912833785,
+      "lng": 120.2064160112804
     },
     "address": "江苏省盐城市亭湖区希望大道中路1号",
     "province": "江苏省",
@@ -38318,8 +38446,8 @@ export const universityList =
   {
     "name": "洛阳职业技术学院(伊滨校区)",
     "location": {
-      "lat": 34.603915,
-      "lng": 112.610913
+      "lat": 34.60352442051181,
+      "lng": 112.61094315986813
     },
     "address": "河南省洛阳市伊滨区李村镇科技大道6号",
     "province": "河南省",
@@ -38334,8 +38462,8 @@ export const universityList =
   {
     "name": "衡阳幼儿师范高等专科学校",
     "location": {
-      "lat": 26.8446,
-      "lng": 112.607934
+      "lat": 26.975294950860984,
+      "lng": 112.37755268433024
     },
     "address": null,
     "province": "湖南省",
@@ -38350,8 +38478,8 @@ export const universityList =
   {
     "name": "武汉海事职业学院",
     "location": {
-      "lat": 30.759754,
-      "lng": 114.342607
+      "lat": 30.759753746588334,
+      "lng": 114.34260669145263
     },
     "address": "http://www.whmvc.net/",
     "province": "湖北省",
@@ -38366,8 +38494,8 @@ export const universityList =
   {
     "name": "湖南城市学院",
     "location": {
-      "lat": 28.545415,
-      "lng": 112.39367
+      "lat": 28.545414832063205,
+      "lng": 112.39366990212385
     },
     "address": "http://www.hncu.net/",
     "province": "湖南省",
@@ -38382,8 +38510,8 @@ export const universityList =
   {
     "name": "山西财经大学(坞城校区)",
     "location": {
-      "lat": 37.797364,
-      "lng": 112.595713
+      "lat": 37.79432737177855,
+      "lng": 112.59165986429929
     },
     "address": "山西省太原市小店区坞城路140号",
     "province": "山西省",
@@ -38398,8 +38526,8 @@ export const universityList =
   {
     "name": "四川师范大学(狮子山校区)",
     "location": {
-      "lat": 30.615519,
-      "lng": 104.129339
+      "lat": 30.61499687077722,
+      "lng": 104.13286026183988
     },
     "address": "四川省成都市锦江区静安路5号",
     "province": "四川省",
@@ -38414,8 +38542,8 @@ export const universityList =
   {
     "name": "甘肃财贸职业学院",
     "location": {
-      "lat": 36.556726,
-      "lng": 103.74763
+      "lat": 36.04870090203377,
+      "lng": 103.7253896011583
     },
     "address": "http://www.gscmxy.com/",
     "province": "甘肃省",
@@ -38430,8 +38558,8 @@ export const universityList =
   {
     "name": "广东创新科技职业学院",
     "location": {
-      "lat": 22.941031,
-      "lng": 113.731943
+      "lat": 22.941031291015435,
+      "lng": 113.73194281314808
     },
     "address": "http://www.gdcxxy.net/",
     "province": "广东省",
@@ -38446,8 +38574,8 @@ export const universityList =
   {
     "name": "天津财经大学珠江学院",
     "location": {
-      "lat": 39.557157,
-      "lng": 117.412575
+      "lat": 39.55715720752645,
+      "lng": 117.41257484468794
     },
     "address": "http://zhujiang.tjufe.edu.cn/",
     "province": "天津市",
@@ -38462,8 +38590,8 @@ export const universityList =
   {
     "name": "临汾职业技术学院",
     "location": {
-      "lat": 36.065525,
-      "lng": 111.622562
+      "lat": 36.11228087123477,
+      "lng": 111.53880160997403
     },
     "address": "http://www.lfvtc.cn/",
     "province": "山西省",
@@ -38478,8 +38606,8 @@ export const universityList =
   {
     "name": "湖南信息学院",
     "location": {
-      "lat": 28.325883,
-      "lng": 113.092252
+      "lat": 28.32588305038429,
+      "lng": 113.0922520935989
     },
     "address": "http://www.hniit.edu.cn/",
     "province": "湖南省",
@@ -38494,8 +38622,8 @@ export const universityList =
   {
     "name": "广安职业技术学院(滨江校区)",
     "location": {
-      "lat": 30.468264,
-      "lng": 106.67078
+      "lat": 30.469104548574904,
+      "lng": 106.671814067098
     },
     "address": "四川省广安市广安区滨江东路98号",
     "province": "四川省",
@@ -38510,8 +38638,8 @@ export const universityList =
   {
     "name": "忻州师范学院(新校区)",
     "location": {
-      "lat": 38.501435,
-      "lng": 112.74071
+      "lat": 38.50106011375531,
+      "lng": 112.73996740908012
     },
     "address": "山西省忻州市忻府区顿奇东街1号",
     "province": "山西省",
@@ -38526,8 +38654,8 @@ export const universityList =
   {
     "name": "宁波工程学院(东校区)",
     "location": {
-      "lat": 29.917482,
-      "lng": 121.618692
+      "lat": 29.918293179144083,
+      "lng": 121.61765026714085
     },
     "address": "宁波市江北区风华路201号",
     "province": "浙江省",
@@ -38542,8 +38670,8 @@ export const universityList =
   {
     "name": "兰州外语职业学院",
     "location": {
-      "lat": 36.008125,
-      "lng": 103.965313
+      "lat": 36.008124867788915,
+      "lng": 103.96531298930746
     },
     "address": "http://www.lzwyedu.com/",
     "province": "甘肃省",
@@ -38557,8 +38685,8 @@ export const universityList =
   {
     "name": "广东江门幼儿师范高等专科学校",
     "location": {
-      "lat": 22.554008,
-      "lng": 113.144415
+      "lat": 22.60183502342828,
+      "lng": 113.15396999398045
     },
     "address": null,
     "province": "广东省",
@@ -38573,8 +38701,8 @@ export const universityList =
   {
     "name": "青海民族大学",
     "location": {
-      "lat": 36.594629,
-      "lng": 101.834328
+      "lat": 36.59484188877275,
+      "lng": 101.82718301277096
     },
     "address": "https://www.qhmu.edu.cn/",
     "province": "青海省",
@@ -38589,8 +38717,8 @@ export const universityList =
   {
     "name": "陕西工商职业学院",
     "location": {
-      "lat": 34.169667,
-      "lng": 108.879069
+      "lat": 34.035231044503746,
+      "lng": 108.7820009931189
     },
     "address": "http://www.snbcedu.cn/",
     "province": "陕西省",
@@ -38605,8 +38733,8 @@ export const universityList =
   {
     "name": "石家庄学院",
     "location": {
-      "lat": 38.02581,
-      "lng": 114.606599
+      "lat": 38.02580972795842,
+      "lng": 114.60659909777503
     },
     "address": "http://www.sjzc.edu.cn/",
     "province": "河北省",
@@ -38621,8 +38749,8 @@ export const universityList =
   {
     "name": "宜春幼儿师范高等专科学校",
     "location": {
-      "lat": 27.819362,
-      "lng": 114.351298
+      "lat": 27.81936203203481,
+      "lng": 114.35129841121349
     },
     "address": "http://www.gacycu.cn/",
     "province": "江西省",
@@ -38637,8 +38765,8 @@ export const universityList =
   {
     "name": "河北大学工商学院",
     "location": {
-      "lat": 38.886258,
-      "lng": 115.571207
+      "lat": 38.88625849346502,
+      "lng": 115.57120727981675
     },
     "address": "http://www.hicc.cn/",
     "province": "河北省",
@@ -38653,8 +38781,8 @@ export const universityList =
   {
     "name": "滨州职业学院",
     "location": {
-      "lat": 37.424383,
-      "lng": 118.005347
+      "lat": 37.42438292020418,
+      "lng": 118.00534742698447
     },
     "address": "http://www.edubzvc.com.cn/",
     "province": "山东省",
@@ -38669,8 +38797,8 @@ export const universityList =
   {
     "name": "湖北经济学院",
     "location": {
-      "lat": 30.42425,
-      "lng": 114.442721
+      "lat": 30.42424996176518,
+      "lng": 114.44272104392866
     },
     "address": "http://www.hbue.edu.cn/",
     "province": "湖北省",
@@ -38685,8 +38813,8 @@ export const universityList =
   {
     "name": "甘肃卫生职业学院(新区校区)",
     "location": {
-      "lat": 36.549493,
-      "lng": 103.753613
+      "lat": 36.54943875938891,
+      "lng": 103.75718880773655
     },
     "address": "甘肃省兰州市皋兰县九龙江街1666号",
     "province": "甘肃省",
@@ -38700,8 +38828,8 @@ export const universityList =
   {
     "name": "临沂职业学院",
     "location": {
-      "lat": 35.016577,
-      "lng": 118.292118
+      "lat": 34.994779930113296,
+      "lng": 118.43061495710754
     },
     "address": "http://www.lyzyxy.com/",
     "province": "山东省",
@@ -38716,8 +38844,8 @@ export const universityList =
   {
     "name": "浙江邮电职业技术学院(滨海校区)",
     "location": {
-      "lat": 30.147058,
-      "lng": 120.758895
+      "lat": 30.146688828116694,
+      "lng": 120.76082250422908
     },
     "address": "浙江省绍兴市越城区滨海新城开元东路88号",
     "province": "浙江省",
@@ -38732,8 +38860,8 @@ export const universityList =
   {
     "name": "菏泽医学专科学校",
     "location": {
-      "lat": 35.276906,
-      "lng": 115.482637
+      "lat": 35.27690630520732,
+      "lng": 115.48263651246614
     },
     "address": "http://www.hzmc.edu.cn/",
     "province": "山东省",
@@ -38748,8 +38876,8 @@ export const universityList =
   {
     "name": "沈阳化工大学",
     "location": {
-      "lat": 41.753269,
-      "lng": 123.240892
+      "lat": 41.75326887290223,
+      "lng": 123.24089202398592
     },
     "address": "http://www.syuct.edu.cn/",
     "province": "辽宁省",
@@ -38764,8 +38892,8 @@ export const universityList =
   {
     "name": "山西林业职业技术学院",
     "location": {
-      "lat": 37.901799,
-      "lng": 112.54596
+      "lat": 37.90179919759684,
+      "lng": 112.54595973927633
     },
     "address": "http://www.sxly.com.cn/",
     "province": "山西省",
@@ -38780,8 +38908,8 @@ export const universityList =
   {
     "name": "中北大学信息商务学院",
     "location": {
-      "lat": 37.682759,
-      "lng": 112.646197
+      "lat": 37.68275898308291,
+      "lng": 112.64619715960721
     },
     "address": "http://www.ibcnuc.edu.cn/",
     "province": "山西省",
@@ -38796,8 +38924,8 @@ export const universityList =
   {
     "name": "兴义民族师范学院(开发区校区)",
     "location": {
-      "lat": 25.167615,
-      "lng": 104.978818
+      "lat": 25.163832019562495,
+      "lng": 104.9832460119428
     },
     "address": "贵州省黔西南布依族苗族自治州兴义市开发大道兴义路1号",
     "province": "贵州省",
@@ -38811,8 +38939,8 @@ export const universityList =
   {
     "name": "上海济光职业技术学院",
     "location": {
-      "lat": 31.370663,
-      "lng": 121.441473
+      "lat": 31.30678342169968,
+      "lng": 121.50648210296579
     },
     "address": "http://www.shjgu.edu.cn/",
     "province": "上海市",
@@ -38827,8 +38955,8 @@ export const universityList =
   {
     "name": "徽商职业学院",
     "location": {
-      "lat": 31.75614,
-      "lng": 117.037952
+      "lat": 31.843266964424924,
+      "lng": 117.26807701357492
     },
     "address": "http://www.huishangedu.cn/",
     "province": "安徽省",
@@ -38843,8 +38971,8 @@ export const universityList =
   {
     "name": "河北工业大学红桥校区(南院)",
     "location": {
-      "lat": 39.178847,
-      "lng": 117.17628
+      "lat": 39.17967709255704,
+      "lng": 117.17599000896662
     },
     "address": "天津市红桥区光荣道29号",
     "province": "天津市",
@@ -38859,8 +38987,8 @@ export const universityList =
   {
     "name": "廊坊职业技术学院",
     "location": {
-      "lat": 39.621821,
-      "lng": 116.750424
+      "lat": 39.62182106245502,
+      "lng": 116.75042397192259
     },
     "address": "http://www.lfzhjxy.cn/",
     "province": "河北省",
@@ -38875,8 +39003,8 @@ export const universityList =
   {
     "name": "黑龙江科技大学",
     "location": {
-      "lat": 45.824787,
-      "lng": 126.660046
+      "lat": 45.79156666531241,
+      "lng": 126.68996296901578
     },
     "address": "http://www.usth.edu.cn/",
     "province": "黑龙江省",
@@ -38891,8 +39019,8 @@ export const universityList =
   {
     "name": "天府新区信息职业学院",
     "location": {
-      "lat": 30.233348,
-      "lng": 104.105146
+      "lat": 30.23334794365796,
+      "lng": 104.10514591990714
     },
     "address": null,
     "province": "四川省",
@@ -38907,8 +39035,8 @@ export const universityList =
   {
     "name": "重庆邮电大学",
     "location": {
-      "lat": 29.537571,
-      "lng": 106.614391
+      "lat": 29.53757126974567,
+      "lng": 106.61439113269405
     },
     "address": "http://www.cqupt.edu.cn/",
     "province": "重庆市",
@@ -38923,8 +39051,8 @@ export const universityList =
   {
     "name": "广西幼儿师范高等专科学校(东盟校区)",
     "location": {
-      "lat": 23.193822,
-      "lng": 108.147423
+      "lat": 23.193437180799695,
+      "lng": 108.14928721977999
     },
     "address": "广西壮族自治区南宁市武鸣区发展大道2号",
     "province": "广西壮族自治区",
@@ -38937,8 +39065,8 @@ export const universityList =
   {
     "name": "福州科技职业技术学院",
     "location": {
-      "lat": 26.085497,
-      "lng": 119.253429
+      "lat": 26.09861910208685,
+      "lng": 119.19281791331575
     },
     "address": "http://www.fvti.cn/",
     "province": "福建省",
@@ -38953,8 +39081,8 @@ export const universityList =
   {
     "name": "福建师范大学(旗山校区)",
     "location": {
-      "lat": 26.031685,
-      "lng": 119.217467
+      "lat": 26.064608988515857,
+      "lng": 119.20429897637388
     },
     "address": "福建省福州市大学城科技路1号",
     "province": "福建省",
@@ -38969,8 +39097,8 @@ export const universityList =
   {
     "name": "湖南吉利汽车职业技术学院",
     "location": {
-      "lat": 27.898762,
-      "lng": 112.914986
+      "lat": 27.98529701767446,
+      "lng": 112.95902682888295
     },
     "address": "http://www.hngeelyedu.cn/",
     "province": "湖南省",
@@ -38983,8 +39111,8 @@ export const universityList =
   {
     "name": "渭南师范学院",
     "location": {
-      "lat": 34.497807,
-      "lng": 109.471676
+      "lat": 34.497807161821335,
+      "lng": 109.47167612637108
     },
     "address": "https://www.wnu.edu.cn/",
     "province": "陕西省",
@@ -38999,8 +39127,8 @@ export const universityList =
   {
     "name": "山东传媒职业学院(章丘校区)",
     "location": {
-      "lat": 36.669845,
-      "lng": 117.487517
+      "lat": 36.670073356320984,
+      "lng": 117.49103949539018
     },
     "address": "济南市章丘区经十东路8678号",
     "province": "山东省",
@@ -39015,8 +39143,8 @@ export const universityList =
   {
     "name": "山西财经大学华商学院",
     "location": {
-      "lat": 37.776685,
-      "lng": 112.586846
+      "lat": 37.77668534894516,
+      "lng": 112.58684566541021
     },
     "address": "http://www.schsxy.com/",
     "province": "山西省",
@@ -39031,8 +39159,8 @@ export const universityList =
   {
     "name": "怀化学院(东校区)",
     "location": {
-      "lat": 27.58591,
-      "lng": 110.050416
+      "lat": 27.584168361938307,
+      "lng": 110.05215143177743
     },
     "address": "湖南省怀化市鹤城区金海路138号",
     "province": "湖南省",
@@ -39046,8 +39174,8 @@ export const universityList =
   {
     "name": "泰州学院",
     "location": {
-      "lat": 32.475522,
-      "lng": 119.948684
+      "lat": 32.475521593727976,
+      "lng": 119.94868407571815
     },
     "address": "http://www.tzsz.net/",
     "province": "江苏省",
@@ -39062,8 +39190,8 @@ export const universityList =
   {
     "name": "安徽三联学院",
     "location": {
-      "lat": 31.760661,
-      "lng": 117.208324
+      "lat": 31.76066079279916,
+      "lng": 117.20832424630662
     },
     "address": "http://www.sanlian.net.cn/",
     "province": "安徽省",
@@ -39078,8 +39206,8 @@ export const universityList =
   {
     "name": "重庆人文科技学院",
     "location": {
-      "lat": 29.97492,
-      "lng": 106.418855
+      "lat": 29.974919963175722,
+      "lng": 106.41885526562129
     },
     "address": "http://www.cqrk.edu.cn/",
     "province": "重庆市",
@@ -39094,8 +39222,8 @@ export const universityList =
   {
     "name": "上海音乐学院",
     "location": {
-      "lat": 31.220091,
-      "lng": 121.461105
+      "lat": 31.195164844011654,
+      "lng": 121.45896802962652
     },
     "address": "http://www.shcmusic.edu.cn/",
     "province": "上海市",
@@ -39110,8 +39238,8 @@ export const universityList =
   {
     "name": "安徽绿海商务职业学院",
     "location": {
-      "lat": 31.755395,
-      "lng": 117.205381
+      "lat": 31.755394934338184,
+      "lng": 117.20538103813374
     },
     "address": "http://xy.lhub.cn/web/lvhai/",
     "province": "安徽省",
@@ -39126,8 +39254,8 @@ export const universityList =
   {
     "name": "北京邮电大学世纪学院",
     "location": {
-      "lat": 40.377471,
-      "lng": 115.89997
+      "lat": 40.37747104710175,
+      "lng": 115.89997002866399
     },
     "address": "http://www.ccbupt.cn/",
     "province": "北京市",
@@ -39142,8 +39270,8 @@ export const universityList =
   {
     "name": "玉溪农业职业技术学院",
     "location": {
-      "lat": 24.24561,
-      "lng": 102.506852
+      "lat": 24.189390344893077,
+      "lng": 102.42786606246501
     },
     "address": "http://www.yxnzy.net/",
     "province": "云南省",
@@ -39158,8 +39286,8 @@ export const universityList =
   {
     "name": "宁夏医科大学(雁湖校区)",
     "location": {
-      "lat": 38.41916,
-      "lng": 106.285195
+      "lat": 38.42056694540996,
+      "lng": 106.2901898118717
     },
     "address": "宁夏回族自治区银川市兴庆区胜利街1160号",
     "province": "宁夏回族自治区",
@@ -39174,8 +39302,8 @@ export const universityList =
   {
     "name": "曹妃甸职业技术学院",
     "location": {
-      "lat": 39.188952,
-      "lng": 118.607041
+      "lat": 39.18895241546501,
+      "lng": 118.60704063214784
     },
     "address": "http://www.cct.edu.cn/",
     "province": "河北省",
@@ -39190,8 +39318,8 @@ export const universityList =
   {
     "name": "西安电子科技大学长安学院",
     "location": {
-      "lat": 34.128365,
-      "lng": 108.836938
+      "lat": 34.12836489130153,
+      "lng": 108.83693839370098
     },
     "address": "http://www.zg114zs.com/xuexiao.asp?auid=1401",
     "province": "陕西省",
@@ -39204,8 +39332,8 @@ export const universityList =
   {
     "name": "广东茂名健康职业学院",
     "location": {
-      "lat": 21.568758,
-      "lng": 111.041739
+      "lat": 21.568757754110138,
+      "lng": 111.04173915413041
     },
     "address": "",
     "province": "广东省",
@@ -39219,8 +39347,8 @@ export const universityList =
   {
     "name": "湖南师范大学",
     "location": {
-      "lat": 28.193113,
-      "lng": 112.95596
+      "lat": 28.173337851085826,
+      "lng": 112.93074044601082
     },
     "address": "http://www.hunnu.edu.cn/",
     "province": "湖南省",
@@ -39235,8 +39363,8 @@ export const universityList =
   {
     "name": "吉林司法警官职业学院",
     "location": {
-      "lat": 44.078728,
-      "lng": 125.184701
+      "lat": 43.83680825640664,
+      "lng": 125.37521040041302
     },
     "address": "http://www.jlsfjy.cn/jlsfweb/indexok.php",
     "province": "吉林省",
@@ -39251,8 +39379,8 @@ export const universityList =
   {
     "name": "资阳口腔职业学院",
     "location": {
-      "lat": 30.067296,
-      "lng": 104.609711
+      "lat": 30.067295642907773,
+      "lng": 104.60971065027911
     },
     "address": null,
     "province": "四川省",
@@ -39266,8 +39394,8 @@ export const universityList =
   {
     "name": "广东环境保护工程职业学院",
     "location": {
-      "lat": 23.054338,
-      "lng": 112.916466
+      "lat": 23.054337621558062,
+      "lng": 112.91646637146198
     },
     "address": "http://www.gdpepe.cn/",
     "province": "广东省",
@@ -39282,8 +39410,8 @@ export const universityList =
   {
     "name": "贵州工程职业学院",
     "location": {
-      "lat": 28.245342,
-      "lng": 108.134398
+      "lat": 28.245341572300575,
+      "lng": 108.13439816527922
     },
     "address": "http://www.gzieu.cn/",
     "province": "贵州省",
@@ -39298,8 +39426,8 @@ export const universityList =
   {
     "name": "甘肃农业大学",
     "location": {
-      "lat": 36.096564,
-      "lng": 103.706587
+      "lat": 36.096220755474725,
+      "lng": 103.70444857260134
     },
     "address": "https://www.gsau.edu.cn/",
     "province": "甘肃省",
@@ -39314,8 +39442,8 @@ export const universityList =
   {
     "name": "福建师范大学-协和学院",
     "location": {
-      "lat": 26.027259,
-      "lng": 119.211435
+      "lat": 26.025380021799098,
+      "lng": 119.21173200531373
     },
     "address": "福建省福州市闽侯县学府南路68号",
     "province": "福建省",
@@ -39330,8 +39458,8 @@ export const universityList =
   {
     "name": "江西理工大学(南昌校区)",
     "location": {
-      "lat": 28.746904,
-      "lng": 115.883254
+      "lat": 28.68759600617345,
+      "lng": 115.96855240505471
     },
     "address": "江西省南昌市青山湖区双港东大街1180号",
     "province": "江西省",
@@ -39346,8 +39474,8 @@ export const universityList =
   {
     "name": "南阳职业学院",
     "location": {
-      "lat": 33.358685,
-      "lng": 111.497255
+      "lat": 33.35868482389641,
+      "lng": 111.49725506996812
     },
     "address": "http://www.nyzyxy.com/",
     "province": "河南省",
@@ -39362,8 +39490,8 @@ export const universityList =
   {
     "name": "无锡城市职业技术学院",
     "location": {
-      "lat": 31.589515,
-      "lng": 120.19095
+      "lat": 31.584732301455723,
+      "lng": 120.19458559720566
     },
     "address": "http://www.wxcu.edu.cn/",
     "province": "江苏省",
@@ -39378,8 +39506,8 @@ export const universityList =
   {
     "name": "重庆旅游职业学院",
     "location": {
-      "lat": 29.512958,
-      "lng": 108.826275
+      "lat": 29.51295824732533,
+      "lng": 108.82627549426059
     },
     "address": "http://www.cqvit.com/",
     "province": "重庆市",
@@ -39394,8 +39522,8 @@ export const universityList =
   {
     "name": "唐山师范学院(大学道校区)",
     "location": {
-      "lat": 39.679478,
-      "lng": 118.180051
+      "lat": 39.681129754600875,
+      "lng": 118.18103828811762
     },
     "address": "河北省唐山市路北区建设北路156号",
     "province": "河北省",
@@ -39410,8 +39538,8 @@ export const universityList =
   {
     "name": "电子科技大学(清水河校区)",
     "location": {
-      "lat": 30.756035,
-      "lng": 103.937404
+      "lat": 30.74944763973493,
+      "lng": 103.93109850870451
     },
     "address": "四川省成都市高新区西源大道2006号",
     "province": "四川省",
@@ -39426,8 +39554,8 @@ export const universityList =
   {
     "name": "江苏海事职业技术学院(江宁校区)",
     "location": {
-      "lat": 31.924348,
-      "lng": 118.913687
+      "lat": 31.92299261916523,
+      "lng": 118.908076103463
     },
     "address": "格致路309号",
     "province": "江苏省",
@@ -39458,8 +39586,8 @@ export const universityList =
   {
     "name": "南昌职业大学",
     "location": {
-      "lat": 28.852169,
-      "lng": 115.588185
+      "lat": 28.551604186108275,
+      "lng": 115.95046017276752
     },
     "address": "http://www.nczyxy.com/",
     "province": "江西省",
@@ -39474,8 +39602,8 @@ export const universityList =
   {
     "name": "贵州商学院(白云校区)",
     "location": {
-      "lat": 26.732227,
-      "lng": 106.635295
+      "lat": 26.731767967169322,
+      "lng": 106.63525400866476
     },
     "address": "贵阳市白云区麦架镇二十六大道1号",
     "province": "贵州省",
@@ -39490,8 +39618,8 @@ export const universityList =
   {
     "name": "浙江师范大学行知学院(兰溪校区)",
     "location": {
-      "lat": 29.181986,
-      "lng": 119.496757
+      "lat": 29.181241618531658,
+      "lng": 119.49427424066275
     },
     "address": "浙江省金华市兰溪市迎宾大道3388号",
     "province": "浙江省",
@@ -39506,8 +39634,8 @@ export const universityList =
   {
     "name": "文华学院",
     "location": {
-      "lat": 30.499873,
-      "lng": 114.444987
+      "lat": 30.499873132773704,
+      "lng": 114.44498746873033
     },
     "address": "http://www.hustwenhua.net/",
     "province": "湖北省",
@@ -39522,8 +39650,8 @@ export const universityList =
   {
     "name": "昭通学院",
     "location": {
-      "lat": 27.364204,
-      "lng": 103.746519
+      "lat": 27.364204492642894,
+      "lng": 103.7465194421745
     },
     "address": "https://www.ztu.edu.cn/",
     "province": "云南省",
@@ -39538,8 +39666,8 @@ export const universityList =
   {
     "name": "吉林城市职业技术学院",
     "location": {
-      "lat": 44.015147,
-      "lng": 125.274512
+      "lat": 43.83680825640664,
+      "lng": 125.37521040041302
     },
     "address": "http://www.jlcsxy.com/",
     "province": "吉林省",
@@ -39554,8 +39682,8 @@ export const universityList =
   {
     "name": "江苏经贸职业技术学院(江宁校区)",
     "location": {
-      "lat": 31.937283,
-      "lng": 118.891435
+      "lat": 31.940033125564437,
+      "lng": 118.89280580809888
     },
     "address": "江苏省南京市江宁区龙眠大道180号",
     "province": "江苏省",
@@ -39570,8 +39698,8 @@ export const universityList =
   {
     "name": "江西电力职业技术学院",
     "location": {
-      "lat": 28.723998,
-      "lng": 115.815475
+      "lat": 28.72399788677129,
+      "lng": 115.8154754868803
     },
     "address": "",
     "province": "江西省",
@@ -39586,8 +39714,8 @@ export const universityList =
   {
     "name": "武昌理工学院",
     "location": {
-      "lat": 30.423303,
-      "lng": 114.373741
+      "lat": 30.580080282176773,
+      "lng": 114.32240002765009
     },
     "address": "http://www.wut.edu.cn/",
     "province": "湖北省",
@@ -39602,8 +39730,8 @@ export const universityList =
   {
     "name": "塔城职业技术学院",
     "location": {
-      "lat": 46.751144,
-      "lng": 82.938232
+      "lat": 46.75114398945989,
+      "lng": 82.93823232402293
     },
     "address": null,
     "province": "新疆维吾尔自治区",
@@ -39617,8 +39745,8 @@ export const universityList =
   {
     "name": "长治学院北校",
     "location": {
-      "lat": 36.216985,
-      "lng": 113.143332
+      "lat": 36.2155149979702,
+      "lng": 113.14145077370716
     },
     "address": "山西省长治市保宁门东街73号",
     "province": "山西省",
@@ -39633,8 +39761,8 @@ export const universityList =
   {
     "name": "临沂大学",
     "location": {
-      "lat": 35.123361,
-      "lng": 118.298597
+      "lat": 35.28199970175913,
+      "lng": 117.97748468498149
     },
     "address": "http://www.lyu.edu.cn/",
     "province": "山东省",
@@ -39649,8 +39777,8 @@ export const universityList =
   {
     "name": "吉林交通职业技术学院",
     "location": {
-      "lat": 43.846398,
-      "lng": 125.272552
+      "lat": 43.83680825640664,
+      "lng": 125.37521040041302
     },
     "address": "http://www.jjtc.com.cn/",
     "province": "吉林省",
@@ -39665,8 +39793,8 @@ export const universityList =
   {
     "name": "湖北交通职业技术学院(洪山校区)",
     "location": {
-      "lat": 30.514089,
-      "lng": 114.378748
+      "lat": 30.514818521562315,
+      "lng": 114.37982285991716
     },
     "address": "湖北省武汉市洪山区雄楚大街455号",
     "province": "湖北省",
@@ -39681,8 +39809,8 @@ export const universityList =
   {
     "name": "南阳师范学院",
     "location": {
-      "lat": 32.981678,
-      "lng": 112.49451
+      "lat": 32.9816776311022,
+      "lng": 112.49451018949784
     },
     "address": "http://www.nynu.edu.cn/",
     "province": "河南省",
@@ -39697,8 +39825,8 @@ export const universityList =
   {
     "name": "西安外国语大学(长安校区)",
     "location": {
-      "lat": 34.141489,
-      "lng": 108.882621
+      "lat": 34.14155307245076,
+      "lng": 108.88243442371206
     },
     "address": "西安市长安区文苑南路6号",
     "province": "陕西省",
@@ -39713,8 +39841,8 @@ export const universityList =
   {
     "name": "黄冈师范学院",
     "location": {
-      "lat": 30.455736,
-      "lng": 114.933266
+      "lat": 30.458164158279843,
+      "lng": 114.88424233428816
     },
     "address": "http://www.hgnc.net/",
     "province": "湖北省",
@@ -39729,8 +39857,8 @@ export const universityList =
   {
     "name": "沈阳工业大学(中央校区)",
     "location": {
-      "lat": 41.742385,
-      "lng": 123.255554
+      "lat": 41.79707059072178,
+      "lng": 123.21399969305784
     },
     "address": "辽宁省沈阳市经济技术开发区沈辽西路111号",
     "province": "辽宁省",
@@ -39745,8 +39873,8 @@ export const universityList =
   {
     "name": "贵阳护理职业学院(体育路)",
     "location": {
-      "lat": 26.619729,
-      "lng": 106.610606
+      "lat": 26.61797713733316,
+      "lng": 106.6095975948333
     },
     "address": "贵州省贵阳市观山湖区石林西路2号",
     "province": "贵州省",
@@ -39761,8 +39889,8 @@ export const universityList =
   {
     "name": "南华大学",
     "location": {
-      "lat": 26.903847,
-      "lng": 112.595221
+      "lat": 26.907862961642337,
+      "lng": 112.59676599819664
     },
     "address": "http://www.usc.edu.cn/",
     "province": "湖南省",
@@ -39777,8 +39905,8 @@ export const universityList =
   {
     "name": "达州中医药职业学院",
     "location": {
-      "lat": 31.285303,
-      "lng": 107.54831
+      "lat": 31.285302858277735,
+      "lng": 107.54830997692139
     },
     "address": null,
     "province": "四川省",
@@ -39792,8 +39920,8 @@ export const universityList =
   {
     "name": "兰州交通大学",
     "location": {
-      "lat": 36.111419,
-      "lng": 103.731761
+      "lat": 36.1161652741396,
+      "lng": 103.736531194568
     },
     "address": "http://www.lzjtu.cn/",
     "province": "甘肃省",
@@ -39808,8 +39936,8 @@ export const universityList =
   {
     "name": "江苏医药职业学院",
     "location": {
-      "lat": 33.330994,
-      "lng": 120.17829
+      "lat": 33.330993829057164,
+      "lng": 120.17829033525466
     },
     "address": "http://www.jsycmc.com/",
     "province": "江苏省",
@@ -39824,8 +39952,8 @@ export const universityList =
   {
     "name": "广东财贸职业学院(清远校区)",
     "location": {
-      "lat": 23.745111,
-      "lng": 113.108576
+      "lat": 23.730940899194696,
+      "lng": 113.05837330977623
     },
     "address": "广东省清远市清城区东城街道中宿路28号",
     "province": "广东省",
@@ -39840,8 +39968,8 @@ export const universityList =
   {
     "name": "兰州城市学院",
     "location": {
-      "lat": 36.100702,
-      "lng": 103.701172
+      "lat": 36.10070166407216,
+      "lng": 103.70117218291479
     },
     "address": "http://www.lzcu.edu.cn/",
     "province": "甘肃省",
@@ -39856,8 +39984,8 @@ export const universityList =
   {
     "name": "遵义职业技术学院",
     "location": {
-      "lat": 27.718628,
-      "lng": 107.050214
+      "lat": 27.718627700404987,
+      "lng": 107.05021393207652
     },
     "address": "http://www.zyzy.edu.cn/index.html",
     "province": "贵州省",
@@ -39872,8 +40000,8 @@ export const universityList =
   {
     "name": "北京中医药大学东方学院",
     "location": {
-      "lat": 38.388727,
-      "lng": 117.449773
+      "lat": 38.3887269672481,
+      "lng": 117.44977286738117
     },
     "address": "http://www.bucmdf.edu.cn/",
     "province": "河北省",
@@ -39888,8 +40016,8 @@ export const universityList =
   {
     "name": "湖南警察学院",
     "location": {
-      "lat": 28.228708,
-      "lng": 113.136768
+      "lat": 28.228707986159456,
+      "lng": 113.1367677129617
     },
     "address": "http://www.hnpolice.com/",
     "province": "湖南省",
@@ -39904,8 +40032,8 @@ export const universityList =
   {
     "name": "山东商务职业学院",
     "location": {
-      "lat": 37.43194,
-      "lng": 121.514437
+      "lat": 37.43193969386947,
+      "lng": 121.5144372270705
     },
     "address": "http://www.sdbi.com.cn/",
     "province": "山东省",
@@ -39920,8 +40048,8 @@ export const universityList =
   {
     "name": "长江师范学院",
     "location": {
-      "lat": 29.75571,
-      "lng": 107.269608
+      "lat": 29.75571000551488,
+      "lng": 107.26960798501146
     },
     "address": "http://www.yznu.edu.cn/",
     "province": "重庆市",
@@ -39936,8 +40064,8 @@ export const universityList =
   {
     "name": "浙江东方职业技术学院(滨海校区)",
     "location": {
-      "lat": 27.811584,
-      "lng": 120.806319
+      "lat": 27.81298775884289,
+      "lng": 120.80548938126043
     },
     "address": "浙江省温州市经济技术开发区金海三道433号",
     "province": "浙江省",
@@ -39952,8 +40080,8 @@ export const universityList =
   {
     "name": "哈尔滨科学技术职业学院",
     "location": {
-      "lat": 45.548354,
-      "lng": 126.963895
+      "lat": 45.772959972864875,
+      "lng": 126.64572807010987
     },
     "address": "http://www.hrbkjzy.org.cn/",
     "province": "黑龙江省",
@@ -39968,8 +40096,8 @@ export const universityList =
   {
     "name": "河南医学高等专科学校",
     "location": {
-      "lat": 34.620649,
-      "lng": 113.713892
+      "lat": 34.62064917019245,
+      "lng": 113.71389218705747
     },
     "address": "http://www.hamc.edu.cn/",
     "province": "河南省",
@@ -39984,8 +40112,8 @@ export const universityList =
   {
     "name": "黑龙江职业学院",
     "location": {
-      "lat": 45.722415,
-      "lng": 126.615495
+      "lat": 45.391575767440536,
+      "lng": 126.30434897969506
     },
     "address": "http://www.hljp.edu.cn/",
     "province": "黑龙江省",
@@ -40000,8 +40128,8 @@ export const universityList =
   {
     "name": "南昌大学(前湖校区)",
     "location": {
-      "lat": 28.662684,
-      "lng": 115.807698
+      "lat": 28.6729802049432,
+      "lng": 115.81341926556865
     },
     "address": "江西省南昌市红谷滩区学府大道999号",
     "province": "江西省",
@@ -40016,8 +40144,8 @@ export const universityList =
   {
     "name": "南充职业技术学院",
     "location": {
-      "lat": 30.852536,
-      "lng": 106.161566
+      "lat": 30.852535582543346,
+      "lng": 106.16156593742551
     },
     "address": "http://www.nczy.com/",
     "province": "四川省",
@@ -40032,8 +40160,8 @@ export const universityList =
   {
     "name": "信阳航空职业学院",
     "location": {
-      "lat": 32.063936,
-      "lng": 114.153095
+      "lat": 32.06393638898624,
+      "lng": 114.15309531021794
     },
     "address": null,
     "province": "河南省",
@@ -40048,8 +40176,8 @@ export const universityList =
   {
     "name": "同济大学浙江学院",
     "location": {
-      "lat": 30.740149,
-      "lng": 120.791973
+      "lat": 30.740148959368618,
+      "lng": 120.7919732240597
     },
     "address": "http://www.tjzj.edu.cn/index.php",
     "province": "浙江省",
@@ -40064,8 +40192,8 @@ export const universityList =
   {
     "name": "铁道警察学院(东校区)",
     "location": {
-      "lat": 34.795338,
-      "lng": 113.657857
+      "lat": 34.79335984316125,
+      "lng": 113.6583481607645
     },
     "address": "河南省郑州市金水区农业路31号",
     "province": "河南省",
@@ -40079,8 +40207,8 @@ export const universityList =
   {
     "name": "巢湖学院",
     "location": {
-      "lat": 31.655637,
-      "lng": 117.936406
+      "lat": 31.65563696706979,
+      "lng": 117.93640598248516
     },
     "address": "http://www.chtc.edu.cn/",
     "province": "安徽省",
@@ -40095,8 +40223,8 @@ export const universityList =
   {
     "name": "青岛幼儿师范高等专科学校",
     "location": {
-      "lat": 36.179864,
-      "lng": 120.120347
+      "lat": 36.179863886315545,
+      "lng": 120.12034702477509
     },
     "address": null,
     "province": "山东省",
@@ -40111,8 +40239,8 @@ export const universityList =
   {
     "name": "天津中医药大学(新校区)",
     "location": {
-      "lat": 38.958945,
-      "lng": 117.077635
+      "lat": 38.95796407651438,
+      "lng": 117.07752602337354
     },
     "address": "天津市静海区团泊新城西区鄱阳湖路10号",
     "province": "天津市",
@@ -40127,8 +40255,8 @@ export const universityList =
   {
     "name": "云南工商学院",
     "location": {
-      "lat": 25.246733,
-      "lng": 103.012138
+      "lat": 25.24673252058845,
+      "lng": 103.01213815918871
     },
     "address": "http://www.yngsxy.net/4/",
     "province": "云南省",
@@ -40143,8 +40271,8 @@ export const universityList =
   {
     "name": "遵义师范学院",
     "location": {
-      "lat": 27.714174,
-      "lng": 107.0597
+      "lat": 27.53520677452037,
+      "lng": 106.83980365288278
     },
     "address": "http://www.zync.edu.cn/",
     "province": "贵州省",
@@ -40159,8 +40287,8 @@ export const universityList =
   {
     "name": "甘肃民族师范学院",
     "location": {
-      "lat": 34.967201,
-      "lng": 102.90084
+      "lat": 34.96720065071705,
+      "lng": 102.90084018372148
     },
     "address": "http://www.gnun.edu.cn/",
     "province": "甘肃省",
@@ -40175,8 +40303,8 @@ export const universityList =
   {
     "name": "湖南交通工程学院",
     "location": {
-      "lat": 26.920213,
-      "lng": 112.510978
+      "lat": 26.92021288135269,
+      "lng": 112.51097791185265
     },
     "address": "http://www.hnjtgc.com/",
     "province": "湖南省",
@@ -40191,8 +40319,8 @@ export const universityList =
   {
     "name": "萍乡卫生职业学院",
     "location": {
-      "lat": 27.657262,
-      "lng": 113.931492
+      "lat": 27.65726172396955,
+      "lng": 113.93149186008534
     },
     "address": null,
     "province": "江西省",
@@ -40206,8 +40334,8 @@ export const universityList =
   {
     "name": "杭州电子科技大学信息工程学院(青山湖校区)",
     "location": {
-      "lat": 30.296648,
-      "lng": 119.831291
+      "lat": 30.298739311683757,
+      "lng": 119.82802646436498
     },
     "address": "杭州市临安区青山湖科技城杭电路1号",
     "province": "浙江省",
@@ -40222,8 +40350,8 @@ export const universityList =
   {
     "name": "山西电力职业技术学院",
     "location": {
-      "lat": 37.783859,
-      "lng": 112.496285
+      "lat": 37.78385861225912,
+      "lng": 112.49628497169391
     },
     "address": "http://www.vtep.edu.cn/",
     "province": "山西省",
@@ -40238,8 +40366,8 @@ export const universityList =
   {
     "name": "云南财经职业学院",
     "location": {
-      "lat": 25.097137,
-      "lng": 102.718863
+      "lat": 25.028556898856557,
+      "lng": 102.68621989484649
     },
     "address": "http://www.ynczy.cn/",
     "province": "云南省",
@@ -40254,8 +40382,8 @@ export const universityList =
   {
     "name": "河北科技师范学院",
     "location": {
-      "lat": 39.918243,
-      "lng": 119.55473
+      "lat": 39.918242513817205,
+      "lng": 119.55472958923133
     },
     "address": "http://www.hevttc.edu.cn/",
     "province": "河北省",
@@ -40270,8 +40398,8 @@ export const universityList =
   {
     "name": "广东文理职业学院",
     "location": {
-      "lat": 21.650756,
-      "lng": 110.236409
+      "lat": 21.65075615645164,
+      "lng": 110.23640871385396
     },
     "address": "http://www.gdwlxy.cn/",
     "province": "广东省",
@@ -40286,8 +40414,8 @@ export const universityList =
   {
     "name": "江阳城建职业学院",
     "location": {
-      "lat": 28.948431,
-      "lng": 105.433709
+      "lat": 28.884498343782106,
+      "lng": 105.44157316095377
     },
     "address": null,
     "province": "四川省",
@@ -40301,8 +40429,8 @@ export const universityList =
   {
     "name": "河北劳动关系职业学院",
     "location": {
-      "lat": 37.995326,
-      "lng": 114.463955
+      "lat": 37.995326085654334,
+      "lng": 114.46395509974296
     },
     "address": "http://www.hbgy.edu.cn/",
     "province": "河北省",
@@ -40317,8 +40445,8 @@ export const universityList =
   {
     "name": "湘南学院",
     "location": {
-      "lat": 25.789994,
-      "lng": 113.107715
+      "lat": 25.791625281524368,
+      "lng": 113.10728164308138
     },
     "address": "http://www.xnu.edu.cn/",
     "province": "湖南省",
@@ -40333,8 +40461,8 @@ export const universityList =
   {
     "name": "泉州轻工职业学院",
     "location": {
-      "lat": 24.81646,
-      "lng": 118.554034
+      "lat": 24.816460233134794,
+      "lng": 118.55403412300916
     },
     "address": "http://www.qzqgxy.com/",
     "province": "福建省",
@@ -40349,8 +40477,8 @@ export const universityList =
   {
     "name": "浙江水利水电学院",
     "location": {
-      "lat": 30.32051,
-      "lng": 120.379813
+      "lat": 30.320510054589082,
+      "lng": 120.37981268997162
     },
     "address": "http://www.zjweu.edu.cn/",
     "province": "浙江省",
@@ -40365,8 +40493,8 @@ export const universityList =
   {
     "name": "西北政法大学(长安校区)",
     "location": {
-      "lat": 34.160079,
-      "lng": 108.922429
+      "lat": 34.158473884293656,
+      "lng": 108.92239365788187
     },
     "address": "陕西省西安市长安区西长安街558号",
     "province": "陕西省",
@@ -40381,8 +40509,8 @@ export const universityList =
   {
     "name": "朔州陶瓷职业技术学院",
     "location": {
-      "lat": 39.853556,
-      "lng": 113.119895
+      "lat": 39.853556028810246,
+      "lng": 113.11989458553697
     },
     "address": null,
     "province": "山西省",
@@ -40396,8 +40524,8 @@ export const universityList =
   {
     "name": "广东科学技术职业学院",
     "location": {
-      "lat": 22.130022,
-      "lng": 113.359987
+      "lat": 22.13002168684624,
+      "lng": 113.35998746940129
     },
     "address": "",
     "province": "广东省",
@@ -40412,8 +40540,8 @@ export const universityList =
   {
     "name": "烟台汽车工程职业学院",
     "location": {
-      "lat": 37.453813,
-      "lng": 121.254497
+      "lat": 37.45381302481729,
+      "lng": 121.25449653792029
     },
     "address": "http://www.ytqcvc.cn/",
     "province": "山东省",
@@ -40427,8 +40555,8 @@ export const universityList =
   {
     "name": "武汉大学(文理学部)",
     "location": {
-      "lat": 30.543803,
-      "lng": 114.37293
+      "lat": 30.544877132637815,
+      "lng": 114.37100697947278
     },
     "address": "湖北省武汉市武昌区八一路299号",
     "province": "湖北省",
@@ -40443,8 +40571,8 @@ export const universityList =
   {
     "name": "抚顺职业技术学院",
     "location": {
-      "lat": 41.791132,
-      "lng": 123.70071
+      "lat": 41.887037475382286,
+      "lng": 123.92159012078525
     },
     "address": "http://www.fvti.com/cnc_school/division/01/portal_index.html",
     "province": "辽宁省",
@@ -40459,8 +40587,8 @@ export const universityList =
   {
     "name": "江西交通职业技术学院(经开区校区)",
     "location": {
-      "lat": 28.741053,
-      "lng": 115.86637
+      "lat": 28.68945529506072,
+      "lng": 115.86458944231661
     },
     "address": "江西省南昌市经济技术开发区双港东大街644支路395号",
     "province": "江西省",
@@ -40475,8 +40603,8 @@ export const universityList =
   {
     "name": "河北工业大学(北辰校区)",
     "location": {
-      "lat": 39.244095,
-      "lng": 117.065012
+      "lat": 39.236261301923946,
+      "lng": 117.08790142955613
     },
     "address": "天津市北辰区西平道5340号",
     "province": "天津市",
@@ -40491,8 +40619,8 @@ export const universityList =
   {
     "name": "湖北师范大学文理学院",
     "location": {
-      "lat": 30.159424,
-      "lng": 115.122389
+      "lat": 30.159424167621243,
+      "lng": 115.12238896396914
     },
     "address": "http://www.wlxy.hbnu.edu.cn/",
     "province": "湖北省",
@@ -40507,8 +40635,8 @@ export const universityList =
   {
     "name": "鹤壁职业技术学院(新校区)",
     "location": {
-      "lat": 35.715841,
-      "lng": 114.290095
+      "lat": 35.71682117384303,
+      "lng": 114.29458417719472
     },
     "address": "河南省鹤壁市淇滨区朝歌路5号",
     "province": "河南省",
@@ -40523,8 +40651,8 @@ export const universityList =
   {
     "name": "景德镇陶瓷职业技术学院",
     "location": {
-      "lat": 29.366198,
-      "lng": 117.240006
+      "lat": 29.366198019238468,
+      "lng": 117.240006118369
     },
     "address": "http://www.jcivt.com/",
     "province": "江西省",
@@ -40538,8 +40666,8 @@ export const universityList =
   {
     "name": "浙江纺织服装职业技术学院",
     "location": {
-      "lat": 29.917872,
-      "lng": 121.631262
+      "lat": 29.91787199307555,
+      "lng": 121.63126220069849
     },
     "address": "http://www.zjff.net/",
     "province": "浙江省",
@@ -40554,8 +40682,8 @@ export const universityList =
   {
     "name": "北京中医药大学(西校区)",
     "location": {
-      "lat": 39.977288,
-      "lng": 116.434476
+      "lat": 39.97742231893384,
+      "lng": 116.4329917301338
     },
     "address": "北京市朝阳区北三环东路11号",
     "province": "北京市",
@@ -40570,8 +40698,8 @@ export const universityList =
   {
     "name": "钟山职业技术学院",
     "location": {
-      "lat": 32.050734,
-      "lng": 118.896004
+      "lat": 24.54028957515478,
+      "lng": 111.33127568600835
     },
     "address": "http://www.zscollege.com/default.html",
     "province": "江苏省",
@@ -40586,8 +40714,8 @@ export const universityList =
   {
     "name": "辽宁冶金职业技术学院",
     "location": {
-      "lat": 41.295056,
-      "lng": 123.798393
+      "lat": 41.28799229894835,
+      "lng": 123.78469258310052
     },
     "address": "http://www.lnyj.net/",
     "province": "辽宁省",
@@ -40602,8 +40730,8 @@ export const universityList =
   {
     "name": "云南国土资源职业学院",
     "location": {
-      "lat": 25.006227,
-      "lng": 102.787615
+      "lat": 25.00633586420632,
+      "lng": 102.78726147823653
     },
     "address": "http://www.yngtxy.net/yngtxy/default.html",
     "province": "云南省",
@@ -40618,8 +40746,8 @@ export const universityList =
   {
     "name": "大学松田学院",
     "location": {
-      "lat": 23.284437,
-      "lng": 113.730576
+      "lat": 23.284191683105394,
+      "lng": 113.73426538204335
     },
     "address": "广东广州市增城区朱村街道朱村大道东432号",
     "province": "广东省",
@@ -40632,8 +40760,8 @@ export const universityList =
   {
     "name": "温州职业技术学院",
     "location": {
-      "lat": 27.928813,
-      "lng": 120.70602
+      "lat": 28.015071978344384,
+      "lng": 120.68752596783176
     },
     "address": "http://www.wzvtc.cn/",
     "province": "浙江省",
@@ -40648,13 +40776,17 @@ export const universityList =
   {
     "name": "桂林市",
     "num": 13,
-    "index": 2585
+    "index": 2585,
+    "location": {
+      "lat": 25.24169878354397,
+      "lng": 110.18619487315159
+    }
   },
   {
     "name": "湖南师范大学树达学院",
     "location": {
-      "lat": 28.173652,
-      "lng": 112.928734
+      "lat": 28.173652457762444,
+      "lng": 112.92873443997713
     },
     "address": "http://sdw.hunnu.edu.cn/EntranceIndex.action",
     "province": "湖南省",
@@ -40669,8 +40801,8 @@ export const universityList =
   {
     "name": "广西理工职业技术学院(壶兴校区)",
     "location": {
-      "lat": 22.436524,
-      "lng": 107.360201
+      "lat": 22.434972302520688,
+      "lng": 107.36495979113373
     },
     "address": "广西壮族自治区崇左市江州区壶兴路339-1号",
     "province": "广西壮族自治区",
@@ -40685,8 +40817,8 @@ export const universityList =
   {
     "name": "石家庄铁路职业技术学院",
     "location": {
-      "lat": 38.093999,
-      "lng": 114.533558
+      "lat": 38.10715904304891,
+      "lng": 114.37987909384208
     },
     "address": "http://www.sirt.edu.cn/",
     "province": "河北省",
@@ -40701,8 +40833,8 @@ export const universityList =
   {
     "name": "鹤壁汽车工程职业学院",
     "location": {
-      "lat": 35.709938,
-      "lng": 114.318631
+      "lat": 35.7099382601523,
+      "lng": 114.31863091739132
     },
     "address": "http://www.hbqcxy.com/",
     "province": "河南省",
@@ -40717,8 +40849,8 @@ export const universityList =
   {
     "name": "安徽财经大学(龙湖东校区)",
     "location": {
-      "lat": 32.911437,
-      "lng": 117.431272
+      "lat": 32.9141322962182,
+      "lng": 117.43372751402305
     },
     "address": "安徽省蚌埠市龙子湖区曹山路962号",
     "province": "安徽省",
@@ -40733,8 +40865,8 @@ export const universityList =
   {
     "name": "湖北工业职业技术学院",
     "location": {
-      "lat": 32.627454,
-      "lng": 110.808074
+      "lat": 32.627453601656754,
+      "lng": 110.80807355559365
     },
     "address": "http://www.hbgyzy.edu.cn/",
     "province": "湖北省",
@@ -40749,8 +40881,8 @@ export const universityList =
   {
     "name": "四川铁道职业学院",
     "location": {
-      "lat": 30.885427,
-      "lng": 103.809984
+      "lat": 30.885426979384253,
+      "lng": 103.80998392933843
     },
     "address": "http://www.scvir.com/",
     "province": "四川省",
@@ -40765,8 +40897,8 @@ export const universityList =
   {
     "name": "永州师范高等专科学校",
     "location": {
-      "lat": 26.270057,
-      "lng": 111.637613
+      "lat": 26.27005660500575,
+      "lng": 111.63761250718946
     },
     "address": null,
     "province": "湖南省",
@@ -40781,8 +40913,8 @@ export const universityList =
   {
     "name": "晋中师范高等专科学校",
     "location": {
-      "lat": 37.731398,
-      "lng": 112.74022
+      "lat": 37.7313977030496,
+      "lng": 112.74022001258952
     },
     "address": "http://www.sxjzsf.com/",
     "province": "山西省",
@@ -40797,8 +40929,8 @@ export const universityList =
   {
     "name": "黎明职业大学",
     "location": {
-      "lat": 24.885041,
-      "lng": 118.633292
+      "lat": 24.88587958817643,
+      "lng": 118.63486760531451
     },
     "address": "http://www.lmu.edu.cn/",
     "province": "福建省",
@@ -40813,8 +40945,8 @@ export const universityList =
   {
     "name": "惠州学院",
     "location": {
-      "lat": 23.044727,
-      "lng": 114.424935
+      "lat": 23.044726846301277,
+      "lng": 114.42493493926693
     },
     "address": "http://www.hzu.edu.cn/",
     "province": "广东省",
@@ -40829,8 +40961,8 @@ export const universityList =
   {
     "name": "重庆科技职业学院",
     "location": {
-      "lat": 29.508718,
-      "lng": 105.801878
+      "lat": 30.757295852723047,
+      "lng": 108.3774689592521
     },
     "address": "http://www.cqkjzyxy.com/",
     "province": "重庆市",
@@ -40845,8 +40977,8 @@ export const universityList =
   {
     "name": "大同师范高等专科学校",
     "location": {
-      "lat": 40.082659,
-      "lng": 113.234427
+      "lat": 40.082659032257226,
+      "lng": 113.2344270109398
     },
     "address": null,
     "province": "山西省",
@@ -40861,8 +40993,8 @@ export const universityList =
   {
     "name": "安徽工程大学",
     "location": {
-      "lat": 31.346784,
-      "lng": 118.420835
+      "lat": 31.358128078019313,
+      "lng": 118.48659331411459
     },
     "address": "http://www.ahpu.edu.cn/",
     "province": "安徽省",
@@ -40877,8 +41009,8 @@ export const universityList =
   {
     "name": "云南大学",
     "location": {
-      "lat": 25.060198,
-      "lng": 102.708574
+      "lat": 25.060198343162952,
+      "lng": 102.7085742274549
     },
     "address": "http://www.ynu.edu.cn/",
     "province": "云南省",
@@ -40893,8 +41025,8 @@ export const universityList =
   {
     "name": "武汉交通职业学院",
     "location": {
-      "lat": 30.433809,
-      "lng": 114.272959
+      "lat": 30.599607705371508,
+      "lng": 114.29188692507046
     },
     "address": "http://www.whjzy.net/",
     "province": "湖北省",
@@ -40909,8 +41041,8 @@ export const universityList =
   {
     "name": "安徽医科大学临床医学院",
     "location": {
-      "lat": 31.838463,
-      "lng": 117.056585
+      "lat": 31.838463160101732,
+      "lng": 117.05658499481657
     },
     "address": "http://cc.ahmu.edu.cn/",
     "province": "安徽省",
@@ -40925,8 +41057,8 @@ export const universityList =
   {
     "name": "三峡大学(东山校区)",
     "location": {
-      "lat": 30.712025,
-      "lng": 111.314582
+      "lat": 30.71192015458976,
+      "lng": 111.31317493367727
     },
     "address": "湖北省宜昌市西陵区绿萝路36号",
     "province": "湖北省",
@@ -40941,8 +41073,8 @@ export const universityList =
   {
     "name": "广州民航职业技术学院",
     "location": {
-      "lat": 23.171388,
-      "lng": 113.263915
+      "lat": 23.401300322641877,
+      "lng": 113.11062244127189
     },
     "address": "http://cs.caac.net/cs/caacHome/index.html",
     "province": "广东省",
@@ -40957,8 +41089,8 @@ export const universityList =
   {
     "name": "广州珠江职业技术学院",
     "location": {
-      "lat": 23.27481,
-      "lng": 113.835541
+      "lat": 22.707647221324564,
+      "lng": 113.54939276069268
     },
     "address": "http://www.gzzjedu.cn/",
     "province": "广东省",
@@ -40973,8 +41105,8 @@ export const universityList =
   {
     "name": "石家庄信息工程职业学院(新校区)",
     "location": {
-      "lat": 38.156327,
-      "lng": 114.688258
+      "lat": 38.02781655532087,
+      "lng": 114.8533779044236
     },
     "address": "河北省石家庄市藁城区天祥大街81号",
     "province": "河北省",
@@ -40989,8 +41121,8 @@ export const universityList =
   {
     "name": "济南幼儿师范高等专科学校",
     "location": {
-      "lat": 36.507236,
-      "lng": 116.807028
+      "lat": 36.50723557361207,
+      "lng": 116.8070278190562
     },
     "address": "http://www.jnygz.com/",
     "province": "山东省",
@@ -41005,8 +41137,8 @@ export const universityList =
   {
     "name": "甘肃农业职业技术学院",
     "location": {
-      "lat": 36.050646,
-      "lng": 103.89554
+      "lat": 36.01345967128042,
+      "lng": 103.99157171699181
     },
     "address": "http://www.gscat.cn/default.html",
     "province": "甘肃省",
@@ -41021,8 +41153,8 @@ export const universityList =
   {
     "name": "西南大学",
     "location": {
-      "lat": 29.826659,
-      "lng": 106.430691
+      "lat": 29.583677568895567,
+      "lng": 106.51568703007077
     },
     "address": "http://www.swu.edu.cn/",
     "province": "重庆市",
@@ -41037,8 +41169,8 @@ export const universityList =
   {
     "name": "黑龙江东方学院",
     "location": {
-      "lat": 45.580633,
-      "lng": 126.668831
+      "lat": 45.580633137662794,
+      "lng": 126.66883123019893
     },
     "address": "http://www.dfxy.net/",
     "province": "黑龙江省",
@@ -41053,13 +41185,17 @@ export const universityList =
   {
     "name": "宁波市",
     "num": 8,
-    "index": 2611
+    "index": 2611,
+    "location": {
+      "lat": 29.866068124069646,
+      "lng": 121.63084278185603
+    }
   },
   {
     "name": "山东特殊教育职业学院(长清新校区)",
     "location": {
-      "lat": 36.586732,
-      "lng": 116.801476
+      "lat": 36.59135342814666,
+      "lng": 116.8051678774978
     },
     "address": "山东省济南市长清区平安街道玉皇山路",
     "province": "山东省",
@@ -41073,8 +41209,8 @@ export const universityList =
   {
     "name": "南昌影视传播职业学院",
     "location": {
-      "lat": 28.749812,
-      "lng": 115.960139
+      "lat": 28.749811960711618,
+      "lng": 115.96013914514268
     },
     "address": "http://www.ncyscb.com/",
     "province": "江西省",
@@ -41089,8 +41225,8 @@ export const universityList =
   {
     "name": "浙江宇翔职业技术学院",
     "location": {
-      "lat": 30.626944,
-      "lng": 119.676039
+      "lat": 30.626943926262683,
+      "lng": 119.67603901106253
     },
     "address": null,
     "province": "浙江省",
@@ -41105,8 +41241,8 @@ export const universityList =
   {
     "name": "贵州食品工程职业学院",
     "location": {
-      "lat": 26.576324,
-      "lng": 106.430084
+      "lat": 26.57632427978192,
+      "lng": 106.43008417432284
     },
     "address": "",
     "province": "贵州省",
@@ -41120,8 +41256,8 @@ export const universityList =
   {
     "name": "山西管理职业学院",
     "location": {
-      "lat": 36.147102,
-      "lng": 111.513094
+      "lat": 36.1471022959386,
+      "lng": 111.51309354356728
     },
     "address": "http://www.sxglzyxy.com.cn/",
     "province": "山西省",
@@ -41136,8 +41272,8 @@ export const universityList =
   {
     "name": "云南司法警官职业学院",
     "location": {
-      "lat": 25.072129,
-      "lng": 102.904123
+      "lat": 25.072129033326632,
+      "lng": 102.90412303012702
     },
     "address": "http://www.yncpu.net/",
     "province": "云南省",
@@ -41152,8 +41288,8 @@ export const universityList =
   {
     "name": "德州职业技术学院(东校区)",
     "location": {
-      "lat": 37.465946,
-      "lng": 116.36661
+      "lat": 37.46590196340832,
+      "lng": 116.36581500680883
     },
     "address": "德州市德城区大学东路689号",
     "province": "山东省",
@@ -41168,8 +41304,8 @@ export const universityList =
   {
     "name": "梧州医学高等专科学校",
     "location": {
-      "lat": 23.391661,
-      "lng": 111.226119
+      "lat": 23.391661371955717,
+      "lng": 111.2261185159257
     },
     "address": null,
     "province": "广西壮族自治区",
@@ -41184,8 +41320,8 @@ export const universityList =
   {
     "name": "湖南体育职业学院",
     "location": {
-      "lat": 28.154972,
-      "lng": 113.045515
+      "lat": 28.154971703196956,
+      "lng": 113.04551541386341
     },
     "address": "http://www.hntyxy.net/",
     "province": "湖南省",
@@ -41200,8 +41336,8 @@ export const universityList =
   {
     "name": "中山火炬职业技术学院(实训校区)",
     "location": {
-      "lat": 22.55676,
-      "lng": 113.465274
+      "lat": 22.556575667495665,
+      "lng": 113.46504968859156
     },
     "address": "广东省中山市兴业路7号",
     "province": "广东省",
@@ -41216,8 +41352,8 @@ export const universityList =
   {
     "name": "宁波大学(东校区)",
     "location": {
-      "lat": 29.913994,
-      "lng": 121.644201
+      "lat": 29.91206347991217,
+      "lng": 121.6499542315745
     },
     "address": "浙江省宁波市江北区风华路818号",
     "province": "浙江省",
@@ -41232,8 +41368,8 @@ export const universityList =
   {
     "name": "上海工艺美术职业学院",
     "location": {
-      "lat": 31.192696,
-      "lng": 121.442666
+      "lat": 31.41383389643533,
+      "lng": 121.2586699754891
     },
     "address": "http://www.sada.edu.cn/webDisplay/ESite/index.jsp",
     "province": "上海市",
@@ -41248,8 +41384,8 @@ export const universityList =
   {
     "name": "长治医学院",
     "location": {
-      "lat": 36.178657,
-      "lng": 113.12463
+      "lat": 36.17865686095431,
+      "lng": 113.12463000303282
     },
     "address": "http://www.czmc.com/",
     "province": "山西省",
@@ -41264,8 +41400,8 @@ export const universityList =
   {
     "name": "海南热带海洋学院",
     "location": {
-      "lat": 18.316374,
-      "lng": 109.540805
+      "lat": 18.316374025121547,
+      "lng": 109.54080503395735
     },
     "address": "http://www.qzu.edu.cn/",
     "province": "海南省",
@@ -41280,8 +41416,8 @@ export const universityList =
   {
     "name": "山东信息职业技术学院",
     "location": {
-      "lat": 36.71709,
-      "lng": 119.160842
+      "lat": 36.71709037525408,
+      "lng": 119.16084202650501
     },
     "address": "http://www.sdcit.cn/",
     "province": "山东省",
@@ -41296,8 +41432,8 @@ export const universityList =
   {
     "name": "延安大学",
     "location": {
-      "lat": 36.626077,
-      "lng": 109.469607
+      "lat": 36.626077004863774,
+      "lng": 109.4696071491205
     },
     "address": "https://www.yau.edu.cn/",
     "province": "陕西省",
@@ -41312,8 +41448,8 @@ export const universityList =
   {
     "name": "西北工业大学(友谊校区)",
     "location": {
-      "lat": 34.250383,
-      "lng": 108.921892
+      "lat": 34.25014025979697,
+      "lng": 108.92206371026805
     },
     "address": "西安市碑林区友谊西路127号",
     "province": "陕西省",
@@ -41328,8 +41464,8 @@ export const universityList =
   {
     "name": "马鞍山职业技术学院",
     "location": {
-      "lat": 31.669165,
-      "lng": 118.567507
+      "lat": 31.670553890438054,
+      "lng": 118.56775404914391
     },
     "address": "http://www.mastc.edu.cn/",
     "province": "安徽省",
@@ -41344,8 +41480,8 @@ export const universityList =
   {
     "name": "河北水利电力学院",
     "location": {
-      "lat": 38.301061,
-      "lng": 116.811572
+      "lat": 38.301060866311275,
+      "lng": 116.81157189747843
     },
     "address": "http://www.hbwe.edu.cn/",
     "province": "河北省",
@@ -41360,8 +41496,8 @@ export const universityList =
   {
     "name": "汉江师范学院",
     "location": {
-      "lat": 32.622628,
-      "lng": 110.796089
+      "lat": 32.62262799589465,
+      "lng": 110.79608908212394
     },
     "address": "http://www.hjnu.edu.cn/",
     "province": "湖北省",
@@ -41376,8 +41512,8 @@ export const universityList =
   {
     "name": "宁夏体育职业学院",
     "location": {
-      "lat": 38.509399,
-      "lng": 106.159512
+      "lat": 38.509398744487086,
+      "lng": 106.15951178221583
     },
     "address": "http://www.nxtyzyxy.com/",
     "province": "宁夏回族自治区",
@@ -41392,8 +41528,8 @@ export const universityList =
   {
     "name": "浙江工商大学杭州商学院(桐庐校区)",
     "location": {
-      "lat": 29.836656,
-      "lng": 119.750596
+      "lat": 29.83398586241709,
+      "lng": 119.75283647992248
     },
     "address": "浙江省杭州市桐庐县环城南路66号",
     "province": "浙江省",
@@ -41408,8 +41544,8 @@ export const universityList =
   {
     "name": "安徽警官职业学院(西校区)",
     "location": {
-      "lat": 31.882579,
-      "lng": 117.230508
+      "lat": 31.880722694223127,
+      "lng": 117.2301328583251
     },
     "address": "安徽省合肥市蜀山区清溪路78号",
     "province": "安徽省",
@@ -41424,8 +41560,8 @@ export const universityList =
   {
     "name": "辽宁中医药大学",
     "location": {
-      "lat": 41.837331,
-      "lng": 123.441202
+      "lat": 41.83733088599732,
+      "lng": 123.44120202558663
     },
     "address": "http://www.lnutcm.edu.cn/",
     "province": "辽宁省",
@@ -41440,8 +41576,8 @@ export const universityList =
   {
     "name": "华东理工大学(徐汇校区)",
     "location": {
-      "lat": 31.149538,
-      "lng": 121.430226
+      "lat": 31.150423319069716,
+      "lng": 121.42979564802053
     },
     "address": "上海市徐汇区梅陇路130号",
     "province": "上海市",
@@ -41456,8 +41592,8 @@ export const universityList =
   {
     "name": "中山大学南方学院",
     "location": {
-      "lat": 23.638368,
-      "lng": 113.685752
+      "lat": 23.638367610691787,
+      "lng": 113.68575176417916
     },
     "address": "http://www.nfu.edu.cn/",
     "province": "广东省",
@@ -41472,8 +41608,8 @@ export const universityList =
   {
     "name": "湖北汽车工业学院",
     "location": {
-      "lat": 32.656806,
-      "lng": 110.745298
+      "lat": 32.59093589218574,
+      "lng": 110.82903722144947
     },
     "address": "http://www.huat.edu.cn/",
     "province": "湖北省",
@@ -41488,8 +41624,8 @@ export const universityList =
   {
     "name": "郑州电力高等专科学校",
     "location": {
-      "lat": 34.804218,
-      "lng": 113.904446
+      "lat": 34.80421798133157,
+      "lng": 113.90444596200595
     },
     "address": "http://www.zepc.edu.cn/",
     "province": "河南省",
@@ -41504,8 +41640,8 @@ export const universityList =
   {
     "name": "贵州工业职业技术学院",
     "location": {
-      "lat": 26.610581,
-      "lng": 106.653765
+      "lat": 26.596812938667746,
+      "lng": 106.47860390066451
     },
     "address": "http://www.gzky.edu.cn/",
     "province": "贵州省",
@@ -41520,8 +41656,8 @@ export const universityList =
   {
     "name": "云南旅游职业学院",
     "location": {
-      "lat": 25.08308,
-      "lng": 102.716163
+      "lat": 25.35522145788452,
+      "lng": 103.06468391116367
     },
     "address": "",
     "province": "云南省",
@@ -41536,8 +41672,8 @@ export const universityList =
   {
     "name": "湖南工程职业技术学院",
     "location": {
-      "lat": 28.281227,
-      "lng": 113.075286
+      "lat": 28.28122701405939,
+      "lng": 113.07528597709866
     },
     "address": "http://www.hngcjx.com.cn/",
     "province": "湖南省",
@@ -41552,8 +41688,8 @@ export const universityList =
   {
     "name": "文经学院",
     "location": {
-      "lat": 37.460837,
-      "lng": 121.48439
+      "lat": 37.45895349222893,
+      "lng": 121.48415364154866
     },
     "address": "烟台市莱山区港城东大街100号",
     "province": "山东省",
@@ -41568,8 +41704,8 @@ export const universityList =
   {
     "name": "武汉东湖学院",
     "location": {
-      "lat": 30.428082,
-      "lng": 114.323387
+      "lat": 30.428081515570526,
+      "lng": 114.32338699591389
     },
     "address": "http://www.wdu.edu.cn/",
     "province": "湖北省",
@@ -41584,8 +41720,8 @@ export const universityList =
   {
     "name": "辽宁职业学院",
     "location": {
-      "lat": 42.311524,
-      "lng": 123.91016
+      "lat": 42.311523653608,
+      "lng": 123.91016035096794
     },
     "address": "http://www.lnvc.cn/",
     "province": "辽宁省",
@@ -41600,8 +41736,8 @@ export const universityList =
   {
     "name": "共青科技职业学院",
     "location": {
-      "lat": 29.253562,
-      "lng": 115.78657
+      "lat": 29.227353921287307,
+      "lng": 115.76727897086104
     },
     "address": "http://www.gqkj.com.cn/",
     "province": "江西省",
@@ -41616,8 +41752,8 @@ export const universityList =
   {
     "name": "成都体育学院(武侯校区)",
     "location": {
-      "lat": 30.652713,
-      "lng": 104.049992
+      "lat": 30.652701283233466,
+      "lng": 104.0496519292311
     },
     "address": "四川省成都市武侯区一环路西一段19号",
     "province": "四川省",
@@ -41632,8 +41768,8 @@ export const universityList =
   {
     "name": "青海大学昆仑学院",
     "location": {
-      "lat": 36.694342,
-      "lng": 101.761171
+      "lat": 36.73958760877601,
+      "lng": 101.75896111098514
     },
     "address": "http://klc.qhu.edu.cn/",
     "province": "青海省",
@@ -41648,8 +41784,8 @@ export const universityList =
   {
     "name": "阳泉职业技术学院",
     "location": {
-      "lat": 37.894388,
-      "lng": 113.633472
+      "lat": 37.8943880426465,
+      "lng": 113.63347201509056
     },
     "address": "",
     "province": "山西省",
@@ -41663,8 +41799,8 @@ export const universityList =
   {
     "name": "三峡旅游职业技术学院",
     "location": {
-      "lat": 30.674048,
-      "lng": 111.435203
+      "lat": 30.674048364818454,
+      "lng": 111.43520255076372
     },
     "address": "http://www.tgc.edu.cn/",
     "province": "湖北省",
@@ -41679,8 +41815,8 @@ export const universityList =
   {
     "name": "中国矿业大学银川学院",
     "location": {
-      "lat": 38.520279,
-      "lng": 106.159395
+      "lat": 38.52027949434226,
+      "lng": 106.15939473300787
     },
     "address": "http://www.cumtyc.com.cn/",
     "province": "宁夏回族自治区",
@@ -41695,8 +41831,8 @@ export const universityList =
   {
     "name": "宁夏大学(怀远校区)",
     "location": {
-      "lat": 38.502493,
-      "lng": 106.147853
+      "lat": 38.50237908937256,
+      "lng": 106.14401753928809
     },
     "address": "宁夏回族自治区银川市西夏区文萃北街217号",
     "province": "宁夏回族自治区",
@@ -41711,8 +41847,8 @@ export const universityList =
   {
     "name": "湖南农业大学",
     "location": {
-      "lat": 28.18606,
-      "lng": 113.090025
+      "lat": 28.18606004773185,
+      "lng": 113.09002528407095
     },
     "address": "http://www.hunau.edu.cn/",
     "province": "湖南省",
@@ -41727,13 +41863,17 @@ export const universityList =
   {
     "name": "东莞市",
     "num": 8,
-    "index": 2654
+    "index": 2654,
+    "location": {
+      "lat": 23.02730841164339,
+      "lng": 113.75842045787648
+    }
   },
   {
     "name": "湖南冶金职业技术学院",
     "location": {
-      "lat": 27.843049,
-      "lng": 112.930855
+      "lat": 27.84294149419572,
+      "lng": 112.93093735457853
     },
     "address": "",
     "province": "湖南省",
@@ -41747,8 +41887,8 @@ export const universityList =
   {
     "name": "河北中医学院",
     "location": {
-      "lat": 38.062992,
-      "lng": 114.35294
+      "lat": 38.060243562820865,
+      "lng": 114.35304940317558
     },
     "address": "http://www.hebcm.edu.cn/",
     "province": "河北省",
@@ -41762,8 +41902,8 @@ export const universityList =
   {
     "name": "云南文化艺术职业学院",
     "location": {
-      "lat": 24.977167,
-      "lng": 102.641488
+      "lat": 25.032704279917226,
+      "lng": 102.68506000277239
     },
     "address": "http://www.ynarts.cn/",
     "province": "云南省",
@@ -41778,8 +41918,8 @@ export const universityList =
   {
     "name": "辽宁科技学院",
     "location": {
-      "lat": 41.46476,
-      "lng": 123.719783
+      "lat": 41.464760231905295,
+      "lng": 123.71978345237439
     },
     "address": "http://www.lnist.edu.cn/",
     "province": "辽宁省",
@@ -41794,8 +41934,8 @@ export const universityList =
   {
     "name": "巴音郭楞职业技术学院",
     "location": {
-      "lat": 41.721984,
-      "lng": 86.250668
+      "lat": 42.817506066923016,
+      "lng": 83.42657326114437
     },
     "address": "",
     "province": "新疆维吾尔自治区",
@@ -41809,8 +41949,8 @@ export const universityList =
   {
     "name": "山东胜利职业学院(济南路校区)",
     "location": {
-      "lat": 37.470474,
-      "lng": 118.539921
+      "lat": 37.469077192117936,
+      "lng": 118.54152388757477
     },
     "address": "山东省东营市东营区济南路1号",
     "province": "山东省",
@@ -41825,8 +41965,8 @@ export const universityList =
   {
     "name": "江苏师范大学(泉山校区)",
     "location": {
-      "lat": 34.202541,
-      "lng": 117.186728
+      "lat": 34.20404168972641,
+      "lng": 117.19059169553965
     },
     "address": "江苏省徐州市铜山区上海路101号",
     "province": "江苏省",
@@ -41841,8 +41981,8 @@ export const universityList =
   {
     "name": "太原科技大学华科学院",
     "location": {
-      "lat": 37.803472,
-      "lng": 112.515624
+      "lat": 37.803471715055714,
+      "lng": 112.51562378254327
     },
     "address": "http://www.tyust.edu.cn/",
     "province": "山西省",
@@ -41857,8 +41997,8 @@ export const universityList =
   {
     "name": "嘉兴职业技术学院",
     "location": {
-      "lat": 30.74899,
-      "lng": 120.717441
+      "lat": 30.748990168163697,
+      "lng": 120.71744081589682
     },
     "address": "http://www.jxvtc.net/default.html",
     "province": "浙江省",
@@ -41873,8 +42013,8 @@ export const universityList =
   {
     "name": "上海外国语大学贤达经济人文学院",
     "location": {
-      "lat": 31.492978,
-      "lng": 121.837637
+      "lat": 31.28419990740911,
+      "lng": 121.49016070032444
     },
     "address": "http://www.xdsisu.edu.cn/",
     "province": "上海市",
@@ -41889,8 +42029,8 @@ export const universityList =
   {
     "name": "河北环境工程学院",
     "location": {
-      "lat": 39.874193,
-      "lng": 119.459776
+      "lat": 39.874192902912725,
+      "lng": 119.45977582224903
     },
     "address": "https://www.hebuee.edu.cn/",
     "province": "河北省",
@@ -41905,8 +42045,8 @@ export const universityList =
   {
     "name": "江西农业大学南昌商学院(共青校区)",
     "location": {
-      "lat": 29.167902,
-      "lng": 115.822672
+      "lat": 29.169987431063827,
+      "lng": 115.82365985854848
     },
     "address": "江西省九江市共青城市青年大道79号",
     "province": "江西省",
@@ -41921,8 +42061,8 @@ export const universityList =
   {
     "name": "广西艺术学院(南湖校区)",
     "location": {
-      "lat": 22.809507,
-      "lng": 108.345016
+      "lat": 22.809514556136797,
+      "lng": 108.34801746124519
     },
     "address": "广西壮族自治区南宁市青秀区教育路7号",
     "province": "广西壮族自治区",
@@ -41937,8 +42077,8 @@ export const universityList =
   {
     "name": "河北科技大学理工学院-留学生公寓",
     "location": {
-      "lat": 38.040591,
-      "lng": 114.523502
+      "lat": 38.03886899436629,
+      "lng": 114.52773532993471
     },
     "address": "河北省石家庄市裕华区富强大街12号",
     "province": "河北省",
@@ -41952,8 +42092,8 @@ export const universityList =
   {
     "name": "西安培华学院(长安校区)",
     "location": {
-      "lat": 34.12926,
-      "lng": 108.94226
+      "lat": 34.1292600307027,
+      "lng": 108.94226004355723
     },
     "address": "西安市长安区常宁大街888号",
     "province": "陕西省",
@@ -41968,8 +42108,8 @@ export const universityList =
   {
     "name": "枣庄科技职业学院(新校区)",
     "location": {
-      "lat": 35.112014,
-      "lng": 117.19493
+      "lat": 35.10774930663165,
+      "lng": 117.1951065790328
     },
     "address": "山东省枣庄市滕州市学院东路888号",
     "province": "山东省",
@@ -41984,8 +42124,8 @@ export const universityList =
   {
     "name": "济南职业学院(彩石校区)",
     "location": {
-      "lat": 36.639758,
-      "lng": 117.267088
+      "lat": 36.637767072973716,
+      "lng": 117.27045392995433
     },
     "address": "山东省济南市历城区旅游路5518号",
     "province": "山东省",
@@ -42000,8 +42140,8 @@ export const universityList =
   {
     "name": "云南城市建设职业学院",
     "location": {
-      "lat": 25.240163,
-      "lng": 103.010667
+      "lat": 25.24016310412417,
+      "lng": 103.01066745340827
     },
     "address": "http://www.yncjxy.com/",
     "province": "云南省",
@@ -42016,8 +42156,8 @@ export const universityList =
   {
     "name": "西安电力高等专科学校",
     "location": {
-      "lat": 34.274117,
-      "lng": 108.992212
+      "lat": 34.27411735887079,
+      "lng": 108.99221229771167
     },
     "address": "http://www.xaepi.edu.cn/",
     "province": "陕西省",
@@ -42032,8 +42172,8 @@ export const universityList =
   {
     "name": "广东科贸职业学院(石井校区)",
     "location": {
-      "lat": 23.221608,
-      "lng": 113.221902
+      "lat": 23.22059065206462,
+      "lng": 113.22163925819417
     },
     "address": "广东省广州市白云区石庆路388号",
     "province": "广东省",
@@ -42048,8 +42188,8 @@ export const universityList =
   {
     "name": "南京工业大学",
     "location": {
-      "lat": 32.088423,
-      "lng": 118.647258
+      "lat": 32.08008793413785,
+      "lng": 118.7748327827623
     },
     "address": "http://www.njtech.edu.cn/",
     "province": "江苏省",
@@ -42064,8 +42204,8 @@ export const universityList =
   {
     "name": "合肥师范学院(锦绣校区)",
     "location": {
-      "lat": 31.7569,
-      "lng": 117.234981
+      "lat": 31.755998415653096,
+      "lng": 117.23522122005583
     },
     "address": "合肥市经济技术开发区莲花路1688号",
     "province": "安徽省",
@@ -42080,8 +42220,8 @@ export const universityList =
   {
     "name": "石家庄经济职业学院",
     "location": {
-      "lat": 38.15306,
-      "lng": 114.559916
+      "lat": 38.066419261339156,
+      "lng": 114.42316556179028
     },
     "address": "http://sjzjjxy.com/",
     "province": "河北省",
@@ -42096,8 +42236,8 @@ export const universityList =
   {
     "name": "河北交通职业技术学院",
     "location": {
-      "lat": 38.032887,
-      "lng": 114.649481
+      "lat": 38.03288699209602,
+      "lng": 114.64948114858265
     },
     "address": "http://www.hejtxy.edu.cn/jiaotong",
     "province": "河北省",
@@ -42112,8 +42252,8 @@ export const universityList =
   {
     "name": "南京中医药大学翰林学院",
     "location": {
-      "lat": 32.385053,
-      "lng": 119.901391
+      "lat": 32.385052926550564,
+      "lng": 119.90139080587323
     },
     "address": "http://www.hlxy.edu.cn/",
     "province": "江苏省",
@@ -42128,8 +42268,8 @@ export const universityList =
   {
     "name": "武夷学院",
     "location": {
-      "lat": 27.734178,
-      "lng": 118.010511
+      "lat": 27.73417793233367,
+      "lng": 118.0105114997989
     },
     "address": "http://www.wuyiu.edu.cn/",
     "province": "福建省",
@@ -42144,8 +42284,8 @@ export const universityList =
   {
     "name": "日照航海工程职业学院",
     "location": {
-      "lat": 35.476258,
-      "lng": 119.530913
+      "lat": 35.53589335596539,
+      "lng": 119.51971220316358
     },
     "address": "http://www.rzmevc.com/",
     "province": "山东省",
@@ -42160,8 +42300,8 @@ export const universityList =
   {
     "name": "四川工程技术职业学院",
     "location": {
-      "lat": 31.092397,
-      "lng": 104.397013
+      "lat": 31.097801640925674,
+      "lng": 104.39416736350131
     },
     "address": "德阳市旌阳区泰山南路二段801号",
     "province": "四川省",
@@ -42176,8 +42316,8 @@ export const universityList =
   {
     "name": "阜新高等专科学校",
     "location": {
-      "lat": 42.003262,
-      "lng": 121.638618
+      "lat": 42.06529125221364,
+      "lng": 121.74142187180668
     },
     "address": "http://www.fxgz.com.cn/",
     "province": "辽宁省",
@@ -42192,8 +42332,8 @@ export const universityList =
   {
     "name": "武汉软件工程职业学院",
     "location": {
-      "lat": 30.450796,
-      "lng": 114.433626
+      "lat": 30.450795934997252,
+      "lng": 114.43362552097902
     },
     "address": "http://www.whvcse.edu.cn/",
     "province": "湖北省",
@@ -42207,8 +42347,8 @@ export const universityList =
   {
     "name": "陕西警察学院",
     "location": {
-      "lat": 34.412974,
-      "lng": 109.013629
+      "lat": 34.41297389608148,
+      "lng": 109.01362897903617
     },
     "address": "陕西省西安市未央区启源二路199号",
     "province": "陕西省",
@@ -42223,8 +42363,8 @@ export const universityList =
   {
     "name": "广东建设职业技术学院(广州校区)",
     "location": {
-      "lat": 23.274379,
-      "lng": 113.254366
+      "lat": 23.273677412579595,
+      "lng": 113.2529850899712
     },
     "address": "广东省广州市白云区均禾街道石马村广花二路638号",
     "province": "广东省",
@@ -42239,8 +42379,8 @@ export const universityList =
   {
     "name": "吉林农业科技学院",
     "location": {
-      "lat": 43.963825,
-      "lng": 126.485394
+      "lat": 44.057484438554546,
+      "lng": 126.11604187652524
     },
     "address": "http://www.jlnku.com/",
     "province": "吉林省",
@@ -42255,8 +42395,8 @@ export const universityList =
   {
     "name": "山西旅游职业学院",
     "location": {
-      "lat": 37.810224,
-      "lng": 112.627041
+      "lat": 37.81022356248388,
+      "lng": 112.62704115392913
     },
     "address": "http://www.sxtvi.com.cn/",
     "province": "山西省",
@@ -42271,8 +42411,8 @@ export const universityList =
   {
     "name": "湖南幼儿师范高等专科学校",
     "location": {
-      "lat": 29.03267,
-      "lng": 111.64672
+      "lat": 29.03267004383454,
+      "lng": 111.64671997759936
     },
     "address": "http://www.cdgdsf.com/",
     "province": "湖南省",
@@ -42287,8 +42427,8 @@ export const universityList =
   {
     "name": "西华师范大学(华凤校区)",
     "location": {
-      "lat": 30.823736,
-      "lng": 106.073086
+      "lat": 30.82373550471846,
+      "lng": 106.07308634808415
     },
     "address": "南充市顺庆区师大路1号",
     "province": "四川省",
@@ -42303,8 +42443,8 @@ export const universityList =
   {
     "name": "湖南医药学院",
     "location": {
-      "lat": 27.545152,
-      "lng": 110.007404
+      "lat": 27.54515162195508,
+      "lng": 110.00740431908478
     },
     "address": "http://www.hnmu.com.cn/",
     "province": "湖南省",
@@ -42319,8 +42459,8 @@ export const universityList =
   {
     "name": "长春建筑学院(奢岭校区)",
     "location": {
-      "lat": 43.703589,
-      "lng": 125.530749
+      "lat": 43.742665216719885,
+      "lng": 125.48321169560558
     },
     "address": "长春市南关区长清公路(经济管理学院东北侧约100米)",
     "province": "吉林省",
@@ -42335,8 +42475,8 @@ export const universityList =
   {
     "name": "江西现代职业技术学院",
     "location": {
-      "lat": 28.676362,
-      "lng": 116.005828
+      "lat": 28.676362010363135,
+      "lng": 116.00582804133168
     },
     "address": "http://www.jxxdxy.com/",
     "province": "江西省",
@@ -42351,8 +42491,8 @@ export const universityList =
   {
     "name": "吉林农业大学",
     "location": {
-      "lat": 43.816805,
-      "lng": 125.417041
+      "lat": 43.816805381540135,
+      "lng": 125.41704071512956
     },
     "address": "http://www.jlau.edu.cn/index_2017.asp",
     "province": "吉林省",
@@ -42367,8 +42507,8 @@ export const universityList =
   {
     "name": "西安音乐学院",
     "location": {
-      "lat": 34.235299,
-      "lng": 108.948376
+      "lat": 34.23529940816362,
+      "lng": 108.94837561763862
     },
     "address": "http://www.xacom.edu.cn/",
     "province": "陕西省",
@@ -42383,8 +42523,8 @@ export const universityList =
   {
     "name": "湖南外国语职业学院",
     "location": {
-      "lat": 28.361274,
-      "lng": 112.910966
+      "lat": 28.180586543148653,
+      "lng": 113.66759889627008
     },
     "address": "http://www.hnflc.cn/",
     "province": "湖南省",
@@ -42399,8 +42539,8 @@ export const universityList =
   {
     "name": "贵州财经大学(花溪校区)",
     "location": {
-      "lat": 26.384099,
-      "lng": 106.648746
+      "lat": 26.39222060702924,
+      "lng": 106.6493798628045
     },
     "address": "贵州省贵阳市花溪区花燕路",
     "province": "贵州省",
@@ -42415,8 +42555,8 @@ export const universityList =
   {
     "name": "安徽国防科技职业学院",
     "location": {
-      "lat": 31.742446,
-      "lng": 116.51727
+      "lat": 31.742446455455678,
+      "lng": 116.51726958528276
     },
     "address": "https://www.acdt.edu.cn/",
     "province": "安徽省",
@@ -42431,8 +42571,8 @@ export const universityList =
   {
     "name": "黄淮学院(开源路)",
     "location": {
-      "lat": 33.016735,
-      "lng": 114.01277
+      "lat": 33.01845121591676,
+      "lng": 114.0104820342343
     },
     "address": "河南省驻马店市驿城区开源大道6号北区1号楼",
     "province": "河南省",
@@ -42447,8 +42587,8 @@ export const universityList =
   {
     "name": "大连科技学院",
     "location": {
-      "lat": 38.788033,
-      "lng": 121.161769
+      "lat": 38.78803312562423,
+      "lng": 121.16176904148337
     },
     "address": "http://www.dlust.edu.cn/",
     "province": "辽宁省",
@@ -42463,8 +42603,8 @@ export const universityList =
   {
     "name": "北方民族大学",
     "location": {
-      "lat": 38.503242,
-      "lng": 106.113651
+      "lat": 38.50352205480832,
+      "lng": 106.1046529833659
     },
     "address": "https://www.nmu.edu.cn/",
     "province": "宁夏回族自治区",
@@ -42479,8 +42619,8 @@ export const universityList =
   {
     "name": "河南对外经济贸易职业学院",
     "location": {
-      "lat": 34.835146,
-      "lng": 114.239919
+      "lat": 34.83514596034897,
+      "lng": 114.23991896318218
     },
     "address": null,
     "province": "河南省",
@@ -42495,8 +42635,8 @@ export const universityList =
   {
     "name": "廊坊师范学院",
     "location": {
-      "lat": 39.532873,
-      "lng": 116.679182
+      "lat": 39.53287297078341,
+      "lng": 116.67918241616496
     },
     "address": "http://www.lfnu.edu.cn/index.html",
     "province": "河北省",
@@ -42511,8 +42651,8 @@ export const universityList =
   {
     "name": "新疆现代职业技术学院",
     "location": {
-      "lat": 43.863594,
-      "lng": 87.446884
+      "lat": 43.863593980477354,
+      "lng": 87.44688374283584
     },
     "address": "http://www.xjxiandai.net/",
     "province": "新疆维吾尔自治区",
@@ -42526,8 +42666,8 @@ export const universityList =
   {
     "name": "三亚理工职业学院",
     "location": {
-      "lat": 18.335274,
-      "lng": 109.568372
+      "lat": 18.332540540750056,
+      "lng": 109.56590692379768
     },
     "address": "http://www.ucsanya.com/",
     "province": "海南省",
@@ -42541,8 +42681,8 @@ export const universityList =
   {
     "name": "内蒙古北方职业技术学院",
     "location": {
-      "lat": 40.903717,
-      "lng": 111.849057
+      "lat": 40.903717201048785,
+      "lng": 111.84905728904361
     },
     "address": "http://www.nmbfxy.com/",
     "province": "内蒙古自治区",
@@ -42557,8 +42697,8 @@ export const universityList =
   {
     "name": "华南农业大学珠江学院",
     "location": {
-      "lat": 23.517956,
-      "lng": 113.587688
+      "lat": 22.707647221324564,
+      "lng": 113.54939276069268
     },
     "address": "http://www.scauzhujiang.cn/",
     "province": "广东省",
@@ -42573,8 +42713,8 @@ export const universityList =
   {
     "name": "辽宁传媒学院",
     "location": {
-      "lat": 41.930681,
-      "lng": 123.422053
+      "lat": 41.9729498404038,
+      "lng": 123.38178612288458
     },
     "address": "http://www.lncu.cn/",
     "province": "辽宁省",
@@ -42589,8 +42729,8 @@ export const universityList =
   {
     "name": "肇庆学院",
     "location": {
-      "lat": 23.112805,
-      "lng": 112.501586
+      "lat": 23.11280503232706,
+      "lng": 112.50158603791837
     },
     "address": "http://www.zqu.edu.cn/",
     "province": "广东省",
@@ -42605,8 +42745,8 @@ export const universityList =
   {
     "name": "湖北幼儿师范高等专科学校",
     "location": {
-      "lat": 30.416229,
-      "lng": 114.382715
+      "lat": 30.416228944497472,
+      "lng": 114.38271504433709
     },
     "address": "http://www.hbssyys.cn/",
     "province": "湖北省",
@@ -42621,8 +42761,8 @@ export const universityList =
   {
     "name": "内蒙古大学创业学院(玉泉校区)",
     "location": {
-      "lat": 40.753169,
-      "lng": 111.700486
+      "lat": 40.75805896863502,
+      "lng": 111.68157514366065
     },
     "address": "内蒙古自治区呼和浩特市玉泉区万顺街80号",
     "province": "内蒙古自治区",
@@ -42637,8 +42777,8 @@ export const universityList =
   {
     "name": "湖北生物科技职业学院",
     "location": {
-      "lat": 30.467326,
-      "lng": 114.350333
+      "lat": 30.467326254449542,
+      "lng": 114.35033346629672
     },
     "address": "http://www.hbswkj.com/",
     "province": "湖北省",
@@ -42653,8 +42793,8 @@ export const universityList =
   {
     "name": "四川中医药高等专科学校(南校区)",
     "location": {
-      "lat": 31.511532,
-      "lng": 104.692094
+      "lat": 31.511531900796246,
+      "lng": 104.69209397910755
     },
     "address": "绵阳市涪城区教育中路1号",
     "province": "四川省",
@@ -42669,8 +42809,8 @@ export const universityList =
   {
     "name": "四川航天职业技术学院",
     "location": {
-      "lat": 31.013223,
-      "lng": 104.243137
+      "lat": 31.013223447110303,
+      "lng": 104.24313660556699
     },
     "address": "http://220.167.53.63:30001/index.php",
     "province": "四川省",
@@ -42684,13 +42824,17 @@ export const universityList =
   {
     "name": "中山市",
     "num": 8,
-    "index": 2715
+    "index": 2715,
+    "location": {
+      "lat": 22.5223146707905,
+      "lng": 113.39942236263188
+    }
   },
   {
     "name": "东北农业大学",
     "location": {
-      "lat": 45.76003,
-      "lng": 126.731357
+      "lat": 45.76003018294258,
+      "lng": 126.73135697674638
     },
     "address": "http://www.neau.edu.cn/",
     "province": "黑龙江省",
@@ -42705,8 +42849,8 @@ export const universityList =
   {
     "name": "南充电影工业职业学院",
     "location": {
-      "lat": 30.907894,
-      "lng": 106.16786
+      "lat": 30.907894110311297,
+      "lng": 106.16785955565895
     },
     "address": null,
     "province": "四川省",
@@ -42719,8 +42863,8 @@ export const universityList =
   {
     "name": "海南体育职业技术学院",
     "location": {
-      "lat": 20.019439,
-      "lng": 110.380959
+      "lat": 20.019438990279923,
+      "lng": 110.380959005961
     },
     "address": "http://www.hnstx.com/",
     "province": "海南省",
@@ -42735,8 +42879,8 @@ export const universityList =
   {
     "name": "江西财经大学(蛟桥园校区)",
     "location": {
-      "lat": 28.746778,
-      "lng": 115.860912
+      "lat": 28.73895004239789,
+      "lng": 116.06161434060226
     },
     "address": "江西省南昌市昌北国家经济技术开发区双港东大街169号",
     "province": "江西省",
@@ -42751,8 +42895,8 @@ export const universityList =
   {
     "name": "华南师范大学(广州校区石牌校园)",
     "location": {
-      "lat": 23.144541,
-      "lng": 113.35785
+      "lat": 23.146367689661457,
+      "lng": 113.36084615963799
     },
     "address": "广州市天河区中山大道西55号",
     "province": "广东省",
@@ -42767,8 +42911,8 @@ export const universityList =
   {
     "name": "广西科技职业学院",
     "location": {
-      "lat": 22.596911,
-      "lng": 107.922468
+      "lat": 22.59691064438369,
+      "lng": 107.92246795316312
     },
     "address": "http://www.gxkjzy.com/",
     "province": "广西壮族自治区",
@@ -42783,8 +42927,8 @@ export const universityList =
   {
     "name": "南京铁道职业技术学院(浦口校区)",
     "location": {
-      "lat": 32.107955,
-      "lng": 118.705716
+      "lat": 32.110332793935896,
+      "lng": 118.70544946178264
     },
     "address": "江苏省南京市浦口区珍珠南路65号",
     "province": "江苏省",
@@ -42799,8 +42943,8 @@ export const universityList =
   {
     "name": "菏泽学院(北校区)",
     "location": {
-      "lat": 35.277474,
-      "lng": 115.472037
+      "lat": 35.274582559422456,
+      "lng": 115.47443893570428
     },
     "address": "山东省菏泽市牡丹区大学路2269号",
     "province": "山东省",
@@ -42815,8 +42959,8 @@ export const universityList =
   {
     "name": "贺州学院(西校区)",
     "location": {
-      "lat": 24.416049,
-      "lng": 111.519692
+      "lat": 24.415884306701184,
+      "lng": 111.52304423943464
     },
     "address": "广西壮族自治区贺州市八步区潇贺大道3261号",
     "province": "广西壮族自治区",
@@ -42831,8 +42975,8 @@ export const universityList =
   {
     "name": "云南商务职业学院",
     "location": {
-      "lat": 25.244278,
-      "lng": 102.996601
+      "lat": 25.244277651322925,
+      "lng": 102.99660142641548
     },
     "address": "http://www.ynswxy.net/",
     "province": "云南省",
@@ -42847,8 +42991,8 @@ export const universityList =
   {
     "name": "甘肃医学院",
     "location": {
-      "lat": 35.545115,
-      "lng": 106.718228
+      "lat": 35.54511492151049,
+      "lng": 106.71822798567919
     },
     "address": "http://www.gsmc.edu.cn/",
     "province": "甘肃省",
@@ -42863,8 +43007,8 @@ export const universityList =
   {
     "name": "浙江商业职业技术学院(滨江校区)",
     "location": {
-      "lat": 30.180812,
-      "lng": 120.17042
+      "lat": 30.179773450084483,
+      "lng": 120.16747195216743
     },
     "address": "浙江省杭州市滨江区滨文路470号",
     "province": "浙江省",
@@ -42879,8 +43023,8 @@ export const universityList =
   {
     "name": "烟台文化旅游职业学院",
     "location": {
-      "lat": 37.425397,
-      "lng": 121.490502
+      "lat": 37.425396992088416,
+      "lng": 121.49050196658769
     },
     "address": null,
     "province": "山东省",
@@ -42895,8 +43039,8 @@ export const universityList =
   {
     "name": "新疆轻工职业技术学院",
     "location": {
-      "lat": 43.927396,
-      "lng": 87.635374
+      "lat": 43.92271067063266,
+      "lng": 87.63221072717452
     },
     "address": "https://www.xjqg.edu.cn/xjqg/xjqg1/index.php",
     "province": "新疆维吾尔自治区",
@@ -42911,8 +43055,8 @@ export const universityList =
   {
     "name": "山西同文职业技术学院(榆次校区)",
     "location": {
-      "lat": 37.641995,
-      "lng": 112.661392
+      "lat": 37.633288481269744,
+      "lng": 112.64255021889781
     },
     "address": "山西省晋中市榆次区G339(涂水大街)",
     "province": "山西省",
@@ -42925,8 +43069,8 @@ export const universityList =
   {
     "name": "湖南现代物流职业技术学院",
     "location": {
-      "lat": 28.219508,
-      "lng": 113.101299
+      "lat": 28.219507677534626,
+      "lng": 113.10129901821745
     },
     "address": "http://www.56edu.com/",
     "province": "湖南省",
@@ -42938,4 +43082,4 @@ export const universityList =
     "uid": "e889a744950b40b58605bfc4",
     "index": 2731
   }
-]
+];

@@ -281,6 +281,13 @@ var _utils = __webpack_require__(/*! ../../util/utils */ 166);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
 var _default = {
   data: function data() {
     return {
@@ -353,48 +360,45 @@ var _default = {
   },
   computed: {
     filterSchoolList: function filterSchoolList() {
-      var _this3 = this;
       if (!this.searchSchool) {
         return this.universityList.slice(0, this.maxResults);
       }
-      var searchValue = this.searchSchool.toLowerCase();
-      var list = this.universityList.filter(function (item, index) {
-        // 当搜索结果达到最大限制时停止筛选
-        if (index >= _this3.maxResults) return false;
+      var searchValue = this.searchSchool.toLowerCase().trim();
+      return this.universityList.filter(function (item) {
         var schoolName = item.name.toLowerCase();
-        return schoolName.indexOf(searchValue) !== -1;
-      });
-      return list.slice(0, this.maxResults);
+        return schoolName.includes(searchValue);
+      }).slice(0, this.maxResults);
     }
   },
   onLoad: function onLoad() {
-    var _this4 = this;
+    var _this3 = this;
     return (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee() {
       var that;
       return _regenerator.default.wrap(function _callee$(_context) {
         while (1) {
           switch (_context.prev = _context.next) {
             case 0:
-              _this4.loadingshow = true;
+              console.log('学校列表数据：', _this3.universityList);
+              _this3.loadingshow = true;
               // console.log('onload',this.universityList);
-              that = _this4;
-              _this4.chooseShooleInfo = uni.getStorageSync("chooseShooleInfo");
-              if (!_this4.chooseShooleInfo) {
-                _context.next = 12;
+              that = _this3;
+              _this3.chooseShooleInfo = uni.getStorageSync("chooseShooleInfo");
+              if (!_this3.chooseShooleInfo) {
+                _context.next = 13;
                 break;
               }
-              _this4.chooseShoole = _this4.chooseShooleInfo.name;
-              _this4.longitude = _this4.chooseShooleInfo.location.lng;
-              _this4.latitude = _this4.chooseShooleInfo.location.lat;
-              _this4.loadingshow = false;
-              _this4.forceRefresh = false;
-              _this4.$nextTick(function () {
-                _this4.forceRefresh = true;
+              _this3.chooseShoole = _this3.chooseShooleInfo.name;
+              _this3.longitude = _this3.chooseShooleInfo.location.lng;
+              _this3.latitude = _this3.chooseShooleInfo.location.lat;
+              _this3.loadingshow = false;
+              _this3.forceRefresh = false;
+              _this3.$nextTick(function () {
+                _this3.forceRefresh = true;
               });
-              _context.next = 14;
+              _context.next = 15;
               break;
-            case 12:
-              _context.next = 14;
+            case 13:
+              _context.next = 15;
               return uni.getLocation({
                 type: "wgs84",
                 success: function success(res) {
@@ -429,7 +433,7 @@ var _default = {
                   });
                 }
               });
-            case 14:
+            case 15:
             case "end":
               return _context.stop();
           }

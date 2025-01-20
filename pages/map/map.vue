@@ -20,14 +20,21 @@
       mode=""
     ></image>
     <u-popup
-      height="300"
-      width="300"
-      style="max-width: 600rpx; min-width: 600rpx"
       :show="popupShow"
-      :round="10"
+      :round="16"
       mode="center"
       @close="close"
       @open="open"
+      :closeOnClickOverlay="true"
+      :overlayStyle="{
+        background: 'rgba(0, 0, 0, 0.35)'
+      }"
+      :customStyle="{
+        maxWidth: '650rpx',
+        width: '85%',
+        borderRadius: '24rpx',
+        overflow: 'hidden'
+      }"
     >
       <view class="search-container">
         <view class="search-title">搜索您的学校</view>
@@ -164,19 +171,15 @@ export default {
         return this.universityList.slice(0, this.maxResults);
       }
       
-      const searchValue = this.searchSchool.toLowerCase();
-      const list = this.universityList.filter((item, index) => {
-        // 当搜索结果达到最大限制时停止筛选
-        if (index >= this.maxResults) return false;
-        
+      const searchValue = this.searchSchool.toLowerCase().trim();
+      return this.universityList.filter(item => {
         const schoolName = item.name.toLowerCase();
-        return schoolName.indexOf(searchValue) !== -1;
-      });
-      
-      return list.slice(0, this.maxResults);
+        return schoolName.includes(searchValue);
+      }).slice(0, this.maxResults);
     },
   },
   async onLoad() {
+    console.log('学校列表数据：', this.universityList);
     this.loadingshow = true;
     // console.log('onload',this.universityList);
     const that = this;
@@ -239,7 +242,8 @@ export default {
   width: 100%;
   height: calc(100vh - 52px);
   position: relative;
-  background-color: #b4b4b4;
+  background-color: #f5f5f5;
+
   .icon_shcool {
     width: 80rpx;
     height: 80rpx;
@@ -247,84 +251,151 @@ export default {
     position: absolute;
     top: 100rpx;
     right: 0px;
-    background-color: aliceblue;
+    background-color: #ffffff;
     border-radius: 40rpx 0 0 40rpx;
-    border: 1px solid #b4b4b4;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    
+    &:active {
+      transform: scale(0.95);
+    }
   }
+  
   .icon_shcool_active {
     padding-right: 50rpx;
+    background-color: #f0f7ff;
+  }
+
+  :deep(.u-popup) {
+    .u-popup__content {
+      max-height: 80vh;
+    }
   }
 
   .search-container {
-    padding: 20rpx;
-    background: #f5f5f5;
-    border-radius: 16rpx 16rpx 0 0;
-
+    padding: 30rpx;
+    background: #ffffff;
+    
     .search-title {
-      font-size: 28rpx;
+      font-size: 32rpx;
       color: #333;
-      margin-bottom: 16rpx;
+      margin-bottom: 20rpx;
+      font-weight: 600;
+      position: relative;
+      padding-left: 16rpx;
+      
+      &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 4rpx;
+        height: 24rpx;
+        background: #4080ff;
+        border-radius: 4rpx;
+      }
     }
 
     .search-box {
-      display: flex;
-      align-items: center;
-      background: #fff;
-      padding: 12rpx 24rpx;
-      border-radius: 8rpx;
-      border: 1px solid #eee;
-
-      .search_inp {
-        flex: 1;
-        font-size: 28rpx;
+      margin: 0 4rpx;
+      
+      .u-input {
+        background: #f8f9fa;
+        border-radius: 12rpx;
+        padding: 20rpx 24rpx;
+        
+        &__input {
+          font-size: 28rpx;
+          color: #333;
+        }
+        
+        &__placeholder {
+          color: #999;
+        }
       }
     }
   }
 
   .scroll_sh {
-    width: 100%;
-    border-top: 1px solid #eee;
-    background: #fff;
+    max-height: 60vh;
+    position: relative;
+    
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 40rpx;
+      background: linear-gradient(to top, #fff, transparent);
+      pointer-events: none;
+    }
 
     .scroll_item {
-      padding: 24rpx;
-      border-bottom: 1px solid #eee;
-      transition: all 0.3s;
-
+      margin: 0 30rpx;
+      padding: 24rpx 0;
+      border-bottom: 1px solid #edf2f7;
+      transition: all 0.25s ease;
+      
       &:active {
-        background: #f5f5f5;
+        background: #f0f7ff;
       }
 
       .text {
         font-size: 28rpx;
         color: #333;
-        line-height: 1.5;
+        line-height: 1.6;
+      }
+
+      &:last-child {
+        border-bottom: none;
       }
     }
 
     .no-result {
-      padding: 40rpx;
+      padding: 80rpx 40rpx;
       text-align: center;
       color: #999;
       font-size: 28rpx;
+      
+      &::before {
+        content: '😅';
+        display: block;
+        font-size: 60rpx;
+        margin-bottom: 20rpx;
+      }
     }
   }
 
   .selected-school {
-    padding: 24rpx;
-    background: #f5f7fa;
-    border-radius: 0 0 16rpx 16rpx;
+    margin-top: auto;
+    padding: 30rpx;
+    background: #f8f9fa;
+    border-top: 1px solid #edf2f7;
     
     .label {
       font-size: 26rpx;
       color: #666;
-      margin-bottom: 8rpx;
+      margin-bottom: 12rpx;
+      display: flex;
+      align-items: center;
+      
+      &::before {
+        content: '';
+        width: 8rpx;
+        height: 8rpx;
+        background: #4080ff;
+        border-radius: 50%;
+        margin-right: 12rpx;
+      }
     }
     
     .value {
-      font-size: 30rpx;
+      font-size: 32rpx;
       color: #333;
-      font-weight: 500;
+      font-weight: 600;
+      padding-left: 20rpx;
     }
   }
 }

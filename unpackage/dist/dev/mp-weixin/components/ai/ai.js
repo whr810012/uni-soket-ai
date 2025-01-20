@@ -81,6 +81,28 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
+  var l0 = _vm.__map(_vm.dialogueList, function (item, index) {
+    var $orig = _vm.__get_orig(item)
+    var m0 = item.role === "assistant" ? _vm.parseMarkdown(item.content) : null
+    return {
+      $orig: $orig,
+      m0: m0,
+    }
+  })
+  var g0 = _vm.usercontent.trim()
+  var g1 = _vm.usercontent.trim()
+  var g2 = _vm.disabled || !_vm.usercontent.trim()
+  _vm.$mp.data = Object.assign(
+    {},
+    {
+      $root: {
+        l0: l0,
+        g0: g0,
+        g1: g1,
+        g2: g2,
+      },
+    }
+  )
 }
 var recyclableRender = false
 var staticRenderFns = []
@@ -187,6 +209,14 @@ var _default = {
     },
     send: function send() {
       var _this = this;
+      if (!this.usercontent.trim()) {
+        uni.showToast({
+          title: '请输入内容',
+          icon: 'none',
+          duration: 1500
+        });
+        return;
+      }
       this.disabled = true;
       this.showLoading();
       this.dialogueList.push({
@@ -356,6 +386,43 @@ var _default = {
           _this2.disabled = false;
           _this2.hideLoading();
         });
+      }
+    },
+    parseMarkdown: function parseMarkdown(content) {
+      try {
+        if (!content) return '';
+
+        // 处理代码块
+        content = content.replace(/```([\s\S]*?)```/g, function (match, code) {
+          code = code.replace(/^.*\n/, '');
+          return "<div class=\"code-block\"><pre><code>".concat(code, "</code></pre></div>");
+        });
+
+        // 处理粗体
+        content = content.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+
+        // 处理标题 (## 类型)
+        content = content.replace(/^(#{1,6})\s+([^\n]+)/gm, function (match, hashes, title) {
+          var level = hashes.length;
+          return "<div class=\"markdown-heading-".concat(level, "\">").concat(title, "</div>");
+        });
+
+        // 处理行内代码
+        content = content.replace(/`([^`]+)`/g, '<code class="inline-code">$1</code>');
+
+        // 处理列表
+        content = content.replace(/^\s*[-*+]\s+([^\n]+)/gm, '<div class="markdown-list-item">• $1</div>');
+
+        // 处理换行 (保持段落间的换行)
+        content = content.replace(/\n\n/g, '</p><p>');
+        content = content.replace(/\n/g, '<br>');
+
+        // 包装整个内容
+        content = "<p>".concat(content, "</p>");
+        return content;
+      } catch (e) {
+        console.error('Markdown解析错误:', e);
+        return content || '';
       }
     }
   },
