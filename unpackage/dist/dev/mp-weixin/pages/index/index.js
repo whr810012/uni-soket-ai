@@ -101,10 +101,10 @@ var components
 try {
   components = {
     uTabbar: function () {
-      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-tabbar/u-tabbar */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-tabbar/u-tabbar")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-tabbar/u-tabbar.vue */ 210))
+      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-tabbar/u-tabbar */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-tabbar/u-tabbar")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-tabbar/u-tabbar.vue */ 218))
     },
     uTabbarItem: function () {
-      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-tabbar-item/u-tabbar-item */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-tabbar-item/u-tabbar-item")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-tabbar-item/u-tabbar-item.vue */ 218))
+      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-tabbar-item/u-tabbar-item */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-tabbar-item/u-tabbar-item")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-tabbar-item/u-tabbar-item.vue */ 226))
     },
   }
 } catch (e) {
@@ -192,15 +192,20 @@ var _default = {
     return {
       aiList: _aiList.aiList,
       tabbarList: [{
-        text: '地图',
+        text: '校园地图',
         icon: 'map-fill',
         index: 0,
         url: '/pages/map/map'
       }, {
-        text: 'Ai',
-        icon: 'ai',
+        text: 'AI助手',
+        icon: 'server-fill',
         index: 1,
         url: '/pages/index/index'
+      }, {
+        text: 'AI旅游',
+        icon: 'car-fill',
+        index: 2,
+        url: '/pages/aimap/aimap'
       }],
       tabbar: 1
     };
@@ -220,6 +225,10 @@ var _default = {
       } else if (row === 1) {
         uni.switchTab({
           url: "/pages/index/index"
+        });
+      } else if (row === 2) {
+        uni.switchTab({
+          url: "/pages/aimap/aimap"
         });
       }
     }

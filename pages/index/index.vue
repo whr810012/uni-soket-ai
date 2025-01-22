@@ -26,16 +26,22 @@
 			return {
 				aiList,
 				tabbarList: [{
-						text: '地图',
+						text: '校园地图',
 						icon: 'map-fill',
 						index: 0,
 						url: '/pages/map/map'
 					},
 					{
-						text: 'Ai',
-						icon: 'ai',
+						text: 'AI助手',
+						icon: 'server-fill',
 						index: 1,
 						url: '/pages/index/index'
+					},
+					{
+						text: 'AI旅游',
+						icon: 'car-fill',
+						index: 2,
+						url: '/pages/aimap/aimap'
 					}
 				],
 				tabbar: 1
@@ -56,6 +62,10 @@
 				} else if (row === 1){
 					uni.switchTab({
 						url: `/pages/index/index`,
+					})
+				} else if (row === 2){
+					uni.switchTab({
+						url: `/pages/aimap/aimap`,
 					})
 				}
 			}

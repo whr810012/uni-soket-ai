@@ -2,7 +2,8 @@
   "pages": [
     "pages/map/map",
     "pages/index/index",
-    "pages/ai/ai"
+    "pages/ai/ai",
+    "pages/aimap/aimap"
   ],
   "subPackages": [],
   "window": {
@@ -12,15 +13,24 @@
     "backgroundColor": "#F8F8F8"
   },
   "tabBar": {
+    "color": "#7A7E83",
     "selectedColor": "#292C35",
     "backgroundColor": "rgba(255, 255, 255, 0.92)",
     "borderStyle": "white",
+    "height": "50px",
+    "fontSize": "10px",
     "list": [
       {
-        "pagePath": "pages/map/map"
+        "pagePath": "pages/map/map",
+        "text": "校园地图"
       },
       {
-        "pagePath": "pages/index/index"
+        "pagePath": "pages/index/index",
+        "text": "AI助手"
+      },
+      {
+        "pagePath": "pages/aimap/aimap",
+        "text": "AI旅游"
       }
     ]
   },

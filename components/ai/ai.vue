@@ -25,7 +25,7 @@
 			</view>
 		</scroll-view>
 		<view class="send_box">
-			<input type="text" v-model="usercontent.trim()" placeholder="请输入内容" />
+			<input type="text" v-model="usercontent" placeholder="请输入内容" />
 			<button @click="send" :disabled="disabled || !usercontent.trim()">发送</button>
 		</view>
 	</view>

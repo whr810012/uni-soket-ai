@@ -1,6 +1,9 @@
 {
 	"easycom": {
-		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+		"autoscan": true,
+		"custom": {
+			"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+		}
 	},
 	"pages": [{
 			"path": "pages/map/map",
@@ -20,6 +23,13 @@
 				"navigationBarTitleText": "",
 				"enablePullDownRefresh": false
 			}
+		},
+		{
+			"path": "pages/aimap/aimap",
+			"style": {
+				"navigationBarTitleText": "AI旅游规划",
+				"enablePullDownRefresh": false
+			}
 		}
 	],
 	"globalStyle": {
@@ -31,14 +41,21 @@
 	"uniIdRouter": {},
 
 	"tabBar": {
+		"color": "#7A7E83",
 		"selectedColor": "#292C35",
 		"backgroundColor": "rgba(255, 255, 255, 0.92)",
 		"borderStyle": "white",
+		"height": "50px",
+		"fontSize": "10px",
 		"list": [{
-			"pagePath": "pages/map/map"
+			"pagePath": "pages/map/map",
+			"text": "校园地图"
 		}, {
-			"pagePath": "pages/index/index"
+			"pagePath": "pages/index/index",
+			"text": "AI助手"
+		}, {
+			"pagePath": "pages/aimap/aimap",
+			"text": "AI旅游"
 		}]
 	}
-
 }
