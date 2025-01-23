@@ -19375,14 +19375,154 @@ exports.aiList = aiList;
 /* 189 */,
 /* 190 */,
 /* 191 */,
-/* 192 */,
+/* 192 */
+/*!*****************************************!*\
+  !*** D:/codetwo/uni-soket-ai/api/ai.js ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.xunfeisendai = exports.wenxinsendai = exports.qwensendai = exports.glmsendai = exports.getass_token = exports.doubaosendai = void 0;
+var xunfeisendai = function xunfeisendai(data, password) {
+  return new Promise(function (resolve, reject) {
+    uni.request({
+      url: 'https://spark-api-open.xf-yun.com/v1/chat/completions',
+      data: data,
+      header: {
+        "Authorization": "Bearer " + password
+      },
+      timeout: 100000,
+      method: 'post',
+      success: function success(res) {
+        resolve(res.data);
+      },
+      fail: function fail(err) {
+        reject(err);
+      },
+      complete: function complete() {}
+    });
+  });
+};
+exports.xunfeisendai = xunfeisendai;
+var wenxinsendai = function wenxinsendai(data, res) {
+  return new Promise(function (resolve, reject) {
+    uni.request({
+      url: "https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat/ernie_speed?access_token=".concat(res),
+      data: data,
+      timeout: 100000,
+      method: 'post',
+      success: function success(res) {
+        resolve(res.data.result);
+      },
+      fail: function fail(err) {
+        reject(err);
+      },
+      complete: function complete() {}
+    });
+  });
+};
+exports.wenxinsendai = wenxinsendai;
+var qwensendai = function qwensendai(data, key) {
+  return new Promise(function (resolve, reject) {
+    uni.request({
+      // https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions
+      url: "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+      data: data,
+      header: {
+        "Authorization": "Bearer " + key
+      },
+      timeout: 100000,
+      method: 'post',
+      success: function success(res) {
+        resolve(res.data.choices);
+      },
+      fail: function fail(err) {
+        reject(err);
+      },
+      complete: function complete() {}
+    });
+  });
+};
+exports.qwensendai = qwensendai;
+var glmsendai = function glmsendai(data, key) {
+  return new Promise(function (resolve, reject) {
+    uni.request({
+      url: "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+      data: data,
+      header: {
+        "Authorization": "Bearer " + key
+      },
+      timeout: 100000,
+      method: 'post',
+      success: function success(res) {
+        resolve(res.data.choices);
+      },
+      fail: function fail(err) {
+        reject(err);
+      },
+      complete: function complete() {}
+    });
+  });
+};
+exports.glmsendai = glmsendai;
+var doubaosendai = function doubaosendai(data, key) {
+  if (data.messages.length > 1 && data.messages[data.messages.length - 1].role === data.messages[data.messages.length - 2].role) {
+    data.messages = [data.messages[data.messages.length - 1]];
+  }
+  return new Promise(function (resolve, reject) {
+    uni.request({
+      url: "https://ark.cn-beijing.volces.com/api/v3/chat/completions",
+      data: data,
+      header: {
+        "Authorization": "Bearer " + key
+      },
+      timeout: 100000,
+      method: 'post',
+      success: function success(res) {
+        resolve(res.data.choices);
+      },
+      fail: function fail(err) {
+        reject(err);
+      },
+      complete: function complete() {}
+    });
+  });
+};
+exports.doubaosendai = doubaosendai;
+var getass_token = function getass_token(client_id, client_secret) {
+  return new Promise(function (resolve, reject) {
+    uni.request({
+      url: "https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id=".concat(client_id, "&client_secret=").concat(client_secret),
+      timeout: 100000,
+      method: 'post',
+      success: function success(res) {
+        resolve(res.data.access_token);
+      },
+      fail: function fail(err) {
+        reject(err);
+      },
+      complete: function complete() {}
+    });
+  });
+};
+exports.getass_token = getass_token;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
+
+/***/ }),
 /* 193 */,
 /* 194 */,
 /* 195 */,
 /* 196 */,
 /* 197 */,
 /* 198 */,
-/* 199 */
+/* 199 */,
+/* 200 */
 /*!********************************************************************************!*\
   !*** D:/codetwo/uni-soket-ai/uni_modules/uview-ui/components/u-popup/props.js ***!
   \********************************************************************************/
@@ -19479,14 +19619,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 200 */,
 /* 201 */,
 /* 202 */,
 /* 203 */,
 /* 204 */,
 /* 205 */,
 /* 206 */,
-/* 207 */
+/* 207 */,
+/* 208 */
 /*!********************************************************************************!*\
   !*** D:/codetwo/uni-soket-ai/uni_modules/uview-ui/components/u-input/props.js ***!
   \********************************************************************************/
@@ -19691,14 +19831,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 208 */,
 /* 209 */,
 /* 210 */,
 /* 211 */,
 /* 212 */,
 /* 213 */,
 /* 214 */,
-/* 215 */
+/* 215 */,
+/* 216 */
 /*!***************************************************************************************!*\
   !*** D:/codetwo/uni-soket-ai/uni_modules/uview-ui/components/u-loading-page/props.js ***!
   \***************************************************************************************/
@@ -19765,14 +19905,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 216 */,
 /* 217 */,
 /* 218 */,
 /* 219 */,
 /* 220 */,
 /* 221 */,
 /* 222 */,
-/* 223 */
+/* 223 */,
+/* 224 */
 /*!*********************************************************************************!*\
   !*** D:/codetwo/uni-soket-ai/uni_modules/uview-ui/components/u-tabbar/props.js ***!
   \*********************************************************************************/
@@ -19834,14 +19974,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 224 */,
 /* 225 */,
 /* 226 */,
 /* 227 */,
 /* 228 */,
 /* 229 */,
 /* 230 */,
-/* 231 */
+/* 231 */,
+/* 232 */
 /*!**************************************************************************************!*\
   !*** D:/codetwo/uni-soket-ai/uni_modules/uview-ui/components/u-tabbar-item/props.js ***!
   \**************************************************************************************/
@@ -19893,153 +20033,13 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 232 */,
 /* 233 */,
 /* 234 */,
 /* 235 */,
 /* 236 */,
 /* 237 */,
 /* 238 */,
-/* 239 */
-/*!*****************************************!*\
-  !*** D:/codetwo/uni-soket-ai/api/ai.js ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.xunfeisendai = exports.wenxinsendai = exports.qwensendai = exports.glmsendai = exports.getass_token = exports.doubaosendai = void 0;
-var xunfeisendai = function xunfeisendai(data, password) {
-  return new Promise(function (resolve, reject) {
-    uni.request({
-      url: 'https://spark-api-open.xf-yun.com/v1/chat/completions',
-      data: data,
-      header: {
-        "Authorization": "Bearer " + password
-      },
-      timeout: 100000,
-      method: 'post',
-      success: function success(res) {
-        resolve(res.data);
-      },
-      fail: function fail(err) {
-        reject(err);
-      },
-      complete: function complete() {}
-    });
-  });
-};
-exports.xunfeisendai = xunfeisendai;
-var wenxinsendai = function wenxinsendai(data, res) {
-  return new Promise(function (resolve, reject) {
-    uni.request({
-      url: "https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat/ernie_speed?access_token=".concat(res),
-      data: data,
-      timeout: 100000,
-      method: 'post',
-      success: function success(res) {
-        resolve(res.data.result);
-      },
-      fail: function fail(err) {
-        reject(err);
-      },
-      complete: function complete() {}
-    });
-  });
-};
-exports.wenxinsendai = wenxinsendai;
-var qwensendai = function qwensendai(data, key) {
-  return new Promise(function (resolve, reject) {
-    uni.request({
-      // https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions
-      url: "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
-      data: data,
-      header: {
-        "Authorization": "Bearer " + key
-      },
-      timeout: 100000,
-      method: 'post',
-      success: function success(res) {
-        resolve(res.data.choices);
-      },
-      fail: function fail(err) {
-        reject(err);
-      },
-      complete: function complete() {}
-    });
-  });
-};
-exports.qwensendai = qwensendai;
-var glmsendai = function glmsendai(data, key) {
-  return new Promise(function (resolve, reject) {
-    uni.request({
-      url: "https://open.bigmodel.cn/api/paas/v4/chat/completions",
-      data: data,
-      header: {
-        "Authorization": "Bearer " + key
-      },
-      timeout: 100000,
-      method: 'post',
-      success: function success(res) {
-        resolve(res.data.choices);
-      },
-      fail: function fail(err) {
-        reject(err);
-      },
-      complete: function complete() {}
-    });
-  });
-};
-exports.glmsendai = glmsendai;
-var doubaosendai = function doubaosendai(data, key) {
-  if (data.messages.length > 1 && data.messages[data.messages.length - 1].role === data.messages[data.messages.length - 2].role) {
-    data.messages = [data.messages[data.messages.length - 1]];
-  }
-  return new Promise(function (resolve, reject) {
-    uni.request({
-      url: "https://ark.cn-beijing.volces.com/api/v3/chat/completions",
-      data: data,
-      header: {
-        "Authorization": "Bearer " + key
-      },
-      timeout: 100000,
-      method: 'post',
-      success: function success(res) {
-        resolve(res.data.choices);
-      },
-      fail: function fail(err) {
-        reject(err);
-      },
-      complete: function complete() {}
-    });
-  });
-};
-exports.doubaosendai = doubaosendai;
-var getass_token = function getass_token(client_id, client_secret) {
-  return new Promise(function (resolve, reject) {
-    uni.request({
-      url: "https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id=".concat(client_id, "&client_secret=").concat(client_secret),
-      timeout: 100000,
-      method: 'post',
-      success: function success(res) {
-        resolve(res.data.access_token);
-      },
-      fail: function fail(err) {
-        reject(err);
-      },
-      complete: function complete() {}
-    });
-  });
-};
-exports.getass_token = getass_token;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
-
-/***/ }),
+/* 239 */,
 /* 240 */,
 /* 241 */,
 /* 242 */,
@@ -20047,17 +20047,7 @@ exports.getass_token = getass_token;
 /* 244 */,
 /* 245 */,
 /* 246 */,
-/* 247 */,
-/* 248 */,
-/* 249 */,
-/* 250 */,
-/* 251 */,
-/* 252 */,
-/* 253 */,
-/* 254 */,
-/* 255 */,
-/* 256 */,
-/* 257 */
+/* 247 */
 /*!**********************************************************************************!*\
   !*** D:/codetwo/uni-soket-ai/uni_modules/uview-ui/components/u-overlay/props.js ***!
   \**********************************************************************************/
@@ -20099,14 +20089,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 258 */,
-/* 259 */,
-/* 260 */,
-/* 261 */,
-/* 262 */,
-/* 263 */,
-/* 264 */,
-/* 265 */
+/* 248 */,
+/* 249 */,
+/* 250 */,
+/* 251 */,
+/* 252 */,
+/* 253 */,
+/* 254 */,
+/* 255 */
 /*!*************************************************************************************!*\
   !*** D:/codetwo/uni-soket-ai/uni_modules/uview-ui/components/u-transition/props.js ***!
   \*************************************************************************************/
@@ -20148,7 +20138,7 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 266 */
+/* 256 */
 /*!******************************************************************************************!*\
   !*** D:/codetwo/uni-soket-ai/uni_modules/uview-ui/components/u-transition/transition.js ***!
   \******************************************************************************************/
@@ -20165,7 +20155,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var _regenerator = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/regenerator */ 55));
 var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ 57));
-var _nvueAniMap = _interopRequireDefault(__webpack_require__(/*! ./nvue.ani-map.js */ 267));
+var _nvueAniMap = _interopRequireDefault(__webpack_require__(/*! ./nvue.ani-map.js */ 257));
 // 定义一个一定时间后自动成功的promise，让调用nextTick方法处，进入下一个then方法
 var nextTick = function nextTick() {
   return new Promise(function (resolve) {
@@ -20257,7 +20247,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 267 */
+/* 257 */
 /*!********************************************************************************************!*\
   !*** D:/codetwo/uni-soket-ai/uni_modules/uview-ui/components/u-transition/nvue.ani-map.js ***!
   \********************************************************************************************/
@@ -20450,14 +20440,14 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 268 */,
-/* 269 */,
-/* 270 */,
-/* 271 */,
-/* 272 */,
-/* 273 */,
-/* 274 */,
-/* 275 */
+/* 258 */,
+/* 259 */,
+/* 260 */,
+/* 261 */,
+/* 262 */,
+/* 263 */,
+/* 264 */,
+/* 265 */
 /*!*************************************************************************************!*\
   !*** D:/codetwo/uni-soket-ai/uni_modules/uview-ui/components/u-status-bar/props.js ***!
   \*************************************************************************************/
@@ -20483,14 +20473,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 276 */,
-/* 277 */,
-/* 278 */,
-/* 279 */,
-/* 280 */,
-/* 281 */,
-/* 282 */,
-/* 283 */
+/* 266 */,
+/* 267 */,
+/* 268 */,
+/* 269 */,
+/* 270 */,
+/* 271 */,
+/* 272 */,
+/* 273 */
 /*!*******************************************************************************!*\
   !*** D:/codetwo/uni-soket-ai/uni_modules/uview-ui/components/u-icon/icons.js ***!
   \*******************************************************************************/
@@ -20721,7 +20711,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 284 */
+/* 274 */
 /*!*******************************************************************************!*\
   !*** D:/codetwo/uni-soket-ai/uni_modules/uview-ui/components/u-icon/props.js ***!
   \*******************************************************************************/
@@ -20828,14 +20818,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 285 */,
-/* 286 */,
-/* 287 */,
-/* 288 */,
-/* 289 */,
-/* 290 */,
-/* 291 */,
-/* 292 */
+/* 275 */,
+/* 276 */,
+/* 277 */,
+/* 278 */,
+/* 279 */,
+/* 280 */,
+/* 281 */,
+/* 282 */
 /*!**************************************************************************************!*\
   !*** D:/codetwo/uni-soket-ai/uni_modules/uview-ui/components/u-safe-bottom/props.js ***!
   \**************************************************************************************/
@@ -20855,14 +20845,14 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 293 */,
-/* 294 */,
-/* 295 */,
-/* 296 */,
-/* 297 */,
-/* 298 */,
-/* 299 */,
-/* 300 */
+/* 283 */,
+/* 284 */,
+/* 285 */,
+/* 286 */,
+/* 287 */,
+/* 288 */,
+/* 289 */,
+/* 290 */
 /*!***************************************************************************************!*\
   !*** D:/codetwo/uni-soket-ai/uni_modules/uview-ui/components/u-loading-icon/props.js ***!
   \***************************************************************************************/
@@ -20939,14 +20929,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 301 */,
-/* 302 */,
-/* 303 */,
-/* 304 */,
-/* 305 */,
-/* 306 */,
-/* 307 */,
-/* 308 */
+/* 291 */,
+/* 292 */,
+/* 293 */,
+/* 294 */,
+/* 295 */,
+/* 296 */,
+/* 297 */,
+/* 298 */
 /*!********************************************************************************!*\
   !*** D:/codetwo/uni-soket-ai/uni_modules/uview-ui/components/u-badge/props.js ***!
   \********************************************************************************/

@@ -28,17 +28,9 @@
         class="destination-input"
             auto-height
           />
-        </view>
-      <view class="travel-mode">
-          <radio-group @change="radioChange">
-            <label class="radio-item" v-for="(item, index) in travelModes" :key="index">
-              <radio :value="item.value" :checked="travelMode === item.value" />
-              <text>{{item.label}}</text>
-            </label>
-          </radio-group>
-        </view>
-        <button class="submit-btn" @click="handlePlan" :loading="loading">开始规划路线</button>
       </view>
+        <button class="submit-btn" @click="handlePlan" :loading="loading">开始规划路线</button>
+    </view>
     </view>
 
     <!-- 添加路线介绍按钮 -->
@@ -58,6 +50,75 @@
       </view>
     </view>
 
+    <!-- 添加历史记录按钮 -->
+    <view class="history-button" @click="showHistory = true" v-if="historyRoutes.length > 0">
+      <image src="/static/icons/history.svg" class="icon-image"></image>
+    </view>
+
+    <!-- 历史记录弹窗 -->
+    <view class="custom-popup" v-if="showHistory">
+      <view class="popup-mask" @click="showHistory = false"></view>
+      <view class="popup-content history-content">
+        <view class="popup-header">
+          <text class="popup-title">历史路线</text>
+          <text class="popup-subtitle">共 {{historyRoutes.length}} 条记录</text>
+        </view>
+        <view class="history-list">
+          <view 
+            class="history-item" 
+            v-for="(item, index) in historyRoutes" 
+            :key="item.id"
+          >
+            <view class="history-header">
+              <view class="header-left">
+                <text class="history-index">#{{historyRoutes.length - index}}</text>
+                <text class="history-date">{{item.date}}</text>
+              </view>
+              <view class="history-actions">
+                <button class="action-btn reuse" @click="reuseRoute(item)">
+                  <text class="btn-icon">↺</text>
+                  <text>重新规划</text>
+                </button>
+                <button class="action-btn delete" @click="deleteHistory(index)">
+                  <text class="btn-icon">×</text>
+                  <text>删除</text>
+                </button>
+              </view>
+            </view>
+            <view class="history-content-box">
+              <view class="history-description">
+                <text class="label">旅行想法：</text>
+                <text>{{item.description}}</text>
+              </view>
+              <view class="history-route">
+                <text class="label">规划路线：</text>
+                <text>{{item.route}}</text>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="history-footer">
+          <button class="close-btn" @click="showHistory = false">关闭</button>
+        </view>
+      </view>
+    </view>
+
+    <!-- 路线图例 -->
+    <view class="route-legend">
+      <view class="legend-item">
+        <view class="color-block" style="background: #2196F3;"></view>
+        <text>步行</text>
+      </view>
+      <view class="legend-item">
+        <view class="color-block" style="background: #4CAF50;"></view>
+        <text>公交</text>
+      </view>
+      <view class="legend-item">
+        <view class="color-block" style="background: #FF5722;"></view>
+        <text>驾车</text>
+      </view>
+    </view>
+
     <u-tabbar
       style="position: absolute; bottom: 0; width: 750rpx"
       :value="tabbar"
@@ -73,6 +134,17 @@
         :key="item.index"
       ></u-tabbar-item>
     </u-tabbar>
+
+    <!-- 添加自定义loading组件 -->
+    <view class="custom-loading" v-if="loading">
+      <view class="loading-mask"></view>
+      <view class="loading-content">
+        <view class="loading-spinner">
+          <view class="loading-circle"></view>
+        </view>
+        <text class="loading-text">正在规划路线...</text>
+      </view>
+    </view>
   </view>
 </template>
 
@@ -92,11 +164,6 @@ export default {
       showPopup: false,
       amapKey: 'ffdbb001fd0b4cc024456334e9aa6567',
       travelMode: 'walking',
-      travelModes: [
-        { label: '步行', value: 'walking' },
-        { label: '公交', value: 'transit' },
-        { label: '驾车', value: 'driving' }
-      ],
       tabbarList: [
         {
           text: "校园地图",
@@ -128,7 +195,17 @@ export default {
       currentCity: '',
       currentProvince: '',
       showRouteInfo: false,
-      routeDescription: ''
+      routeDescription: '',
+      errorMessage: '',
+      loadingStates: {
+        location: false,
+        planning: false,
+        routing: false
+      },
+      // 添加历史路线数组
+      historyRoutes: [],
+      showHistory: false,
+      currentHistoryIndex: 0, // 添加当前历史记录索引
     }
   },
   async created() {
@@ -143,6 +220,16 @@ export default {
       }
     } catch (error) {
       console.error('获取access token出错:', error)
+    }
+
+    // 从本地存储加载历史路线
+    try {
+      const savedRoutes = uni.getStorageSync('route_history')
+      if (savedRoutes) {
+        this.historyRoutes = savedRoutes
+      }
+    } catch (error) {
+      console.error('加载历史路线失败:', error)
     }
   },
   onLoad() {
@@ -314,7 +401,8 @@ export default {
         return
       }
 
-      this.loading = true
+      this.loadingStates.planning = true
+      this.errorMessage = ''
       try {
         const aiResponse = await this.getAIResponse(this.userDescription)
         if (!aiResponse) {
@@ -346,15 +434,12 @@ export default {
           iconPath: '/static/icons/start.svg',
         })
 
-        // 规划路线
-        let lastPoint = {
-          latitude: this.latitude,
-          longitude: this.longitude
-        }
+        // 处理有效地点
         let allRoutePoints = []
-        let validLocations = []
+        let routeSegments = []
 
-        // 处理每个地点
+        // 获取所有地点的坐标
+        let validLocations = []
         for (const location of aiResponse.structure) {
           try {
             const coords = await this.getLocationByAddress(location.address)
@@ -375,25 +460,8 @@ export default {
           throw new Error('没有找到任何有效地点')
         }
 
-        // 按照距离排序
-        validLocations.sort((a, b) => {
-          const distanceA = this.calculateDistance(
-            lastPoint.latitude,
-            lastPoint.longitude,
-            a.coords.latitude,
-            a.coords.longitude
-          )
-          const distanceB = this.calculateDistance(
-            lastPoint.latitude,
-            lastPoint.longitude,
-            b.coords.latitude,
-            b.coords.longitude
-          )
-          return distanceA - distanceB
-        })
-
-        // 处理有效地点
-        for (const location of validLocations) {
+        for (let i = 0; i < validLocations.length; i++) {
+          const location = validLocations[i]
           // 添加地点标记
           this.addMarker({
             latitude: location.coords.latitude,
@@ -403,35 +471,39 @@ export default {
           })
 
           // 规划到这个地点的路线
-          const origin = `${lastPoint.longitude.toFixed(6)},${lastPoint.latitude.toFixed(6)}`
-          const dest = `${location.coords.longitude.toFixed(6)},${location.coords.latitude.toFixed(6)}`
+          const origin = i === 0 ? `${this.longitude},${this.latitude}`
+            : `${validLocations[i-1].coords.longitude},${validLocations[i-1].coords.latitude}`
+          const dest = `${location.coords.longitude},${location.coords.latitude}`
           
           try {
-            const routes = await this.getRoutes(origin, dest)
-            if (routes && routes.length > 0) {
-              // 如果不是第一段路线，移除重复的起点
-              if (allRoutePoints.length > 0) {
-                routes.shift()
-              }
-              allRoutePoints = allRoutePoints.concat(routes)
+            const { points, mode, distance, steps, duration } = await this.getRoutes(origin, dest)
+            if (points && points.length > 0) {
+              routeSegments.push({
+                from: i === 0 ? '当前位置' : validLocations[i-1].address,
+                to: location.address,
+                mode,
+                distance,
+                steps,
+                duration
+              })
+              allRoutePoints = allRoutePoints.concat(points)
             }
           } catch (error) {
             console.warn(`路线规划失败: ${location.address}`, error)
-            // 如果路线规划失败，使用直线连接
-            if (allRoutePoints.length > 0) {
-              allRoutePoints.push(location.coords)
-            } else {
-              allRoutePoints.push(lastPoint, location.coords)
-            }
+            continue
           }
-
-          lastPoint = location.coords
         }
 
         // 绘制完整的路线
-        if (allRoutePoints.length > 0) {
-          this.drawRoute(allRoutePoints)
+        if (allRoutePoints.length > 0 && routeSegments.length > 0) {
+          this.drawRoute(allRoutePoints, routeSegments)
         }
+
+        // 更新路线描述，添加交通方式和时间信息
+        this.routeDescription = this.routeDescription + '\n\n交通方式详情：\n' + 
+          routeSegments.map(segment => 
+            `${segment.from} → ${segment.to}：${this.getTransportMode(segment.mode)}（${segment.distance}公里，预计${this.formatDuration(segment.duration)}）`
+          ).join('\n')
 
         // 调整地图视野
         this.updateMapView()
@@ -439,21 +511,51 @@ export default {
         // 显示路线介绍弹窗
         this.showRouteInfo = true
 
+        // 在规划成功后保存到历史记录
+        const historyItem = {
+          id: Date.now(),
+          date: new Date().toLocaleString('zh-CN', {
+            year: 'numeric',
+            month: '2-digit',
+            day: '2-digit',
+            hour: '2-digit',
+            minute: '2-digit'
+          }),
+          description: this.userDescription,
+          route: this.routeDescription
+        }
+
+        // 添加新记录到历史记录数组开头
+        this.historyRoutes.unshift(historyItem)
+        
+        // 只保留最近10条记录
+        if (this.historyRoutes.length > 10) {
+          this.historyRoutes = this.historyRoutes.slice(0, 10)
+        }
+
+        // 保存到本地存储
+        try {
+          uni.setStorageSync('route_history', this.historyRoutes)
+        } catch (error) {
+          console.error('保存历史记录失败:', error)
+        }
+
       } catch (error) {
+        this.errorMessage = error.message || '规划失败，请重试'
         uni.showToast({
-          title: error.message || 'AI分析失败',
+          title: this.errorMessage,
           icon: 'none',
-          duration: 2000
+          duration: 3000
         })
       } finally {
-        this.loading = false
+        this.loadingStates.planning = false
       }
     },
     async getAIResponse(userDescription) {
       try {
         // 获取当前位置的地理信息
         const locationInfo = await this.getLocationInfo(this.latitude, this.longitude)
-        const currentLocation = locationInfo || '当前位置'
+        const currentLocation = locationInfo?.formatted || '当前位置'
 
         // 第一次调用文心一言获取文本格式的行程规划
         const data = {
@@ -462,7 +564,7 @@ export default {
             content: `我现在在${currentLocation}，这是我的旅游想法：${userDescription}。
 请帮我规划一条合理的旅游路线，要求：
 1. 每个地点必须使用标准地址格式（例如：上海市黄浦区外滩）
-2. 地点必须在上海市范围内，且相邻地点间距不超过30公里
+2. 所有地点必须在${this.currentCity || '当前城市'}范围内
 3. 按照以下格式回复：
 - 建议出发时间
 - 地点列表（每个地点包含名称和游玩时长）
@@ -480,8 +582,9 @@ export default {
             content: `请将以下行程安排转换为JSON数组，要求：
 1. 格式为[{"time":"HH:mm","address":"标准地址"}]
 2. 时间格式必须是24小时制，如"09:00"
-3. 地址必须使用标准格式，如"上海市黄浦区外滩"
-4. 只返回JSON数组，不要包含任何其他说明文字：\n${textReply}`
+3. 地址必须使用标准格式，如"${this.currentCity || '上海市'}黄浦区外滩"
+4. 所有地点必须在${this.currentCity || '当前城市'}范围内
+5. 只返回JSON数组，不要包含任何其他说明文字：\n${textReply}`
           }]
         }
 
@@ -663,11 +766,11 @@ export default {
                 
                 if (backupRes.data.status === '1' && backupRes.data.geocodes && backupRes.data.geocodes.length > 0) {
                   const location = backupRes.data.geocodes[0].location.split(',')
-                  resolve({
-                    longitude: parseFloat(location[0]),
-                    latitude: parseFloat(location[1])
-                  })
-                } else {
+              resolve({
+                longitude: parseFloat(location[0]),
+                latitude: parseFloat(location[1])
+              })
+            } else {
                   reject(new Error(`无法解析地址: ${address}`))
                 }
               } catch (error) {
@@ -698,156 +801,271 @@ export default {
     // 修改 getRoutes 方法，添加重试机制
     async getRoutes(origin, destination) {
       const getRoutesRequest = () => {
-        return new Promise((resolve, reject) => {
-          let url = ''
-          const baseParams = `key=${this.amapKey}&origin=${origin}&destination=${destination}`
+      return new Promise((resolve, reject) => {
+          // 计算两点之间的直线距离
+          const [originLng, originLat] = origin.split(',').map(Number)
+          const [destLng, destLat] = destination.split(',').map(Number)
+          const distance = this.calculateDistance(originLat, originLng, destLat, destLng)
           
-          switch (this.travelMode) {
-            case 'walking':
-              url = `https://restapi.amap.com/v3/direction/walking?${baseParams}`
-              break
-            case 'transit':
-              url = `https://restapi.amap.com/v3/direction/transit/integrated?${baseParams}&city=${this.getCurrentCity()}`
-              break
-            case 'driving':
-              url = `https://restapi.amap.com/v3/direction/driving?${baseParams}&show_fields=cost`
-              break
+          // 根据距离自动选择出行方式
+          let mode = 'driving'
+          if (distance <= 2) {
+            mode = 'walking'
+          } else if (distance <= 10) {
+            mode = 'transit'
           }
 
-          uni.request({
-            url: url,
-            success: (res) => {
-              if (res.data.status === '1') {
-                let points = []
-                
-                if (this.travelMode === 'walking') {
-                  if (res.data.route && res.data.route.paths && res.data.route.paths[0]) {
-                    const path = res.data.route.paths[0]
-                    path.steps.forEach(step => {
-                      const polyline = step.polyline.split(';')
-                      polyline.forEach(point => {
+        let url = ''
+        const baseParams = `key=${this.amapKey}&origin=${origin}&destination=${destination}`
+        
+          switch (mode) {
+          case 'walking':
+            url = `https://restapi.amap.com/v3/direction/walking?${baseParams}`
+            break
+          case 'transit':
+              url = `https://restapi.amap.com/v3/direction/transit/integrated?${baseParams}&city=${this.currentCity || '上海'}&strategy=0`
+            break
+          case 'driving':
+            url = `https://restapi.amap.com/v3/direction/driving?${baseParams}&show_fields=cost`
+            break
+        }
+
+        uni.request({
+          url: url,
+          success: (res) => {
+            if (res.data.status === '1') {
+                let allPoints = []
+                let steps = []
+                let routeFound = false
+                let duration = 0
+              
+                if (mode === 'walking' && res.data.route?.paths?.[0]) {
+                  routeFound = true
+                  const path = res.data.route.paths[0]
+                  path.steps.forEach(step => {
+                    const polyline = step.polyline.split(';')
+                    const points = polyline.map(point => {
+                      const [lng, lat] = point.split(',')
+                      return {
+                        longitude: parseFloat(lng),
+                        latitude: parseFloat(lat)
+                      }
+                    })
+                    steps.push({ points })
+                    allPoints = allPoints.concat(points)
+                  })
+                  duration = parseInt(path.duration) || 0
+                } else if (mode === 'transit' && res.data.route?.transits?.[0]) {
+                  routeFound = true
+                  const transit = res.data.route.transits[0]
+                  let segmentPoints = []
+                  
+                  transit.segments.forEach(segment => {
+                    // 处理步行部分
+                    if (segment.walking?.steps) {
+                      segment.walking.steps.forEach(step => {
+                        const polyline = step.polyline.split(';')
+                        const points = polyline.map(point => {
+                          const [lng, lat] = point.split(',')
+                          return {
+                            longitude: parseFloat(lng),
+                            latitude: parseFloat(lat)
+                          }
+                        })
+                        segmentPoints = segmentPoints.concat(points)
+                      })
+                    }
+                    
+                    // 处理公交部分
+                    if (segment.bus?.buslines?.[0]) {
+                      const busline = segment.bus.buslines[0]
+                      const polyline = busline.polyline.split(';')
+                      const points = polyline.map(point => {
                         const [lng, lat] = point.split(',')
-                        points.push({
+                        return {
                           longitude: parseFloat(lng),
                           latitude: parseFloat(lat)
-                        })
+                        }
                       })
-                    })
-                  } else {
-                    reject(new Error('无法获取步行路线'))
-                    return
-                  }
-                } else if (this.travelMode === 'transit') {
-                  if (res.data.route && res.data.route.transits && res.data.route.transits[0]) {
-                    const transits = res.data.route.transits[0]
-                    transits.segments.forEach(segment => {
-                      if (segment.walking && segment.walking.steps) {
-                        segment.walking.steps.forEach(step => {
-                          const polyline = step.polyline.split(';')
-                          polyline.forEach(point => {
-                            const [lng, lat] = point.split(',')
-                            points.push({
-                              longitude: parseFloat(lng),
-                              latitude: parseFloat(lat)
-                            })
-                          })
-                        })
-                      }
-                      if (segment.bus && segment.bus.buslines && segment.bus.buslines[0]) {
-                        const polyline = segment.bus.buslines[0].polyline.split(';')
-                        polyline.forEach(point => {
-                          const [lng, lat] = point.split(',')
-                          points.push({
-                            longitude: parseFloat(lng),
-                            latitude: parseFloat(lat)
-                          })
-                        })
-                      }
-                    })
-                  } else {
-                    reject(new Error('无法获取公交路线'))
-                    return
-                  }
-                } else if (this.travelMode === 'driving') {
-                  if (res.data.route && res.data.route.paths && res.data.route.paths[0]) {
-                    const path = res.data.route.paths[0]
-                    path.steps.forEach(step => {
-                      if (step.polyline) {
-                        const polyline = step.polyline.split(';')
-                        polyline.forEach(point => {
-                          const [lng, lat] = point.split(',')
-                          points.push({
-                            longitude: parseFloat(lng),
-                            latitude: parseFloat(lat)
-                          })
-                        })
-                      }
-                    })
-                  } else {
-                    reject(new Error('无法获取驾车路线'))
-                    return
-                  }
+                      segmentPoints = segmentPoints.concat(points)
+                    }
+                    
+                    // 如果有足够的点，添加为一个步骤
+                    if (segmentPoints.length > 0) {
+                      steps.push({ points: segmentPoints })
+                      allPoints = allPoints.concat(segmentPoints)
+                      segmentPoints = []
+                    }
+                  })
+                  duration = parseInt(transit.duration) || 0
+                } else if (mode === 'driving' && res.data.route?.paths?.[0]) {
+                  routeFound = true
+                  const path = res.data.route.paths[0]
+                  path.steps.forEach(step => {
+                    if (step.polyline) {
+                    const polyline = step.polyline.split(';')
+                      const points = polyline.map(point => {
+                      const [lng, lat] = point.split(',')
+                        return {
+                        longitude: parseFloat(lng),
+                        latitude: parseFloat(lat)
+                        }
+                      })
+                      steps.push({ points })
+                      allPoints = allPoints.concat(points)
+                    }
+                  })
+                  duration = parseInt(path.duration) || 0
                 }
                 
-                if (points.length === 0) {
-                  reject(new Error('路线点数据为空'))
-                  return
+                if (!routeFound || allPoints.length === 0) {
+                  // 如果没有找到路线或点数据为空，使用直线连接
+                  const points = [{
+                    longitude: parseFloat(originLng),
+                    latitude: parseFloat(originLat)
+                  }, {
+                    longitude: parseFloat(destLng),
+                    latitude: parseFloat(destLat)
+                  }]
+                  steps = [{ points }]
+                  allPoints = points
+                  // 使用直线距离估算时间
+                  duration = Math.round(distance * 12 * 60) // 假设平均速度为12km/h
                 }
                 
-                resolve(points)
+                resolve({
+                  points: allPoints,
+                  mode,
+                  distance: distance.toFixed(1),
+                  steps,
+                  duration
+                })
               } else if (res.data.infocode === '10021') {
                 reject(new Error('API配额超限'))
-              } else {
-                reject(new Error(res.data.info || '路线规划失败'))
-              }
-            },
-            fail: () => {
-              reject(new Error('路线规划请求失败'))
+            } else {
+              reject(new Error(res.data.info || '路线规划失败'))
             }
-          })
+          },
+          fail: () => {
+            reject(new Error('路线规划请求失败'))
+          }
         })
+      })
       }
 
       try {
-        const points = await this.retryRequest(getRoutesRequest)
-        if (!points || points.length === 0) {
-          throw new Error('未获取到有效路线点')
+        const result = await this.retryRequest(getRoutesRequest)
+        // 确保返回的点数据是有效的
+        if (!result.points || result.points.length === 0) {
+          throw new Error('路线点数据无效')
         }
-        return points
+        return result
       } catch (error) {
         console.error('路线规划失败:', error)
-        // 如果是配额超限，使用直线连接两点
-        if (error.message === 'API配额超限') {
-          const [originLng, originLat] = origin.split(',')
-          const [destLng, destLat] = destination.split(',')
-          return [{
-            longitude: parseFloat(originLng),
-            latitude: parseFloat(originLat)
-          }, {
-            longitude: parseFloat(destLng),
-            latitude: parseFloat(destLat)
-          }]
+        // 如果API调用失败，返回直线连接
+        const [originLng, originLat] = origin.split(',')
+        const [destLng, destLat] = destination.split(',')
+        const points = [{
+          longitude: parseFloat(originLng),
+          latitude: parseFloat(originLat)
+        }, {
+          longitude: parseFloat(destLng),
+          latitude: parseFloat(destLat)
+        }]
+        const distance = this.calculateDistance(
+          parseFloat(originLat),
+          parseFloat(originLng),
+          parseFloat(destLat),
+          parseFloat(destLng)
+        )
+        return {
+          points,
+          mode: 'driving',
+          distance: distance.toFixed(1),
+          steps: [{ points }],
+          duration: Math.round(distance * 12 * 60) // 使用直线距离估算时间
         }
-        throw error
       }
     },
-    drawRoute(points) {
-      // 使用单一路线，优化样式
-      this.polylines = [{
-        points: points,
-        color: '#4facfe',
-        width: 6,
-        arrowLine: true,
-        borderWidth: 1.5,
-        borderColor: '#ffffff',
-        level: 'aboveroads',
-        colorList: ['#4facfe', '#00f2fe'],
-        dottedLine: false,
-        arrowIconPath: '/static/icons/arrow.svg',
-        strokeStyle: 'solid',
-        lineCap: 'round',
-        lineJoin: 'round'
-      }]
+    drawRoute(points, segments) {
+      // 为每种交通方式使用不同的样式
+      const styles = {
+        walking: {
+          color: '#2196F3',  // 蓝色
+          width: 8,
+          dottedLine: false,
+          arrowWidth: 6
+        },
+        transit: {
+          color: '#4CAF50',  // 绿色
+          width: 8,
+          dottedLine: false,
+          arrowWidth: 6
+        },
+        driving: {
+          color: '#FF5722',  // 橙色
+          width: 8,
+          dottedLine: false,
+          arrowWidth: 6
+        }
+      }
+
+      // 计算每段路线的点
+      let startIndex = 0
+      this.polylines = segments.map((segment, index) => {
+        // 计算当前段的点数
+        const pointCount = segment.steps?.reduce((sum, step) => sum + step.points.length, 0) || 0
+        const segmentPoints = points.slice(startIndex, startIndex + pointCount)
+        startIndex += pointCount
+
+        // 如果是最后一段，并且还有剩余的点，则全部加入
+        if (index === segments.length - 1 && startIndex < points.length) {
+          segmentPoints.push(...points.slice(startIndex))
+        }
+
+        // 计算路段中点位置，用于显示时间标签
+        const midPointIndex = Math.floor(segmentPoints.length / 2)
+        const midPoint = segmentPoints[midPointIndex]
+        
+        // 添加时间标签标记
+        if (segment.duration) {
+          this.markers.push({
+            id: `time_${index}`,
+            latitude: midPoint.latitude,
+            longitude: midPoint.longitude,
+            width: 0,
+            height: 0,
+            anchor: { x: 0.5, y: 0.5 },
+            callout: {
+              content: this.formatDuration(segment.duration),
+              color: '#ffffff',
+              fontSize: 12,
+              borderRadius: 8,
+              bgColor: styles[segment.mode].color,
+              padding: '6rpx 12rpx',
+              display: 'ALWAYS',
+              textAlign: 'center',
+              borderWidth: 0,
+              anchorY: 0
+            }
+          })
+        }
+
+        return {
+          points: segmentPoints,
+          ...styles[segment.mode],
+          arrowLine: true,
+          borderWidth: 2.5,
+          borderColor: '#ffffff',
+          level: 'aboveroads',
+          strokeStyle: 'solid',
+          lineCap: 'round',
+          lineJoin: 'round',
+          arrowIconPath: '/static/icons/arrow.svg',
+          colorList: [styles[segment.mode].color, styles[segment.mode].color], // 纯色
+          zIndex: 100
+        }
+      })
     },
     updateMapView() {
       const mapContext = uni.createMapContext('map')
@@ -879,9 +1097,29 @@ export default {
       return '全国'
     },
     async handlePlan() {
-      await this.analyzeAndPlan()
-      if (!this.loading) {
+      if (this.loading) return // 防止重复点击
+      if (!this.userDescription) {
+        uni.showToast({
+          title: '请输入您想去的地方描述',
+          icon: 'none'
+        })
+        return
+      }
+      
+      try {
+        this.loading = true
+        await this.analyzeAndPlan()
+        // 规划成功后再关闭输入弹窗
         this.showPopup = false
+      } catch (error) {
+        this.errorMessage = error.message || '规划失败，请重试'
+        uni.showToast({
+          title: this.errorMessage,
+          icon: 'none',
+          duration: 3000
+        })
+      } finally {
+        this.loading = false
       }
     },
     // 从文本中提取地点信息
@@ -913,6 +1151,40 @@ export default {
         }
       }
       return locations
+    },
+    getTransportMode(mode) {
+      switch(mode) {
+        case 'walking':
+          return '步行'
+        case 'transit':
+          return '公交'
+        case 'driving':
+          return '驾车'
+        default:
+          return '未知方式'
+      }
+    },
+    // 格式化时间显示
+    formatDuration(seconds) {
+      const hours = Math.floor(seconds / 3600)
+      const minutes = Math.floor((seconds % 3600) / 60)
+      
+      if (hours > 0) {
+        return `${hours}小时${minutes}分钟`
+      }
+      return `${minutes}分钟`
+    },
+    async reuseRoute(item) {
+      this.userDescription = item.description
+      await this.handlePlan()
+    },
+    async deleteHistory(index) {
+      this.historyRoutes.splice(index, 1)
+      uni.setStorageSync('route_history', this.historyRoutes)
+    },
+    // 添加轮播图切换事件处理
+    onSwiperChange(e) {
+      this.currentHistoryIndex = e.detail.current;
     }
   }
 }
@@ -986,7 +1258,7 @@ export default {
     animation: fadeIn 0.3s ease;
 
     .popup-mask {
-      position: absolute;
+    position: absolute;
       top: 0;
       left: 0;
       right: 0;
@@ -1035,7 +1307,7 @@ export default {
       }
 
       .input-box {
-        margin-bottom: 40rpx;
+        margin-bottom: 20rpx;
         border: 2rpx solid #eef2ff;
         border-radius: 16rpx;
     padding: 20rpx;
@@ -1060,46 +1332,6 @@ export default {
           }
         }
     }
-
-    .travel-mode {
-        margin-bottom: 40rpx;
-        padding: 10rpx;
-
-        radio-group {
-          display: flex;
-          justify-content: space-around;
-          background: #f8faff;
-          border-radius: 16rpx;
-          padding: 16rpx;
-        }
-
-        .radio-item {
-          margin-right: 30rpx;
-          font-size: 28rpx;
-          display: flex;
-          align-items: center;
-          padding: 10rpx 20rpx;
-          border-radius: 12rpx;
-          transition: all 0.3s ease;
-          
-          &:last-child {
-            margin-right: 0;
-          }
-
-          radio {
-            margin-right: 8rpx;
-            transform: scale(0.9);
-          }
-
-          text {
-            color: #4a5568;
-          }
-
-          &:active {
-            background: rgba(79, 172, 254, 0.1);
-          }
-        }
-      }
 
       .submit-btn {
         width: 100%;
@@ -1206,6 +1438,354 @@ export default {
         background: #e2e8f0;
         transform: translateY(2rpx);
       }
+    }
+  }
+
+  .route-legend {
+    position: fixed;
+    left: 30rpx;
+    bottom: 140rpx;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 16rpx 24rpx;
+    border-radius: 16rpx;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    gap: 12rpx;
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 12rpx;
+
+      .color-block {
+        width: 40rpx;
+        height: 8rpx;
+        border-radius: 4rpx;
+      }
+
+      text {
+        font-size: 24rpx;
+        color: #333;
+      }
+    }
+  }
+
+  .custom-loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .loading-mask {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(4px);
+    }
+
+    .loading-content {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20rpx;
+      padding: 40rpx;
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 20rpx;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+      animation: fadeInScale 0.3s ease;
+    }
+
+    .loading-spinner {
+      width: 80rpx;
+      height: 80rpx;
+      position: relative;
+    }
+
+    .loading-circle {
+      width: 100%;
+      height: 100%;
+      border: 6rpx solid #f3f3f3;
+      border-top: 6rpx solid #4facfe;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    .loading-text {
+      font-size: 28rpx;
+      color: #333;
+      font-weight: 500;
+    }
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  @keyframes fadeInScale {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  .history-button {
+    position: fixed;
+    right: 30rpx;
+    bottom: 420rpx;
+    width: 110rpx;
+    height: 110rpx;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #A8E6CF 0%, #3BB78F 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6px 20px rgba(59, 183, 143, 0.3);
+    z-index: 100;
+    transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    animation: float 3s ease-in-out infinite;
+
+    .icon-image {
+      width: 60rpx;
+      height: 60rpx;
+      transition: transform 0.3s ease;
+    }
+
+    &:active {
+      transform: scale(0.92);
+      box-shadow: 0 3px 10px rgba(59, 183, 143, 0.2);
+      
+      .icon-image {
+        transform: scale(0.9);
+      }
+    }
+  }
+
+  .history-content {
+    width: 680rpx;
+    max-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    background: #ffffff;
+    border-radius: 24rpx;
+    overflow: hidden;
+
+    .popup-header {
+      padding: 40rpx 40rpx 30rpx;
+      text-align: center;
+      background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+
+      .popup-title {
+        font-size: 36rpx;
+        font-weight: 600;
+        color: #ffffff;
+        margin-bottom: 12rpx;
+        letter-spacing: 2rpx;
+      }
+
+      .popup-subtitle {
+        font-size: 24rpx;
+        color: rgba(255, 255, 255, 0.9);
+      }
+    }
+
+    .history-list {
+      flex: 1;
+      padding: 40rpx;
+      overflow-y: auto;
+      max-height: calc(85vh - 200rpx);
+      background: #f8faff;
+    }
+
+    .history-item {
+      background: #ffffff;
+      border-radius: 20rpx;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+      border: none;
+      padding: 40rpx;
+      margin-bottom: 40rpx;
+      transition: all 0.3s ease;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      &:hover {
+        transform: translateY(-2rpx);
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+      }
+
+      .history-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20rpx;
+        margin-bottom: 30rpx;
+        padding-bottom: 30rpx;
+        border-bottom: 2rpx solid #f0f0f0;
+
+        .header-left {
+          display: flex;
+          align-items: center;
+          gap: 20rpx;
+
+          .history-index {
+            font-size: 32rpx;
+            color: #4facfe;
+            font-weight: 600;
+            background: rgba(79, 172, 254, 0.1);
+            padding: 10rpx 24rpx;
+            border-radius: 30rpx;
+          }
+
+          .history-date {
+            font-size: 28rpx;
+            color: #666;
+            background: #f8faff;
+            padding: 10rpx 24rpx;
+            border-radius: 30rpx;
+            border: 2rpx solid #eef2ff;
+          }
+        }
+
+        .history-actions {
+          display: flex;
+          gap: 20rpx;
+
+          .action-btn {
+            display: flex;
+            align-items: center;
+            gap: 8rpx;
+            font-size: 28rpx;
+            padding: 16rpx 28rpx;
+            border-radius: 30rpx;
+            border: none;
+            line-height: 1.5;
+            margin: 0;
+            transition: all 0.3s ease;
+
+            .btn-icon {
+              font-size: 32rpx;
+            }
+
+            &.reuse {
+              background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+              color: #ffffff;
+              box-shadow: 0 4px 12px rgba(79, 172, 254, 0.2);
+              
+              &:active {
+                transform: translateY(2rpx);
+                box-shadow: 0 2px 6px rgba(79, 172, 254, 0.15);
+              }
+            }
+
+            &.delete {
+              background: #fef2f2;
+              color: #dc2626;
+              border: 2rpx solid #fee2e2;
+              
+              &:active {
+                background: #fee2e2;
+                transform: translateY(2rpx);
+              }
+            }
+          }
+        }
+      }
+
+      .history-content-box {
+        .history-description, .history-route {
+          margin-bottom: 30rpx;
+
+          .label {
+            display: inline-block;
+            font-size: 30rpx;
+            color: #4b5563;
+            margin-bottom: 16rpx;
+            font-weight: 500;
+            background: #f8faff;
+            padding: 8rpx 20rpx;
+            border-radius: 8rpx;
+          }
+
+          text {
+            display: block;
+            font-size: 28rpx;
+            color: #1f2937;
+            line-height: 1.8;
+            padding: 0 20rpx;
+          }
+        }
+
+        .history-route {
+          margin-top: 20rpx;
+          padding-top: 30rpx;
+          border-top: 2rpx dashed #e5e7eb;
+          white-space: pre-wrap;
+        }
+      }
+    }
+
+    .history-footer {
+      padding: 40rpx;
+      background: #ffffff;
+      border-top: none;
+      box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.03);
+
+      .close-btn {
+        width: 100%;
+        height: 88rpx;
+        line-height: 88rpx;
+        background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+        color: #ffffff;
+        font-size: 32rpx;
+        font-weight: 500;
+        border-radius: 16rpx;
+        border: none;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 12px rgba(79, 172, 254, 0.2);
+
+        &:active {
+          transform: translateY(2rpx);
+          box-shadow: 0 2px 6px rgba(79, 172, 254, 0.15);
+          opacity: 0.95;
+        }
+      }
+    }
+  }
+
+  // 添加指示点样式
+  :deep(.uni-swiper-dots) {
+    bottom: 20rpx;
+  }
+
+  :deep(.uni-swiper-dot) {
+    width: 16rpx;
+    height: 16rpx;
+    border-radius: 8rpx;
+    margin: 0 8rpx;
+    background: rgba(0, 0, 0, 0.2);
+    
+    &.uni-swiper-dot-active {
+      width: 24rpx;
+      background: #4facfe;
     }
   }
 }
