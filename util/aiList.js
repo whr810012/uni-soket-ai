@@ -71,5 +71,12 @@ export const aiList = [
     class:'Doubao',
     model:'ep-20240926132036-gt5zx',
     key: keys.DOUBAO.API_KEY
+  },
+  {
+    url: 'https://cdn.deepseek.com/platform/favicon.png',
+    name: 'DeepSeek Chat',
+    class: 'deepseek',
+    model: 'deepseek-chat',
+    key: keys.DEEPSEEK.API_KEY
   }
 ];

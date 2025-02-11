@@ -5,12 +5,7 @@
 			"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
 		}
 	},
-	"pages": [{
-			"path": "pages/map/map",
-			"style": {
-				"navigationBarTitleText": "校园地图"
-			}
-		},
+	"pages": [
 		{
 			"path": "pages/index/index",
 			"style": {
@@ -48,9 +43,6 @@
 		"height": "50px",
 		"fontSize": "10px",
 		"list": [{
-			"pagePath": "pages/map/map",
-			"text": "校园地图"
-		}, {
 			"pagePath": "pages/index/index",
 			"text": "AI助手"
 		}, {

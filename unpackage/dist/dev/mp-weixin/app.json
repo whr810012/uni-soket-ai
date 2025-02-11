@@ -1,6 +1,5 @@
 {
   "pages": [
-    "pages/map/map",
     "pages/index/index",
     "pages/ai/ai",
     "pages/aimap/aimap"
@@ -20,10 +19,6 @@
     "height": "50px",
     "fontSize": "10px",
     "list": [
-      {
-        "pagePath": "pages/map/map",
-        "text": "校园地图"
-      },
       {
         "pagePath": "pages/index/index",
         "text": "AI助手"

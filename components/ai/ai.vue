@@ -38,7 +38,8 @@
 		getass_token,
 		qwensendai,
 		glmsendai,
-		doubaosendai
+		doubaosendai,
+		deepseeksendai
 	} from "../../api/ai";
 
 	export default {
@@ -158,6 +159,18 @@
 						this.disabled = false;
 						this.hideLoading();
 					});
+				} else if (this.data.class === 'deepseek') {
+					deepseeksendai(data, this.data.key).then((res) => {
+						if (res.length > 0) {
+							res.map((item) => {
+								this.dialogueList.push(item.message);
+							});
+							uni.setStorageSync(this.data.model, this.dialogueList);
+						}
+					}).finally(() => {
+						this.disabled = false;
+						this.hideLoading();
+					});
 				}
 			},
 			copyMessage(content) {
@@ -255,6 +268,18 @@
 						this.disabled = false;
 						this.hideLoading();
 					});
+				} else if (this.data.class === 'deepseek') {
+					deepseeksendai(data, this.data.key).then((res) => {
+						if (res.length > 0) {
+							res.map((item) => {
+								this.dialogueList.push(item.message);
+							});
+							uni.setStorageSync(this.data.model, this.dialogueList);
+						}
+					}).finally(() => {
+						this.disabled = false;
+						this.hideLoading();
+					});
 				}
 			},
 			parseMarkdown(content) {
@@ -315,6 +340,8 @@
 			} else if (this.data.class === 'Doubao') {
 				this.imageSrc =
 					'https://ark-auto-2100207538-cn-beijing-default.tos-cn-beijing.volces.com/model_cardLTPtdLeE5K.png'
+			} else if (this.data.class === 'deepseek') {
+				this.imageSrc = 'https://deepseek.com/images/logo.png'
 			}
 			this.userimg =
 				uni.getStorageSync("userimg") ||
