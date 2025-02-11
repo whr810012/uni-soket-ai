@@ -19313,7 +19313,7 @@ var aiList = [{
   url: 'https://cdn.deepseek.com/platform/favicon.png',
   name: 'DeepSeek Chat',
   class: 'deepseek',
-  model: 'deepseek-chat',
+  model: 'deepseek-ai/DeepSeek-V3',
   key: _keys.default.DEEPSEEK.API_KEY
 }];
 exports.aiList = aiList;
@@ -19368,7 +19368,7 @@ var _default = {
   },
   // DeepSeek配置
   DEEPSEEK: {
-    API_KEY: 'sk-e9832c1b8876483d97fdb5051e4bb9df'
+    API_KEY: 'sk-hqcmajjskepkgfzsgjqkxmlfbdnnciurlybfzgvyomxctzfg'
   },
   // 高德地图配置
   AMAP: {
@@ -19532,17 +19532,38 @@ var getass_token = function getass_token(client_id, client_secret) {
 };
 exports.getass_token = getass_token;
 var deepseeksendai = function deepseeksendai(data, key) {
+  // 构建请求数据
+  var requestData = {
+    model: data.model,
+    messages: data.messages,
+    stream: false,
+    max_tokens: 512,
+    temperature: 0.7,
+    top_p: 0.7,
+    top_k: 50,
+    frequency_penalty: 0.5,
+    n: 1,
+    response_format: {
+      type: "text"
+    }
+  };
   return new Promise(function (resolve, reject) {
     uni.request({
-      url: 'https://api.deepseek.com/v1/chat/completions',
-      data: data,
+      url: 'https://api.siliconflow.cn/v1/chat/completions',
+      // 更新为新的API地址
+      data: requestData,
       header: {
-        "Authorization": "Bearer " + key
+        "Authorization": "Bearer " + key,
+        "Content-Type": "application/json"
       },
       timeout: 100000,
       method: 'post',
       success: function success(res) {
-        resolve(res.data.choices);
+        if (res.data && res.data.choices) {
+          resolve(res.data.choices);
+        } else {
+          reject(new Error('Invalid response format'));
+        }
       },
       fail: function fail(err) {
         reject(err);

@@ -341,7 +341,7 @@
 				this.imageSrc =
 					'https://ark-auto-2100207538-cn-beijing-default.tos-cn-beijing.volces.com/model_cardLTPtdLeE5K.png'
 			} else if (this.data.class === 'deepseek') {
-				this.imageSrc = 'https://deepseek.com/images/logo.png'
+				this.imageSrc = 'https://cdn.deepseek.com/platform/favicon.png'
 			}
 			this.userimg =
 				uni.getStorageSync("userimg") ||

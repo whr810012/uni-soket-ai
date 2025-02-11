@@ -76,7 +76,7 @@ export const aiList = [
     url: 'https://cdn.deepseek.com/platform/favicon.png',
     name: 'DeepSeek Chat',
     class: 'deepseek',
-    model: 'deepseek-chat',
+    model: 'deepseek-ai/DeepSeek-V3',
     key: keys.DEEPSEEK.API_KEY
   }
 ];

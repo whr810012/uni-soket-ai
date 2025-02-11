@@ -116,17 +116,38 @@ export const getass_token = ( client_id, client_secret) => {
   })
 }
 export const deepseeksendai = (data, key) => {
+  // 构建请求数据
+  const requestData = {
+    model: data.model,
+    messages: data.messages,
+    stream: false,
+    max_tokens: 512,
+    temperature: 0.7,
+    top_p: 0.7,
+    top_k: 50,
+    frequency_penalty: 0.5,
+    n: 1,
+    response_format: {
+      type: "text"
+    }
+  };
+
   return new Promise((resolve, reject) => {
     uni.request({
-      url: 'https://api.deepseek.com/v1/chat/completions',
-      data,
+      url: 'https://api.siliconflow.cn/v1/chat/completions', // 更新为新的API地址
+      data: requestData,
       header:{
-        "Authorization": "Bearer " + key
+        "Authorization": "Bearer " + key,
+        "Content-Type": "application/json"
       },
       timeout: 100000,
       method: 'post',
       success: (res) => {
+        if(res.data && res.data.choices) {
           resolve(res.data.choices)
+        } else {
+          reject(new Error('Invalid response format'))
+        }
       },
       fail: (err) => {
         reject(err)

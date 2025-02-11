@@ -463,7 +463,7 @@ var _default = {
     } else if (this.data.class === 'Doubao') {
       this.imageSrc = 'https://ark-auto-2100207538-cn-beijing-default.tos-cn-beijing.volces.com/model_cardLTPtdLeE5K.png';
     } else if (this.data.class === 'deepseek') {
-      this.imageSrc = 'https://deepseek.com/images/logo.png';
+      this.imageSrc = 'https://cdn.deepseek.com/platform/favicon.png';
     }
     this.userimg = uni.getStorageSync("userimg") || "https://tse2-mm.cn.bing.net/th/id/OIP-C.yqoO2L-6goRjRhrnCNNQRwHaHa?rs=1&pid=ImgDetMain";
     this.dialogueList = uni.getStorageSync(this.data.model) || [];
