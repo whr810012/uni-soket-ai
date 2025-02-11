@@ -22,3 +22,6 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw*
+
+# 敏感配置文件
+config/keys.js

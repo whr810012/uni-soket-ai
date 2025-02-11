@@ -150,6 +150,7 @@
 
 <script>
 import { doubaosendai, wenxinsendai, getass_token } from "../../api/ai";
+import keys from '../../config/keys'
 
 export default {
   data() {
@@ -162,7 +163,7 @@ export default {
       userDescription: '',
       loading: false,
       showPopup: false,
-      amapKey: 'ffdbb001fd0b4cc024456334e9aa6567',
+      amapKey: keys.AMAP.API_KEY,
       travelMode: 'walking',
       tabbarList: [
         {
@@ -187,9 +188,9 @@ export default {
       tabbar: 2,
       // 更新文心一言配置
       aiConfig: {
-        client_id: 'NOmMXwgcqRGLGy6UuqBSvbd8',
-        client_secret: 'ALKWzzz2HTGpEn4mOTxqwPQd5WakeCkf',
-        accessToken: '' // 将在created中获取
+        client_id: keys.WENXIN.CLIENT_ID,
+        client_secret: keys.WENXIN.CLIENT_SECRET,
+        accessToken: ''
       },
       // 添加当前城市信息
       currentCity: '',

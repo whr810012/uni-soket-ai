@@ -1557,7 +1557,7 @@ function initData(vueOptions, context) {
     try {
       data = data.call(context); // 支持 Vue.prototype 上挂的数据
     } catch (e) {
-      if (Object({"NODE_ENV":"development","VUE_APP_DARK_MODE":"false","VUE_APP_NAME":"uni-soket-ai","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
+      if (Object({"VUE_APP_DARK_MODE":"false","VUE_APP_NAME":"uni-soket-ai","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
         console.warn('根据 Vue 的 data 函数初始化小程序 data 失败，请尽量确保 data 函数中不访问 vm 对象，否则可能影响首次数据渲染速度。', data);
       }
     }
@@ -8923,7 +8923,7 @@ function type(obj) {
 
 function flushCallbacks$1(vm) {
     if (vm.__next_tick_callbacks && vm.__next_tick_callbacks.length) {
-        if (Object({"NODE_ENV":"development","VUE_APP_DARK_MODE":"false","VUE_APP_NAME":"uni-soket-ai","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
+        if (Object({"VUE_APP_DARK_MODE":"false","VUE_APP_NAME":"uni-soket-ai","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:flushCallbacks[' + vm.__next_tick_callbacks.length + ']');
@@ -8944,14 +8944,14 @@ function nextTick$1(vm, cb) {
     //1.nextTick 之前 已 setData 且 setData 还未回调完成
     //2.nextTick 之前存在 render watcher
     if (!vm.__next_tick_pending && !hasRenderWatcher(vm)) {
-        if(Object({"NODE_ENV":"development","VUE_APP_DARK_MODE":"false","VUE_APP_NAME":"uni-soket-ai","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
+        if(Object({"VUE_APP_DARK_MODE":"false","VUE_APP_NAME":"uni-soket-ai","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:nextVueTick');
         }
         return nextTick(cb, vm)
     }else{
-        if(Object({"NODE_ENV":"development","VUE_APP_DARK_MODE":"false","VUE_APP_NAME":"uni-soket-ai","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
+        if(Object({"VUE_APP_DARK_MODE":"false","VUE_APP_NAME":"uni-soket-ai","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
             var mpInstance$1 = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance$1.is || mpInstance$1.route) + '][' + vm._uid +
                 ']:nextMPTick');
@@ -9047,7 +9047,7 @@ var patch = function(oldVnode, vnode) {
     });
     var diffData = this.$shouldDiffData === false ? data : diff(data, mpData);
     if (Object.keys(diffData).length) {
-      if (Object({"NODE_ENV":"development","VUE_APP_DARK_MODE":"false","VUE_APP_NAME":"uni-soket-ai","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
+      if (Object({"VUE_APP_DARK_MODE":"false","VUE_APP_NAME":"uni-soket-ai","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
         console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + this._uid +
           ']差量更新',
           JSON.stringify(diffData));
@@ -19290,76 +19290,132 @@ exports.space = space;
 "use strict";
 
 
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.aiList = void 0;
+var _keys = _interopRequireDefault(__webpack_require__(/*! ../config/keys */ 176));
 var aiList = [{
   url: "https://so1.360tres.com/t018f408d11d2b5d951.jpg",
   name: "讯飞星火（Spark Lite）",
   class: "xunfei",
   model: "general",
-  password: "nYxBEOjRaJxYagihmRdf:jKkYqXLnfFiuHEQjBUky"
+  password: _keys.default.XUNFEI.SPARK_LITE.API_KEY
 }, {
   url: "https://so1.360tres.com/t018f408d11d2b5d951.jpg",
   name: "讯飞星火（Spark Pro-128K）",
   class: "xunfei",
   model: "pro-128k",
-  password: "hLDIpAjevbTlcNApYzZV:xetxKqTJOnsZDYwYHGcr"
+  password: _keys.default.XUNFEI.SPARK_PRO.API_KEY
 }, {
   url: "https://so1.360tres.com/t018f408d11d2b5d951.jpg",
   name: "讯飞星火（Spark Max）",
   class: "xunfei",
   model: "generalv3.5",
-  password: "VjryANzhIJhBkKMtSfar:RtudQoWRiDSZmfncfDcw"
+  password: _keys.default.XUNFEI.SPARK_MAX.API_KEY
 }, {
   url: "https://so1.360tres.com/t018f408d11d2b5d951.jpg",
   name: "讯飞星火（Spark 4.0 Uitra）",
   class: "xunfei",
   model: "4.0Ultra",
-  password: "ygeZveEAgsJNMpuONGxs:MSHuBcWaCEjLIdAdGhkZ"
+  password: _keys.default.XUNFEI.SPARK_ULTRA.API_KEY
 }, {
   url: "https://www.aitool6.com/wp-content/uploads/2023/06/9557d1-13.png",
   name: "文心一言",
   class: "wenxin",
   model: "ERNIE",
-  client_id: "NOmMXwgcqRGLGy6UuqBSvbd8",
-  client_secret: "ALKWzzz2HTGpEn4mOTxqwPQd5WakeCkf"
+  client_id: _keys.default.WENXIN.CLIENT_ID,
+  client_secret: _keys.default.WENXIN.CLIENT_SECRET
 }, {
   url: "https://www.cnschat.com/wp-content/uploads/2023/06/1686582383-nav-ai-tongyi.png",
   name: "通义千问（Qwen-2.0）",
   class: "qwen",
   model: "qwen2-1.5b-instruct",
-  key: "sk-785b859091d445c08ecd485942bb403c"
+  key: _keys.default.QWEN.API_KEY
 }, {
   url: "https://www.cnschat.com/wp-content/uploads/2023/06/1686582383-nav-ai-tongyi.png",
   name: "通义千问（Qwen-2.5）",
   class: "qwen",
   model: "qwen2.5-0.5b-instruct",
-  key: "sk-785b859091d445c08ecd485942bb403c"
+  key: _keys.default.QWEN.API_KEY
 }, {
   url: "https://www.cnschat.com/wp-content/uploads/2023/06/1686582383-nav-ai-tongyi.png",
   name: "通义千问（Qwen-Math）",
   class: "qwen",
   model: "qwen2.5-math-1.5b-instruct",
-  key: "sk-785b859091d445c08ecd485942bb403c"
+  key: _keys.default.QWEN.API_KEY
 }, {
   url: "https://ts1.cn.mm.bing.net/th?id=OIP-C.lP7TvomXA35x9wyyCxFl0QHaHa&rs=1&pid=ImgDetMain",
   name: "智谱清言（GLM-4）",
   class: "glm",
   model: "glm-4-flash",
-  key: "10821878d3a33673b715beaa27bc6eaa.ngVT3Emqye7j24Q2"
+  key: _keys.default.GLM.API_KEY
 }, {
   url: 'https://ark-auto-2100466578-cn-beijing-default.tos-cn-beijing.volces.com/model_cardAgLUOSwptd.png',
   name: '豆包',
   class: 'Doubao',
   model: 'ep-20240926132036-gt5zx',
-  key: '2b0e0b7e-6fd9-47aa-9c97-3307c469a3ed'
+  key: _keys.default.DOUBAO.API_KEY
 }];
 exports.aiList = aiList;
 
 /***/ }),
-/* 176 */,
+/* 176 */
+/*!**********************************************!*\
+  !*** D:/codetwo/uni-soket-ai/config/keys.js ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default = {
+  // 文心一言配置
+  WENXIN: {
+    CLIENT_ID: 'NOmMXwgcqRGLGy6UuqBSvbd8',
+    CLIENT_SECRET: 'ALKWzzz2HTGpEn4mOTxqwPQd5WakeCkf'
+  },
+  // 通义千问配置
+  QWEN: {
+    API_KEY: 'sk-785b859091d445c08ecd485942bb403c'
+  },
+  // 智谱清言配置
+  GLM: {
+    API_KEY: '10821878d3a33673b715beaa27bc6eaa.ngVT3Emqye7j24Q2'
+  },
+  // 讯飞星火配置
+  XUNFEI: {
+    SPARK_LITE: {
+      API_KEY: 'nYxBEOjRaJxYagihmRdf:jKkYqXLnfFiuHEQjBUky'
+    },
+    SPARK_PRO: {
+      API_KEY: 'hLDIpAjevbTlcNApYzZV:xetxKqTJOnsZDYwYHGcr'
+    },
+    SPARK_MAX: {
+      API_KEY: 'VjryANzhIJhBkKMtSfar:RtudQoWRiDSZmfncfDcw'
+    },
+    SPARK_ULTRA: {
+      API_KEY: 'ygeZveEAgsJNMpuONGxs:MSHuBcWaCEjLIdAdGhkZ'
+    }
+  },
+  // 豆包配置
+  DOUBAO: {
+    API_KEY: '2b0e0b7e-6fd9-47aa-9c97-3307c469a3ed'
+  },
+  // 高德地图配置
+  AMAP: {
+    API_KEY: 'ffdbb001fd0b4cc024456334e9aa6567'
+  }
+};
+exports.default = _default;
+
+/***/ }),
 /* 177 */,
 /* 178 */,
 /* 179 */,
@@ -19375,7 +19431,8 @@ exports.aiList = aiList;
 /* 189 */,
 /* 190 */,
 /* 191 */,
-/* 192 */
+/* 192 */,
+/* 193 */
 /*!*****************************************!*\
   !*** D:/codetwo/uni-soket-ai/api/ai.js ***!
   \*****************************************/
@@ -19515,14 +19572,14 @@ exports.getass_token = getass_token;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 193 */,
 /* 194 */,
 /* 195 */,
 /* 196 */,
 /* 197 */,
 /* 198 */,
 /* 199 */,
-/* 200 */
+/* 200 */,
+/* 201 */
 /*!********************************************************************************!*\
   !*** D:/codetwo/uni-soket-ai/uni_modules/uview-ui/components/u-popup/props.js ***!
   \********************************************************************************/
@@ -19619,14 +19676,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 201 */,
 /* 202 */,
 /* 203 */,
 /* 204 */,
 /* 205 */,
 /* 206 */,
 /* 207 */,
-/* 208 */
+/* 208 */,
+/* 209 */
 /*!********************************************************************************!*\
   !*** D:/codetwo/uni-soket-ai/uni_modules/uview-ui/components/u-input/props.js ***!
   \********************************************************************************/
@@ -19831,14 +19888,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 209 */,
 /* 210 */,
 /* 211 */,
 /* 212 */,
 /* 213 */,
 /* 214 */,
 /* 215 */,
-/* 216 */
+/* 216 */,
+/* 217 */
 /*!***************************************************************************************!*\
   !*** D:/codetwo/uni-soket-ai/uni_modules/uview-ui/components/u-loading-page/props.js ***!
   \***************************************************************************************/
@@ -19905,14 +19962,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 217 */,
 /* 218 */,
 /* 219 */,
 /* 220 */,
 /* 221 */,
 /* 222 */,
 /* 223 */,
-/* 224 */
+/* 224 */,
+/* 225 */
 /*!*********************************************************************************!*\
   !*** D:/codetwo/uni-soket-ai/uni_modules/uview-ui/components/u-tabbar/props.js ***!
   \*********************************************************************************/
@@ -19974,14 +20031,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 225 */,
 /* 226 */,
 /* 227 */,
 /* 228 */,
 /* 229 */,
 /* 230 */,
 /* 231 */,
-/* 232 */
+/* 232 */,
+/* 233 */
 /*!**************************************************************************************!*\
   !*** D:/codetwo/uni-soket-ai/uni_modules/uview-ui/components/u-tabbar-item/props.js ***!
   \**************************************************************************************/
@@ -20033,7 +20090,6 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 233 */,
 /* 234 */,
 /* 235 */,
 /* 236 */,
@@ -20047,7 +20103,8 @@ exports.default = _default;
 /* 244 */,
 /* 245 */,
 /* 246 */,
-/* 247 */
+/* 247 */,
+/* 248 */
 /*!**********************************************************************************!*\
   !*** D:/codetwo/uni-soket-ai/uni_modules/uview-ui/components/u-overlay/props.js ***!
   \**********************************************************************************/
@@ -20089,14 +20146,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 248 */,
 /* 249 */,
 /* 250 */,
 /* 251 */,
 /* 252 */,
 /* 253 */,
 /* 254 */,
-/* 255 */
+/* 255 */,
+/* 256 */
 /*!*************************************************************************************!*\
   !*** D:/codetwo/uni-soket-ai/uni_modules/uview-ui/components/u-transition/props.js ***!
   \*************************************************************************************/
@@ -20138,7 +20195,7 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 256 */
+/* 257 */
 /*!******************************************************************************************!*\
   !*** D:/codetwo/uni-soket-ai/uni_modules/uview-ui/components/u-transition/transition.js ***!
   \******************************************************************************************/
@@ -20155,7 +20212,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var _regenerator = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/regenerator */ 55));
 var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ 57));
-var _nvueAniMap = _interopRequireDefault(__webpack_require__(/*! ./nvue.ani-map.js */ 257));
+var _nvueAniMap = _interopRequireDefault(__webpack_require__(/*! ./nvue.ani-map.js */ 258));
 // 定义一个一定时间后自动成功的promise，让调用nextTick方法处，进入下一个then方法
 var nextTick = function nextTick() {
   return new Promise(function (resolve) {
@@ -20247,7 +20304,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 257 */
+/* 258 */
 /*!********************************************************************************************!*\
   !*** D:/codetwo/uni-soket-ai/uni_modules/uview-ui/components/u-transition/nvue.ani-map.js ***!
   \********************************************************************************************/
@@ -20440,14 +20497,14 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 258 */,
 /* 259 */,
 /* 260 */,
 /* 261 */,
 /* 262 */,
 /* 263 */,
 /* 264 */,
-/* 265 */
+/* 265 */,
+/* 266 */
 /*!*************************************************************************************!*\
   !*** D:/codetwo/uni-soket-ai/uni_modules/uview-ui/components/u-status-bar/props.js ***!
   \*************************************************************************************/
@@ -20473,14 +20530,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 266 */,
 /* 267 */,
 /* 268 */,
 /* 269 */,
 /* 270 */,
 /* 271 */,
 /* 272 */,
-/* 273 */
+/* 273 */,
+/* 274 */
 /*!*******************************************************************************!*\
   !*** D:/codetwo/uni-soket-ai/uni_modules/uview-ui/components/u-icon/icons.js ***!
   \*******************************************************************************/
@@ -20711,7 +20768,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 274 */
+/* 275 */
 /*!*******************************************************************************!*\
   !*** D:/codetwo/uni-soket-ai/uni_modules/uview-ui/components/u-icon/props.js ***!
   \*******************************************************************************/
@@ -20818,14 +20875,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 275 */,
 /* 276 */,
 /* 277 */,
 /* 278 */,
 /* 279 */,
 /* 280 */,
 /* 281 */,
-/* 282 */
+/* 282 */,
+/* 283 */
 /*!**************************************************************************************!*\
   !*** D:/codetwo/uni-soket-ai/uni_modules/uview-ui/components/u-safe-bottom/props.js ***!
   \**************************************************************************************/
@@ -20845,14 +20902,14 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 283 */,
 /* 284 */,
 /* 285 */,
 /* 286 */,
 /* 287 */,
 /* 288 */,
 /* 289 */,
-/* 290 */
+/* 290 */,
+/* 291 */
 /*!***************************************************************************************!*\
   !*** D:/codetwo/uni-soket-ai/uni_modules/uview-ui/components/u-loading-icon/props.js ***!
   \***************************************************************************************/
@@ -20929,14 +20986,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 291 */,
 /* 292 */,
 /* 293 */,
 /* 294 */,
 /* 295 */,
 /* 296 */,
 /* 297 */,
-/* 298 */
+/* 298 */,
+/* 299 */
 /*!********************************************************************************!*\
   !*** D:/codetwo/uni-soket-ai/uni_modules/uview-ui/components/u-badge/props.js ***!
   \********************************************************************************/
