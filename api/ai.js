@@ -118,15 +118,15 @@ export const getass_token = ( client_id, client_secret) => {
 export const deepseeksendai = (data, key) => {
   // 构建请求数据
   const requestData = {
-    model: data.model,
+    model: data.model || 'deepseek-ai/DeepSeek-V3',
     messages: data.messages,
     stream: false,
-    max_tokens: 512,
-    temperature: 0.7,
-    top_p: 0.7,
-    top_k: 50,
-    frequency_penalty: 0.5,
-    n: 1,
+    max_tokens: data.max_tokens || 512,
+    temperature: data.temperature || 0.7,
+    top_p: data.top_p || 0.7,
+    top_k: data.top_k || 50,
+    frequency_penalty: data.frequency_penalty || 0.5,
+    n: data.n || 1,
     response_format: {
       type: "text"
     }
@@ -134,25 +134,32 @@ export const deepseeksendai = (data, key) => {
 
   return new Promise((resolve, reject) => {
     uni.request({
-      url: 'https://api.siliconflow.cn/v1/chat/completions', // 更新为新的API地址
+      url: 'https://api.siliconflow.cn/v1/chat/completions',
       data: requestData,
-      header:{
+      header: {
         "Authorization": "Bearer " + key,
         "Content-Type": "application/json"
       },
       timeout: 100000,
       method: 'post',
       success: (res) => {
-        if(res.data && res.data.choices) {
-          resolve(res.data.choices)
+        if (res.statusCode === 200 && res.data && res.data.choices) {
+          // 只返回 choices 数组，与其他 AI 接口保持一致
+          resolve(res.data.choices.map(choice => ({
+            index: choice.index,
+            message: {
+              role: choice.message.role,
+              content: choice.message.content
+            },
+            finish_reason: choice.finish_reason
+          })));
         } else {
-          reject(new Error('Invalid response format'))
+          reject(new Error(`API 请求失败: ${res.statusCode}`));
         }
       },
       fail: (err) => {
-        reject(err)
-      },
-      complete: () => {},
-    })
-  })
+        reject(err);
+      }
+    });
+  });
 }

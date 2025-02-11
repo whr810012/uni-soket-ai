@@ -167,25 +167,19 @@ export default {
       travelMode: 'walking',
       tabbarList: [
         {
-          text: "校园地图",
-          icon: "map-fill",
-          index: 0,
-          url: "/pages/map/map",
-        },
-        {
           text: "AI助手",
           icon: "server-fill",
-          index: 1,
+          index: 0,
           url: "/pages/index/index",
         },
         {
           text: "AI旅游",
           icon: "car-fill",
-          index: 2,
+          index: 1,
           url: "/pages/aimap/aimap",
         },
       ],
-      tabbar: 2,
+      tabbar: 1,
       // 更新文心一言配置
       aiConfig: {
         client_id: keys.WENXIN.CLIENT_ID,
@@ -1078,13 +1072,9 @@ export default {
     changeTabbar(row) {
       if (row === 0) {
         uni.switchTab({
-          url: `/pages/map/map`,
-        });
-      } else if (row === 1) {
-        uni.switchTab({
           url: `/pages/index/index`,
         });
-      } else if (row === 2) {
+      } else if (row === 1) {
         uni.switchTab({
           url: `/pages/aimap/aimap`,
         });

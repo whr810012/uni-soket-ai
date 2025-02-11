@@ -26,25 +26,19 @@
 			return {
 				aiList,
 				tabbarList: [{
-						text: '校园地图',
-						icon: 'map-fill',
-						index: 0,
-						url: '/pages/map/map'
-					},
-					{
 						text: 'AI助手',
 						icon: 'server-fill',
-						index: 1,
+						index: 0,
 						url: '/pages/index/index'
 					},
 					{
 						text: 'AI旅游',
 						icon: 'car-fill',
-						index: 2,
+						index: 1,
 						url: '/pages/aimap/aimap'
 					}
 				],
-				tabbar: 1
+				tabbar: 0
 			};
 		},
 		onLoad() {},
@@ -57,13 +51,9 @@
 			changeTabbar(row) {
 				if (row === 0) {
 					uni.switchTab({
-						url: `/pages/map/map`,
-					})
-				} else if (row === 1){
-					uni.switchTab({
 						url: `/pages/index/index`,
 					})
-				} else if (row === 2){
+				} else if (row === 1){
 					uni.switchTab({
 						url: `/pages/aimap/aimap`,
 					})

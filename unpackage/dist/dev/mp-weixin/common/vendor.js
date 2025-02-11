@@ -19311,9 +19311,15 @@ var aiList = [{
   key: _keys.default.DOUBAO.API_KEY
 }, {
   url: 'https://cdn.deepseek.com/platform/favicon.png',
-  name: 'DeepSeek Chat',
+  name: 'DeepSeek-V3',
   class: 'deepseek',
   model: 'deepseek-ai/DeepSeek-V3',
+  key: _keys.default.DEEPSEEK.API_KEY
+}, {
+  url: 'https://cdn.deepseek.com/platform/favicon.png',
+  name: 'DeepSeek-R1',
+  class: 'deepseek',
+  model: 'deepseek-ai/DeepSeek-R1-Distill-Qwen-14B',
   key: _keys.default.DEEPSEEK.API_KEY
 }];
 exports.aiList = aiList;
@@ -19534,15 +19540,15 @@ exports.getass_token = getass_token;
 var deepseeksendai = function deepseeksendai(data, key) {
   // 构建请求数据
   var requestData = {
-    model: data.model,
+    model: data.model || 'deepseek-ai/DeepSeek-V3',
     messages: data.messages,
     stream: false,
-    max_tokens: 512,
-    temperature: 0.7,
-    top_p: 0.7,
-    top_k: 50,
-    frequency_penalty: 0.5,
-    n: 1,
+    max_tokens: data.max_tokens || 512,
+    temperature: data.temperature || 0.7,
+    top_p: data.top_p || 0.7,
+    top_k: data.top_k || 50,
+    frequency_penalty: data.frequency_penalty || 0.5,
+    n: data.n || 1,
     response_format: {
       type: "text"
     }
@@ -19550,7 +19556,6 @@ var deepseeksendai = function deepseeksendai(data, key) {
   return new Promise(function (resolve, reject) {
     uni.request({
       url: 'https://api.siliconflow.cn/v1/chat/completions',
-      // 更新为新的API地址
       data: requestData,
       header: {
         "Authorization": "Bearer " + key,
@@ -19559,16 +19564,25 @@ var deepseeksendai = function deepseeksendai(data, key) {
       timeout: 100000,
       method: 'post',
       success: function success(res) {
-        if (res.data && res.data.choices) {
-          resolve(res.data.choices);
+        if (res.statusCode === 200 && res.data && res.data.choices) {
+          // 只返回 choices 数组，与其他 AI 接口保持一致
+          resolve(res.data.choices.map(function (choice) {
+            return {
+              index: choice.index,
+              message: {
+                role: choice.message.role,
+                content: choice.message.content
+              },
+              finish_reason: choice.finish_reason
+            };
+          }));
         } else {
-          reject(new Error('Invalid response format'));
+          reject(new Error("API \u8BF7\u6C42\u5931\u8D25: ".concat(res.statusCode)));
         }
       },
       fail: function fail(err) {
         reject(err);
-      },
-      complete: function complete() {}
+      }
     });
   });
 };

@@ -74,9 +74,16 @@ export const aiList = [
   },
   {
     url: 'https://cdn.deepseek.com/platform/favicon.png',
-    name: 'DeepSeek Chat',
+    name: 'DeepSeek-V3',
     class: 'deepseek',
     model: 'deepseek-ai/DeepSeek-V3',
+    key: keys.DEEPSEEK.API_KEY
+  },
+  {
+    url: 'https://cdn.deepseek.com/platform/favicon.png',
+    name: 'DeepSeek-R1',
+    class: 'deepseek',
+    model: 'deepseek-ai/DeepSeek-R1-Distill-Qwen-14B',
     key: keys.DEEPSEEK.API_KEY
   }
 ];
